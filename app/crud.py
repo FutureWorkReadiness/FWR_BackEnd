@@ -3,10 +3,9 @@ CRUD operations for database
 """
 
 from sqlalchemy.orm import Session
-from sqlalchemy import and_
-from . import models_hierarchical as models, schemas
-from typing import Optional, List
-from datetime import datetime
+from . import models_hierarchical as models
+from typing import List
+from datetime import datetime, timezone
 
 # USER OPERATIONS
 def create_user(db: Session, email: str, password: str, name: str):
@@ -44,9 +43,14 @@ def get_all_sectors(db: Session):
     return db.query(models.Sector).all()
 
 def get_specializations_by_sector(db: Session, sector_id: int):
-    """Get all specializations for a sector"""
+    """Get all specializations for a sector (through branches)"""
+    # Get all branches for this sector first, then get their specializations
+    branches = get_branches_by_sector(db, sector_id)
+    branch_ids = [branch.id for branch in branches]
+    if not branch_ids:
+        return []
     return db.query(models.Specialization).filter(
-        models.Specialization.sector_id == sector_id
+        models.Specialization.branch_id.in_(branch_ids)
     ).all()
 
 def get_branches_by_sector(db: Session, sector_id: int):
@@ -86,15 +90,20 @@ def get_quiz_questions(db: Session, quiz_id: int):
     """Get all questions for a quiz with their answer options"""
     return db.query(models.Question).filter(
         models.Question.quiz_id == quiz_id
-    ).order_by(models.Question.order_in_quiz).all()
+    ).order_by(models.Question.order_index).all()
 
 # QUIZ ATTEMPT OPERATIONS
 def create_quiz_attempt(db: Session, user_id: int, quiz_id: int):
     """Create a new quiz attempt"""
-    db_attempt = models.UserQuizAttempt(
+    db_attempt = models.QuizAttempt(
         user_id=user_id,
         quiz_id=quiz_id,
-        started_at=datetime.utcnow()
+        started_at=datetime.now(timezone.utc),
+        completed_at=datetime.now(timezone.utc),  # Will be updated on submission
+        score=0.0,
+        max_score=0.0,
+        percentage=0.0,
+        is_passed=False
     )
     db.add(db_attempt)
     db.commit()
@@ -103,68 +112,76 @@ def create_quiz_attempt(db: Session, user_id: int, quiz_id: int):
 
 def get_quiz_attempt(db: Session, attempt_id: int):
     """Get quiz attempt by ID"""
-    return db.query(models.UserQuizAttempt).filter(
-        models.UserQuizAttempt.id == attempt_id
+    return db.query(models.QuizAttempt).filter(
+        models.QuizAttempt.id == attempt_id
     ).first()
 
 def submit_quiz_attempt(db: Session, attempt_id: int, answers: List[dict]):
     """Submit quiz attempt with answers"""
-    attempt = db.query(models.UserQuizAttempt).filter(
-        models.UserQuizAttempt.id == attempt_id
+    attempt = db.query(models.QuizAttempt).filter(
+        models.QuizAttempt.id == attempt_id
     ).first()
     
     if not attempt:
         return None
     
-    # Save individual answers
+    # Calculate score by checking answers
     correct_count = 0
     total_questions = 0
+    total_points = 0
+    earned_points = 0
     
     for answer_data in answers:
         question_id = answer_data["question_id"]
         selected_answer = answer_data["selected_answer"]
         
-        # Get the question to check correct answer
+        # Get the question with its options
         question = db.query(models.Question).filter(
             models.Question.id == question_id
         ).first()
         
         if question:
             total_questions += 1
-            is_correct = selected_answer == question.correct_answer
-            if is_correct:
-                correct_count += 1
+            total_points += question.points
             
-            # Save user answer
-            db_answer = models.UserAnswer(
-                attempt_id=attempt_id,
-                question_id=question_id,
-                selected_answer=selected_answer,
-                is_correct=is_correct
-            )
-            db.add(db_answer)
+            # Check if selected answer matches any correct option
+            for option in question.options:
+                if option.is_correct and option.option_text == selected_answer:
+                    correct_count += 1
+                    earned_points += question.points
+                    break
     
-    # Calculate score and update attempt
-    score = (correct_count / total_questions * 100) if total_questions > 0 else 0
+    # Calculate scores
+    max_score = float(total_points) if total_points > 0 else 1.0
+    score = float(earned_points)
+    percentage = (score / max_score * 100) if max_score > 0 else 0.0
+    
+    # Get quiz passing score
+    quiz = get_quiz_by_id(db, attempt.quiz_id)
+    passing_score = quiz.passing_score if quiz and quiz.passing_score else 70.0
+    is_passed = percentage >= passing_score
+    
+    # Update attempt with results
     attempt.score = score
-    attempt.completed_at = datetime.utcnow()
-    attempt.is_completed = True
+    attempt.max_score = max_score
+    attempt.percentage = percentage
+    attempt.is_passed = is_passed
+    attempt.completed_at = datetime.now(timezone.utc)
     
     db.commit()
     
     return {
-        "score": score,
+        "score": percentage,
         "correct": correct_count,
         "total": total_questions,
-        "passed": score >= 70  # 70% passing score
+        "passed": is_passed
     }
 
 def get_user_quiz_history(db: Session, user_id: int):
     """Get user's quiz attempt history"""
-    return db.query(models.UserQuizAttempt).filter(
-        models.UserQuizAttempt.user_id == user_id,
-        models.UserQuizAttempt.is_completed == True
-    ).order_by(models.UserQuizAttempt.completed_at.desc()).all()
+    return db.query(models.QuizAttempt).filter(
+        models.QuizAttempt.user_id == user_id
+    ).order_by(models.QuizAttempt.completed_at.desc()).all()
 
 def get_user_specialization_scores(db: Session, user_id: int):
     """Get user's average scores by specialization"""

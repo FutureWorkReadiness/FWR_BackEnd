@@ -102,7 +102,8 @@ def get_user(user_id: int, db: Session = Depends(get_db)):
         "readiness_score": user.readiness_score,
         "technical_score": user.technical_score,
         "soft_skills_score": user.soft_skills_score,
-        "leadership_score": user.leadership_score
+        "leadership_score": user.leadership_score,
+        "created_at": user.created_at
     }
 
 @router.get("/sectors", response_model=schemas.SectorsResponse)

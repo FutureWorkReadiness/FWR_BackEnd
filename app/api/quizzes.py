@@ -21,7 +21,7 @@ def get_all_quizzes(db: Session = Depends(get_db)):
             "description": quiz.description,
             "specialization_id": quiz.specialization_id,
             "specialization_name": quiz.specialization.name if quiz.specialization else None,
-            "duration": quiz.duration_minutes,
+            "duration": quiz.time_limit_minutes,
             "question_count": len(quiz.questions) if quiz.questions else 0,
             "difficulty": quiz.difficulty_level
         })
@@ -41,7 +41,7 @@ def get_quiz(quiz_id: int, db: Session = Depends(get_db)):
         "id": quiz.id,
         "title": quiz.title,
         "description": quiz.description,
-        "duration": quiz.duration_minutes,
+        "duration": quiz.time_limit_minutes,
         "question_count": len(questions),
         "difficulty": quiz.difficulty_level,
         "questions": []
@@ -51,7 +51,7 @@ def get_quiz(quiz_id: int, db: Session = Depends(get_db)):
         quiz_data["questions"].append({
             "id": question.id,
             "question": question.question_text,
-            "options": [option.option_text for option in question.answer_options]
+            "options": [option.option_text for option in question.options]
         })
     
     return quiz_data
@@ -103,7 +103,7 @@ def get_quizzes_by_specialization(specialization_id: int, db: Session = Depends(
                 "id": quiz.id,
                 "title": quiz.title,
                 "description": quiz.description,
-                "duration": quiz.duration_minutes,
+                "duration": quiz.time_limit_minutes,
                 "difficulty": quiz.difficulty_level,
                 "question_count": len(quiz.questions) if quiz.questions else 0
             } for quiz in quizzes
