@@ -115,6 +115,9 @@ class QuizAnswer(BaseModel):
     question_id: int
     selected_answer: str
 
+# Alias for compatibility with crud.py
+AnswerSubmit = QuizAnswer
+
 class QuizSubmission(BaseModel):
     answers: List[QuizAnswer]
 
@@ -145,8 +148,38 @@ class ReadinessSnapshot(BaseModel):
     technical: float
     soft: float
 
+class FeedbackDetail(BaseModel):
+    overall: str
+    strengths: str
+    weaknesses: str
+    recommendations: List[str]
+
+class ScoreImpact(BaseModel):
+    category: str
+    old_score: float  # Changed from int to float
+    new_score: float  # Changed from int to float
+    increase: float   # Changed from int to float
+
+class QuestionResult(BaseModel):
+    question_id: int
+    question_text: str
+    user_answer: str
+    correct_answer: Optional[str]
+    is_correct: bool
+    points: int
+    earned_points: int
+    explanation: Optional[str]
+    options: dict
+
 class QuizResultExtended(QuizResult):
     readiness: ReadinessSnapshot
+    feedback: Optional[FeedbackDetail] = None
+    question_results: Optional[List[QuestionResult]] = None
+    score_impact: Optional[ScoreImpact] = None
+    quiz_title: Optional[str] = None
+    passing_score: Optional[float] = None
+    raw_score: Optional[float] = None
+    max_score: Optional[float] = None
 
 class RecentAttempt(BaseModel):
     id: int

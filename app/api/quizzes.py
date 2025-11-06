@@ -92,10 +92,8 @@ def start_quiz(quiz_id: int, user_id: int, db: Session = Depends(get_db)):
 
 @router.post("/attempts/{attempt_id}/submit", response_model=schemas.QuizResultExtended)
 def submit_quiz(attempt_id: int, data: schemas.QuizSubmission, db: Session = Depends(get_db)):
-    answers = [{"question_id": a.question_id, "selected_answer": a.selected_answer} 
-               for a in data.answers]
-    
-    result = crud.submit_quiz_attempt(db, attempt_id, answers)
+    # Use the superior submit_quiz_answers function with proper typing
+    result = crud.submit_quiz_answers(db, attempt_id, data.answers)
     
     if not result:
         raise HTTPException(status_code=404, detail="Attempt not found")
@@ -103,14 +101,23 @@ def submit_quiz(attempt_id: int, data: schemas.QuizSubmission, db: Session = Dep
     # Recompute readiness for the attempt's user
     attempt = crud.get_quiz_attempt(db, attempt_id)
     readiness = crud.recompute_user_readiness(db, attempt.user_id) if attempt else {"overall": 0.0, "technical": 0.0, "soft": 0.0}
+    
+    # Return all the detailed data from submit_quiz_answers
     return {
         "success": True,
         "score": result["score"],
         "correct": result["correct"],
         "total": result["total"],
         "passed": result["passed"],
-        "message": "Great job!" if result["passed"] else "Keep practicing!",
+        "message": result.get("feedback", {}).get("overall", "Quiz completed!"),
         "readiness": readiness,
+        "feedback": result.get("feedback"),
+        "question_results": result.get("question_results"),
+        "score_impact": result.get("score_impact"),
+        "quiz_title": result.get("quiz_title"),
+        "passing_score": result.get("passing_score"),
+        "raw_score": result.get("raw_score"),
+        "max_score": result.get("max_score"),
     }
 
 @router.get("/results/{attempt_id}")

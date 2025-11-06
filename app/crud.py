@@ -4,6 +4,7 @@ CRUD operations for database
 
 from sqlalchemy.orm import Session
 from . import models_hierarchical as models
+from . import schemas
 from typing import List, Optional, Dict, Any
 from datetime import datetime, timezone
 
@@ -115,67 +116,6 @@ def get_quiz_attempt(db: Session, attempt_id: int):
     return db.query(models.QuizAttempt).filter(
         models.QuizAttempt.id == attempt_id
     ).first()
-
-def submit_quiz_attempt(db: Session, attempt_id: int, answers: List[dict]):
-    """Submit quiz attempt with answers"""
-    attempt = db.query(models.QuizAttempt).filter(
-        models.QuizAttempt.id == attempt_id
-    ).first()
-    
-    if not attempt:
-        return None
-    
-    # Calculate score by checking answers
-    correct_count = 0
-    total_questions = 0
-    total_points = 0
-    earned_points = 0
-    
-    for answer_data in answers:
-        question_id = answer_data["question_id"]
-        selected_answer = answer_data["selected_answer"]
-        
-        # Get the question with its options
-        question = db.query(models.Question).filter(
-            models.Question.id == question_id
-        ).first()
-        
-        if question:
-            total_questions += 1
-            total_points += question.points
-            
-            # Check if selected answer matches any correct option
-            for option in question.options:
-                if option.is_correct and option.option_text == selected_answer:
-                    correct_count += 1
-                    earned_points += question.points
-                    break
-    
-    # Calculate scores
-    max_score = float(total_points) if total_points > 0 else 1.0
-    score = float(earned_points)
-    percentage = (score / max_score * 100) if max_score > 0 else 0.0
-    
-    # Get quiz passing score
-    quiz = get_quiz_by_id(db, attempt.quiz_id)
-    passing_score = quiz.passing_score if quiz and quiz.passing_score else 70.0
-    is_passed = percentage >= passing_score
-    
-    # Update attempt with results
-    attempt.score = score
-    attempt.max_score = max_score
-    attempt.percentage = percentage
-    attempt.is_passed = is_passed
-    attempt.completed_at = datetime.now(timezone.utc)
-    
-    db.commit()
-    
-    return {
-        "score": percentage,
-        "correct": correct_count,
-        "total": total_questions,
-        "passed": is_passed
-    }
 
 def get_user_quiz_history(db: Session, user_id: int):
     """Get user's quiz attempt history"""
@@ -363,3 +303,187 @@ def delete_journal_entry(db: Session, entry_id: int, user_id: int):
     db.delete(entry)
     db.commit()
     return True
+
+from datetime import datetime
+
+def submit_quiz_answers(db: Session, attempt_id: int, answers: List[schemas.QuizAnswer]) -> dict:
+    """
+    Submit quiz answers and calculate detailed score with personalized feedback.
+    This is the superior merged function combining detailed feedback with sophisticated scoring.
+    """
+    attempt = db.query(models.QuizAttempt).filter(models.QuizAttempt.id == attempt_id).first()
+    if not attempt:
+        return None
+    
+    quiz = get_quiz_by_id(db, attempt.quiz_id)
+    if not quiz:
+        return None
+    
+    # Initialize scoring variables (using points-based system)
+    correct_count = 0
+    total_questions = 0
+    total_points = 0
+    earned_points = 0
+    question_results = []  # Store detailed results for each question
+    
+    # Process each answer
+    for answer_data in answers:
+        question = db.query(models.Question).filter(
+            models.Question.id == answer_data.question_id
+        ).first()
+        
+        if question:
+            total_questions += 1
+            total_points += question.points  # Use weighted points system
+            
+            # Check if answer is correct
+            is_correct = False
+            user_answer = answer_data.selected_answer
+            
+            # Method 1: Check against QuestionOption model
+            if question.options:
+                for option in question.options:
+                    # The selected_answer could be either the option text or a letter (A, B, C, D)
+                    if option.is_correct:
+                        # Check if user's answer matches the correct option text
+                        if option.option_text == user_answer:
+                            is_correct = True
+                            earned_points += question.points
+                            correct_count += 1
+                            break
+            
+            # Store detailed result for this question
+            # Build options dict from QuestionOption relationships
+            options_dict = {}
+            if question.options:
+                # Sort by order_index to maintain A, B, C, D order
+                sorted_options = sorted(question.options, key=lambda x: x.order_index)
+                option_letters = ['A', 'B', 'C', 'D', 'E', 'F']
+                for idx, option in enumerate(sorted_options):
+                    if idx < len(option_letters):
+                        options_dict[option_letters[idx]] = option.option_text
+            
+            question_results.append({
+                "question_id": question.id,
+                "question_text": question.question_text,
+                "user_answer": user_answer,
+                "correct_answer": next((opt.option_text for opt in question.options if opt.is_correct), None),
+                "is_correct": is_correct,
+                "points": question.points,
+                "earned_points": question.points if is_correct else 0,
+                "explanation": question.explanation if hasattr(question, 'explanation') else None,
+                "options": options_dict
+            })
+    
+    # Calculate scores using points-based system
+    max_score = float(total_points) if total_points > 0 else 1.0
+    score = float(earned_points)
+    percentage = (score / max_score * 100) if max_score > 0 else 0.0
+    
+    # Get quiz passing score (flexible, not hardcoded)
+    passing_score = quiz.passing_score if hasattr(quiz, 'passing_score') and quiz.passing_score else 70.0
+    is_passed = percentage >= passing_score
+    
+    # Update attempt with comprehensive results
+    attempt.score = score
+    attempt.max_score = max_score
+    attempt.percentage = percentage
+    attempt.is_passed = is_passed
+    attempt.is_completed = True
+    attempt.completed_at = datetime.now(timezone.utc)
+    
+    # Update user's readiness scores based on quiz category
+    user = get_user_by_id(db, attempt.user_id)
+    score_impact = None
+    
+    if user and quiz.specialization:
+        # Calculate score impact based on performance
+        score_increase = int(percentage / 20)  # Max 5 points increase
+        
+        # Update technical score (you can categorize quizzes differently)
+        old_technical = user.technical_score or 0
+        user.technical_score = min(100, (user.technical_score or 0) + score_increase)
+        
+        # Recalculate overall readiness score
+        user.readiness_score = int(
+            ((user.technical_score or 0) * 0.5) + 
+            ((user.soft_skills_score or 0) * 0.3) + 
+            ((user.leadership_score or 0) * 0.2)
+        )
+        
+        score_impact = {
+            "category": "Technical Skills",
+            "old_score": old_technical,
+            "new_score": user.technical_score,
+            "increase": user.technical_score - old_technical
+        }
+    
+    db.commit()
+    
+    # Generate personalized feedback
+    feedback = generate_feedback(percentage, correct_count, total_questions, question_results)
+    
+    return {
+        "score": percentage,  # Return percentage for consistency
+        "raw_score": score,  # Include raw points scored
+        "max_score": max_score,  # Include maximum possible points
+        "correct": correct_count,
+        "total": total_questions,
+        "passed": is_passed,
+        "passing_score": passing_score,
+        "question_results": question_results,
+        "score_impact": score_impact,
+        "feedback": feedback,
+        "quiz_title": quiz.title
+    }
+
+
+def generate_feedback(score: float, correct: int, total: int, question_results: list) -> dict:
+    """Generate personalized feedback based on performance"""
+    
+    # Overall performance message
+    if score >= 90:
+        overall = "Excellent work! You have a strong understanding of this topic."
+    elif score >= 80:
+        overall = "Great job! You're on the right track with solid fundamentals."
+    elif score >= 70:
+        overall = "Good effort! You passed, but there's room for improvement."
+    elif score >= 60:
+        overall = "You're getting there! Review the material and try again."
+    else:
+        overall = "Keep practicing! Review the fundamentals and take your time."
+    
+    # Find areas of strength and weakness
+    incorrect_questions = [q for q in question_results if not q["is_correct"]]
+    
+    if len(incorrect_questions) > 0:
+        weakness_topics = f"Focus on reviewing: {', '.join([q['question_text'][:50] + '...' for q in incorrect_questions[:3]])}"
+    else:
+        weakness_topics = "You answered all questions correctly! Excellent mastery."
+    
+    # Recommendations
+    if score < 70:
+        recommendations = [
+            "Review the study materials for this topic",
+            "Try taking practice quizzes to reinforce learning",
+            "Focus on the questions you got wrong"
+        ]
+    elif score < 90:
+        recommendations = [
+            "You're doing well! Focus on the few areas you missed",
+            "Try more advanced quizzes in this category",
+            "Review edge cases and advanced concepts"
+        ]
+    else:
+        recommendations = [
+            "Outstanding! Consider exploring advanced topics",
+            "Help others by sharing your knowledge",
+            "Try quizzes in related specializations"
+        ]
+    
+    return {
+        "overall": overall,
+        "strengths": f"You correctly answered {correct} out of {total} questions.",
+        "weaknesses": weakness_topics,
+        "recommendations": recommendations
+    }
