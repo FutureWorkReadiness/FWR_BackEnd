@@ -140,6 +140,68 @@ class QuizResult(BaseModel):
     passed: bool
     message: str
 
+class ReadinessSnapshot(BaseModel):
+    overall: float
+    technical: float
+    soft: float
+
+class QuizResultExtended(QuizResult):
+    readiness: ReadinessSnapshot
+
+class RecentAttempt(BaseModel):
+    id: int
+    quiz_id: int
+    score: float
+    passed: bool
+    completed_at: str | None
+
+class DashboardResponse(BaseModel):
+    readiness: ReadinessSnapshot
+    recent_attempts: list[RecentAttempt]
+
+# Goal schemas
+class GoalBase(BaseModel):
+    title: str
+    description: Optional[str] = None
+    category: str
+    target_value: float
+    target_date: Optional[datetime] = None
+
+class GoalCreate(GoalBase):
+    pass
+
+class Goal(GoalBase):
+    id: int
+    user_id: int
+    current_value: float
+    is_completed: bool
+    created_at: datetime
+    updated_at: Optional[datetime] = None
+    
+    class Config:
+        from_attributes = True
+
+# Journal entry schemas
+class JournalEntryBase(BaseModel):
+    content: str
+    prompt: Optional[str] = None
+
+class JournalEntryCreate(JournalEntryBase):
+    pass
+
+class JournalEntry(JournalEntryBase):
+    id: int
+    user_id: int
+    entry_date: datetime
+    created_at: datetime
+    updated_at: Optional[datetime] = None
+    
+    class Config:
+        from_attributes = True
+
+class JournalEntryUpdate(BaseModel):
+    content: str
+
 # Response schemas
 class UserResponse(BaseModel):
     success: bool

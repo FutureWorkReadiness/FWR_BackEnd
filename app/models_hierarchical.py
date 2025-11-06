@@ -141,6 +141,8 @@ class User(Base):
     # Relationships
     preferred_specialization = relationship("Specialization")
     quiz_attempts = relationship("QuizAttempt", back_populates="user")
+    goals = relationship("Goal", back_populates="user")
+    journal_entries = relationship("JournalEntry", back_populates="user")
 
 
 class QuizAttempt(Base):
@@ -162,3 +164,39 @@ class QuizAttempt(Base):
     # Relationships
     user = relationship("User", back_populates="quiz_attempts")
     quiz = relationship("Quiz", back_populates="attempts")
+
+
+class Goal(Base):
+    """User development goals"""
+    __tablename__ = "goals"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    title = Column(String(200), nullable=False)
+    description = Column(Text, nullable=True)
+    category = Column(String(50), nullable=False)  # e.g., "readiness", "technical", "soft_skills", "leadership"
+    target_value = Column(Float, nullable=False)  # Target score/percentage
+    current_value = Column(Float, default=0.0)  # Current progress
+    is_completed = Column(Boolean, default=False)
+    target_date = Column(DateTime(timezone=True), nullable=True)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+    updated_at = Column(DateTime(timezone=True), onupdate=func.now())
+    
+    # Relationships
+    user = relationship("User", back_populates="goals")
+
+
+class JournalEntry(Base):
+    """User self-reflection journal entries"""
+    __tablename__ = "journal_entries"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    prompt = Column(String(200), nullable=True)  # Optional prompt/question
+    content = Column(Text, nullable=False)
+    entry_date = Column(DateTime(timezone=True), server_default=func.now())
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+    updated_at = Column(DateTime(timezone=True), onupdate=func.now())
+    
+    # Relationships
+    user = relationship("User", back_populates="journal_entries")

@@ -4,7 +4,7 @@ CRUD operations for database
 
 from sqlalchemy.orm import Session
 from . import models_hierarchical as models
-from typing import List
+from typing import List, Optional, Dict, Any
 from datetime import datetime, timezone
 
 # USER OPERATIONS
@@ -196,3 +196,170 @@ def get_user_specialization_scores(db: Session, user_id: int):
             "leadership_score": user.leadership_score
         }
     return None
+
+# READINESS AND DASHBOARD OPERATIONS
+def recompute_user_readiness(db: Session, user_id: int) -> Optional[Dict[str, Any]]:
+    """Recompute and persist user's readiness aggregates from attempts.
+    Strategy: simple average of attempt percentages; map to categories.
+    """
+    user = get_user_by_id(db, user_id)
+    if not user:
+        return None
+
+    attempts = get_user_quiz_history(db, user_id)
+    if not attempts:
+        user.readiness_score = 0.0
+        user.technical_score = 0.0
+        user.soft_skills_score = 0.0
+        db.commit()
+        return {
+            "overall": 0.0,
+            "technical": 0.0,
+            "soft": 0.0,
+        }
+
+    avg_percentage = sum(a.percentage for a in attempts) / len(attempts)
+    overall = round(avg_percentage, 2)
+    technical = round(overall * 0.9, 2)
+    soft = round(overall * 0.85, 2)
+
+    user.readiness_score = overall
+    user.technical_score = technical
+    user.soft_skills_score = soft
+    db.commit()
+
+    return {
+        "overall": overall,
+        "technical": technical,
+        "soft": soft,
+    }
+
+def get_dashboard_summary(db: Session, user_id: int) -> Optional[Dict[str, Any]]:
+    user = get_user_by_id(db, user_id)
+    if not user:
+        return None
+    # Ensure readiness is up to date
+    readiness = recompute_user_readiness(db, user_id)
+    attempts = get_user_quiz_history(db, user_id)
+    recent = []
+    for a in attempts[:5]:
+        recent.append({
+            "id": a.id,
+            "quiz_id": a.quiz_id,
+            "score": round(a.percentage, 2),
+            "passed": a.is_passed,
+            "completed_at": a.completed_at.isoformat() if a.completed_at else None,
+        })
+    return {
+        "readiness": readiness or {
+            "overall": user.readiness_score or 0.0,
+            "technical": user.technical_score or 0.0,
+            "soft": user.soft_skills_score or 0.0,
+        },
+        "recent_attempts": recent,
+    }
+
+def get_attempt_with_quiz(db: Session, attempt_id: int) -> Optional[Dict[str, Any]]:
+    attempt = get_quiz_attempt(db, attempt_id)
+    if not attempt:
+        return None
+    quiz = get_quiz_by_id(db, attempt.quiz_id)
+    return {
+        "attempt": attempt,
+        "quiz": quiz,
+    }
+
+# GOAL OPERATIONS
+def create_goal(db: Session, user_id: int, title: str, description: str, category: str, target_value: float, target_date: Optional[datetime] = None):
+    """Create a new goal for a user"""
+    goal = models.Goal(
+        user_id=user_id,
+        title=title,
+        description=description,
+        category=category,
+        target_value=target_value,
+        current_value=0.0,
+        is_completed=False,
+        target_date=target_date
+    )
+    db.add(goal)
+    db.commit()
+    db.refresh(goal)
+    return goal
+
+def get_user_goals(db: Session, user_id: int):
+    """Get all goals for a user"""
+    return db.query(models.Goal).filter(
+        models.Goal.user_id == user_id
+    ).order_by(models.Goal.created_at.desc()).all()
+
+def update_goal(db: Session, goal_id: int, user_id: int, **kwargs):
+    """Update a goal"""
+    goal = db.query(models.Goal).filter(
+        models.Goal.id == goal_id,
+        models.Goal.user_id == user_id
+    ).first()
+    if not goal:
+        return None
+    for key, value in kwargs.items():
+        if hasattr(goal, key):
+            setattr(goal, key, value)
+    db.commit()
+    db.refresh(goal)
+    return goal
+
+def delete_goal(db: Session, goal_id: int, user_id: int):
+    """Delete a goal"""
+    goal = db.query(models.Goal).filter(
+        models.Goal.id == goal_id,
+        models.Goal.user_id == user_id
+    ).first()
+    if not goal:
+        return False
+    db.delete(goal)
+    db.commit()
+    return True
+
+# JOURNAL ENTRY OPERATIONS
+def create_journal_entry(db: Session, user_id: int, content: str, prompt: Optional[str] = None):
+    """Create a new journal entry"""
+    entry = models.JournalEntry(
+        user_id=user_id,
+        content=content,
+        prompt=prompt
+    )
+    db.add(entry)
+    db.commit()
+    db.refresh(entry)
+    return entry
+
+def get_user_journal_entries(db: Session, user_id: int, limit: int = 20):
+    """Get journal entries for a user"""
+    return db.query(models.JournalEntry).filter(
+        models.JournalEntry.user_id == user_id
+    ).order_by(models.JournalEntry.entry_date.desc()).limit(limit).all()
+
+def update_journal_entry(db: Session, entry_id: int, user_id: int, content: str):
+    """Update a journal entry"""
+    entry = db.query(models.JournalEntry).filter(
+        models.JournalEntry.id == entry_id,
+        models.JournalEntry.user_id == user_id
+    ).first()
+    if not entry:
+        return None
+    entry.content = content
+    db.commit()
+    db.refresh(entry)
+    return entry
+
+def delete_journal_entry(db: Session, entry_id: int, user_id: int):
+    """Delete a journal entry"""
+    entry = db.query(models.JournalEntry).filter(
+        models.JournalEntry.id == entry_id,
+        models.JournalEntry.user_id == user_id
+    ).first()
+    if not entry:
+        return False
+    db.delete(entry)
+    db.commit()
+    return True

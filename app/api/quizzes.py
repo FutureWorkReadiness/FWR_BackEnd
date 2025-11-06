@@ -90,7 +90,7 @@ def start_quiz(quiz_id: int, user_id: int, db: Session = Depends(get_db)):
         "message": "Quiz started successfully"
     }
 
-@router.post("/attempts/{attempt_id}/submit", response_model=schemas.QuizResult)
+@router.post("/attempts/{attempt_id}/submit", response_model=schemas.QuizResultExtended)
 def submit_quiz(attempt_id: int, data: schemas.QuizSubmission, db: Session = Depends(get_db)):
     answers = [{"question_id": a.question_id, "selected_answer": a.selected_answer} 
                for a in data.answers]
@@ -100,14 +100,49 @@ def submit_quiz(attempt_id: int, data: schemas.QuizSubmission, db: Session = Dep
     if not result:
         raise HTTPException(status_code=404, detail="Attempt not found")
     
+    # Recompute readiness for the attempt's user
+    attempt = crud.get_quiz_attempt(db, attempt_id)
+    readiness = crud.recompute_user_readiness(db, attempt.user_id) if attempt else {"overall": 0.0, "technical": 0.0, "soft": 0.0}
     return {
         "success": True,
         "score": result["score"],
         "correct": result["correct"],
         "total": result["total"],
         "passed": result["passed"],
-        "message": "Great job!" if result["passed"] else "Keep practicing!"
+        "message": "Great job!" if result["passed"] else "Keep practicing!",
+        "readiness": readiness,
     }
+
+@router.get("/results/{attempt_id}")
+def get_attempt_result(attempt_id: int, db: Session = Depends(get_db)):
+    data = crud.get_attempt_with_quiz(db, attempt_id)
+    if not data:
+        raise HTTPException(status_code=404, detail="Attempt not found")
+    attempt = data["attempt"]
+    quiz = data["quiz"]
+    readiness = crud.recompute_user_readiness(db, attempt.user_id) or {"overall": 0.0, "technical": 0.0, "soft": 0.0}
+    return {
+        "attempt": {
+            "id": attempt.id,
+            "quiz_id": attempt.quiz_id,
+            "score": attempt.percentage,
+            "passed": attempt.is_passed,
+            "completed_at": attempt.completed_at.isoformat() if attempt.completed_at else None,
+        },
+        "quiz": {
+            "id": quiz.id,
+            "title": quiz.title,
+            "description": quiz.description,
+        },
+        "readiness": readiness,
+    }
+
+@router.get("/dashboard", response_model=schemas.DashboardResponse)
+def get_dashboard(user_id: int, db: Session = Depends(get_db)):
+    summary = crud.get_dashboard_summary(db, user_id)
+    if not summary:
+        raise HTTPException(status_code=404, detail="User not found")
+    return summary
 
 @router.get("/specializations/{specialization_id}/quizzes", response_model=schemas.QuizzesResponse)
 def get_quizzes_by_specialization(specialization_id: int, db: Session = Depends(get_db)):
