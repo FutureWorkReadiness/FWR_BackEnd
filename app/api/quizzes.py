@@ -173,6 +173,10 @@ def get_dashboard(user_id: int, db: Session = Depends(get_db)):
 def get_quizzes_by_specialization(specialization_id: int, db: Session = Depends(get_db)):
     quizzes = crud.get_quizzes_by_specialization(db, specialization_id)
     
+    # Get specialization name
+    specialization = db.query(models.Specialization).filter(models.Specialization.id == specialization_id).first()
+    specialization_name = specialization.name if specialization else None
+    
     return {
         "quizzes": [
             {
@@ -181,7 +185,9 @@ def get_quizzes_by_specialization(specialization_id: int, db: Session = Depends(
                 "description": quiz.description,
                 "duration": quiz.time_limit_minutes,
                 "difficulty": quiz.difficulty_level,
-                "question_count": len(quiz.questions) if quiz.questions else 0
+                "question_count": len(quiz.questions) if quiz.questions else 0,
+                "specialization_id": quiz.specialization_id,
+                "specialization_name": specialization_name
             } for quiz in quizzes
         ]
     }
