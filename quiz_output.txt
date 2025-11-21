@@ -1,0 +1,10 @@
+/home/hiba/anaconda3/lib/python3.9/site-packages/google/api_core/_python_version_support.py:252: FutureWarning: You are using a Python version (3.9.12) past its end of life. Google will update google.api_core with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade to the latest Python version, or at least Python 3.10, and then update google.api_core.
+  warnings.warn(message, FutureWarning)
+Traceback (most recent call last):
+  File "/home/hiba/anaconda3/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/hiba/anaconda3/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/hiba/Desktop/new_future/Backend/app/generate_quiz.py", line 34, in <module>
+    client = genai.Client()
+AttributeError: module 'google.generativeai' has no attribute 'Client'

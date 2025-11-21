@@ -226,3 +226,44 @@ class UserBadge(Base):
 
 # Add relationship to User model
 User.user_badges = relationship("UserBadge", back_populates="user")
+
+
+class Goal(Base):
+    """User goals for tracking progress"""
+    __tablename__ = "goals"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    title = Column(String(200), nullable=False)
+    description = Column(Text, nullable=True)
+    category = Column(String(50), nullable=False)  # 'readiness', 'technical', 'soft_skills', 'leadership'
+    target_value = Column(Float, nullable=False)
+    current_value = Column(Float, default=0.0)
+    is_completed = Column(Boolean, default=False)
+    target_date = Column(DateTime(timezone=True), nullable=True)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+    updated_at = Column(DateTime(timezone=True), onupdate=func.now())
+    
+    # Relationships
+    user = relationship("User", back_populates="goals")
+
+
+class JournalEntry(Base):
+    """User journal entries for reflection"""
+    __tablename__ = "journal_entries"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    content = Column(Text, nullable=False)
+    prompt = Column(String(500), nullable=True)
+    entry_date = Column(DateTime(timezone=True), server_default=func.now())
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+    updated_at = Column(DateTime(timezone=True), onupdate=func.now())
+    
+    # Relationships
+    user = relationship("User", back_populates="journal_entries")
+
+
+# Add relationships to User model
+User.goals = relationship("Goal", back_populates="user", cascade="all, delete-orphan")
+User.journal_entries = relationship("JournalEntry", back_populates="user", cascade="all, delete-orphan")
