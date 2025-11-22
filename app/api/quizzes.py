@@ -110,6 +110,13 @@ def submit_quiz(attempt_id: int, data: schemas.QuizSubmission, db: Session = Dep
     attempt = crud.get_quiz_attempt(db, attempt_id)
     readiness = crud.recompute_user_readiness(db, attempt.user_id) if attempt else {"overall": 0.0, "technical": 0.0, "soft": 0.0}
     
+    # Auto-update goals based on new readiness scores
+    updated_goals = []
+    if attempt:
+        updated_goals = crud.auto_update_goals_on_quiz_completion(db, attempt.user_id)
+        if updated_goals:
+            print(f"Auto-updated {len(updated_goals)} goals for user {attempt.user_id}")
+    
     # Update peer benchmarks for the user's specialization
     if attempt:
         user = db.query(crud.models.User).filter(crud.models.User.id == attempt.user_id).first()
@@ -136,6 +143,7 @@ def submit_quiz(attempt_id: int, data: schemas.QuizSubmission, db: Session = Dep
         "passing_score": result.get("passing_score"),
         "raw_score": result.get("raw_score"),
         "max_score": result.get("max_score"),
+        "updated_goals": updated_goals  # New field to show which goals were auto-updated
     }
 
 @router.get("/results/{attempt_id}")

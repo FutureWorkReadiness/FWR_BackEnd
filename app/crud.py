@@ -260,6 +260,69 @@ def delete_goal(db: Session, goal_id: int, user_id: int):
     db.commit()
     return True
 
+def auto_update_goals_on_quiz_completion(db: Session, user_id: int):
+    """
+    Automatically update user goals based on their current readiness scores
+    Called after quiz completion to sync goals with actual progress
+    """
+    try:
+        # Get current readiness scores
+        user = db.query(models.User).filter(models.User.id == user_id).first()
+        if not user:
+            return
+        
+        # Get all active (not completed) goals for this user
+        active_goals = db.query(models.Goal).filter(
+            models.Goal.user_id == user_id,
+            models.Goal.is_completed == False
+        ).all()
+        
+        updated_goals = []
+        
+        for goal in active_goals:
+            # Map goal category to user score field
+            score_mapping = {
+                'readiness': user.readiness_score,
+                'technical': user.technical_score,
+                'soft_skills': user.soft_skills_score,
+                'leadership': user.leadership_score
+            }
+            
+            # Get the corresponding score for this goal category
+            current_score = score_mapping.get(goal.category)
+            
+            if current_score is not None:
+                # Update the goal's current value to match the user's actual score
+                old_value = goal.current_value
+                goal.current_value = current_score
+                
+                # Check if goal is now completed
+                if goal.current_value >= goal.target_value and not goal.is_completed:
+                    goal.is_completed = True
+                    updated_goals.append({
+                        'id': goal.id,
+                        'title': goal.title,
+                        'category': goal.category,
+                        'completed': True,
+                        'progress': goal.current_value
+                    })
+                elif old_value != current_score:
+                    updated_goals.append({
+                        'id': goal.id,
+                        'title': goal.title,
+                        'category': goal.category,
+                        'completed': False,
+                        'progress': goal.current_value
+                    })
+        
+        db.commit()
+        return updated_goals
+        
+    except Exception as e:
+        print(f"Error auto-updating goals: {e}")
+        db.rollback()
+        return []
+
 # JOURNAL ENTRY OPERATIONS
 def create_journal_entry(db: Session, user_id: int, content: str, prompt: Optional[str] = None):
     """Create a new journal entry"""
