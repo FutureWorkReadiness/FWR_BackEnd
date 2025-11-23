@@ -1,7 +1,4 @@
-"""
-Simple test to verify Gemini API is working
-"""
-# Fix for Python 3.9 compatibility
+
 import importlib.metadata
 if not hasattr(importlib.metadata, 'packages_distributions'):
     def packages_distributions():
@@ -28,25 +25,19 @@ import json
 load_dotenv()
 api_key = os.getenv('GEMINI_API_KEY')
 
-print(f'API Key: {api_key[:10]}...{api_key[-4:]}' if api_key and len(api_key) > 14 else 'Invalid key')
-print('\n1. Testing API connection...')
-
 os.environ['GEMINI_API_KEY'] = api_key
 client = genai.Client()
-print('✅ Client created')
 
-print('\n2. Testing simple generation (no system instruction)...')
 try:
     response = client.models.generate_content(
         model="gemini-2.0-flash-exp",
         contents="Say hello in one sentence"
     )
-    print(f'✅ Response: {response.text}')
+    print(f' Response: {response.text}')
 except Exception as e:
-    print(f'❌ Error: {e}')
+    print(f'Error: {e}')
     exit(1)
 
-print('\n3. Testing quiz generation...')
 try:
     system_instruction = """You are a quiz creator. Generate one multiple-choice question about React Hooks.
 Return ONLY valid JSON in this format:
@@ -72,7 +63,7 @@ Return ONLY valid JSON in this format:
         )
     )
     
-    print('✅ Quiz generated!')
+    print('Quiz generated!')
     text = response.text.strip()
     
     # Clean markdown if present
@@ -88,6 +79,6 @@ Return ONLY valid JSON in this format:
     print(json.dumps(quiz_data, indent=2))
     
 except Exception as e:
-    print(f'❌ Error: {e}')
+    print(f'Error: {e}')
     import traceback
     traceback.print_exc()

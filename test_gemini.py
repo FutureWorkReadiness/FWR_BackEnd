@@ -26,7 +26,7 @@ try:
             print(f"   Description: {model.description[:100]}...")
             print()
 except Exception as e:
-    print(f"❌ Error listing models: {e}")
+    print(f" Error listing models: {e}")
 
 print("\n" + "=" * 60)
 print("TESTING SIMPLE GENERATION")
