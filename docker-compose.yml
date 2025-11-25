@@ -1,0 +1,68 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: futurework_db
+    environment:
+      POSTGRES_USER: fw_user
+      POSTGRES_PASSWORD: fw_password_123
+      POSTGRES_DB: futurework
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  backend:
+    build: .
+    container_name: futurework_backend
+    # Use entrypoint script that waits for DB and runs population
+    # Note: entrypoint.sh is in Backend/app/entrypoint.sh and will be available via volume
+    volumes:
+      - ./app:/app/app
+      - ./data:/app/data
+      - ./alembic:/app/alembic
+      - ./alembic.ini:/app/alembic.ini
+    depends_on:
+      - postgres
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql://fw_user:fw_password_123@postgres:5432/futurework
+      SECRET_KEY: dev-secret-key-change-in-production
+    restart: unless-stopped
+    # Run entrypoint script which will populate DB and start server
+    entrypoint: ["/bin/bash", "-c"]
+    command:
+      - |
+        echo "🚀 Starting Future Work Readiness Backend..."
+        echo "⏳ Waiting for database to be ready..."
+        until PGPASSWORD=fw_password_123 psql -h postgres -U fw_user -d futurework -c "SELECT 1" > /dev/null 2>&1; do
+          echo "  Database is unavailable - sleeping..."
+          sleep 2
+        done
+        echo "✅ Database is ready!"
+        echo "📊 Creating database tables..."
+        cd /app && python3 -c "from app.models_hierarchical import Base; from app.database import engine; Base.metadata.create_all(bind=engine); print('✅ Tables created')"
+        echo "📊 Running database population..."
+        cd /app && python3 -c "from app.db_init import auto_populate_if_empty; auto_populate_if_empty()"
+        echo "🚀 Starting FastAPI server..."
+        exec uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+  # frontend:
+  #   build: ./Frontend
+  #   container_name: futurework_frontend
+  #   volumes:
+  #     - ./Frontend:/app
+  #     - /app/node_modules
+  #   depends_on:
+  #     - backend
+  #   ports:
+  #     - "3000:3000"
+  #   environment:
+  #     - VITE_API_URL=http://localhost:8000
+  #   restart: unless-stopped
+
+volumes:
+  postgres_data:
