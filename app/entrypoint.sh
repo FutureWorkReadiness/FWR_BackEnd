@@ -17,6 +17,10 @@ done
 
 echo "✅ Database is ready!"
 
+# Run database migrations
+echo "🔄 Running database migrations..."
+cd /app && alembic upgrade head
+
 # Run database population
 echo "📊 Running database population..."
 python3 -c "from app.db_init import auto_populate_if_empty; auto_populate_if_empty()"
