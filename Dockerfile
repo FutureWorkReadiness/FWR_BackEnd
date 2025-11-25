@@ -14,10 +14,14 @@ COPY ./app/. /app/
 
 # Copy data files for population (must be in Backend/data relative to app directory)
 COPY ./data /app/data
+COPY ./alembic /app/alembic
+COPY ./alembic.ini /app/alembic.ini
 
 # Copy and make entrypoint script executable (ensure it's in the right location)
 COPY ./app/entrypoint.sh /app/entrypoint.sh
 RUN chmod +x /app/entrypoint.sh
+
+EXPOSE 8000
 
 # Use entrypoint script that waits for DB and runs population
 CMD ["/app/entrypoint.sh"]
