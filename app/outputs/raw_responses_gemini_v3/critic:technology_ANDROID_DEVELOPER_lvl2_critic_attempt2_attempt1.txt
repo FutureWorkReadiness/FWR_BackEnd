@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "Which Android component provides a screen for users to interact with and perform specific tasks?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Content Provider: Manages access to a structured set of data, encapsulating the data for applications.",
+          "is_correct": false,
+          "rationale": "Content Providers are for data management, not direct user interaction screens."
+        },
+        {
+          "key": "B",
+          "text": "Service: Performs long-running operations in the background, without a direct user interface component.",
+          "is_correct": false,
+          "rationale": "Services operate in the background and do not provide user interfaces."
+        },
+        {
+          "key": "C",
+          "text": "Activity: Represents a single screen with a user interface, handling user interactions and events.",
+          "is_correct": true,
+          "rationale": "Activities are the primary UI building blocks in Android applications."
+        },
+        {
+          "key": "D",
+          "text": "Broadcast Receiver: Responds to system-wide broadcast announcements, without a user interface element.",
+          "is_correct": false,
+          "rationale": "Broadcast Receivers react to system events, not user interface elements."
+        },
+        {
+          "key": "E",
+          "text": "Intent: A messaging object used to request an action from another application component or system.",
+          "is_correct": false,
+          "rationale": "Intents facilitate communication but are not UI components themselves."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the primary purpose of the AndroidManifest.xml file within an Android project's structure?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It defines the layout of the user interface screens within the application using XML definitions.",
+          "is_correct": false,
+          "rationale": "Layout files define UI; the manifest declares app components and permissions."
+        },
+        {
+          "key": "B",
+          "text": "It contains the application's source code, including Activities, Services, and other core components.",
+          "is_correct": false,
+          "rationale": "The manifest does not contain code; it describes the application's structure."
+        },
+        {
+          "key": "C",
+          "text": "It declares the application's components, required permissions, and hardware/software compatibility.",
+          "is_correct": true,
+          "rationale": "The manifest is crucial for declaring app metadata and requirements."
+        },
+        {
+          "key": "D",
+          "text": "It stores the application's persistent data, such as SQLite databases or shared preferences files.",
+          "is_correct": false,
+          "rationale": "The manifest does not store application data; it describes the application itself."
+        },
+        {
+          "key": "E",
+          "text": "It manages the application's build process, including compiling and packaging the application code.",
+          "is_correct": false,
+          "rationale": "Build tools manage the build process; the manifest declares the application."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which layout manager is most suitable for efficiently displaying a long list of items that may exceed the screen's bounds?",
+      "options": [
+        {
+          "key": "A",
+          "text": "LinearLayout: Arranges views in a single row or column; simple but inflexible for dynamic lists.",
+          "is_correct": false,
+          "rationale": "LinearLayout is not ideal for long lists due to lack of built-in scrolling."
+        },
+        {
+          "key": "B",
+          "text": "RelativeLayout: Positions views relative to each other; can be complex for dynamic and changing lists.",
+          "is_correct": false,
+          "rationale": "RelativeLayout is better for complex layouts, not efficient for simple lists."
+        },
+        {
+          "key": "C",
+          "text": "ConstraintLayout: A flexible layout that allows you to create complex user interfaces with constraints.",
+          "is_correct": false,
+          "rationale": "ConstraintLayout is powerful, but RecyclerView is better suited for lists."
+        },
+        {
+          "key": "D",
+          "text": "RecyclerView: Efficiently displays large datasets by recycling views as the user scrolls through the list.",
+          "is_correct": true,
+          "rationale": "RecyclerView is designed for efficient display of scrollable and dynamic lists."
+        },
+        {
+          "key": "E",
+          "text": "FrameLayout: A simple layout that places views on top of each other; not suitable for lists.",
+          "is_correct": false,
+          "rationale": "FrameLayout is too simple; it overlaps views instead of arranging them in a list."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "In Android development, what exactly is an Intent, and what is its fundamental purpose within the system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A class for defining user interface layouts and handling user interactions within the application.",
+          "is_correct": false,
+          "rationale": "Intents are not related to UI layouts or user interaction handling directly."
+        },
+        {
+          "key": "B",
+          "text": "A messaging object used to request an action from another application component or external application.",
+          "is_correct": true,
+          "rationale": "Intents are used for inter-component communication and action requests."
+        },
+        {
+          "key": "C",
+          "text": "A database management system for storing and retrieving application data persistently on the device.",
+          "is_correct": false,
+          "rationale": "Intents do not handle data storage or database management functionalities."
+        },
+        {
+          "key": "D",
+          "text": "A tool for debugging and profiling Android applications during the development and testing phases.",
+          "is_correct": false,
+          "rationale": "Intents are not related to debugging or profiling tools within the IDE."
+        },
+        {
+          "key": "E",
+          "text": "A security mechanism for protecting application data from unauthorized access and potential breaches.",
+          "is_correct": false,
+          "rationale": "Intents are messaging objects, not security mechanisms for data protection."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Within the Model-View-ViewModel (MVVM) architecture, what is the primary purpose of the 'ViewModel' component?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To directly manage the user interface elements and handle user interactions within the application screens.",
+          "is_correct": false,
+          "rationale": "The View handles UI; the ViewModel holds data and logic for the UI."
+        },
+        {
+          "key": "B",
+          "text": "To store and manage UI-related data in a lifecycle-conscious way, surviving configuration changes effectively.",
+          "is_correct": true,
+          "rationale": "The ViewModel's key function is lifecycle-aware data management and persistence."
+        },
+        {
+          "key": "C",
+          "text": "To interact with data sources, such as databases or network APIs, and fetch data for the application.",
+          "is_correct": false,
+          "rationale": "The Repository layer typically handles data source interactions and abstraction."
+        },
+        {
+          "key": "D",
+          "text": "To define the structure and layout of the user interface screens within the Android application project.",
+          "is_correct": false,
+          "rationale": "Layout files define the UI; the ViewModel provides data for the UI."
+        },
+        {
+          "key": "E",
+          "text": "To handle background tasks and long-running operations, such as network requests and data processing.",
+          "is_correct": false,
+          "rationale": "Background tasks are typically handled by WorkManager or other background services."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "In Android development with MVVM, what is the core purpose of utilizing 'LiveData' within the application?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To store and manage application data in a persistent storage solution like an SQLite database locally.",
+          "is_correct": false,
+          "rationale": "LiveData is for data observation and UI updates, not persistent data storage."
+        },
+        {
+          "key": "B",
+          "text": "To perform long-running background tasks and update the user interface with the results asynchronously.",
+          "is_correct": false,
+          "rationale": "LiveData focuses on data observation, not background task execution directly."
+        },
+        {
+          "key": "C",
+          "text": "To automatically update the UI when the underlying data changes, in a lifecycle-aware and efficient manner.",
+          "is_correct": true,
+          "rationale": "LiveData is an observable data holder that updates the UI automatically and safely."
+        },
+        {
+          "key": "D",
+          "text": "To define the layout and structure of the user interface screens within the application project files.",
+          "is_correct": false,
+          "rationale": "Layout files define the UI; LiveData provides data for the UI components."
+        },
+        {
+          "key": "E",
+          "text": "To handle user input events, such as button clicks and text field changes within the application screens.",
+          "is_correct": false,
+          "rationale": "LiveData is not directly involved in handling user input events or actions."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "In the context of Android architecture patterns, what is the primary role and responsibility of a 'Repository'?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To define the user interface layouts and handle user interactions directly within the application screens.",
+          "is_correct": false,
+          "rationale": "The View handles UI; the Repository manages data access and abstraction."
+        },
+        {
+          "key": "B",
+          "text": "To manage data access from multiple sources (e.g., network, database) and provide a clean, unified API.",
+          "is_correct": true,
+          "rationale": "The Repository abstracts data access, simplifying ViewModel logic and data handling."
+        },
+        {
+          "key": "C",
+          "text": "To store and manage UI-related data in a lifecycle-conscious way, surviving configuration changes effectively.",
+          "is_correct": false,
+          "rationale": "The ViewModel handles lifecycle-aware data; the Repository handles data sources."
+        },
+        {
+          "key": "D",
+          "text": "To handle background tasks and long-running operations, such as network requests and complex processing.",
+          "is_correct": false,
+          "rationale": "The Repository manages data access, not general background task execution directly."
+        },
+        {
+          "key": "E",
+          "text": "To observe changes in data and automatically update the user interface components accordingly in real-time.",
+          "is_correct": false,
+          "rationale": "LiveData facilitates UI updates; the Repository provides the data to be observed."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Which of the following represents a key benefit of utilizing Kotlin coroutines in Android development projects?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They automatically handle UI updates on the main thread, simplifying UI programming significantly.",
+          "is_correct": false,
+          "rationale": "Coroutines require explicit handling of UI updates on the main thread for safety."
+        },
+        {
+          "key": "B",
+          "text": "They provide a way to write asynchronous, non-blocking code in a sequential and more readable style.",
+          "is_correct": true,
+          "rationale": "Coroutines simplify asynchronous programming with sequential syntax and structure."
+        },
+        {
+          "key": "C",
+          "text": "They automatically manage memory and prevent memory leaks in Android applications effectively and reliably.",
+          "is_correct": false,
+          "rationale": "Coroutines don't automatically manage memory; careful coding is still needed to prevent leaks."
+        },
+        {
+          "key": "D",
+          "text": "They provide a built-in mechanism for handling user input events, such as button clicks and gestures.",
+          "is_correct": false,
+          "rationale": "Coroutines handle concurrency, not direct user input event handling or processing."
+        },
+        {
+          "key": "E",
+          "text": "They automatically optimize the performance of database queries in Android applications for efficiency.",
+          "is_correct": false,
+          "rationale": "Coroutines handle concurrency, not database query optimization or performance enhancements."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is the fundamental purpose of using 'Dependency Injection' (DI) techniques within Android development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To define the user interface layouts and handle user interactions directly within the application screens.",
+          "is_correct": false,
+          "rationale": "DI is for managing dependencies, not UI layout or direct event handling tasks."
+        },
+        {
+          "key": "B",
+          "text": "To reduce boilerplate code and improve testability by providing dependencies to classes automatically.",
+          "is_correct": true,
+          "rationale": "DI promotes loose coupling and simplifies testing through automated dependency provision."
+        },
+        {
+          "key": "C",
+          "text": "To store and manage UI-related data in a lifecycle-conscious way, surviving configuration changes effectively.",
+          "is_correct": false,
+          "rationale": "ViewModel manages lifecycle data; DI manages dependency provision and injection."
+        },
+        {
+          "key": "D",
+          "text": "To handle background tasks and long-running operations, such as network requests and data processing.",
+          "is_correct": false,
+          "rationale": "DI manages dependencies, not general background task execution or scheduling directly."
+        },
+        {
+          "key": "E",
+          "text": "To observe changes in data and automatically update the user interface components accordingly in real-time.",
+          "is_correct": false,
+          "rationale": "LiveData facilitates UI updates; DI manages dependency provision and management tasks."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What is the primary purpose and function of the 'WorkManager' API within Android development projects?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To define the user interface layouts and handle user interactions directly within the application screens.",
+          "is_correct": false,
+          "rationale": "WorkManager is for background tasks, not UI layout or direct user interaction handling."
+        },
+        {
+          "key": "B",
+          "text": "To schedule and manage background tasks that need to be executed even if the app is closed or restarted.",
+          "is_correct": true,
+          "rationale": "WorkManager is designed for reliable background task scheduling and execution guarantees."
+        },
+        {
+          "key": "C",
+          "text": "To store and manage UI-related data in a lifecycle-conscious way, surviving configuration changes effectively.",
+          "is_correct": false,
+          "rationale": "ViewModel manages lifecycle data; WorkManager handles background task scheduling and execution."
+        },
+        {
+          "key": "D",
+          "text": "To observe changes in data and automatically update the user interface components accordingly in real-time.",
+          "is_correct": false,
+          "rationale": "LiveData facilitates UI updates; WorkManager handles background task scheduling and management."
+        },
+        {
+          "key": "E",
+          "text": "To manage data access from multiple sources and provide a clean API for the UI to consume data efficiently.",
+          "is_correct": false,
+          "rationale": "The Repository handles data access; WorkManager handles background task scheduling and execution."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the primary purpose of utilizing ProGuard or R8 tools during Android application development and building?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage dependencies and simplify the build process of Android applications effectively and efficiently.",
+          "is_correct": false,
+          "rationale": "Dependency management is handled by Gradle, not ProGuard/R8 optimization tools."
+        },
+        {
+          "key": "B",
+          "text": "To obfuscate, shrink, and optimize the code of Android applications, reducing their overall size significantly.",
+          "is_correct": true,
+          "rationale": "ProGuard/R8 optimize code by removing unused code and renaming classes/methods for efficiency."
+        },
+        {
+          "key": "C",
+          "text": "To define the user interface layouts and handle user interactions directly within the application screens.",
+          "is_correct": false,
+          "rationale": "ProGuard/R8 are not related to UI layout or direct user interaction handling tasks."
+        },
+        {
+          "key": "D",
+          "text": "To store and manage UI-related data in a lifecycle-conscious way, surviving configuration changes effectively.",
+          "is_correct": false,
+          "rationale": "ProGuard/R8 are for code optimization, not lifecycle-aware data management or persistence."
+        },
+        {
+          "key": "E",
+          "text": "To provide a way to write asynchronous, non-blocking code in a sequential and more readable programming style.",
+          "is_correct": false,
+          "rationale": "Coroutines handle asynchronous code; ProGuard/R8 optimize the codebase for size and performance."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "What is the primary purpose of using the Espresso framework for testing Android user interfaces (UI)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage dependencies and simplify the build process of Android applications during development.",
+          "is_correct": false,
+          "rationale": "Gradle manages dependencies, not the Espresso UI testing framework for applications."
+        },
+        {
+          "key": "B",
+          "text": "To write automated UI tests that interact with the application as a real user would naturally interact.",
+          "is_correct": true,
+          "rationale": "Espresso allows writing UI tests that simulate user interactions and validate UI behavior."
+        },
+        {
+          "key": "C",
+          "text": "To define the user interface layouts and handle user interactions directly within the application screens.",
+          "is_correct": false,
+          "rationale": "Espresso is for testing, not defining or handling UI elements directly in the application."
+        },
+        {
+          "key": "D",
+          "text": "To store and manage UI-related data in a lifecycle-conscious way, surviving configuration changes effectively.",
+          "is_correct": false,
+          "rationale": "Espresso is for testing; ViewModel manages lifecycle-aware data and persistence effectively."
+        },
+        {
+          "key": "E",
+          "text": "To provide a way to write asynchronous, non-blocking code in a sequential and readable programming style.",
+          "is_correct": false,
+          "rationale": "Coroutines handle concurrency; Espresso is specifically designed for UI testing purposes."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is the primary purpose of using the Mockito framework in Android unit testing scenarios and practices?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage dependencies and simplify the build process of Android applications during development phases.",
+          "is_correct": false,
+          "rationale": "Gradle manages dependencies; Mockito is a mocking framework for unit testing effectively."
+        },
+        {
+          "key": "B",
+          "text": "To create mock objects and define their behavior for testing purposes, isolating code units effectively.",
+          "is_correct": true,
+          "rationale": "Mockito allows creating mock dependencies for isolated unit testing and behavior verification."
+        },
+        {
+          "key": "C",
+          "text": "To write automated UI tests that interact with the application as a real user would naturally interact.",
+          "is_correct": false,
+          "rationale": "Espresso is for UI testing; Mockito is for unit testing with mock objects and dependencies."
+        },
+        {
+          "key": "D",
+          "text": "To store and manage UI-related data in a lifecycle-conscious way, surviving configuration changes effectively.",
+          "is_correct": false,
+          "rationale": "Mockito is for testing; ViewModel manages lifecycle-aware data and persistence effectively."
+        },
+        {
+          "key": "E",
+          "text": "To provide a way to write asynchronous, non-blocking code in a sequential and readable programming style.",
+          "is_correct": false,
+          "rationale": "Coroutines handle concurrency; Mockito is for unit testing with mock objects and dependencies."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What is the primary purpose of utilizing data binding techniques within Android application development projects?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage dependencies and simplify the build process of Android applications during the development phase.",
+          "is_correct": false,
+          "rationale": "Gradle manages dependencies, not data binding functionality or data management tasks."
+        },
+        {
+          "key": "B",
+          "text": "To reduce boilerplate code by binding UI components to data sources directly within XML layout files.",
+          "is_correct": true,
+          "rationale": "Data binding simplifies UI updates and reduces boilerplate code for data presentation effectively."
+        },
+        {
+          "key": "C",
+          "text": "To write automated UI tests that interact with the application as a real user would naturally interact.",
+          "is_correct": false,
+          "rationale": "Espresso is for UI testing; data binding connects UI components to data sources efficiently."
+        },
+        {
+          "key": "D",
+          "text": "To store and manage UI-related data in a lifecycle-conscious way, surviving configuration changes effectively.",
+          "is_correct": false,
+          "rationale": "ViewModel manages lifecycle data; data binding connects UI components to data sources efficiently."
+        },
+        {
+          "key": "E",
+          "text": "To provide a way to write asynchronous, non-blocking code in a sequential and readable programming style.",
+          "is_correct": false,
+          "rationale": "Coroutines handle concurrency; data binding connects UI components to data sources directly."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is the primary purpose of utilizing the Navigation Component within Android application development projects?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage dependencies and simplify the build process of Android applications during development phases.",
+          "is_correct": false,
+          "rationale": "Gradle manages dependencies; Navigation Component handles app navigation and transitions."
+        },
+        {
+          "key": "B",
+          "text": "To simplify the implementation of app navigation, including handling fragment transactions and back stack management.",
+          "is_correct": true,
+          "rationale": "Navigation Component simplifies navigation and fragment management within Android applications."
+        },
+        {
+          "key": "C",
+          "text": "To write automated UI tests that interact with the application as a real user would naturally interact.",
+          "is_correct": false,
+          "rationale": "Espresso is for UI testing; Navigation Component handles app navigation and transitions effectively."
+        },
+        {
+          "key": "D",
+          "text": "To store and manage UI-related data in a lifecycle-conscious way, surviving configuration changes effectively.",
+          "is_correct": false,
+          "rationale": "ViewModel manages lifecycle data; Navigation Component handles app navigation and transitions."
+        },
+        {
+          "key": "E",
+          "text": "To provide a way to write asynchronous, non-blocking code in a sequential and readable programming style.",
+          "is_correct": false,
+          "rationale": "Coroutines handle concurrency; Navigation Component handles app navigation and transitions."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What is the primary purpose of utilizing the ExoPlayer library within Android application development projects?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage dependencies and simplify the build process of Android applications during development phases.",
+          "is_correct": false,
+          "rationale": "Gradle manages dependencies; ExoPlayer is for media playback and customization options."
+        },
+        {
+          "key": "B",
+          "text": "To provide a flexible and customizable media playback library for playing audio and video content efficiently.",
+          "is_correct": true,
+          "rationale": "ExoPlayer provides advanced media playback capabilities and customization for Android applications."
+        },
+        {
+          "key": "C",
+          "text": "To write automated UI tests that interact with the application as a real user would naturally interact.",
+          "is_correct": false,
+          "rationale": "Espresso is for UI testing; ExoPlayer is specifically designed for media playback functionalities."
+        },
+        {
+          "key": "D",
+          "text": "To store and manage UI-related data in a lifecycle-conscious way, surviving configuration changes effectively.",
+          "is_correct": false,
+          "rationale": "ViewModel manages lifecycle data; ExoPlayer is for media playback and customization options."
+        },
+        {
+          "key": "E",
+          "text": "To simplify the implementation of app navigation, including handling fragment transactions and back stack management.",
+          "is_correct": false,
+          "rationale": "Navigation Component handles navigation; ExoPlayer is for media playback and customization."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What is the primary purpose of utilizing Firebase Cloud Messaging (FCM) within Android applications?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage dependencies and simplify the build process of Android applications during development phases.",
+          "is_correct": false,
+          "rationale": "Gradle manages dependencies; FCM handles push notifications and real-time communication."
+        },
+        {
+          "key": "B",
+          "text": "To send push notifications to Android devices from a server, enabling real-time communication capabilities.",
+          "is_correct": true,
+          "rationale": "FCM is a reliable and scalable solution for sending push notifications to Android devices."
+        },
+        {
+          "key": "C",
+          "text": "To write automated UI tests that interact with the application as a real user would naturally interact.",
+          "is_correct": false,
+          "rationale": "Espresso is for UI testing; FCM handles push notifications and real-time communication effectively."
+        },
+        {
+          "key": "D",
+          "text": "To store and manage UI-related data in a lifecycle-conscious way, surviving configuration changes effectively.",
+          "is_correct": false,
+          "rationale": "ViewModel manages lifecycle data; FCM handles push notifications and real-time communication."
+        },
+        {
+          "key": "E",
+          "text": "To provide a flexible and customizable media playback library for playing audio and video content efficiently.",
+          "is_correct": false,
+          "rationale": "ExoPlayer is for media playback; FCM handles push notifications and real-time communication effectively."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is the primary purpose of utilizing the Android Jetpack Compose library in development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage background tasks and schedule them efficiently, even when the app is closed or inactive.",
+          "is_correct": false,
+          "rationale": "WorkManager is for background tasks; Compose is for modern UI development and declarative coding."
+        },
+        {
+          "key": "B",
+          "text": "To build native Android UI with declarative code, simplifying UI development and maintenance processes.",
+          "is_correct": true,
+          "rationale": "Compose provides a modern, declarative approach to building Android UIs efficiently."
+        },
+        {
+          "key": "C",
+          "text": "To manage data access from multiple sources, such as local databases and remote servers efficiently.",
+          "is_correct": false,
+          "rationale": "Repositories manage data access; Compose is for UI development and declarative coding practices."
+        },
+        {
+          "key": "D",
+          "text": "To inject dependencies into Android components, promoting loose coupling and improved testability overall.",
+          "is_correct": false,
+          "rationale": "Dependency Injection frameworks handle dependency injection; Compose is for UI development."
+        },
+        {
+          "key": "E",
+          "text": "To write automated UI tests that simulate user interactions and verify UI behavior effectively and reliably.",
+          "is_correct": false,
+          "rationale": "Espresso is for UI testing; Compose is for UI development and declarative coding practices overall."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is the primary purpose of utilizing the Android App Bundle format for application delivery?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage dependencies and simplify the build process of Android applications during development phases.",
+          "is_correct": false,
+          "rationale": "Gradle manages dependencies; App Bundle is for app delivery optimization and efficiency."
+        },
+        {
+          "key": "B",
+          "text": "To generate optimized APKs for different device configurations, reducing app size and install times overall.",
+          "is_correct": true,
+          "rationale": "App Bundles enable dynamic delivery of app components based on device configuration efficiently."
+        },
+        {
+          "key": "C",
+          "text": "To write automated UI tests that interact with the application as a real user would naturally interact.",
+          "is_correct": false,
+          "rationale": "Espresso is for UI testing; App Bundle is for app delivery optimization and efficiency overall."
+        },
+        {
+          "key": "D",
+          "text": "To store and manage UI-related data in a lifecycle-conscious way, surviving configuration changes effectively.",
+          "is_correct": false,
+          "rationale": "ViewModel manages lifecycle data; App Bundle is for app delivery optimization and efficiency."
+        },
+        {
+          "key": "E",
+          "text": "To provide a flexible and customizable media playback library for playing audio and video content efficiently.",
+          "is_correct": false,
+          "rationale": "ExoPlayer is for media playback; App Bundle is for app delivery optimization and efficiency overall."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What is the primary purpose of utilizing Kotlin Flow for handling asynchronous data streams effectively?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage dependencies and simplify the build process of Android applications during development phases.",
+          "is_correct": false,
+          "rationale": "Gradle manages dependencies; Kotlin Flow handles asynchronous data streams efficiently."
+        },
+        {
+          "key": "B",
+          "text": "To provide a reactive streams implementation for handling asynchronous data streams in a structured manner.",
+          "is_correct": true,
+          "rationale": "Kotlin Flow simplifies asynchronous data stream processing with reactive operators effectively."
+        },
+        {
+          "key": "C",
+          "text": "To write automated UI tests that interact with the application as a real user would naturally interact.",
+          "is_correct": false,
+          "rationale": "Espresso is for UI testing; Kotlin Flow handles asynchronous data streams efficiently and reliably."
+        },
+        {
+          "key": "D",
+          "text": "To store and manage UI-related data in a lifecycle-conscious way, surviving configuration changes effectively.",
+          "is_correct": false,
+          "rationale": "ViewModel manages lifecycle data; Kotlin Flow handles asynchronous data streams efficiently."
+        },
+        {
+          "key": "E",
+          "text": "To provide a flexible and customizable media playback library for playing audio and video content efficiently.",
+          "is_correct": false,
+          "rationale": "ExoPlayer is for media playback; Kotlin Flow handles asynchronous data streams efficiently and reliably."
+        }
+      ]
+    }
+  ]
+}

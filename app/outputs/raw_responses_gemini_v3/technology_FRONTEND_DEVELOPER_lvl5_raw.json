@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 101,
+      "question": "How can a developer most effectively prevent layout thrashing when performing multiple, sequential DOM manipulations in JavaScript?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Wrap every single DOM write operation inside its own `requestAnimationFrame` callback to batch them.",
+          "is_correct": false,
+          "rationale": "This is inefficient and doesn't solve the core issue of interleaved reads/writes, which is the cause of thrashing."
+        },
+        {
+          "key": "B",
+          "text": "Batch all DOM read operations first, then perform all DOM write operations together to avoid interleaved access.",
+          "is_correct": true,
+          "rationale": "This approach avoids the read/write/read/write cycle that forces the browser to repeatedly recalculate layout, thus preventing thrashing."
+        },
+        {
+          "key": "C",
+          "text": "Utilize CSS containment on the parent element to isolate it from the rest of the document layout.",
+          "is_correct": false,
+          "rationale": "Containment can limit the scope of layout recalculation but does not prevent thrashing caused by interleaved reads/writes within the element itself."
+        },
+        {
+          "key": "D",
+          "text": "Wrap all DOM manipulations inside a `setTimeout` with a zero-millisecond delay to defer execution.",
+          "is_correct": false,
+          "rationale": "This only defers the problem to a future macrotask and does not inherently prevent the thrashing from occurring then."
+        },
+        {
+          "key": "E",
+          "text": "Employ Web Workers to offload all DOM calculations and manipulations from the main thread.",
+          "is_correct": false,
+          "rationale": "Web Workers do not have direct access to the DOM, so they cannot be used for DOM manipulation."
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "question": "When implementing micro-frontends using module federation, what is the primary role of the `shared` configuration in Webpack?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It defines the global CSS styles that will be shared across all of the micro-frontends.",
+          "is_correct": false,
+          "rationale": "Sharing CSS is a concern, but it is not the primary function of the `shared` configuration in module federation."
+        },
+        {
+          "key": "B",
+          "text": "It specifies which third-party libraries should be singletons, preventing multiple versions from being loaded.",
+          "is_correct": true,
+          "rationale": "The `shared` config is crucial for de-duplicating common dependencies like React, ensuring only one instance is loaded in the application."
+        },
+        {
+          "key": "C",
+          "text": "It creates a shared Web Worker pool for all micro-frontends to use for heavy computations.",
+          "is_correct": false,
+          "rationale": "Module federation does not manage Web Worker pools; this would need to be implemented separately."
+        },
+        {
+          "key": "D",
+          "text": "It exposes specific components from the host application to be consumed by the remote applications.",
+          "is_correct": false,
+          "rationale": "This is the function of the `exposes` configuration, not the `shared` configuration."
+        },
+        {
+          "key": "E",
+          "text": "It configures the remote entry points for each micro-frontend application that is being loaded.",
+          "is_correct": false,
+          "rationale": "This is the function of the `remotes` configuration, which tells the host where to find remote modules."
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "question": "What is the primary purpose of using a nonce-based Content Security Policy (CSP) for inline scripts?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To encrypt the content of inline scripts so they cannot be easily read by attackers.",
+          "is_correct": false,
+          "rationale": "CSP does not encrypt script content; it controls execution policies."
+        },
+        {
+          "key": "B",
+          "text": "To ensure only server-generated, whitelisted inline scripts are executed, mitigating injection-based XSS attacks.",
+          "is_correct": true,
+          "rationale": "A unique nonce generated on each request ensures that only scripts with that specific nonce can execute, blocking malicious injected scripts."
+        },
+        {
+          "key": "C",
+          "text": "To compress inline scripts, reducing the initial page load time and improving overall performance.",
+          "is_correct": false,
+          "rationale": "CSP is a security feature and is not related to asset compression or performance optimization."
+        },
+        {
+          "key": "D",
+          "text": "To allow all inline scripts to execute but log any suspicious activity to a server endpoint.",
+          "is_correct": false,
+          "rationale": "This describes the function of the `report-uri` or `report-to` directive, not the purpose of a nonce."
+        },
+        {
+          "key": "E",
+          "text": "To defer the execution of all inline scripts until the main document has fully loaded.",
+          "is_correct": false,
+          "rationale": "Script execution timing is controlled by attributes like `async` and `defer`, not by CSP nonces."
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "question": "In the browser's event loop, what is the execution order difference between a microtask and a macrotask?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Macrotasks are always executed before any microtasks within the same event loop cycle.",
+          "is_correct": false,
+          "rationale": "The opposite is true; the microtask queue is processed after the current macrotask completes."
+        },
+        {
+          "key": "B",
+          "text": "All pending microtasks are executed at the end of the current macrotask, before the next macrotask begins.",
+          "is_correct": true,
+          "rationale": "The event loop processes one macrotask, then drains the entire microtask queue before moving to rendering or the next macrotask."
+        },
+        {
+          "key": "C",
+          "text": "Microtasks and macrotasks are placed in the same queue and executed in a first-in, first-out order.",
+          "is_correct": false,
+          "rationale": "They are handled in separate, distinct queues with different processing rules and priorities."
+        },
+        {
+          "key": "D",
+          "text": "Microtasks are handled by Web Workers, while macrotasks are handled by the main thread.",
+          "is_correct": false,
+          "rationale": "Both task types are primarily handled on the main thread's event loop; Web Workers have their own separate event loops."
+        },
+        {
+          "key": "E",
+          "text": "Only one microtask is processed between each macrotask to ensure the UI remains responsive.",
+          "is_correct": false,
+          "rationale": "The entire microtask queue is drained completely, which can potentially block rendering if it contains many tasks."
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "question": "What is a significant drawback of using React Context for high-frequency state updates in a large application?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It does not support asynchronous state updates, requiring external libraries like Redux Thunk for that.",
+          "is_correct": false,
+          "rationale": "Context can hold functions that perform async operations, so this is not an inherent limitation."
+        },
+        {
+          "key": "B",
+          "text": "It causes all consuming components to re-render, even if they only use a non-updated part of the state.",
+          "is_correct": true,
+          "rationale": "Any update to the context value triggers a re-render in all consumers, which can lead to performance issues without memoization."
+        },
+        {
+          "key": "C",
+          "text": "Context state is not accessible within class components, limiting its use to functional components only.",
+          "is_correct": false,
+          "rationale": "Class components can access context via the `contextType` property or a `Context.Consumer` component."
+        },
+        {
+          "key": "D",
+          "text": "It cannot be used to pass functions or complex objects, it only supports primitive data types.",
+          "is_correct": false,
+          "rationale": "React Context can hold any JavaScript value, including complex objects, arrays, and functions."
+        },
+        {
+          "key": "E",
+          "text": "The state is automatically cleared whenever the user navigates to a different browser tab.",
+          "is_correct": false,
+          "rationale": "Context state persists within the component tree and is not affected by browser tab visibility."
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "question": "What is the primary advantage of using a Service Worker for caching assets over the standard HTTP cache?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It allows for finer-grained programmatic control over caching logic, enabling true offline-first experiences.",
+          "is_correct": true,
+          "rationale": "Service Workers act as a programmable proxy, allowing developers to implement custom caching strategies like stale-while-revalidate."
+        },
+        {
+          "key": "B",
+          "text": "The Service Worker cache has a significantly larger storage limit compared to the HTTP cache.",
+          "is_correct": false,
+          "rationale": "While storage limits can be large, the key advantage is programmatic control, not just size."
+        },
+        {
+          "key": "C",
+          "text": "It automatically invalidates cached assets whenever a new version is deployed to the server.",
+          "is_correct": false,
+          "rationale": "Cache invalidation logic must be explicitly written by the developer as part of the Service Worker's script."
+        },
+        {
+          "key": "D",
+          "text": "It can cache POST requests and other non-idempotent API calls, which HTTP cache cannot.",
+          "is_correct": false,
+          "rationale": "While Service Workers can intercept any request, caching non-idempotent requests is complex and not a primary advantage over HTTP cache."
+        },
+        {
+          "key": "E",
+          "text": "It encrypts all cached assets by default, providing a higher level of security for data.",
+          "is_correct": false,
+          "rationale": "The Cache API does not provide encryption by default; security relies on the application's origin."
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "question": "For tree shaking to be effective in a modern JavaScript bundler like Webpack or Rollup, what is most essential?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The code must be written using CommonJS modules (`require`/`module.exports`) exclusively for compatibility.",
+          "is_correct": false,
+          "rationale": "Tree shaking relies on the static structure of ES modules (`import`/`export`), not CommonJS."
+        },
+        {
+          "key": "B",
+          "text": "All dependencies must be listed as `peerDependencies` in the project's `package.json` file.",
+          "is_correct": false,
+          "rationale": "The type of dependency (`dependencies`, `devDependencies`, `peerDependencies`) does not determine tree shaking effectiveness."
+        },
+        {
+          "key": "C",
+          "text": "The project must utilize ES modules and avoid side-effect-ful module-level code for static analysis.",
+          "is_correct": true,
+          "rationale": "ES modules allow static analysis of imports/exports, and avoiding side effects lets the bundler safely remove unused code."
+        },
+        {
+          "key": "D",
+          "text": "The bundler's minifier plugin must be configured to aggressively remove unused function arguments.",
+          "is_correct": false,
+          "rationale": "This is a minification optimization, but tree shaking is the process of eliminating entire unused modules or exports."
+        },
+        {
+          "key": "E",
+          "text": "The application code must be written entirely in TypeScript for its static analysis capabilities.",
+          "is_correct": false,
+          "rationale": "While TypeScript can help, tree shaking is a feature of JavaScript bundlers that works on plain JavaScript using ES modules."
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "question": "When should a developer choose a `SharedWorker` over a standard `Web Worker` for a complex web application?",
+      "options": [
+        {
+          "key": "A",
+          "text": "When a background script needs to be shared and communicate across multiple browser tabs of the same origin.",
+          "is_correct": true,
+          "rationale": "A SharedWorker's key feature is its ability to be accessed by multiple browsing contexts (tabs, iframes) from the same origin."
+        },
+        {
+          "key": "B",
+          "text": "When a task requires direct access to the DOM for manipulation from a background thread.",
+          "is_correct": false,
+          "rationale": "Neither `Web Worker` nor `SharedWorker` can directly access or manipulate the DOM."
+        },
+        {
+          "key": "C",
+          "text": "When the background computation is short-lived and does not need to maintain any state.",
+          "is_correct": false,
+          "rationale": "A standard `Web Worker` is perfectly suitable and simpler for short-lived, stateless tasks."
+        },
+        {
+          "key": "D",
+          "text": "When you need to ensure the background task is terminated as soon as the user closes the tab.",
+          "is_correct": false,
+          "rationale": "A standard `Web Worker` is tied to the tab that created it and terminates with it."
+        },
+        {
+          "key": "E",
+          "text": "When the application needs to perform cryptographic operations that are not available in standard workers.",
+          "is_correct": false,
+          "rationale": "The available APIs, including the Web Crypto API, are generally the same for both worker types."
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "question": "How does the CSS `will-change` property help optimize rendering performance when used appropriately on an element?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It pre-calculates the final state of an animation, reducing the work needed during the transition.",
+          "is_correct": false,
+          "rationale": "The browser does not pre-calculate the final state; it prepares for the change by optimizing how the element is handled."
+        },
+        {
+          "key": "B",
+          "text": "It forces the browser to render the specified element using the CPU instead of the GPU.",
+          "is_correct": false,
+          "rationale": "It typically does the opposite, hinting that the element should be promoted to its own layer for GPU-accelerated composition."
+        },
+        {
+          "key": "C",
+          "text": "It informs the browser about expected transformations, allowing it to promote the element to its own compositor layer.",
+          "is_correct": true,
+          "rationale": "This isolates the element from the rest of the document, so its changes don't trigger repaints/reflows for other elements."
+        },
+        {
+          "key": "D",
+          "text": "It automatically defers the loading of non-critical CSS rules until after the page is interactive.",
+          "is_correct": false,
+          "rationale": "`will-change` is a rendering performance hint, not a resource loading optimization property."
+        },
+        {
+          "key": "E",
+          "text": "It compresses the CSSOM, leading to faster style recalculation for the entire document tree.",
+          "is_correct": false,
+          "rationale": "This property affects a specific element's rendering and does not have any impact on CSSOM compression."
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "question": "What is the purpose of the `aria-live` attribute in making a dynamic web application more accessible?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It indicates that an element's content can be edited directly by the user, similar to `contenteditable`.",
+          "is_correct": false,
+          "rationale": "This describes editable content, whereas `aria-live` is for announcing changes in non-focused areas."
+        },
+        {
+          "key": "B",
+          "text": "It instructs screen readers to announce content changes in a region without the user having to focus on it.",
+          "is_correct": true,
+          "rationale": "This is crucial for things like notifications or status updates that happen outside the user's current point of focus."
+        },
+        {
+          "key": "C",
+          "text": "It provides a live video stream transcription for users with hearing impairments.",
+          "is_correct": false,
+          "rationale": "Video accessibility is handled by other means, such as `<track>` elements, not the `aria-live` attribute."
+        },
+        {
+          "key": "D",
+          "text": "It marks a section of the page that updates in real-time from a WebSocket connection.",
+          "is_correct": false,
+          "rationale": "While a live region might be updated by a WebSocket, the attribute's purpose is to signal the update to assistive technologies."
+        },
+        {
+          "key": "E",
+          "text": "It ensures that all ARIA attributes are validated against the latest W3C specification.",
+          "is_correct": false,
+          "rationale": "ARIA validation is a developer tooling or linting concern, not a function of any specific ARIA attribute."
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "question": "In JavaScript, what is a common cause of a detached DOM tree memory leak in a single-page application?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using `let` or `const` instead of `var` for variable declarations inside component functions.",
+          "is_correct": false,
+          "rationale": "Variable declaration keywords relate to scope and hoisting, not the creation of detached DOM tree leaks."
+        },
+        {
+          "key": "B",
+          "text": "A component is removed from the DOM, but a reference to it or its child nodes is held in memory.",
+          "is_correct": true,
+          "rationale": "If a variable or event listener holds a reference to a DOM node that is no longer in the document, it cannot be garbage collected."
+        },
+        {
+          "key": "C",
+          "text": "Forgetting to unsubscribe from a WebSocket connection when a component is unmounted from the DOM.",
+          "is_correct": false,
+          "rationale": "This causes a memory leak, but it's a network/callback leak, not specifically a detached DOM tree leak."
+        },
+        {
+          "key": "D",
+          "text": "Storing large JSON objects in `localStorage` instead of `sessionStorage`, causing memory bloat.",
+          "is_correct": false,
+          "rationale": "`localStorage` persists on disk and doesn't directly cause detached DOM tree memory leaks in JavaScript's heap."
+        },
+        {
+          "key": "E",
+          "text": "Declaring event listeners on the `window` object without using the `passive: true` option.",
+          "is_correct": false,
+          "rationale": "The `passive` option is a performance optimization to prevent `preventDefault`, not a mechanism for preventing memory leaks."
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "question": "In a large-scale application using a Redux-like pattern, what is the primary benefit of using selectors?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To directly mutate the state object, bypassing the need for reducers and actions.",
+          "is_correct": false,
+          "rationale": "This violates the core principle of immutable state in Redux; selectors are for reading state, not writing it."
+        },
+        {
+          "key": "B",
+          "text": "To provide a layer of abstraction and compute derived data, often with memoization for performance.",
+          "is_correct": true,
+          "rationale": "Selectors decouple components from the state shape and efficiently compute derived data, preventing unnecessary re-renders."
+        },
+        {
+          "key": "C",
+          "text": "To enforce TypeScript types on the state tree, ensuring data integrity at compile time.",
+          "is_correct": false,
+          "rationale": "TypeScript itself provides type safety for the state tree; selectors are a runtime concept for data access."
+        },
+        {
+          "key": "D",
+          "text": "To automatically split the Redux store into smaller, more manageable slices for lazy loading.",
+          "is_correct": false,
+          "rationale": "Reducer injection and code splitting handle lazy loading of store logic, not selectors."
+        },
+        {
+          "key": "E",
+          "text": "To handle asynchronous API calls and side effects directly within the component's render method.",
+          "is_correct": false,
+          "rationale": "Side effects are handled by middleware like Thunks or Sagas, not by selectors, which should be pure functions."
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "question": "What is the key difference between the Critical Rendering Path and the browser's Long Tasks API?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Critical Rendering Path focuses on initial page load, while the Long Tasks API identifies post-load UI freezes.",
+          "is_correct": true,
+          "rationale": "CRP is about the sequence to render the first view. Long Tasks API reports any main thread blockages over 50ms, often post-load."
+        },
+        {
+          "key": "B",
+          "text": "The Critical Rendering Path is a deprecated metric, replaced entirely by the Long Tasks API.",
+          "is_correct": false,
+          "rationale": "Both are relevant; CRP is a conceptual model for initial load performance, while the Long Tasks API is a specific measurement API."
+        },
+        {
+          "key": "C",
+          "text": "The Long Tasks API measures server response time, while the Critical Rendering Path measures client-side rendering.",
+          "is_correct": false,
+          "rationale": "Both are concerned with client-side performance. Server response time is measured by metrics like Time to First Byte (TTFB)."
+        },
+        {
+          "key": "D",
+          "text": "The Critical Rendering Path optimizes image loading, whereas the Long Tasks API optimizes JavaScript execution.",
+          "is_correct": false,
+          "rationale": "The CRP includes HTML, CSS, and JavaScript. Long tasks are often caused by JavaScript but can be from other sources."
+        },
+        {
+          "key": "E",
+          "text": "They are identical concepts, but the Long Tasks API is the official W3C specification name.",
+          "is_correct": false,
+          "rationale": "They are distinct concepts measuring different aspects of application performance at different times."
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "question": "Which HTTP cookie attribute is most effective at mitigating Cross-Site Request Forgery (CSRF) attacks on modern browsers?",
+      "options": [
+        {
+          "key": "A",
+          "text": "`Secure` to ensure the cookie is only sent over encrypted HTTPS connections.",
+          "is_correct": false,
+          "rationale": "The `Secure` attribute is critical for preventing man-in-the-middle attacks but does not stop CSRF."
+        },
+        {
+          "key": "B",
+          "text": "`HttpOnly` to prevent the cookie from being accessed by client-side JavaScript scripts.",
+          "is_correct": false,
+          "rationale": "`HttpOnly` is a primary defense against Cross-Site Scripting (XSS), not CSRF."
+        },
+        {
+          "key": "C",
+          "text": "`Content-Security-Policy` with a strict `script-src` directive to block unauthorized scripts.",
+          "is_correct": false,
+          "rationale": "This is an HTTP header, not a cookie attribute, and it is primarily used to mitigate XSS attacks."
+        },
+        {
+          "key": "D",
+          "text": "`SameSite=Strict` or `SameSite=Lax` to control when the browser sends the cookie with cross-site requests.",
+          "is_correct": true,
+          "rationale": "This attribute directly prevents the browser from sending the cookie on cross-origin requests, which is the basis of a CSRF attack."
+        },
+        {
+          "key": "E",
+          "text": "`Expires` to set a specific expiration date for the cookie to limit its lifetime.",
+          "is_correct": false,
+          "rationale": "Limiting a cookie's lifetime is good practice but does not prevent CSRF attacks while the cookie is still valid."
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "question": "When using dynamic `import()` for route-based code splitting, what is a primary performance consideration for user experience?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensuring the server is configured to use HTTP/2 to handle the increased number of requests.",
+          "is_correct": false,
+          "rationale": "HTTP/2 is beneficial for performance, but it doesn't address the latency of loading the next chunk on demand."
+        },
+        {
+          "key": "B",
+          "text": "Pre-loading or prefetching the JavaScript chunks for likely next navigations to hide network latency.",
+          "is_correct": true,
+          "rationale": "Prefetching downloads the chunk for a likely next route into the cache, making the actual navigation feel instantaneous."
+        },
+        {
+          "key": "C",
+          "text": "Using a global state manager like Redux to store the dynamically loaded modules.",
+          "is_correct": false,
+          "rationale": "Modules are managed by the browser's module system and the bundler's runtime, not a state management library."
+        },
+        {
+          "key": "D",
+          "text": "Avoiding the use of default exports in dynamically imported modules for better tree shaking.",
+          "is_correct": false,
+          "rationale": "Tree shaking is applied at build time; dynamic imports are about splitting the code that has already been shaken."
+        },
+        {
+          "key": "E",
+          "text": "Compiling all dynamic imports into a single background Web Worker to avoid blocking the main thread.",
+          "is_correct": false,
+          "rationale": "Dynamic imports load code for the main thread to execute; they don't inherently involve Web Workers."
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "question": "What is a key advantage of using the Streams API to process a large file download from a server?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It allows the entire file to be loaded into a single ArrayBuffer for faster random access.",
+          "is_correct": false,
+          "rationale": "This describes the traditional, non-streaming approach, which can consume a large amount of memory."
+        },
+        {
+          "key": "B",
+          "text": "It enables the application to start processing the data chunk-by-chunk as it arrives, reducing memory usage.",
+          "is_correct": true,
+          "rationale": "Streaming avoids buffering the entire file in memory, making it ideal for large datasets and improving responsiveness."
+        },
+        {
+          "key": "C",
+          "text": "It automatically encrypts the data transfer between the server and the client using a secure protocol.",
+          "is_correct": false,
+          "rationale": "Encryption is handled by the transport layer (HTTPS/TLS), not by the Streams API itself."
+        },
+        {
+          "key": "D",
+          "text": "It guarantees that the file chunks will always arrive in the correct sequential order.",
+          "is_correct": false,
+          "rationale": "This is a feature of the underlying TCP protocol, not a unique advantage provided by the Streams API."
+        },
+        {
+          "key": "E",
+          "text": "It offloads the entire download and processing logic to a Service Worker by default.",
+          "is_correct": false,
+          "rationale": "Streams can be used in the main thread, Web Workers, or Service Workers, but it is not a default behavior."
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "question": "In a monorepo architecture for a large frontend project, what is the primary purpose of a tool like Nx?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To transpile all code from different packages into a single, monolithic JavaScript file for deployment.",
+          "is_correct": false,
+          "rationale": "Monorepo tools manage multiple packages, which are typically built and deployed independently or as a coordinated group."
+        },
+        {
+          "key": "B",
+          "text": "To manage dependencies and orchestrate build/test processes across multiple interdependent packages efficiently.",
+          "is_correct": true,
+          "rationale": "These tools understand the dependency graph, enabling them to rebuild/retest only the affected parts of the monorepo."
+        },
+        {
+          "key": "C",
+          "text": "To enforce a specific code formatting style, like Prettier, across all packages in the repository.",
+          "is_correct": false,
+          "rationale": "While they can be configured to run formatters, their primary purpose is build orchestration and dependency management."
+        },
+        {
+          "key": "D",
+          "text": "To automatically convert all packages into independent micro-frontends using module federation.",
+          "is_correct": false,
+          "rationale": "They can be used to build micro-frontends, but they do not perform this conversion automatically."
+        },
+        {
+          "key": "E",
+          "text": "To provide a cloud-based IDE for developing multiple packages simultaneously in a single workspace.",
+          "is_correct": false,
+          "rationale": "These are command-line build tools that work with local development environments, not cloud-based IDEs."
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "question": "What is the main goal of implementing visual regression testing in a frontend CI/CD pipeline?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To verify that all API endpoints return the correct data structure and status codes.",
+          "is_correct": false,
+          "rationale": "This is the purpose of API integration testing or contract testing, not visual regression testing."
+        },
+        {
+          "key": "B",
+          "text": "To ensure that the application's JavaScript bundle size does not exceed a predefined budget.",
+          "is_correct": false,
+          "rationale": "This is accomplished using performance budget testing tools, not visual comparison tools."
+        },
+        {
+          "key": "C",
+          "text": "To automatically catch unintended UI changes by comparing screenshots of components against a baseline.",
+          "is_correct": true,
+          "rationale": "This form of testing is designed to detect visual bugs in layout, styling, or rendering that unit/integration tests would miss."
+        },
+        {
+          "key": "D",
+          "text": "To check for accessibility violations by analyzing the rendered DOM against WCAG standards.",
+          "is_correct": false,
+          "rationale": "This is the purpose of automated accessibility testing tools like Axe or Pa11y."
+        },
+        {
+          "key": "E",
+          "text": "To confirm that all user-facing text is correctly translated for internationalization support.",
+          "is_correct": false,
+          "rationale": "While visual testing might catch a missing translation, its main purpose is not to verify translation content."
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "question": "How does the JavaScript engine's Just-In-Time (JIT) compilation process optimize frequently executed code?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It translates the entire JavaScript source code into machine code before any execution begins.",
+          "is_correct": false,
+          "rationale": "This describes Ahead-Of-Time (AOT) compilation, which is different from the runtime nature of JIT."
+        },
+        {
+          "key": "B",
+          "text": "It identifies hot code paths during execution, compiles them to optimized machine code, and replaces the interpreted version.",
+          "is_correct": true,
+          "rationale": "JIT combines interpretation with compilation by optimizing frequently run code at runtime for significant performance gains."
+        },
+        {
+          "key": "C",
+          "text": "It moves frequently called functions into a separate Web Worker to run them in parallel.",
+          "is_correct": false,
+          "rationale": "Offloading to a Web Worker is a manual process done by the developer, not an automatic engine optimization."
+        },
+        {
+          "key": "D",
+          "text": "It caches the return values of pure functions, automatically memoizing them at the engine level.",
+          "is_correct": false,
+          "rationale": "Memoization is a programming pattern that developers must implement; it is not an automatic feature of JIT compilers."
+        },
+        {
+          "key": "E",
+          "text": "It rewrites frequently used variable names to be shorter, reducing the overall file size.",
+          "is_correct": false,
+          "rationale": "This is a description of minification, a build-time process, not a runtime JIT optimization."
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "question": "What is a primary architectural benefit of adopting a CSS-in-JS solution like Styled Components or Emotion?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It eliminates the need for CSS preprocessors like Sass or Less entirely.",
+          "is_correct": false,
+          "rationale": "While it can replace preprocessors, the main architectural benefit is component-level style encapsulation."
+        },
+        {
+          "key": "B",
+          "text": "It guarantees that all CSS animations will be hardware-accelerated by the browser's GPU.",
+          "is_correct": false,
+          "rationale": "Hardware acceleration is determined by the CSS properties used (e.g., transform), not the styling methodology."
+        },
+        {
+          "key": "C",
+          "text": "It automatically generates unique class names, scoping styles to components and preventing global namespace collisions.",
+          "is_correct": true,
+          "rationale": "This local scoping is a core benefit, preventing style leaks and conflicts that are common in large applications with global CSS."
+        },
+        {
+          "key": "D",
+          "text": "It reduces the final CSS bundle size to zero by inlining all styles directly into HTML elements.",
+          "is_correct": false,
+          "rationale": "These libraries typically generate and inject a `<style>` tag, they do not use inline `style` attributes for everything."
+        },
+        {
+          "key": "E",
+          "text": "It allows developers to write CSS using JavaScript syntax, improving type safety with TypeScript.",
+          "is_correct": false,
+          "rationale": "While this is a feature, the primary architectural benefit is the robust style encapsulation and component-colocation."
+        }
+      ]
+    }
+  ]
+}

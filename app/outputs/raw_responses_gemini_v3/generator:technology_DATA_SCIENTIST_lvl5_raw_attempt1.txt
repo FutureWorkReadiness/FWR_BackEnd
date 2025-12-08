@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "When estimating the causal effect of a treatment on an outcome, what is the primary purpose of using propensity score matching?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To increase the statistical power of the analysis by artificially inflating the effective sample size of the study.",
+          "is_correct": false,
+          "rationale": "Propensity score matching often reduces the sample size by discarding unmatched units, which can decrease statistical power."
+        },
+        {
+          "key": "B",
+          "text": "To balance the distribution of observed covariates between the treatment and control groups, mimicking a randomized experiment.",
+          "is_correct": true,
+          "rationale": "This method aims to create comparable groups by balancing covariates, thus reducing selection bias from observed confounders."
+        },
+        {
+          "key": "C",
+          "text": "To directly model the relationship between the treatment assignment and the final outcome variable using a logistic function.",
+          "is_correct": false,
+          "rationale": "Propensity scores model the probability of treatment given covariates, not the relationship between treatment and outcome."
+        },
+        {
+          "key": "D",
+          "text": "To identify and completely remove all unobserved confounding variables that might bias the final estimated results.",
+          "is_correct": false,
+          "rationale": "This method can only account for observed confounders included in the model, not unobserved ones."
+        },
+        {
+          "key": "E",
+          "text": "To reduce the dimensionality of the feature space before applying a high-dimensional predictive classification model.",
+          "is_correct": false,
+          "rationale": "While it collapses covariates into a single score, its primary purpose is for causal inference, not general dimensionality reduction."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "In training deep Recurrent Neural Networks, what is the most effective and common technique to mitigate the exploding gradient problem?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using a very small, fixed learning rate throughout the entire training process to prevent large parameter updates.",
+          "is_correct": false,
+          "rationale": "A small learning rate can slow down convergence and is not a direct or robust solution for exploding gradients."
+        },
+        {
+          "key": "B",
+          "text": "Applying dropout regularization only to the recurrent connections between hidden states at different time steps in the network.",
+          "is_correct": false,
+          "rationale": "Dropout on recurrent connections is complex and primarily addresses overfitting, not exploding gradients."
+        },
+        {
+          "key": "C",
+          "text": "Implementing gradient clipping, which rescales the gradients if their vector norm exceeds a predefined threshold value.",
+          "is_correct": true,
+          "rationale": "Gradient clipping is the standard and most direct method to prevent gradients from becoming too large and destabilizing training."
+        },
+        {
+          "key": "D",
+          "text": "Increasing the depth of the network to allow gradients to propagate through more non-linear activation functions.",
+          "is_correct": false,
+          "rationale": "Increasing depth is more likely to worsen the vanishing or exploding gradient problem, not mitigate it."
+        },
+        {
+          "key": "E",
+          "text": "Employing batch normalization after every recurrent layer to standardize the activations and stabilize the learning process.",
+          "is_correct": false,
+          "rationale": "Batch normalization is more effective for vanishing gradients and its application in RNNs is more complex than in CNNs."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Under which scenario is a multi-armed bandit approach generally preferred over a traditional A/B/n test for online experimentation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "When the primary goal is to achieve the highest possible statistical significance for a single winning variant.",
+          "is_correct": false,
+          "rationale": "A/B tests are better for statistical rigor and understanding the magnitude of the difference between variants."
+        },
+        {
+          "key": "B",
+          "text": "When the cost of exploring inferior options is high and you need to dynamically allocate traffic to better-performing variants.",
+          "is_correct": true,
+          "rationale": "Bandits minimize regret by shifting traffic towards winning variants early, reducing the cost of showing users inferior options."
+        },
+        {
+          "key": "C",
+          "text": "When you have a very long experiment duration and seasonality effects are the main concern for your analysis.",
+          "is_correct": false,
+          "rationale": "Both methods are affected by seasonality; this condition does not inherently favor bandits over A/B tests."
+        },
+        {
+          "key": "D",
+          "text": "When you need to understand the causal impact of multiple interacting changes being tested simultaneously in the experiment.",
+          "is_correct": false,
+          "rationale": "Factorial designs or multivariate tests are more appropriate for studying interactions between multiple changes."
+        },
+        {
+          "key": "E",
+          "text": "When the experiment requires a fixed sample size for each variant to satisfy strict regulatory or legal compliance.",
+          "is_correct": false,
+          "rationale": "A/B tests use fixed allocation, making them suitable for this constraint, whereas bandits use dynamic allocation."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is the most robust strategy for detecting concept drift in a deployed machine learning model?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Periodically retraining the model on the entire historical dataset to ensure it captures all past patterns effectively.",
+          "is_correct": false,
+          "rationale": "Retraining is a reaction to drift, not a method for detecting it. It does not provide an alert."
+        },
+        {
+          "key": "B",
+          "text": "Monitoring the model's prediction latency and throughput to detect any slowdowns in the production serving environment.",
+          "is_correct": false,
+          "rationale": "This monitors operational health (system performance), not the statistical properties or accuracy of the model's predictions."
+        },
+        {
+          "key": "C",
+          "text": "Tracking the distribution of the model's prediction scores and comparing it against the distribution from a reference dataset.",
+          "is_correct": true,
+          "rationale": "A shift in the output distribution is a strong, direct indicator that the relationship between inputs and outputs has changed."
+        },
+        {
+          "key": "D",
+          "text": "Analyzing the model's source code for any changes or updates committed by the software engineering team.",
+          "is_correct": false,
+          "rationale": "This tracks model versioning but does not provide any information about how the data environment is changing."
+        },
+        {
+          "key": "E",
+          "text": "Comparing the model's accuracy on a static, held-out test set from the original training period.",
+          "is_correct": false,
+          "rationale": "This validates the original model performance but will not detect drift occurring with new, live data."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What is the fundamental difference between a permutation test and bootstrapping when assessing the significance of an observed effect?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Permutation tests are exclusively for parametric models, while bootstrapping is a non-parametric technique for any given model.",
+          "is_correct": false,
+          "rationale": "Both are non-parametric resampling methods that do not rely on assumptions about the underlying data distribution."
+        },
+        {
+          "key": "B",
+          "text": "Bootstrapping samples with replacement to estimate a sampling distribution, while permutation tests re-label data to simulate the null hypothesis.",
+          "is_correct": true,
+          "rationale": "This correctly states the core mechanical and philosophical difference between the two resampling techniques."
+        },
+        {
+          "key": "C",
+          "text": "Permutation tests require a much larger sample size to converge and produce reliable results compared to the bootstrapping method.",
+          "is_correct": false,
+          "rationale": "Both methods' reliability depends on the number of resamples, not necessarily the original sample size in this comparative way."
+        },
+        {
+          "key": "D",
+          "text": "Bootstrapping is used to estimate confidence intervals, whereas permutation tests are only used for calculating p-values.",
+          "is_correct": false,
+          "rationale": "While this is a common use case, both methods can be adapted to construct confidence intervals and perform hypothesis tests."
+        },
+        {
+          "key": "E",
+          "text": "Permutation tests assume the underlying data distribution is normal, a constraint not required by the bootstrapping method.",
+          "is_correct": false,
+          "rationale": "Neither method assumes a normal distribution, which is a key advantage of using non-parametric tests."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "In the Transformer architecture, what is the primary function of the self-attention mechanism within the encoder and decoder layers?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To reduce the computational complexity of the model by applying a convolutional filter over the input token sequence.",
+          "is_correct": false,
+          "rationale": "Self-attention has a quadratic complexity with respect to sequence length and is not a convolutional operation."
+        },
+        {
+          "key": "B",
+          "text": "To maintain a recurrent state that captures sequential information from the beginning of the input text string.",
+          "is_correct": false,
+          "rationale": "Transformers are not recurrent; self-attention allows parallel processing of all tokens, unlike RNNs."
+        },
+        {
+          "key": "C",
+          "text": "To weigh the importance of different words in the input sequence when encoding a representation for a specific word.",
+          "is_correct": true,
+          "rationale": "Self-attention computes scores that determine how much focus to place on other words when processing a given word."
+        },
+        {
+          "key": "D",
+          "text": "To generate a single fixed-size context vector that summarizes the entire input sequence for the decoder to use.",
+          "is_correct": false,
+          "rationale": "Unlike older encoder-decoder models, attention provides a dynamic, weighted view of the entire input at each decoding step."
+        },
+        {
+          "key": "E",
+          "text": "To apply positional encodings to the word embeddings, giving the model a sense of word order and position.",
+          "is_correct": false,
+          "rationale": "Positional encodings are added to the embeddings before they are fed into the attention layers; they are a separate component."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "When analyzing a non-stationary time series, what is a key advantage of using differencing as a preprocessing step for an ARIMA model?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It amplifies the seasonal components within the data, making them easier for the model to detect and model.",
+          "is_correct": false,
+          "rationale": "Differencing can be used to remove seasonality (seasonal differencing), not amplify it for modeling purposes."
+        },
+        {
+          "key": "B",
+          "text": "It transforms the data to have a constant mean and variance over time, satisfying the stationarity assumption.",
+          "is_correct": true,
+          "rationale": "Differencing removes trends and cycles, which helps stabilize the mean and makes the series stationary."
+        },
+        {
+          "key": "C",
+          "text": "It automatically imputes any missing values present in the original time series data using linear interpolation methods.",
+          "is_correct": false,
+          "rationale": "Differencing is a transformation for stationarity and does not handle missing value imputation."
+        },
+        {
+          "key": "D",
+          "text": "It smooths out random noise and short-term fluctuations, revealing only the long-term underlying trend in the data.",
+          "is_correct": false,
+          "rationale": "This describes a moving average or smoothing technique, whereas differencing highlights changes between time steps."
+        },
+        {
+          "key": "E",
+          "text": "It converts the time series into a supervised learning problem by creating lagged feature variables for prediction.",
+          "is_correct": false,
+          "rationale": "Creating lagged features is a general technique for time series forecasting, not the specific purpose of differencing for ARIMA."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "When visualizing high-dimensional data, what is a primary advantage of UMAP over t-SNE for exploratory data analysis?",
+      "options": [
+        {
+          "key": "A",
+          "text": "UMAP is guaranteed to find the optimal two-dimensional representation that is linearly separable for classification tasks.",
+          "is_correct": false,
+          "rationale": "Neither UMAP nor t-SNE provides such guarantees; they are non-linear methods focused on preserving data structure."
+        },
+        {
+          "key": "B",
+          "text": "UMAP is significantly better at preserving the global structure of the data in the low-dimensional embedding.",
+          "is_correct": true,
+          "rationale": "While both preserve local structure, UMAP's theoretical foundation allows it to better maintain the data's global topology."
+        },
+        {
+          "key": "C",
+          "text": "t-SNE requires the user to specify the number of clusters, while UMAP automatically determines the optimal number.",
+          "is_correct": false,
+          "rationale": "Neither method is a clustering algorithm, and neither requires a specified number of clusters as a parameter."
+        },
+        {
+          "key": "D",
+          "text": "UMAP embeddings are deterministic, producing the exact same output every time, unlike the stochastic t-SNE.",
+          "is_correct": false,
+          "rationale": "UMAP also has a stochastic element in its optimization process, though it can be controlled with a random seed."
+        },
+        {
+          "key": "E",
+          "text": "t-SNE is computationally much more expensive and cannot scale to datasets with more than a few thousand samples.",
+          "is_correct": false,
+          "rationale": "While UMAP is generally faster, modern t-SNE implementations can scale to millions of samples."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "In what specific modeling scenario would Elastic Net regularization be theoretically more advantageous than using either Lasso or Ridge regression alone?",
+      "options": [
+        {
+          "key": "A",
+          "text": "When the dataset has a very small number of features but a very large number of observations.",
+          "is_correct": false,
+          "rationale": "In this p << n scenario, standard regression often performs well, and the specific advantages of Elastic Net are less pronounced."
+        },
+        {
+          "key": "B",
+          "text": "When you have a group of highly correlated predictor variables and you want to perform feature selection.",
+          "is_correct": true,
+          "rationale": "Elastic Net can select the entire group of correlated features, while Lasso tends to arbitrarily select only one."
+        },
+        {
+          "key": "C",
+          "text": "When you are certain that all predictor variables have a non-zero effect on the target variable.",
+          "is_correct": false,
+          "rationale": "In this case, Ridge regression would be more appropriate as it shrinks coefficients without setting them to zero."
+        },
+        {
+          "key": "D",
+          "text": "When the primary goal is to create the most interpretable model with the fewest possible coefficients.",
+          "is_correct": false,
+          "rationale": "Lasso regression is typically preferred for creating sparse models with the minimum number of non-zero coefficients."
+        },
+        {
+          "key": "E",
+          "text": "When the model must be trained online with streaming data that arrives sequentially over time.",
+          "is_correct": false,
+          "rationale": "The choice of regularization is independent of whether the training is performed in batch or online mode."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "When using Markov Chain Monte Carlo (MCMC) methods, what is the primary purpose of monitoring the Gelman-Rubin diagnostic (R-hat)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To calculate the posterior probability of the most likely hypothesis given the observed data and prior beliefs.",
+          "is_correct": false,
+          "rationale": "This describes Bayesian inference in general; R-hat is a specific diagnostic tool for the MCMC process."
+        },
+        {
+          "key": "B",
+          "text": "To determine the optimal number of iterations required for the simulation to reach the true posterior distribution.",
+          "is_correct": false,
+          "rationale": "R-hat indicates if convergence has been reached, but it does not prescribe the number of iterations needed beforehand."
+        },
+        {
+          "key": "C",
+          "text": "To assess the convergence of multiple parallel chains by comparing their within-chain and between-chain variances.",
+          "is_correct": true,
+          "rationale": "R-hat values approaching 1.0 suggest that all chains have converged to the same target distribution."
+        },
+        {
+          "key": "D",
+          "text": "To measure the autocorrelation between successive samples within a single MCMC chain to determine thinning intervals.",
+          "is_correct": false,
+          "rationale": "Autocorrelation is typically assessed using ACF plots to determine how much to thin the chains for independent samples."
+        },
+        {
+          "key": "E",
+          "text": "To select the most appropriate prior distribution for the model parameters based on domain knowledge and expertise.",
+          "is_correct": false,
+          "rationale": "Prior selection is a modeling decision made before running MCMC; R-hat diagnoses the MCMC run itself."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "In the context of reinforcement learning, what is the primary role of an epsilon-greedy policy in balancing exploration and exploitation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It ensures the agent always chooses the action with the highest estimated reward, maximizing all immediate returns.",
+          "is_correct": false,
+          "rationale": "This describes a purely greedy policy, which only exploits and does not perform any exploration."
+        },
+        {
+          "key": "B",
+          "text": "It selects a completely random action with probability epsilon and the best-known action with probability 1-epsilon.",
+          "is_correct": true,
+          "rationale": "This is the precise definition of the epsilon-greedy strategy, which mixes random exploration with greedy exploitation."
+        },
+        {
+          "key": "C",
+          "text": "It uses an upper confidence bound to select actions that have high uncertainty and potentially high rewards.",
+          "is_correct": false,
+          "rationale": "This describes the Upper Confidence Bound (UCB) algorithm, a different approach to the exploration-exploitation problem."
+        },
+        {
+          "key": "D",
+          "text": "It gradually decreases the learning rate over time, allowing the agent's policy to stabilize and eventually converge.",
+          "is_correct": false,
+          "rationale": "This describes a learning rate schedule, which is an optimization technique, not an action selection policy."
+        },
+        {
+          "key": "E",
+          "text": "It builds a probabilistic model of the environment's dynamics to plan multiple steps ahead for future actions.",
+          "is_correct": false,
+          "rationale": "This describes a model-based reinforcement learning approach, whereas epsilon-greedy is a model-free policy."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "What is a key theoretical advantage of using SHAP (SHapley Additive exPlanations) over LIME for explaining model predictions?",
+      "options": [
+        {
+          "key": "A",
+          "text": "SHAP is significantly faster to compute for complex models like deep neural networks and gradient boosted trees.",
+          "is_correct": false,
+          "rationale": "Exact SHAP computation is often very slow; kernelSHAP, a model-agnostic version, can also be slower than LIME."
+        },
+        {
+          "key": "B",
+          "text": "LIME can only be applied to regression problems, while SHAP is a universal method for all model types.",
+          "is_correct": false,
+          "rationale": "Both LIME and SHAP (specifically KernelSHAP) are model-agnostic and can be applied to any black-box model."
+        },
+        {
+          "key": "C",
+          "text": "SHAP values are based on solid game theory principles, providing guarantees of consistency and local accuracy.",
+          "is_correct": true,
+          "rationale": "SHAP's foundation in Shapley values provides desirable theoretical properties that LIME does not guarantee."
+        },
+        {
+          "key": "D",
+          "text": "LIME generates a single global explanation for the entire model, whereas SHAP only provides local explanations.",
+          "is_correct": false,
+          "rationale": "Both methods are primarily used for local, instance-based explanations, though SHAP values can be aggregated for global insights."
+        },
+        {
+          "key": "E",
+          "text": "SHAP does not require access to the training data, unlike LIME which needs it to create perturbations.",
+          "is_correct": false,
+          "rationale": "Both methods typically require a background dataset to provide context for explanations and perturbations."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "In hierarchical agglomerative clustering, what is the defining characteristic of using Ward's linkage method to merge clusters?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It merges the two clusters that result in the minimum increase in the total within-cluster variance.",
+          "is_correct": true,
+          "rationale": "Ward's method is an ANOVA-based approach that seeks to find the pair of clusters that leads to the minimum variance increase."
+        },
+        {
+          "key": "B",
+          "text": "It merges the two closest clusters based on the maximum distance between any two points in the clusters.",
+          "is_correct": false,
+          "rationale": "This describes complete linkage, which is sensitive to outliers and produces more compact clusters."
+        },
+        {
+          "key": "C",
+          "text": "It merges clusters based on the minimum distance between any two points in the different clusters.",
+          "is_correct": false,
+          "rationale": "This describes single linkage, which can result in long, chain-like clusters and is sensitive to noise."
+        },
+        {
+          "key": "D",
+          "text": "It merges clusters based on the average distance between all pairs of points in the different clusters.",
+          "is_correct": false,
+          "rationale": "This describes average linkage (UPGMA), which is a compromise between single and complete linkage."
+        },
+        {
+          "key": "E",
+          "text": "It creates clusters of approximately equal size by merging smaller clusters into larger ones at each step.",
+          "is_correct": false,
+          "rationale": "While Ward's method often produces clusters of similar sizes, this is a byproduct, not its direct objective function."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "In distributed machine learning, what is the primary function of a parameter server in a typical training architecture?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To partition the training data and distribute distinct shards to each of the worker nodes for processing.",
+          "is_correct": false,
+          "rationale": "This task is typically handled by a distributed file system or a dedicated data loading service."
+        },
+        {
+          "key": "B",
+          "text": "To execute the forward and backward propagation steps of the model on a powerful, centralized GPU instance.",
+          "is_correct": false,
+          "rationale": "The computationally intensive training steps are performed in parallel by the distributed worker nodes."
+        },
+        {
+          "key": "C",
+          "text": "To host the model's parameters, aggregate gradient updates from workers, and send updated parameters back.",
+          "is_correct": true,
+          "rationale": "The parameter server acts as a centralized repository for model weights, synchronizing the state across all workers."
+        },
+        {
+          "key": "D",
+          "text": "To serve the final trained model in a production environment, handling incoming prediction requests from users.",
+          "is_correct": false,
+          "rationale": "This describes a model serving system (like TensorFlow Serving), which is a separate component from the training infrastructure."
+        },
+        {
+          "key": "E",
+          "text": "To monitor the health and resource utilization of the worker nodes during the distributed training job.",
+          "is_correct": false,
+          "rationale": "This is the role of a cluster manager or scheduler, such as Kubernetes or YARN."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is a key advantage of using a second-order optimization algorithm like L-BFGS compared to a first-order method like Adam?",
+      "options": [
+        {
+          "key": "A",
+          "text": "L-BFGS requires significantly less memory because it does not need to store any past gradient information.",
+          "is_correct": false,
+          "rationale": "L-BFGS stores historical gradient information to approximate the Hessian, while Adam stores momentum and adaptive learning rates."
+        },
+        {
+          "key": "B",
+          "text": "L-BFGS typically requires fewer iterations to converge as it uses curvature information to take more direct steps.",
+          "is_correct": true,
+          "rationale": "By approximating the Hessian (curvature), L-BFGS can find a more efficient path to the minimum, reducing iteration count."
+        },
+        {
+          "key": "C",
+          "text": "L-BFGS is much easier to implement and tune, with fewer hyperparameters than the Adam optimizer.",
+          "is_correct": false,
+          "rationale": "Adam is often considered easier to use out-of-the-box, whereas L-BFGS can be more sensitive to its parameters."
+        },
+        {
+          "key": "D",
+          "text": "L-BFGS is better suited for highly non-convex and noisy objective functions commonly found in deep learning.",
+          "is_correct": false,
+          "rationale": "First-order methods like Adam often generalize better and are more robust in the stochastic, non-convex setting of deep learning."
+        },
+        {
+          "key": "E",
+          "text": "The per-iteration computational cost of L-BFGS is always lower than that of first-order methods like SGD.",
+          "is_correct": false,
+          "rationale": "Each L-BFGS iteration is more computationally expensive than an SGD iteration due to the Hessian approximation."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "When fitting a Cox proportional hazards model, what is the critical assumption that must be validated for the model to be reliable?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The survival times for all subjects in the study must follow a specific parametric distribution, such as Weibull.",
+          "is_correct": false,
+          "rationale": "The Cox model is semi-parametric and does not make assumptions about the shape of the baseline hazard function."
+        },
+        {
+          "key": "B",
+          "text": "The effect of each covariate on the hazard is constant over time, meaning hazard ratios do not change.",
+          "is_correct": true,
+          "rationale": "This is the proportional hazards assumption, which is the fundamental requirement for the model's validity."
+        },
+        {
+          "key": "C",
+          "text": "All predictor variables included in the model must be continuous and normally distributed for valid statistical inference.",
+          "is_correct": false,
+          "rationale": "The Cox model can handle categorical and non-normally distributed covariates without issue."
+        },
+        {
+          "key": "D",
+          "text": "There should be no censored data points; the event of interest must be observed for every subject.",
+          "is_correct": false,
+          "rationale": "A key strength of survival models, including Cox PH, is their ability to correctly handle censored data."
+        },
+        {
+          "key": "E",
+          "text": "The baseline hazard function must be zero for all time points before the first observed event occurs.",
+          "is_correct": false,
+          "rationale": "The baseline hazard is a non-negative function of time, but it is not assumed to be zero."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What is the core mechanism by which Graph Neural Networks (GNNs) learn representations for nodes in a graph?",
+      "options": [
+        {
+          "key": "A",
+          "text": "By performing a random walk from each node and using the resulting sequence in a word2vec model.",
+          "is_correct": false,
+          "rationale": "This describes embedding methods like DeepWalk and node2vec, which are precursors to modern GNNs."
+        },
+        {
+          "key": "B",
+          "text": "By iteratively aggregating feature information from a node's local neighborhood through a message passing scheme.",
+          "is_correct": true,
+          "rationale": "Message passing is the fundamental operation in GNNs, where nodes update their state by aggregating messages from neighbors."
+        },
+        {
+          "key": "C",
+          "text": "By decomposing the graph's adjacency matrix using singular value decomposition to obtain low-dimensional node embeddings.",
+          "is_correct": false,
+          "rationale": "This describes spectral methods for graph embedding, which are typically not as powerful or flexible as GNNs."
+        },
+        {
+          "key": "D",
+          "text": "By applying a standard convolutional neural network directly to a grid-like representation of the graph's adjacency matrix.",
+          "is_correct": false,
+          "rationale": "Standard CNNs are for regular grid data; GNNs are specifically designed to operate on irregular graph structures."
+        },
+        {
+          "key": "E",
+          "text": "By calculating centrality measures for each node, such as PageRank, and using them as the final node features.",
+          "is_correct": false,
+          "rationale": "This is a form of manual feature engineering, whereas GNNs learn the features automatically from the graph structure."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "In algorithmic fairness, what is the primary distinction between satisfying demographic parity and achieving equalized odds?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Demographic parity focuses on equalizing precision rates across groups, while equalized odds focuses on recall rates.",
+          "is_correct": false,
+          "rationale": "Equalized odds considers both true positive rates (recall) and false positive rates, not just one or the other."
+        },
+        {
+          "key": "B",
+          "text": "Demographic parity requires equal prediction outcomes regardless of the true outcome, while equalized odds conditions on the true outcome.",
+          "is_correct": true,
+          "rationale": "Demographic parity equalizes P(Ŷ=1|A=a), while equalized odds equalizes P(Ŷ=1|Y=y, A=a) for y=0 and y=1."
+        },
+        {
+          "key": "C",
+          "text": "Equalized odds can only be applied to binary classification problems, whereas demographic parity works for multi-class scenarios.",
+          "is_correct": false,
+          "rationale": "Both fairness criteria can be extended and applied to multi-class classification settings."
+        },
+        {
+          "key": "D",
+          "text": "Demographic parity is a pre-processing technique to balance the data, while equalized odds is a post-processing adjustment.",
+          "is_correct": false,
+          "rationale": "Both are fairness metrics used to evaluate a model's predictions; they are not inherently tied to a specific intervention stage."
+        },
+        {
+          "key": "E",
+          "text": "Satisfying demographic parity always implies that the equalized odds criterion has also been met for the model.",
+          "is_correct": false,
+          "rationale": "These two criteria are often in conflict; satisfying one can make it impossible to satisfy the other."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is a primary architectural difference and resulting practical implication between Variational Autoencoders (VAEs) and Generative Adversarial Networks (GANs)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "VAEs use a discriminator network to improve sample quality, while GANs use a reconstruction loss function.",
+          "is_correct": false,
+          "rationale": "This is reversed. GANs use a discriminator, and VAEs use a reconstruction loss as part of their objective."
+        },
+        {
+          "key": "B",
+          "text": "GANs typically produce sharper, more realistic samples, but VAEs provide a smooth, structured latent space suitable for interpolation.",
+          "is_correct": true,
+          "rationale": "This highlights the key trade-off: GANs excel at sample fidelity, while VAEs excel at creating a meaningful latent space."
+        },
+        {
+          "key": "C",
+          "text": "VAEs are unsupervised models, whereas GANs require labeled data to train the generator and discriminator networks effectively.",
+          "is_correct": false,
+          "rationale": "Both VAEs and standard GANs are unsupervised generative models that learn from unlabeled data."
+        },
+        {
+          "key": "D",
+          "text": "Training GANs is a stable optimization problem, while VAEs often suffer from mode collapse during the training process.",
+          "is_correct": false,
+          "rationale": "This is reversed. GAN training is notoriously unstable, and mode collapse is a common problem for GANs, not VAEs."
+        },
+        {
+          "key": "E",
+          "text": "VAEs can only generate data of the same dimensionality as the input, while GANs can generate variable-sized outputs.",
+          "is_correct": false,
+          "rationale": "Both architectures are typically designed to produce outputs with a fixed dimensionality matching the training data."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "When using target encoding for a high-cardinality categorical feature, what is the most critical risk that must be mitigated?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The encoded feature will have a non-linear relationship with the target, which linear models cannot capture effectively.",
+          "is_correct": false,
+          "rationale": "Target encoding is designed to create a feature with a strong, often linear, relationship with the target."
+        },
+        {
+          "key": "B",
+          "text": "The encoding process significantly increases the dimensionality of the feature space, leading to the curse of dimensionality.",
+          "is_correct": false,
+          "rationale": "Target encoding replaces a categorical feature with a single numerical feature, thus it does not increase dimensionality."
+        },
+        {
+          "key": "C",
+          "text": "The encoded values for rare categories will be highly unstable and sensitive to small changes in the data.",
+          "is_correct": false,
+          "rationale": "This is a valid concern (estimation variance), but it is a symptom of the more fundamental risk of overfitting."
+        },
+        {
+          "key": "D",
+          "text": "Target leakage, where information from the target variable is improperly used to create a feature, causing overfitting.",
+          "is_correct": true,
+          "rationale": "Using the target variable to create a feature can lead to severe overfitting if not handled with careful validation strategies."
+        },
+        {
+          "key": "E",
+          "text": "The resulting encoded feature will be highly correlated with other numerical features in the dataset, causing multicollinearity.",
+          "is_correct": false,
+          "rationale": "While possible, this is not the primary or most critical risk associated with the target encoding technique itself."
+        }
+      ]
+    }
+  ]
+}

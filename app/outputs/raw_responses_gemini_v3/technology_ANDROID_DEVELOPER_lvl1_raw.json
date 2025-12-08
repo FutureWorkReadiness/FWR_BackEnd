@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "Which Android component provides a screen with which users interact to perform a task?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A Content Provider, manages access to a central data repository for all applications.",
+          "is_correct": false,
+          "rationale": "Content Providers manage data access, not user interaction."
+        },
+        {
+          "key": "B",
+          "text": "A Service, performs long-running operations in the background, without a user interface.",
+          "is_correct": false,
+          "rationale": "Services run in the background, not for direct user interaction."
+        },
+        {
+          "key": "C",
+          "text": "An Activity, represents a single screen with a user interface to interact with the user.",
+          "is_correct": true,
+          "rationale": "Activities are the primary building blocks for user interfaces."
+        },
+        {
+          "key": "D",
+          "text": "A Broadcast Receiver, responds to system-wide broadcast announcements for all apps.",
+          "is_correct": false,
+          "rationale": "Broadcast Receivers handle system events, not direct user interaction."
+        },
+        {
+          "key": "E",
+          "text": "A View, is a basic building block for UI components but does not manage the screen.",
+          "is_correct": false,
+          "rationale": "A View is part of the UI but doesn't represent an entire screen."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the primary function of the AndroidManifest.xml file in an Android application?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It contains the Java source code for all of the Activities and Services in the app.",
+          "is_correct": false,
+          "rationale": "Java source code is stored in .java files, not the manifest."
+        },
+        {
+          "key": "B",
+          "text": "It defines the user interface layouts using XML, including views and their properties.",
+          "is_correct": false,
+          "rationale": "Layouts are defined in separate XML files, not the manifest."
+        },
+        {
+          "key": "C",
+          "text": "It declares the components, permissions, and hardware/software requirements of the application.",
+          "is_correct": true,
+          "rationale": "The manifest declares the app's structure and requirements."
+        },
+        {
+          "key": "D",
+          "text": "It stores the application's data in a structured format, like SQLite or shared preferences.",
+          "is_correct": false,
+          "rationale": "Data storage is handled by databases or shared preferences."
+        },
+        {
+          "key": "E",
+          "text": "It manages the build process, including compiling resources and packaging the application.",
+          "is_correct": false,
+          "rationale": "The build process is managed by Gradle, not the manifest."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which layout is best suited for arranging views in a single row or column?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A ConstraintLayout, which provides a flexible way to position and size views with constraints.",
+          "is_correct": false,
+          "rationale": "ConstraintLayout is more versatile but not ideal for simple rows/columns."
+        },
+        {
+          "key": "B",
+          "text": "A FrameLayout, designed to block out an area on the screen to display a single item.",
+          "is_correct": false,
+          "rationale": "FrameLayout is for single items, not rows or columns."
+        },
+        {
+          "key": "C",
+          "text": "A LinearLayout, which arranges views in a single column or a single row.",
+          "is_correct": true,
+          "rationale": "LinearLayout is designed for single rows or columns."
+        },
+        {
+          "key": "D",
+          "text": "A RelativeLayout, where views are positioned relative to each other or the parent layout.",
+          "is_correct": false,
+          "rationale": "RelativeLayout is more complex than needed for simple rows/columns."
+        },
+        {
+          "key": "E",
+          "text": "A TableLayout, arranges views in rows and columns, but is inflexible for single rows.",
+          "is_correct": false,
+          "rationale": "TableLayout is for structured tables, not single rows/columns."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is the purpose of an Intent in Android development for starting another activity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is a data structure used to store persistent data, like user preferences or application settings.",
+          "is_correct": false,
+          "rationale": "Intents are for messaging, not data storage."
+        },
+        {
+          "key": "B",
+          "text": "It is a messaging object used to request an action from another application component.",
+          "is_correct": true,
+          "rationale": "Intents are used to start activities, services, etc."
+        },
+        {
+          "key": "C",
+          "text": "It is a class that manages the lifecycle of an Activity, including creation, start, and destruction.",
+          "is_correct": false,
+          "rationale": "Activity lifecycle is managed by the Activity class itself."
+        },
+        {
+          "key": "D",
+          "text": "It is a tool for debugging Android applications, allowing developers to step through code execution.",
+          "is_correct": false,
+          "rationale": "Debugging is done with tools like Android Studio's debugger."
+        },
+        {
+          "key": "E",
+          "text": "It is a component that handles background tasks, such as downloading files or processing data.",
+          "is_correct": false,
+          "rationale": "Background tasks are handled by Services or background threads."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which method is called when an Activity becomes visible to the user and starts interacting?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The `onCreate()` method, which is called when the Activity is first created and initialized.",
+          "is_correct": false,
+          "rationale": "onCreate is for initialization, not when the Activity is visible."
+        },
+        {
+          "key": "B",
+          "text": "The `onPause()` method, which is called when the Activity is no longer in the foreground.",
+          "is_correct": false,
+          "rationale": "onPause is called when the Activity is going into the background."
+        },
+        {
+          "key": "C",
+          "text": "The `onStop()` method, which is called when the Activity is no longer visible to the user.",
+          "is_correct": false,
+          "rationale": "onStop is called when the Activity is completely hidden."
+        },
+        {
+          "key": "D",
+          "text": "The `onResume()` method, which is called when the Activity will start interacting with the user.",
+          "is_correct": true,
+          "rationale": "onResume is called when the Activity becomes active."
+        },
+        {
+          "key": "E",
+          "text": "The `onDestroy()` method, called before the activity is destroyed completely by the system.",
+          "is_correct": false,
+          "rationale": "onDestroy is called before the Activity is destroyed."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What is the purpose of using Shared Preferences in Android application development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To store large amounts of structured data in a relational database format, like user profiles.",
+          "is_correct": false,
+          "rationale": "Shared Preferences are not suitable for large or structured data."
+        },
+        {
+          "key": "B",
+          "text": "To store small amounts of primitive data as key-value pairs for application-specific settings.",
+          "is_correct": true,
+          "rationale": "Shared Preferences are for storing simple key-value pairs."
+        },
+        {
+          "key": "C",
+          "text": "To manage the user interface layout and arrangement of views within an Activity or Fragment.",
+          "is_correct": false,
+          "rationale": "Shared Preferences are for data storage, not UI layout."
+        },
+        {
+          "key": "D",
+          "text": "To handle background tasks and services, such as downloading files or performing network operations.",
+          "is_correct": false,
+          "rationale": "Shared Preferences are not related to background tasks."
+        },
+        {
+          "key": "E",
+          "text": "To define the application's components, permissions, and hardware/software requirements.",
+          "is_correct": false,
+          "rationale": "Application components are defined in the AndroidManifest.xml."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is NOT a valid resource type in Android resources directory?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A `drawable` resource, used for storing image files like PNGs, JPGs, or vector drawables.",
+          "is_correct": false,
+          "rationale": "Drawable is a valid resource type."
+        },
+        {
+          "key": "B",
+          "text": "A `layout` resource, used for defining the user interface layout using XML files.",
+          "is_correct": false,
+          "rationale": "Layout is a valid resource type."
+        },
+        {
+          "key": "C",
+          "text": "A `string` resource, used for storing text strings that can be localized for different languages.",
+          "is_correct": false,
+          "rationale": "String is a valid resource type."
+        },
+        {
+          "key": "D",
+          "text": "A `script` resource, used for storing executable code or scripts within the application.",
+          "is_correct": true,
+          "rationale": "Script is not a standard Android resource type."
+        },
+        {
+          "key": "E",
+          "text": "A `color` resource, used for defining color values that can be referenced in layouts or code.",
+          "is_correct": false,
+          "rationale": "Color is a valid resource type."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What is the purpose of using a `ViewModel` in Android architecture components?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage user interface layouts and handle view inflation within an Activity or Fragment.",
+          "is_correct": false,
+          "rationale": "ViewModels are not for UI layout management."
+        },
+        {
+          "key": "B",
+          "text": "To store and manage UI-related data in a lifecycle-conscious way, surviving configuration changes.",
+          "is_correct": true,
+          "rationale": "ViewModels are designed to survive configuration changes."
+        },
+        {
+          "key": "C",
+          "text": "To perform background tasks and services, such as downloading files or making network requests.",
+          "is_correct": false,
+          "rationale": "ViewModels are not for handling background tasks."
+        },
+        {
+          "key": "D",
+          "text": "To define the navigation flow and transitions between different screens or fragments in the app.",
+          "is_correct": false,
+          "rationale": "Navigation is handled by Navigation Components or Intents."
+        },
+        {
+          "key": "E",
+          "text": "To manage access to a central data repository for all applications, like a content provider.",
+          "is_correct": false,
+          "rationale": "Content Providers manage data access, not ViewModels."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is the role of Gradle in Android project development for building and packaging?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is a code editor for writing java or kotlin code, debugging, and managing the project files.",
+          "is_correct": false,
+          "rationale": "Gradle is not a code editor."
+        },
+        {
+          "key": "B",
+          "text": "It is a testing framework for writing and running unit tests and instrumentation tests in Android.",
+          "is_correct": false,
+          "rationale": "Gradle is not a testing framework."
+        },
+        {
+          "key": "C",
+          "text": "It is a build automation tool for dependency management, compiling, and packaging the application.",
+          "is_correct": true,
+          "rationale": "Gradle automates the build process."
+        },
+        {
+          "key": "D",
+          "text": "It is a tool for designing user interfaces and creating layouts using a drag-and-drop interface.",
+          "is_correct": false,
+          "rationale": "Gradle is not a UI design tool."
+        },
+        {
+          "key": "E",
+          "text": "It is a tool for managing the application's data, like SQLite databases or shared preferences.",
+          "is_correct": false,
+          "rationale": "Gradle does not manage app data."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Which permission is required to access the device's internet connection in an Android app?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The `ACCESS_FINE_LOCATION` permission, which grants access to precise location data from GPS.",
+          "is_correct": false,
+          "rationale": "ACCESS_FINE_LOCATION is for location access, not internet."
+        },
+        {
+          "key": "B",
+          "text": "The `READ_CONTACTS` permission, which allows the application to read the user's contacts data.",
+          "is_correct": false,
+          "rationale": "READ_CONTACTS is for contact access, not internet."
+        },
+        {
+          "key": "C",
+          "text": "The `CAMERA` permission, which allows the application to access the device's camera.",
+          "is_correct": false,
+          "rationale": "CAMERA is for camera access, not internet."
+        },
+        {
+          "key": "D",
+          "text": "The `INTERNET` permission, which allows the application to create network sockets.",
+          "is_correct": true,
+          "rationale": "INTERNET permission is required for network access."
+        },
+        {
+          "key": "E",
+          "text": "The `WRITE_EXTERNAL_STORAGE` permission, which allows writing to external storage.",
+          "is_correct": false,
+          "rationale": "WRITE_EXTERNAL_STORAGE is for storage access, not internet."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the purpose of using Fragments in Android development for modular UI design?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To store small amounts of primitive data as key-value pairs for application-specific settings.",
+          "is_correct": false,
+          "rationale": "Fragments are for UI, not data storage."
+        },
+        {
+          "key": "B",
+          "text": "To define the application's components, permissions, and hardware/software requirements.",
+          "is_correct": false,
+          "rationale": "Manifest defines components, not fragments."
+        },
+        {
+          "key": "C",
+          "text": "To represent a reusable portion of a user interface within an Activity, promoting modularity.",
+          "is_correct": true,
+          "rationale": "Fragments are reusable UI components."
+        },
+        {
+          "key": "D",
+          "text": "To manage the lifecycle of an Activity, including creation, start, and destruction.",
+          "is_correct": false,
+          "rationale": "Fragments have their own lifecycle, but don't manage Activities."
+        },
+        {
+          "key": "E",
+          "text": "To handle background tasks and services, such as downloading files or performing network operations.",
+          "is_correct": false,
+          "rationale": "Fragments are not for background tasks."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Which method is used to find a view by its ID in an Activity or Fragment layout?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The `findViewById()` method, which searches the layout for a view with the specified ID.",
+          "is_correct": true,
+          "rationale": "findViewById() is used to locate views by ID."
+        },
+        {
+          "key": "B",
+          "text": "The `inflate()` method, which is used to create a view hierarchy from an XML layout file.",
+          "is_correct": false,
+          "rationale": "inflate() is for creating views, not finding them."
+        },
+        {
+          "key": "C",
+          "text": "The `setText()` method, which is used to set the text content of a TextView or EditText.",
+          "is_correct": false,
+          "rationale": "setText() sets text, not finds views."
+        },
+        {
+          "key": "D",
+          "text": "The `setOnClickListener()` method, which sets a listener to handle click events on a view.",
+          "is_correct": false,
+          "rationale": "setOnClickListener() handles clicks, not finding views."
+        },
+        {
+          "key": "E",
+          "text": "The `addView()` method, which adds a view to a layout programmatically at runtime.",
+          "is_correct": false,
+          "rationale": "addView() adds views, not finds them."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is the purpose of using an Adapter in Android development for displaying data in a ListView?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To define the user interface layout and arrangement of views within an Activity or Fragment.",
+          "is_correct": false,
+          "rationale": "Adapters are for data display, not UI layout."
+        },
+        {
+          "key": "B",
+          "text": "To handle user input events, such as button clicks or touch gestures, within a view.",
+          "is_correct": false,
+          "rationale": "Adapters don't handle user input events."
+        },
+        {
+          "key": "C",
+          "text": "To provide a bridge between a data source and a ListView, creating views for each item.",
+          "is_correct": true,
+          "rationale": "Adapters connect data to the ListView."
+        },
+        {
+          "key": "D",
+          "text": "To store large amounts of structured data in a relational database format, like user profiles.",
+          "is_correct": false,
+          "rationale": "Adapters are not for data storage."
+        },
+        {
+          "key": "E",
+          "text": "To manage the lifecycle of an Activity, including creation, start, and destruction.",
+          "is_correct": false,
+          "rationale": "Adapters do not manage the Activity lifecycle."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What is the difference between `px`, `dp` (or `dip`), and `sp` units in Android layouts?",
+      "options": [
+        {
+          "key": "A",
+          "text": "`px` is density-independent pixels, `dp` is pixels, `sp` is scaled-independent pixels for font sizes.",
+          "is_correct": false,
+          "rationale": "Incorrect definitions of the units."
+        },
+        {
+          "key": "B",
+          "text": "`px` is pixels, `dp` is density-independent pixels, `sp` is scaled pixels for font sizes.",
+          "is_correct": true,
+          "rationale": "Correct definitions of the units."
+        },
+        {
+          "key": "C",
+          "text": "`px` is scaled pixels for font sizes, `dp` is pixels, `sp` is density-independent pixels.",
+          "is_correct": false,
+          "rationale": "Incorrect definitions of the units."
+        },
+        {
+          "key": "D",
+          "text": "`px` is density-independent pixels, `dp` is scaled pixels for font sizes, `sp` is pixels.",
+          "is_correct": false,
+          "rationale": "Incorrect definitions of the units."
+        },
+        {
+          "key": "E",
+          "text": "`px` is scaled pixels, `dp` is pixels, `sp` is density-independent pixels for all UI elements.",
+          "is_correct": false,
+          "rationale": "Incorrect definitions of the units."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Which Android component is responsible for performing background operations without a user interface?",
+      "options": [
+        {
+          "key": "A",
+          "text": "An Activity, which represents a single screen with a user interface for user interaction.",
+          "is_correct": false,
+          "rationale": "Activities have a UI, Services don't."
+        },
+        {
+          "key": "B",
+          "text": "A Broadcast Receiver, which responds to system-wide broadcast announcements.",
+          "is_correct": false,
+          "rationale": "Broadcast Receivers respond to broadcasts, not general background tasks."
+        },
+        {
+          "key": "C",
+          "text": "A Content Provider, which manages access to a central data repository.",
+          "is_correct": false,
+          "rationale": "Content Providers manage data, not background operations."
+        },
+        {
+          "key": "D",
+          "text": "A Service, which performs long-running operations in the background without a user interface.",
+          "is_correct": true,
+          "rationale": "Services are designed for background tasks."
+        },
+        {
+          "key": "E",
+          "text": "A View, which is the basic building block for UI components but does not run in background.",
+          "is_correct": false,
+          "rationale": "Views are for UI, not background operations."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What is the purpose of using ProGuard or R8 in Android project to optimize the app?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage the application's data, like SQLite databases or shared preferences, for efficient storage.",
+          "is_correct": false,
+          "rationale": "ProGuard/R8 is not for data management."
+        },
+        {
+          "key": "B",
+          "text": "To define the user interface layout and arrangement of views within an Activity or Fragment.",
+          "is_correct": false,
+          "rationale": "ProGuard/R8 is not for UI layout."
+        },
+        {
+          "key": "C",
+          "text": "To shrink, obfuscate, and optimize the code, reducing the app size and improving performance.",
+          "is_correct": true,
+          "rationale": "ProGuard/R8 optimizes code size and performance."
+        },
+        {
+          "key": "D",
+          "text": "To handle user input events, such as button clicks or touch gestures, within a view.",
+          "is_correct": false,
+          "rationale": "ProGuard/R8 does not handle user input."
+        },
+        {
+          "key": "E",
+          "text": "To manage the lifecycle of an Activity, including creation, start, and destruction.",
+          "is_correct": false,
+          "rationale": "ProGuard/R8 does not manage Activity lifecycle."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What is the purpose of using LiveData in Android architecture components for data observation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To store large amounts of structured data in a relational database format, like user profiles.",
+          "is_correct": false,
+          "rationale": "LiveData is not for data storage."
+        },
+        {
+          "key": "B",
+          "text": "To define the user interface layout and arrangement of views within an Activity or Fragment.",
+          "is_correct": false,
+          "rationale": "LiveData is not for UI layout."
+        },
+        {
+          "key": "C",
+          "text": "To hold data that can be observed by other components, automatically updating the UI when changed.",
+          "is_correct": true,
+          "rationale": "LiveData is for observable data."
+        },
+        {
+          "key": "D",
+          "text": "To handle user input events, such as button clicks or touch gestures, within a view.",
+          "is_correct": false,
+          "rationale": "LiveData does not handle user input."
+        },
+        {
+          "key": "E",
+          "text": "To manage the lifecycle of an Activity, including creation, start, and destruction.",
+          "is_correct": false,
+          "rationale": "LiveData does not manage Activity lifecycle directly."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is the purpose of using explicit intents in Android development versus implicit intents?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Explicit intents specify the exact component to handle the intent, implicit intents do not.",
+          "is_correct": true,
+          "rationale": "Explicit intents target specific components."
+        },
+        {
+          "key": "B",
+          "text": "Explicit intents can only be used within the same application, implicit intents cannot.",
+          "is_correct": false,
+          "rationale": "Both can be used within the same application."
+        },
+        {
+          "key": "C",
+          "text": "Explicit intents are used for background tasks, implicit intents are for user interface updates.",
+          "is_correct": false,
+          "rationale": "Intents are not specifically for background tasks or UI updates."
+        },
+        {
+          "key": "D",
+          "text": "Explicit intents require special permissions, implicit intents do not require any permissions.",
+          "is_correct": false,
+          "rationale": "Permissions depend on the action, not the intent type."
+        },
+        {
+          "key": "E",
+          "text": "Explicit intents are more secure than implicit intents, which can be intercepted by other apps.",
+          "is_correct": false,
+          "rationale": "Security depends on the intent's data and handling."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Which annotation is used to inject dependencies in Android using Hilt or Dagger?",
+      "options": [
+        {
+          "key": "A",
+          "text": "`@Inject` annotation, which marks a constructor, field, or method for dependency injection.",
+          "is_correct": true,
+          "rationale": "@Inject is the standard annotation for DI."
+        },
+        {
+          "key": "B",
+          "text": "`@Bind` annotation, which is used to bind an interface to a specific implementation.",
+          "is_correct": false,
+          "rationale": "@Bind is used in modules, not for injection directly."
+        },
+        {
+          "key": "C",
+          "text": "`@Provides` annotation, which is used to define methods that provide dependencies.",
+          "is_correct": false,
+          "rationale": "@Provides is used in modules, not for injection directly."
+        },
+        {
+          "key": "D",
+          "text": "`@Module` annotation, which is used to define a module that provides dependencies.",
+          "is_correct": false,
+          "rationale": "@Module defines modules, not injection points."
+        },
+        {
+          "key": "E",
+          "text": "`@Component` annotation, which is used to define a component that manages dependencies.",
+          "is_correct": false,
+          "rationale": "@Component defines components, not injection points."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What is the purpose of using the `notifyDataSetChanged()` method in an Android Adapter?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To create a new instance of the Adapter with updated data, replacing the existing Adapter.",
+          "is_correct": false,
+          "rationale": "It doesn't create a new Adapter instance."
+        },
+        {
+          "key": "B",
+          "text": "To manually redraw all the views in the associated ListView or RecyclerView, even if unchanged.",
+          "is_correct": false,
+          "rationale": "It doesn't force a redraw of all views."
+        },
+        {
+          "key": "C",
+          "text": "To signal the Adapter that the underlying data has changed, triggering a UI update.",
+          "is_correct": true,
+          "rationale": "It notifies the Adapter of data changes."
+        },
+        {
+          "key": "D",
+          "text": "To release the resources held by the Adapter, such as bitmaps or database connections.",
+          "is_correct": false,
+          "rationale": "It doesn't release resources."
+        },
+        {
+          "key": "E",
+          "text": "To sort the data in the Adapter based on a specified criteria, like alphabetical order or date.",
+          "is_correct": false,
+          "rationale": "It doesn't sort the data."
+        }
+      ]
+    }
+  ]
+}

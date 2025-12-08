@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "Which HTML tag is the correct one to use when defining the structure for navigation menus on a website?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The `<article>` tag defines independent, self-contained content, but is not the correct choice for navigation menus.",
+          "is_correct": false,
+          "rationale": "The <article> tag represents a self-contained composition and is not for navigation."
+        },
+        {
+          "key": "B",
+          "text": "The `<nav>` tag is the correct choice, as it is specifically designed for defining a section of navigation links.",
+          "is_correct": true,
+          "rationale": "The <nav> tag explicitly defines a section intended for navigation links."
+        },
+        {
+          "key": "C",
+          "text": "The `<footer>` tag defines the bottom section of a document or section, and is not used for navigation.",
+          "is_correct": false,
+          "rationale": "The <footer> tag represents the footer of a document or section, not navigation."
+        },
+        {
+          "key": "D",
+          "text": "The `<header>` tag defines the top introductory content of a document, but is not specifically for navigation.",
+          "is_correct": false,
+          "rationale": "The <header> tag represents introductory content, not specifically navigation."
+        },
+        {
+          "key": "E",
+          "text": "The `<aside>` tag is for content loosely related to the main content, and is not the correct choice for navigation.",
+          "is_correct": false,
+          "rationale": "The <aside> tag represents content aside from the main content, not navigation."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the primary purpose of using CSS preprocessors such as Sass or Less in modern web development workflows?",
+      "options": [
+        {
+          "key": "A",
+          "text": "CSS preprocessors do not directly optimize JavaScript performance, so this option is not the correct choice here.",
+          "is_correct": false,
+          "rationale": "CSS preprocessors do not directly optimize JavaScript performance."
+        },
+        {
+          "key": "B",
+          "text": "CSS preprocessors extend CSS with features like variables and nesting, improving code maintainability and organization.",
+          "is_correct": true,
+          "rationale": "Preprocessors extend CSS, enabling features that enhance code organization and maintainability."
+        },
+        {
+          "key": "C",
+          "text": "CSS preprocessors do not directly manipulate the DOM, so this option is not the correct choice in this scenario.",
+          "is_correct": false,
+          "rationale": "CSS preprocessors do not directly manipulate the DOM."
+        },
+        {
+          "key": "D",
+          "text": "While they can help, CSS preprocessors don't fully automate cross-browser compatibility issues automatically.",
+          "is_correct": false,
+          "rationale": "While they can help, they don't fully automate cross-browser compatibility."
+        },
+        {
+          "key": "E",
+          "text": "CSS preprocessors compile into CSS, working in the opposite direction of converting HTML code into CSS styling.",
+          "is_correct": false,
+          "rationale": "CSS preprocessors work in the opposite direction; they compile into CSS."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which of the following options is NOT a valid data type in JavaScript for storing and manipulating different values?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Boolean is a valid JavaScript data type that represents a logical value, which can be either true or false.",
+          "is_correct": false,
+          "rationale": "Boolean is a valid JavaScript data type representing true or false values."
+        },
+        {
+          "key": "B",
+          "text": "String is a valid JavaScript data type that represents a sequence of characters used to store textual data.",
+          "is_correct": false,
+          "rationale": "String is a valid JavaScript data type used for textual data."
+        },
+        {
+          "key": "C",
+          "text": "Number is a valid JavaScript data type that represents numeric values, including integers and floating-point numbers.",
+          "is_correct": false,
+          "rationale": "Number is a valid JavaScript data type for numeric values."
+        },
+        {
+          "key": "D",
+          "text": "Symbol is a valid JavaScript data type that represents a unique and immutable value, often used as object keys.",
+          "is_correct": false,
+          "rationale": "Symbol is a valid JavaScript data type introduced in ES6."
+        },
+        {
+          "key": "E",
+          "text": "Float is not a distinct data type in JavaScript; numbers are represented as double-precision floating point numbers.",
+          "is_correct": true,
+          "rationale": "Float is not a distinct data type in JavaScript; numbers are represented as double-precision."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is the main purpose of the `alt` attribute in an `<img>` tag in HTML, especially regarding web accessibility guidelines?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The `alt` attribute does not control image alignment within its containing element, making this option incorrect.",
+          "is_correct": false,
+          "rationale": "The 'alt' attribute does not control image alignment within its container."
+        },
+        {
+          "key": "B",
+          "text": "The `alt` attribute provides alternative text for the image if it cannot be displayed, improving web accessibility.",
+          "is_correct": true,
+          "rationale": "The 'alt' attribute provides alternative text for screen readers and when images fail to load."
+        },
+        {
+          "key": "C",
+          "text": "The `alt` attribute does not define animation or transition effects for images, so this option is incorrect.",
+          "is_correct": false,
+          "rationale": "The 'alt' attribute does not define animation or transition effects for images."
+        },
+        {
+          "key": "D",
+          "text": "The `alt` attribute does not control image dimensions or responsive scaling on different devices or screen sizes.",
+          "is_correct": false,
+          "rationale": "The 'alt' attribute does not control image dimensions or responsive scaling."
+        },
+        {
+          "key": "E",
+          "text": "The `alt` attribute does not encrypt or protect image sources from unauthorized access or hotlinking issues.",
+          "is_correct": false,
+          "rationale": "The 'alt' attribute does not encrypt or protect image sources from unauthorized access."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which CSS property is the correct one to use when you want to control the spacing between lines of text?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The `letter-spacing` property controls the horizontal spacing between individual text characters, not lines of text.",
+          "is_correct": false,
+          "rationale": "`letter-spacing` adjusts space between characters, not lines."
+        },
+        {
+          "key": "B",
+          "text": "The `word-spacing` property controls the horizontal spacing between individual words in a text element, not lines.",
+          "is_correct": false,
+          "rationale": "`word-spacing` adjusts space between words, not lines."
+        },
+        {
+          "key": "C",
+          "text": "The `line-height` property controls the vertical spacing between lines of text within a given element or container.",
+          "is_correct": true,
+          "rationale": "`line-height` is the correct property for adjusting the space between text lines."
+        },
+        {
+          "key": "D",
+          "text": "The `text-spacing` property is not a standard CSS property, making this option an invalid choice in this case.",
+          "is_correct": false,
+          "rationale": "`text-spacing` is not a standard CSS property."
+        },
+        {
+          "key": "E",
+          "text": "The `paragraph-spacing` property is not a standard CSS property, so this option is not a valid choice.",
+          "is_correct": false,
+          "rationale": "`paragraph-spacing` is not a standard CSS property."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What is the main purpose of using the `async` and `await` keywords in JavaScript for asynchronous operations?",
+      "options": [
+        {
+          "key": "A",
+          "text": "`async/await` is designed for asynchronous operations, not synchronous functions that execute in a single thread.",
+          "is_correct": false,
+          "rationale": "`async/await` is for asynchronous, not synchronous, operations."
+        },
+        {
+          "key": "B",
+          "text": "`async` and `await` make asynchronous code look and behave more like synchronous code, improving overall readability.",
+          "is_correct": true,
+          "rationale": "`async/await` simplifies asynchronous code, making it more readable."
+        },
+        {
+          "key": "C",
+          "text": "`async/await` does not directly optimize JavaScript code for faster execution speed or reduce latency issues.",
+          "is_correct": false,
+          "rationale": "`async/await` does not directly optimize code execution speed."
+        },
+        {
+          "key": "D",
+          "text": "`async/await` is specifically for managing asynchronous operations, not preventing their execution entirely.",
+          "is_correct": false,
+          "rationale": "`async/await` is specifically for managing asynchronous operations."
+        },
+        {
+          "key": "E",
+          "text": "JavaScript is single-threaded; `async/await` does not enable the creation of multi-threaded JavaScript applications.",
+          "is_correct": false,
+          "rationale": "JavaScript is single-threaded; `async/await` doesn't change that."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "In responsive web design, what is the primary purpose of using CSS media queries effectively across devices?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Media queries are CSS features, not JavaScript functions, so they do not define JavaScript functions dynamically.",
+          "is_correct": false,
+          "rationale": "Media queries are CSS features, not JavaScript functions."
+        },
+        {
+          "key": "B",
+          "text": "Media queries apply different styles based on device characteristics, adapting styles for responsiveness and usability.",
+          "is_correct": true,
+          "rationale": "Media queries adapt styles based on device characteristics for responsiveness."
+        },
+        {
+          "key": "C",
+          "text": "Media queries do not handle data encryption or security, making this option an incorrect choice in this context.",
+          "is_correct": false,
+          "rationale": "Media queries do not handle data encryption or security."
+        },
+        {
+          "key": "D",
+          "text": "Media queries do not directly optimize image loading or compression to reduce bandwidth usage or improve page load times.",
+          "is_correct": false,
+          "rationale": "Media queries do not directly optimize image loading or compression."
+        },
+        {
+          "key": "E",
+          "text": "Media queries are not related to version control of CSS files or enabling collaboration among multiple developers.",
+          "is_correct": false,
+          "rationale": "Media queries are not related to version control of CSS files."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Which of the following options shows the correct way to declare a variable with block scope specifically in JavaScript?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The `const` keyword declares a block-scoped variable that cannot be reassigned after its initial assignment.",
+          "is_correct": true,
+          "rationale": "`const` declares a block-scoped variable that is immutable after assignment."
+        },
+        {
+          "key": "B",
+          "text": "The `var` keyword declares a function-scoped variable, not a block-scoped variable, accessible throughout the function.",
+          "is_correct": false,
+          "rationale": "`var` declares a function-scoped variable, not block-scoped."
+        },
+        {
+          "key": "C",
+          "text": "The `global` keyword is not a JavaScript keyword for variable declaration, making this option an invalid choice.",
+          "is_correct": false,
+          "rationale": "`global` is not a JavaScript keyword for variable declaration."
+        },
+        {
+          "key": "D",
+          "text": "The `static` keyword is not used for declaring block-scoped variables in JavaScript, making this option incorrect.",
+          "is_correct": false,
+          "rationale": "`static` is not used for declaring block-scoped variables."
+        },
+        {
+          "key": "E",
+          "text": "The `let` keyword declares a block-scoped variable, not a global-scoped variable, within the current script or block.",
+          "is_correct": false,
+          "rationale": "`let` declares a block-scoped variable, not global."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is the purpose of using a JavaScript framework like React, Angular, or Vue.js in frontend development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Frontend frameworks do not directly interact with the operating system or hardware resources of the user's computer.",
+          "is_correct": false,
+          "rationale": "Frontend frameworks do not directly interact with the operating system."
+        },
+        {
+          "key": "B",
+          "text": "Frontend frameworks provide a structured way to build user interfaces and efficiently manage application state changes.",
+          "is_correct": true,
+          "rationale": "Frontend frameworks offer structure for UI building and state management."
+        },
+        {
+          "key": "C",
+          "text": "Frontend frameworks do not translate JavaScript code into other programming languages for cross-platform compatibility.",
+          "is_correct": false,
+          "rationale": "Frontend frameworks do not translate JavaScript into other languages."
+        },
+        {
+          "key": "D",
+          "text": "Frontend frameworks are client-side and do not create or manage server-side databases for storing application data.",
+          "is_correct": false,
+          "rationale": "Frontend frameworks are client-side and do not manage databases."
+        },
+        {
+          "key": "E",
+          "text": "Frontend frameworks don't primarily handle network security or protect against cyber threats like XSS or SQL injection.",
+          "is_correct": false,
+          "rationale": "Frontend frameworks don't primarily handle network security."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Which of the following options shows a valid way to include an external JavaScript file into an HTML document?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using the `<script src=\"script.js\">` tag within the `<head>` or `<body>` of the HTML document is correct.",
+          "is_correct": true,
+          "rationale": "This is the standard and correct method for including external JavaScript files."
+        },
+        {
+          "key": "B",
+          "text": "The `<link>` tag is used for CSS, not JavaScript, making this option an incorrect choice in this scenario.",
+          "is_correct": false,
+          "rationale": "The `<link>` tag is used for CSS, not JavaScript."
+        },
+        {
+          "key": "C",
+          "text": "There is no `<js>` tag in HTML, so this option is not a valid way to include an external JavaScript file.",
+          "is_correct": false,
+          "rationale": "There is no `<js>` tag in HTML."
+        },
+        {
+          "key": "D",
+          "text": "The `<import>` tag is not used for including external JavaScript files directly in HTML documents.",
+          "is_correct": false,
+          "rationale": "The `<import>` tag is not used for including external JavaScript files."
+        },
+        {
+          "key": "E",
+          "text": "There is no `<javascript>` tag in HTML, so this option is not a valid way to include an external JavaScript file.",
+          "is_correct": false,
+          "rationale": "There is no `<javascript>` tag in HTML."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What does the abbreviation 'DOM' stand for in the context of web development using JavaScript and related technologies?",
+      "options": [
+        {
+          "key": "A",
+          "text": "DOM stands for Document Object Model, a programming interface for HTML and XML documents, structuring documents.",
+          "is_correct": true,
+          "rationale": "DOM stands for Document Object Model, representing the structure of HTML documents."
+        },
+        {
+          "key": "B",
+          "text": "DOM is not related to data object management or systems for managing data objects in web applications or websites.",
+          "is_correct": false,
+          "rationale": "DOM is not related to data object management."
+        },
+        {
+          "key": "C",
+          "text": "DOM is not related to dynamic output modules or components for generating dynamic content on web pages.",
+          "is_correct": false,
+          "rationale": "DOM is not related to dynamic output modules."
+        },
+        {
+          "key": "D",
+          "text": "DOM is not related to design optimization methods or techniques for optimizing the design of web pages.",
+          "is_correct": false,
+          "rationale": "DOM is not related to design optimization methods."
+        },
+        {
+          "key": "E",
+          "text": "DOM is not related to distributed object management or systems for managing distributed objects across multiple servers.",
+          "is_correct": false,
+          "rationale": "DOM is not related to distributed object management."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Which CSS property should be used to make an element completely invisible, removing it from the document flow?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The `display: none;` property removes the element from the document flow, making it completely invisible on the page.",
+          "is_correct": true,
+          "rationale": "`display: none;` makes an element invisible and removes it from the document flow."
+        },
+        {
+          "key": "B",
+          "text": "The `visibility: hidden;` property makes the element invisible, but it still occupies space in the document flow.",
+          "is_correct": false,
+          "rationale": "`visibility: hidden;` hides the element but it still occupies space."
+        },
+        {
+          "key": "C",
+          "text": "The `opacity: 0;` property makes the element transparent, but it remains in the document flow and takes up space.",
+          "is_correct": false,
+          "rationale": "`opacity: 0;` makes an element transparent but it remains in the flow."
+        },
+        {
+          "key": "D",
+          "text": "The `position: absolute;` property changes positioning but does not inherently make the element invisible on the page.",
+          "is_correct": false,
+          "rationale": "`position: absolute;` changes positioning but does not inherently make it invisible."
+        },
+        {
+          "key": "E",
+          "text": "The `overflow: hidden;` property hides any content that overflows the element's boundaries, not the entire element.",
+          "is_correct": false,
+          "rationale": "`overflow: hidden;` hides overflowing content, not the entire element."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is the main purpose of using version control systems like Git in web development projects and workflows?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Version control does not directly optimize website performance by compressing images or minifying code files.",
+          "is_correct": false,
+          "rationale": "Version control does not directly optimize website performance."
+        },
+        {
+          "key": "B",
+          "text": "Version control tracks changes to code, facilitates collaboration, and enables reverting to previous versions easily.",
+          "is_correct": true,
+          "rationale": "Version control's purpose is to track changes, facilitate collaboration, and enable reverting."
+        },
+        {
+          "key": "C",
+          "text": "Version control does not automatically deploy website updates to production servers without manual intervention.",
+          "is_correct": false,
+          "rationale": "Version control does not automatically deploy website updates."
+        },
+        {
+          "key": "D",
+          "text": "Version control does not handle data encryption for security or protect sensitive data transmitted between client/server.",
+          "is_correct": false,
+          "rationale": "Version control does not handle data encryption for security."
+        },
+        {
+          "key": "E",
+          "text": "Version control does not generate documentation automatically from code comments or annotations in a project.",
+          "is_correct": false,
+          "rationale": "Version control does not generate documentation automatically."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Which of the following options describes a commonly used tool for debugging JavaScript code in a web browser?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Browser developer tools include debuggers for stepping through code and inspecting variables during execution.",
+          "is_correct": true,
+          "rationale": "Browser developer tools have debuggers for stepping through code and inspecting variables."
+        },
+        {
+          "key": "B",
+          "text": "CSS validators are for CSS, not JavaScript, debugging, checking CSS code for syntax errors and adherence to standards.",
+          "is_correct": false,
+          "rationale": "CSS validators are for CSS, not JavaScript, debugging."
+        },
+        {
+          "key": "C",
+          "text": "HTML minifiers optimize HTML size, not debug JavaScript, by removing unnecessary characters and whitespace.",
+          "is_correct": false,
+          "rationale": "HTML minifiers optimize HTML size, not debug JavaScript."
+        },
+        {
+          "key": "D",
+          "text": "Code obfuscators make code harder to understand, hindering debugging efforts, for security and protection purposes.",
+          "is_correct": false,
+          "rationale": "Code obfuscators make code harder to understand, hindering debugging."
+        },
+        {
+          "key": "E",
+          "text": "Performance profilers analyze performance, not debug code logic, identifying bottlenecks for website optimization.",
+          "is_correct": false,
+          "rationale": "Performance profilers analyze performance, not debug code logic."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is the purpose of using CSS frameworks like Bootstrap or Materialize in web development projects?",
+      "options": [
+        {
+          "key": "A",
+          "text": "CSS frameworks offer pre-designed components, accelerating development and ensuring design consistency across projects.",
+          "is_correct": true,
+          "rationale": "CSS frameworks offer pre-designed components, speeding up development and ensuring consistency."
+        },
+        {
+          "key": "B",
+          "text": "CSS frameworks do not generate server-side code for handling database interactions or user authentication processes.",
+          "is_correct": false,
+          "rationale": "CSS frameworks do not generate server-side code."
+        },
+        {
+          "key": "C",
+          "text": "CSS frameworks do not handle data encryption or security, making this option an incorrect choice in this context.",
+          "is_correct": false,
+          "rationale": "CSS frameworks do not handle data encryption or security."
+        },
+        {
+          "key": "D",
+          "text": "CSS frameworks do not automatically optimize website performance by compressing images or minifying code files.",
+          "is_correct": false,
+          "rationale": "CSS frameworks do not automatically optimize website performance."
+        },
+        {
+          "key": "E",
+          "text": "CSS frameworks are not related to version control or managing CSS files collaboratively among multiple developers.",
+          "is_correct": false,
+          "rationale": "CSS frameworks are not related to version control."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Which of the following options is NOT a valid CSS selector that can be used in CSS stylesheets?",
+      "options": [
+        {
+          "key": "A",
+          "text": "`.class` is a valid CSS selector for selecting HTML elements that have a specific class attribute applied to them.",
+          "is_correct": false,
+          "rationale": "`.class` is a valid CSS selector for selecting elements by class."
+        },
+        {
+          "key": "B",
+          "text": "`#id` is a valid CSS selector for selecting an HTML element that has a specific ID attribute assigned to it.",
+          "is_correct": false,
+          "rationale": "`#id` is a valid CSS selector for selecting an element by ID."
+        },
+        {
+          "key": "C",
+          "text": "`element` is a valid CSS selector for selecting all HTML elements of a specific type in the document.",
+          "is_correct": false,
+          "rationale": "`element` is a valid CSS selector for selecting elements by tag name."
+        },
+        {
+          "key": "D",
+          "text": "`attribute=value` is not a valid CSS selector; the correct syntax is `[attribute=value]` to select elements.",
+          "is_correct": false,
+          "rationale": "`[attribute=value]` is the correct syntax, but the question asks which is NOT valid."
+        },
+        {
+          "key": "E",
+          "text": "`@font-face` is an at-rule, not a selector, used to define custom font styles for use on a website or application.",
+          "is_correct": true,
+          "rationale": "`@font-face` is an at-rule, not a selector."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What is the purpose of using the `localStorage` API in web development with JavaScript for data storage?",
+      "options": [
+        {
+          "key": "A",
+          "text": "`localStorage` is a client-side storage, not server-side, so it does not store data on the server-side database.",
+          "is_correct": false,
+          "rationale": "`localStorage` is a client-side storage, not server-side."
+        },
+        {
+          "key": "B",
+          "text": "`localStorage` stores data locally in the user's browser with no expiration time, even after the browser is closed.",
+          "is_correct": true,
+          "rationale": "`localStorage` stores data locally without expiration."
+        },
+        {
+          "key": "C",
+          "text": "Session storage is cleared when the browser is closed, unlike `localStorage`, which persists data without expiration.",
+          "is_correct": false,
+          "rationale": "Session storage is cleared when the browser is closed, not `localStorage`."
+        },
+        {
+          "key": "D",
+          "text": "Cookies are different from `localStorage` and are small text files stored on the user's computer by the web server.",
+          "is_correct": false,
+          "rationale": "Cookies are different from `localStorage`."
+        },
+        {
+          "key": "E",
+          "text": "Browser cache is for resources, not general data storage like `localStorage`, used for faster retrieval of resources.",
+          "is_correct": false,
+          "rationale": "Browser cache is for resources, not general data storage like `localStorage`."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Which of the following options shows a valid way to comment out a single line of JavaScript code in a script?",
+      "options": [
+        {
+          "key": "A",
+          "text": "These are HTML comments, not JavaScript comments, so they cannot be used to comment out JavaScript code.",
+          "is_correct": false,
+          "rationale": "These are HTML comments, not JavaScript comments."
+        },
+        {
+          "key": "B",
+          "text": "This is for multi-line comments in JavaScript, not single-line comments, so this option is not the correct choice.",
+          "is_correct": false,
+          "rationale": "This is for multi-line comments in JavaScript."
+        },
+        {
+          "key": "C",
+          "text": "`//` is used for single-line comments in JavaScript, making this the correct option for commenting out a line.",
+          "is_correct": true,
+          "rationale": "`//` is used for single-line comments in JavaScript."
+        },
+        {
+          "key": "D",
+          "text": "This is not a valid comment syntax in JavaScript, so it cannot be used to comment out a single line of code.",
+          "is_correct": false,
+          "rationale": "This is not a valid comment syntax in JavaScript."
+        },
+        {
+          "key": "E",
+          "text": "This is not a valid comment syntax in JavaScript, so it cannot be used to comment out a single line of code.",
+          "is_correct": false,
+          "rationale": "This is not a valid comment syntax in JavaScript."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is the purpose of using the `addEventListener` method in JavaScript when handling different events?",
+      "options": [
+        {
+          "key": "A",
+          "text": "`addEventListener` adds an event listener, not removes it, so this option is not the correct choice in this case.",
+          "is_correct": false,
+          "rationale": "`addEventListener` adds an event listener, not removes it."
+        },
+        {
+          "key": "B",
+          "text": "`addEventListener` attaches one or more event handlers to an element, allowing it to respond to specific events.",
+          "is_correct": true,
+          "rationale": "`addEventListener` attaches event handlers to an element."
+        },
+        {
+          "key": "C",
+          "text": "`addEventListener` does not trigger events; it listens for them, so this option is not the correct choice here.",
+          "is_correct": false,
+          "rationale": "`addEventListener` does not trigger events; it listens for them."
+        },
+        {
+          "key": "D",
+          "text": "`addEventListener` sets up the listener; `preventDefault` prevents default behavior, making this option incorrect.",
+          "is_correct": false,
+          "rationale": "`addEventListener` sets up the listener; `preventDefault` prevents default behavior."
+        },
+        {
+          "key": "E",
+          "text": "`addEventListener` doesn't check for existing listeners before adding new ones, so this option is not correct.",
+          "is_correct": false,
+          "rationale": "`addEventListener` doesn't check for existing listeners before adding new ones."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Which of the following options shows the correct way to select an HTML element by its ID using JavaScript code?",
+      "options": [
+        {
+          "key": "A",
+          "text": "This is the correct method using querySelector, returning the first element matching the specified CSS selector.",
+          "is_correct": true,
+          "rationale": "This is the correct method using querySelector."
+        },
+        {
+          "key": "B",
+          "text": "The `window` object is not typically used for selecting elements by ID, making this option an incorrect choice.",
+          "is_correct": false,
+          "rationale": "The `window` object is not typically used for selecting elements by ID."
+        },
+        {
+          "key": "C",
+          "text": "This selects by `name`, not `id`, so this option is not the correct choice when selecting by element ID.",
+          "is_correct": false,
+          "rationale": "This selects by `name`, not `id`."
+        },
+        {
+          "key": "D",
+          "text": "`querySelectorAll` requires a CSS selector, and IDs should be unique, making this option an incorrect choice.",
+          "is_correct": false,
+          "rationale": "`querySelectorAll` requires a CSS selector, and IDs should be unique."
+        },
+        {
+          "key": "E",
+          "text": "This selects by class, not ID, and the method name is incorrect, making this option an incorrect choice.",
+          "is_correct": false,
+          "rationale": "This selects by class, not ID, and the method name is incorrect."
+        }
+      ]
+    }
+  ]
+}

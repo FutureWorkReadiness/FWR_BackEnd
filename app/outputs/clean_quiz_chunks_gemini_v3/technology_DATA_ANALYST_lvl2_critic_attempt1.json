@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "Which SQL clause is used to filter rows after they have been grouped, typically involving aggregate functions?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The 'WHERE' clause filters rows before grouping occurs in the SQL query execution process.",
+          "is_correct": false,
+          "rationale": "WHERE filters before grouping; HAVING filters after, operating on grouped results."
+        },
+        {
+          "key": "B",
+          "text": "The 'GROUP BY' clause organizes rows into groups based on column values, not filtering them.",
+          "is_correct": false,
+          "rationale": "GROUP BY is for aggregation, not filtering or removing any results."
+        },
+        {
+          "key": "C",
+          "text": "The 'HAVING' clause filters rows after grouping, based on conditions applied to aggregate values.",
+          "is_correct": true,
+          "rationale": "HAVING filters based on aggregate function results, post-grouping."
+        },
+        {
+          "key": "D",
+          "text": "The 'ORDER BY' clause sorts the result set, arranging rows in a specified order, not filtering.",
+          "is_correct": false,
+          "rationale": "ORDER BY is for sorting, not removing rows based on conditions."
+        },
+        {
+          "key": "E",
+          "text": "The 'LIMIT' clause restricts the number of rows returned by the query, not filtering based on conditions.",
+          "is_correct": false,
+          "rationale": "LIMIT restricts row count, not filters based on specific conditions."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the primary goal of data normalization in a relational database design and management system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To minimize data redundancy and improve data integrity by organizing data efficiently in tables.",
+          "is_correct": true,
+          "rationale": "Normalization reduces redundancy and improves data integrity."
+        },
+        {
+          "key": "B",
+          "text": "To maximize data redundancy in order to achieve faster query performance, especially for complex queries.",
+          "is_correct": false,
+          "rationale": "Redundancy slows queries and increases storage needs unnecessarily."
+        },
+        {
+          "key": "C",
+          "text": "To intentionally complicate data relationships, enhancing security by making data access more difficult and complex.",
+          "is_correct": false,
+          "rationale": "Normalization simplifies relationships, not complicates them."
+        },
+        {
+          "key": "D",
+          "text": "To obfuscate data, making it unreadable to ensure compliance with various privacy regulations and security standards.",
+          "is_correct": false,
+          "rationale": "Obfuscation is different from normalization; it's about hiding data."
+        },
+        {
+          "key": "E",
+          "text": "To accelerate the speed of data backups and restores, making database maintenance tasks significantly faster and easier.",
+          "is_correct": false,
+          "rationale": "Normalization has little direct impact on backup or restore speed."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which type of SQL join operation returns all rows from the left table and only matching rows from the right table?",
+      "options": [
+        {
+          "key": "A",
+          "text": "An INNER JOIN returns only the matching rows from both tables, discarding non-matching rows from either table.",
+          "is_correct": false,
+          "rationale": "INNER JOIN returns matching rows only from both tables."
+        },
+        {
+          "key": "B",
+          "text": "A RIGHT JOIN returns all rows from the right table and matching rows from the left table, padding with NULLs.",
+          "is_correct": false,
+          "rationale": "RIGHT JOIN returns all from the right table, not the left."
+        },
+        {
+          "key": "C",
+          "text": "A FULL OUTER JOIN returns all rows from both tables, padding with NULLs where there are no matches between them.",
+          "is_correct": false,
+          "rationale": "FULL OUTER JOIN returns all rows from both tables."
+        },
+        {
+          "key": "D",
+          "text": "A LEFT JOIN returns all rows from the left table and matching rows from the right table, filling unmatched columns with NULLs.",
+          "is_correct": true,
+          "rationale": "LEFT JOIN preserves all rows from the left table always."
+        },
+        {
+          "key": "E",
+          "text": "A CROSS JOIN returns the Cartesian product of both tables, combining each row from the first table with every row.",
+          "is_correct": false,
+          "rationale": "CROSS JOIN returns Cartesian product, not filtered results."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "In the context of data warehousing, what does the acronym ETL stand for, representing a crucial process?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Extract, Transform, Load represents the standard data pipeline for moving data into a data warehouse system.",
+          "is_correct": true,
+          "rationale": "ETL defines the standard data warehousing process accurately."
+        },
+        {
+          "key": "B",
+          "text": "Evaluate, Translate, Locate is a process not directly related to the typical data warehousing and ETL procedures.",
+          "is_correct": false,
+          "rationale": "This is not related to data warehousing or data movement."
+        },
+        {
+          "key": "C",
+          "text": "Encrypt, Transfer, Log is a process primarily related to data security and secure data transmission practices.",
+          "is_correct": false,
+          "rationale": "This is related to data security, not warehousing steps."
+        },
+        {
+          "key": "D",
+          "text": "Enter, Transpose, List is a sequence that is not associated with standard data warehousing or data processing methodologies.",
+          "is_correct": false,
+          "rationale": "This is not related to data warehousing or ETL processes."
+        },
+        {
+          "key": "E",
+          "text": "Expand, Trim, Limit is a sequence of operations that is not typically used in the context of data warehousing.",
+          "is_correct": false,
+          "rationale": "This is not related to data warehousing or the ETL pipeline."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is considered a common and acceptable technique for handling missing data values in datasets?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Deleting rows with missing values is a simple approach but can introduce bias if data is not missing completely at random.",
+          "is_correct": false,
+          "rationale": "Deleting rows can introduce bias into the dataset."
+        },
+        {
+          "key": "B",
+          "text": "Ignoring missing values is generally not recommended as it can skew results and lead to inaccurate analysis outcomes.",
+          "is_correct": false,
+          "rationale": "Ignoring missing values can skew results significantly."
+        },
+        {
+          "key": "C",
+          "text": "Imputing missing values with the mean or median is a common method to preserve data integrity and avoid data loss.",
+          "is_correct": true,
+          "rationale": "Imputation preserves data integrity effectively."
+        },
+        {
+          "key": "D",
+          "text": "Multiplying missing values by zero is rarely appropriate and can severely distort the data distribution and analysis results.",
+          "is_correct": false,
+          "rationale": "Multiplying by zero is generally an incorrect approach."
+        },
+        {
+          "key": "E",
+          "text": "Replacing missing values with random noise can reduce data accuracy and introduce artificial variability into the dataset.",
+          "is_correct": false,
+          "rationale": "Introducing noise reduces the overall data accuracy."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What is the fundamental purpose of a primary key constraint when defining a database table schema?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To uniquely identify each record in the table, ensuring no two records have the same primary key value.",
+          "is_correct": true,
+          "rationale": "Primary keys enforce uniqueness across all records."
+        },
+        {
+          "key": "B",
+          "text": "To define the data type of a column, specifying what kind of data the column can store (e.g., integer, text).",
+          "is_correct": false,
+          "rationale": "Data types are defined separately from primary key constraints."
+        },
+        {
+          "key": "C",
+          "text": "To establish a relationship with another table, linking records between tables based on related data values.",
+          "is_correct": false,
+          "rationale": "Foreign keys establish relationships between different tables."
+        },
+        {
+          "key": "D",
+          "text": "To improve the speed of data retrieval by creating indexes that allow the database to quickly locate specific records.",
+          "is_correct": false,
+          "rationale": "Indexes improve retrieval speed, not primary keys directly."
+        },
+        {
+          "key": "E",
+          "text": "To encrypt the data stored in the table, protecting sensitive information from unauthorized access and ensuring data privacy.",
+          "is_correct": false,
+          "rationale": "Encryption protects data; primary keys do not encrypt."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Which statistical measure is known to be the most sensitive to the presence of outliers within a dataset?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The median is resistant to outliers because it represents the middle value and is not affected by extreme values.",
+          "is_correct": false,
+          "rationale": "Median is the middle value and is robust to outliers."
+        },
+        {
+          "key": "B",
+          "text": "The mode is the most frequently occurring value and is generally not significantly affected by the presence of outliers.",
+          "is_correct": false,
+          "rationale": "Mode is the most frequent value, not sensitive to outliers."
+        },
+        {
+          "key": "C",
+          "text": "The standard deviation measures the spread around the mean and is somewhat affected by outliers, but not as much as the mean.",
+          "is_correct": false,
+          "rationale": "Standard deviation is affected, but not as drastically."
+        },
+        {
+          "key": "D",
+          "text": "The mean is significantly affected by extreme values, as it is the average and outliers can pull the mean towards them.",
+          "is_correct": true,
+          "rationale": "The mean is the average and is pulled significantly by outliers."
+        },
+        {
+          "key": "E",
+          "text": "The interquartile range (IQR) is resistant to outliers as it focuses on the middle 50% of the data distribution.",
+          "is_correct": false,
+          "rationale": "IQR focuses on the middle 50% of the dataset."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What is the primary purpose of data validation as a critical step in the data analysis workflow process?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure data accuracy and consistency by checking data against predefined rules and constraints for quality.",
+          "is_correct": true,
+          "rationale": "Validation aims to ensure data quality and consistency."
+        },
+        {
+          "key": "B",
+          "text": "To encrypt sensitive data fields, protecting them from unauthorized access and ensuring compliance with privacy regulations.",
+          "is_correct": false,
+          "rationale": "Encryption focuses on data security, not validation directly."
+        },
+        {
+          "key": "C",
+          "text": "To compress data for efficient storage, reducing the amount of disk space required and improving data transfer speeds.",
+          "is_correct": false,
+          "rationale": "Compression reduces storage size, not data validation."
+        },
+        {
+          "key": "D",
+          "text": "To transform data into a different format, restructuring it to meet the requirements of a specific analysis or application.",
+          "is_correct": false,
+          "rationale": "Transformation changes data structure, not validation."
+        },
+        {
+          "key": "E",
+          "text": "To accelerate data loading into a database, improving the efficiency of data ingestion processes for faster analysis.",
+          "is_correct": false,
+          "rationale": "Loading speed depends on various factors, not just validation."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is the primary function of the 'CASE' statement in the SQL query language for database management?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To create temporary tables for storing intermediate results during complex queries, improving performance and organization.",
+          "is_correct": false,
+          "rationale": "Temporary tables are created with CREATE TEMP TABLE statements."
+        },
+        {
+          "key": "B",
+          "text": "To perform conditional logic within a query, allowing different results based on specified conditions evaluated for each row.",
+          "is_correct": true,
+          "rationale": "CASE statements implement conditional logic effectively."
+        },
+        {
+          "key": "C",
+          "text": "To define user-defined functions, encapsulating reusable logic that can be called multiple times within a query or across queries.",
+          "is_correct": false,
+          "rationale": "User-defined functions are created differently in SQL."
+        },
+        {
+          "key": "D",
+          "text": "To optimize query execution plans, helping the database engine choose the most efficient way to retrieve and process data.",
+          "is_correct": false,
+          "rationale": "Query optimization is done by the database engine automatically."
+        },
+        {
+          "key": "E",
+          "text": "To manage database transactions, ensuring data consistency and integrity by grouping multiple operations into a single atomic unit.",
+          "is_correct": false,
+          "rationale": "Transactions are managed with BEGIN, COMMIT, and ROLLBACK statements."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Which type of data visualization is generally considered the most suitable for showing the distribution of a single numerical variable?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A scatter plot is used to show the relationship between two numerical variables, displaying data points as coordinates on a graph.",
+          "is_correct": false,
+          "rationale": "Scatter plots show relationships between two variables."
+        },
+        {
+          "key": "B",
+          "text": "A bar chart is used to compare categorical data, displaying the frequency or proportion of each category with rectangular bars.",
+          "is_correct": false,
+          "rationale": "Bar charts are primarily for categorical data comparisons."
+        },
+        {
+          "key": "C",
+          "text": "A pie chart is used to show proportions of a whole, representing each category as a slice of a circular pie.",
+          "is_correct": false,
+          "rationale": "Pie charts show proportions of a whole effectively."
+        },
+        {
+          "key": "D",
+          "text": "A histogram displays the frequency distribution of a numerical variable, grouping data into bins and showing counts.",
+          "is_correct": true,
+          "rationale": "Histograms show frequency distribution of numerical data."
+        },
+        {
+          "key": "E",
+          "text": "A line chart is used to show trends over time, connecting data points with lines to visualize changes in a variable.",
+          "is_correct": false,
+          "rationale": "Line charts show trends over a period of time."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the primary purpose of feature scaling techniques in the field of machine learning and data science?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To directly improve the accuracy of the machine learning model by enhancing its ability to fit the training data.",
+          "is_correct": false,
+          "rationale": "Accuracy improvement is not the sole or primary goal."
+        },
+        {
+          "key": "B",
+          "text": "To speed up model training and prevent feature dominance by ensuring all features contribute equally during the learning process.",
+          "is_correct": true,
+          "rationale": "Scaling helps algorithms converge faster and prevents dominance."
+        },
+        {
+          "key": "C",
+          "text": "To reduce the dimensionality of the data, simplifying the model and reducing the risk of overfitting to the training data.",
+          "is_correct": false,
+          "rationale": "Dimensionality reduction is a separate data preprocessing step."
+        },
+        {
+          "key": "D",
+          "text": "To handle missing values in the dataset by imputing them with appropriate values, ensuring the model can process all data points.",
+          "is_correct": false,
+          "rationale": "Missing value imputation is a distinct process from feature scaling."
+        },
+        {
+          "key": "E",
+          "text": "To convert categorical features to numerical ones, allowing the model to process them effectively using mathematical operations.",
+          "is_correct": false,
+          "rationale": "Encoding handles categorical features, not feature scaling."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Which of the following options is NOT typically considered a common architecture for data warehousing systems?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Star schema is a common data warehousing architecture, characterized by a central fact table surrounded by dimension tables.",
+          "is_correct": false,
+          "rationale": "Star schema is a very common warehousing architecture."
+        },
+        {
+          "key": "B",
+          "text": "Snowflake schema is also a common architecture, an extension of the star schema where dimension tables are further normalized.",
+          "is_correct": false,
+          "rationale": "Snowflake schema is also a common warehousing architecture."
+        },
+        {
+          "key": "C",
+          "text": "Galaxy schema, also known as fact constellation, is a valid warehousing architecture with multiple fact tables sharing dimension tables.",
+          "is_correct": false,
+          "rationale": "Galaxy schema is a valid warehousing architecture."
+        },
+        {
+          "key": "D",
+          "text": "Inverted index is primarily used for search functionality, not as a fundamental architecture for data warehousing systems.",
+          "is_correct": true,
+          "rationale": "Inverted index is used for search indexing, not warehousing."
+        },
+        {
+          "key": "E",
+          "text": "Data vault is a modern data warehousing architecture designed for auditability and scalability, focusing on historical data tracking.",
+          "is_correct": false,
+          "rationale": "Data vault is a modern warehousing architecture approach."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is the primary purpose of a foreign key constraint in the context of a relational database system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To uniquely identify each record within a table, ensuring that no two records have the same identifier value.",
+          "is_correct": false,
+          "rationale": "Primary key identifies records uniquely, not foreign key."
+        },
+        {
+          "key": "B",
+          "text": "To enforce referential integrity between tables, ensuring that relationships between tables remain consistent and valid.",
+          "is_correct": true,
+          "rationale": "Foreign key maintains referential integrity between tables."
+        },
+        {
+          "key": "C",
+          "text": "To define the data type of a column, specifying the kind of data that the column can store (e.g., integer, text, date).",
+          "is_correct": false,
+          "rationale": "Data type is defined separately from foreign key constraints."
+        },
+        {
+          "key": "D",
+          "text": "To improve the speed of data retrieval by creating indexes that allow the database to quickly locate specific records based on column values.",
+          "is_correct": false,
+          "rationale": "Indexes improve retrieval speed, not foreign keys directly."
+        },
+        {
+          "key": "E",
+          "text": "To encrypt sensitive data within a table, protecting it from unauthorized access and ensuring compliance with data privacy regulations.",
+          "is_correct": false,
+          "rationale": "Encryption secures data, which is different from foreign key functions."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Which of the following is a key characteristic that defines unstructured data in the realm of data management?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It has a predefined data model or schema, making it easy to store and query using traditional database systems.",
+          "is_correct": false,
+          "rationale": "Structured data has a defined schema, not unstructured data."
+        },
+        {
+          "key": "B",
+          "text": "It is easily stored in relational databases, allowing for efficient querying and analysis using SQL and other structured query languages.",
+          "is_correct": false,
+          "rationale": "Structured data fits relational databases more readily."
+        },
+        {
+          "key": "C",
+          "text": "It has a consistent format across all instances, ensuring that data can be processed uniformly and predictably.",
+          "is_correct": false,
+          "rationale": "Structured data has a consistent format inherently."
+        },
+        {
+          "key": "D",
+          "text": "It often requires specialized tools and techniques for analysis, due to its lack of a predefined structure and organization.",
+          "is_correct": true,
+          "rationale": "Unstructured data needs specialized tools for effective analysis."
+        },
+        {
+          "key": "E",
+          "text": "It is primarily numerical or categorical in nature, making it suitable for statistical analysis and machine learning algorithms.",
+          "is_correct": false,
+          "rationale": "Structured data is typically numerical or categorical."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is the primary purpose of performing cohort analysis in the context of data analytics and business intelligence?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To analyze groups of users with shared characteristics over time, tracking their behavior and outcomes to identify trends.",
+          "is_correct": true,
+          "rationale": "Cohort analysis tracks groups over time to understand trends."
+        },
+        {
+          "key": "B",
+          "text": "To predict future sales based on historical data, using time series analysis techniques to forecast trends and patterns.",
+          "is_correct": false,
+          "rationale": "Sales prediction is primarily time series analysis, not cohort."
+        },
+        {
+          "key": "C",
+          "text": "To identify statistically significant correlations between variables, uncovering relationships and dependencies within the dataset.",
+          "is_correct": false,
+          "rationale": "Correlation analysis finds relationships between variables."
+        },
+        {
+          "key": "D",
+          "text": "To optimize website design for improved user experience, using A/B testing and other techniques to enhance usability and engagement.",
+          "is_correct": false,
+          "rationale": "Website optimization is primarily A/B testing, not cohort analysis."
+        },
+        {
+          "key": "E",
+          "text": "To segment customers based on their purchasing behavior, grouping them into distinct categories for targeted marketing campaigns.",
+          "is_correct": false,
+          "rationale": "Customer segmentation is a distinct technique from cohort analysis."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Which type of data bias specifically occurs when a sample is not truly representative of the entire population?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Confirmation bias is the tendency to favor information that confirms one's pre-existing beliefs or hypotheses, ignoring contradictory evidence.",
+          "is_correct": false,
+          "rationale": "Confirmation bias favors existing beliefs, not sample representation."
+        },
+        {
+          "key": "B",
+          "text": "Selection bias occurs when the sample is not representative of the population, leading to skewed results and inaccurate inferences.",
+          "is_correct": true,
+          "rationale": "Selection bias is due to non-representative samples directly."
+        },
+        {
+          "key": "C",
+          "text": "Recall bias is the systematic error that occurs when participants do not accurately remember past events or experiences, affecting data quality.",
+          "is_correct": false,
+          "rationale": "Recall bias is related to memory accuracy, not sample bias."
+        },
+        {
+          "key": "D",
+          "text": "Measurement bias refers to errors in data collection or measurement processes, leading to inaccurate or unreliable data values.",
+          "is_correct": false,
+          "rationale": "Measurement bias is related to inaccurate data collection."
+        },
+        {
+          "key": "E",
+          "text": "Observer bias is the tendency for researchers to unconsciously influence the results of a study through their expectations or observations.",
+          "is_correct": false,
+          "rationale": "Observer bias influences results through researcher actions."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What is the primary purpose and application of A/B testing in the context of data-driven decision-making?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To analyze historical data trends, identifying patterns and insights that can inform future strategies and decisions.",
+          "is_correct": false,
+          "rationale": "Historical data analysis is a separate analytical process."
+        },
+        {
+          "key": "B",
+          "text": "To compare two versions of a variable or element and determine which one performs better based on specific metrics and goals.",
+          "is_correct": true,
+          "rationale": "A/B testing compares two versions to determine the better one."
+        },
+        {
+          "key": "C",
+          "text": "To segment customers based on demographics, grouping them into distinct categories for targeted marketing and personalized experiences.",
+          "is_correct": false,
+          "rationale": "Customer segmentation is a distinct marketing technique."
+        },
+        {
+          "key": "D",
+          "text": "To predict future outcomes using machine learning algorithms, forecasting trends and behaviors based on historical data patterns.",
+          "is_correct": false,
+          "rationale": "Prediction relies on machine learning and predictive models."
+        },
+        {
+          "key": "E",
+          "text": "To identify outliers in a dataset, detecting unusual or anomalous data points that deviate significantly from the norm.",
+          "is_correct": false,
+          "rationale": "Outlier detection is a separate data analysis process."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is a common and primary use case for dashboards in the field of data analysis and visualization?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To perform complex statistical modeling, developing advanced analytical models to uncover hidden patterns and relationships in data.",
+          "is_correct": false,
+          "rationale": "Modeling is not the primary use of dashboards; it's more in-depth."
+        },
+        {
+          "key": "B",
+          "text": "To provide a high-level overview of key performance indicators (KPIs), allowing users to quickly monitor and assess business performance.",
+          "is_correct": true,
+          "rationale": "Dashboards present KPIs for quick monitoring and assessment."
+        },
+        {
+          "key": "C",
+          "text": "To store raw data for future analysis, serving as a repository for collecting and organizing data from various sources.",
+          "is_correct": false,
+          "rationale": "Data storage is not a dashboard function; it's for data warehouses."
+        },
+        {
+          "key": "D",
+          "text": "To automatically generate reports without human intervention, streamlining the reporting process and reducing manual effort.",
+          "is_correct": false,
+          "rationale": "Dashboards require configuration and are not fully automated."
+        },
+        {
+          "key": "E",
+          "text": "To replace the need for data analysts, automating the entire data analysis process and eliminating the need for human interpretation.",
+          "is_correct": false,
+          "rationale": "Analysts are needed to interpret the data presented on dashboards."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is the overarching purpose of data governance within an organization's data management strategy and framework?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure data quality, security, and compliance with regulations, establishing policies and procedures for data management.",
+          "is_correct": true,
+          "rationale": "Data governance ensures data quality, security, and compliance."
+        },
+        {
+          "key": "B",
+          "text": "To accelerate the speed of data processing, optimizing data pipelines and infrastructure for faster analysis and reporting.",
+          "is_correct": false,
+          "rationale": "Processing speed depends on infrastructure and optimization efforts."
+        },
+        {
+          "key": "C",
+          "text": "To minimize the cost of data storage, implementing efficient storage solutions and data retention policies to reduce expenses.",
+          "is_correct": false,
+          "rationale": "Storage cost is a separate concern from data governance directly."
+        },
+        {
+          "key": "D",
+          "text": "To replace human data analysts with automated systems, streamlining data analysis and reducing the need for manual interpretation.",
+          "is_correct": false,
+          "rationale": "Analysts are still needed for interpretation and advanced analysis."
+        },
+        {
+          "key": "E",
+          "text": "To create new data sources for analysis, identifying and integrating external data sources to expand the scope of data insights.",
+          "is_correct": false,
+          "rationale": "Data sources are created separately from data governance processes."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Which of the following techniques is commonly used as a type of time series analysis in data science?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Regression analysis models the relationships between variables, predicting the value of one variable based on others.",
+          "is_correct": false,
+          "rationale": "Regression models relationships between different variables."
+        },
+        {
+          "key": "B",
+          "text": "Clustering groups similar data points together, identifying clusters based on their proximity and characteristics.",
+          "is_correct": false,
+          "rationale": "Clustering groups data points based on similarity."
+        },
+        {
+          "key": "C",
+          "text": "Classification assigns data points to predefined categories, predicting the class label based on input features.",
+          "is_correct": false,
+          "rationale": "Classification assigns data points to specific categories."
+        },
+        {
+          "key": "D",
+          "text": "Decomposition separates a time series into its constituent components, such as trend, seasonality, and residuals.",
+          "is_correct": true,
+          "rationale": "Decomposition separates time series into its components."
+        },
+        {
+          "key": "E",
+          "text": "Principal component analysis (PCA) reduces the dimensionality of data, identifying the most important features that explain variance.",
+          "is_correct": false,
+          "rationale": "PCA reduces dimensionality by finding principal components."
+        }
+      ]
+    }
+  ]
+}

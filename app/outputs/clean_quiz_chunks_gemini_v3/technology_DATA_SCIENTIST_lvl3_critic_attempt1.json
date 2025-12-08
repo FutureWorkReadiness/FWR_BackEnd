@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 101,
+      "question": "When designing an A/B test for a product with strong network effects, what is the most critical methodological consideration to ensure valid results?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using a t-test instead of a z-test for the final significance calculation to get more accurate p-values for small sample sizes.",
+          "is_correct": false,
+          "rationale": "The choice between a t-test and z-test is about sample size and variance knowledge, not network effects."
+        },
+        {
+          "key": "B",
+          "text": "Implementing cluster-based randomization to minimize interference between the treatment and control groups, ensuring valid experimental results.",
+          "is_correct": true,
+          "rationale": "Cluster-based randomization is crucial to prevent treatment effects from spilling over and contaminating the control group."
+        },
+        {
+          "key": "C",
+          "text": "Significantly increasing the sample size of both groups to ensure that the central limit theorem applies robustly to the data.",
+          "is_correct": false,
+          "rationale": "A large sample size is good, but it does not solve the fundamental problem of interference caused by network effects."
+        },
+        {
+          "key": "D",
+          "text": "Shortening the duration of the experiment in order to capture only the immediate impact of the changes being tested.",
+          "is_correct": false,
+          "rationale": "This might miss long-term network effects and lead to incorrect conclusions about the feature's overall impact."
+        },
+        {
+          "key": "E",
+          "text": "Applying a Bonferroni correction to account for multiple metrics being tracked simultaneously during the course of the experiment.",
+          "is_correct": false,
+          "rationale": "This addresses multiple comparisons, which is a separate statistical issue from the structural problem of network effects."
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "question": "In the field of causal inference, what is the primary role of an instrumental variable when estimating a causal effect?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It serves as a proxy for the outcome variable when the true outcome is not directly measurable or available.",
+          "is_correct": false,
+          "rationale": "This describes a surrogate endpoint, not an instrumental variable, which is related to the treatment, not the outcome."
+        },
+        {
+          "key": "B",
+          "text": "It directly controls for all confounding variables by being included as a covariate in the final regression model.",
+          "is_correct": false,
+          "rationale": "An instrumental variable does not control for confounders directly; it helps isolate exogenous variation in the treatment."
+        },
+        {
+          "key": "C",
+          "text": "It induces variation in the treatment variable that is independent of unobserved confounders, allowing for unbiased causal estimation.",
+          "is_correct": true,
+          "rationale": "The key function is to isolate variation in the treatment that is as-if random, breaking the link with confounders."
+        },
+        {
+          "key": "D",
+          "text": "It helps to stratify the data into more homogeneous subgroups for which the treatment effect is assumed to be constant.",
+          "is_correct": false,
+          "rationale": "This describes analyzing heterogeneous treatment effects, not the primary purpose of an instrumental variable."
+        },
+        {
+          "key": "E",
+          "text": "It is used to balance the covariates between the treatment and control groups using a propensity score matching technique.",
+          "is_correct": false,
+          "rationale": "Propensity scores are used for matching based on observed confounders, a different technique from instrumental variables."
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "question": "What is the primary motivation for using a dedicated feature store in a production machine learning system architecture?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To version control the source code for machine learning models and track experiment parameters and resulting metrics.",
+          "is_correct": false,
+          "rationale": "This is the role of tools like Git and MLflow, not a feature store, which focuses on data."
+        },
+        {
+          "key": "B",
+          "text": "To provide a centralized, governed location for storing, sharing, and managing ML features for both training and serving.",
+          "is_correct": true,
+          "rationale": "A feature store's main purpose is to ensure consistency, reuse, and governance of features across the ML lifecycle."
+        },
+        {
+          "key": "C",
+          "text": "To automatically perform hyperparameter tuning for models by testing different combinations of the available features.",
+          "is_correct": false,
+          "rationale": "Hyperparameter tuning is a model optimization process, whereas a feature store is a data management system."
+        },
+        {
+          "key": "D",
+          "text": "To serve as a real-time database exclusively for logging model predictions and user interactions for performance monitoring.",
+          "is_correct": false,
+          "rationale": "This describes a logging or monitoring system, not a feature store, which manages inputs to the model."
+        },
+        {
+          "key": "E",
+          "text": "To accelerate model training by providing a distributed GPU-based compute environment for feature preprocessing and transformation.",
+          "is_correct": false,
+          "rationale": "While a feature store can perform transformations, its primary value is data management, not providing compute infrastructure."
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "question": "Which statement best describes the exploration-exploitation tradeoff in the context of multi-armed bandit algorithms for decision-making?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The tradeoff between using a simple, interpretable model versus a complex model that might overfit the observed data.",
+          "is_correct": false,
+          "rationale": "This is the bias-variance tradeoff, a different concept from exploration-exploitation in reinforcement learning."
+        },
+        {
+          "key": "B",
+          "text": "The fundamental dilemma of choosing between an action known to yield a good reward versus trying a new, uncertain action.",
+          "is_correct": true,
+          "rationale": "This is the core dilemma: exploit known good options or explore new ones that might be even better."
+        },
+        {
+          "key": "C",
+          "text": "The balance between the computational cost of training the algorithm and the potential reward it can ultimately achieve.",
+          "is_correct": false,
+          "rationale": "This is a consideration of computational efficiency, not the fundamental learning strategy of a multi-armed bandit."
+        },
+        {
+          "key": "D",
+          "text": "The decision to either update the model's parameters with new data or keep them fixed to ensure stability.",
+          "is_correct": false,
+          "rationale": "This relates to online vs. offline learning strategies, not the action selection dilemma within the algorithm."
+        },
+        {
+          "key": "E",
+          "text": "The choice between allocating more data to the training set versus the validation set for proper model evaluation.",
+          "is_correct": false,
+          "rationale": "This is a standard practice in supervised learning model validation, unrelated to multi-armed bandits."
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "question": "How does the self-attention mechanism in a Transformer model primarily differ from the sequential processing of a recurrent neural network?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Self-attention processes the entire input sequence simultaneously, while a recurrent neural network processes it sequentially step-by-step.",
+          "is_correct": true,
+          "rationale": "Self-attention's parallel processing of the sequence is its key architectural advantage over the sequential nature of RNNs."
+        },
+        {
+          "key": "B",
+          "text": "Self-attention is only applicable to natural language text data, whereas RNNs can be used for any type of sequential data.",
+          "is_correct": false,
+          "rationale": "Both architectures are versatile; Transformers with self-attention are now widely used for images, audio, and other data types."
+        },
+        {
+          "key": "C",
+          "text": "Self-attention uses a fixed-size context window, while an RNN theoretically has an infinite memory of all past states.",
+          "is_correct": false,
+          "rationale": "Self-attention can attend to all tokens in the input, while RNNs suffer from vanishing gradients, limiting practical memory."
+        },
+        {
+          "key": "D",
+          "text": "RNNs are inherently more computationally efficient for long sequences due to their simpler architecture and fewer total parameters.",
+          "is_correct": false,
+          "rationale": "Self-attention's complexity is quadratic with sequence length, but its parallelizability often makes it faster in practice."
+        },
+        {
+          "key": "E",
+          "text": "Self-attention models are always deterministic, while RNNs incorporate stochastic elements to model uncertainty in the sequence data.",
+          "is_correct": false,
+          "rationale": "Both model types are generally deterministic during inference, though variations like variational RNNs exist."
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "question": "You observe a steady decline in a deployed model's F1 score over time, while the input data distributions remain stable. What is this phenomenon?",
+      "options": [
+        {
+          "key": "A",
+          "text": "This is a clear example of data drift, where the statistical properties of the input features have significantly changed.",
+          "is_correct": false,
+          "rationale": "The question explicitly states that input data distributions are stable, which rules out data drift as the primary cause."
+        },
+        {
+          "key": "B",
+          "text": "This is known as model staleness, which requires updating the model's software dependencies and underlying libraries.",
+          "is_correct": false,
+          "rationale": "Model staleness refers to outdated code or packages, an engineering issue, not a statistical one related to performance."
+        },
+        {
+          "key": "C",
+          "text": "This phenomenon is called concept drift, where the relationship between input features and the target variable has changed.",
+          "is_correct": true,
+          "rationale": "Concept drift is defined by a change in P(y|X), causing a trained model to become less accurate over time."
+        },
+        {
+          "key": "D",
+          "text": "This is an issue of covariate shift, which is a specific type of data drift affecting only independent variables.",
+          "is_correct": false,
+          "rationale": "Covariate shift is a form of data drift, which the problem statement indicates is not occurring here."
+        },
+        {
+          "key": "E",
+          "text": "This is caused by upstream data pipeline failures, leading to corrupted or missing feature values during model inference.",
+          "is_correct": false,
+          "rationale": "Pipeline failures can cause performance drops, but the problem describes a steady decline, suggesting a more fundamental statistical shift."
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "question": "What is the primary advantage of using L1 regularization (Lasso) over L2 regularization (Ridge) in a linear regression model?",
+      "options": [
+        {
+          "key": "A",
+          "text": "L1 regularization is computationally faster to optimize because its penalty term is not squared like the L2 penalty.",
+          "is_correct": false,
+          "rationale": "L2 has a closed-form solution and is often faster; the L1 penalty's non-differentiability requires iterative solvers."
+        },
+        {
+          "key": "B",
+          "text": "L1 regularization is more effective at preventing model overfitting when dealing with a set of highly correlated features.",
+          "is_correct": false,
+          "rationale": "L2 is generally better for correlated features as it tends to shrink their coefficients together, unlike L1."
+        },
+        {
+          "key": "C",
+          "text": "L1 regularization can produce sparse models by shrinking some feature coefficients to exactly zero, performing automatic feature selection.",
+          "is_correct": true,
+          "rationale": "The L1 penalty's geometry encourages solutions where some coefficients are zero, effectively selecting a subset of features."
+        },
+        {
+          "key": "D",
+          "text": "L1 regularization always results in a model with lower bias compared to an equivalent model that is using L2.",
+          "is_correct": false,
+          "rationale": "All regularization introduces bias to reduce variance. Neither L1 nor L2 guarantees lower bias than the other."
+        },
+        {
+          "key": "E",
+          "text": "L1 regularization creates a unique solution for the model's coefficients, whereas L2 can have multiple optimal solutions.",
+          "is_correct": false,
+          "rationale": "The opposite is true; the strictly convex L2 penalty ensures a unique solution, while L1 may not."
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "question": "In survival analysis, what is the defining characteristic of right-censored data for a particular subject in a study?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The event of interest is known to have occurred, but the exact time of the event is completely unknown.",
+          "is_correct": false,
+          "rationale": "This describes interval-censored data, where the event occurs within a known time range, not right-censored data."
+        },
+        {
+          "key": "B",
+          "text": "The event of interest has not occurred by the end of the study or when the subject was lost to follow-up.",
+          "is_correct": true,
+          "rationale": "Right-censoring means the observation period ends before the event is observed, so we only know the event happened after this time."
+        },
+        {
+          "key": "C",
+          "text": "The event of interest happened at a time before the subject entered the observation period of the research study.",
+          "is_correct": false,
+          "rationale": "This describes left-censored data, where the event has already occurred before the start of observation."
+        },
+        {
+          "key": "D",
+          "text": "The data for the subject is completely missing, including all covariates and the time of the event occurrence.",
+          "is_correct": false,
+          "rationale": "This is a missing data problem, not censoring, which specifically relates to incomplete information about the event time."
+        },
+        {
+          "key": "E",
+          "text": "The subject experienced a competing event that made the primary event of interest impossible to occur at a later time.",
+          "is_correct": false,
+          "rationale": "This is a competing risks problem, a related but distinct concept from the standard types of censoring."
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "question": "What is the main purpose of the 'message passing' mechanism in the architecture of Graph Neural Networks (GNNs)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To reduce the dimensionality of the graph structure into a low-dimensional vector representation for easier processing.",
+          "is_correct": false,
+          "rationale": "This describes graph embedding, which can be a result of GNNs, but message passing is the core mechanism."
+        },
+        {
+          "key": "B",
+          "text": "To enable nodes to iteratively aggregate feature information from their neighbors, creating context-aware node representations.",
+          "is_correct": true,
+          "rationale": "Message passing is the process where nodes exchange information with neighbors, updating their embeddings based on local graph structure."
+        },
+        {
+          "key": "C",
+          "text": "To find the shortest path between any two nodes in the graph for use in various network routing algorithms.",
+          "is_correct": false,
+          "rationale": "This is a classic graph algorithm (like Dijkstra's), not the learning mechanism used within a Graph Neural Network."
+        },
+        {
+          "key": "D",
+          "text": "To assign a global label to the entire graph based on the most frequent label among all its nodes.",
+          "is_correct": false,
+          "rationale": "This is a simple heuristic for graph classification, whereas GNNs learn complex representations for this task."
+        },
+        {
+          "key": "E",
+          "text": "To efficiently partition the graph into distinct communities or clusters of densely connected nodes for further analysis.",
+          "is_correct": false,
+          "rationale": "This is the goal of community detection algorithms; GNNs can be used for this, but message passing is the underlying process."
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "question": "Why is lazy evaluation a key concept for performance and optimization in Apache Spark's distributed data processing model?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It ensures that all data is immediately loaded into memory as soon as a transformation operation is first defined.",
+          "is_correct": false,
+          "rationale": "This is the opposite of lazy evaluation, which defers execution. This describes an eager execution model."
+        },
+        {
+          "key": "B",
+          "text": "It allows Spark to build a logical execution plan and optimize the entire workflow before any computation actually starts.",
+          "is_correct": true,
+          "rationale": "Lazy evaluation enables the Catalyst optimizer to see the full chain of transformations, allowing for significant optimizations."
+        },
+        {
+          "key": "C",
+          "text": "It forces each transformation to be executed sequentially, which simplifies debugging and error handling in very complex jobs.",
+          "is_correct": false,
+          "rationale": "Lazy evaluation enables parallelism and optimization; it does not force sequential execution, which would be highly inefficient."
+        },
+        {
+          "key": "D",
+          "text": "It automatically caches the result of every single transformation to disk to prevent re-computation in any later stages.",
+          "is_correct": false,
+          "rationale": "Caching is an explicit action that a developer can trigger; lazy evaluation itself does not automatically cache all intermediate results."
+        },
+        {
+          "key": "E",
+          "text": "It reduces the code's verbosity by allowing developers to write single-line commands for complex, multi-stage data operations.",
+          "is_correct": false,
+          "rationale": "While Spark's API can be concise, this is a feature of the API design, not a direct consequence of lazy evaluation."
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "question": "When choosing between UMAP and t-SNE for visualizing high-dimensional data, what is a key practical advantage of using UMAP?",
+      "options": [
+        {
+          "key": "A",
+          "text": "UMAP is guaranteed to find the optimal two-dimensional embedding without any loss of information from the original data.",
+          "is_correct": false,
+          "rationale": "No dimensionality reduction technique is lossless. Both UMAP and t-SNE are projections that involve information loss."
+        },
+        {
+          "key": "B",
+          "text": "UMAP is significantly more scalable and computationally efficient, making it a better choice for very large datasets.",
+          "is_correct": true,
+          "rationale": "UMAP's performance advantage is a major reason for its adoption, as t-SNE's complexity makes it slow on large datasets."
+        },
+        {
+          "key": "C",
+          "text": "UMAP visualizations are deterministic, meaning it will produce the exact same plot every time it is run on data.",
+          "is_correct": false,
+          "rationale": "Like t-SNE, UMAP involves a stochastic optimization process, so results can vary slightly without a fixed random seed."
+        },
+        {
+          "key": "D",
+          "text": "UMAP is primarily designed to preserve only the local structure of the data, while ignoring all global relationships.",
+          "is_correct": false,
+          "rationale": "A key advantage of UMAP over t-SNE is its superior ability to preserve both local and global data structure."
+        },
+        {
+          "key": "E",
+          "text": "UMAP does not require any hyperparameters to be tuned, making it much easier to use for non-expert practitioners.",
+          "is_correct": false,
+          "rationale": "UMAP has important hyperparameters like `n_neighbors` and `min_dist` that significantly influence the resulting embedding."
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "question": "What is the primary purpose of using a technique like Batch Normalization within the architecture of a deep neural network?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To enforce sparsity in the network's weights, effectively performing feature selection and reducing the overall model size.",
+          "is_correct": false,
+          "rationale": "This is the effect of L1 regularization, not Batch Normalization, which deals with activation distributions."
+        },
+        {
+          "key": "B",
+          "text": "To reduce internal covariate shift by normalizing the inputs to each layer, which stabilizes and accelerates the training process.",
+          "is_correct": true,
+          "rationale": "Batch Normalization standardizes activations, which helps combat changing distributions between layers, allowing for faster and more stable training."
+        },
+        {
+          "key": "C",
+          "text": "To replace non-linear activation functions like ReLU with a linear operation, simplifying the network's complex optimization landscape.",
+          "is_correct": false,
+          "rationale": "Batch Normalization is applied before the activation function; it does not replace it and relies on non-linearity to learn."
+        },
+        {
+          "key": "D",
+          "text": "To quantize the model's weights and activations from 32-bit floating point to 8-bit integers for faster inference.",
+          "is_correct": false,
+          "rationale": "This describes quantization, a model optimization technique for deployment, not a method used during the training process itself."
+        },
+        {
+          "key": "E",
+          "text": "To add Gaussian noise to the layer inputs, which acts as a form of regularization similar to the dropout technique.",
+          "is_correct": false,
+          "rationale": "While it can have a slight regularizing effect, its main purpose is to stabilize training, not to add noise."
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "question": "In a classification task with highly imbalanced classes, why is the F1 score often a more appropriate metric than accuracy?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Accuracy is computationally more expensive to calculate on large datasets when compared to the F1 score metric.",
+          "is_correct": false,
+          "rationale": "Both metrics are computationally trivial to calculate from the confusion matrix; cost is not a distinguishing factor."
+        },
+        {
+          "key": "B",
+          "text": "The F1 score is insensitive to the choice of the positive class, unlike accuracy which requires a specific class designation.",
+          "is_correct": false,
+          "rationale": "F1 score is very sensitive to the choice of the positive class, as precision and recall are defined for that class."
+        },
+        {
+          "key": "C",
+          "text": "Accuracy can be misleadingly high if the model simply predicts the majority class, which the F1 score penalizes.",
+          "is_correct": true,
+          "rationale": "F1 is the harmonic mean of precision and recall, both of which would be low for the minority class in this scenario."
+        },
+        {
+          "key": "D",
+          "text": "The F1 score provides a measure of confidence for each individual prediction, while accuracy is just a simple count.",
+          "is_correct": false,
+          "rationale": "Neither F1 nor accuracy measures prediction confidence; that is the role of the model's probabilistic output."
+        },
+        {
+          "key": "E",
+          "text": "The F1 score is a differentiable metric, which allows it to be used directly as a loss function during training.",
+          "is_correct": false,
+          "rationale": "F1 score is not differentiable and cannot be used directly as a loss function for gradient-based optimization."
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "question": "What is a primary architectural difference between a system designed for online (real-time) versus batch model inference?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Batch inference systems typically use REST APIs for low-latency requests, while online systems use scheduled batch jobs.",
+          "is_correct": false,
+          "rationale": "This is the reverse. Online systems use APIs for low-latency, while batch systems use scheduled jobs for high throughput."
+        },
+        {
+          "key": "B",
+          "text": "Online inference prioritizes low latency for single predictions, whereas batch inference prioritizes high throughput for large datasets.",
+          "is_correct": true,
+          "rationale": "This is the fundamental tradeoff: online systems need fast individual responses, while batch systems need to process large volumes efficiently."
+        },
+        {
+          "key": "C",
+          "text": "Online inference systems are always stateful by remembering past predictions, while batch systems are designed to be completely stateless.",
+          "is_correct": false,
+          "rationale": "Both can be stateful or stateless depending on the application's requirements; this is not a defining architectural difference."
+        },
+        {
+          "key": "D",
+          "text": "Batch inference requires models to be containerized using Docker, while online inference can only use serverless functions.",
+          "is_correct": false,
+          "rationale": "Both deployment patterns (containers, serverless) can be used for either batch or online inference depending on the specific needs."
+        },
+        {
+          "key": "E",
+          "text": "Only batch inference systems can leverage GPU acceleration, as online systems are limited to CPU for low-latency speed.",
+          "is_correct": false,
+          "rationale": "GPUs are frequently used in low-latency online inference for deep learning models where fast computation is critical."
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "question": "When applying Bayesian inference for statistical modeling, what is the conceptual role of the 'prior' distribution in the process?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It represents the probability of observing the data, given a particular set of model parameters, also known as the likelihood.",
+          "is_correct": false,
+          "rationale": "This defines the likelihood function, not the prior. The prior is independent of the observed data."
+        },
+        {
+          "key": "B",
+          "text": "It represents our belief about a model parameter's value before we have observed any data from the current experiment.",
+          "is_correct": true,
+          "rationale": "The prior distribution, P(theta), encapsulates existing knowledge or belief about a parameter before evidence is considered."
+        },
+        {
+          "key": "C",
+          "text": "It is the final, updated distribution of the model parameter after the observed data has been fully taken into account.",
+          "is_correct": false,
+          "rationale": "This describes the posterior distribution, which is the result of combining the prior and the likelihood."
+        },
+        {
+          "key": "D",
+          "text": "It is a normalizing constant that ensures the resulting probability distribution integrates to one over all possible parameter values.",
+          "is_correct": false,
+          "rationale": "This describes the evidence or marginal likelihood, P(D), which is the denominator in Bayes' theorem."
+        },
+        {
+          "key": "E",
+          "text": "It is the distribution of the observed data itself, used to check for outliers and anomalies before any modeling.",
+          "is_correct": false,
+          "rationale": "This is part of exploratory data analysis. The prior is a distribution over parameters, not the data."
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "question": "What is a key advantage of employing sequential A/B testing over traditional fixed-horizon A/B testing for online experiments?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It completely eliminates the need to pre-calculate the required sample size before starting the experiment, making it more flexible.",
+          "is_correct": false,
+          "rationale": "While more flexible, you still need to define parameters like error rates, which inform the expected duration."
+        },
+        {
+          "key": "B",
+          "text": "It allows for continuous monitoring and early stopping if significance is reached, often reducing the overall experiment duration.",
+          "is_correct": true,
+          "rationale": "This is the primary benefit: it provides statistically valid stopping rules, avoiding the 'peeking' problem of fixed-horizon tests."
+        },
+        {
+          "key": "C",
+          "text": "It guarantees a more accurate measurement of the true effect size compared to a standard fixed-horizon test design.",
+          "is_correct": false,
+          "rationale": "It does not guarantee higher accuracy; in fact, early stopping can sometimes lead to overestimated effect sizes."
+        },
+        {
+          "key": "D",
+          "text": "It is the only statistically valid method for testing more than two variants (A/B/n testing) at the same time.",
+          "is_correct": false,
+          "rationale": "Fixed-horizon tests can easily be adapted for multiple variants using corrections like the Bonferroni method."
+        },
+        {
+          "key": "E",
+          "text": "It is less sensitive to seasonal effects or changes in user behavior over the entire duration of the test.",
+          "is_correct": false,
+          "rationale": "All testing methods are sensitive to seasonality; sequential tests might even be more so if they stop early."
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "question": "In the context of model interpretability, how does the SHAP (SHapley Additive exPlanations) framework fundamentally differ from LIME?",
+      "options": [
+        {
+          "key": "A",
+          "text": "LIME is a model-agnostic method, while SHAP can only be applied to tree-based models like XGBoost and LightGBM.",
+          "is_correct": false,
+          "rationale": "Both are model-agnostic, although SHAP has highly optimized, model-specific versions (e.g., TreeSHAP) that are very popular."
+        },
+        {
+          "key": "B",
+          "text": "LIME provides global explanations for the entire model's behavior, whereas SHAP can only explain individual local predictions.",
+          "is_correct": false,
+          "rationale": "The reverse is true. LIME is designed for local explanations, while SHAP values can be aggregated to provide global insights."
+        },
+        {
+          "key": "C",
+          "text": "SHAP values are based on cooperative game theory and provide strong theoretical guarantees, unlike LIME's more heuristic approach.",
+          "is_correct": true,
+          "rationale": "SHAP's foundation in Shapley values provides properties like local accuracy and consistency, which LIME does not guarantee."
+        },
+        {
+          "key": "D",
+          "text": "LIME works by perturbing the input features, while SHAP analyzes the internal weights and structure of the model.",
+          "is_correct": false,
+          "rationale": "Model-agnostic versions of SHAP (like KernelSHAP) also work by perturbing inputs, similar to LIME's approach."
+        },
+        {
+          "key": "E",
+          "text": "SHAP is significantly faster and more computationally efficient than LIME for explaining any given single model prediction.",
+          "is_correct": false,
+          "rationale": "KernelSHAP can be very slow. While optimized versions like TreeSHAP are fast, LIME is often faster for a single explanation."
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "question": "What is the primary reason for applying a differencing transformation to a time series before fitting an ARIMA model?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To remove seasonal patterns from the data, leaving only the underlying trend and the random noise components behind.",
+          "is_correct": false,
+          "rationale": "While seasonal differencing exists, the primary goal of first-order differencing is to address trend and achieve stationarity."
+        },
+        {
+          "key": "B",
+          "text": "To normalize the data so that its values fall within a specific range, such as between the values 0 and 1.",
+          "is_correct": false,
+          "rationale": "This describes min-max scaling, a common preprocessing step, but it is different from differencing and its purpose."
+        },
+        {
+          "key": "C",
+          "text": "To make the time series stationary by removing trends or shifts in the mean and variance over time.",
+          "is_correct": true,
+          "rationale": "ARIMA models assume stationarity (constant mean, variance, and autocorrelation), and differencing is the standard method to achieve this."
+        },
+        {
+          "key": "D",
+          "text": "To impute any missing values in the time series by carrying forward the last known valid observation in time.",
+          "is_correct": false,
+          "rationale": "This describes forward-fill imputation, a separate data cleaning step unrelated to the purpose of differencing."
+        },
+        {
+          "key": "E",
+          "text": "To increase the autocorrelation of the time series, making the autoregressive (AR) component of the model more effective.",
+          "is_correct": false,
+          "rationale": "Differencing is done to remove non-stationarity, which often involves reducing long-term autocorrelation related to a trend."
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "question": "When deploying a new machine learning model version, what is the main characteristic of a canary release strategy?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The new model version immediately replaces the old version for all incoming user traffic at the same time.",
+          "is_correct": false,
+          "rationale": "This describes a direct cutover or big-bang deployment, which is risky and not a canary release."
+        },
+        {
+          "key": "B",
+          "text": "The new model version is deployed to a separate, identical environment for testing before any user traffic is sent.",
+          "is_correct": false,
+          "rationale": "This describes a blue-green deployment, where traffic is switched over after the new environment is fully verified."
+        },
+        {
+          "key": "C",
+          "text": "The new model version is gradually rolled out to a small subset of users before a full release is initiated.",
+          "is_correct": true,
+          "rationale": "A canary release involves exposing a small percentage of users to the new version to monitor its performance safely."
+        },
+        {
+          "key": "D",
+          "text": "Both the old and new model versions are run in parallel, and their predictions are compared for consistency.",
+          "is_correct": false,
+          "rationale": "This describes shadow deployment, where the new model's predictions are logged but not served to users."
+        },
+        {
+          "key": "E",
+          "text": "The new model is only activated for users who have explicitly opted-in to a beta testing program for features.",
+          "is_correct": false,
+          "rationale": "This is a form of beta testing, which is different from a canary release that directs traffic transparently."
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "question": "What is a common and effective method to mitigate the vanishing gradient problem in very deep neural networks?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using a very high learning rate to ensure that the gradient signal is strong enough to propagate backward.",
+          "is_correct": false,
+          "rationale": "A high learning rate would likely cause exploding gradients or prevent convergence, not solve the vanishing gradient problem."
+        },
+        {
+          "key": "B",
+          "text": "Increasing the L2 regularization penalty to force the network's weights to be larger and more numerically significant.",
+          "is_correct": false,
+          "rationale": "Regularization pushes weights towards zero, which would likely worsen, not alleviate, the vanishing gradient problem."
+        },
+        {
+          "key": "C",
+          "text": "Employing residual connections, also known as skip connections, that allow gradients to bypass layers and flow more directly.",
+          "is_correct": true,
+          "rationale": "Residual connections, as used in ResNets, provide a shortcut for the gradient, which is a primary solution to this problem."
+        },
+        {
+          "key": "D",
+          "text": "Initializing all weights in the network to zero to provide a consistent starting point for the optimization process.",
+          "is_correct": false,
+          "rationale": "Initializing all weights to zero would prevent the network from learning, as all neurons would update identically."
+        },
+        {
+          "key": "E",
+          "text": "Using pooling layers to reduce the spatial dimensions of feature maps, thus shortening the overall backpropagation path.",
+          "is_correct": false,
+          "rationale": "Pooling layers are for downsampling and creating invariance; they do not address the issue of gradient magnitude during backpropagation."
+        }
+      ]
+    }
+  ]
+}

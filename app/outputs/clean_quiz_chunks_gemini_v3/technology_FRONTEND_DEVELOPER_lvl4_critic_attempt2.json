@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 401,
+      "question": "How does React's `useMemo` hook primarily optimize performance in a component-heavy application?",
+      "options": [
+        {
+          "key": "A",
+          "text": "By creating a stable reference for callback functions passed to child components as props.",
+          "is_correct": false,
+          "rationale": "This describes the primary use case for the `useCallback` hook, not `useMemo`."
+        },
+        {
+          "key": "B",
+          "text": "By memoizing the result of a complex calculation, avoiding re-computation on subsequent re-renders.",
+          "is_correct": true,
+          "rationale": "`useMemo` caches the return value of a function, re-running it only when dependencies change."
+        },
+        {
+          "key": "C",
+          "text": "By automatically batching multiple state updates into a single re-render cycle for better efficiency.",
+          "is_correct": false,
+          "rationale": "Automatic batching is a core feature of React, especially since version 18, not specific to `useMemo`."
+        },
+        {
+          "key": "D",
+          "text": "By deferring the rendering of non-critical components until the main browser thread is idle.",
+          "is_correct": false,
+          "rationale": "This describes concurrent features in React, such as `startTransition`, not the function of `useMemo`."
+        },
+        {
+          "key": "E",
+          "text": "By preventing unnecessary API calls from being triggered on every single component render.",
+          "is_correct": false,
+          "rationale": "This is typically managed within the `useEffect` hook by using its dependency array."
+        }
+      ]
+    },
+    {
+      "id": 402,
+      "question": "In the browser's event loop, what is the correct execution order for a synchronous task, a `Promise.resolve()`, and a `setTimeout(fn, 0)`?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The `setTimeout` callback, followed by the synchronous task, then the promise resolution.",
+          "is_correct": false,
+          "rationale": "Synchronous code always runs first, before any asynchronous tasks are processed from their respective queues."
+        },
+        {
+          "key": "B",
+          "text": "The synchronous task, followed by the `setTimeout` callback, then the promise resolution.",
+          "is_correct": false,
+          "rationale": "Promises (microtasks) have higher priority and are processed before `setTimeout` (macrotasks)."
+        },
+        {
+          "key": "C",
+          "text": "The promise resolution, followed by the synchronous task, then the `setTimeout` callback.",
+          "is_correct": false,
+          "rationale": "The call stack must be empty before any asynchronous tasks are processed, so synchronous code runs first."
+        },
+        {
+          "key": "D",
+          "text": "The synchronous task, followed by the promise resolution, then the `setTimeout` callback.",
+          "is_correct": true,
+          "rationale": "The order is: synchronous code (call stack), then microtasks (promises), then macrotasks (setTimeout)."
+        },
+        {
+          "key": "E",
+          "text": "The `setTimeout` callback, followed by the promise resolution, then the synchronous task.",
+          "is_correct": false,
+          "rationale": "This order is incorrect; synchronous code is always executed before any queued asynchronous tasks."
+        }
+      ]
+    },
+    {
+      "id": 403,
+      "question": "What is the primary advantage of using CSS-in-JS libraries over traditional CSS preprocessors like SASS?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They provide a much faster initial page load time by inlining all styles directly.",
+          "is_correct": false,
+          "rationale": "CSS-in-JS can sometimes increase runtime overhead and initial load time compared to static CSS files."
+        },
+        {
+          "key": "B",
+          "text": "They enforce scoped styles by default, preventing global namespace collisions and improving component modularity.",
+          "is_correct": true,
+          "rationale": "This is a core benefit, as styles are colocated and scoped to their components, avoiding specificity wars."
+        },
+        {
+          "key": "C",
+          "text": "They offer superior browser compatibility for older browsers without requiring any polyfills.",
+          "is_correct": false,
+          "rationale": "CSS-in-JS libraries often rely on modern JavaScript features and may require polyfills for older browsers."
+        },
+        {
+          "key": "D",
+          "text": "They completely eliminate the need for a build step, allowing for direct deployment of files.",
+          "is_correct": false,
+          "rationale": "CSS-in-JS requires a build step (often via Babel or a bundler) to process the JavaScript into valid code."
+        },
+        {
+          "key": "E",
+          "text": "They are the only way to implement CSS Custom Properties for dynamic application theming.",
+          "is_correct": false,
+          "rationale": "CSS Custom Properties are a native browser feature and can be used with any CSS authoring method."
+        }
+      ]
+    },
+    {
+      "id": 404,
+      "question": "What is the main purpose of the \"tree shaking\" optimization technique used by modern JavaScript bundlers?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To automatically split large codebases into smaller, asynchronously loaded chunks for better performance.",
+          "is_correct": false,
+          "rationale": "This describes code splitting, a different optimization technique also performed by bundlers."
+        },
+        {
+          "key": "B",
+          "text": "To eliminate unused, dead code from the final bundle by statically analyzing module imports.",
+          "is_correct": true,
+          "rationale": "Tree shaking relies on static analysis of ES modules to determine which exports are unused and can be removed."
+        },
+        {
+          "key": "C",
+          "text": "To transpile modern JavaScript syntax into a more widely compatible older version for browsers.",
+          "is_correct": false,
+          "rationale": "This is the job of a transpiler like Babel, which is often used in conjunction with a bundler."
+        },
+        {
+          "key": "D",
+          "text": "To compress and minify the final JavaScript bundle to reduce its overall file size.",
+          "is_correct": false,
+          "rationale": "This describes minification, a separate process that shortens variable names and removes whitespace."
+        },
+        {
+          "key": "E",
+          "text": "To manage dependencies and resolve version conflicts between different third-party packages.",
+          "is_correct": false,
+          "rationale": "This is the primary responsibility of a package manager like npm or Yarn, not the bundler."
+        }
+      ]
+    },
+    {
+      "id": 405,
+      "question": "Which Core Web Vital metric measures the time from a user's first interaction with a page until the browser can respond?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Largest Contentful Paint (LCP), which measures the loading performance of the main page content.",
+          "is_correct": false,
+          "rationale": "LCP is a loading metric, not an interactivity metric. It measures perceived load speed."
+        },
+        {
+          "key": "B",
+          "text": "Cumulative Layout Shift (CLS), which quantifies unexpected layout shifts during the page lifecycle.",
+          "is_correct": false,
+          "rationale": "CLS is a visual stability metric, measuring how much content moves unexpectedly on the page."
+        },
+        {
+          "key": "C",
+          "text": "First Input Delay (FID), which measures the responsiveness of the page to the user's first input.",
+          "is_correct": true,
+          "rationale": "FID specifically measures the time it takes for the browser to begin processing the first user interaction."
+        },
+        {
+          "key": "D",
+          "text": "Time to First Byte (TTFB), which indicates the responsiveness of the web server itself.",
+          "is_correct": false,
+          "rationale": "TTFB is a server-side metric, measuring how long it takes for the server to send the first byte of data."
+        },
+        {
+          "key": "E",
+          "text": "First Contentful Paint (FCP), which marks the time when any content is first rendered.",
+          "is_correct": false,
+          "rationale": "FCP is an early loading metric, but it does not measure the page's interactivity or responsiveness."
+        }
+      ]
+    },
+    {
+      "id": 406,
+      "question": "What is the most effective client-side mitigation against Cross-Site Scripting (XSS) when rendering user-generated content?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Implementing a strict Content Security Policy (CSP) header on the server's response.",
+          "is_correct": false,
+          "rationale": "CSP is a powerful defense-in-depth measure, but proper output encoding is the primary mitigation."
+        },
+        {
+          "key": "B",
+          "text": "Ensuring all user-generated content is properly escaped or sanitized before being inserted into the DOM.",
+          "is_correct": true,
+          "rationale": "This is the fundamental principle of preventing XSS: treating all user input as untrusted data."
+        },
+        {
+          "key": "C",
+          "text": "Using the `HttpOnly` flag on session cookies to prevent client-side script access.",
+          "is_correct": false,
+          "rationale": "This mitigates the impact of an XSS attack (cookie theft) but does not prevent the injection itself."
+        },
+        {
+          "key": "D",
+          "text": "Validating and limiting the length of all user input on client-side forms.",
+          "is_correct": false,
+          "rationale": "Client-side validation is easily bypassed and is not a reliable security control against XSS."
+        },
+        {
+          "key": "E",
+          "text": "Storing sensitive user data in `localStorage` instead of `sessionStorage` for better isolation.",
+          "is_correct": false,
+          "rationale": "This is irrelevant to XSS prevention and both storage mechanisms are vulnerable to XSS attacks."
+        }
+      ]
+    },
+    {
+      "id": 407,
+      "question": "What is a significant architectural challenge when implementing a micro-frontend architecture using module federation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensuring consistent styling, user experience, and dependency management across independently deployed applications.",
+          "is_correct": true,
+          "rationale": "Maintaining consistency and managing shared dependencies without conflicts is a primary challenge."
+        },
+        {
+          "key": "B",
+          "text": "The complete inability to share common dependencies like React between different micro-frontends.",
+          "is_correct": false,
+          "rationale": "Module federation is specifically designed to solve this problem by allowing shared dependencies."
+        },
+        {
+          "key": "C",
+          "text": "A drastic increase in the initial bundle size compared to a traditional monolithic application.",
+          "is_correct": false,
+          "rationale": "This architecture often improves initial load times by loading only necessary code for a given view."
+        },
+        {
+          "key": "D",
+          "text": "The strict requirement for all micro-frontends to be written in the same JavaScript framework.",
+          "is_correct": false,
+          "rationale": "A key benefit of micro-frontends is the ability to use different technologies for different parts of the application."
+        },
+        {
+          "key": "E",
+          "text": "The complete lack of state sharing capabilities between the host and remote applications.",
+          "is_correct": false,
+          "rationale": "State can be shared, although it requires careful planning using custom events, observables, or other patterns."
+        }
+      ]
+    },
+    {
+      "id": 408,
+      "question": "When creating a custom modal dialog, which WAI-ARIA attribute is crucial for trapping keyboard focus within it?",
+      "options": [
+        {
+          "key": "A",
+          "text": "`aria-labelledby` which is used to provide an accessible name for the component.",
+          "is_correct": false,
+          "rationale": "While important for context, this attribute does not manage or trap keyboard focus."
+        },
+        {
+          "key": "B",
+          "text": "`role=\"dialog\"` which defines the component's semantic purpose to assistive technologies.",
+          "is_correct": false,
+          "rationale": "The role is essential for semantics, but focus management requires additional attributes and JavaScript."
+        },
+        {
+          "key": "C",
+          "text": "`aria-modal=\"true\"` which indicates that content outside the dialog is inert.",
+          "is_correct": false,
+          "rationale": "This attribute signals intent to assistive tech, but does not implement the focus trap itself."
+        },
+        {
+          "key": "D",
+          "text": "JavaScript logic combined with `tabindex` attributes to manage the focus order programmatically.",
+          "is_correct": true,
+          "rationale": "A proper focus trap requires JavaScript to listen for tab keys and manage focus between interactive elements."
+        },
+        {
+          "key": "E",
+          "text": "`aria-hidden=\"true\"` on the background content to hide it from screen readers.",
+          "is_correct": false,
+          "rationale": "This is a best practice for modals but does not control the keyboard focus for sighted users."
+        }
+      ]
+    },
+    {
+      "id": 409,
+      "question": "What is the primary function of a Service Worker in a Progressive Web App (PWA)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To execute long-running, computationally intensive tasks in a separate thread without blocking the UI.",
+          "is_correct": false,
+          "rationale": "This is the primary function of a Web Worker, not a Service Worker."
+        },
+        {
+          "key": "B",
+          "text": "To act as a programmable network proxy, intercepting and handling network requests for offline support.",
+          "is_correct": true,
+          "rationale": "Service Workers sit between the app and the network, enabling features like caching and offline capabilities."
+        },
+        {
+          "key": "C",
+          "text": "To directly manipulate the DOM for performance optimizations outside the main browser thread.",
+          "is_correct": false,
+          "rationale": "Service Workers run in a separate context and do not have direct access to the DOM."
+        },
+        {
+          "key": "D",
+          "text": "To manage and synchronize application state across multiple open browser tabs simultaneously.",
+          "is_correct": false,
+          "rationale": "This can be achieved with APIs like Broadcast Channel or `localStorage` events, not Service Workers."
+        },
+        {
+          "key": "E",
+          "text": "To securely store large amounts of structured data on the client-side for complex applications.",
+          "is_correct": false,
+          "rationale": "This is the primary role of IndexedDB, which can be used by a Service Worker but is a separate API."
+        }
+      ]
+    },
+    {
+      "id": 410,
+      "question": "How does a closure in JavaScript potentially lead to a memory leak if not managed carefully?",
+      "options": [
+        {
+          "key": "A",
+          "text": "By creating circular references between objects that the garbage collector cannot possibly resolve.",
+          "is_correct": false,
+          "rationale": "Modern garbage collectors use mark-and-sweep algorithms that can handle circular references."
+        },
+        {
+          "key": "B",
+          "text": "By maintaining a reference to its outer scope, preventing variables from being garbage collected.",
+          "is_correct": true,
+          "rationale": "If a long-lived closure holds references to large objects, that memory cannot be reclaimed."
+        },
+        {
+          "key": "C",
+          "text": "By allocating excessive memory on the call stack, leading to a stack overflow error.",
+          "is_correct": false,
+          "rationale": "Closures and their referenced variables are stored on the heap, not the call stack."
+        },
+        {
+          "key": "D",
+          "text": "By automatically storing all of its enclosed variables within the browser's persistent `localStorage`.",
+          "is_correct": false,
+          "rationale": "Closures are a memory concept and have no direct interaction with browser storage APIs like `localStorage`."
+        },
+        {
+          "key": "E",
+          "text": "By creating a new execution context for every function call, consuming all available memory.",
+          "is_correct": false,
+          "rationale": "This describes uncontrolled recursion, which causes a stack overflow, not a typical closure-related leak."
+        }
+      ]
+    },
+    {
+      "id": 411,
+      "question": "During React's reconciliation, what is the primary purpose of using the `key` prop on a list of elements?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide a unique CSS selector for styling individual list items with more precision.",
+          "is_correct": false,
+          "rationale": "Styling should be handled with `id` or `className`. The `key` prop is for React's internal use."
+        },
+        {
+          "key": "B",
+          "text": "To give React a stable identity for each element, optimizing updates, additions, and removals.",
+          "is_correct": true,
+          "rationale": "Keys help React identify which items have changed, allowing for efficient DOM updates instead of re-creating elements."
+        },
+        {
+          "key": "C",
+          "text": "To pass a unique identifier to the component's event handler functions for data manipulation.",
+          "is_correct": false,
+          "rationale": "Data should be passed through other props or arguments, as the `key` prop is not directly accessible."
+        },
+        {
+          "key": "D",
+          "text": "To define the explicit order in which the list items are rendered to the DOM.",
+          "is_correct": false,
+          "rationale": "The order of elements in the array determines the rendering order, not the value of the keys."
+        },
+        {
+          "key": "E",
+          "text": "To enable accessibility features by providing a unique label for screen reader technologies.",
+          "is_correct": false,
+          "rationale": "Accessibility labels should be provided using ARIA attributes like `aria-label` or descriptive text."
+        }
+      ]
+    },
+    {
+      "id": 412,
+      "question": "To optimize the Critical Rendering Path, where should you ideally place `<script>` tags that are not essential for the initial render?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Inside the `<head>` tag without any attributes to ensure they are loaded first.",
+          "is_correct": false,
+          "rationale": "This is the worst option, as it makes the scripts render-blocking, delaying page display."
+        },
+        {
+          "key": "B",
+          "text": "Just before the closing `</body>` tag, often with the `defer` attribute for reliability.",
+          "is_correct": true,
+          "rationale": "This ensures the HTML is parsed before the script is executed, preventing render-blocking."
+        },
+        {
+          "key": "C",
+          "text": "Inline within the HTML `<body>` wherever the script's functionality is first needed.",
+          "is_correct": false,
+          "rationale": "Inline scripts block parsing and rendering at the point they are encountered in the document."
+        },
+        {
+          "key": "D",
+          "text": "Inside the `<head>` tag with the `async` attribute to load them in parallel.",
+          "is_correct": false,
+          "rationale": "`async` scripts can still interrupt parsing when they finish downloading, making `defer` safer for non-essentials."
+        },
+        {
+          "key": "E",
+          "text": "On an external CDN and linked with a `preload` hint in the document head.",
+          "is_correct": false,
+          "rationale": "`preload` is for critical resources needed for the current navigation, not for non-essential scripts."
+        }
+      ]
+    },
+    {
+      "id": 413,
+      "question": "In a large-scale application, what is a key advantage of using Redux over React's Context API for state management?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It provides built-in, first-party support for asynchronous side effects like data fetching.",
+          "is_correct": false,
+          "rationale": "Redux itself is synchronous; asynchronous operations require middleware like Redux Thunk or Saga."
+        },
+        {
+          "key": "B",
+          "text": "It offers powerful developer tooling for time-travel debugging and inspecting state changes.",
+          "is_correct": true,
+          "rationale": "The Redux DevTools extension provides unparalleled introspection capabilities which are crucial for complex apps."
+        },
+        {
+          "key": "C",
+          "text": "It causes significantly fewer component re-renders when a piece of state changes.",
+          "is_correct": false,
+          "rationale": "Context can cause re-renders in all consumers, while Redux can be more optimized with selectors."
+        },
+        {
+          "key": "D",
+          "text": "It is significantly easier to set up and requires much less boilerplate code to implement.",
+          "is_correct": false,
+          "rationale": "React Context is generally considered simpler and requires less boilerplate than traditional Redux."
+        },
+        {
+          "key": "E",
+          "text": "It completely eliminates the need for passing props down through component trees (prop drilling).",
+          "is_correct": false,
+          "rationale": "Both Redux and Context can solve prop drilling, so this is not a unique advantage of Redux."
+        }
+      ]
+    },
+    {
+      "id": 414,
+      "question": "Which of the following CSS selectors has the highest specificity and will therefore override the others?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A selector with a universal selector and two class names, like `*.card.featured`.",
+          "is_correct": false,
+          "rationale": "This has a specificity of (0, 2, 0). The universal selector adds no specificity value."
+        },
+        {
+          "key": "B",
+          "text": "A selector with two type selectors and a pseudo-class, like `div section a:hover`.",
+          "is_correct": false,
+          "rationale": "This has a specificity of (0, 1, 3). It is higher than A but lower than C and D."
+        },
+        {
+          "key": "C",
+          "text": "A selector that targets a unique element by its ID attribute, for example `#main-content`.",
+          "is_correct": false,
+          "rationale": "This has a specificity of (1, 0, 0). An ID selector is very high but is beaten by inline styles."
+        },
+        {
+          "key": "D",
+          "text": "An inline style attribute applied directly to the HTML element, like `style=\"color: red;\"`.",
+          "is_correct": true,
+          "rationale": "Inline styles have the highest specificity (1, 0, 0, 0) and override any selector in a stylesheet."
+        },
+        {
+          "key": "E",
+          "text": "A selector using the `:where()` pseudo-class to group other simple selectors.",
+          "is_correct": false,
+          "rationale": "The `:where()` pseudo-class intentionally has zero specificity, making its contents easy to override."
+        }
+      ]
+    },
+    {
+      "id": 415,
+      "question": "What is a fundamental limitation when using Web Workers for parallel processing in the browser?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They are unable to make their own network requests using the `fetch` API.",
+          "is_correct": false,
+          "rationale": "Web Workers have their own global scope which includes APIs like `fetch` for network requests."
+        },
+        {
+          "key": "B",
+          "text": "They cannot directly access or manipulate the DOM of the main document.",
+          "is_correct": true,
+          "rationale": "Workers run in a separate thread and context, communicating with the main thread via messaging."
+        },
+        {
+          "key": "C",
+          "text": "They can only execute pure functions and cannot maintain their own internal state.",
+          "is_correct": false,
+          "rationale": "Web Workers have their own memory and can maintain state across messages and operations."
+        },
+        {
+          "key": "D",
+          "text": "They are limited to using only a single CPU core, regardless of system availability.",
+          "is_correct": false,
+          "rationale": "Web Workers allow for true parallel processing by utilizing separate threads and potentially different CPU cores."
+        },
+        {
+          "key": "E",
+          "text": "They do not have access to common browser APIs like `setTimeout` or `IndexedDB`.",
+          "is_correct": false,
+          "rationale": "Workers have access to a subset of browser APIs, including timers, `fetch`, and `IndexedDB`."
+        }
+      ]
+    },
+    {
+      "id": 416,
+      "question": "Which HTTP `Cache-Control` header directive is most effective for ensuring a resource can be cached but is always revalidated?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using `public, max-age=31536000` for long-term caching of assets that are considered immutable and need no revalidation.",
+          "is_correct": false,
+          "rationale": "This directive encourages long-term caching and actively discourages revalidation within the `max-age` period."
+        },
+        {
+          "key": "B",
+          "text": "`no-store` to prevent the browser from caching the response in any storage at all.",
+          "is_correct": false,
+          "rationale": "This completely disables caching, which is different from caching with mandatory revalidation."
+        },
+        {
+          "key": "C",
+          "text": "`no-cache` to instruct the cache to revalidate with the server before using a stored copy.",
+          "is_correct": true,
+          "rationale": "Despite its name, `no-cache` allows storing a response but requires revalidation (e.g., via ETag) before use."
+        },
+        {
+          "key": "D",
+          "text": "`private` to indicate the response is for a single user and not a shared cache.",
+          "is_correct": false,
+          "rationale": "This controls where the response can be cached (private vs. shared caches) but not the revalidation policy."
+        },
+        {
+          "key": "E",
+          "text": "`immutable` to signal that the response body will not change over time, preventing revalidation.",
+          "is_correct": false,
+          "rationale": "The `immutable` directive tells the browser that the resource will never change, thus avoiding revalidation."
+        }
+      ]
+    },
+    {
+      "id": 417,
+      "question": "When unit testing a React component that fetches data, what is the best practice for handling the API call?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Allowing the test to make a real network request to the actual API endpoint.",
+          "is_correct": false,
+          "rationale": "This makes tests slow, flaky, and dependent on external services, which is an anti-pattern."
+        },
+        {
+          "key": "B",
+          "text": "Mocking the global `fetch` function or API module to return a predefined, controlled response.",
+          "is_correct": true,
+          "rationale": "Mocking isolates the component, making tests fast, deterministic, and focused on the component's logic."
+        },
+        {
+          "key": "C",
+          "text": "Using a browser automation tool like Cypress to intercept the network request.",
+          "is_correct": false,
+          "rationale": "This is a valid strategy for end-to-end (E2E) tests, not isolated component unit tests."
+        },
+        {
+          "key": "D",
+          "text": "Skipping the test entirely if the component relies on external data sources for rendering.",
+          "is_correct": false,
+          "rationale": "The component's behavior with data (loading, success, error states) is critical and must be tested."
+        },
+        {
+          "key": "E",
+          "text": "Storing the API response in a local JSON file and reading it synchronously.",
+          "is_correct": false,
+          "rationale": "While this can be part of mocking, the core action is replacing the fetch implementation itself."
+        }
+      ]
+    },
+    {
+      "id": 418,
+      "question": "How does creating an object with `Object.create(null)` differ from using an object literal `{}`?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It creates an object that is immutable and cannot have its properties changed after creation.",
+          "is_correct": false,
+          "rationale": "The resulting object is mutable. Immutability would require methods like `Object.freeze()`."
+        },
+        {
+          "key": "B",
+          "text": "It creates an object that does not inherit any properties from `Object.prototype`, like `toString`.",
+          "is_correct": true,
+          "rationale": "This creates a 'pure' dictionary object, preventing potential conflicts with inherited prototype methods."
+        },
+        {
+          "key": "C",
+          "text": "It is a deprecated method that has been replaced by the `new Object()` constructor syntax.",
+          "is_correct": false,
+          "rationale": "`Object.create()` is a modern and powerful method for controlling an object's prototype chain."
+        },
+        {
+          "key": "D",
+          "text": "It creates an object with a predefined set of properties passed as the first argument.",
+          "is_correct": false,
+          "rationale": "The first argument to `Object.create` sets the prototype, not the object's own properties."
+        },
+        {
+          "key": "E",
+          "text": "It can only be used to create objects that contain functions, not data properties.",
+          "is_correct": false,
+          "rationale": "The created object can hold any type of property, including data and functions."
+        }
+      ]
+    },
+    {
+      "id": 419,
+      "question": "In the context of a bundler like Vite, what is the primary advantage of its native ES Module (ESM) based development server?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It offers superior support for legacy browsers that do not understand modern JavaScript syntax.",
+          "is_correct": false,
+          "rationale": "It relies on modern browser features; legacy support is handled during the production build process."
+        },
+        {
+          "key": "B",
+          "text": "It eliminates the need for a full bundling step during development, enabling instant server start.",
+          "is_correct": true,
+          "rationale": "Vite serves modules on-demand as the browser requests them, avoiding the slow bundling of traditional servers."
+        },
+        {
+          "key": "C",
+          "text": "It automatically transpiles all code to CommonJS modules for better Node.js compatibility.",
+          "is_correct": false,
+          "rationale": "Its core principle is leveraging native browser ESM support, not converting to CommonJS."
+        },
+        {
+          "key": "D",
+          "text": "It provides a more secure development environment by sandboxing every module in its own iframe.",
+          "is_correct": false,
+          "rationale": "This is not the mechanism Vite uses; its security model is similar to other development servers."
+        },
+        {
+          "key": "E",
+          "text": "It bundles all application code into a single file, which simplifies the debugging process.",
+          "is_correct": false,
+          "rationale": "It does the opposite in development, serving files individually, which actually improves source mapping and debugging."
+        }
+      ]
+    },
+    {
+      "id": 420,
+      "question": "What is the main purpose of a `nonce`-based Content Security Policy (CSP) for mitigating XSS attacks?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It blocks all inline scripts and styles from executing, forcing them into external files.",
+          "is_correct": false,
+          "rationale": "A strict CSP does this, but a nonce is specifically a mechanism to create an exception."
+        },
+        {
+          "key": "B",
+          "text": "It allows execution only for inline scripts that have a matching, randomly generated nonce attribute.",
+          "is_correct": true,
+          "rationale": "This allows safe inline scripts while blocking any injected scripts that do not have the correct nonce."
+        },
+        {
+          "key": "C",
+          "text": "It requires all external scripts to be loaded from a whitelisted set of approved domains.",
+          "is_correct": false,
+          "rationale": "This describes a domain-based CSP, which is a different (and often complementary) strategy."
+        },
+        {
+          "key": "D",
+          "text": "It generates a cryptographic hash of every script and compares it against a server-provided list.",
+          "is_correct": false,
+          "rationale": "This describes a hash-based CSP, which is an alternative to using nonces for inline scripts."
+        },
+        {
+          "key": "E",
+          "text": "It prevents the browser from sending any cookies with cross-origin requests by default.",
+          "is_correct": false,
+          "rationale": "This relates to CORS policies or the `SameSite` cookie attribute, not Content Security Policy."
+        }
+      ]
+    }
+  ]
+}

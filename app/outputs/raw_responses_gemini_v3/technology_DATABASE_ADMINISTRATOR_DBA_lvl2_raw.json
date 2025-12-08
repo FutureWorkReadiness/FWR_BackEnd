@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "What is the primary purpose of database normalization?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To increase the complexity of database queries and data retrieval processes.",
+          "is_correct": false,
+          "rationale": "Normalization aims to simplify, not complicate, database operations."
+        },
+        {
+          "key": "B",
+          "text": "To minimize data redundancy and improve data integrity within the database.",
+          "is_correct": true,
+          "rationale": "Normalization reduces redundancy and improves data consistency."
+        },
+        {
+          "key": "C",
+          "text": "To maximize the amount of storage space used by the database on the server.",
+          "is_correct": false,
+          "rationale": "Normalization reduces storage space by eliminating redundancy."
+        },
+        {
+          "key": "D",
+          "text": "To eliminate the need for database backups and disaster recovery strategies.",
+          "is_correct": false,
+          "rationale": "Backups are always crucial regardless of normalization."
+        },
+        {
+          "key": "E",
+          "text": "To speed up the process of database schema design and implementation.",
+          "is_correct": false,
+          "rationale": "Schema design can be complex and time-consuming."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Which SQL command is used to modify the structure of an existing table?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The 'CREATE TABLE' command is used for modifying tables.",
+          "is_correct": false,
+          "rationale": "CREATE TABLE is used to make new tables, not modify existing ones."
+        },
+        {
+          "key": "B",
+          "text": "The 'UPDATE TABLE' command is used for modifying tables.",
+          "is_correct": false,
+          "rationale": "UPDATE is for data changes, not structural modifications."
+        },
+        {
+          "key": "C",
+          "text": "The 'ALTER TABLE' command is used for modifying tables.",
+          "is_correct": true,
+          "rationale": "ALTER TABLE is specifically designed for structural changes."
+        },
+        {
+          "key": "D",
+          "text": "The 'MODIFY TABLE' command is used for modifying tables.",
+          "is_correct": false,
+          "rationale": "MODIFY TABLE is not a standard SQL command."
+        },
+        {
+          "key": "E",
+          "text": "The 'RENAME TABLE' command is used for modifying tables.",
+          "is_correct": false,
+          "rationale": "RENAME is for renaming, not for structural changes."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What is the purpose of a database index?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To store the actual data within the database tables and columns.",
+          "is_correct": false,
+          "rationale": "Indexes point to data, they do not store the actual data."
+        },
+        {
+          "key": "B",
+          "text": "To enforce data integrity constraints across multiple related tables.",
+          "is_correct": false,
+          "rationale": "Constraints manage integrity, not indexes."
+        },
+        {
+          "key": "C",
+          "text": "To speed up data retrieval operations by providing a quick lookup mechanism.",
+          "is_correct": true,
+          "rationale": "Indexes enhance query performance by speeding up data lookup."
+        },
+        {
+          "key": "D",
+          "text": "To automatically back up the database on a regular schedule.",
+          "is_correct": false,
+          "rationale": "Backups are separate processes."
+        },
+        {
+          "key": "E",
+          "text": "To encrypt sensitive data stored within the database to protect confidentiality.",
+          "is_correct": false,
+          "rationale": "Encryption is a security measure and not an indexing function."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Which type of join returns all rows from the left table and matching rows from the right?",
+      "options": [
+        {
+          "key": "A",
+          "text": "An INNER JOIN returns all rows from the left table.",
+          "is_correct": false,
+          "rationale": "INNER JOIN returns matching rows from both tables."
+        },
+        {
+          "key": "B",
+          "text": "A RIGHT JOIN returns all rows from the left table.",
+          "is_correct": false,
+          "rationale": "RIGHT JOIN returns all rows from the right table."
+        },
+        {
+          "key": "C",
+          "text": "A FULL OUTER JOIN returns all rows from the left table.",
+          "is_correct": false,
+          "rationale": "FULL OUTER JOIN returns all rows from both tables."
+        },
+        {
+          "key": "D",
+          "text": "A LEFT JOIN returns all rows from the left table.",
+          "is_correct": true,
+          "rationale": "LEFT JOIN returns all rows from the left table and matching rows from the right."
+        },
+        {
+          "key": "E",
+          "text": "A CROSS JOIN returns all rows from the left table.",
+          "is_correct": false,
+          "rationale": "CROSS JOIN returns the Cartesian product of both tables."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What is a stored procedure?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A predefined query that can be executed repeatedly to generate reports.",
+          "is_correct": false,
+          "rationale": "Stored procedures can do more than just generate reports."
+        },
+        {
+          "key": "B",
+          "text": "A precompiled set of SQL statements stored in the database server.",
+          "is_correct": true,
+          "rationale": "Stored procedures are precompiled and stored on the server."
+        },
+        {
+          "key": "C",
+          "text": "A temporary table used to store intermediate results of a complex query.",
+          "is_correct": false,
+          "rationale": "Temporary tables are different from stored procedures."
+        },
+        {
+          "key": "D",
+          "text": "A type of database trigger that automatically executes in response to events.",
+          "is_correct": false,
+          "rationale": "Triggers are different from stored procedures."
+        },
+        {
+          "key": "E",
+          "text": "A tool for backing up and restoring the database to a previous state.",
+          "is_correct": false,
+          "rationale": "Backup tools are different from stored procedures."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What is the purpose of a database transaction?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure that all SQL statements within a group are treated as a single unit.",
+          "is_correct": true,
+          "rationale": "Transactions ensure atomicity, consistency, isolation, and durability (ACID)."
+        },
+        {
+          "key": "B",
+          "text": "To optimize the performance of complex SQL queries and improve response times.",
+          "is_correct": false,
+          "rationale": "Transactions are for data integrity, not query optimization."
+        },
+        {
+          "key": "C",
+          "text": "To automatically encrypt sensitive data stored within the database for security.",
+          "is_correct": false,
+          "rationale": "Encryption is a separate security feature."
+        },
+        {
+          "key": "D",
+          "text": "To provide a graphical user interface for managing database objects and data.",
+          "is_correct": false,
+          "rationale": "GUI is a separate tool for database management."
+        },
+        {
+          "key": "E",
+          "text": "To monitor database performance metrics and identify potential bottlenecks.",
+          "is_correct": false,
+          "rationale": "Monitoring tools are used for performance analysis."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What is the ACID principle in database transactions?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Atomicity, Consistency, Isolation, Durability. These ensure reliable transaction processing.",
+          "is_correct": true,
+          "rationale": "ACID properties guarantee reliable database transactions."
+        },
+        {
+          "key": "B",
+          "text": "Availability, Capacity, Integrity, Delivery. These ensure data accessibility.",
+          "is_correct": false,
+          "rationale": "These are important, but not the ACID properties."
+        },
+        {
+          "key": "C",
+          "text": "Authorization, Control, Identification, Delegation. These ensure system security.",
+          "is_correct": false,
+          "rationale": "These relate to security, not transaction properties."
+        },
+        {
+          "key": "D",
+          "text": "Accuracy, Completeness, Interpretability, Documentation. These ensure data quality.",
+          "is_correct": false,
+          "rationale": "These are important aspects of data quality."
+        },
+        {
+          "key": "E",
+          "text": "Aggregation, Correlation, Indexing, Distribution. These enhance query performance.",
+          "is_correct": false,
+          "rationale": "These are related to data handling."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What is the purpose of a database trigger?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide a graphical user interface for managing database objects and data.",
+          "is_correct": false,
+          "rationale": "GUI tools provide a visual interface, not automated actions."
+        },
+        {
+          "key": "B",
+          "text": "To automatically execute a set of SQL statements in response to specific events.",
+          "is_correct": true,
+          "rationale": "Triggers automate actions based on database events."
+        },
+        {
+          "key": "C",
+          "text": "To optimize the performance of complex SQL queries and improve response times.",
+          "is_correct": false,
+          "rationale": "Triggers are for event-driven actions, not performance tuning."
+        },
+        {
+          "key": "D",
+          "text": "To encrypt sensitive data stored within the database for security purposes.",
+          "is_correct": false,
+          "rationale": "Encryption is a security feature."
+        },
+        {
+          "key": "E",
+          "text": "To back up and restore the database to a previous state in case of failure.",
+          "is_correct": false,
+          "rationale": "Backup/restore utilities handle database recovery."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is the difference between clustered and non-clustered indexes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Clustered indexes store the actual data rows while non-clustered indexes only store pointers.",
+          "is_correct": true,
+          "rationale": "Clustered indexes determine the physical order of data."
+        },
+        {
+          "key": "B",
+          "text": "Clustered indexes can only be created on primary key columns, non-clustered on other columns.",
+          "is_correct": false,
+          "rationale": "Clustered indexes don't have to be on primary key columns."
+        },
+        {
+          "key": "C",
+          "text": "Clustered indexes are stored separately from the table, while non-clustered are stored within the table.",
+          "is_correct": false,
+          "rationale": "Both types of indexes are stored separately from the main table data."
+        },
+        {
+          "key": "D",
+          "text": "Clustered indexes are faster for read operations, while non-clustered are faster for write operations.",
+          "is_correct": false,
+          "rationale": "Performance depends on the specific query and data."
+        },
+        {
+          "key": "E",
+          "text": "Clustered indexes do not require any storage space, while non-clustered indexes consume significant space.",
+          "is_correct": false,
+          "rationale": "Both types of indexes consume storage space."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What is data warehousing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A method for securing sensitive data using advanced encryption algorithms and access controls.",
+          "is_correct": false,
+          "rationale": "Data warehousing is about storage and analysis, not security."
+        },
+        {
+          "key": "B",
+          "text": "A process of designing relational databases with minimal redundancy and optimal data integrity.",
+          "is_correct": false,
+          "rationale": "This describes database normalization, not data warehousing."
+        },
+        {
+          "key": "C",
+          "text": "A system for storing and analyzing large volumes of historical data for business intelligence.",
+          "is_correct": true,
+          "rationale": "Data warehouses support informed decision-making."
+        },
+        {
+          "key": "D",
+          "text": "A technique for managing and optimizing the performance of real-time transactional databases.",
+          "is_correct": false,
+          "rationale": "This describes OLTP database management."
+        },
+        {
+          "key": "E",
+          "text": "A tool for automating database backups and disaster recovery procedures.",
+          "is_correct": false,
+          "rationale": "Backup and recovery tools are different from data warehouses."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the purpose of a primary key?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To uniquely identify each record in a table and enforce data integrity.",
+          "is_correct": true,
+          "rationale": "Primary keys ensure uniqueness and integrity."
+        },
+        {
+          "key": "B",
+          "text": "To store frequently accessed data in memory for faster retrieval.",
+          "is_correct": false,
+          "rationale": "Caching mechanisms handle data retrieval."
+        },
+        {
+          "key": "C",
+          "text": "To establish relationships between tables by referencing foreign keys.",
+          "is_correct": false,
+          "rationale": "Foreign keys establish relationships, not primary keys."
+        },
+        {
+          "key": "D",
+          "text": "To encrypt sensitive data stored within a table for security purposes.",
+          "is_correct": false,
+          "rationale": "Encryption is a security feature."
+        },
+        {
+          "key": "E",
+          "text": "To automatically back up the table on a regular basis.",
+          "is_correct": false,
+          "rationale": "Backup schedules are independent of primary keys."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "What is the difference between VARCHAR and CHAR data types?",
+      "options": [
+        {
+          "key": "A",
+          "text": "VARCHAR stores variable-length strings, CHAR stores fixed-length strings, padding with spaces.",
+          "is_correct": true,
+          "rationale": "VARCHAR is efficient for varying lengths, CHAR for fixed lengths."
+        },
+        {
+          "key": "B",
+          "text": "VARCHAR stores numeric data, while CHAR stores textual data.",
+          "is_correct": false,
+          "rationale": "Both are string data types."
+        },
+        {
+          "key": "C",
+          "text": "VARCHAR automatically encrypts data, while CHAR stores data in plain text.",
+          "is_correct": false,
+          "rationale": "Encryption is independent of data type."
+        },
+        {
+          "key": "D",
+          "text": "VARCHAR is faster for read operations, while CHAR is faster for write operations.",
+          "is_correct": false,
+          "rationale": "Performance depends on the specific query and data."
+        },
+        {
+          "key": "E",
+          "text": "VARCHAR is deprecated, while CHAR is the preferred data type for storing strings.",
+          "is_correct": false,
+          "rationale": "Both are still commonly used."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is the purpose of database partitioning?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To logically divide a large table into smaller, more manageable segments.",
+          "is_correct": true,
+          "rationale": "Partitioning improves performance and manageability."
+        },
+        {
+          "key": "B",
+          "text": "To encrypt sensitive data stored within the database for security purposes.",
+          "is_correct": false,
+          "rationale": "Encryption is a separate security feature."
+        },
+        {
+          "key": "C",
+          "text": "To automatically back up the database on a regular schedule.",
+          "is_correct": false,
+          "rationale": "Backup schedules are independent of partitioning."
+        },
+        {
+          "key": "D",
+          "text": "To provide a graphical user interface for managing database objects and data.",
+          "is_correct": false,
+          "rationale": "GUI tools provide a visual interface."
+        },
+        {
+          "key": "E",
+          "text": "To optimize the performance of complex SQL queries and improve response times.",
+          "is_correct": false,
+          "rationale": "Partitioning can improve query performance, but that's not its primary purpose."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Which SQL command is used to retrieve data from a database?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The 'INSERT' command is used to retrieve data.",
+          "is_correct": false,
+          "rationale": "INSERT is used to add data, not retrieve it."
+        },
+        {
+          "key": "B",
+          "text": "The 'UPDATE' command is used to retrieve data.",
+          "is_correct": false,
+          "rationale": "UPDATE is used to modify data, not retrieve it."
+        },
+        {
+          "key": "C",
+          "text": "The 'DELETE' command is used to retrieve data.",
+          "is_correct": false,
+          "rationale": "DELETE is used to remove data, not retrieve it."
+        },
+        {
+          "key": "D",
+          "text": "The 'SELECT' command is used to retrieve data.",
+          "is_correct": true,
+          "rationale": "SELECT is the standard SQL command for data retrieval."
+        },
+        {
+          "key": "E",
+          "text": "The 'CREATE' command is used to retrieve data.",
+          "is_correct": false,
+          "rationale": "CREATE is used to create database objects, not retrieve data."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is the purpose of a foreign key?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To uniquely identify each record within a table and ensure data integrity.",
+          "is_correct": false,
+          "rationale": "This describes a primary key, not a foreign key."
+        },
+        {
+          "key": "B",
+          "text": "To establish and enforce a relationship between two tables.",
+          "is_correct": true,
+          "rationale": "Foreign keys link tables and enforce referential integrity."
+        },
+        {
+          "key": "C",
+          "text": "To store frequently accessed data in memory for faster retrieval.",
+          "is_correct": false,
+          "rationale": "Caching mechanisms handle data retrieval."
+        },
+        {
+          "key": "D",
+          "text": "To encrypt sensitive data stored within a table for security purposes.",
+          "is_correct": false,
+          "rationale": "Encryption is a separate security feature."
+        },
+        {
+          "key": "E",
+          "text": "To automatically back up the table on a regular basis.",
+          "is_correct": false,
+          "rationale": "Backup schedules are independent of foreign keys."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What is the difference between authentication and authorization?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Authentication verifies identity, authorization determines access rights to resources.",
+          "is_correct": true,
+          "rationale": "Authentication confirms who you are, authorization what you can do."
+        },
+        {
+          "key": "B",
+          "text": "Authentication grants access, authorization verifies user identity.",
+          "is_correct": false,
+          "rationale": "Authentication verifies identity."
+        },
+        {
+          "key": "C",
+          "text": "Authentication encrypts data, authorization decrypts data.",
+          "is_correct": false,
+          "rationale": "Encryption and decryption are separate security functions."
+        },
+        {
+          "key": "D",
+          "text": "Authentication backs up data, authorization restores data.",
+          "is_correct": false,
+          "rationale": "Backup and restore are data management processes."
+        },
+        {
+          "key": "E",
+          "text": "Authentication optimizes queries, authorization indexes data.",
+          "is_correct": false,
+          "rationale": "Query optimization and indexing improve database performance."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What is a database schema?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A graphical representation of the physical storage devices used by the database.",
+          "is_correct": false,
+          "rationale": "The schema focuses on the logical structure, not physical storage."
+        },
+        {
+          "key": "B",
+          "text": "A collection of database objects, including tables, views, indexes, and stored procedures.",
+          "is_correct": true,
+          "rationale": "The schema defines the organization of database elements."
+        },
+        {
+          "key": "C",
+          "text": "A set of rules and constraints that govern data integrity and consistency.",
+          "is_correct": false,
+          "rationale": "Constraints enforce integrity, but the schema encompasses more."
+        },
+        {
+          "key": "D",
+          "text": "A tool for monitoring database performance and identifying potential bottlenecks.",
+          "is_correct": false,
+          "rationale": "Monitoring tools are used for performance analysis."
+        },
+        {
+          "key": "E",
+          "text": "A process for backing up and restoring the database to a previous state.",
+          "is_correct": false,
+          "rationale": "Backup/restore utilities handle database recovery."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is the purpose of query optimization?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To encrypt sensitive data stored within the database for security purposes.",
+          "is_correct": false,
+          "rationale": "Encryption is a separate security feature."
+        },
+        {
+          "key": "B",
+          "text": "To automatically back up the database on a regular schedule.",
+          "is_correct": false,
+          "rationale": "Backup schedules are independent of query optimization."
+        },
+        {
+          "key": "C",
+          "text": "To improve the performance of SQL queries by selecting the most efficient execution plan.",
+          "is_correct": true,
+          "rationale": "Query optimization aims to minimize resource usage and execution time."
+        },
+        {
+          "key": "D",
+          "text": "To provide a graphical user interface for managing database objects and data.",
+          "is_correct": false,
+          "rationale": "GUI tools provide a visual interface."
+        },
+        {
+          "key": "E",
+          "text": "To enforce data integrity constraints across multiple related tables.",
+          "is_correct": false,
+          "rationale": "Constraints manage integrity."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is a view in SQL?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A physical table that stores data persistently on disk.",
+          "is_correct": false,
+          "rationale": "Views are virtual, not physical, tables."
+        },
+        {
+          "key": "B",
+          "text": "A virtual table based on the result-set of a SQL statement.",
+          "is_correct": true,
+          "rationale": "Views simplify complex queries and provide data abstraction."
+        },
+        {
+          "key": "C",
+          "text": "A stored procedure that can be executed repeatedly to perform a specific task.",
+          "is_correct": false,
+          "rationale": "Stored procedures are precompiled code blocks, not virtual tables."
+        },
+        {
+          "key": "D",
+          "text": "A database trigger that automatically executes in response to specific events.",
+          "is_correct": false,
+          "rationale": "Triggers are event-driven actions, not virtual tables."
+        },
+        {
+          "key": "E",
+          "text": "An index used to speed up data retrieval operations.",
+          "is_correct": false,
+          "rationale": "Indexes are for performance, not virtual tables."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What is the purpose of database replication?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To create multiple copies of a database across different servers.",
+          "is_correct": true,
+          "rationale": "Replication provides redundancy and high availability."
+        },
+        {
+          "key": "B",
+          "text": "To encrypt sensitive data stored within the database for security purposes.",
+          "is_correct": false,
+          "rationale": "Encryption is a security feature."
+        },
+        {
+          "key": "C",
+          "text": "To optimize the performance of complex SQL queries and improve response times.",
+          "is_correct": false,
+          "rationale": "Query optimization enhances performance."
+        },
+        {
+          "key": "D",
+          "text": "To provide a graphical user interface for managing database objects and data.",
+          "is_correct": false,
+          "rationale": "GUI tools provide a visual interface."
+        },
+        {
+          "key": "E",
+          "text": "To automatically back up the database on a regular schedule.",
+          "is_correct": false,
+          "rationale": "Backup schedules are independent of replication."
+        }
+      ]
+    }
+  ]
+}

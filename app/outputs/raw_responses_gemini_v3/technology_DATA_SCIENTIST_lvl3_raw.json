@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "When training a deep neural network, what is the primary mechanism through which dropout provides regularization to prevent overfitting?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It permanently removes a fixed percentage of neurons from the network, simplifying the model architecture for better generalization.",
+          "is_correct": false,
+          "rationale": "Dropout deactivates neurons temporarily and randomly during training, not permanently. The full network is used for inference."
+        },
+        {
+          "key": "B",
+          "text": "It introduces noise into the output layer, forcing the model to learn more robust features from the input data.",
+          "is_correct": false,
+          "rationale": "Dropout introduces noise into hidden layers, not typically the output layer, to improve the robustness of internal representations."
+        },
+        {
+          "key": "C",
+          "text": "By randomly deactivating neurons during training, it prevents complex co-adaptations where neurons become overly reliant on each other.",
+          "is_correct": true,
+          "rationale": "Dropout forces the network to learn redundant representations, making it more robust and preventing neurons from co-adapting on training data."
+        },
+        {
+          "key": "D",
+          "text": "It scales the weights of the network by a constant factor, similar to L2 regularization, penalizing large weight values.",
+          "is_correct": false,
+          "rationale": "This describes weight decay or L2 regularization. Dropout's mechanism is based on stochastic neuron deactivation, not direct weight penalization."
+        },
+        {
+          "key": "E",
+          "text": "It adds a penalty term to the loss function based on the number of active neurons during each training step.",
+          "is_correct": false,
+          "rationale": "This describes a form of L0 or L1 regularization on activations, which is different from the mechanism of dropout."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "In a non-randomized study, which method is most appropriate for estimating the causal effect of a continuous treatment variable on an outcome?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Propensity score matching, as it effectively balances covariates between the treated and control groups regardless of treatment type.",
+          "is_correct": false,
+          "rationale": "Propensity score matching is primarily designed for binary (0/1) treatments, not for continuous treatment variables."
+        },
+        {
+          "key": "B",
+          "text": "Difference-in-differences, which compares the change in outcomes over time between a treatment group and a control group.",
+          "is_correct": false,
+          "rationale": "Difference-in-differences is also designed for binary treatments and requires longitudinal data, which may not be available."
+        },
+        {
+          "key": "C",
+          "text": "Instrumental variable analysis, assuming a valid instrument is available that influences the treatment but not the outcome directly.",
+          "is_correct": true,
+          "rationale": "Instrumental variable analysis is a key technique for estimating causal effects with continuous treatments by using an external variable to handle confounding."
+        },
+        {
+          "key": "D",
+          "text": "A/B testing, which involves randomly assigning subjects to different treatment levels to directly measure the causal impact.",
+          "is_correct": false,
+          "rationale": "The question specifies a non-randomized study, so A/B testing (a randomized controlled trial) is not applicable."
+        },
+        {
+          "key": "E",
+          "text": "Uplift modeling, which is primarily used to estimate the incremental impact of a treatment on individual behavior.",
+          "is_correct": false,
+          "rationale": "Uplift modeling is typically used for binary treatments to identify individuals most responsive to an intervention."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "When dealing with a severely imbalanced dataset for a classification task, which evaluation metric is generally most informative of model performance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Accuracy, because it provides a straightforward percentage of correctly classified instances across all classes in the dataset.",
+          "is_correct": false,
+          "rationale": "Accuracy is misleading on imbalanced datasets because a model can achieve a high score by simply predicting the majority class."
+        },
+        {
+          "key": "B",
+          "text": "Area Under the ROC Curve (AUC-ROC), as it measures the trade-off between true positive rate and false positive rate.",
+          "is_correct": false,
+          "rationale": "AUC-ROC can be overly optimistic on imbalanced data as it includes true negatives, which are abundant in the majority class."
+        },
+        {
+          "key": "C",
+          "text": "Area Under the Precision-Recall Curve (AUC-PR), because it focuses on the performance of the positive class, which is often the minority.",
+          "is_correct": true,
+          "rationale": "AUC-PR is more informative than AUC-ROC for imbalanced datasets because it evaluates the fraction of true positives among positive predictions."
+        },
+        {
+          "key": "D",
+          "text": "F1-score, which is the harmonic mean of precision and recall, but can be less informative than the full curve.",
+          "is_correct": false,
+          "rationale": "The F1-score is a good point metric, but the AUC-PR curve provides a more complete picture of performance across different thresholds."
+        },
+        {
+          "key": "E",
+          "text": "Log-loss, as it heavily penalizes confident but incorrect predictions, providing a nuanced view of the model's certainty.",
+          "is_correct": false,
+          "rationale": "While useful, log-loss is a calibration metric and doesn't directly summarize classification performance on the minority class as well as AUC-PR."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is the primary purpose of a feature store in a production machine learning system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To archive old machine learning models and their corresponding training data for regulatory compliance and auditing purposes.",
+          "is_correct": false,
+          "rationale": "This describes model and data archiving, which is a function of a model registry or data lake, not a feature store."
+        },
+        {
+          "key": "B",
+          "text": "To serve as a centralized repository for storing, retrieving, and managing ML features for both training and online serving.",
+          "is_correct": true,
+          "rationale": "A feature store provides consistency between training and serving features, reduces redundant computation, and facilitates feature discovery and reuse."
+        },
+        {
+          "key": "C",
+          "text": "To monitor the performance of deployed models in real-time by tracking prediction latency and throughput metrics.",
+          "is_correct": false,
+          "rationale": "This describes a model monitoring system, which is a separate component in an MLOps stack that observes production models."
+        },
+        {
+          "key": "D",
+          "text": "To automate the process of hyperparameter tuning by logging experiment results and suggesting optimal parameter configurations.",
+          "is_correct": false,
+          "rationale": "This is the function of an experiment tracking tool like MLflow or Weights & Biases, not a feature store."
+        },
+        {
+          "key": "E",
+          "text": "To store raw, unprocessed data streams from various sources before they are ingested into the data warehouse.",
+          "is_correct": false,
+          "rationale": "This describes a data lake or staging area for raw data, whereas a feature store holds processed, curated features."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "How does the XGBoost algorithm primarily handle missing values in the input features during the tree-building process?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It replaces all missing values with the mean or median of the respective feature column before training begins.",
+          "is_correct": false,
+          "rationale": "XGBoost has a built-in mechanism and does not require manual pre-imputation with simple statistics like mean or median."
+        },
+        {
+          "key": "B",
+          "text": "It treats missing values as a separate category and learns to partition them along with other feature values.",
+          "is_correct": false,
+          "rationale": "While some algorithms do this, XGBoost's method is more sophisticated; it learns an optimal direction rather than just a separate category."
+        },
+        {
+          "key": "C",
+          "text": "During splits, it learns a default direction for missing values by sending them to the side that maximizes gain.",
+          "is_correct": true,
+          "rationale": "XGBoost learns the optimal direction for nulls at each split by evaluating the gain improvement, effectively handling missing data without pre-imputation."
+        },
+        {
+          "key": "D",
+          "text": "It imputes missing values using a k-Nearest Neighbors algorithm based on the non-missing features for each instance.",
+          "is_correct": false,
+          "rationale": "This is a valid imputation strategy, but it is a separate preprocessing step, not the internal mechanism used by XGBoost."
+        },
+        {
+          "key": "E",
+          "text": "It automatically drops any rows or columns that contain a significant number of missing values before model training.",
+          "is_correct": false,
+          "rationale": "Dropping data is a preprocessing choice, not the default behavior of the XGBoost algorithm during training."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "In time series forecasting, what is the key advantage of using an LSTM network over a traditional ARIMA model?",
+      "options": [
+        {
+          "key": "A",
+          "text": "LSTMs are inherently more interpretable, allowing for easier identification of seasonality and trend components in the data.",
+          "is_correct": false,
+          "rationale": "ARIMA models are generally more interpretable than LSTMs, as their parameters correspond to specific time series components."
+        },
+        {
+          "key": "B",
+          "text": "LSTMs require significantly less data to train and are less prone to overfitting on small, noisy datasets.",
+          "is_correct": false,
+          "rationale": "LSTMs are data-hungry deep learning models and are more prone to overfitting on small datasets compared to simpler ARIMA models."
+        },
+        {
+          "key": "C",
+          "text": "LSTMs can automatically capture complex, non-linear dependencies and long-range patterns without manual feature engineering.",
+          "is_correct": true,
+          "rationale": "LSTMs excel at learning long-term, non-linear dependencies from sequential data, which is a limitation of linear models like ARIMA."
+        },
+        {
+          "key": "D",
+          "text": "ARIMA models are incapable of handling multivariate time series, whereas LSTMs can model multiple dependent variables simultaneously.",
+          "is_correct": false,
+          "rationale": "Extensions like VAR and VARIMA exist for ARIMA to handle multivariate time series, although LSTMs are also well-suited for this."
+        },
+        {
+          "key": "E",
+          "text": "ARIMA models are computationally more expensive and slower to train than deep learning models like LSTMs.",
+          "is_correct": false,
+          "rationale": "ARIMA models are typically much faster and less computationally expensive to train than LSTMs, which require GPU resources."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What fundamental concept does SHAP (SHapley Additive exPlanations) leverage to explain individual predictions of a complex model?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It builds a simple, interpretable surrogate model to approximate the predictions of the complex black-box model globally.",
+          "is_correct": false,
+          "rationale": "This describes a global surrogate model, whereas SHAP provides local, instance-level explanations, although they can be aggregated."
+        },
+        {
+          "key": "B",
+          "text": "It perturbs the input features of a single instance to observe how the model's output changes locally.",
+          "is_correct": false,
+          "rationale": "This is the core idea behind LIME (Local Interpretable Model-agnostic Explanations), not SHAP, which uses a different theoretical foundation."
+        },
+        {
+          "key": "C",
+          "text": "It uses game theory principles to fairly distribute the contribution of each feature to the final prediction outcome.",
+          "is_correct": true,
+          "rationale": "SHAP is based on Shapley values from cooperative game theory, ensuring a fair and consistent attribution of prediction impact to each feature."
+        },
+        {
+          "key": "D",
+          "text": "It calculates the partial dependence of the model's output on each feature while marginalizing over all other features.",
+          "is_correct": false,
+          "rationale": "This describes Partial Dependence Plots (PDPs), which show the marginal effect of a feature on the predicted outcome globally."
+        },
+        {
+          "key": "E",
+          "text": "It measures the gradient of the output with respect to the input features to determine feature importance.",
+          "is_correct": false,
+          "rationale": "This describes gradient-based methods like Integrated Gradients or simple Saliency Maps, not the game-theoretic approach of SHAP."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "When training a neural network, what is a primary benefit of using the Adam optimizer compared to standard Stochastic Gradient Descent (SGD)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Adam guarantees convergence to the global minimum of the loss function, whereas SGD can get stuck in local minima.",
+          "is_correct": false,
+          "rationale": "No optimizer can guarantee convergence to the global minimum in complex, non-convex loss landscapes typical of neural networks."
+        },
+        {
+          "key": "B",
+          "text": "Adam maintains adaptive learning rates for each parameter, adjusting them based on past gradients and their variances.",
+          "is_correct": true,
+          "rationale": "Adam combines the benefits of AdaGrad and RMSProp, using moving averages of both the gradient and its squared value to adapt learning rates."
+        },
+        {
+          "key": "C",
+          "text": "Adam requires less manual tuning of the learning rate and other hyperparameters for optimal performance compared to SGD.",
+          "is_correct": false,
+          "rationale": "While Adam is often easier to configure initially, SGD with momentum, when well-tuned, can sometimes achieve better generalization."
+        },
+        {
+          "key": "D",
+          "text": "Adam is computationally less expensive than SGD because it updates weights less frequently during the training process.",
+          "is_correct": false,
+          "rationale": "Adam is computationally more expensive than SGD because it requires storing and updating the moving averages of gradients."
+        },
+        {
+          "key": "E",
+          "text": "Adam is specifically designed for recurrent neural networks and performs poorly on convolutional or feed-forward architectures.",
+          "is_correct": false,
+          "rationale": "Adam is a general-purpose optimizer that is widely and effectively used across all types of neural network architectures."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "You are designing an A/B test for a new feature. What is the most likely consequence of stopping the test early once statistical significance is reached?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It reduces the statistical power of the test, making it less likely to detect a true effect if one exists.",
+          "is_correct": false,
+          "rationale": "Stopping early based on significance doesn't reduce power; it inflates the chance of a false positive for a non-existent effect."
+        },
+        {
+          "key": "B",
+          "text": "It increases the probability of a Type I error, leading to a false positive conclusion about the feature's impact.",
+          "is_correct": true,
+          "rationale": "This practice, known as 'peeking,' inflates the Type I error rate because random fluctuations are more likely to cross the significance threshold early."
+        },
+        {
+          "key": "C",
+          "text": "It decreases the required sample size, making the experiment more efficient without compromising the validity of the results.",
+          "is_correct": false,
+          "rationale": "While it decreases the sample size used, it severely compromises the validity of the results by inflating the false positive rate."
+        },
+        {
+          "key": "D",
+          "text": "It increases the probability of a Type II error, causing you to miss a real improvement from the new feature.",
+          "is_correct": false,
+          "rationale": "Peeking increases the Type I error rate (false positives), not the Type II error rate (false negatives)."
+        },
+        {
+          "key": "E",
+          "text": "It ensures the results are more reliable because the effect was strong enough to be detected with fewer samples.",
+          "is_correct": false,
+          "rationale": "This is a common misconception; an early significant result is often due to random noise, not a strong true effect."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "In the context of the bias-variance tradeoff, how does increasing a model's complexity typically affect bias and variance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It generally increases bias because the model makes stronger assumptions about the underlying data distribution.",
+          "is_correct": false,
+          "rationale": "Increasing complexity allows the model to make weaker assumptions, which typically decreases bias, not increases it."
+        },
+        {
+          "key": "B",
+          "text": "It generally decreases both bias and variance, leading to a more accurate and stable predictive model.",
+          "is_correct": false,
+          "rationale": "There is a tradeoff; decreasing one typically increases the other. Decreasing both simultaneously is the ideal but not the usual effect."
+        },
+        {
+          "key": "C",
+          "text": "It has no predictable effect on bias or variance, as these are determined by the dataset, not the model.",
+          "is_correct": false,
+          "rationale": "Model complexity is a primary driver of the bias-variance tradeoff; its effect is predictable in general terms."
+        },
+        {
+          "key": "D",
+          "text": "It generally decreases bias by allowing the model to fit the training data more closely, but it increases variance.",
+          "is_correct": true,
+          "rationale": "More complex models have greater capacity to learn the training data (lower bias) but are more sensitive to its specific noise (higher variance)."
+        },
+        {
+          "key": "E",
+          "text": "It generally increases variance by making the model more sensitive to noise, but it also increases bias.",
+          "is_correct": false,
+          "rationale": "Increasing complexity typically decreases bias while increasing variance, not increasing both at the same time."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is a key difference between Principal Component Analysis (PCA) and t-SNE (t-Distributed Stochastic Neighbor Embedding)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "PCA is a non-linear technique used for visualization, while t-SNE is a linear technique for feature extraction.",
+          "is_correct": false,
+          "rationale": "This is reversed. PCA is a linear technique, while t-SNE is a non-linear technique primarily used for visualization."
+        },
+        {
+          "key": "B",
+          "text": "PCA aims to preserve the global structure and variance of the data, while t-SNE focuses on preserving local neighborhood structures.",
+          "is_correct": true,
+          "rationale": "PCA maximizes variance to preserve global structure, while t-SNE models pairwise similarities to preserve local clusters, making it better for visualization."
+        },
+        {
+          "key": "C",
+          "text": "PCA requires specifying the number of target dimensions, whereas t-SNE automatically determines the optimal number of dimensions.",
+          "is_correct": false,
+          "rationale": "Both PCA and t-SNE require the user to specify the number of dimensions for the output embedding (e.g., 2 or 3 for visualization)."
+        },
+        {
+          "key": "D",
+          "text": "t-SNE is a deterministic algorithm that produces the same output every time, unlike the stochastic nature of PCA.",
+          "is_correct": false,
+          "rationale": "This is reversed. PCA is deterministic, while t-SNE is stochastic and can produce different embeddings on different runs."
+        },
+        {
+          "key": "E",
+          "text": "PCA is primarily used for classification tasks, while t-SNE is designed for regression and time-series analysis.",
+          "is_correct": false,
+          "rationale": "Both are unsupervised dimensionality reduction techniques and are not inherently designed for specific supervised tasks like classification or regression."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "In a convolutional neural network (CNN), what is the primary function of the pooling layer?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To introduce non-linearity into the model, allowing it to learn more complex patterns from the input data.",
+          "is_correct": false,
+          "rationale": "This is the function of the activation function (e.g., ReLU), which is applied after the convolution operation."
+        },
+        {
+          "key": "B",
+          "text": "To increase the number of parameters in the network, thereby enhancing its capacity to learn from the training set.",
+          "is_correct": false,
+          "rationale": "Pooling layers have no trainable parameters and their primary function is to reduce the number of subsequent parameters."
+        },
+        {
+          "key": "C",
+          "text": "To progressively reduce the spatial dimensions of the representation, making the network more efficient and robust to translations.",
+          "is_correct": true,
+          "rationale": "Pooling (e.g., max pooling) downsamples the feature maps, reducing computational load and providing a degree of translational invariance."
+        },
+        {
+          "key": "D",
+          "text": "To apply a learned filter to the input volume, detecting specific features like edges, corners, and textures.",
+          "is_correct": false,
+          "rationale": "This is the function of the convolutional layer itself, which learns filters (kernels) to detect features."
+        },
+        {
+          "key": "E",
+          "text": "To normalize the activations of the previous layer to have zero mean and unit variance, speeding up convergence.",
+          "is_correct": false,
+          "rationale": "This describes batch normalization, a separate type of layer used to stabilize and accelerate training in deep networks."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is the main reason that bagging (Bootstrap Aggregating), as used in Random Forests, is effective at reducing variance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It trains a sequence of weak learners, where each one corrects the errors of the previous model in the sequence.",
+          "is_correct": false,
+          "rationale": "This describes boosting (e.g., AdaBoost, Gradient Boosting), which sequentially builds models to correct prior errors and reduces bias."
+        },
+        {
+          "key": "B",
+          "text": "It assigns different weights to the training instances, focusing on those that are more difficult to classify correctly.",
+          "is_correct": false,
+          "rationale": "This is also a characteristic of boosting algorithms like AdaBoost, not bagging, which samples instances uniformly with replacement."
+        },
+        {
+          "key": "C",
+          "text": "It trains multiple independent models on different subsets of the data and averages their predictions, smoothing out instability.",
+          "is_correct": true,
+          "rationale": "By averaging the predictions of many models trained on bootstrapped samples, bagging reduces the variance of the final ensemble model."
+        },
+        {
+          "key": "D",
+          "text": "It systematically selects the most informative features at each split, creating highly accurate but biased decision trees.",
+          "is_correct": false,
+          "rationale": "Random Forests introduce randomness in feature selection to de-correlate trees, which further helps in variance reduction."
+        },
+        {
+          "key": "E",
+          "text": "It prunes each decision tree heavily after training to create simpler models that are less likely to overfit.",
+          "is_correct": false,
+          "rationale": "Random Forests typically use deep, unpruned decision trees, relying on the ensemble averaging to control overfitting (variance)."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "In the context of transformer models like BERT, what is the primary purpose of the self-attention mechanism?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To process input tokens sequentially, maintaining a hidden state that captures information from all previous tokens in order.",
+          "is_correct": false,
+          "rationale": "This describes the mechanism of Recurrent Neural Networks (RNNs). Transformers process all tokens in parallel using self-attention."
+        },
+        {
+          "key": "B",
+          "text": "To reduce the dimensionality of the token embeddings before they are fed into the feed-forward neural network layers.",
+          "is_correct": false,
+          "rationale": "Dimensionality reduction is not the primary purpose of self-attention; its output typically has the same dimension as the input."
+        },
+        {
+          "key": "C",
+          "text": "To allow the model to weigh the importance of different words in the input sequence when encoding a specific word.",
+          "is_correct": true,
+          "rationale": "Self-attention allows each token to attend to all other tokens, creating context-aware representations by weighing their relative importance."
+        },
+        {
+          "key": "D",
+          "text": "To generate a fixed-length context vector that summarizes the entire input sentence for a sequence-to-sequence task.",
+          "is_correct": false,
+          "rationale": "This describes an older encoder-decoder architecture. Self-attention creates a dynamic, context-rich representation for each token, not a single vector."
+        },
+        {
+          "key": "E",
+          "text": "To combine word embeddings with positional encodings, enabling the model to understand the order of words.",
+          "is_correct": false,
+          "rationale": "Positional encodings are added to the embeddings before the self-attention mechanism to provide sequence order information."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "When would you choose to use a non-parametric statistical test, like the Mann-Whitney U test, instead of a parametric t-test?",
+      "options": [
+        {
+          "key": "A",
+          "text": "When the sample sizes of the two groups being compared are very large, ensuring the validity of the test.",
+          "is_correct": false,
+          "rationale": "With large samples, the t-test is robust to violations of normality due to the Central Limit Theorem."
+        },
+        {
+          "key": "B",
+          "text": "When the data is known to be perfectly normally distributed and has equal variances between the groups.",
+          "is_correct": false,
+          "rationale": "These are the ideal conditions for using a parametric t-test, not a non-parametric one."
+        },
+        {
+          "key": "C",
+          "text": "When the data does not meet the normality assumption or is ordinal, as non-parametric tests do not assume a specific distribution.",
+          "is_correct": true,
+          "rationale": "Non-parametric tests are distribution-free, making them suitable for data that violates the assumptions (e.g., normality) of parametric tests."
+        },
+        {
+          "key": "D",
+          "text": "When you need to test for a difference in variances between two groups rather than a difference in means.",
+          "is_correct": false,
+          "rationale": "For testing variances, you would use a test like Levene's test or an F-test, not a Mann-Whitney U test."
+        },
+        {
+          "key": "E",
+          "text": "When the primary goal is to estimate the effect size with a confidence interval rather than just a p-value.",
+          "is_correct": false,
+          "rationale": "Both parametric and non-parametric tests can be used to generate p-values and confidence intervals for effect sizes."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What is a significant advantage of using an autoencoder for anomaly detection compared to a supervised classification approach?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Autoencoders are guaranteed to find all anomalies in the dataset with perfect precision and recall, unlike supervised models.",
+          "is_correct": false,
+          "rationale": "No anomaly detection method, including autoencoders, can guarantee perfect performance; they are heuristic and have trade-offs."
+        },
+        {
+          "key": "B",
+          "text": "Autoencoders can be trained effectively on unlabeled data, learning the normal patterns without needing explicit anomaly labels.",
+          "is_correct": true,
+          "rationale": "Autoencoders are unsupervised and learn to reconstruct normal data. Anomalies will have a high reconstruction error, allowing detection without labels."
+        },
+        {
+          "key": "C",
+          "text": "Supervised models are computationally more expensive to train and serve than deep learning autoencoder architectures.",
+          "is_correct": false,
+          "rationale": "Autoencoders are deep learning models and can be very computationally expensive, often more so than traditional supervised models like SVM."
+        },
+        {
+          "key": "D",
+          "text": "Autoencoders provide detailed explanations for why a specific data point is considered an anomaly, enhancing model interpretability.",
+          "is_correct": false,
+          "rationale": "Autoencoders are typically black-box models; interpreting their high reconstruction error for a specific point can be challenging."
+        },
+        {
+          "key": "E",
+          "text": "Supervised models are prone to overfitting on normal data, while autoencoders are specifically designed to avoid this problem.",
+          "is_correct": false,
+          "rationale": "Autoencoders can also overfit, for instance by learning an identity function, and require regularization just like supervised models."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "In deep neural networks, what is a primary cause of the vanishing gradient problem during backpropagation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using activation functions like ReLU, which have a derivative of zero for all negative inputs, causing gradients to disappear.",
+          "is_correct": false,
+          "rationale": "ReLU helps prevent vanishing gradients for positive inputs (derivative is 1). The 'dying ReLU' problem is different from vanishing gradients."
+        },
+        {
+          "key": "B",
+          "text": "The repeated multiplication of gradients less than one across many layers, causing the gradient to shrink exponentially.",
+          "is_correct": true,
+          "rationale": "In deep networks, the chain rule multiplies gradients. If these gradients are small (e.g., from sigmoid/tanh), their product vanishes."
+        },
+        {
+          "key": "C",
+          "text": "The use of excessively large learning rates in the optimizer, which causes the weight updates to become unstable.",
+          "is_correct": false,
+          "rationale": "Excessively large learning rates typically lead to the exploding gradient problem, where gradients grow exponentially large and unstable."
+        },
+        {
+          "key": "D",
+          "text": "The presence of batch normalization layers, which can sometimes scale down the gradients to near-zero values.",
+          "is_correct": false,
+          "rationale": "Batch normalization is a technique used to mitigate the vanishing gradient problem by normalizing layer inputs and stabilizing training."
+        },
+        {
+          "key": "E",
+          "text": "Initializing all network weights to zero, which results in symmetric gradients that cancel each other out during updates.",
+          "is_correct": false,
+          "rationale": "Initializing weights to zero causes a symmetry problem where all neurons learn the same thing, but it's not the vanishing gradient problem."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "In reinforcement learning, what is the fundamental difference between a model-based and a model-free approach?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Model-based methods learn a value function directly, while model-free methods learn a policy to map states to actions.",
+          "is_correct": false,
+          "rationale": "Both approaches can learn value functions or policies. The distinction lies in whether an environment model is learned."
+        },
+        {
+          "key": "B",
+          "text": "Model-based methods attempt to learn a model of the environment's dynamics, while model-free methods learn a policy or value function directly.",
+          "is_correct": true,
+          "rationale": "The core distinction is whether the agent explicitly learns a model of how the environment works (transitions, rewards) or learns a control policy directly."
+        },
+        {
+          "key": "C",
+          "text": "Model-free methods are more sample-efficient as they do not need to explore the entire state-action space.",
+          "is_correct": false,
+          "rationale": "Model-based methods are generally more sample-efficient because they can use the learned model to simulate experiences without real interaction."
+        },
+        {
+          "key": "D",
+          "text": "Model-based approaches are only applicable to environments with discrete action spaces, unlike model-free methods.",
+          "is_correct": false,
+          "rationale": "Both model-based and model-free methods have been developed for both discrete and continuous action spaces."
+        },
+        {
+          "key": "E",
+          "text": "Model-free methods, like Q-learning, are considered on-policy, whereas model-based methods are typically off-policy.",
+          "is_correct": false,
+          "rationale": "Q-learning is a classic example of an off-policy model-free method. On/off-policy is a separate distinction from model-based/free."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Which of the following scenarios is a clear example of data leakage in a machine learning pipeline?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using cross-validation to tune hyperparameters on the training set before evaluating the final model on a held-out test set.",
+          "is_correct": false,
+          "rationale": "This is a standard and correct practice for hyperparameter tuning that properly isolates the final test set."
+        },
+        {
+          "key": "B",
+          "text": "Training a model on a dataset where the features have been scaled using parameters derived from the entire dataset (including the test set).",
+          "is_correct": true,
+          "rationale": "Using information from the test set (e.g., its mean/std for scaling) to prepare the training set 'leaks' information about the test data."
+        },
+        {
+          "key": "C",
+          "text": "Including features in the model that are highly correlated with each other, leading to multicollinearity issues in linear models.",
+          "is_correct": false,
+          "rationale": "Multicollinearity is a statistical issue that can affect model stability and interpretation, but it is not a form of data leakage."
+        },
+        {
+          "key": "D",
+          "text": "Splitting the data into training and testing sets randomly, which may result in a different class distribution in each set.",
+          "is_correct": false,
+          "rationale": "This is a potential issue of random splitting (addressed by stratification), but it does not constitute data leakage."
+        },
+        {
+          "key": "E",
+          "text": "Applying a feature engineering technique, such as creating interaction terms, to the training data before fitting the model.",
+          "is_correct": false,
+          "rationale": "This is a standard part of the modeling process and is not data leakage as long as it's based only on training data."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What is a key conceptual difference between the Bayesian and Frequentist approaches to probability and statistical inference?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Frequentists use p-values to make decisions, whereas Bayesians rely exclusively on confidence intervals for hypothesis testing.",
+          "is_correct": false,
+          "rationale": "Frequentists use both p-values and confidence intervals. Bayesians use credible intervals and posterior probabilities, not confidence intervals."
+        },
+        {
+          "key": "B",
+          "text": "Bayesian methods treat model parameters as random variables with distributions, while Frequentist methods treat them as fixed, unknown constants.",
+          "is_correct": true,
+          "rationale": "This is the fundamental philosophical divide: Bayesians use probability distributions to represent uncertainty about parameters, while Frequentists view parameters as fixed."
+        },
+        {
+          "key": "C",
+          "text": "Frequentist statistics is better suited for small datasets, while Bayesian statistics excels when large amounts of data are available.",
+          "is_correct": false,
+          "rationale": "The opposite is often argued: Bayesian methods can be particularly powerful for small datasets by incorporating prior information."
+        },
+        {
+          "key": "D",
+          "text": "Bayesian inference is purely objective and data-driven, whereas Frequentist inference allows for the incorporation of prior beliefs.",
+          "is_correct": false,
+          "rationale": "This is reversed. Bayesian inference explicitly incorporates prior beliefs, while Frequentist inference is based solely on data likelihood."
+        },
+        {
+          "key": "E",
+          "text": "Frequentist models are typically more complex and computationally intensive to fit compared to their Bayesian counterparts.",
+          "is_correct": false,
+          "rationale": "Bayesian models, often requiring MCMC methods for posterior estimation, are typically more computationally intensive than Frequentist models."
+        }
+      ]
+    }
+  ]
+}

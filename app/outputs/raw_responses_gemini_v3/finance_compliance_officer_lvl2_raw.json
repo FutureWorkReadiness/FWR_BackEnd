@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "What is the primary goal of KYC (Know Your Customer) regulations within a financial institution?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To maximize profits by understanding customer investment strategies and risk tolerance.",
+          "is_correct": false,
+          "rationale": "Profit maximization is not the primary goal of KYC; it's about compliance."
+        },
+        {
+          "key": "B",
+          "text": "To prevent money laundering and terrorist financing by verifying customer identities and assessing risk.",
+          "is_correct": true,
+          "rationale": "KYC aims to verify identity, understand customer activity, and assess money laundering risks."
+        },
+        {
+          "key": "C",
+          "text": "To offer personalized financial advice tailored to each customer's individual needs and goals.",
+          "is_correct": false,
+          "rationale": "Personalized advice is a function of wealth management, not KYC compliance directly."
+        },
+        {
+          "key": "D",
+          "text": "To gather marketing data and improve customer segmentation for targeted advertising campaigns.",
+          "is_correct": false,
+          "rationale": "Marketing is separate from KYC, which focuses on legal and regulatory compliance."
+        },
+        {
+          "key": "E",
+          "text": "To track employee performance and ensure adherence to internal sales targets and quotas.",
+          "is_correct": false,
+          "rationale": "Employee performance tracking is HR's responsibility, not KYC's."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Which regulation aims to protect consumer financial information and ensure its secure handling?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Sarbanes-Oxley Act (SOX), focusing on corporate accounting scandals and financial reporting.",
+          "is_correct": false,
+          "rationale": "SOX focuses on corporate governance and financial reporting accuracy."
+        },
+        {
+          "key": "B",
+          "text": "The Gramm-Leach-Bliley Act (GLBA), safeguarding consumer financial information held by institutions.",
+          "is_correct": true,
+          "rationale": "GLBA includes provisions to protect consumer financial information and privacy."
+        },
+        {
+          "key": "C",
+          "text": "The Dodd-Frank Act, reforming the financial system and addressing systemic risks in the market.",
+          "is_correct": false,
+          "rationale": "Dodd-Frank addresses systemic risks and financial stability."
+        },
+        {
+          "key": "D",
+          "text": "The Patriot Act, combating terrorism financing and enhancing national security measures.",
+          "is_correct": false,
+          "rationale": "The Patriot Act focuses on national security and counter-terrorism."
+        },
+        {
+          "key": "E",
+          "text": "The Fair Credit Reporting Act (FCRA), regulating the collection and use of consumer credit information.",
+          "is_correct": false,
+          "rationale": "FCRA regulates credit reporting, not general financial information handling."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What is the purpose of sanctions screening in financial compliance programs?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To identify and prevent transactions with sanctioned individuals, entities, and countries.",
+          "is_correct": true,
+          "rationale": "Sanctions screening ensures compliance with economic sanctions regulations."
+        },
+        {
+          "key": "B",
+          "text": "To assess the creditworthiness of potential borrowers and minimize the risk of loan defaults.",
+          "is_correct": false,
+          "rationale": "Creditworthiness assessment is part of credit risk management, not sanctions screening."
+        },
+        {
+          "key": "C",
+          "text": "To monitor employee trading activities and prevent insider trading within the organization.",
+          "is_correct": false,
+          "rationale": "Employee trading monitoring is related to insider trading prevention."
+        },
+        {
+          "key": "D",
+          "text": "To track customer investment portfolios and provide personalized financial planning services.",
+          "is_correct": false,
+          "rationale": "Portfolio tracking is part of wealth management, not sanctions compliance."
+        },
+        {
+          "key": "E",
+          "text": "To optimize tax strategies and minimize the tax liabilities of the financial institution.",
+          "is_correct": false,
+          "rationale": "Tax optimization is a part of tax planning, not sanctions screening."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is a key element of an effective AML (Anti-Money Laundering) program?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Conducting regular employee training on AML regulations and internal policies.",
+          "is_correct": true,
+          "rationale": "Training is crucial for employees to understand and comply with AML requirements."
+        },
+        {
+          "key": "B",
+          "text": "Focusing solely on high-value transactions to maximize efficiency and minimize workload.",
+          "is_correct": false,
+          "rationale": "AML programs must monitor all transactions, not just high-value ones."
+        },
+        {
+          "key": "C",
+          "text": "Ignoring unusual transaction patterns if the customer is a long-standing client.",
+          "is_correct": false,
+          "rationale": "All unusual activity should be investigated, regardless of customer tenure."
+        },
+        {
+          "key": "D",
+          "text": "Avoiding reporting suspicious activity to maintain customer confidentiality and trust.",
+          "is_correct": false,
+          "rationale": "Reporting suspicious activity is a legal requirement of AML programs."
+        },
+        {
+          "key": "E",
+          "text": "Relying solely on automated systems without human oversight or review.",
+          "is_correct": false,
+          "rationale": "Human oversight is essential for interpreting and validating system alerts."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What is the role of a compliance officer in a financial institution?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure that the institution operates in accordance with all applicable laws and regulations.",
+          "is_correct": true,
+          "rationale": "The core function is to ensure regulatory compliance."
+        },
+        {
+          "key": "B",
+          "text": "To maximize profits by identifying new investment opportunities and managing risk.",
+          "is_correct": false,
+          "rationale": "Profit maximization is the role of investment management, not compliance."
+        },
+        {
+          "key": "C",
+          "text": "To develop and implement marketing strategies to attract new customers and increase market share.",
+          "is_correct": false,
+          "rationale": "Marketing is separate from compliance responsibilities."
+        },
+        {
+          "key": "D",
+          "text": "To manage the institution's technology infrastructure and ensure data security.",
+          "is_correct": false,
+          "rationale": "IT management is separate from compliance responsibilities."
+        },
+        {
+          "key": "E",
+          "text": "To oversee human resources functions, including hiring, training, and employee relations.",
+          "is_correct": false,
+          "rationale": "HR is separate from compliance responsibilities."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What does 'BSA' stand for in the context of financial regulations?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bank Secrecy Act, a U.S. law requiring financial institutions to prevent money laundering.",
+          "is_correct": true,
+          "rationale": "BSA is the primary U.S. AML law."
+        },
+        {
+          "key": "B",
+          "text": "Budget Stabilization Act, relating to government spending and fiscal policy.",
+          "is_correct": false,
+          "rationale": "The Budget Stabilization Act is unrelated to financial regulations."
+        },
+        {
+          "key": "C",
+          "text": "Business Security Assessment, focusing on data protection and cybersecurity measures.",
+          "is_correct": false,
+          "rationale": "Business Security Assessment is related to cybersecurity, not AML."
+        },
+        {
+          "key": "D",
+          "text": "Brokerage Services Agreement, outlining the terms of service between a broker and client.",
+          "is_correct": false,
+          "rationale": "Brokerage Services Agreement is a contract, not a regulation."
+        },
+        {
+          "key": "E",
+          "text": "Banking Standards Authority, an international body setting standards for bank regulation.",
+          "is_correct": false,
+          "rationale": "No such international body exists with that exact name and scope."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What is the purpose of an internal audit within a financial institution's compliance program?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To independently assess the effectiveness of the compliance program and identify weaknesses.",
+          "is_correct": true,
+          "rationale": "Internal audits provide an objective evaluation of the compliance program."
+        },
+        {
+          "key": "B",
+          "text": "To maximize profits by identifying areas where costs can be reduced and efficiency improved.",
+          "is_correct": false,
+          "rationale": "Cost reduction is a function of operations, not the primary audit goal."
+        },
+        {
+          "key": "C",
+          "text": "To provide legal advice and represent the institution in regulatory investigations.",
+          "is_correct": false,
+          "rationale": "Legal representation is the role of legal counsel, not internal audit."
+        },
+        {
+          "key": "D",
+          "text": "To manage the institution's investment portfolio and generate returns for shareholders.",
+          "is_correct": false,
+          "rationale": "Investment management is separate from internal audit functions."
+        },
+        {
+          "key": "E",
+          "text": "To develop and implement marketing campaigns to attract new customers and increase sales.",
+          "is_correct": false,
+          "rationale": "Marketing is separate from internal audit functions."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What is a 'Suspicious Activity Report' (SAR) used for in financial compliance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To report suspected money laundering, fraud, or other financial crimes to regulatory authorities.",
+          "is_correct": true,
+          "rationale": "SARs are the primary mechanism for reporting suspicious activity."
+        },
+        {
+          "key": "B",
+          "text": "To document customer complaints and track their resolution within the institution.",
+          "is_correct": false,
+          "rationale": "Customer complaints are tracked separately from SARs."
+        },
+        {
+          "key": "C",
+          "text": "To record employee performance evaluations and track their progress toward goals.",
+          "is_correct": false,
+          "rationale": "Employee evaluations are HR functions, not related to SARs."
+        },
+        {
+          "key": "D",
+          "text": "To analyze market trends and identify potential investment opportunities for the institution.",
+          "is_correct": false,
+          "rationale": "Market analysis is part of investment management, not SAR reporting."
+        },
+        {
+          "key": "E",
+          "text": "To track the institution's financial performance and report earnings to shareholders.",
+          "is_correct": false,
+          "rationale": "Financial reporting is separate from SAR reporting."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is the main purpose of the 'Three Lines of Defense' model in risk management?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide a structured approach to managing risks across the organization.",
+          "is_correct": true,
+          "rationale": "The model clarifies roles and responsibilities in risk management."
+        },
+        {
+          "key": "B",
+          "text": "To maximize profits by identifying and exploiting market inefficiencies.",
+          "is_correct": false,
+          "rationale": "Profit maximization is not the primary goal of the three lines of defense."
+        },
+        {
+          "key": "C",
+          "text": "To minimize regulatory scrutiny by avoiding contact with government agencies.",
+          "is_correct": false,
+          "rationale": "Avoiding regulatory contact is not a goal of risk management."
+        },
+        {
+          "key": "D",
+          "text": "To simplify the organization's structure and reduce the number of employees.",
+          "is_correct": false,
+          "rationale": "Organizational restructuring is separate from the three lines of defense."
+        },
+        {
+          "key": "E",
+          "text": "To promote innovation by encouraging employees to take risks without fear of failure.",
+          "is_correct": false,
+          "rationale": "Encouraging risk-taking is not the goal of the three lines of defense."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What type of risk arises from a failure in internal processes, people, or systems?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Operational risk, stemming from inadequate or failed internal processes or systems.",
+          "is_correct": true,
+          "rationale": "Operational risk covers failures in processes, people, and systems."
+        },
+        {
+          "key": "B",
+          "text": "Market risk, arising from changes in market conditions like interest rates or exchange rates.",
+          "is_correct": false,
+          "rationale": "Market risk relates to market fluctuations, not internal failures."
+        },
+        {
+          "key": "C",
+          "text": "Credit risk, the potential loss from a borrower's failure to repay a loan or meet obligations.",
+          "is_correct": false,
+          "rationale": "Credit risk relates to borrower default, not internal failures."
+        },
+        {
+          "key": "D",
+          "text": "Liquidity risk, the inability to meet short-term financial obligations when due.",
+          "is_correct": false,
+          "rationale": "Liquidity risk relates to cash flow, not internal failures."
+        },
+        {
+          "key": "E",
+          "text": "Strategic risk, the risk from poor business decisions or failing to adapt to changes.",
+          "is_correct": false,
+          "rationale": "Strategic risk relates to business strategy, not internal failures."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the purpose of customer due diligence (CDD) in AML compliance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To identify and verify the identity of customers and understand the nature of their business.",
+          "is_correct": true,
+          "rationale": "CDD is about knowing your customer and their activities."
+        },
+        {
+          "key": "B",
+          "text": "To maximize profits by offering customers products and services tailored to their needs.",
+          "is_correct": false,
+          "rationale": "Profit maximization is not the primary goal of CDD."
+        },
+        {
+          "key": "C",
+          "text": "To avoid dealing with customers who may pose a reputational risk to the institution.",
+          "is_correct": false,
+          "rationale": "Reputational risk mitigation is a secondary benefit, not the primary purpose."
+        },
+        {
+          "key": "D",
+          "text": "To provide customers with financial advice and help them achieve their investment goals.",
+          "is_correct": false,
+          "rationale": "Financial advice is separate from CDD requirements."
+        },
+        {
+          "key": "E",
+          "text": "To track customer spending habits and identify opportunities for cross-selling products.",
+          "is_correct": false,
+          "rationale": "Cross-selling is a sales activity, not the goal of CDD."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "What is the role of the Financial Action Task Force (FATF) in global AML efforts?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To set international standards and promote effective implementation of AML and CFT measures.",
+          "is_correct": true,
+          "rationale": "FATF sets global AML standards."
+        },
+        {
+          "key": "B",
+          "text": "To directly investigate and prosecute money laundering offenses around the world.",
+          "is_correct": false,
+          "rationale": "FATF does not directly investigate or prosecute offenses."
+        },
+        {
+          "key": "C",
+          "text": "To provide financial assistance to countries struggling to combat money laundering.",
+          "is_correct": false,
+          "rationale": "FATF is not a funding organization."
+        },
+        {
+          "key": "D",
+          "text": "To regulate the activities of financial institutions and ensure their compliance with regulations.",
+          "is_correct": false,
+          "rationale": "FATF sets standards, but doesn't directly regulate institutions."
+        },
+        {
+          "key": "E",
+          "text": "To promote international trade and investment by reducing barriers to cross-border transactions.",
+          "is_correct": false,
+          "rationale": "Trade promotion is not part of FATF's mission."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is insider trading, and why is it illegal in the financial markets?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Trading securities based on non-public information, giving an unfair advantage, undermining market integrity.",
+          "is_correct": true,
+          "rationale": "Insider trading exploits confidential information for personal gain."
+        },
+        {
+          "key": "B",
+          "text": "Buying and selling securities frequently to generate profits from short-term market fluctuations.",
+          "is_correct": false,
+          "rationale": "Frequent trading is not necessarily illegal."
+        },
+        {
+          "key": "C",
+          "text": "Investing in companies based on publicly available information and expert analysis.",
+          "is_correct": false,
+          "rationale": "Investing based on public information is legal and ethical."
+        },
+        {
+          "key": "D",
+          "text": "Providing financial advice to clients based on their individual needs and risk tolerance.",
+          "is_correct": false,
+          "rationale": "Financial advising is a legitimate service, not insider trading."
+        },
+        {
+          "key": "E",
+          "text": "Lending money to companies or individuals to finance their business activities or investments.",
+          "is_correct": false,
+          "rationale": "Lending is a standard financial activity, not insider trading."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Which of the following actions would be considered a conflict of interest for a compliance officer?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Owning stock in a company that the compliance officer is responsible for overseeing.",
+          "is_correct": true,
+          "rationale": "Personal financial interests can compromise objectivity."
+        },
+        {
+          "key": "B",
+          "text": "Attending industry conferences to stay informed about new regulations and best practices.",
+          "is_correct": false,
+          "rationale": "Attending conferences is a normal part of professional development."
+        },
+        {
+          "key": "C",
+          "text": "Reporting suspected violations of regulations to the appropriate authorities.",
+          "is_correct": false,
+          "rationale": "Reporting violations is a core responsibility of the role."
+        },
+        {
+          "key": "D",
+          "text": "Developing and implementing compliance training programs for employees.",
+          "is_correct": false,
+          "rationale": "Developing training programs is a standard compliance function."
+        },
+        {
+          "key": "E",
+          "text": "Conducting internal audits to assess the effectiveness of the compliance program.",
+          "is_correct": false,
+          "rationale": "Conducting audits is a standard compliance function."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is the purpose of a 'whistleblower' policy within a financial institution?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To encourage employees to report suspected wrongdoing without fear of retaliation.",
+          "is_correct": true,
+          "rationale": "Whistleblower policies protect those who report misconduct."
+        },
+        {
+          "key": "B",
+          "text": "To provide incentives for employees to identify new business opportunities.",
+          "is_correct": false,
+          "rationale": "Business development is separate from whistleblower protection."
+        },
+        {
+          "key": "C",
+          "text": "To track employee attendance and monitor their work performance.",
+          "is_correct": false,
+          "rationale": "Attendance tracking is an HR function, not related to whistleblowing."
+        },
+        {
+          "key": "D",
+          "text": "To promote internal competition and encourage employees to outperform each other.",
+          "is_correct": false,
+          "rationale": "Internal competition is not the goal of whistleblower policies."
+        },
+        {
+          "key": "E",
+          "text": "To manage customer complaints and resolve disputes between the institution and its clients.",
+          "is_correct": false,
+          "rationale": "Customer complaint resolution is a separate process."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What is the meaning of 'material non-public information' in the context of securities trading?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Information that could affect a company's stock price, not available to the general public.",
+          "is_correct": true,
+          "rationale": "This is the definition of material non-public information."
+        },
+        {
+          "key": "B",
+          "text": "Information that is widely known and readily available to all investors.",
+          "is_correct": false,
+          "rationale": "Publicly available information is not considered inside information."
+        },
+        {
+          "key": "C",
+          "text": "Information that is outdated or irrelevant to a company's current financial performance.",
+          "is_correct": false,
+          "rationale": "Outdated information is not considered inside information."
+        },
+        {
+          "key": "D",
+          "text": "Information that is only of interest to a small group of specialized investors.",
+          "is_correct": false,
+          "rationale": "The scope of interest does not define inside information."
+        },
+        {
+          "key": "E",
+          "text": "Information that is easily accessible through online search engines and social media platforms.",
+          "is_correct": false,
+          "rationale": "Information on search engines is public, not inside information."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What is the purpose of transaction monitoring systems in AML compliance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To identify unusual or suspicious transactions that may indicate money laundering or fraud.",
+          "is_correct": true,
+          "rationale": "Transaction monitoring is key to detecting suspicious activity."
+        },
+        {
+          "key": "B",
+          "text": "To provide customers with real-time updates on their account balances and transaction history.",
+          "is_correct": false,
+          "rationale": "Account updates are a customer service function, not AML monitoring."
+        },
+        {
+          "key": "C",
+          "text": "To automate the process of approving loan applications and credit card transactions.",
+          "is_correct": false,
+          "rationale": "Loan approvals are part of credit risk management."
+        },
+        {
+          "key": "D",
+          "text": "To generate reports on the institution's financial performance for management and investors.",
+          "is_correct": false,
+          "rationale": "Financial reporting is separate from transaction monitoring."
+        },
+        {
+          "key": "E",
+          "text": "To track employee trading activities and ensure compliance with insider trading regulations.",
+          "is_correct": false,
+          "rationale": "Employee trading monitoring is separate from general transaction monitoring."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is the role of the Office of Foreign Assets Control (OFAC) in financial regulation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To administer and enforce economic and trade sanctions based on U.S. foreign policy.",
+          "is_correct": true,
+          "rationale": "OFAC enforces U.S. sanctions programs."
+        },
+        {
+          "key": "B",
+          "text": "To regulate the activities of securities brokers and dealers in the United States.",
+          "is_correct": false,
+          "rationale": "Securities regulation is the role of the SEC."
+        },
+        {
+          "key": "C",
+          "text": "To supervise and regulate banks and other financial institutions in the United States.",
+          "is_correct": false,
+          "rationale": "Bank supervision is the role of banking regulators."
+        },
+        {
+          "key": "D",
+          "text": "To protect consumers from unfair or deceptive financial practices.",
+          "is_correct": false,
+          "rationale": "Consumer protection is the role of the CFPB."
+        },
+        {
+          "key": "E",
+          "text": "To promote international trade and investment by reducing barriers to cross-border transactions.",
+          "is_correct": false,
+          "rationale": "Trade promotion is not part of OFAC's mandate."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is meant by 'enhanced due diligence' (EDD) in the context of KYC/AML?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Additional scrutiny for high-risk customers or transactions, beyond standard CDD procedures.",
+          "is_correct": true,
+          "rationale": "EDD is applied to higher-risk situations."
+        },
+        {
+          "key": "B",
+          "text": "Simplified due diligence procedures for low-risk customers with long-standing relationships.",
+          "is_correct": false,
+          "rationale": "Simplified due diligence is for low-risk customers, not EDD."
+        },
+        {
+          "key": "C",
+          "text": "Conducting due diligence only on customers who are suspected of money laundering.",
+          "is_correct": false,
+          "rationale": "Due diligence is performed on all customers, not just suspects."
+        },
+        {
+          "key": "D",
+          "text": "Outsourcing the due diligence process to a third-party vendor to reduce costs.",
+          "is_correct": false,
+          "rationale": "Outsourcing doesn't define EDD."
+        },
+        {
+          "key": "E",
+          "text": "Focusing solely on verifying the customer's identity without assessing the risk of their activities.",
+          "is_correct": false,
+          "rationale": "Risk assessment is a crucial part of due diligence."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What is the role of the Securities and Exchange Commission (SEC) in financial regulation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To protect investors, maintain fair markets, and facilitate capital formation.",
+          "is_correct": true,
+          "rationale": "This is the core mission of the SEC."
+        },
+        {
+          "key": "B",
+          "text": "To supervise and regulate banks and other financial institutions in the United States.",
+          "is_correct": false,
+          "rationale": "Bank supervision is the role of banking regulators, not the SEC."
+        },
+        {
+          "key": "C",
+          "text": "To administer and enforce economic and trade sanctions based on U.S. foreign policy.",
+          "is_correct": false,
+          "rationale": "Sanctions enforcement is the role of OFAC."
+        },
+        {
+          "key": "D",
+          "text": "To protect consumers from unfair or deceptive financial practices.",
+          "is_correct": false,
+          "rationale": "Consumer protection is the role of the CFPB."
+        },
+        {
+          "key": "E",
+          "text": "To promote international trade and investment by reducing barriers to cross-border transactions.",
+          "is_correct": false,
+          "rationale": "Trade promotion is not part of the SEC's mandate."
+        }
+      ]
+    }
+  ]
+}

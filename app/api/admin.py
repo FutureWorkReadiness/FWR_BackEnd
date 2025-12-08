@@ -1,54 +1,36 @@
 """
 Admin API endpoints for database management via browser
 """
+from typing import List, Optional
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from typing import List, Optional
-from pydantic import BaseModel
+from .. import crud, schemas
+from ..models import models_hierarchical as models
 from ..database import get_db
-from .. import models_hierarchical as models
 
 router = APIRouter()
 
 # Request/Response Models
-class SectorCreate(BaseModel):
-    name: str
-    description: Optional[str] = None
+class SectorCreate(schemas.SectorCreate):
+    pass
 
-class SectorUpdate(BaseModel):
-    name: Optional[str] = None
-    description: Optional[str] = None
-    is_active: Optional[bool] = None
+class SectorUpdate(schemas.SectorUpdate):
+    pass
 
-class BranchCreate(BaseModel):
-    name: str
-    description: Optional[str] = None
-    sector_id: int
+class BranchCreate(schemas.BranchCreate):
+    pass
 
-class BranchUpdate(BaseModel):
-    name: Optional[str] = None
-    description: Optional[str] = None
-    sector_id: Optional[int] = None
-    is_active: Optional[bool] = None
+class BranchUpdate(schemas.BranchUpdate):
+    pass
 
-class SpecializationCreate(BaseModel):
-    name: str
-    description: Optional[str] = None
-    branch_id: int
+class SpecializationCreate(schemas.SpecializationCreate):
+    pass
 
-class SpecializationUpdate(BaseModel):
-    name: Optional[str] = None
-    description: Optional[str] = None
-    branch_id: Optional[int] = None
-    is_active: Optional[bool] = None
+class SpecializationUpdate(schemas.SpecializationUpdate):
+    pass
 
-class UserUpdate(BaseModel):
-    name: Optional[str] = None
-    email: Optional[str] = None
-    readiness_score: Optional[float] = None
-    technical_score: Optional[float] = None
-    soft_skills_score: Optional[float] = None
-    preferred_specialization_id: Optional[int] = None
+class UserUpdate(schemas.UserUpdate):
+    pass
 
 # ============================================================
 # SECTORS

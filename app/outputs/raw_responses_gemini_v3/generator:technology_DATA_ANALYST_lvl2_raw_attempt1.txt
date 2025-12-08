@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "Which SQL clause is used to filter rows after they have been grouped?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The 'WHERE' clause filters rows before grouping.",
+          "is_correct": false,
+          "rationale": "WHERE filters before grouping; HAVING filters after."
+        },
+        {
+          "key": "B",
+          "text": "The 'GROUP BY' clause is used for grouping, not filtering.",
+          "is_correct": false,
+          "rationale": "GROUP BY is for aggregation, not filtering results."
+        },
+        {
+          "key": "C",
+          "text": "The 'HAVING' clause filters rows after grouping.",
+          "is_correct": true,
+          "rationale": "HAVING filters based on aggregate function results."
+        },
+        {
+          "key": "D",
+          "text": "The 'ORDER BY' clause sorts the result set, not filters.",
+          "is_correct": false,
+          "rationale": "ORDER BY is for sorting, not removing rows."
+        },
+        {
+          "key": "E",
+          "text": "The 'LIMIT' clause restricts the number of rows returned.",
+          "is_correct": false,
+          "rationale": "LIMIT restricts row count, not filters based on conditions."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the primary purpose of data normalization in a relational database?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To minimize data redundancy and improve data integrity.",
+          "is_correct": true,
+          "rationale": "Normalization reduces redundancy and improves integrity."
+        },
+        {
+          "key": "B",
+          "text": "To maximize data redundancy for faster query performance.",
+          "is_correct": false,
+          "rationale": "Redundancy slows queries and increases storage needs."
+        },
+        {
+          "key": "C",
+          "text": "To complicate data relationships for enhanced security.",
+          "is_correct": false,
+          "rationale": "Normalization simplifies relationships, not complicates."
+        },
+        {
+          "key": "D",
+          "text": "To obfuscate data for compliance with privacy regulations.",
+          "is_correct": false,
+          "rationale": "Obfuscation is different from normalization."
+        },
+        {
+          "key": "E",
+          "text": "To accelerate the speed of data backups and restores.",
+          "is_correct": false,
+          "rationale": "Normalization has little impact on backup speed."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which type of join returns all rows from the left table and matching rows from the right table?",
+      "options": [
+        {
+          "key": "A",
+          "text": "An INNER JOIN returns only matching rows from both tables.",
+          "is_correct": false,
+          "rationale": "INNER JOIN returns matching rows only."
+        },
+        {
+          "key": "B",
+          "text": "A RIGHT JOIN returns all rows from the right table.",
+          "is_correct": false,
+          "rationale": "RIGHT JOIN returns all from the right."
+        },
+        {
+          "key": "C",
+          "text": "A FULL OUTER JOIN returns all rows from both tables.",
+          "is_correct": false,
+          "rationale": "FULL OUTER JOIN returns all rows."
+        },
+        {
+          "key": "D",
+          "text": "A LEFT JOIN returns all rows from the left table.",
+          "is_correct": true,
+          "rationale": "LEFT JOIN preserves all rows from the left table."
+        },
+        {
+          "key": "E",
+          "text": "A CROSS JOIN returns the Cartesian product of both tables.",
+          "is_correct": false,
+          "rationale": "CROSS JOIN returns Cartesian product."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What does the acronym ETL stand for in the context of data warehousing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Extract, Transform, Load represents the data pipeline.",
+          "is_correct": true,
+          "rationale": "ETL defines the standard data warehousing process."
+        },
+        {
+          "key": "B",
+          "text": "Evaluate, Translate, Locate is not related to data warehousing.",
+          "is_correct": false,
+          "rationale": "This is not related to data warehousing."
+        },
+        {
+          "key": "C",
+          "text": "Encrypt, Transfer, Log is related to data security.",
+          "is_correct": false,
+          "rationale": "This is related to data security."
+        },
+        {
+          "key": "D",
+          "text": "Enter, Transpose, List is not related to data warehousing.",
+          "is_correct": false,
+          "rationale": "This is not related to data warehousing."
+        },
+        {
+          "key": "E",
+          "text": "Expand, Trim, Limit is not related to data warehousing.",
+          "is_correct": false,
+          "rationale": "This is not related to data warehousing."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is a common technique for handling missing data?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Deleting rows with missing values is a simple approach.",
+          "is_correct": false,
+          "rationale": "Deleting rows can introduce bias."
+        },
+        {
+          "key": "B",
+          "text": "Ignoring missing values is generally not recommended.",
+          "is_correct": false,
+          "rationale": "Ignoring can skew results."
+        },
+        {
+          "key": "C",
+          "text": "Imputing missing values with the mean or median.",
+          "is_correct": true,
+          "rationale": "Imputation preserves data integrity."
+        },
+        {
+          "key": "D",
+          "text": "Multiplying missing values by zero is rarely appropriate.",
+          "is_correct": false,
+          "rationale": "Multiplying by zero is generally incorrect."
+        },
+        {
+          "key": "E",
+          "text": "Replacing missing values with random noise.",
+          "is_correct": false,
+          "rationale": "Introducing noise reduces data accuracy."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What is the purpose of a primary key in a database table?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To uniquely identify each record in the table.",
+          "is_correct": true,
+          "rationale": "Primary keys enforce uniqueness."
+        },
+        {
+          "key": "B",
+          "text": "To define the data type of a column.",
+          "is_correct": false,
+          "rationale": "Data types are defined separately."
+        },
+        {
+          "key": "C",
+          "text": "To establish a relationship with another table.",
+          "is_correct": false,
+          "rationale": "Foreign keys establish relationships."
+        },
+        {
+          "key": "D",
+          "text": "To improve the speed of data retrieval.",
+          "is_correct": false,
+          "rationale": "Indexes improve retrieval speed."
+        },
+        {
+          "key": "E",
+          "text": "To encrypt the data stored in the table.",
+          "is_correct": false,
+          "rationale": "Encryption protects data."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Which statistical measure is most sensitive to outliers in a dataset?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The median is resistant to outliers.",
+          "is_correct": false,
+          "rationale": "Median is the middle value and is robust."
+        },
+        {
+          "key": "B",
+          "text": "The mode is the most frequent value.",
+          "is_correct": false,
+          "rationale": "Mode is the most frequent value."
+        },
+        {
+          "key": "C",
+          "text": "The standard deviation measures spread around the mean.",
+          "is_correct": false,
+          "rationale": "Standard deviation is affected, but not as much."
+        },
+        {
+          "key": "D",
+          "text": "The mean is significantly affected by extreme values.",
+          "is_correct": true,
+          "rationale": "The mean is the average and is pulled by outliers."
+        },
+        {
+          "key": "E",
+          "text": "The interquartile range is resistant to outliers.",
+          "is_correct": false,
+          "rationale": "IQR focuses on the middle 50% of data."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What is the purpose of data validation in the data analysis process?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure data accuracy and consistency.",
+          "is_correct": true,
+          "rationale": "Validation aims to ensure data quality."
+        },
+        {
+          "key": "B",
+          "text": "To encrypt sensitive data fields.",
+          "is_correct": false,
+          "rationale": "Encryption focuses on security."
+        },
+        {
+          "key": "C",
+          "text": "To compress data for efficient storage.",
+          "is_correct": false,
+          "rationale": "Compression reduces storage size."
+        },
+        {
+          "key": "D",
+          "text": "To transform data into a different format.",
+          "is_correct": false,
+          "rationale": "Transformation changes data structure."
+        },
+        {
+          "key": "E",
+          "text": "To accelerate data loading into a database.",
+          "is_correct": false,
+          "rationale": "Loading speed depends on various factors."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is the function of the 'CASE' statement in SQL?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To create temporary tables for storing intermediate results.",
+          "is_correct": false,
+          "rationale": "Temporary tables are created with CREATE TEMP TABLE."
+        },
+        {
+          "key": "B",
+          "text": "To perform conditional logic within a query.",
+          "is_correct": true,
+          "rationale": "CASE statements implement conditional logic."
+        },
+        {
+          "key": "C",
+          "text": "To define user-defined functions.",
+          "is_correct": false,
+          "rationale": "User-defined functions are created differently."
+        },
+        {
+          "key": "D",
+          "text": "To optimize query execution plans.",
+          "is_correct": false,
+          "rationale": "Query optimization is done by the database engine."
+        },
+        {
+          "key": "E",
+          "text": "To manage database transactions.",
+          "is_correct": false,
+          "rationale": "Transactions are managed with BEGIN, COMMIT, ROLLBACK."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Which visualization is best for showing the distribution of a single numerical variable?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A scatter plot shows the relationship between two variables.",
+          "is_correct": false,
+          "rationale": "Scatter plots show relationships."
+        },
+        {
+          "key": "B",
+          "text": "A bar chart compares categorical data.",
+          "is_correct": false,
+          "rationale": "Bar charts are for categorical data."
+        },
+        {
+          "key": "C",
+          "text": "A pie chart shows proportions of a whole.",
+          "is_correct": false,
+          "rationale": "Pie charts show proportions."
+        },
+        {
+          "key": "D",
+          "text": "A histogram displays the frequency distribution.",
+          "is_correct": true,
+          "rationale": "Histograms show frequency distribution."
+        },
+        {
+          "key": "E",
+          "text": "A line chart shows trends over time.",
+          "is_correct": false,
+          "rationale": "Line charts show trends."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the purpose of feature scaling in machine learning?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To improve the accuracy of the model.",
+          "is_correct": false,
+          "rationale": "Accuracy improvement is not the primary goal."
+        },
+        {
+          "key": "B",
+          "text": "To speed up model training and prevent feature dominance.",
+          "is_correct": true,
+          "rationale": "Scaling helps algorithms converge faster."
+        },
+        {
+          "key": "C",
+          "text": "To reduce the dimensionality of the data.",
+          "is_correct": false,
+          "rationale": "Dimensionality reduction is a separate process."
+        },
+        {
+          "key": "D",
+          "text": "To handle missing values in the dataset.",
+          "is_correct": false,
+          "rationale": "Missing value imputation is different."
+        },
+        {
+          "key": "E",
+          "text": "To convert categorical features to numerical ones.",
+          "is_correct": false,
+          "rationale": "Encoding handles categorical features."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is NOT a common data warehousing architecture?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Star schema is a common warehousing architecture.",
+          "is_correct": false,
+          "rationale": "Star schema is very common."
+        },
+        {
+          "key": "B",
+          "text": "Snowflake schema is also a common architecture.",
+          "is_correct": false,
+          "rationale": "Snowflake schema is also common."
+        },
+        {
+          "key": "C",
+          "text": "Galaxy schema is a valid warehousing architecture.",
+          "is_correct": false,
+          "rationale": "Galaxy schema is a valid architecture."
+        },
+        {
+          "key": "D",
+          "text": "Inverted index is used for search, not warehousing.",
+          "is_correct": true,
+          "rationale": "Inverted index is for search."
+        },
+        {
+          "key": "E",
+          "text": "Data vault is a modern warehousing architecture.",
+          "is_correct": false,
+          "rationale": "Data vault is a modern architecture."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is the purpose of a foreign key in a relational database?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To uniquely identify each record in a table.",
+          "is_correct": false,
+          "rationale": "Primary key identifies records uniquely."
+        },
+        {
+          "key": "B",
+          "text": "To enforce referential integrity between tables.",
+          "is_correct": true,
+          "rationale": "Foreign key maintains referential integrity."
+        },
+        {
+          "key": "C",
+          "text": "To define the data type of a column.",
+          "is_correct": false,
+          "rationale": "Data type is defined separately."
+        },
+        {
+          "key": "D",
+          "text": "To improve the speed of data retrieval.",
+          "is_correct": false,
+          "rationale": "Indexes improve retrieval speed."
+        },
+        {
+          "key": "E",
+          "text": "To encrypt sensitive data within a table.",
+          "is_correct": false,
+          "rationale": "Encryption secures data."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Which of the following is a characteristic of unstructured data?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It has a predefined data model or schema.",
+          "is_correct": false,
+          "rationale": "Structured data has a defined schema."
+        },
+        {
+          "key": "B",
+          "text": "It is easily stored in relational databases.",
+          "is_correct": false,
+          "rationale": "Structured data fits relational databases."
+        },
+        {
+          "key": "C",
+          "text": "It has a consistent format across all instances.",
+          "is_correct": false,
+          "rationale": "Structured data has a consistent format."
+        },
+        {
+          "key": "D",
+          "text": "It often requires specialized tools for analysis.",
+          "is_correct": true,
+          "rationale": "Unstructured data needs specialized tools."
+        },
+        {
+          "key": "E",
+          "text": "It is primarily numerical or categorical in nature.",
+          "is_correct": false,
+          "rationale": "Structured data is numerical or categorical."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is the purpose of cohort analysis?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To analyze groups of users with shared characteristics over time.",
+          "is_correct": true,
+          "rationale": "Cohort analysis tracks groups over time."
+        },
+        {
+          "key": "B",
+          "text": "To predict future sales based on historical data.",
+          "is_correct": false,
+          "rationale": "Sales prediction is time series analysis."
+        },
+        {
+          "key": "C",
+          "text": "To identify statistically significant correlations between variables.",
+          "is_correct": false,
+          "rationale": "Correlation analysis finds relationships."
+        },
+        {
+          "key": "D",
+          "text": "To optimize website design for improved user experience.",
+          "is_correct": false,
+          "rationale": "Website optimization is A/B testing."
+        },
+        {
+          "key": "E",
+          "text": "To segment customers based on their purchasing behavior.",
+          "is_correct": false,
+          "rationale": "Customer segmentation is a distinct technique."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Which type of data bias occurs when a sample is not representative of the population?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Confirmation bias is favoring pre-existing beliefs.",
+          "is_correct": false,
+          "rationale": "Confirmation bias favors existing beliefs."
+        },
+        {
+          "key": "B",
+          "text": "Selection bias occurs when the sample is not representative.",
+          "is_correct": true,
+          "rationale": "Selection bias is due to non-representative samples."
+        },
+        {
+          "key": "C",
+          "text": "Recall bias is inaccurate memory of past events.",
+          "is_correct": false,
+          "rationale": "Recall bias is related to memory."
+        },
+        {
+          "key": "D",
+          "text": "Measurement bias is errors in data collection.",
+          "is_correct": false,
+          "rationale": "Measurement bias is related to inaccurate data."
+        },
+        {
+          "key": "E",
+          "text": "Observer bias is influencing results through observation.",
+          "is_correct": false,
+          "rationale": "Observer bias influences results."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What is A/B testing primarily used for?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To analyze historical data trends.",
+          "is_correct": false,
+          "rationale": "Historical data analysis is a separate process."
+        },
+        {
+          "key": "B",
+          "text": "To compare two versions of a variable and determine which performs better.",
+          "is_correct": true,
+          "rationale": "A/B testing compares two versions."
+        },
+        {
+          "key": "C",
+          "text": "To segment customers based on demographics.",
+          "is_correct": false,
+          "rationale": "Customer segmentation is a separate technique."
+        },
+        {
+          "key": "D",
+          "text": "To predict future outcomes using machine learning.",
+          "is_correct": false,
+          "rationale": "Prediction relies on machine learning."
+        },
+        {
+          "key": "E",
+          "text": "To identify outliers in a dataset.",
+          "is_correct": false,
+          "rationale": "Outlier detection is a separate process."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is a common use of dashboards in data analysis?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To perform complex statistical modeling.",
+          "is_correct": false,
+          "rationale": "Modeling is not the primary use of dashboards."
+        },
+        {
+          "key": "B",
+          "text": "To provide a high-level overview of key performance indicators.",
+          "is_correct": true,
+          "rationale": "Dashboards present KPIs."
+        },
+        {
+          "key": "C",
+          "text": "To store raw data for future analysis.",
+          "is_correct": false,
+          "rationale": "Data storage is not a dashboard function."
+        },
+        {
+          "key": "D",
+          "text": "To automatically generate reports without human intervention.",
+          "is_correct": false,
+          "rationale": "Dashboards require configuration."
+        },
+        {
+          "key": "E",
+          "text": "To replace the need for data analysts.",
+          "is_correct": false,
+          "rationale": "Analysts are needed to interpret the data."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is the purpose of data governance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure data quality, security, and compliance.",
+          "is_correct": true,
+          "rationale": "Data governance ensures data quality and compliance."
+        },
+        {
+          "key": "B",
+          "text": "To accelerate the speed of data processing.",
+          "is_correct": false,
+          "rationale": "Processing speed depends on other factors."
+        },
+        {
+          "key": "C",
+          "text": "To minimize the cost of data storage.",
+          "is_correct": false,
+          "rationale": "Storage cost is a separate concern."
+        },
+        {
+          "key": "D",
+          "text": "To replace human data analysts with automated systems.",
+          "is_correct": false,
+          "rationale": "Analysts are needed for interpretation."
+        },
+        {
+          "key": "E",
+          "text": "To create new data sources for analysis.",
+          "is_correct": false,
+          "rationale": "Data sources are created separately."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Which of the following is a common type of time series analysis?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Regression analysis models relationships between variables.",
+          "is_correct": false,
+          "rationale": "Regression models relationships."
+        },
+        {
+          "key": "B",
+          "text": "Clustering groups similar data points together.",
+          "is_correct": false,
+          "rationale": "Clustering groups data points."
+        },
+        {
+          "key": "C",
+          "text": "Classification assigns data points to categories.",
+          "is_correct": false,
+          "rationale": "Classification assigns categories."
+        },
+        {
+          "key": "D",
+          "text": "Decomposition separates time series into components.",
+          "is_correct": true,
+          "rationale": "Decomposition separates time series."
+        },
+        {
+          "key": "E",
+          "text": "Principal component analysis reduces dimensionality.",
+          "is_correct": false,
+          "rationale": "PCA reduces dimensionality."
+        }
+      ]
+    }
+  ]
+}

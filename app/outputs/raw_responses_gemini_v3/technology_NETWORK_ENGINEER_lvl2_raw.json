@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "Which routing protocol is commonly used within a single autonomous system for interior gateway routing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Border Gateway Protocol (BGP), used for inter-domain routing between autonomous systems.",
+          "is_correct": false,
+          "rationale": "BGP is an exterior gateway protocol."
+        },
+        {
+          "key": "B",
+          "text": "Open Shortest Path First (OSPF), link-state protocol for single autonomous systems.",
+          "is_correct": true,
+          "rationale": "OSPF is a common interior gateway protocol."
+        },
+        {
+          "key": "C",
+          "text": "Internet Control Message Protocol (ICMP), primarily for network diagnostics and error reporting.",
+          "is_correct": false,
+          "rationale": "ICMP is for diagnostics, not routing."
+        },
+        {
+          "key": "D",
+          "text": "Simple Network Management Protocol (SNMP), used for managing and monitoring network devices.",
+          "is_correct": false,
+          "rationale": "SNMP is for management, not routing."
+        },
+        {
+          "key": "E",
+          "text": "Domain Name System (DNS), which translates domain names to IP addresses for resolution.",
+          "is_correct": false,
+          "rationale": "DNS is for name resolution."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the primary function of a firewall in network security infrastructure and design?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide wireless network access to end-users securely and efficiently.",
+          "is_correct": false,
+          "rationale": "Firewalls don't directly provide wireless access."
+        },
+        {
+          "key": "B",
+          "text": "To prevent unauthorized access to or from a private network by filtering traffic.",
+          "is_correct": true,
+          "rationale": "Firewalls control network access."
+        },
+        {
+          "key": "C",
+          "text": "To accelerate the delivery of web content to users through caching mechanisms.",
+          "is_correct": false,
+          "rationale": "That's a function of a content delivery network (CDN)."
+        },
+        {
+          "key": "D",
+          "text": "To encrypt data transmitted over a network to ensure confidentiality and integrity.",
+          "is_correct": false,
+          "rationale": "Encryption is typically handled by other protocols."
+        },
+        {
+          "key": "E",
+          "text": "To dynamically allocate IP addresses to devices on a network, simplifying management.",
+          "is_correct": false,
+          "rationale": "That is the function of DHCP."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which command-line tool is commonly used to test network connectivity by sending ICMP echo request packets?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The 'traceroute' command, which traces the route packets take to a destination.",
+          "is_correct": false,
+          "rationale": "Traceroute identifies the path, not basic connectivity."
+        },
+        {
+          "key": "B",
+          "text": "The 'ping' command, which sends ICMP echo requests to verify network connectivity.",
+          "is_correct": true,
+          "rationale": "Ping uses ICMP echo requests."
+        },
+        {
+          "key": "C",
+          "text": "The 'netstat' command, which displays network connections, routing tables, and statistics.",
+          "is_correct": false,
+          "rationale": "Netstat displays network statistics."
+        },
+        {
+          "key": "D",
+          "text": "The 'ipconfig' command, which displays the current TCP/IP network configuration values.",
+          "is_correct": false,
+          "rationale": "Ipconfig shows configuration, not connectivity."
+        },
+        {
+          "key": "E",
+          "text": "The 'nslookup' command, which queries DNS servers to obtain domain name or IP address mapping.",
+          "is_correct": false,
+          "rationale": "Nslookup is for DNS queries."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is the purpose of VLANs (Virtual LANs) in a switched network environment for traffic segmentation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To reduce the number of physical switches required in a network topology design.",
+          "is_correct": false,
+          "rationale": "VLANs do not reduce the number of physical switches."
+        },
+        {
+          "key": "B",
+          "text": "To logically group network devices, enabling communication as if they were on the same physical LAN.",
+          "is_correct": true,
+          "rationale": "VLANs logically segment the network."
+        },
+        {
+          "key": "C",
+          "text": "To increase the bandwidth available to network users by aggregating multiple physical links.",
+          "is_correct": false,
+          "rationale": "Link aggregation increases bandwidth."
+        },
+        {
+          "key": "D",
+          "text": "To provide wireless connectivity to network devices without the need for Ethernet cables.",
+          "is_correct": false,
+          "rationale": "VLANs do not relate to wireless connectivity."
+        },
+        {
+          "key": "E",
+          "text": "To encrypt network traffic for secure communication between different network segments.",
+          "is_correct": false,
+          "rationale": "Encryption provides secure communication."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which network device operates at the Data Link Layer (Layer 2) of the OSI model for forwarding data?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A router, which operates at the Network Layer (Layer 3) and forwards data based on IP addresses.",
+          "is_correct": false,
+          "rationale": "Routers operate at Layer 3."
+        },
+        {
+          "key": "B",
+          "text": "A switch, which operates at the Data Link Layer (Layer 2) and forwards data based on MAC addresses.",
+          "is_correct": true,
+          "rationale": "Switches operate at Layer 2."
+        },
+        {
+          "key": "C",
+          "text": "A hub, which operates at the Physical Layer (Layer 1) and broadcasts data to all connected devices.",
+          "is_correct": false,
+          "rationale": "Hubs operate at Layer 1."
+        },
+        {
+          "key": "D",
+          "text": "A firewall, which operates at multiple layers and filters traffic based on security rules.",
+          "is_correct": false,
+          "rationale": "Firewalls operate at multiple layers."
+        },
+        {
+          "key": "E",
+          "text": "A modem, which modulates and demodulates signals for transmission over telephone lines.",
+          "is_correct": false,
+          "rationale": "Modems are for signal modulation/demodulation."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What is the function of DHCP (Dynamic Host Configuration Protocol) in network administration for IP address assignment?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To translate domain names to IP addresses, enabling users to access websites by name.",
+          "is_correct": false,
+          "rationale": "That is the function of DNS."
+        },
+        {
+          "key": "B",
+          "text": "To automatically assign IP addresses and other network configuration parameters to devices.",
+          "is_correct": true,
+          "rationale": "DHCP assigns IP addresses automatically."
+        },
+        {
+          "key": "C",
+          "text": "To encrypt network traffic, ensuring secure communication between clients and servers.",
+          "is_correct": false,
+          "rationale": "Encryption secures communication."
+        },
+        {
+          "key": "D",
+          "text": "To route network traffic between different subnets or networks based on IP addresses.",
+          "is_correct": false,
+          "rationale": "Routing directs traffic between networks."
+        },
+        {
+          "key": "E",
+          "text": "To manage and monitor network devices, collecting data for performance analysis and troubleshooting.",
+          "is_correct": false,
+          "rationale": "That is the function of SNMP."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is a private IP address range, as defined by RFC 1918, for internal network use?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The 192.168.0.0/16 range, commonly used for private networks within organizations and homes.",
+          "is_correct": true,
+          "rationale": "192.168.0.0/16 is a private IP range."
+        },
+        {
+          "key": "B",
+          "text": "The 100.64.0.0/10 range, used for carrier-grade NAT, not for private network addressing.",
+          "is_correct": false,
+          "rationale": "100.64.0.0/10 is for carrier-grade NAT."
+        },
+        {
+          "key": "C",
+          "text": "The 172.16.0.0/16 range, typically used for public-facing servers and web hosting infrastructure.",
+          "is_correct": false,
+          "rationale": "172.16.0.0/16 is not the correct subnet."
+        },
+        {
+          "key": "D",
+          "text": "The 169.254.0.0/16 range, used for Automatic Private IP Addressing (APIPA) or link-local addresses.",
+          "is_correct": false,
+          "rationale": "169.254.0.0/16 is for APIPA."
+        },
+        {
+          "key": "E",
+          "text": "The 203.0.113.0/24 range, often used for documentation and example purposes in network configurations.",
+          "is_correct": false,
+          "rationale": "203.0.113.0/24 is for documentation."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What is the purpose of subnetting in IP addressing for efficient network management and organization?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To increase the number of available IP addresses by borrowing bits from the host portion.",
+          "is_correct": true,
+          "rationale": "Subnetting creates smaller network segments."
+        },
+        {
+          "key": "B",
+          "text": "To combine multiple physical network segments into a single logical network for simplification.",
+          "is_correct": false,
+          "rationale": "Subnetting divides networks."
+        },
+        {
+          "key": "C",
+          "text": "To encrypt network traffic for secure communication between different network segments or subnets.",
+          "is_correct": false,
+          "rationale": "Encryption secures communication."
+        },
+        {
+          "key": "D",
+          "text": "To translate private IP addresses to public IP addresses for internet access through NAT.",
+          "is_correct": false,
+          "rationale": "NAT translates IP addresses."
+        },
+        {
+          "key": "E",
+          "text": "To provide wireless connectivity to network devices without the need for Ethernet cables.",
+          "is_correct": false,
+          "rationale": "Subnetting does not relate to wireless connectivity."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Which protocol is used for secure remote access to network devices, providing encrypted communication?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Telnet, which transmits data in clear text and is vulnerable to eavesdropping and interception.",
+          "is_correct": false,
+          "rationale": "Telnet is not secure."
+        },
+        {
+          "key": "B",
+          "text": "Secure Shell (SSH), which provides encrypted communication for secure remote access to devices.",
+          "is_correct": true,
+          "rationale": "SSH provides encrypted communication."
+        },
+        {
+          "key": "C",
+          "text": "File Transfer Protocol (FTP), used for transferring files between a client and a server.",
+          "is_correct": false,
+          "rationale": "FTP transfers files."
+        },
+        {
+          "key": "D",
+          "text": "Simple Mail Transfer Protocol (SMTP), used for sending email messages between mail servers.",
+          "is_correct": false,
+          "rationale": "SMTP sends email."
+        },
+        {
+          "key": "E",
+          "text": "Hypertext Transfer Protocol (HTTP), used for transferring web pages and content over the internet.",
+          "is_correct": false,
+          "rationale": "HTTP transfers web content."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What is the role of a DNS (Domain Name System) server in network communication and resolution?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide IP addresses to devices on a network automatically, simplifying network configuration.",
+          "is_correct": false,
+          "rationale": "That is the function of DHCP."
+        },
+        {
+          "key": "B",
+          "text": "To translate domain names into IP addresses, enabling users to access websites by name.",
+          "is_correct": true,
+          "rationale": "DNS resolves domain names to IP addresses."
+        },
+        {
+          "key": "C",
+          "text": "To encrypt network traffic, ensuring secure communication between clients and servers.",
+          "is_correct": false,
+          "rationale": "Encryption secures communication."
+        },
+        {
+          "key": "D",
+          "text": "To route network traffic between different subnets or networks based on IP addresses.",
+          "is_correct": false,
+          "rationale": "Routing directs traffic between networks."
+        },
+        {
+          "key": "E",
+          "text": "To manage and monitor network devices, collecting data for performance analysis and troubleshooting.",
+          "is_correct": false,
+          "rationale": "That is the function of SNMP."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Which of the following describes the function of Network Address Translation (NAT) in network design?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To encrypt network traffic, ensuring secure communication between internal and external networks.",
+          "is_correct": false,
+          "rationale": "Encryption secures communication."
+        },
+        {
+          "key": "B",
+          "text": "To translate private IP addresses to public IP addresses, enabling internal networks to access the internet.",
+          "is_correct": true,
+          "rationale": "NAT translates private to public IP addresses."
+        },
+        {
+          "key": "C",
+          "text": "To route network traffic between different subnets or networks based on IP addresses.",
+          "is_correct": false,
+          "rationale": "Routing directs traffic between networks."
+        },
+        {
+          "key": "D",
+          "text": "To provide wireless connectivity to network devices without the need for Ethernet cables.",
+          "is_correct": false,
+          "rationale": "NAT does not relate to wireless connectivity."
+        },
+        {
+          "key": "E",
+          "text": "To filter network traffic based on predefined rules, preventing unauthorized access to a network.",
+          "is_correct": false,
+          "rationale": "That is the function of a firewall."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "What is the purpose of Quality of Service (QoS) mechanisms in network infrastructure and management?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To encrypt network traffic, ensuring secure communication between different network segments.",
+          "is_correct": false,
+          "rationale": "Encryption secures communication."
+        },
+        {
+          "key": "B",
+          "text": "To prioritize network traffic based on its importance, ensuring critical applications receive sufficient bandwidth.",
+          "is_correct": true,
+          "rationale": "QoS prioritizes network traffic."
+        },
+        {
+          "key": "C",
+          "text": "To translate domain names to IP addresses, enabling users to access websites by name.",
+          "is_correct": false,
+          "rationale": "That is the function of DNS."
+        },
+        {
+          "key": "D",
+          "text": "To detect and prevent network intrusions, protecting against unauthorized access and malicious activities.",
+          "is_correct": false,
+          "rationale": "That is the function of an IDS/IPS."
+        },
+        {
+          "key": "E",
+          "text": "To provide wireless connectivity to network devices without the need for Ethernet cables.",
+          "is_correct": false,
+          "rationale": "QoS does not relate to wireless connectivity."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Which protocol is used to monitor network devices and collect data for performance analysis and troubleshooting?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Simple Network Management Protocol (SNMP), which collects and organizes information about managed devices.",
+          "is_correct": true,
+          "rationale": "SNMP monitors and manages network devices."
+        },
+        {
+          "key": "B",
+          "text": "Domain Name System (DNS), which translates domain names to IP addresses for resolution.",
+          "is_correct": false,
+          "rationale": "DNS translates domain names."
+        },
+        {
+          "key": "C",
+          "text": "Dynamic Host Configuration Protocol (DHCP), which assigns IP addresses to devices on a network.",
+          "is_correct": false,
+          "rationale": "DHCP assigns IP addresses."
+        },
+        {
+          "key": "D",
+          "text": "File Transfer Protocol (FTP), used for transferring files between a client and a server.",
+          "is_correct": false,
+          "rationale": "FTP transfers files."
+        },
+        {
+          "key": "E",
+          "text": "Secure Shell (SSH), which provides encrypted communication for secure remote access to devices.",
+          "is_correct": false,
+          "rationale": "SSH provides secure remote access."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What is the purpose of a VPN (Virtual Private Network) in network security and remote access scenarios?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide wireless connectivity to network devices without the need for Ethernet cables.",
+          "is_correct": false,
+          "rationale": "VPNs do not relate to wireless connectivity."
+        },
+        {
+          "key": "B",
+          "text": "To create a secure, encrypted connection over a public network, allowing secure remote access.",
+          "is_correct": true,
+          "rationale": "VPNs create secure, encrypted connections."
+        },
+        {
+          "key": "C",
+          "text": "To translate domain names to IP addresses, enabling users to access websites by name.",
+          "is_correct": false,
+          "rationale": "That is the function of DNS."
+        },
+        {
+          "key": "D",
+          "text": "To filter network traffic based on predefined rules, preventing unauthorized access to a network.",
+          "is_correct": false,
+          "rationale": "That is the function of a firewall."
+        },
+        {
+          "key": "E",
+          "text": "To accelerate the delivery of web content to users through caching mechanisms and optimization.",
+          "is_correct": false,
+          "rationale": "That is the function of a CDN."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Which of the following describes the function of a load balancer in network infrastructure design?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To encrypt network traffic, ensuring secure communication between clients and servers.",
+          "is_correct": false,
+          "rationale": "Encryption secures communication."
+        },
+        {
+          "key": "B",
+          "text": "To distribute network traffic across multiple servers, improving performance and availability.",
+          "is_correct": true,
+          "rationale": "Load balancers distribute traffic."
+        },
+        {
+          "key": "C",
+          "text": "To translate domain names to IP addresses, enabling users to access websites by name.",
+          "is_correct": false,
+          "rationale": "That is the function of DNS."
+        },
+        {
+          "key": "D",
+          "text": "To filter network traffic based on predefined rules, preventing unauthorized access to a network.",
+          "is_correct": false,
+          "rationale": "That is the function of a firewall."
+        },
+        {
+          "key": "E",
+          "text": "To provide wireless connectivity to network devices without the need for Ethernet cables.",
+          "is_correct": false,
+          "rationale": "Load balancers do not relate to wireless connectivity."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What is the purpose of using trunk ports on network switches in a VLAN environment for network traffic?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide power to network devices, such as IP phones and wireless access points, using PoE.",
+          "is_correct": false,
+          "rationale": "PoE provides power to devices."
+        },
+        {
+          "key": "B",
+          "text": "To carry traffic for multiple VLANs over a single physical link, optimizing network utilization.",
+          "is_correct": true,
+          "rationale": "Trunk ports carry multiple VLANs."
+        },
+        {
+          "key": "C",
+          "text": "To connect network devices directly to the internet without the need for a router or firewall.",
+          "is_correct": false,
+          "rationale": "Routers connect networks to the internet."
+        },
+        {
+          "key": "D",
+          "text": "To encrypt network traffic, ensuring secure communication between different network segments.",
+          "is_correct": false,
+          "rationale": "Encryption secures communication."
+        },
+        {
+          "key": "E",
+          "text": "To provide wireless connectivity to network devices without the need for Ethernet cables.",
+          "is_correct": false,
+          "rationale": "Trunk ports do not relate to wireless connectivity."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is a function of an Intrusion Detection System (IDS) in network security?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To encrypt network traffic, ensuring secure communication between different network segments.",
+          "is_correct": false,
+          "rationale": "Encryption secures communication."
+        },
+        {
+          "key": "B",
+          "text": "To monitor network traffic for malicious activity and generate alerts when suspicious events are detected.",
+          "is_correct": true,
+          "rationale": "IDS monitors for malicious activity."
+        },
+        {
+          "key": "C",
+          "text": "To translate domain names to IP addresses, enabling users to access websites by name.",
+          "is_correct": false,
+          "rationale": "That is the function of DNS."
+        },
+        {
+          "key": "D",
+          "text": "To filter network traffic based on predefined rules, preventing unauthorized access to a network.",
+          "is_correct": false,
+          "rationale": "That is the function of a firewall."
+        },
+        {
+          "key": "E",
+          "text": "To provide wireless connectivity to network devices without the need for Ethernet cables.",
+          "is_correct": false,
+          "rationale": "IDS does not relate to wireless connectivity."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is the role of Spanning Tree Protocol (STP) in a switched network environment for network stability?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To prevent routing loops in a network by blocking redundant paths and ensuring a loop-free topology.",
+          "is_correct": true,
+          "rationale": "STP prevents switching loops."
+        },
+        {
+          "key": "B",
+          "text": "To encrypt network traffic, ensuring secure communication between different network segments.",
+          "is_correct": false,
+          "rationale": "Encryption secures communication."
+        },
+        {
+          "key": "C",
+          "text": "To translate domain names to IP addresses, enabling users to access websites by name.",
+          "is_correct": false,
+          "rationale": "That is the function of DNS."
+        },
+        {
+          "key": "D",
+          "text": "To filter network traffic based on predefined rules, preventing unauthorized access to a network.",
+          "is_correct": false,
+          "rationale": "That is the function of a firewall."
+        },
+        {
+          "key": "E",
+          "text": "To provide wireless connectivity to network devices without the need for Ethernet cables.",
+          "is_correct": false,
+          "rationale": "STP does not relate to wireless connectivity."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Which of the following best describes the function of a reverse proxy server in a network environment?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To cache frequently accessed content, reducing server load and improving response times for clients.",
+          "is_correct": false,
+          "rationale": "Caching is a function, but not the primary one."
+        },
+        {
+          "key": "B",
+          "text": "To protect internal servers by hiding their IP addresses and acting as an intermediary for client requests.",
+          "is_correct": true,
+          "rationale": "Reverse proxies protect internal servers."
+        },
+        {
+          "key": "C",
+          "text": "To forward client requests to multiple servers based on load or availability, balancing traffic.",
+          "is_correct": false,
+          "rationale": "Load balancing distributes traffic."
+        },
+        {
+          "key": "D",
+          "text": "To encrypt network traffic, ensuring secure communication between clients and servers.",
+          "is_correct": false,
+          "rationale": "Encryption secures communication."
+        },
+        {
+          "key": "E",
+          "text": "To provide wireless connectivity to network devices without the need for Ethernet cables.",
+          "is_correct": false,
+          "rationale": "Reverse proxies do not relate to wireless connectivity."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What is the primary purpose of using access control lists (ACLs) on network devices for security?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To encrypt network traffic, ensuring secure communication between different network segments.",
+          "is_correct": false,
+          "rationale": "Encryption secures communication."
+        },
+        {
+          "key": "B",
+          "text": "To filter network traffic based on predefined rules, controlling which traffic is allowed or denied.",
+          "is_correct": true,
+          "rationale": "ACLs filter network traffic."
+        },
+        {
+          "key": "C",
+          "text": "To translate domain names to IP addresses, enabling users to access websites by name.",
+          "is_correct": false,
+          "rationale": "That is the function of DNS."
+        },
+        {
+          "key": "D",
+          "text": "To provide wireless connectivity to network devices without the need for Ethernet cables.",
+          "is_correct": false,
+          "rationale": "ACLs do not relate to wireless connectivity."
+        },
+        {
+          "key": "E",
+          "text": "To accelerate the delivery of web content to users through caching mechanisms and optimization.",
+          "is_correct": false,
+          "rationale": "That is the function of a CDN."
+        }
+      ]
+    }
+  ]
+}

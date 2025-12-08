@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "What is the primary goal of cybersecurity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure continuous operation of all IT systems, regardless of threats.",
+          "is_correct": false,
+          "rationale": "While uptime is important, it's not the sole goal."
+        },
+        {
+          "key": "B",
+          "text": "To protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction.",
+          "is_correct": true,
+          "rationale": "This is the core definition of cybersecurity's objective."
+        },
+        {
+          "key": "C",
+          "text": "To install the newest software on all computers to prevent vulnerabilities.",
+          "is_correct": false,
+          "rationale": "New software can introduce new vulnerabilities."
+        },
+        {
+          "key": "D",
+          "text": "To make sure all employees can access every system to improve productivity.",
+          "is_correct": false,
+          "rationale": "Open access increases security risks."
+        },
+        {
+          "key": "E",
+          "text": "To only focus on external threats and ignore internal vulnerabilities.",
+          "is_correct": false,
+          "rationale": "Internal vulnerabilities are a serious concern."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is a common type of malware?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Firewall, which protects the network from unauthorized access.",
+          "is_correct": false,
+          "rationale": "A firewall is a security tool, not malware."
+        },
+        {
+          "key": "B",
+          "text": "Antivirus software, designed to detect and remove malicious software.",
+          "is_correct": false,
+          "rationale": "Antivirus software protects against malware."
+        },
+        {
+          "key": "C",
+          "text": "Ransomware, which encrypts files and demands payment for decryption.",
+          "is_correct": true,
+          "rationale": "Ransomware is a very common type of malware."
+        },
+        {
+          "key": "D",
+          "text": "Operating System, which manages computer hardware and software resources.",
+          "is_correct": false,
+          "rationale": "The operating system is the core of the computer."
+        },
+        {
+          "key": "E",
+          "text": "Router, which directs network traffic between devices.",
+          "is_correct": false,
+          "rationale": "Routers manage network traffic."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What does the acronym 'CIA' stand for in cybersecurity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Critical Information Authority, a top-level security group.",
+          "is_correct": false,
+          "rationale": "Incorrect definition of the acronym."
+        },
+        {
+          "key": "B",
+          "text": "Central Intelligence Agency, a government intelligence organization.",
+          "is_correct": false,
+          "rationale": "While true, not the context in cybersecurity."
+        },
+        {
+          "key": "C",
+          "text": "Confidentiality, Integrity, and Availability, core security principles.",
+          "is_correct": true,
+          "rationale": "This is the correct interpretation in cybersecurity."
+        },
+        {
+          "key": "D",
+          "text": "Cybersecurity Incident Analysis, the process of investigating attacks.",
+          "is_correct": false,
+          "rationale": "Incorrect definition of the acronym."
+        },
+        {
+          "key": "E",
+          "text": "Certified Information Assurance, a security certification.",
+          "is_correct": false,
+          "rationale": "Incorrect definition of the acronym."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is a 'phishing' attack?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A network attack that floods a system with traffic.",
+          "is_correct": false,
+          "rationale": "That describes a denial-of-service attack."
+        },
+        {
+          "key": "B",
+          "text": "A social engineering attack using deception to steal sensitive information.",
+          "is_correct": true,
+          "rationale": "Phishing relies on tricking users into revealing data."
+        },
+        {
+          "key": "C",
+          "text": "An attack that exploits vulnerabilities in web applications.",
+          "is_correct": false,
+          "rationale": "This is a web application attack."
+        },
+        {
+          "key": "D",
+          "text": "A method of bypassing security controls by exploiting software bugs.",
+          "is_correct": false,
+          "rationale": "This describes an exploit."
+        },
+        {
+          "key": "E",
+          "text": "A hardware failure causing data loss and system unavailability.",
+          "is_correct": false,
+          "rationale": "This describes a hardware failure."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which security measure helps protect against unauthorized access to a network?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Installing the latest video game releases on company computers.",
+          "is_correct": false,
+          "rationale": "This is unrelated to network security."
+        },
+        {
+          "key": "B",
+          "text": "Implementing a strong firewall and intrusion detection system.",
+          "is_correct": true,
+          "rationale": "Firewalls and IDS are core network security components."
+        },
+        {
+          "key": "C",
+          "text": "Leaving all network ports open for ease of access and speed.",
+          "is_correct": false,
+          "rationale": "Open ports increase vulnerability."
+        },
+        {
+          "key": "D",
+          "text": "Disabling all security logging to improve system performance.",
+          "is_correct": false,
+          "rationale": "Logging is essential for security monitoring."
+        },
+        {
+          "key": "E",
+          "text": "Sharing passwords on a public forum to improve collaboration.",
+          "is_correct": false,
+          "rationale": "Sharing passwords publicly is a serious risk."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What is the purpose of a 'firewall'?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To prevent unauthorized access to a network or computer system.",
+          "is_correct": true,
+          "rationale": "This is the primary function of a firewall."
+        },
+        {
+          "key": "B",
+          "text": "To speed up internet connection and improve browsing experience.",
+          "is_correct": false,
+          "rationale": "Firewalls do not directly improve internet speed."
+        },
+        {
+          "key": "C",
+          "text": "To automatically backup all data on a computer system.",
+          "is_correct": false,
+          "rationale": "Backups are a separate security measure."
+        },
+        {
+          "key": "D",
+          "text": "To distribute software updates to all computers on the network.",
+          "is_correct": false,
+          "rationale": "Software updates are managed separately."
+        },
+        {
+          "key": "E",
+          "text": "To provide users with free access to copyrighted material.",
+          "is_correct": false,
+          "rationale": "This is an illegal activity."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What is the first step in incident response?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Eradication: Removing the threat from the affected systems.",
+          "is_correct": false,
+          "rationale": "Eradication is a later step."
+        },
+        {
+          "key": "B",
+          "text": "Recovery: Restoring systems to normal operation.",
+          "is_correct": false,
+          "rationale": "Recovery happens after containment and eradication."
+        },
+        {
+          "key": "C",
+          "text": "Identification: Determining what happened and the scope of the incident.",
+          "is_correct": true,
+          "rationale": "Identification is the crucial first step."
+        },
+        {
+          "key": "D",
+          "text": "Containment: Isolating affected systems to prevent further damage.",
+          "is_correct": false,
+          "rationale": "Containment occurs after identification."
+        },
+        {
+          "key": "E",
+          "text": "Prevention: Implementing security measures to avoid future incidents.",
+          "is_correct": false,
+          "rationale": "Prevention is an ongoing process, not part of incident response."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Which of these is a strong password?",
+      "options": [
+        {
+          "key": "A",
+          "text": "password123, a commonly used and easily guessed password.",
+          "is_correct": false,
+          "rationale": "This is a very weak and predictable password."
+        },
+        {
+          "key": "B",
+          "text": "MyBirthdate, using personal information that is readily available.",
+          "is_correct": false,
+          "rationale": "Using personal info makes it easier to guess."
+        },
+        {
+          "key": "C",
+          "text": "A long, random string of characters including uppercase, lowercase, numbers and symbols.",
+          "is_correct": true,
+          "rationale": "This meets all the criteria for a strong password."
+        },
+        {
+          "key": "D",
+          "text": "The name of your pet, which is easy to remember.",
+          "is_correct": false,
+          "rationale": "Pet names are easily guessed."
+        },
+        {
+          "key": "E",
+          "text": "The word 'password' repeated multiple times.",
+          "is_correct": false,
+          "rationale": "Repetitive passwords are weak."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is 'two-factor authentication' (2FA)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A security process requiring two forms of identification to access an account.",
+          "is_correct": true,
+          "rationale": "This is the correct definition of 2FA."
+        },
+        {
+          "key": "B",
+          "text": "A type of firewall that uses two different security protocols.",
+          "is_correct": false,
+          "rationale": "This is not related to firewalls."
+        },
+        {
+          "key": "C",
+          "text": "A method of encrypting data using two different encryption algorithms.",
+          "is_correct": false,
+          "rationale": "This is not related to encryption methods."
+        },
+        {
+          "key": "D",
+          "text": "A system that automatically backs up data to two different locations.",
+          "is_correct": false,
+          "rationale": "This is related to data backup, not authentication."
+        },
+        {
+          "key": "E",
+          "text": "A policy requiring employees to change their passwords twice a month.",
+          "is_correct": false,
+          "rationale": "Password rotation is a separate security practice."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What is the purpose of data encryption?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To compress data to reduce storage space requirements.",
+          "is_correct": false,
+          "rationale": "Compression reduces size, not protects data."
+        },
+        {
+          "key": "B",
+          "text": "To convert data into an unreadable format to protect confidentiality.",
+          "is_correct": true,
+          "rationale": "Encryption protects data confidentiality."
+        },
+        {
+          "key": "C",
+          "text": "To automatically back up data to prevent data loss.",
+          "is_correct": false,
+          "rationale": "Backups prevent data loss, not protect confidentiality."
+        },
+        {
+          "key": "D",
+          "text": "To improve the speed of data transmission over a network.",
+          "is_correct": false,
+          "rationale": "Encryption can slightly slow down transmission."
+        },
+        {
+          "key": "E",
+          "text": "To organize data into a structured database format.",
+          "is_correct": false,
+          "rationale": "Database organization is a separate process."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is a VPN (Virtual Private Network) primarily used for?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide a secure and encrypted connection over a public network.",
+          "is_correct": true,
+          "rationale": "VPNs create secure connections."
+        },
+        {
+          "key": "B",
+          "text": "To increase the speed of internet browsing and downloads.",
+          "is_correct": false,
+          "rationale": "VPNs can sometimes decrease speed."
+        },
+        {
+          "key": "C",
+          "text": "To block all advertisements and pop-up windows on websites.",
+          "is_correct": false,
+          "rationale": "Ad blockers are a separate tool."
+        },
+        {
+          "key": "D",
+          "text": "To share files and printers between computers on a local network.",
+          "is_correct": false,
+          "rationale": "File sharing is a different function."
+        },
+        {
+          "key": "E",
+          "text": "To bypass geographic restrictions on websites and streaming services.",
+          "is_correct": false,
+          "rationale": "Bypassing restrictions is a secondary use."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "What is the purpose of regular security audits?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To identify vulnerabilities and weaknesses in a system's security posture.",
+          "is_correct": true,
+          "rationale": "Audits assess security effectiveness."
+        },
+        {
+          "key": "B",
+          "text": "To automatically fix any security problems that are identified.",
+          "is_correct": false,
+          "rationale": "Audits identify problems, not fix them."
+        },
+        {
+          "key": "C",
+          "text": "To install the latest software updates on all computers.",
+          "is_correct": false,
+          "rationale": "Software updates are a separate process."
+        },
+        {
+          "key": "D",
+          "text": "To provide employees with training on how to use new software.",
+          "is_correct": false,
+          "rationale": "Training is a separate activity."
+        },
+        {
+          "key": "E",
+          "text": "To guarantee complete protection against all cyber threats.",
+          "is_correct": false,
+          "rationale": "No system can guarantee complete protection."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is 'social engineering' in the context of cybersecurity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using technical skills to bypass security measures.",
+          "is_correct": false,
+          "rationale": "This describes hacking, not social engineering."
+        },
+        {
+          "key": "B",
+          "text": "Manipulating individuals to gain access to systems or information.",
+          "is_correct": true,
+          "rationale": "Social engineering exploits human trust."
+        },
+        {
+          "key": "C",
+          "text": "Developing new software applications for security purposes.",
+          "is_correct": false,
+          "rationale": "This describes software development."
+        },
+        {
+          "key": "D",
+          "text": "Designing and implementing secure network infrastructure.",
+          "is_correct": false,
+          "rationale": "This describes network engineering."
+        },
+        {
+          "key": "E",
+          "text": "Analyzing data to identify security threats and vulnerabilities.",
+          "is_correct": false,
+          "rationale": "This describes security analysis."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What is the primary function of an Intrusion Detection System (IDS)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To prevent all network intrusions before they occur automatically.",
+          "is_correct": false,
+          "rationale": "IDS detects, but does not prevent, intrusions."
+        },
+        {
+          "key": "B",
+          "text": "To monitor network traffic for suspicious activity and alert administrators.",
+          "is_correct": true,
+          "rationale": "IDS detects and alerts."
+        },
+        {
+          "key": "C",
+          "text": "To encrypt all data transmitted over a network to protect confidentiality.",
+          "is_correct": false,
+          "rationale": "Encryption protects data, not detects intrusions."
+        },
+        {
+          "key": "D",
+          "text": "To automatically back up all data on a network to prevent data loss.",
+          "is_correct": false,
+          "rationale": "Backups prevent data loss, not detect intrusions."
+        },
+        {
+          "key": "E",
+          "text": "To provide users with access to restricted websites and services.",
+          "is_correct": false,
+          "rationale": "This is not a function of an IDS."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is a 'denial-of-service' (DoS) attack?",
+      "options": [
+        {
+          "key": "A",
+          "text": "An attempt to make a computer resource unavailable to its intended users.",
+          "is_correct": true,
+          "rationale": "DoS attacks disrupt service availability."
+        },
+        {
+          "key": "B",
+          "text": "An attempt to gain unauthorized access to a computer system.",
+          "is_correct": false,
+          "rationale": "This describes unauthorized access."
+        },
+        {
+          "key": "C",
+          "text": "An attempt to steal sensitive information from a database.",
+          "is_correct": false,
+          "rationale": "This describes data theft."
+        },
+        {
+          "key": "D",
+          "text": "An attempt to spread malware to other computers on a network.",
+          "is_correct": false,
+          "rationale": "This describes malware propagation."
+        },
+        {
+          "key": "E",
+          "text": "An attempt to physically damage a computer system.",
+          "is_correct": false,
+          "rationale": "This describes physical damage."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What is the purpose of a 'vulnerability scan'?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To exploit vulnerabilities in a system to gain unauthorized access.",
+          "is_correct": false,
+          "rationale": "This describes penetration testing."
+        },
+        {
+          "key": "B",
+          "text": "To identify potential security weaknesses in a system or network.",
+          "is_correct": true,
+          "rationale": "Vulnerability scans identify weaknesses."
+        },
+        {
+          "key": "C",
+          "text": "To automatically patch all known vulnerabilities in a system.",
+          "is_correct": false,
+          "rationale": "Patching is a separate process."
+        },
+        {
+          "key": "D",
+          "text": "To encrypt all data stored on a computer system.",
+          "is_correct": false,
+          "rationale": "Encryption protects data, not identifies vulnerabilities."
+        },
+        {
+          "key": "E",
+          "text": "To prevent all malware from infecting a computer system.",
+          "is_correct": false,
+          "rationale": "Antivirus software prevents malware."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is a best practice for data security?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Storing all sensitive data in a publicly accessible cloud storage.",
+          "is_correct": false,
+          "rationale": "Public storage exposes sensitive data."
+        },
+        {
+          "key": "B",
+          "text": "Using default passwords for all systems and applications.",
+          "is_correct": false,
+          "rationale": "Default passwords are a major security risk."
+        },
+        {
+          "key": "C",
+          "text": "Regularly backing up data and storing backups in a secure location.",
+          "is_correct": true,
+          "rationale": "Backups protect against data loss and corruption."
+        },
+        {
+          "key": "D",
+          "text": "Disabling all security logging to improve system performance.",
+          "is_correct": false,
+          "rationale": "Logging is essential for security monitoring."
+        },
+        {
+          "key": "E",
+          "text": "Sharing passwords with coworkers for easy access.",
+          "is_correct": false,
+          "rationale": "Sharing passwords is a security risk."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is a 'zero-day' exploit?",
+      "options": [
+        {
+          "key": "A",
+          "text": "An exploit that is used for only one day before being detected.",
+          "is_correct": false,
+          "rationale": "The 'day' refers to awareness, not usage."
+        },
+        {
+          "key": "B",
+          "text": "An exploit for a vulnerability that is unknown to the software vendor.",
+          "is_correct": true,
+          "rationale": "Zero-day exploits are dangerous because no patch exists."
+        },
+        {
+          "key": "C",
+          "text": "An exploit that requires zero privileges to execute.",
+          "is_correct": false,
+          "rationale": "Privilege escalation is a separate concept."
+        },
+        {
+          "key": "D",
+          "text": "An exploit that is effective for zero days due to immediate patching.",
+          "is_correct": false,
+          "rationale": "Exploits are effective until patched."
+        },
+        {
+          "key": "E",
+          "text": "An exploit that is only effective against outdated software from the 1990s.",
+          "is_correct": false,
+          "rationale": "Zero-days can affect modern software."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is the purpose of data loss prevention (DLP) systems?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To prevent data from being lost, stolen, or misused by unauthorized users.",
+          "is_correct": true,
+          "rationale": "DLP systems protect sensitive data."
+        },
+        {
+          "key": "B",
+          "text": "To speed up data transfer rates over a network.",
+          "is_correct": false,
+          "rationale": "DLP does not improve transfer rates."
+        },
+        {
+          "key": "C",
+          "text": "To automatically defragment hard drives to improve performance.",
+          "is_correct": false,
+          "rationale": "Defragmentation improves drive performance."
+        },
+        {
+          "key": "D",
+          "text": "To provide users with unlimited cloud storage space.",
+          "is_correct": false,
+          "rationale": "Cloud storage is a separate service."
+        },
+        {
+          "key": "E",
+          "text": "To completely eliminate the risk of data breaches.",
+          "is_correct": false,
+          "rationale": "No system can eliminate all risk."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What is the 'principle of least privilege'?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Granting all users full access to all systems for maximum productivity.",
+          "is_correct": false,
+          "rationale": "Full access increases security risks."
+        },
+        {
+          "key": "B",
+          "text": "Granting users only the minimum level of access necessary to perform their job functions.",
+          "is_correct": true,
+          "rationale": "Least privilege minimizes potential damage."
+        },
+        {
+          "key": "C",
+          "text": "Denying all users access to all systems for maximum security.",
+          "is_correct": false,
+          "rationale": "This would prevent users from doing their jobs."
+        },
+        {
+          "key": "D",
+          "text": "Regularly changing user passwords to prevent unauthorized access.",
+          "is_correct": false,
+          "rationale": "Password rotation is a separate security practice."
+        },
+        {
+          "key": "E",
+          "text": "Sharing user accounts to reduce administrative overhead.",
+          "is_correct": false,
+          "rationale": "Account sharing is a security risk."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "What is the primary purpose of the `viewDidLoad` method in a UIViewController, and when is it called during the view controller lifecycle?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To handle user interactions such as button presses; interactions are managed by action methods or gesture recognizers.",
+          "is_correct": false,
+          "rationale": "User interactions are handled by action methods."
+        },
+        {
+          "key": "B",
+          "text": "To initialize the view controller's view after it's loaded into memory, typically from a storyboard or nib file.",
+          "is_correct": true,
+          "rationale": "viewDidLoad is called after the view is loaded."
+        },
+        {
+          "key": "C",
+          "text": "To deallocate resources and clean up memory when the view controller is no longer needed by the application.",
+          "is_correct": false,
+          "rationale": "Deallocation is handled by `deinit` or ARC."
+        },
+        {
+          "key": "D",
+          "text": "To manage the layout and appearance of the view controller's view and its subviews within the application.",
+          "is_correct": false,
+          "rationale": "Layout is handled by Auto Layout or frames."
+        },
+        {
+          "key": "E",
+          "text": "To present another view controller modally on top of the current one, creating a layered user interface.",
+          "is_correct": false,
+          "rationale": "Presentation is handled by the `present` method."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the main purpose of using Grand Central Dispatch (GCD) in iOS development, and how does it improve app performance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage and synchronize access to shared resources across multiple threads, preventing data corruption and race conditions.",
+          "is_correct": false,
+          "rationale": "GCD helps with concurrency, not resource synchronization."
+        },
+        {
+          "key": "B",
+          "text": "To perform time-consuming tasks in the background without blocking the main thread, ensuring a responsive user interface.",
+          "is_correct": true,
+          "rationale": "GCD offloads tasks to background queues."
+        },
+        {
+          "key": "C",
+          "text": "To create custom animations and visual effects for UI elements, enhancing the user experience with smooth transitions.",
+          "is_correct": false,
+          "rationale": "Animations are handled by Core Animation."
+        },
+        {
+          "key": "D",
+          "text": "To handle network requests and data parsing in a synchronous manner, simplifying data retrieval from remote servers.",
+          "is_correct": false,
+          "rationale": "GCD promotes asynchronous network operations."
+        },
+        {
+          "key": "E",
+          "text": "To manage the application's lifecycle events, such as app launch and termination, ensuring proper resource allocation.",
+          "is_correct": false,
+          "rationale": "AppDelegate handles lifecycle events."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What role does Auto Layout play in iOS development, and how does it help in creating user interfaces that adapt to different devices?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Auto Layout is primarily used for creating animations and transitions between different view states within the application.",
+          "is_correct": false,
+          "rationale": "Animations use Core Animation or UIView animations."
+        },
+        {
+          "key": "B",
+          "text": "Auto Layout defines rules for positioning and sizing views, allowing UIs to adapt to various screen sizes and orientations.",
+          "is_correct": true,
+          "rationale": "Auto Layout uses constraints between views."
+        },
+        {
+          "key": "C",
+          "text": "Auto Layout is a debugging tool for identifying memory leaks and performance bottlenecks in iOS applications.",
+          "is_correct": false,
+          "rationale": "Instruments debugs memory leaks."
+        },
+        {
+          "key": "D",
+          "text": "Auto Layout is responsible for managing the application's data model and ensuring data persistence across sessions.",
+          "is_correct": false,
+          "rationale": "Core Data manages the data model."
+        },
+        {
+          "key": "E",
+          "text": "Auto Layout is used for handling user input events, such as touch gestures and keyboard interactions within the application.",
+          "is_correct": false,
+          "rationale": "Gesture recognizers handle user input."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What are the key differences between strong and weak references in Swift, and when should each type of reference be used in practice?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Strong references are typically used for UI elements, while weak references are generally preferred for data model objects.",
+          "is_correct": false,
+          "rationale": "Ownership, not UI vs. data, determines the choice."
+        },
+        {
+          "key": "B",
+          "text": "Strong references increment the reference count, preventing deallocation, while weak references do not, thus avoiding retain cycles.",
+          "is_correct": true,
+          "rationale": "This is the core difference in memory management."
+        },
+        {
+          "key": "C",
+          "text": "Strong references offer faster performance but are less safe, whereas weak references are slower but provide greater safety.",
+          "is_correct": false,
+          "rationale": "Memory management, not speed, is key."
+        },
+        {
+          "key": "D",
+          "text": "Strong references are used exclusively for optional types, while weak references are reserved for non-optional types in Swift.",
+          "is_correct": false,
+          "rationale": "Optionality is separate from reference strength."
+        },
+        {
+          "key": "E",
+          "text": "Strong references are primarily used in Objective-C, while weak references are the standard in modern Swift development.",
+          "is_correct": false,
+          "rationale": "Both are used in Swift and Objective-C."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Explain the core concept of Protocol-Oriented Programming (POP) in Swift, highlighting its benefits over traditional Object-Oriented Programming (OOP).",
+      "options": [
+        {
+          "key": "A",
+          "text": "POP places a strong emphasis on inheritance, while OOP focuses more on composition and code reusability techniques.",
+          "is_correct": false,
+          "rationale": "OOP uses inheritance; POP uses composition."
+        },
+        {
+          "key": "B",
+          "text": "POP enables value types to conform to protocols, promoting code reusability and avoiding many common inheritance-related issues.",
+          "is_correct": true,
+          "rationale": "POP allows structs and enums to adopt protocols."
+        },
+        {
+          "key": "C",
+          "text": "POP is mainly used for designing user interfaces, while OOP is typically used for implementing the application's data model.",
+          "is_correct": false,
+          "rationale": "POP and OOP apply across domains."
+        },
+        {
+          "key": "D",
+          "text": "POP is applicable only to classes, whereas OOP can be used effectively with structs and enums in Swift development.",
+          "is_correct": false,
+          "rationale": "POP is useful with value types."
+        },
+        {
+          "key": "E",
+          "text": "POP is now considered a deprecated paradigm, with OOP being the preferred approach in modern Swift application development.",
+          "is_correct": false,
+          "rationale": "POP is a core part of modern Swift."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What are the primary benefits of using Core Data in an iOS application for managing data persistence, and when should it be preferred?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Core Data is ideally suited for storing large binary files, such as high-resolution images and videos, directly within the database.",
+          "is_correct": false,
+          "rationale": "Core Data is inefficient for large binaries."
+        },
+        {
+          "key": "B",
+          "text": "Core Data offers built-in support for data validation, relationship management, and change tracking, simplifying data management tasks.",
+          "is_correct": true,
+          "rationale": "Core Data offers validation and relationships."
+        },
+        {
+          "key": "C",
+          "text": "Core Data serves as a lightweight alternative to UserDefaults for storing simple key-value pairs in an iOS application.",
+          "is_correct": false,
+          "rationale": "UserDefaults suits key-value storage better."
+        },
+        {
+          "key": "D",
+          "text": "Core Data automatically synchronizes data with iCloud, ensuring data consistency across multiple devices seamlessly.",
+          "is_correct": false,
+          "rationale": "iCloud sync needs extra setup."
+        },
+        {
+          "key": "E",
+          "text": "Core Data is a cloud-based database solution, allowing you to store and access your application's data from any location.",
+          "is_correct": false,
+          "rationale": "Core Data is a local persistence framework."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Explain the concept of dependency injection (DI) and its advantages in iOS development, particularly in terms of testability and maintainability.",
+      "options": [
+        {
+          "key": "A",
+          "text": "DI is a technique for injecting code directly into the kernel of the operating system to modify system-level behavior.",
+          "is_correct": false,
+          "rationale": "DI operates at the application level."
+        },
+        {
+          "key": "B",
+          "text": "DI is a design pattern where dependencies are provided to a component, rather than created internally, improving testability and modularity.",
+          "is_correct": true,
+          "rationale": "DI promotes loose coupling and testability."
+        },
+        {
+          "key": "C",
+          "text": "DI is a tool for automatically generating documentation for your code, streamlining the documentation process.",
+          "is_correct": false,
+          "rationale": "Documentation generation is separate."
+        },
+        {
+          "key": "D",
+          "text": "DI is a method for optimizing the performance of your application by reducing memory usage and improving execution speed.",
+          "is_correct": false,
+          "rationale": "DI improves code structure, not performance."
+        },
+        {
+          "key": "E",
+          "text": "DI is a technique for encrypting sensitive data stored in your application, enhancing the security of user information.",
+          "is_correct": false,
+          "rationale": "Encryption is a separate security concern."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What is the purpose of using storyboards and XIB files in iOS development, and what are the primary limitations associated with their use?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Storyboards and XIB files are used for defining the data model of your application, including entities and relationships.",
+          "is_correct": false,
+          "rationale": "Storyboards/XIBs define UI, not data models."
+        },
+        {
+          "key": "B",
+          "text": "Storyboards and XIB files are visual tools for designing user interfaces, but can become complex and difficult to manage in large projects.",
+          "is_correct": true,
+          "rationale": "Visual design is their strength, but complexity is a limitation."
+        },
+        {
+          "key": "C",
+          "text": "Storyboards and XIB files are used for writing unit tests for your application's logic and functionality.",
+          "is_correct": false,
+          "rationale": "Unit tests are written in code."
+        },
+        {
+          "key": "D",
+          "text": "Storyboards and XIB files are used for managing the application's network requests and data parsing operations.",
+          "is_correct": false,
+          "rationale": "Networking/parsing are handled in code."
+        },
+        {
+          "key": "E",
+          "text": "Storyboards and XIB files are used for defining custom animations and visual effects within the application's user interface.",
+          "is_correct": false,
+          "rationale": "Animations use Core Animation."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Explain the concept of closures in Swift, including how they capture values from their surrounding context and the implications of escaping closures.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Closures are exclusively used for handling asynchronous operations and managing network requests in Swift applications.",
+          "is_correct": false,
+          "rationale": "Closures are more versatile than just async."
+        },
+        {
+          "key": "B",
+          "text": "Closures are self-contained blocks of code that can capture and store values from their context; escaping closures execute after the function returns.",
+          "is_correct": true,
+          "rationale": "Accurately describes closures and escaping."
+        },
+        {
+          "key": "C",
+          "text": "Closures are primarily used for defining the user interface layout of your application, specifying the position of UI elements.",
+          "is_correct": false,
+          "rationale": "UI layout uses Auto Layout."
+        },
+        {
+          "key": "D",
+          "text": "Closures are a type of data structure used for storing collections of data, functioning similarly to arrays and dictionaries.",
+          "is_correct": false,
+          "rationale": "Closures are code blocks, not data structures."
+        },
+        {
+          "key": "E",
+          "text": "Closures are a feature of Objective-C but are not supported or used in Swift programming.",
+          "is_correct": false,
+          "rationale": "Closures are fundamental to Swift."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What are the key differences between using `UITableView` and `UICollectionView` for displaying data in a list format within an iOS application?",
+      "options": [
+        {
+          "key": "A",
+          "text": "`UITableView` is designed for displaying data in a grid format, while `UICollectionView` is for displaying data in a list format.",
+          "is_correct": false,
+          "rationale": "Roles are reversed."
+        },
+        {
+          "key": "B",
+          "text": "`UITableView` is designed for single-column lists, while `UICollectionView` supports flexible layouts, including grids and custom arrangements.",
+          "is_correct": true,
+          "rationale": "This is the core difference."
+        },
+        {
+          "key": "C",
+          "text": "`UITableView` is generally more efficient for displaying very large datasets compared to `UICollectionView` in iOS.",
+          "is_correct": false,
+          "rationale": "Efficiency depends on implementation."
+        },
+        {
+          "key": "D",
+          "text": "`UITableView` is exclusively available on iOS, while `UICollectionView` is available on both iOS and macOS platforms.",
+          "is_correct": false,
+          "rationale": "Both are primarily iOS components."
+        },
+        {
+          "key": "E",
+          "text": "`UITableView` primarily uses a delegate pattern, while `UICollectionView` relies on a data source pattern for data management.",
+          "is_correct": false,
+          "rationale": "Both use delegate and data source."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Explain the concept of the Combine framework in Swift and how it is used for handling asynchronous events and data streams effectively.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Combine is a framework specifically designed for creating custom UI elements and animations in iOS applications.",
+          "is_correct": false,
+          "rationale": "Combine handles asynchronous events, not UI."
+        },
+        {
+          "key": "B",
+          "text": "Combine is a declarative framework for processing values over time, simplifying asynchronous programming with publishers and subscribers.",
+          "is_correct": true,
+          "rationale": "Accurately describes Combine's purpose."
+        },
+        {
+          "key": "C",
+          "text": "Combine is primarily used for managing the application's data model and ensuring data persistence across sessions.",
+          "is_correct": false,
+          "rationale": "Data persistence uses Core Data."
+        },
+        {
+          "key": "D",
+          "text": "Combine is a tool for debugging memory leaks and identifying performance issues within your application.",
+          "is_correct": false,
+          "rationale": "Debugging tools are separate."
+        },
+        {
+          "key": "E",
+          "text": "Combine is a separate programming language, similar to Swift, used for cross-platform application development.",
+          "is_correct": false,
+          "rationale": "Combine is a framework, not a language."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "What is the purpose of using the `Codable` protocol in Swift, and how does it simplify the process of data serialization and deserialization?",
+      "options": [
+        {
+          "key": "A",
+          "text": "`Codable` is used for defining the user interface layout of your application, specifying the arrangement of UI elements.",
+          "is_correct": false,
+          "rationale": "Codable serializes data, not UI layout."
+        },
+        {
+          "key": "B",
+          "text": "`Codable` enables automatic conversion between Swift data types and external formats like JSON, simplifying data encoding and decoding.",
+          "is_correct": true,
+          "rationale": "Accurately describes Codable's purpose."
+        },
+        {
+          "key": "C",
+          "text": "`Codable` is used for managing the application's network requests and handling data parsing from remote servers.",
+          "is_correct": false,
+          "rationale": "Networking uses Codable, but it's not its function."
+        },
+        {
+          "key": "D",
+          "text": "`Codable` is a tool for automatically generating documentation for your code, streamlining the documentation process.",
+          "is_correct": false,
+          "rationale": "Documentation generation is separate."
+        },
+        {
+          "key": "E",
+          "text": "`Codable` is a security feature for encrypting sensitive data stored within your application to protect user information.",
+          "is_correct": false,
+          "rationale": "Encryption is a separate concern."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Explain the concept of the MVVM (Model-View-ViewModel) architecture and its key benefits in the context of iOS application development.",
+      "options": [
+        {
+          "key": "A",
+          "text": "MVVM is primarily a UI design pattern focused on creating visually appealing and user-friendly interfaces in iOS.",
+          "is_correct": false,
+          "rationale": "MVVM focuses on architecture, not just UI."
+        },
+        {
+          "key": "B",
+          "text": "MVVM separates the data, UI, and logic into distinct components, improving testability, maintainability, and code reusability significantly.",
+          "is_correct": true,
+          "rationale": "Accurately describes MVVM's separation."
+        },
+        {
+          "key": "C",
+          "text": "MVVM is a database management system used for storing and retrieving data within your iOS application.",
+          "is_correct": false,
+          "rationale": "Database management is separate."
+        },
+        {
+          "key": "D",
+          "text": "MVVM is a tool for automatically generating code for your application, reducing the amount of manual coding required.",
+          "is_correct": false,
+          "rationale": "MVVM is an architectural pattern."
+        },
+        {
+          "key": "E",
+          "text": "MVVM is now considered a deprecated architecture pattern and has been replaced by SwiftUI in modern iOS development.",
+          "is_correct": false,
+          "rationale": "MVVM is still widely used."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What are the key differences between using `UserDefaults` and `Keychain` for storing data in iOS, especially regarding security and data type?",
+      "options": [
+        {
+          "key": "A",
+          "text": "`UserDefaults` is designed for storing sensitive data, while `Keychain` is intended for storing non-sensitive data in iOS.",
+          "is_correct": false,
+          "rationale": "The opposite is true."
+        },
+        {
+          "key": "B",
+          "text": "`UserDefaults` is for storing simple preferences, while `Keychain` is for securely storing sensitive information like passwords and certificates.",
+          "is_correct": true,
+          "rationale": "Accurately describes their uses."
+        },
+        {
+          "key": "C",
+          "text": "`UserDefaults` is exclusively available on iOS, while `Keychain` is available on both iOS and macOS operating systems.",
+          "is_correct": false,
+          "rationale": "Both are available on iOS and macOS."
+        },
+        {
+          "key": "D",
+          "text": "`UserDefaults` is a cloud-based storage solution, while `Keychain` is a local storage solution on iOS devices.",
+          "is_correct": false,
+          "rationale": "Both are local storage."
+        },
+        {
+          "key": "E",
+          "text": "`UserDefaults` offers faster read and write performance compared to `Keychain` for data access in iOS applications.",
+          "is_correct": false,
+          "rationale": "Security is the primary consideration."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Explain the concept of SwiftUI and its benefits compared to UIKit for building user interfaces in iOS and other Apple platforms.",
+      "options": [
+        {
+          "key": "A",
+          "text": "SwiftUI is an imperative UI framework, while UIKit is a declarative UI framework for building user interfaces.",
+          "is_correct": false,
+          "rationale": "SwiftUI is declarative; UIKit is imperative."
+        },
+        {
+          "key": "B",
+          "text": "SwiftUI is a declarative UI framework offering concise syntax, live previews, and cross-platform compatibility compared to UIKit.",
+          "is_correct": true,
+          "rationale": "Accurately describes SwiftUI's benefits."
+        },
+        {
+          "key": "C",
+          "text": "SwiftUI is a low-level graphics framework, while UIKit is a high-level UI framework for iOS development.",
+          "is_correct": false,
+          "rationale": "Both are high-level UI frameworks."
+        },
+        {
+          "key": "D",
+          "text": "SwiftUI is only compatible with Objective-C, while UIKit is exclusively compatible with Swift for iOS development.",
+          "is_correct": false,
+          "rationale": "Both are used with Swift."
+        },
+        {
+          "key": "E",
+          "text": "SwiftUI is a deprecated framework, with UIKit being the preferred approach for modern iOS application development.",
+          "is_correct": false,
+          "rationale": "SwiftUI is the modern approach."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What is the purpose of the `defer` statement in Swift, and how can it be used effectively for resource management and cleanup operations?",
+      "options": [
+        {
+          "key": "A",
+          "text": "`defer` is used to define a constant value that cannot be changed after its initial assignment in Swift code.",
+          "is_correct": false,
+          "rationale": "That's the purpose of `let`."
+        },
+        {
+          "key": "B",
+          "text": "`defer` executes a block of code when the current scope is exited, ensuring cleanup actions are performed regardless of exit path.",
+          "is_correct": true,
+          "rationale": "Accurately describes `defer`'s function."
+        },
+        {
+          "key": "C",
+          "text": "`defer` is used to create a new thread for executing code concurrently in a Swift application.",
+          "is_correct": false,
+          "rationale": "GCD handles concurrency."
+        },
+        {
+          "key": "D",
+          "text": "`defer` is used to handle exceptions and errors that occur during code execution in Swift.",
+          "is_correct": false,
+          "rationale": "`do-catch` handles errors."
+        },
+        {
+          "key": "E",
+          "text": "`defer` is a feature available in Objective-C but is not supported or used in Swift programming language.",
+          "is_correct": false,
+          "rationale": "`defer` is a Swift feature."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Explain the concept of property observers (`willSet` and `didSet`) in Swift and describe common use cases for these observers in practice.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Property observers are used for defining the user interface layout of your application, specifying the position of UI elements.",
+          "is_correct": false,
+          "rationale": "Observers observe property changes, not UI."
+        },
+        {
+          "key": "B",
+          "text": "Property observers allow you to execute code before and after a property's value is set, enabling you to react to changes.",
+          "is_correct": true,
+          "rationale": "Accurately describes property observers."
+        },
+        {
+          "key": "C",
+          "text": "Property observers are used for managing the application's network requests and handling data parsing from remote servers.",
+          "is_correct": false,
+          "rationale": "Networking is separate."
+        },
+        {
+          "key": "D",
+          "text": "Property observers are a tool for automatically generating documentation for your code, streamlining the documentation process.",
+          "is_correct": false,
+          "rationale": "Documentation is separate."
+        },
+        {
+          "key": "E",
+          "text": "Property observers are a security feature for encrypting sensitive data stored within your application to protect user information.",
+          "is_correct": false,
+          "rationale": "Encryption is separate."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What are the key advantages of using Swift Package Manager (SPM) for managing dependencies in iOS projects, and how does it compare?",
+      "options": [
+        {
+          "key": "A",
+          "text": "SPM is a cloud-based service for storing and sharing your application's source code and related assets.",
+          "is_correct": false,
+          "rationale": "SPM manages dependencies, not code storage."
+        },
+        {
+          "key": "B",
+          "text": "SPM is integrated directly into Xcode, simplifying dependency management and reducing reliance on external tools like CocoaPods.",
+          "is_correct": true,
+          "rationale": "Accurately describes SPM's benefits."
+        },
+        {
+          "key": "C",
+          "text": "SPM is used for managing the application's user interface layout and design, specifying the arrangement of UI elements.",
+          "is_correct": false,
+          "rationale": "SPM manages dependencies, not UI."
+        },
+        {
+          "key": "D",
+          "text": "SPM is a tool for automatically generating code for your application, reducing the amount of manual coding required.",
+          "is_correct": false,
+          "rationale": "SPM is not a code generator."
+        },
+        {
+          "key": "E",
+          "text": "SPM is considered a deprecated dependency manager, with CocoaPods being the preferred approach for modern iOS development.",
+          "is_correct": false,
+          "rationale": "SPM is the modern dependency manager."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Explain the concept of generics in Swift and their benefits for writing reusable and type-safe code, providing examples of their usage.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Generics are used for defining the user interface layout of your application, specifying the position of UI elements.",
+          "is_correct": false,
+          "rationale": "Generics are for code reusability, not UI."
+        },
+        {
+          "key": "B",
+          "text": "Generics allow you to write functions and data types that can work with any type, providing type safety and reusability.",
+          "is_correct": true,
+          "rationale": "Accurately describes generics."
+        },
+        {
+          "key": "C",
+          "text": "Generics are used for managing the application's network requests and handling data parsing from remote servers.",
+          "is_correct": false,
+          "rationale": "Networking is separate."
+        },
+        {
+          "key": "D",
+          "text": "Generics are a tool for automatically generating documentation for your code, streamlining the documentation process.",
+          "is_correct": false,
+          "rationale": "Documentation is separate."
+        },
+        {
+          "key": "E",
+          "text": "Generics are a security feature for encrypting sensitive data stored within your application to protect user information.",
+          "is_correct": false,
+          "rationale": "Encryption is separate."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What is the purpose of UI testing in iOS development, and how does it help ensure the overall quality and reliability of the application?",
+      "options": [
+        {
+          "key": "A",
+          "text": "UI testing is used for measuring the performance of your application and identifying potential performance bottlenecks.",
+          "is_correct": false,
+          "rationale": "Performance testing is separate."
+        },
+        {
+          "key": "B",
+          "text": "UI testing simulates user interactions, verifying that UI elements function correctly and the application behaves as expected.",
+          "is_correct": true,
+          "rationale": "Accurately describes UI testing."
+        },
+        {
+          "key": "C",
+          "text": "UI testing is used for managing the application's data model and ensuring data persistence across sessions.",
+          "is_correct": false,
+          "rationale": "Data management is separate."
+        },
+        {
+          "key": "D",
+          "text": "UI testing is a tool for automatically generating code for your application, reducing the amount of manual coding required.",
+          "is_correct": false,
+          "rationale": "UI testing is not a code generator."
+        },
+        {
+          "key": "E",
+          "text": "UI testing is a deprecated testing method, with unit testing being the preferred approach for modern iOS development.",
+          "is_correct": false,
+          "rationale": "Both UI and unit testing are important."
+        }
+      ]
+    }
+  ]
+}

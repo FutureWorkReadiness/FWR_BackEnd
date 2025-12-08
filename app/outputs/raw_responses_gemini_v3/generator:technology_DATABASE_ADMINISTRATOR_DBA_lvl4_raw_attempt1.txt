@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "When diagnosing severe latch contention in a high-concurrency OLTP system, which approach provides the most granular insight into the specific code paths causing waits?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Analyzing Automatic Workload Repository (AWR) reports to identify top SQL statements by elapsed time, which is a common starting point.",
+          "is_correct": false,
+          "rationale": "AWR reports are useful but often too high-level for specific latch contention, showing symptoms rather than root causes in code."
+        },
+        {
+          "key": "B",
+          "text": "Increasing the database buffer cache size to reduce physical I/O operations, which can sometimes alleviate related performance issues.",
+          "is_correct": false,
+          "rationale": "While beneficial for I/O, increasing the buffer cache does not directly address the CPU-bound issue of latch contention."
+        },
+        {
+          "key": "C",
+          "text": "Implementing table partitioning on the most frequently accessed tables to distribute the I/O load more evenly across different data files.",
+          "is_correct": false,
+          "rationale": "Partitioning helps with I/O and pruning but doesn't resolve contention on shared memory structures, which is the core of latching."
+        },
+        {
+          "key": "D",
+          "text": "Using dynamic performance views (e.g., V$LATCH_CHILDREN) to see latch statistics, which helps identify the specific latches under pressure.",
+          "is_correct": false,
+          "rationale": "This identifies the contended latch but not the specific session or code path responsible for causing the contention."
+        },
+        {
+          "key": "E",
+          "text": "Profiling sessions using extended SQL trace (event 10046) at level 8 or 12 to capture detailed wait event information.",
+          "is_correct": true,
+          "rationale": "Extended SQL tracing provides session-level detail on waits, binds, and execution plans, pinpointing the exact cause of latch contention."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the primary advantage of sharding a database architecture compared to vertically scaling a single monolithic database instance for a rapidly growing application?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It simplifies the application logic by allowing all data to be accessed from a single, unified database connection endpoint.",
+          "is_correct": false,
+          "rationale": "Sharding complicates application logic, as the app must be aware of the sharding key and route queries to the correct shard."
+        },
+        {
+          "key": "B",
+          "text": "It enables horizontal scaling, allowing for near-limitless write throughput by distributing the data and load across multiple independent servers.",
+          "is_correct": true,
+          "rationale": "Horizontal scaling is the core benefit of sharding, overcoming the physical limitations of a single, vertically scaled server."
+        },
+        {
+          "key": "C",
+          "text": "It guarantees stronger ACID compliance for transactions that span across multiple different data partitions or database nodes.",
+          "is_correct": false,
+          "rationale": "Cross-shard transactions are complex and often require two-phase commits or relaxed consistency, making ACID guarantees harder to maintain."
+        },
+        {
+          "key": "D",
+          "text": "It significantly reduces the overall complexity of database backup and disaster recovery procedures by isolating failures to smaller nodes.",
+          "is_correct": false,
+          "rationale": "Backup and recovery become more complex, requiring coordination across all shards to ensure a consistent point-in-time restoration."
+        },
+        {
+          "key": "E",
+          "text": "It lowers operational costs by centralizing all database administration tasks onto a single, powerful management server instance.",
+          "is_correct": false,
+          "rationale": "Operational overhead increases due to the need to manage, monitor, and maintain a distributed fleet of database servers."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "When designing a high-availability solution, what is the key trade-off between synchronous and asynchronous replication for disaster recovery purposes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Synchronous replication offers lower network bandwidth requirements because it only sends committed transaction data to the secondary site.",
+          "is_correct": false,
+          "rationale": "Synchronous replication often has higher bandwidth needs and is more sensitive to network latency than asynchronous methods."
+        },
+        {
+          "key": "B",
+          "text": "Asynchronous replication provides a zero Recovery Point Objective (RPO), ensuring no data loss occurs during a failover event.",
+          "is_correct": false,
+          "rationale": "Asynchronous replication inherently has a non-zero RPO, as there is a lag between the primary and secondary, risking data loss."
+        },
+        {
+          "key": "C",
+          "text": "Synchronous replication guarantees zero data loss (RPO=0) at the cost of increased transaction latency on the primary database.",
+          "is_correct": true,
+          "rationale": "The primary must wait for acknowledgment from the secondary, which adds latency but ensures the transaction is hardened in two places."
+        },
+        {
+          "key": "D",
+          "text": "Asynchronous replication is simpler to configure and manage because it eliminates the need for a dedicated high-speed network link.",
+          "is_correct": false,
+          "rationale": "While more tolerant of latency, it still requires a reliable network; configuration complexity is similar to synchronous setups."
+        },
+        {
+          "key": "E",
+          "text": "Synchronous replication allows the secondary database to be used for read-only queries without any replication lag or stale data.",
+          "is_correct": false,
+          "rationale": "While data is up-to-date, the secondary may not be readable depending on the technology (e.g., physical standby)."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "You are tasked with securing a database containing sensitive PII. Which strategy provides the strongest protection against a compromised storage administrator accessing raw data files?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Implementing column-level encryption within the application layer before data is written to the database for maximum control.",
+          "is_correct": false,
+          "rationale": "Application-level encryption can be effective but doesn't protect metadata or other unencrypted data within the same data files."
+        },
+        {
+          "key": "B",
+          "text": "Enforcing strict database-level access controls using granular roles and privileges to prevent unauthorized SQL queries from running.",
+          "is_correct": false,
+          "rationale": "This protects against unauthorized database users, but not an administrator with access to the underlying OS and data files."
+        },
+        {
+          "key": "C",
+          "text": "Utilizing Transparent Data Encryption (TDE) with the master key stored in an external Hardware Security Module (HSM).",
+          "is_correct": true,
+          "rationale": "TDE encrypts data at rest, and an external HSM prevents even a root/storage admin from accessing the keys needed for decryption."
+        },
+        {
+          "key": "D",
+          "text": "Regularly auditing all database access patterns and generating alerts for any suspicious or anomalous query activities detected.",
+          "is_correct": false,
+          "rationale": "Auditing is a detective control, not a preventative one. It reports on a breach after it has already occurred."
+        },
+        {
+          "key": "E",
+          "text": "Placing the database server in a physically secure data center with multi-factor authentication required for physical server access.",
+          "is_correct": false,
+          "rationale": "Physical security is important but does not protect against a legitimate, but malicious, administrator accessing files remotely."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "A critical query's execution plan suddenly changes for the worse after statistics are updated. What is the most effective immediate action to restore performance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately rebuild all indexes on the tables involved in the query to ensure they are not fragmented or corrupted.",
+          "is_correct": false,
+          "rationale": "Index rebuilds are unlikely to fix a plan regression caused by statistics and can be a resource-intensive, speculative fix."
+        },
+        {
+          "key": "B",
+          "text": "Use a query plan management feature to find the last known good plan and force the optimizer to use it.",
+          "is_correct": true,
+          "rationale": "This directly addresses the problem by reverting to a stable, performant execution plan while you investigate the root cause."
+        },
+        {
+          "key": "C",
+          "text": "Increase the memory allocation for the database instance, such as the PGA or buffer cache, to improve query execution.",
+          "is_correct": false,
+          "rationale": "Adding memory might help a bad plan run faster, but it does not fix the underlying issue of a suboptimal execution path."
+        },
+        {
+          "key": "D",
+          "text": "Rewrite the problematic SQL query using different syntax or join orders to encourage a better execution plan from the optimizer.",
+          "is_correct": false,
+          "rationale": "While a potential long-term fix, this is not the most effective immediate action and requires development effort and testing."
+        },
+        {
+          "key": "E",
+          "text": "Restore the entire database to a point in time before the statistics were updated to revert to the previous state.",
+          "is_correct": false,
+          "rationale": "This is an extreme and disruptive action that would cause data loss and is not appropriate for a single query issue."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "In a multi-terabyte data warehouse, what is the primary purpose of creating materialized views with query rewrite enabled for common aggregation queries?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To enforce data integrity constraints and business rules on the pre-calculated summary data stored within the materialized view.",
+          "is_correct": false,
+          "rationale": "While constraints can be placed on them, the primary purpose of materialized views is performance, not data integrity enforcement."
+        },
+        {
+          "key": "B",
+          "text": "To reduce the storage footprint of the data warehouse by storing only aggregated data instead of the raw detailed records.",
+          "is_correct": false,
+          "rationale": "Materialized views add to the storage footprint because they store pre-computed results in addition to the base table data."
+        },
+        {
+          "key": "C",
+          "text": "To automatically and transparently redirect user queries from large base tables to the smaller, pre-aggregated summary tables for faster results.",
+          "is_correct": true,
+          "rationale": "Query rewrite allows the optimizer to use the pre-computed results in the materialized view without changing the application's SQL code."
+        },
+        {
+          "key": "D",
+          "text": "To simplify the security model by granting users access only to the materialized views rather than the underlying base tables.",
+          "is_correct": false,
+          "rationale": "While this is a possible use case (a security view), the primary driver for materialized views in a DW is performance."
+        },
+        {
+          "key": "E",
+          "text": "To provide a real-time, up-to-the-second view of the aggregated data by continuously refreshing from the base tables.",
+          "is_correct": false,
+          "rationale": "Materialized views are refreshed periodically and represent a snapshot in time; they are not typically used for real-time data."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "When performing a major version upgrade of a mission-critical production database, which strategy best minimizes downtime and provides a reliable rollback path?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Performing a direct in-place upgrade on the production server during a scheduled maintenance window to ensure simplicity and speed.",
+          "is_correct": false,
+          "rationale": "In-place upgrades are risky, offer limited rollback capabilities, and can have unpredictable durations, making them unsuitable for critical systems."
+        },
+        {
+          "key": "B",
+          "text": "Backing up the database, uninstalling the old version, installing the new version, and then restoring the database from backup.",
+          "is_correct": false,
+          "rationale": "This method incurs significant downtime and is a complex, manual process with a high risk of failure during the restoration."
+        },
+        {
+          "key": "C",
+          "text": "Setting up a new server with the upgraded version and using logical replication to migrate data from the old server.",
+          "is_correct": true,
+          "rationale": "This allows for thorough testing, minimal downtime during cutover, and keeps the old system intact for immediate rollback if needed."
+        },
+        {
+          "key": "D",
+          "text": "Exporting all database schemas to flat files using a data pump utility and then importing them into a newly created database.",
+          "is_correct": false,
+          "rationale": "Logical export/import is extremely slow for large databases, leading to extensive downtime and potential for logical data inconsistencies."
+        },
+        {
+          "key": "E",
+          "text": "Using storage-level snapshotting to create a copy of the database, upgrading the copy, and then redirecting application traffic.",
+          "is_correct": false,
+          "rationale": "While snapshots are fast, this method doesn't account for data changes during the upgrade, leading to data loss upon cutover."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "You are investigating poor I/O performance. What does a consistently high `await` time, significantly greater than `svctm`, in `iostat` output typically indicate?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The underlying storage device is faulty and is about to fail, requiring immediate replacement of the hardware component.",
+          "is_correct": false,
+          "rationale": "While possible, this is not the most direct interpretation. High await points to saturation before hardware failure is assumed."
+        },
+        {
+          "key": "B",
+          "text": "The I/O requests being sent to the storage subsystem are too large and should be broken down into smaller chunks.",
+          "is_correct": false,
+          "rationale": "Request size affects service time, but the large gap between await and service time points to a different problem."
+        },
+        {
+          "key": "C",
+          "text": "There is a network bottleneck between the database server and the storage area network (SAN) that is delaying I/O packets.",
+          "is_correct": false,
+          "rationale": "This is a plausible cause, but the most direct interpretation from iostat is saturation at the device level itself."
+        },
+        {
+          "key": "D",
+          "text": "The storage device or I/O controller is saturated, and requests are spending a significant amount of time waiting in a queue.",
+          "is_correct": true,
+          "rationale": "High 'await' (total time) vs. 'svctm' (service time) means requests are queued, indicating the device cannot keep up with the I/O demand."
+        },
+        {
+          "key": "E",
+          "text": "The database's file system cache is improperly configured, leading to excessive and unnecessary physical read and write operations.",
+          "is_correct": false,
+          "rationale": "Filesystem caching issues would increase the overall I/O load but don't explain the specific metric relationship indicating a queue."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "For a large table with frequent DELETE operations, what is the most significant long-term problem that can degrade query performance if not properly managed?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The accumulation of undo or transaction log records, which will eventually consume all available disk space on the server.",
+          "is_correct": false,
+          "rationale": "Logs are managed and recycled; while they can grow, they are not the primary long-term performance issue from deletes."
+        },
+        {
+          "key": "B",
+          "text": "Increased index fragmentation, where the logical ordering of the index entries no longer matches the physical ordering, causing slow scans.",
+          "is_correct": true,
+          "rationale": "Deletes leave empty space in index blocks, leading to fragmentation, lower density, and more I/O for index scans over time."
+        },
+        {
+          "key": "C",
+          "text": "The database's automatic statistics collection job will start to fail because of the constant and rapid changes in data.",
+          "is_correct": false,
+          "rationale": "Statistics jobs are designed to handle data changes and are more likely to run frequently, not fail completely."
+        },
+        {
+          "key": "D",
+          "text": "The table's high-water mark will not decrease, causing full table scans to read many empty blocks and become inefficient.",
+          "is_correct": false,
+          "rationale": "While the high-water mark is an issue, index fragmentation is often a more significant and immediate performance problem for queries."
+        },
+        {
+          "key": "E",
+          "text": "Foreign key constraints on other tables will cause cascading delete operations, leading to widespread locking and contention issues.",
+          "is_correct": false,
+          "rationale": "This is a transactional performance issue during the delete operation, not a long-term degradation problem for subsequent queries."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What is the primary function of a connection pooler in a high-traffic application architecture that interacts with a relational database?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To encrypt all network traffic between the application servers and the database server, ensuring data confidentiality in transit.",
+          "is_correct": false,
+          "rationale": "While some poolers might handle TLS/SSL, their primary function is connection management, not encryption, which is handled by other layers."
+        },
+        {
+          "key": "B",
+          "text": "To cache the results of frequently executed queries at the middleware layer, reducing the overall load on the database.",
+          "is_correct": false,
+          "rationale": "This describes a query cache, which is a different component. A connection pooler manages connections, not query results."
+        },
+        {
+          "key": "C",
+          "text": "To reduce the overhead of establishing new database connections by maintaining a cache of reusable, open connections for the application.",
+          "is_correct": true,
+          "rationale": "Connection setup is resource-intensive. A pooler reuses connections, dramatically improving performance and scalability for applications with many short-lived requests."
+        },
+        {
+          "key": "D",
+          "text": "To automatically load balance incoming read-only queries across a cluster of read-replica database servers for better scalability.",
+          "is_correct": false,
+          "rationale": "This is the function of a load balancer or specific proxy software, not the core purpose of a connection pooler."
+        },
+        {
+          "key": "E",
+          "text": "To translate SQL queries from one database dialect to another, allowing an application to work with multiple database vendors.",
+          "is_correct": false,
+          "rationale": "This describes an abstraction layer or ORM feature. A connection pooler operates at a lower level, managing native connections."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "When implementing database resource management, what is the main benefit of assigning consumer groups based on application service rather than individual user schemas?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It simplifies the process of granting object privileges, as permissions can be assigned directly to the consumer group itself.",
+          "is_correct": false,
+          "rationale": "Consumer groups control resource allocation (CPU, parallelism), not object privileges, which are managed through roles and grants."
+        },
+        {
+          "key": "B",
+          "text": "It allows for more accurate chargeback accounting by tracking resource usage per individual developer or business user account.",
+          "is_correct": false,
+          "rationale": "Grouping by service makes chargeback by user harder. Grouping by user schema would be better for individual user accounting."
+        },
+        {
+          "key": "C",
+          "text": "It ensures that a high-priority service (e.g., online transaction processing) receives guaranteed resources, preventing starvation by lower-priority batch jobs.",
+          "is_correct": true,
+          "rationale": "This aligns resource allocation with business priority, ensuring critical applications are not impacted by less important, resource-intensive workloads."
+        },
+        {
+          "key": "D",
+          "text": "It is the only method that allows the database to automatically kill long-running sessions that exceed their allocated resource limits.",
+          "is_correct": false,
+          "rationale": "Resource limits (like max execution time) can be set for plans regardless of whether they are assigned by user or service."
+        },
+        {
+          "key": "E",
+          "text": "It reduces the total amount of memory required by the database instance by sharing execution contexts between different application services.",
+          "is_correct": false,
+          "rationale": "Resource management governs the allocation of existing resources; it does not inherently reduce the total memory footprint of the instance."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "A database is experiencing deadlocks. Analyzing the deadlock graph reveals a cycle involving multiple sessions updating the same set of tables in a different order. What is the most robust solution?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Increase the value of the `DEADLOCK_TIMEOUT` parameter to give transactions more time to acquire the locks they need.",
+          "is_correct": false,
+          "rationale": "This will only make the deadlocks last longer before being detected, worsening application hangs without solving the root cause."
+        },
+        {
+          "key": "B",
+          "text": "Implement error handling in the application to automatically retry any transaction that fails due to a deadlock error.",
+          "is_correct": false,
+          "rationale": "While necessary, retrying is a mitigation strategy, not a solution. The robust solution is to prevent the deadlock from occurring."
+        },
+        {
+          "key": "C",
+          "text": "Refactor the application code to ensure that all transactions access and lock the shared resources in the same consistent order.",
+          "is_correct": true,
+          "rationale": "Enforcing a consistent locking order breaks the circular wait condition, which is one of the necessary conditions for a deadlock to occur."
+        },
+        {
+          "key": "D",
+          "text": "Change the transaction isolation level for all sessions to `READ UNCOMMITTED` to minimize the duration of shared locks.",
+          "is_correct": false,
+          "rationale": "This can cause dirty reads and data integrity issues and does not prevent deadlocks caused by conflicting exclusive (write) locks."
+        },
+        {
+          "key": "E",
+          "text": "Schedule a nightly maintenance job to rebuild indexes on the affected tables to reduce lock contention during data modifications.",
+          "is_correct": false,
+          "rationale": "Index maintenance does not address the logical error of inconsistent lock acquisition order that is the cause of the deadlock."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "When migrating a large on-premises Oracle database to Amazon RDS for PostgreSQL, what is the most significant challenge a DBA must plan for during the project?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Configuring the network firewall rules (Security Groups) in AWS to allow the application servers to connect to the new database.",
+          "is_correct": false,
+          "rationale": "While a necessary step, configuring security groups is a relatively straightforward and minor task in the context of a large migration."
+        },
+        {
+          "key": "B",
+          "text": "Rewriting proprietary PL/SQL packages, procedures, and functions into PostgreSQL-compatible PL/pgSQL, which can be a major development effort.",
+          "is_correct": true,
+          "rationale": "The procedural code is often the most complex and vendor-specific part of a database, requiring significant manual conversion and testing."
+        },
+        {
+          "key": "C",
+          "text": "Choosing the correct instance size for the new RDS database to match the CPU and RAM of the on-premises server.",
+          "is_correct": false,
+          "rationale": "Sizing is an important task, but it is relatively easy to adjust RDS instance sizes up or down after the migration."
+        },
+        {
+          "key": "D",
+          "text": "Setting up automated backups and point-in-time recovery for the new RDS instance using the AWS management console.",
+          "is_correct": false,
+          "rationale": "This is a key feature of RDS and is typically very easy to configure with a few clicks in the console."
+        },
+        {
+          "key": "E",
+          "text": "Migrating the user accounts and permissions from the Oracle database to the new PostgreSQL instance using standard SQL commands.",
+          "is_correct": false,
+          "rationale": "Migrating users and grants is a necessary but usually scriptable and less complex task compared to code conversion."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What is the primary architectural reason for using a database proxy like ProxySQL or HAProxy in front of a primary-replica MySQL cluster?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide end-to-end encryption for all SQL traffic, which is not natively supported by the MySQL protocol.",
+          "is_correct": false,
+          "rationale": "MySQL natively supports SSL/TLS for encryption; a proxy is not required for this purpose, although it can help manage it."
+        },
+        {
+          "key": "B",
+          "text": "To perform automatic schema migrations and transformations on the fly as queries pass from the application to the database.",
+          "is_correct": false,
+          "rationale": "This functionality is typically handled by dedicated schema migration tools, not by a connection proxy."
+        },
+        {
+          "key": "C",
+          "text": "To enable transparent read/write splitting, directing SELECT queries to replicas and DML statements to the primary without application changes.",
+          "is_correct": true,
+          "rationale": "The proxy can parse SQL and route queries appropriately, simplifying the application logic and enabling read scaling transparently."
+        },
+        {
+          "key": "D",
+          "text": "To compress the query traffic, significantly reducing the network bandwidth consumption between the application and the database servers.",
+          "is_correct": false,
+          "rationale": "While some proxies might offer compression, it is not their primary architectural purpose, and MySQL protocol already supports compression."
+        },
+        {
+          "key": "E",
+          "text": "To enforce multi-factor authentication for all database connections, adding an extra layer of security for administrative users.",
+          "is_correct": false,
+          "rationale": "MFA is typically handled by identity and access management (IAM) systems, not a SQL proxy."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "During a disaster recovery test, you restore a database using a full backup and all subsequent transaction log backups. What is the state of the database after the final log is applied?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The database is immediately online and fully accessible for both read and write operations by all application users.",
+          "is_correct": false,
+          "rationale": "The database is not yet fully recovered. It is in a state where uncommitted transactions still need to be addressed."
+        },
+        {
+          "key": "B",
+          "text": "The database is in a read-only mode, allowing for data validation queries but preventing any data modification until finalized.",
+          "is_correct": false,
+          "rationale": "The database is not accessible at all at this stage; it is exclusively locked by the recovery process."
+        },
+        {
+          "key": "C",
+          "text": "The database is in a restoring or loading state, where uncommitted transactions are being rolled back to ensure data consistency.",
+          "is_correct": true,
+          "rationale": "After the roll forward phase (applying logs), the recovery process enters the rollback phase to undo incomplete transactions."
+        },
+        {
+          "key": "D",
+          "text": "The database requires a full index rebuild on all tables before it can be brought online for application use.",
+          "is_correct": false,
+          "rationale": "Index structures are recovered along with the data from the transaction logs; a full rebuild is not a required step."
+        },
+        {
+          "key": "E",
+          "text": "The database is in a standby state, ready to receive and apply additional transaction log backups if they become available.",
+          "is_correct": false,
+          "rationale": "This describes a 'NORECOVERY' state, but the final step is to perform the actual recovery (rollback) to bring it online."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Which scenario is the best use case for implementing a clustered index on a table in a SQL Server or Sybase database?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A logging table where new rows are constantly inserted at the end and old data is never updated or queried.",
+          "is_correct": false,
+          "rationale": "A heap (a table without a clustered index) is often more efficient for high-speed inserts with no updates."
+        },
+        {
+          "key": "B",
+          "text": "A large fact table in a data warehouse that is primarily loaded once and then joined to many dimension tables.",
+          "is_correct": false,
+          "rationale": "A columnstore index is typically far more effective for large fact tables in a modern data warehouse environment."
+        },
+        {
+          "key": "C",
+          "text": "A table that is frequently queried for a range of values, such as finding all sales orders within a specific date range.",
+          "is_correct": true,
+          "rationale": "A clustered index physically sorts the data, making range scans extremely efficient as the required data is co-located on disk."
+        },
+        {
+          "key": "D",
+          "text": "A staging table that is used for bulk loading data, which is then truncated and reloaded in every ETL cycle.",
+          "is_correct": false,
+          "rationale": "The overhead of maintaining a clustered index during bulk loads makes a heap a better choice for staging tables."
+        },
+        {
+          "key": "E",
+          "text": "A small configuration or lookup table with only a few dozen rows that is frequently read in its entirety.",
+          "is_correct": false,
+          "rationale": "For a table small enough to fit in memory, the difference between a clustered index and a heap is negligible."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "When planning capacity for a new database server, what is the most critical factor to consider for ensuring consistent query performance for a write-heavy workload?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The total amount of available disk space to accommodate future data growth and prevent storage-related outages.",
+          "is_correct": false,
+          "rationale": "While important for availability, raw capacity does not directly influence the performance of individual write operations."
+        },
+        {
+          "key": "B",
+          "text": "The number of CPU cores and the clock speed of the processor to handle query parsing and execution plan generation.",
+          "is_correct": false,
+          "rationale": "CPU is important, but for write-heavy workloads, the I/O subsystem is typically the first and most critical bottleneck."
+        },
+        {
+          "key": "C",
+          "text": "The IOPS (Input/Output Operations Per Second) and latency characteristics of the storage subsystem, especially for the transaction log.",
+          "is_correct": true,
+          "rationale": "Write performance is fundamentally limited by how quickly the transaction log can be written to durable storage, making low-latency IOPS critical."
+        },
+        {
+          "key": "D",
+          "text": "The total amount of installed RAM to maximize the size of the database buffer cache and reduce physical read operations.",
+          "is_correct": false,
+          "rationale": "A large buffer cache is crucial for read performance but has less impact on write-heavy workloads limited by log writes."
+        },
+        {
+          "key": "E",
+          "text": "The speed and bandwidth of the network interface cards (NICs) to ensure fast communication with the application servers.",
+          "is_correct": false,
+          "rationale": "Unless dealing with massive data transfers, the storage subsystem latency is a much more common bottleneck than network bandwidth."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "A developer complains a query is slow. The query uses a `LIKE '%search_term%'` predicate on an indexed column. Why is the index not being used effectively?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The index is fragmented and needs to be rebuilt before it can be used for any type of LIKE query.",
+          "is_correct": false,
+          "rationale": "Fragmentation can degrade performance but does not prevent an index from being used for a seekable predicate."
+        },
+        {
+          "key": "B",
+          "text": "The statistics on the indexed column are stale and need to be updated for the optimizer to choose the index.",
+          "is_correct": false,
+          "rationale": "Stale statistics can cause bad plan choices, but the fundamental issue here is the non-sargable nature of the predicate."
+        },
+        {
+          "key": "C",
+          "text": "Standard B-tree indexes cannot be used when the search pattern starts with a wildcard character (`%`), forcing a full table scan.",
+          "is_correct": true,
+          "rationale": "A B-tree index is sorted. A leading wildcard means the starting point for a search is unknown, making an index seek impossible."
+        },
+        {
+          "key": "D",
+          "text": "The query must include an explicit index hint to force the database optimizer to use the available index.",
+          "is_correct": false,
+          "rationale": "An index hint would not help because the predicate is non-sargable; the database still cannot perform an efficient seek."
+        },
+        {
+          "key": "E",
+          "text": "The column's data type is not compatible with indexing for text searches, such as VARCHAR or TEXT data types.",
+          "is_correct": false,
+          "rationale": "Standard character data types are perfectly compatible with B-tree indexes; the issue is how the LIKE predicate is constructed."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is the primary purpose of `VACUUM FULL` in PostgreSQL, and why should it be used with extreme caution on production systems?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It analyzes all tables to update the statistics used by the query planner, but it can cause temporary performance degradation.",
+          "is_correct": false,
+          "rationale": "This describes the `ANALYZE` command. `VACUUM` is related to space reclamation, not just statistics gathering."
+        },
+        {
+          "key": "B",
+          "text": "It performs a non-blocking cleanup of dead tuples from tables and indexes, which can be run safely during normal operations.",
+          "is_correct": false,
+          "rationale": "This describes a standard `VACUUM`, not `VACUUM FULL`. The 'FULL' variant is significantly more disruptive."
+        },
+        {
+          "key": "C",
+          "text": "It rewrites the entire table and its indexes to a new file, reclaiming all unused space but taking an exclusive lock.",
+          "is_correct": true,
+          "rationale": "It reclaims the maximum amount of space but locks the table, blocking all reads and writes, causing significant application downtime."
+        },
+        {
+          "key": "D",
+          "text": "It checks for and repairs physical block corruption within the data files, requiring the database to be taken offline.",
+          "is_correct": false,
+          "rationale": "This describes a data integrity check or repair utility, not the function of `VACUUM FULL`, which deals with logical space."
+        },
+        {
+          "key": "E",
+          "text": "It freezes transaction IDs in old tuples to prevent transaction ID wraparound failure, a critical but non-locking background task.",
+          "is_correct": false,
+          "rationale": "This is a function of `VACUUM FREEZE`, which is part of autovacuum's responsibilities and is less disruptive than `VACUUM FULL`."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "In the context of database isolation levels, what phenomenon does `REPEATABLE READ` prevent that `READ COMMITTED` allows?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dirty Reads, which occur when one transaction reads data that has been modified by another transaction that has not yet committed.",
+          "is_correct": false,
+          "rationale": "Both `READ COMMITTED` and `REPEATABLE READ` prevent dirty reads. This is a basic function of most isolation levels."
+        },
+        {
+          "key": "B",
+          "text": "Phantom Reads, where a transaction re-runs a query and finds new rows that have been inserted by another committed transaction.",
+          "is_correct": false,
+          "rationale": "`REPEATABLE READ` does not prevent phantom reads; only the `SERIALIZABLE` isolation level is designed to prevent this phenomenon."
+        },
+        {
+          "key": "C",
+          "text": "Lost Updates, where two transactions read the same value and then update it, causing one of the updates to be overwritten.",
+          "is_correct": false,
+          "rationale": "Lost updates are a concurrency problem that isolation levels help mitigate, but this isn't the key distinction between these two levels."
+        },
+        {
+          "key": "D",
+          "text": "Non-Repeatable Reads, where a transaction reads the same row twice and sees different data because another transaction modified it.",
+          "is_correct": true,
+          "rationale": "`REPEATABLE READ` ensures that once a row is read, it will not change for the duration of the transaction, which `READ COMMITTED` does not guarantee."
+        },
+        {
+          "key": "E",
+          "text": "Write Skew, where two transactions read a set of data, make decisions based on it, and write changes that are inconsistent.",
+          "is_correct": false,
+          "rationale": "Write skew is a more complex anomaly that can still occur under `REPEATABLE READ` and is typically prevented only by `SERIALIZABLE`."
+        }
+      ]
+    }
+  ]
+}

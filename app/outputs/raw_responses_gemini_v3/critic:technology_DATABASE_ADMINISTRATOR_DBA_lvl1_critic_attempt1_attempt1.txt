@@ -1,0 +1,754 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "What is the main job of a database administrator (DBA) regarding database systems and their overall performance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Focusing on designing user interfaces for database applications, specifically the front-end presentation and user experience.",
+          "is_correct": false,
+          "rationale": "Front-end developers handle user interface design, not database administrators.",
+          "rationale_words": 10
+        },
+        {
+          "key": "B",
+          "text": "Managing, maintaining, and ensuring the availability, security, and optimal performance of database systems for all users.",
+          "is_correct": true,
+          "rationale": "DBAs ensure database health, availability, and performance.",
+          "rationale_words": 8
+        },
+        {
+          "key": "C",
+          "text": "Developing entirely new programming languages specifically tailored for database management systems and advanced data processing.",
+          "is_correct": false,
+          "rationale": "Language development is beyond typical DBA duties.",
+          "rationale_words": 7
+        },
+        {
+          "key": "D",
+          "text": "Creating marketing strategies for database software products, including advertising campaigns and market positioning for product success.",
+          "is_correct": false,
+          "rationale": "Marketing is a separate function from database administration.",
+          "rationale_words": 8
+        },
+        {
+          "key": "E",
+          "text": "Troubleshooting hardware failures exclusively, without considering the software or data aspects of the database environment and applications.",
+          "is_correct": false,
+          "rationale": "DBAs primarily manage software, not exclusively hardware.",
+          "rationale_words": 7
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "When working with databases, which SQL command is specifically used to retrieve data from a database table for analysis?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The UPDATE command is used to modify existing data within a table, changing the stored values based on specified criteria.",
+          "is_correct": false,
+          "rationale": "UPDATE modifies data, it does not retrieve data.",
+          "rationale_words": 7
+        },
+        {
+          "key": "B",
+          "text": "The DELETE command is used to remove data from a table, permanently erasing the selected rows based on given conditions.",
+          "is_correct": false,
+          "rationale": "DELETE removes data, rather than retrieving it.",
+          "rationale_words": 7
+        },
+        {
+          "key": "C",
+          "text": "The INSERT command is used to add new data to a table, creating new rows with the provided values for each column.",
+          "is_correct": false,
+          "rationale": "INSERT adds new data; it does not retrieve data.",
+          "rationale_words": 8
+        },
+        {
+          "key": "D",
+          "text": "The SELECT command is the correct command for retrieving data from a database, allowing users to view and analyze stored information.",
+          "is_correct": true,
+          "rationale": "SELECT retrieves data from a database.",
+          "rationale_words": 6
+        },
+        {
+          "key": "E",
+          "text": "The CREATE command is used to create database objects like tables, views, and indexes, defining the structure of the database.",
+          "is_correct": false,
+          "rationale": "CREATE creates database objects, not to retrieve data.",
+          "rationale_words": 8
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "In the context of database transactions, what does the acronym ACID stand for regarding the properties and reliability of transactions?",
+      "options": [
+        {
+          "key": "A",
+          "text": "ACID stands for Automated, Consistent, Isolated, and Durable, emphasizing the automated nature of transaction processing and data integrity.",
+          "is_correct": false,
+          "rationale": "This is an incorrect expansion of the ACID acronym.",
+          "rationale_words": 8
+        },
+        {
+          "key": "B",
+          "text": "ACID stands for Atomic, Consistent, Isolated, and Durable, representing the core properties that ensure reliable database transactions.",
+          "is_correct": true,
+          "rationale": "ACID ensures atomicity, consistency, isolation, and durability.",
+          "rationale_words": 7
+        },
+        {
+          "key": "C",
+          "text": "ACID stands for Accessible, Current, Integrated, and Detailed, focusing on data accessibility, real-time updates, and comprehensive information.",
+          "is_correct": false,
+          "rationale": "This expansion is unrelated to transaction properties.",
+          "rationale_words": 7
+        },
+        {
+          "key": "D",
+          "text": "ACID stands for Aggregated, Calculated, Indexed, and Defined, highlighting data aggregation, calculated fields, indexing, and data definitions.",
+          "is_correct": false,
+          "rationale": "This expansion is unrelated to transaction properties.",
+          "rationale_words": 7
+        },
+        {
+          "key": "E",
+          "text": "ACID stands for Analyzed, Compiled, Interpreted, and Distributed, emphasizing data analysis, code compilation, interpretation, and distributed processing.",
+          "is_correct": false,
+          "rationale": "This expansion is unrelated to transaction properties.",
+          "rationale_words": 7
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Which specific type of database model organizes data into tables consisting of rows and columns, facilitating structured data management?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The hierarchical database model organizes data in a tree-like structure, with parent-child relationships defining data access and organization.",
+          "is_correct": false,
+          "rationale": "Hierarchical models use a tree-like structure, not tables.",
+          "rationale_words": 8
+        },
+        {
+          "key": "B",
+          "text": "The network database model uses a more complex graph structure than tables, allowing many-to-many relationships between data elements.",
+          "is_correct": false,
+          "rationale": "Network models use a graph structure, not tables.",
+          "rationale_words": 9
+        },
+        {
+          "key": "C",
+          "text": "The object-oriented database model uses objects and classes to represent data, incorporating inheritance and polymorphism for data management.",
+          "is_correct": false,
+          "rationale": "Object-oriented models use objects and classes, not tables.",
+          "rationale_words": 9
+        },
+        {
+          "key": "D",
+          "text": "The relational database model organizes data into tables, with rows and columns, using keys to define relationships between tables.",
+          "is_correct": true,
+          "rationale": "Relational databases use tables, rows, and columns.",
+          "rationale_words": 8
+        },
+        {
+          "key": "E",
+          "text": "The graph database model uses nodes and edges to represent and store data, focusing on relationships and connections between data points.",
+          "is_correct": false,
+          "rationale": "Graph database models use nodes and edges.",
+          "rationale_words": 7
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "In a database table, what is the primary purpose of a primary key constraint for data integrity and relationship management?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To encrypt the data stored within a specific column of a table, enhancing data security and protecting sensitive information.",
+          "is_correct": false,
+          "rationale": "Encryption is a separate security measure.",
+          "rationale_words": 6
+        },
+        {
+          "key": "B",
+          "text": "To uniquely identify each record in the table, ensuring that no two rows have identical values in the primary key column.",
+          "is_correct": true,
+          "rationale": "A primary key uniquely identifies each row.",
+          "rationale_words": 7
+        },
+        {
+          "key": "C",
+          "text": "To define a relationship between two different database tables, linking related data and enforcing referential integrity constraints across tables.",
+          "is_correct": false,
+          "rationale": "Foreign keys define relationships between tables.",
+          "rationale_words": 7
+        },
+        {
+          "key": "D",
+          "text": "To improve the speed of queries by automatically indexing all columns, optimizing data retrieval and enhancing overall database performance significantly.",
+          "is_correct": false,
+          "rationale": "Indexes improve query speed, but not all columns.",
+          "rationale_words": 8
+        },
+        {
+          "key": "E",
+          "text": "To store calculations and derived data within the database table, enabling efficient data analysis and reporting capabilities within the system.",
+          "is_correct": false,
+          "rationale": "Calculations are done in queries or application logic.",
+          "rationale_words": 8
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Which specific SQL command is used to modify the structure of an existing table, such as adding or removing columns?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The UPDATE command is used to modify data within a table, changing the values of existing columns based on specified criteria.",
+          "is_correct": false,
+          "rationale": "UPDATE modifies data within a table.",
+          "rationale_words": 7
+        },
+        {
+          "key": "B",
+          "text": "The ALTER command is used to modify the structure of a table, allowing you to add, delete, or modify columns and constraints.",
+          "is_correct": true,
+          "rationale": "ALTER modifies the structure of a table.",
+          "rationale_words": 8
+        },
+        {
+          "key": "C",
+          "text": "The MODIFY command is a standard SQL command used for altering table structure, including changing data types and constraints.",
+          "is_correct": false,
+          "rationale": "MODIFY is not a standard SQL command.",
+          "rationale_words": 8
+        },
+        {
+          "key": "D",
+          "text": "The CHANGE command is sometimes used in specific database systems to alter table structure, but ALTER is the standard SQL command.",
+          "is_correct": false,
+          "rationale": "ALTER is the standard, CHANGE is system-specific.",
+          "rationale_words": 9
+        },
+        {
+          "key": "E",
+          "text": "The RENAME command is used to change the name of a table, but it does not modify the table's underlying structure or columns.",
+          "is_correct": false,
+          "rationale": "RENAME changes the name of a table.",
+          "rationale_words": 8
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What is the primary purpose of indexing in a database, and how does it affect data retrieval performance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To compress the data stored within the database to save disk space, reducing storage costs and improving overall system efficiency.",
+          "is_correct": false,
+          "rationale": "Compression saves space; indexing improves query performance.",
+          "rationale_words": 8
+        },
+        {
+          "key": "B",
+          "text": "To improve the speed of data retrieval operations, allowing the database to quickly locate and access specific data based on indexed columns.",
+          "is_correct": true,
+          "rationale": "Indexes speed up SELECT queries.",
+          "rationale_words": 6
+        },
+        {
+          "key": "C",
+          "text": "To encrypt sensitive data stored in the database for security, protecting it from unauthorized access and ensuring data confidentiality.",
+          "is_correct": false,
+          "rationale": "Encryption is a security measure, not indexing.",
+          "rationale_words": 7
+        },
+        {
+          "key": "D",
+          "text": "To enforce data integrity constraints and prevent invalid data entry, ensuring that the database contains accurate and consistent information.",
+          "is_correct": false,
+          "rationale": "Constraints enforce data integrity; indexing improves query performance.",
+          "rationale_words": 8
+        },
+        {
+          "key": "E",
+          "text": "To automatically back up the database on a regular schedule, creating copies of the data for disaster recovery and data protection purposes.",
+          "is_correct": false,
+          "rationale": "Backups are separate from indexing.",
+          "rationale_words": 6
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "In the context of database tables and relationships, what exactly is a foreign key constraint and how is it used?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A key that uniquely identifies a record within its own table, ensuring that each row has a distinct identifier for data management.",
+          "is_correct": false,
+          "rationale": "That describes a primary key, not a foreign key.",
+          "rationale_words": 8
+        },
+        {
+          "key": "B",
+          "text": "A key that references the primary key of another table, establishing a relationship between the two tables and enforcing referential integrity.",
+          "is_correct": true,
+          "rationale": "A foreign key links a table to another table's primary key.",
+          "rationale_words": 10
+        },
+        {
+          "key": "C",
+          "text": "A key used for encrypting sensitive data within the table, protecting confidential information and ensuring data security against unauthorized access.",
+          "is_correct": false,
+          "rationale": "Encryption keys are used for security, not table relationships.",
+          "rationale_words": 10
+        },
+        {
+          "key": "D",
+          "text": "A key that automatically creates indexes to improve query performance, optimizing data retrieval and enhancing overall database responsiveness for users.",
+          "is_correct": false,
+          "rationale": "Indexes are separate objects; foreign keys define relationships.",
+          "rationale_words": 8
+        },
+        {
+          "key": "E",
+          "text": "A key that is used to store user passwords securely in the database, protecting sensitive login credentials and ensuring user account security.",
+          "is_correct": false,
+          "rationale": "Passwords should be hashed and salted.",
+          "rationale_words": 7
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is the primary purpose of a database backup, and why is it essential for data management and disaster recovery?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To improve the speed of data retrieval operations, allowing the database to quickly locate and access specific data based on user queries.",
+          "is_correct": false,
+          "rationale": "Backups do not directly improve data retrieval speeds.",
+          "rationale_words": 8
+        },
+        {
+          "key": "B",
+          "text": "To reduce the amount of disk space used by the database, optimizing storage utilization and minimizing storage costs for the organization.",
+          "is_correct": false,
+          "rationale": "Backups typically increase disk space usage.",
+          "rationale_words": 7
+        },
+        {
+          "key": "C",
+          "text": "To have a copy of the database for recovery in case of data loss or corruption, ensuring business continuity and minimizing downtime.",
+          "is_correct": true,
+          "rationale": "Backups are essential for disaster recovery.",
+          "rationale_words": 7
+        },
+        {
+          "key": "D",
+          "text": "To automatically update the database software to the latest version, ensuring that the system has the latest features and security patches.",
+          "is_correct": false,
+          "rationale": "Updates are a separate process from backups.",
+          "rationale_words": 7
+        },
+        {
+          "key": "E",
+          "text": "To encrypt the database to protect it from unauthorized access, ensuring data confidentiality and preventing data breaches and security incidents.",
+          "is_correct": false,
+          "rationale": "Encryption is a security measure, separate from backups.",
+          "rationale_words": 8
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What is the role of normalization in database design, and how does it contribute to data integrity and efficiency?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To increase data redundancy for faster data retrieval, allowing the database to quickly access frequently used data without complex joins.",
+          "is_correct": false,
+          "rationale": "Normalization aims to reduce redundancy, not increase it.",
+          "rationale_words": 9
+        },
+        {
+          "key": "B",
+          "text": "To organize data in a way that reduces redundancy and improves data integrity, ensuring consistency and minimizing storage space requirements.",
+          "is_correct": true,
+          "rationale": "Normalization minimizes redundancy and ensures data consistency.",
+          "rationale_words": 9
+        },
+        {
+          "key": "C",
+          "text": "To encrypt the database and protect it from unauthorized access, ensuring data confidentiality and preventing data breaches and security incidents.",
+          "is_correct": false,
+          "rationale": "Encryption is a security measure, not a design principle.",
+          "rationale_words": 8
+        },
+        {
+          "key": "D",
+          "text": "To automatically back up the database on a regular basis, creating copies of the data for disaster recovery and data protection purposes.",
+          "is_correct": false,
+          "rationale": "Backups are a separate process, not related to normalization.",
+          "rationale_words": 8
+        },
+        {
+          "key": "E",
+          "text": "To improve the speed of data insertion operations, allowing the database to quickly add new data without performance bottlenecks or delays.",
+          "is_correct": false,
+          "rationale": "Normalization can sometimes slow down insert operations.",
+          "rationale_words": 8
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the primary purpose of a database view, and how does it simplify data access for users and applications?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To store the physical data of a table on the disk, managing the underlying storage and organization of data within the database system.",
+          "is_correct": false,
+          "rationale": "Views are virtual tables, not physical storage.",
+          "rationale_words": 9
+        },
+        {
+          "key": "B",
+          "text": "To provide a simplified or customized perspective of data from one or more tables, hiding complexity and presenting only relevant information to users.",
+          "is_correct": true,
+          "rationale": "Views simplify data access and provide a tailored view.",
+          "rationale_words": 10
+        },
+        {
+          "key": "C",
+          "text": "To improve the speed of data insertion operations, allowing the database to quickly add new data without performance bottlenecks or delays during transactions.",
+          "is_correct": false,
+          "rationale": "Views don't directly impact insertion speed.",
+          "rationale_words": 9
+        },
+        {
+          "key": "D",
+          "text": "To encrypt sensitive data stored in the database, protecting it from unauthorized access and ensuring data confidentiality and security compliance.",
+          "is_correct": false,
+          "rationale": "Encryption is a security feature, not the purpose of a view.",
+          "rationale_words": 10
+        },
+        {
+          "key": "E",
+          "text": "To automatically back up the database on a regular schedule, creating copies of the data for disaster recovery and data protection purposes.",
+          "is_correct": false,
+          "rationale": "Backups are separate from views.",
+          "rationale_words": 6
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Which specific SQL command is used to grant privileges to a user, allowing them to perform certain actions on the database?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The CREATE USER command is used to create a new user account, but it does not grant any specific privileges to the user.",
+          "is_correct": false,
+          "rationale": "CREATE USER creates a new user, not grant privileges.",
+          "rationale_words": 10
+        },
+        {
+          "key": "B",
+          "text": "The GRANT command is the correct command to assign privileges to users, allowing them to perform specific actions on database objects and data.",
+          "is_correct": true,
+          "rationale": "GRANT assigns privileges to users.",
+          "rationale_words": 9
+        },
+        {
+          "key": "C",
+          "text": "The ALLOW command is not a standard SQL command for granting privileges, and it is not recognized by most database systems.",
+          "is_correct": false,
+          "rationale": "ALLOW is not a standard SQL command.",
+          "rationale_words": 9
+        },
+        {
+          "key": "D",
+          "text": "The PERMIT command is not a standard SQL command for granting privileges, and it is not commonly used in database administration.",
+          "is_correct": false,
+          "rationale": "PERMIT is not a standard SQL command.",
+          "rationale_words": 9
+        },
+        {
+          "key": "E",
+          "text": "The ASSIGN command is not a standard SQL command for granting privileges, and it is not typically used in database management systems.",
+          "is_correct": false,
+          "rationale": "ASSIGN is not a standard SQL command.",
+          "rationale_words": 9
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is the primary purpose of a transaction log in a database system, and how does it support data recovery?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To store user access history to the database system, tracking user logins, queries, and modifications for auditing and security purposes.",
+          "is_correct": false,
+          "rationale": "Audit logs track user access, not transaction logs.",
+          "rationale_words": 9
+        },
+        {
+          "key": "B",
+          "text": "To record all changes made to the database, enabling recovery to a consistent state in case of system failures or data corruption incidents.",
+          "is_correct": true,
+          "rationale": "Transaction logs are crucial for restoring the database.",
+          "rationale_words": 9
+        },
+        {
+          "key": "C",
+          "text": "To store the database schema and table definitions, providing a central repository for metadata and structural information about the database.",
+          "is_correct": false,
+          "rationale": "The data dictionary stores schema information.",
+          "rationale_words": 7
+        },
+        {
+          "key": "D",
+          "text": "To improve the speed of data retrieval operations, optimizing query performance and enhancing overall database responsiveness for users and applications.",
+          "is_correct": false,
+          "rationale": "Transaction logs primarily support recovery, not query performance.",
+          "rationale_words": 9
+        },
+        {
+          "key": "E",
+          "text": "To encrypt sensitive data stored in the database, protecting it from unauthorized access and ensuring data confidentiality and security compliance requirements.",
+          "is_correct": false,
+          "rationale": "Encryption is a separate security mechanism.",
+          "rationale_words": 7
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What is the fundamental difference between clustered and non-clustered indexes in a database, and how do they store data?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Clustered indexes store the actual data rows in the index order, while non-clustered indexes store pointers to the data rows.",
+          "is_correct": true,
+          "rationale": "Clustered indexes define the physical order of data.",
+          "rationale_words": 9
+        },
+        {
+          "key": "B",
+          "text": "Clustered indexes are used for full-text searches, while non-clustered indexes are used for other types of queries and data retrieval.",
+          "is_correct": false,
+          "rationale": "Full-text search uses specialized indexes.",
+          "rationale_words": 7
+        },
+        {
+          "key": "C",
+          "text": "Clustered indexes encrypt the data stored in the table, while non-clustered indexes do not provide any data encryption capabilities.",
+          "is_correct": false,
+          "rationale": "Encryption is separate from indexing.",
+          "rationale_words": 6
+        },
+        {
+          "key": "D",
+          "text": "Clustered indexes are stored in memory for faster access, while non-clustered indexes are stored on disk for persistent storage.",
+          "is_correct": false,
+          "rationale": "Both types of indexes are typically stored on disk.",
+          "rationale_words": 9
+        },
+        {
+          "key": "E",
+          "text": "Clustered indexes are automatically created by the database system, while non-clustered indexes must be created manually by the database administrator.",
+          "is_correct": false,
+          "rationale": "Both types of indexes can be created manually or automatically.",
+          "rationale_words": 10
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "In database management, what exactly is a stored procedure, and what are its primary benefits for database applications?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A function that automatically backs up the database on a regular schedule, ensuring data protection and disaster recovery capabilities for the system.",
+          "is_correct": false,
+          "rationale": "Backups are handled by separate backup utilities.",
+          "rationale_words": 7
+        },
+        {
+          "key": "B",
+          "text": "A precompiled set of SQL statements stored in the database, offering performance improvements, security benefits, and code reusability for applications.",
+          "is_correct": true,
+          "rationale": "Stored procedures offer performance and security benefits.",
+          "rationale_words": 9
+        },
+        {
+          "key": "C",
+          "text": "A tool for designing user interfaces for database applications, providing a visual environment for creating forms, reports, and data entry screens.",
+          "is_correct": false,
+          "rationale": "User interface design is a separate activity.",
+          "rationale_words": 7
+        },
+        {
+          "key": "D",
+          "text": "A method for encrypting data stored in the database, protecting sensitive information from unauthorized access and ensuring data confidentiality and security.",
+          "is_correct": false,
+          "rationale": "Encryption is a separate security mechanism.",
+          "rationale_words": 7
+        },
+        {
+          "key": "E",
+          "text": "A type of index used to improve the speed of data retrieval, optimizing query performance and enhancing overall database responsiveness for users.",
+          "is_correct": false,
+          "rationale": "Stored procedures are not indexes.",
+          "rationale_words": 7
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What is the purpose of database mirroring or replication, and how do these techniques enhance database availability and reliability?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To automatically optimize SQL queries for faster performance, improving data retrieval speeds and enhancing overall database responsiveness for users.",
+          "is_correct": false,
+          "rationale": "Query optimization is a separate process.",
+          "rationale_words": 7
+        },
+        {
+          "key": "B",
+          "text": "To create a redundant copy of the database for high availability and disaster recovery, ensuring business continuity and minimizing downtime during failures.",
+          "is_correct": true,
+          "rationale": "Mirroring and replication ensure business continuity.",
+          "rationale_words": 8
+        },
+        {
+          "key": "C",
+          "text": "To encrypt the database and protect it from unauthorized access, ensuring data confidentiality and preventing data breaches and security incidents.",
+          "is_correct": false,
+          "rationale": "Encryption is a separate security measure.",
+          "rationale_words": 7
+        },
+        {
+          "key": "D",
+          "text": "To compress the data stored in the database to save disk space, reducing storage costs and improving overall system efficiency for the organization.",
+          "is_correct": false,
+          "rationale": "Compression is a separate technique.",
+          "rationale_words": 8
+        },
+        {
+          "key": "E",
+          "text": "To automatically update the database software to the latest version, ensuring that the system has the latest features, security patches, and improvements.",
+          "is_correct": false,
+          "rationale": "Updates are a separate process.",
+          "rationale_words": 7
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What is the purpose of the WHERE clause in a SQL SELECT statement, and how does it filter data?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To specify the columns to be retrieved from the table, determining which data elements are included in the result set of the query.",
+          "is_correct": false,
+          "rationale": "The column names are specified directly in the SELECT statement.",
+          "rationale_words": 10
+        },
+        {
+          "key": "B",
+          "text": "To filter the rows returned based on a specified condition, allowing you to select only the data that meets certain criteria and requirements.",
+          "is_correct": true,
+          "rationale": "The WHERE clause filters rows based on a condition.",
+          "rationale_words": 10
+        },
+        {
+          "key": "C",
+          "text": "To sort the results in a specific order, arranging the data based on one or more columns and presenting it in a structured manner.",
+          "is_correct": false,
+          "rationale": "The ORDER BY clause is used for sorting.",
+          "rationale_words": 10
+        },
+        {
+          "key": "D",
+          "text": "To group the results based on a specific column, aggregating rows with the same values and summarizing data for analysis and reporting purposes.",
+          "is_correct": false,
+          "rationale": "The GROUP BY clause is used for grouping.",
+          "rationale_words": 10
+        },
+        {
+          "key": "E",
+          "text": "To join two or more tables together, combining data from multiple sources and creating a unified result set based on related columns.",
+          "is_correct": false,
+          "rationale": "The JOIN clause is used to combine data from multiple tables.",
+          "rationale_words": 10
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is the purpose of the GROUP BY clause in a SQL SELECT statement, and how does it aggregate data?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To filter the rows returned based on a specified condition, allowing you to select only the data that meets certain criteria and requirements.",
+          "is_correct": false,
+          "rationale": "The WHERE clause is used for filtering rows.",
+          "rationale_words": 10
+        },
+        {
+          "key": "B",
+          "text": "To sort the results in a specific order, arranging the data based on one or more columns and presenting it in a structured manner.",
+          "is_correct": false,
+          "rationale": "The ORDER BY clause is used for sorting.",
+          "rationale_words": 10
+        },
+        {
+          "key": "C",
+          "text": "To aggregate rows with the same values in one or more columns into a summary row, enabling calculations and analysis on grouped data.",
+          "is_correct": true,
+          "rationale": "GROUP BY combines rows with the same values for aggregation.",
+          "rationale_words": 10
+        },
+        {
+          "key": "D",
+          "text": "To specify the columns to be retrieved from the table, determining which data elements are included in the result set of the query.",
+          "is_correct": false,
+          "rationale": "The SELECT statement specifies the columns to be retrieved.",
+          "rationale_words": 10
+        },
+        {
+          "key": "E",
+          "text": "To join two or more tables together, combining data from multiple sources and creating a unified result set based on related columns and keys.",
+          "is_correct": false,
+          "rationale": "The JOIN clause combines data from multiple tables.",
+          "rationale_words": 10
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is the purpose of a HAVING clause in SQL, and how does it differ from a WHERE clause?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To filter rows before grouping, allowing you to select only the data that meets certain criteria before the aggregation process begins.",
+          "is_correct": false,
+          "rationale": "The WHERE clause filters rows before grouping.",
+          "rationale_words": 10
+        },
+        {
+          "key": "B",
+          "text": "To filter rows after grouping, based on aggregate functions, allowing you

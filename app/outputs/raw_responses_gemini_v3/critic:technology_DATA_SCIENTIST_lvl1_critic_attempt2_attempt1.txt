@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "Which statistical measure quantifies the average magnitude of deviations from the mean within a dataset?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Standard Deviation, measuring the typical spread of data points around the dataset's mean.",
+          "is_correct": true,
+          "rationale": "Standard deviation quantifies the dispersion of data points around the average value."
+        },
+        {
+          "key": "B",
+          "text": "Median, representing the central data point when a dataset is ordered from least to greatest.",
+          "is_correct": false,
+          "rationale": "The median represents the central value, not the average deviation from the mean."
+        },
+        {
+          "key": "C",
+          "text": "Mode, representing the most frequently occurring value observed within a given dataset.",
+          "is_correct": false,
+          "rationale": "The mode indicates the most frequent value, not the dispersion from the mean."
+        },
+        {
+          "key": "D",
+          "text": "Range, calculated by subtracting the smallest value from the largest value in a dataset.",
+          "is_correct": false,
+          "rationale": "The range only considers extreme values, not the average deviation."
+        },
+        {
+          "key": "E",
+          "text": "Interquartile Range (IQR), measuring the spread of the middle 50% of the dataset.",
+          "is_correct": false,
+          "rationale": "IQR focuses on the middle portion of the data, not deviations from the mean."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the primary goal of performing data normalization or standardization before training a machine learning model?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To reduce the dimensionality of the dataset, simplifying the model and improving computational efficiency.",
+          "is_correct": false,
+          "rationale": "Dimensionality reduction is a separate process, not the goal of normalization."
+        },
+        {
+          "key": "B",
+          "text": "To ensure all features contribute equally to the model, preventing features with larger scales from dominating.",
+          "is_correct": true,
+          "rationale": "Normalization scales features to a standard range, preventing dominance by large values."
+        },
+        {
+          "key": "C",
+          "text": "To eliminate missing values from the dataset, filling gaps to ensure complete data for analysis and modeling.",
+          "is_correct": false,
+          "rationale": "Imputation handles missing values, while normalization addresses feature scaling."
+        },
+        {
+          "key": "D",
+          "text": "To convert categorical variables into numerical representations, enabling their use in machine learning algorithms.",
+          "is_correct": false,
+          "rationale": "Encoding converts categories to numbers, not the purpose of normalization."
+        },
+        {
+          "key": "E",
+          "text": "To create entirely new features by combining existing ones, enhancing the model's expressiveness and predictive power.",
+          "is_correct": false,
+          "rationale": "Feature engineering creates new features, whereas normalization scales existing features."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which of the following supervised learning algorithms is commonly and effectively used for classification tasks?",
+      "options": [
+        {
+          "key": "A",
+          "text": "K-Means Clustering, an unsupervised method grouping data points based on similarity without labeled data.",
+          "is_correct": false,
+          "rationale": "K-Means is unsupervised; it identifies clusters without predefined categories."
+        },
+        {
+          "key": "B",
+          "text": "Principal Component Analysis (PCA), reducing dimensionality by identifying principal components that capture variance.",
+          "is_correct": false,
+          "rationale": "PCA is a dimensionality reduction technique, not for classification."
+        },
+        {
+          "key": "C",
+          "text": "Linear Regression, modeling the linear relationship between independent and dependent variables for prediction.",
+          "is_correct": false,
+          "rationale": "Linear Regression is for regression, predicting continuous values, not categories."
+        },
+        {
+          "key": "D",
+          "text": "Support Vector Machine (SVM), finding the optimal hyperplane to separate data points into distinct classes.",
+          "is_correct": true,
+          "rationale": "SVM is a supervised algorithm that classifies data by finding optimal separating hyperplanes."
+        },
+        {
+          "key": "E",
+          "text": "Hierarchical Clustering, creating a hierarchy of clusters based on data similarity and linkage criteria.",
+          "is_correct": false,
+          "rationale": "Hierarchical clustering is unsupervised, creating cluster hierarchies without labels."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "In machine learning, what does the term 'overfitting' specifically describe regarding a model's performance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A model that demonstrates poor performance on both the training dataset and previously unseen data.",
+          "is_correct": false,
+          "rationale": "This describes underfitting, where the model fails to capture underlying patterns."
+        },
+        {
+          "key": "B",
+          "text": "A model that is excessively simple and unable to effectively capture the underlying patterns present in the data.",
+          "is_correct": false,
+          "rationale": "This describes underfitting, where the model is too basic to learn the data."
+        },
+        {
+          "key": "C",
+          "text": "A model that performs exceptionally well on the training data but poorly on new, unseen data.",
+          "is_correct": true,
+          "rationale": "Overfitting occurs when a model learns the training data too well, including noise."
+        },
+        {
+          "key": "D",
+          "text": "A model that requires an excessively long time to train, often due to the large size of the dataset.",
+          "is_correct": false,
+          "rationale": "Training time is related to computational complexity, not overfitting specifically."
+        },
+        {
+          "key": "E",
+          "text": "A model that has been trained on an insufficient amount of data, leading to poor generalization capabilities.",
+          "is_correct": false,
+          "rationale": "Insufficient data leads to poor generalization, but it's not the definition of overfitting."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which of the following represents a common and effective technique for handling missing data within a dataset?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Principal Component Analysis (PCA), used for reducing the number of features in a high-dimensional dataset.",
+          "is_correct": false,
+          "rationale": "PCA reduces dimensionality, not directly addressing missing values in the data."
+        },
+        {
+          "key": "B",
+          "text": "Feature scaling techniques to normalize the range of independent variables in the dataset.",
+          "is_correct": false,
+          "rationale": "Feature scaling affects feature ranges and does not handle missing data."
+        },
+        {
+          "key": "C",
+          "text": "Imputation methods, replacing missing values with estimated values derived from other available data.",
+          "is_correct": true,
+          "rationale": "Imputation fills in missing values using statistical methods or other data."
+        },
+        {
+          "key": "D",
+          "text": "One-Hot Encoding, converting categorical variables into a numerical format suitable for machine learning.",
+          "is_correct": false,
+          "rationale": "One-hot encoding transforms categorical data, not handling missing values."
+        },
+        {
+          "key": "E",
+          "text": "Cross-validation techniques for assessing the overall performance and generalization ability of a model.",
+          "is_correct": false,
+          "rationale": "Cross-validation evaluates model performance, not dealing with missing data."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "In the realm of data analysis and database management, what does the acronym 'SQL' stand for?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Structured Question Language, designed for posing complex queries using natural language processing techniques.",
+          "is_correct": false,
+          "rationale": "It is not designed for natural language; it's a specific database query language."
+        },
+        {
+          "key": "B",
+          "text": "Simple Query Language, a simplified language intended for basic interactions with relational databases.",
+          "is_correct": false,
+          "rationale": "SQL is powerful and not limited to basic queries; it's a standard language."
+        },
+        {
+          "key": "C",
+          "text": "Statistical Query Language, primarily used for performing advanced statistical analysis directly on datasets.",
+          "is_correct": false,
+          "rationale": "SQL is for database management, not primarily for statistical analysis directly."
+        },
+        {
+          "key": "D",
+          "text": "Structured Query Language, the standard language for managing and querying relational databases effectively.",
+          "is_correct": true,
+          "rationale": "SQL is the standard language for relational database management and querying data."
+        },
+        {
+          "key": "E",
+          "text": "Systematic Query Language, employed for systematically retrieving specific information from relational databases.",
+          "is_correct": false,
+          "rationale": "While systematic, the 'S' stands for 'Structured' in the correct acronym."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What is the primary purpose of utilizing a confusion matrix when evaluating a classification model's performance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To visually represent the distribution of data points across different clusters identified by the model.",
+          "is_correct": false,
+          "rationale": "Confusion matrix is for classification, not for visualizing cluster distributions."
+        },
+        {
+          "key": "B",
+          "text": "To summarize a model's performance by presenting the counts of correct and incorrect predictions made.",
+          "is_correct": true,
+          "rationale": "A confusion matrix summarizes prediction accuracy by categorizing true/false positives/negatives."
+        },
+        {
+          "key": "C",
+          "text": "To identify the most important features utilized by a machine learning model during the training process.",
+          "is_correct": false,
+          "rationale": "Feature importance assesses feature relevance, not the purpose of a confusion matrix."
+        },
+        {
+          "key": "D",
+          "text": "To measure the strength and direction of the correlation between different independent variables in a dataset.",
+          "is_correct": false,
+          "rationale": "Correlation matrices assess variable relationships, not model prediction performance."
+        },
+        {
+          "key": "E",
+          "text": "To determine the optimal number of clusters to use in an unsupervised learning task or algorithm.",
+          "is_correct": false,
+          "rationale": "Cluster evaluation uses different metrics; confusion matrix is for classification."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Which of the following represents a popular and widely-used Python library for data manipulation and analysis?",
+      "options": [
+        {
+          "key": "A",
+          "text": "TensorFlow, a library primarily used for building and training complex deep learning models and neural networks.",
+          "is_correct": false,
+          "rationale": "TensorFlow focuses on deep learning, not general data manipulation and analysis."
+        },
+        {
+          "key": "B",
+          "text": "Pandas, providing high-performance data structures and analysis tools for efficient data manipulation tasks.",
+          "is_correct": true,
+          "rationale": "Pandas excels at data manipulation and analysis with DataFrames and Series."
+        },
+        {
+          "key": "C",
+          "text": "Scikit-learn, a library mainly used for implementing various machine learning algorithms and model evaluation.",
+          "is_correct": false,
+          "rationale": "Scikit-learn is for machine learning algorithms, not core data manipulation."
+        },
+        {
+          "key": "D",
+          "text": "Matplotlib, primarily used for creating static, interactive, and animated visualizations of data in Python.",
+          "is_correct": false,
+          "rationale": "Matplotlib is for data visualization, not the manipulation of data structures."
+        },
+        {
+          "key": "E",
+          "text": "Keras, a high-level neural networks API that runs on top of TensorFlow or other backends like Theano.",
+          "is_correct": false,
+          "rationale": "Keras is a neural network API, not for general data manipulation tasks."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is the fundamental purpose of employing cross-validation during machine learning model development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To reduce the dimensionality of the dataset by strategically selecting the most important and relevant features.",
+          "is_correct": false,
+          "rationale": "Cross-validation assesses model performance, while feature selection reduces dimensionality."
+        },
+        {
+          "key": "B",
+          "text": "To estimate how well a model will generalize to new, unseen data by testing it on multiple subsets.",
+          "is_correct": true,
+          "rationale": "Cross-validation provides a more robust estimate of generalization by using multiple splits."
+        },
+        {
+          "key": "C",
+          "text": "To optimize the hyperparameters of a machine learning model using techniques like grid search or random search.",
+          "is_correct": false,
+          "rationale": "Cross-validation helps evaluate hyperparameter choices, but isn't the optimization itself."
+        },
+        {
+          "key": "D",
+          "text": "To visualize the relationships and patterns between different variables present within the dataset.",
+          "is_correct": false,
+          "rationale": "Cross-validation is for model evaluation, not for visualizing data relationships."
+        },
+        {
+          "key": "E",
+          "text": "To clean and preprocess the data by effectively handling missing values and identifying/removing outliers.",
+          "is_correct": false,
+          "rationale": "Data cleaning and preprocessing are separate steps from cross-validation procedures."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Which type of chart is generally considered the most suitable for displaying the distribution of a single numerical variable?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Scatter plot, primarily used to visualize the relationship or correlation between two distinct numerical variables.",
+          "is_correct": false,
+          "rationale": "Scatter plots show relationships between two variables, not the distribution of one."
+        },
+        {
+          "key": "B",
+          "text": "Bar chart, commonly used to compare the values of different categories or distinct groups of data.",
+          "is_correct": false,
+          "rationale": "Bar charts compare categories, not the distribution of a single numerical variable."
+        },
+        {
+          "key": "C",
+          "text": "Pie chart, used to show the proportion or percentage of different categories that make up a whole.",
+          "is_correct": false,
+          "rationale": "Pie charts show proportions of categories, not the distribution of numerical data."
+        },
+        {
+          "key": "D",
+          "text": "Line chart, used to display trends in data over time or across another continuous independent variable.",
+          "is_correct": false,
+          "rationale": "Line charts show trends, not the distribution of a single numerical variable."
+        },
+        {
+          "key": "E",
+          "text": "Histogram, effectively displaying the frequency distribution of a single numerical variable using bins.",
+          "is_correct": true,
+          "rationale": "Histograms effectively show the frequency of values within bins for a single variable."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the overarching purpose of feature engineering within the field of machine learning?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To select the most relevant features from a dataset using various statistical methods and techniques.",
+          "is_correct": false,
+          "rationale": "Feature selection chooses from existing features, not creating new ones."
+        },
+        {
+          "key": "B",
+          "text": "To transform raw data into informative features that improve model performance and interpretability effectively.",
+          "is_correct": true,
+          "rationale": "Feature engineering creates new or modifies existing features to enhance model accuracy."
+        },
+        {
+          "key": "C",
+          "text": "To reduce the dimensionality of the data by projecting it onto a lower-dimensional feature subspace.",
+          "is_correct": false,
+          "rationale": "Dimensionality reduction simplifies data, but isn't the core purpose of feature engineering."
+        },
+        {
+          "key": "D",
+          "text": "To evaluate the performance of a machine learning model using cross-validation techniques and metrics.",
+          "is_correct": false,
+          "rationale": "Cross-validation evaluates model performance, not the process of feature creation."
+        },
+        {
+          "key": "E",
+          "text": "To normalize or standardize the data to a specific range of values, ensuring consistent scales across features.",
+          "is_correct": false,
+          "rationale": "Normalization scales features, not the same as creating new features."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Which of the following algorithms is categorized as an unsupervised learning algorithm in machine learning?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Decision Tree, a supervised learning algorithm used for both classification and regression tasks effectively.",
+          "is_correct": false,
+          "rationale": "Decision Trees are supervised algorithms that require labeled training data."
+        },
+        {
+          "key": "B",
+          "text": "Random Forest, an ensemble learning method based on aggregating multiple decision trees for improved accuracy.",
+          "is_correct": false,
+          "rationale": "Random Forests are supervised learning algorithms that use labeled data."
+        },
+        {
+          "key": "C",
+          "text": "K-Nearest Neighbors (KNN), a supervised algorithm used for classification and regression based on proximity.",
+          "is_correct": false,
+          "rationale": "KNN is a supervised algorithm that relies on labeled data for classification."
+        },
+        {
+          "key": "D",
+          "text": "Linear Regression, a supervised learning algorithm for predicting continuous values based on linear relationships.",
+          "is_correct": false,
+          "rationale": "Linear Regression is supervised and requires labeled data to learn relationships."
+        },
+        {
+          "key": "E",
+          "text": "K-Means Clustering, grouping data points into clusters based on similarity without requiring labeled data.",
+          "is_correct": true,
+          "rationale": "K-Means groups data without labels, identifying clusters based on feature similarity."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is the primary purpose of utilizing a 'JOIN' operation within the context of SQL queries?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To filter rows from a table based on a specified condition or set of criteria defined in the query.",
+          "is_correct": false,
+          "rationale": "Filtering rows is the function of the WHERE clause, not the JOIN operation."
+        },
+        {
+          "key": "B",
+          "text": "To combine rows from two or more tables based on a related column or set of columns.",
+          "is_correct": true,
+          "rationale": "JOIN combines rows based on related columns, creating a unified dataset."
+        },
+        {
+          "key": "C",
+          "text": "To sort the rows in a table based on one or more columns in ascending or descending order.",
+          "is_correct": false,
+          "rationale": "Sorting is done with the ORDER BY clause, not the JOIN operation."
+        },
+        {
+          "key": "D",
+          "text": "To aggregate data in a table by grouping rows with the same values in one or more columns.",
+          "is_correct": false,
+          "rationale": "Aggregation is performed using GROUP BY, not the JOIN operation."
+        },
+        {
+          "key": "E",
+          "text": "To insert new rows into a table with specified values for each of the table's columns.",
+          "is_correct": false,
+          "rationale": "Inserting rows is done with the INSERT INTO statement, not the JOIN operation."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Which evaluation metric is generally considered most suitable for assessing a classification model dealing with imbalanced classes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Accuracy, measuring the overall proportion of correctly classified instances in the dataset.",
+          "is_correct": false,
+          "rationale": "Accuracy can be misleading with imbalanced classes, favoring the majority class."
+        },
+        {
+          "key": "B",
+          "text": "Precision, measuring the proportion of true positives among all instances predicted as positive.",
+          "is_correct": false,
+          "rationale": "Precision alone doesn't account for false negatives in imbalanced datasets."
+        },
+        {
+          "key": "C",
+          "text": "Recall, measuring the proportion of true positives among all actual positive instances in the dataset.",
+          "is_correct": false,
+          "rationale": "Recall alone doesn't account for false positives in imbalanced datasets."
+        },
+        {
+          "key": "D",
+          "text": "F1-score, the harmonic mean of precision and recall, providing a balanced measure of performance.",
+          "is_correct": true,
+          "rationale": "F1-score balances precision and recall, offering a better measure for imbalanced data."
+        },
+        {
+          "key": "E",
+          "text": "Specificity, measuring the proportion of true negatives among all actual negative instances.",
+          "is_correct": false,
+          "rationale": "Specificity focuses on the negative class, not a balanced view for imbalanced data."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is the primary purpose of applying regularization techniques in machine learning models?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To increase the complexity of a model, enabling it to fit the training data more closely and accurately.",
+          "is_correct": false,
+          "rationale": "Regularization reduces complexity, preventing overfitting by simplifying the model."
+        },
+        {
+          "key": "B",
+          "text": "To prevent overfitting by adding a penalty term to the model's loss function during training.",
+          "is_correct": true,
+          "rationale": "Regularization penalizes complex models, encouraging simpler solutions and better generalization."
+        },
+        {
+          "key": "C",
+          "text": "To significantly speed up the training process of a machine learning model, reducing computational time.",
+          "is_correct": false,
+          "rationale": "Regularization primarily affects model complexity and generalization, not training speed."
+        },
+        {
+          "key": "D",
+          "text": "To improve the interpretability of a machine learning model by simplifying its overall structure.",
+          "is_correct": false,
+          "rationale": "While it can simplify, the primary goal is reducing overfitting, not direct interpretability."
+        },
+        {
+          "key": "E",
+          "text": "To handle missing values in the dataset by imputing them with estimated values based on available data.",
+          "is_correct": false,
+          "rationale": "Regularization focuses on model complexity, while imputation handles missing data."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Which of the following represents a commonly used data visualization library within the Python ecosystem?",
+      "options": [
+        {
+          "key": "A",
+          "text": "NumPy, primarily used for performing numerical computations and efficient array manipulation in Python.",
+          "is_correct": false,
+          "rationale": "NumPy focuses on numerical operations, not creating visualizations directly."
+        },
+        {
+          "key": "B",
+          "text": "Pandas, providing data structures and analysis tools, but not direct support for creating visualizations.",
+          "is_correct": false,
+          "rationale": "Pandas provides data structures, but visualization is typically done with other libraries."
+        },
+        {
+          "key": "C",
+          "text": "Scikit-learn, mainly used for implementing machine learning algorithms and model evaluation techniques.",
+          "is_correct": false,
+          "rationale": "Scikit-learn is for machine learning, not for creating data visualizations."
+        },
+        {
+          "key": "D",
+          "text": "Matplotlib, offering a wide range of plotting options for creating static visualizations in Python.",
+          "is_correct": true,
+          "rationale": "Matplotlib is a core library for creating diverse static plots and visualizations."
+        },
+        {
+          "key": "E",
+          "text": "Statsmodels, mainly used for statistical modeling, econometric analysis, and hypothesis testing.",
+          "is_correct": false,
+          "rationale": "Statsmodels is for statistical modeling, not general-purpose data visualization."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What is the specific purpose of employing the 'GROUP BY' clause within SQL queries?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To filter rows from a table based on a specified condition or set of conditions defined in the query.",
+          "is_correct": false,
+          "rationale": "Filtering rows is done using the WHERE clause, not the GROUP BY clause."
+        },
+        {
+          "key": "B",
+          "text": "To sort the rows in a table based on one or more columns in ascending or descending order.",
+          "is_correct": false,
+          "rationale": "Sorting is achieved using the ORDER BY clause, not the GROUP BY clause."
+        },
+        {
+          "key": "C",
+          "text": "To combine rows from two or more tables based on a related column or set of columns.",
+          "is_correct": false,
+          "rationale": "Combining tables is done using JOIN, not the GROUP BY clause for aggregation."
+        },
+        {
+          "key": "D",
+          "text": "To aggregate data in a table by grouping rows with the same values in one or more specified columns.",
+          "is_correct": true,
+          "rationale": "GROUP BY aggregates data based on column values, enabling calculations per group."
+        },
+        {
+          "key": "E",
+          "text": "To insert new rows into a table with specified values for each of the table's columns.",
+          "is_correct": false,
+          "rationale": "Inserting rows is done with INSERT INTO, not the aggregation function of GROUP BY."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Which of the following techniques can effectively help mitigate the problem of multicollinearity in regression models?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Increasing the sample size of the dataset to provide more information for the regression model.",
+          "is_correct": false,
+          "rationale": "Increasing sample size doesn't directly address multicollinearity's correlation issue."
+        },
+        {
+          "key": "B",
+          "text": "Adding interaction terms to the model to capture non-linear relationships between independent variables.",
+          "is_correct": false,
+          "rationale": "Interaction terms address non-linearity, not the issue of correlated predictors."
+        },
+        {
+          "key": "C",
+          "text": "Removing one or more of the highly correlated independent variables from the regression model.",
+          "is_correct": true,
+          "rationale": "Removing correlated variables directly reduces multicollinearity in the model."
+        },
+        {
+          "key": "D",
+          "text": "Applying feature scaling techniques to normalize the range of the independent variables in the dataset.",
+          "is_correct": false,
+          "rationale": "Feature scaling standardizes ranges, but does not address multicollinearity directly."
+        },
+        {
+          "key": "E",
+          "text": "Using polynomial regression to model non-linear relationships between the independent and dependent variables.",
+          "is_correct": false,
+          "rationale": "Polynomial regression models non-linearity, not multicollinearity among predictors."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is the specific purpose of utilizing a 'WHERE' clause within the context of SQL queries?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To sort the results of a query in a specific order based on one or more columns.",
+          "is_correct": false,
+          "rationale": "Sorting is accomplished using the 'ORDER BY' clause, not the 'WHERE' clause."
+        },
+        {
+          "key": "B",
+          "text": "To filter the rows returned by a query based on a specified condition or set of conditions.",
+          "is_correct": true,
+          "rationale": "The 'WHERE' clause filters rows based on a condition, limiting the query results."
+        },
+        {
+          "key": "C",
+          "text": "To group rows with the same values in one or more columns for aggregation purposes.",
+          "is_correct": false,
+          "rationale": "Grouping is performed using the 'GROUP BY' clause, not the 'WHERE' clause."
+        },
+        {
+          "key": "D",
+          "text": "To combine data from multiple tables into a single result set using join operations.",
+          "is_correct": false,
+          "rationale": "Combining tables is done using 'JOIN' operations, not the 'WHERE' clause."
+        },
+        {
+          "key": "E",
+          "text": "To calculate aggregate functions such as sum or average on specific columns in the table.",
+          "is_correct": false,
+          "rationale": "Aggregate functions are used with 'GROUP BY', and 'WHERE' filters rows beforehand."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Which of the following represents a common and appropriate method for evaluating the performance of a regression model?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Accuracy, measuring the proportion of correctly classified instances in a classification problem.",
+          "is_correct": false,
+          "rationale": "Accuracy is for classification; regression predicts continuous values, not classes."
+        },
+        {
+          "key": "B",
+          "text": "Precision, measuring the proportion of true positives among all instances predicted as positive.",
+          "is_correct": false,
+          "rationale": "Precision is used in classification, not for evaluating the continuous outputs of regression."
+        },
+        {
+          "key": "C",
+          "text": "Recall, measuring the proportion of true positives among all actual positive instances in the dataset.",
+          "is_correct": false,
+          "rationale": "Recall applies to classification problems, not regression's continuous value predictions."
+        },
+        {
+          "key": "D",
+          "text": "F1-score, the harmonic mean of precision and recall, balancing both metrics for classification.",
+          "is_correct": false,
+          "rationale": "F1-score is a classification metric, not suitable for evaluating regression performance."
+        },
+        {
+          "key": "E",
+          "text": "Mean Squared Error (MSE), calculating the average squared difference between predicted and actual values.",
+          "is_correct": true,
+          "rationale": "MSE quantifies the average squared difference, indicating the model's prediction accuracy."
+        }
+      ]
+    }
+  ]
+}

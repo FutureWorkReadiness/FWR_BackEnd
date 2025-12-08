@@ -1,8 +1,8 @@
 import logging
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from .api import users, quizzes, sectors, admin, goals
-from .models_hierarchical import Base
+from .api import users, quizzes, sectors, admin, goals, feedback
+from .models.models_hierarchical import Base
 from .database import engine
 from .db_init import auto_populate_if_empty
 
@@ -42,6 +42,7 @@ app.include_router(quizzes.router, prefix="/api", tags=["Quizzes"])
 app.include_router(sectors.router, prefix="/api", tags=["Sectors"])
 app.include_router(admin.router, prefix="/api", tags=["Admin"])
 app.include_router(goals.router, prefix="/api", tags=["Goals"])
+app.include_router(feedback.router, prefix="/api", tags=["Feedback"])
 
 @app.get("/")
 def root():

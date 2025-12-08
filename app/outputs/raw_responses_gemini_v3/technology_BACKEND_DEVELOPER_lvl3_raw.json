@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 101,
+      "question": "According to the CAP theorem, which two properties must a distributed database prioritize if it cannot guarantee partition tolerance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Consistency and Durability, forming a CD system that is robust against data corruption during network failures.",
+          "is_correct": false,
+          "rationale": "Durability is part of ACID, not CAP. Partition tolerance is a given in distributed systems, not a choice."
+        },
+        {
+          "key": "B",
+          "text": "Availability and Scalability, creating an AS system that can handle increased load even during network partitions.",
+          "is_correct": false,
+          "rationale": "Scalability is a system characteristic, not a core property of the CAP theorem. The choice is between C and A."
+        },
+        {
+          "key": "C",
+          "text": "Consistency and Availability, as partition tolerance is a reality of distributed systems that must be handled.",
+          "is_correct": true,
+          "rationale": "In the presence of a network partition (P), a system must choose between consistency (C) and availability (A)."
+        },
+        {
+          "key": "D",
+          "text": "Partition Tolerance and Latency, ensuring the system remains responsive even when network segments are isolated.",
+          "is_correct": false,
+          "rationale": "Latency is a performance metric, not one of the three core guarantees defined by the CAP theorem."
+        },
+        {
+          "key": "E",
+          "text": "Atomicity and Consistency, because these two ACID properties are fundamental for any reliable database transaction.",
+          "is_correct": false,
+          "rationale": "Atomicity is an ACID property. The CAP theorem specifically deals with Consistency, Availability, and Partition Tolerance."
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "question": "Which database sharding strategy is most susceptible to creating hotspots if the sharding key has a non-uniform distribution?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Geographic-based sharding, where data is stored based on the user's physical location for lower latency.",
+          "is_correct": false,
+          "rationale": "Geographic sharding is for latency and data residency, its hotspot potential depends on the distribution of users."
+        },
+        {
+          "key": "B",
+          "text": "Algorithmic or Hash-based sharding, where a hash function is applied to the sharding key to determine placement.",
+          "is_correct": false,
+          "rationale": "Hashing typically provides a uniform data distribution, making it less susceptible to hotspots from skewed keys."
+        },
+        {
+          "key": "C",
+          "text": "Directory-based sharding, which uses a lookup table to map sharding keys to their corresponding database shard.",
+          "is_correct": false,
+          "rationale": "Directory-based sharding is flexible but the hotspot issue is still tied to the key distribution, not the method itself."
+        },
+        {
+          "key": "D",
+          "text": "Range-based sharding, where data is partitioned based on a continuous range of values from the sharding key.",
+          "is_correct": true,
+          "rationale": "If the sharding key values are not uniformly distributed, certain ranges will receive disproportionately more traffic, creating hotspots."
+        },
+        {
+          "key": "E",
+          "text": "Entity-based sharding, where all data for a specific entity is grouped together on the same physical shard.",
+          "is_correct": false,
+          "rationale": "This is a concept of data locality, not a primary sharding strategy, and is susceptible to hotspots like others."
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "question": "In a distributed system, which pattern is most suitable for managing long-running transactions that span multiple microservices without using locking?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Two-Phase Commit (2PC) which ensures atomicity by using a central transaction coordinator to manage locks.",
+          "is_correct": false,
+          "rationale": "2PC uses locking and is synchronous, making it unsuitable for long-running transactions in a microservices architecture."
+        },
+        {
+          "key": "B",
+          "text": "The Saga pattern, which coordinates transactions using a sequence of local transactions with compensating actions.",
+          "is_correct": true,
+          "rationale": "Saga uses compensating transactions to undo previous steps if a later step fails, avoiding long-lived locks across services."
+        },
+        {
+          "key": "C",
+          "text": "The Circuit Breaker pattern, which prevents repeated calls to a failing service to improve system resilience.",
+          "is_correct": false,
+          "rationale": "Circuit Breaker is a resilience pattern, not a transaction management pattern for coordinating multiple services."
+        },
+        {
+          "key": "D",
+          "text": "The Read Replica pattern, which offloads read queries from the primary database to improve overall performance.",
+          "is_correct": false,
+          "rationale": "Read replicas are for scaling read operations and do not address distributed transaction management challenges."
+        },
+        {
+          "key": "E",
+          "text": "The Singleton pattern, which ensures only one instance of a class exists throughout the application lifecycle.",
+          "is_correct": false,
+          "rationale": "Singleton is a creational design pattern within a single service, unrelated to distributed transaction coordination."
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "question": "What is the primary purpose of implementing idempotency in a RESTful API endpoint, especially for POST or PUT requests?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure that every single API request receives a unique response payload from the server.",
+          "is_correct": false,
+          "rationale": "Idempotency is about the effect of requests, not the uniqueness of the response payload, which can vary."
+        },
+        {
+          "key": "B",
+          "text": "To guarantee that the server can process multiple different requests from the same client concurrently.",
+          "is_correct": false,
+          "rationale": "This describes concurrency handling, whereas idempotency is about the outcome of repeated identical requests."
+        },
+        {
+          "key": "C",
+          "text": "To allow a client to safely retry the same request multiple times without creating unintended side effects.",
+          "is_correct": true,
+          "rationale": "Idempotency ensures that repeating the same request produces the same result as the first, preventing duplicate resources or actions."
+        },
+        {
+          "key": "D",
+          "text": "To reduce the network latency by caching the request on the client side before sending it.",
+          "is_correct": false,
+          "rationale": "Client-side caching is a separate performance optimization and is not the purpose of server-side idempotency."
+        },
+        {
+          "key": "E",
+          "text": "To enforce stricter security policies by requiring a unique token for every state-changing API operation.",
+          "is_correct": false,
+          "rationale": "This describes a security mechanism like CSRF tokens, which is different from the concept of idempotency."
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "question": "Which cache-writing policy provides the best write performance by acknowledging the write immediately and updating the cache later?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Write-through, where data is written to both the cache and the database simultaneously before acknowledging.",
+          "is_correct": false,
+          "rationale": "Write-through ensures consistency but has higher latency as it waits for both writes to complete."
+        },
+        {
+          "key": "B",
+          "text": "Write-around, where data is written directly to the database, bypassing the cache entirely on write operations.",
+          "is_correct": false,
+          "rationale": "Write-around avoids filling the cache with write-only data but does not offer the fastest write acknowledgement."
+        },
+        {
+          "key": "C",
+          "text": "Write-back (or write-behind), where data is written only to the cache and acknowledged immediately.",
+          "is_correct": true,
+          "rationale": "Write-back offers the lowest latency by deferring the database write, but risks data loss if the cache fails."
+        },
+        {
+          "key": "D",
+          "text": "Cache-aside, where the application code is responsible for writing to the database and updating the cache.",
+          "is_correct": false,
+          "rationale": "Cache-aside is a read strategy; its write performance depends on how the application handles the database write."
+        },
+        {
+          "key": "E",
+          "text": "Read-through, where data is loaded from the database into the cache on the first read miss.",
+          "is_correct": false,
+          "rationale": "Read-through is a read policy and does not define the behavior for write operations."
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "question": "In the context of Kubernetes, what is the fundamental difference between a Liveness probe and a Readiness probe?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Liveness probes check if the application has started, while Readiness probes check if it is still running.",
+          "is_correct": false,
+          "rationale": "This is an incorrect description. Both can be active throughout the pod's lifecycle, not just at startup."
+        },
+        {
+          "key": "B",
+          "text": "A failed Liveness probe restarts the container, while a failed Readiness probe removes the pod from service endpoints.",
+          "is_correct": true,
+          "rationale": "Liveness probes detect unrecoverable states (restart), while Readiness probes detect temporary unavailability (remove from traffic)."
+        },
+        {
+          "key": "C",
+          "text": "Liveness probes are used for TCP connections, whereas Readiness probes are specifically designed for HTTP endpoints.",
+          "is_correct": false,
+          "rationale": "Both probe types support multiple mechanisms, including TCP, HTTP GET, and command execution, not just one."
+        },
+        {
+          "key": "D",
+          "text": "Readiness probes have a higher failure threshold by default, making them more tolerant to transient application issues.",
+          "is_correct": false,
+          "rationale": "Failure thresholds are configurable for both probe types and do not have different defaults that define their purpose."
+        },
+        {
+          "key": "E",
+          "text": "A Liveness probe failure triggers a cluster-wide alert, while a Readiness probe failure is only logged locally.",
+          "is_correct": false,
+          "rationale": "Both probe failures generate events within Kubernetes; alerting is a separate concern based on monitoring configuration."
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "question": "When designing a system with message queues, what is the primary function of a Dead-Letter Queue (DLQ)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To store messages that have expired their time-to-live (TTL) before being processed by any consumer.",
+          "is_correct": false,
+          "rationale": "While expired messages can be sent to a DLQ, its primary role is for unprocessable messages, not just expired ones."
+        },
+        {
+          "key": "B",
+          "text": "To act as a backup queue that takes over all message traffic if the primary queue becomes unavailable.",
+          "is_correct": false,
+          "rationale": "This describes a high-availability or failover mechanism, which is different from the purpose of a DLQ."
+        },
+        {
+          "key": "C",
+          "text": "To isolate and store messages that cannot be successfully processed by a consumer after several retry attempts.",
+          "is_correct": true,
+          "rationale": "A DLQ holds problematic messages for later analysis, preventing them from blocking the main queue or causing infinite retries."
+        },
+        {
+          "key": "D",
+          "text": "To archive all successfully processed messages for auditing and compliance purposes after they are consumed.",
+          "is_correct": false,
+          "rationale": "Archiving is a separate process. A DLQ is specifically for messages that failed processing, not successful ones."
+        },
+        {
+          "key": "E",
+          "text": "To temporarily hold messages when consumer applications are down for maintenance and then requeue them automatically.",
+          "is_correct": false,
+          "rationale": "Queues naturally hold messages for offline consumers. A DLQ is for messages that fail processing when consumers are active."
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "question": "Which SQL transaction isolation level prevents non-repeatable reads but is still vulnerable to phantom reads?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Read Uncommitted, which offers the lowest level of isolation and is vulnerable to dirty, non-repeatable, and phantom reads.",
+          "is_correct": false,
+          "rationale": "Read Uncommitted is the weakest level and does not prevent non-repeatable reads."
+        },
+        {
+          "key": "B",
+          "text": "Read Committed, which prevents dirty reads but allows both non-repeatable reads and phantom reads to occur.",
+          "is_correct": false,
+          "rationale": "Read Committed allows non-repeatable reads, so it does not meet the condition of preventing them."
+        },
+        {
+          "key": "C",
+          "text": "Repeatable Read, which ensures that rereading a row within a transaction will yield the same data.",
+          "is_correct": true,
+          "rationale": "Repeatable Read uses locks to prevent rows from changing, but new rows can still be inserted, causing phantom reads."
+        },
+        {
+          "key": "D",
+          "text": "Serializable, which provides the highest level of isolation by preventing dirty, non-repeatable, and phantom reads.",
+          "is_correct": false,
+          "rationale": "Serializable is the strictest level and prevents phantom reads, which contradicts the question's condition."
+        },
+        {
+          "key": "E",
+          "text": "Snapshot Isolation, which uses versioning to prevent all read phenomena without the use of extensive locking.",
+          "is_correct": false,
+          "rationale": "Snapshot isolation generally prevents phantom reads, though its behavior can vary by database implementation."
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "question": "What is a significant advantage of using gRPC with Protocol Buffers over a traditional JSON-based REST API?",
+      "options": [
+        {
+          "key": "A",
+          "text": "gRPC is universally supported by all web browsers without requiring any special libraries or gateways.",
+          "is_correct": false,
+          "rationale": "Browser support for gRPC is limited and typically requires a proxy like gRPC-Web, unlike native JSON APIs."
+        },
+        {
+          "key": "B",
+          "text": "The JSON format is human-readable, making it inherently easier to debug and integrate with third-party services.",
+          "is_correct": false,
+          "rationale": "This is an advantage of JSON/REST, not gRPC. Protocol Buffers are a binary format and not human-readable."
+        },
+        {
+          "key": "C",
+          "text": "It offers superior performance through binary serialization and multiplexing streams over a single TCP connection.",
+          "is_correct": true,
+          "rationale": "gRPC leverages HTTP/2 for efficiency, and Protocol Buffers provide a compact, fast binary format, reducing payload size and latency."
+        },
+        {
+          "key": "D",
+          "text": "gRPC enforces a stateless communication model, which simplifies server-side scaling and load balancing.",
+          "is_correct": false,
+          "rationale": "REST is inherently stateless. gRPC can support both stateless unary calls and long-lived stateful streaming connections."
+        },
+        {
+          "key": "E",
+          "text": "It uses standard HTTP verbs like GET, POST, and PUT, making the API contract immediately understandable.",
+          "is_correct": false,
+          "rationale": "gRPC does not map directly to HTTP verbs. It uses POST for all requests with custom methods defined in the service."
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "question": "In the Command Query Responsibility Segregation (CQRS) pattern, how are the read and write models typically synchronized?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Through synchronous, two-phase commit transactions that ensure both models are updated atomically within the same operation.",
+          "is_correct": false,
+          "rationale": "CQRS avoids synchronous updates and locking. Using 2PC would negate the pattern's benefits of separation and scalability."
+        },
+        {
+          "key": "B",
+          "text": "The read model directly queries the write model's database tables using complex joins for real-time data access.",
+          "is_correct": false,
+          "rationale": "This defeats the purpose of having separate, optimized models. The read model should have its own denormalized data store."
+        },
+        {
+          "key": "C",
+          "text": "By using a shared database cache that both the command and query sides read from and write to.",
+          "is_correct": false,
+          "rationale": "A shared cache can be part of the architecture, but it is not the primary mechanism for synchronizing the models."
+        },
+        {
+          "key": "D",
+          "text": "Through an event-driven approach where the write model publishes events that the read model subscribes to.",
+          "is_correct": true,
+          "rationale": "This is the most common approach. Events from the write side trigger updates to the read model, leading to eventual consistency."
+        },
+        {
+          "key": "E",
+          "text": "A nightly batch job processes all changes from the write model and applies them to the read model.",
+          "is_correct": false,
+          "rationale": "While possible, a nightly batch job would result in very high data latency, which is usually undesirable."
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "question": "Which OAuth 2.0 grant type is most secure and recommended for confidential clients like traditional web applications?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Implicit Grant, because it directly provides an access token to the client without any intermediate steps.",
+          "is_correct": false,
+          "rationale": "Implicit Grant is less secure as the token is exposed in the URL; it's a legacy flow for public clients."
+        },
+        {
+          "key": "B",
+          "text": "Resource Owner Password Credentials Grant, as it simplifies the user experience by handling credentials directly.",
+          "is_correct": false,
+          "rationale": "This grant is discouraged as it exposes user credentials to the client application, increasing security risks."
+        },
+        {
+          "key": "C",
+          "text": "Client Credentials Grant, which is used when the application is accessing resources on its own behalf.",
+          "is_correct": false,
+          "rationale": "This grant is for machine-to-machine communication and does not involve a resource owner (user) authenticating."
+        },
+        {
+          "key": "D",
+          "text": "Authorization Code Grant, which uses a temporary code exchanged for a token on the back channel.",
+          "is_correct": true,
+          "rationale": "This flow is most secure because the access token is never exposed to the user-agent (browser) and requires a client secret."
+        },
+        {
+          "key": "E",
+          "text": "Refresh Token Grant, which allows a client to obtain a new access token without user interaction.",
+          "is_correct": false,
+          "rationale": "The Refresh Token is part of other flows (like Authorization Code), not a standalone grant type for initial authorization."
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "question": "What is the primary motivation for using the Circuit Breaker pattern in a microservices architecture?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To encrypt the network traffic flowing between different microservices to ensure data privacy and security.",
+          "is_correct": false,
+          "rationale": "Encryption is a security concern handled by protocols like TLS, not the Circuit Breaker pattern."
+        },
+        {
+          "key": "B",
+          "text": "To prevent a network failure from cascading to other services by stopping requests to a failing service.",
+          "is_correct": true,
+          "rationale": "The pattern stops sending requests to an unhealthy service, preventing the caller from wasting resources and failing itself."
+        },
+        {
+          "key": "C",
+          "text": "To manage distributed transactions across multiple services by providing a mechanism for two-phase commits.",
+          "is_correct": false,
+          "rationale": "This describes a transaction coordinator. Circuit Breaker is a resilience pattern, not a transaction management pattern."
+        },
+        {
+          "key": "D",
+          "text": "To dynamically route incoming API requests to the healthiest and most available instance of a service.",
+          "is_correct": false,
+          "rationale": "This is the function of a load balancer or service mesh, not the Circuit Breaker pattern itself."
+        },
+        {
+          "key": "E",
+          "text": "To provide a centralized logging and monitoring point for all inter-service communication within the system.",
+          "is_correct": false,
+          "rationale": "Logging and monitoring are observability concerns, while the Circuit Breaker is focused on fault tolerance."
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "question": "When solving the N+1 query problem in an ORM, what is the most common and effective technique?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Increasing the database connection pool size to handle the large number of individual queries more efficiently.",
+          "is_correct": false,
+          "rationale": "This might mitigate the impact but does not solve the root cause, which is the excessive number of queries."
+        },
+        {
+          "key": "B",
+          "text": "Implementing a caching layer to store the results of the 'N' subsequent queries after the first execution.",
+          "is_correct": false,
+          "rationale": "Caching can help, but the fundamental solution is to reduce the number of queries sent to the database."
+        },
+        {
+          "key": "C",
+          "text": "Manually writing raw SQL queries to bypass the ORM's default behavior for fetching related entities.",
+          "is_correct": false,
+          "rationale": "While possible, most ORMs provide features to solve this, and bypassing the ORM should be a last resort."
+        },
+        {
+          "key": "D",
+          "text": "Using eager loading (e.g., JOIN FETCH) to retrieve the primary objects and their related collections in a single query.",
+          "is_correct": true,
+          "rationale": "Eager loading instructs the ORM to fetch all necessary data at once, reducing N+1 queries to just one or two."
+        },
+        {
+          "key": "E",
+          "text": "Denormalizing the database schema so that all required data is stored in a single, wide table.",
+          "is_correct": false,
+          "rationale": "Denormalization is a major architectural change and not the standard, targeted solution for an N+1 query problem."
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "question": "What is the key difference between Event Sourcing and maintaining a traditional state-oriented entity model in a database?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Event Sourcing uses a relational database, while traditional models must use a NoSQL document store.",
+          "is_correct": false,
+          "rationale": "The choice of database is independent of the pattern; both can be implemented on various database types."
+        },
+        {
+          "key": "B",
+          "text": "Event Sourcing stores only the latest state of an entity, optimizing for fast read performance.",
+          "is_correct": false,
+          "rationale": "This is the opposite. Traditional models store the current state; Event Sourcing stores the sequence of state-changing events."
+        },
+        {
+          "key": "C",
+          "text": "Event Sourcing stores an immutable sequence of events, from which the current state is derived.",
+          "is_correct": true,
+          "rationale": "The core principle of Event Sourcing is to persist the full history of changes as events, not just the final state."
+        },
+        {
+          "key": "D",
+          "text": "Traditional models are inherently more scalable because they require fewer database writes for each business operation.",
+          "is_correct": false,
+          "rationale": "Event Sourcing often scales better for write-heavy systems because writes are fast, append-only operations."
+        },
+        {
+          "key": "E",
+          "text": "Event Sourcing is a synchronous pattern, while traditional state persistence is designed for asynchronous systems.",
+          "is_correct": false,
+          "rationale": "Both can be used in either synchronous or asynchronous contexts. Event Sourcing is often paired with asynchronous processing."
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "question": "In a distributed caching system like Redis or Memcached, what problem does consistent hashing primarily solve?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It ensures that every cache node stores an equal amount of data, achieving perfect load balancing.",
+          "is_correct": false,
+          "rationale": "While it improves balance, it doesn't guarantee perfection. Its main goal is minimizing disruption during resizes."
+        },
+        {
+          "key": "B",
+          "text": "It prevents cache stampedes by adding a random jitter to the expiration times of popular cache keys.",
+          "is_correct": false,
+          "rationale": "This describes expiration jitter, a different technique for preventing thundering herd problems, not consistent hashing."
+        },
+        {
+          "key": "C",
+          "text": "It minimizes the number of keys that need to be remapped when a cache node is added or removed.",
+          "is_correct": true,
+          "rationale": "Consistent hashing ensures that adding or removing a node only affects its immediate neighbors on the hash ring."
+        },
+        {
+          "key": "D",
+          "text": "It encrypts the keys before they are stored in the cache to ensure data security and privacy.",
+          "is_correct": false,
+          "rationale": "Consistent hashing is a distribution algorithm for mapping keys to nodes; it is not related to encryption."
+        },
+        {
+          "key": "E",
+          "text": "It guarantees that read and write operations for the same key are always atomic and isolated.",
+          "is_correct": false,
+          "rationale": "Atomicity is a property of the cache system's commands (like SETNX), not a feature provided by consistent hashing."
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "question": "What is the primary benefit of stream multiplexing, a key feature introduced in the HTTP/2 protocol?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It allows the server to proactively push resources to the client's cache before they are explicitly requested.",
+          "is_correct": false,
+          "rationale": "This describes Server Push, another feature of HTTP/2, but it is distinct from multiplexing."
+        },
+        {
+          "key": "B",
+          "text": "It enables the transmission of multiple requests and responses concurrently over a single TCP connection.",
+          "is_correct": true,
+          "rationale": "Multiplexing solves the head-of-line blocking problem in HTTP/1.1 by allowing parallel, non-blocking resource transfers."
+        },
+        {
+          "key": "C",
+          "text": "It compresses the HTTP headers using the HPACK algorithm to reduce the overall size of requests.",
+          "is_correct": false,
+          "rationale": "This describes Header Compression, another important but separate feature of the HTTP/2 protocol."
+        },
+        {
+          "key": "D",
+          "text": "It upgrades a standard HTTP connection to a secure TLS connection automatically without requiring a redirect.",
+          "is_correct": false,
+          "rationale": "Connection security (TLS) is a prerequisite for HTTP/2 in browsers but is not the function of multiplexing."
+        },
+        {
+          "key": "E",
+          "text": "It converts the protocol from a text-based format to a binary format for more efficient parsing.",
+          "is_correct": false,
+          "rationale": "This describes the binary framing layer of HTTP/2, which enables features like multiplexing but is not the benefit itself."
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "question": "Which condition is necessary for a deadlock to occur in a multithreaded application involving resource locking?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Starvation, where a single thread is perpetually denied access to a resource it needs to proceed.",
+          "is_correct": false,
+          "rationale": "Starvation is a possible outcome of scheduling but is not a necessary condition for a deadlock to occur."
+        },
+        {
+          "key": "B",
+          "text": "A race condition, where the outcome of the program depends on the non-deterministic scheduling of threads.",
+          "is_correct": false,
+          "rationale": "Race conditions are a different concurrency issue. Deadlocks are about resource allocation, not timing of operations."
+        },
+        {
+          "key": "C",
+          "text": "Circular wait, where two or more threads are waiting for a resource held by another in the chain.",
+          "is_correct": true,
+          "rationale": "Circular wait is one of the four necessary Coffman conditions for a deadlock, along with mutual exclusion, hold-and-wait, and no preemption."
+        },
+        {
+          "key": "D",
+          "text": "High thread contention, where many threads are frequently competing for access to the same shared resource.",
+          "is_correct": false,
+          "rationale": "High contention can increase the likelihood of a deadlock but is not a fundamental, required condition for one to exist."
+        },
+        {
+          "key": "E",
+          "text": "The use of optimistic locking, where conflicts are detected at commit time rather than through upfront locking.",
+          "is_correct": false,
+          "rationale": "Optimistic locking is a strategy to avoid deadlocks, as it doesn't hold locks while processing data."
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "question": "When using JSON Web Tokens (JWTs), what is the security advantage of using an asymmetric algorithm like RS256 over a symmetric one like HS256?",
+      "options": [
+        {
+          "key": "A",
+          "text": "RS256 produces a significantly shorter token signature, which reduces the overall network bandwidth usage.",
+          "is_correct": false,
+          "rationale": "Asymmetric signatures (RS256) are typically much larger than symmetric ones (HS256), not shorter."
+        },
+        {
+          "key": "B",
+          "text": "The server that verifies the token only needs the public key, not the private secret used for signing.",
+          "is_correct": true,
+          "rationale": "This separation is key. The private key can be kept secure on the auth server, while resource servers only need the public key to verify."
+        },
+        {
+          "key": "C",
+          "text": "RS256 is computationally faster to both sign and verify, making it better for high-performance systems.",
+          "is_correct": false,
+          "rationale": "Asymmetric algorithms like RS256 are significantly slower than symmetric ones like HS256 for both signing and verification."
+        },
+        {
+          "key": "D",
+          "text": "HS256 algorithms have known cryptographic vulnerabilities that make them unsuitable for production use.",
+          "is_correct": false,
+          "rationale": "HS256 (HMAC with SHA-256) is a secure algorithm; the security difference lies in the key management model, not the algorithm's strength."
+        },
+        {
+          "key": "E",
+          "text": "Only RS256 allows for the inclusion of custom claims like user roles and permissions in the token payload.",
+          "is_correct": false,
+          "rationale": "The content of the JWT payload is independent of the signing algorithm used; both support custom claims."
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "question": "In a microservices environment, what is the primary role of a service discovery mechanism like Consul or Eureka?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To act as a centralized API Gateway that authenticates, authorizes, and routes all incoming client requests.",
+          "is_correct": false,
+          "rationale": "This describes an API Gateway. Service discovery is about finding service locations, not routing external traffic."
+        },
+        {
+          "key": "B",
+          "text": "To provide a real-time, dynamic registry of service instances and their network locations (IP and port).",
+          "is_correct": true,
+          "rationale": "It allows services to find and communicate with each other without hardcoding locations, enabling elasticity and resilience."
+        },
+        {
+          "key": "C",
+          "text": "To manage and distribute centralized configuration properties to all microservices within the application ecosystem.",
+          "is_correct": false,
+          "rationale": "This is the role of a configuration server. While often integrated, it's a separate concern from service discovery."
+        },
+        {
+          "key": "D",
+          "text": "To collect, aggregate, and visualize logs and metrics from all running service instances for observability.",
+          "is_correct": false,
+          "rationale": "This describes a monitoring and logging stack (e.g., Prometheus, ELK), not a service discovery tool."
+        },
+        {
+          "key": "E",
+          "text": "To enforce security policies and manage encrypted communication between services using mutual TLS (mTLS).",
+          "is_correct": false,
+          "rationale": "This is a function of a service mesh (like Istio), which often includes service discovery but has a broader security scope."
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "question": "What is the main purpose of the Sidecar pattern in a containerized microservices architecture like Kubernetes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To run a completely independent secondary application alongside the main application for high availability.",
+          "is_correct": false,
+          "rationale": "A sidecar is tightly coupled and augments the main container; it is not for running an independent failover application."
+        },
+        {
+          "key": "B",
+          "text": "To isolate the main application's data by storing it in a separate, dedicated container volume.",
+          "is_correct": false,
+          "rationale": "Data isolation is managed through volumes, which can be shared between a main container and its sidecar."
+        },
+        {
+          "key": "C",
+          "text": "To augment or enhance the main container with cross-cutting concerns like logging, monitoring, or proxying.",
+          "is_correct": true,
+          "rationale": "The sidecar offloads common infrastructure tasks, allowing the main application to focus solely on its business logic."
+        },
+        {
+          "key": "D",
+          "text": "To provide a simplified interface or API for a legacy application running in the main container.",
+          "is_correct": false,
+          "rationale": "This describes the Ambassador or Anti-Corruption Layer patterns, which are different from the Sidecar pattern."
+        },
+        {
+          "key": "E",
+          "text": "To allow multiple replicas of the main application to share a single network identity and storage.",
+          "is_correct": false,
+          "rationale": "This describes the core functionality of a Kubernetes Pod, which is the context where the Sidecar pattern is implemented."
+        }
+      ]
+    }
+  ]
+}

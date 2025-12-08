@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "How does tree shaking primarily optimize the final bundle size in modern JavaScript bundlers like Webpack or Rollup?",
+      "options": [
+        {
+          "key": "A",
+          "text": "By compressing JavaScript files using algorithms like Gzip or Brotli before they are served to the client.",
+          "is_correct": false,
+          "rationale": "This describes server-side compression, which is a different optimization technique from tree shaking."
+        },
+        {
+          "key": "B",
+          "text": "By analyzing static `import` and `export` statements to eliminate unreachable or unused code from the final bundle.",
+          "is_correct": true,
+          "rationale": "Tree shaking is a dead code elimination process that relies on static analysis of ES modules."
+        },
+        {
+          "key": "C",
+          "text": "By automatically converting large image assets into more optimized next-generation formats like WebP or AVIF.",
+          "is_correct": false,
+          "rationale": "This is asset optimization, a valuable but separate process from JavaScript tree shaking."
+        },
+        {
+          "key": "D",
+          "text": "By splitting the application code into smaller, logical chunks that can be loaded on demand by the browser.",
+          "is_correct": false,
+          "rationale": "This technique is known as code splitting, which is different from eliminating unused code from within those chunks."
+        },
+        {
+          "key": "E",
+          "text": "By caching third-party library code in the browser to prevent re-downloading on subsequent user visits.",
+          "is_correct": false,
+          "rationale": "This describes browser caching strategies, which are unrelated to how a bundler constructs the initial code."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the primary architectural advantage of using Module Federation for a micro-frontend implementation over traditional iframes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It provides perfect security sandboxing between micro-frontends, preventing any potential DOM or style conflicts.",
+          "is_correct": false,
+          "rationale": "Iframes offer stronger isolation, whereas Module Federation allows for more integrated, but less isolated, applications."
+        },
+        {
+          "key": "B",
+          "text": "It allows separately deployed applications to share dependencies at runtime, avoiding redundant downloads and improving performance.",
+          "is_correct": true,
+          "rationale": "The core benefit is efficient dependency sharing at runtime between independently deployed frontends."
+        },
+        {
+          "key": "C",
+          "text": "It enforces the use of a single JavaScript framework across all micro-frontends to ensure code consistency.",
+          "is_correct": false,
+          "rationale": "Module Federation is framework-agnostic, allowing teams to use different technologies like React, Vue, or Angular."
+        },
+        {
+          "key": "D",
+          "text": "It simplifies the local development setup by bundling all micro-frontends into a single monolithic application.",
+          "is_correct": false,
+          "rationale": "It is designed to support independent development and deployment, not to create a monolith for development."
+        },
+        {
+          "key": "E",
+          "text": "It completely eliminates the need for a shared component library or design system across different teams.",
+          "is_correct": false,
+          "rationale": "While it facilitates code sharing, it doesn't replace the need for a coordinated design system for UI consistency."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which HTTP header provides the most effective, browser-enforced defense against Cross-Site Scripting (XSS) by restricting script sources?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The `Access-Control-Allow-Origin` header, which controls which origins are permitted to read a resource.",
+          "is_correct": false,
+          "rationale": "This header is for Cross-Origin Resource Sharing (CORS) and does not directly prevent XSS attacks."
+        },
+        {
+          "key": "B",
+          "text": "The `X-XSS-Protection` header, which enables the browser's built-in reflective XSS filtering mechanism.",
+          "is_correct": false,
+          "rationale": "This header is deprecated in modern browsers as it can introduce vulnerabilities and is less effective than CSP."
+        },
+        {
+          "key": "C",
+          "text": "The `Content-Security-Policy` header, which lets you define a whitelist of approved sources for content.",
+          "is_correct": true,
+          "rationale": "CSP is the modern standard for mitigating XSS by controlling which resources (like scripts) can be loaded."
+        },
+        {
+          "key": "D",
+          "text": "The `Strict-Transport-Security` header, which forces all communication over HTTPS to prevent man-in-the-middle attacks.",
+          "is_correct": false,
+          "rationale": "HSTS enforces secure connections but does not protect against XSS, which involves injecting malicious scripts."
+        },
+        {
+          "key": "E",
+          "text": "The `X-Content-Type-Options` header with a value of `nosniff` to prevent MIME-type sniffing.",
+          "is_correct": false,
+          "rationale": "This header prevents certain attacks but is not the primary mechanism for controlling script execution sources like CSP."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "In a large React application, what is a key performance drawback of using the Context API for high-frequency state updates?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Context API introduces significant memory leaks when used with functional components and hooks in complex applications.",
+          "is_correct": false,
+          "rationale": "Memory leaks are not an inherent drawback of Context API but rather a result of incorrect implementation."
+        },
+        {
+          "key": "B",
+          "text": "All components consuming a context will re-render whenever the context's value changes, even if they use different parts.",
+          "is_correct": true,
+          "rationale": "Context does not have a selector mechanism, causing all consumers to re-render on any value change."
+        },
+        {
+          "key": "C",
+          "text": "It is not compatible with server-side rendering (SSR), making it unsuitable for applications requiring SEO.",
+          "is_correct": false,
+          "rationale": "React Context is fully compatible with SSR frameworks like Next.js and can be used effectively."
+        },
+        {
+          "key": "D",
+          "text": "The API requires writing excessive boilerplate code compared to dedicated state management libraries like Redux.",
+          "is_correct": false,
+          "rationale": "Context API is generally considered to have less boilerplate than traditional Redux for simple use cases."
+        },
+        {
+          "key": "E",
+          "text": "It cannot store non-serializable data, such as functions or class instances, within its state value.",
+          "is_correct": false,
+          "rationale": "Context can hold any JavaScript value, including functions and objects, unlike some state persistence tools."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "When analyzing web performance, what does the Largest Contentful Paint (LCP) metric specifically measure for a user?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The total time it takes for the entire page and all of its sub-resources to finish loading.",
+          "is_correct": false,
+          "rationale": "This describes the `load` event, not LCP, which focuses on a single, large element."
+        },
+        {
+          "key": "B",
+          "text": "The time from when the page starts loading to when the largest image or text block is rendered.",
+          "is_correct": true,
+          "rationale": "LCP measures perceived load speed by marking when the main content of the page is likely visible."
+        },
+        {
+          "key": "C",
+          "text": "The time it takes for the browser to respond to the first user interaction, such as a click.",
+          "is_correct": false,
+          "rationale": "This describes First Input Delay (FID) or Interaction to Next Paint (INP), which measure interactivity."
+        },
+        {
+          "key": "D",
+          "text": "The amount of unexpected layout shift that occurs during the entire lifespan of the page.",
+          "is_correct": false,
+          "rationale": "This describes Cumulative Layout Shift (CLS), which measures visual stability, not loading performance."
+        },
+        {
+          "key": "E",
+          "text": "The point in time when the first piece of DOM content is painted on the screen.",
+          "is_correct": false,
+          "rationale": "This describes First Contentful Paint (FCP), which occurs earlier than LCP in the page load timeline."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "In TypeScript, what is the primary purpose of using the `satisfies` operator, introduced in version 4.9?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It forces a variable to be of a specific type, throwing a runtime error if the assignment fails.",
+          "is_correct": false,
+          "rationale": "TypeScript is a compile-time tool; it does not throw runtime errors for type mismatches."
+        },
+        {
+          "key": "B",
+          "text": "It validates that an object conforms to a type while preserving its more specific, inferred type.",
+          "is_correct": true,
+          "rationale": "`satisfies` ensures type safety without widening the type, allowing access to specific properties later."
+        },
+        {
+          "key": "C",
+          "text": "It creates a new type that is a union of two or more existing types.",
+          "is_correct": false,
+          "rationale": "This is accomplished using the `|` (union) operator, not `satisfies`."
+        },
+        {
+          "key": "D",
+          "text": "It acts as a type guard to narrow down the type of a variable within a conditional block.",
+          "is_correct": false,
+          "rationale": "This is the function of operators like `typeof`, `instanceof`, or user-defined type predicates."
+        },
+        {
+          "key": "E",
+          "text": "It is an alias for the `as` keyword, providing an alternative syntax for type assertions.",
+          "is_correct": false,
+          "rationale": "`as` is a direct type assertion that can be less safe, while `satisfies` validates without overriding the inferred type."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What is the fundamental difference between Server-Side Rendering (SSR) and Static Site Generation (SSG) in a framework like Next.js?",
+      "options": [
+        {
+          "key": "A",
+          "text": "SSR pages are rendered entirely on the client's browser, while SSG pages are rendered on the server.",
+          "is_correct": false,
+          "rationale": "Both SSR and SSG involve server-side or build-time rendering; neither is purely client-side rendered."
+        },
+        {
+          "key": "B",
+          "text": "SSR generates the HTML for a page on each request, while SSG generates it once at build time.",
+          "is_correct": true,
+          "rationale": "This is the core distinction: SSR is dynamic per-request, while SSG is static and pre-built."
+        },
+        {
+          "key": "C",
+          "text": "SSG is better for dynamic, user-specific content, whereas SSR is only suitable for static marketing pages.",
+          "is_correct": false,
+          "rationale": "The opposite is true; SSR excels at dynamic content, while SSG is ideal for static content."
+        },
+        {
+          "key": "D",
+          "text": "SSR requires JavaScript to be enabled on the client to function, but SSG pages work without it.",
+          "is_correct": false,
+          "rationale": "Both rendering methods can produce pages that are viewable without JavaScript, though interactivity may be limited."
+        },
+        {
+          "key": "E",
+          "text": "SSG pages have slower initial load times but faster subsequent navigation compared to SSR pages.",
+          "is_correct": false,
+          "rationale": "SSG pages typically have the fastest possible initial load times because the HTML is pre-built and cached."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "How does the browser's event loop handle the execution of a `setTimeout(callback, 0)` call in relation to other tasks?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It executes the callback function immediately, interrupting any currently running synchronous code in the call stack.",
+          "is_correct": false,
+          "rationale": "The event loop is non-preemptive; it cannot interrupt running synchronous code."
+        },
+        {
+          "key": "B",
+          "text": "It places the callback in the macrotask queue to be executed after the current call stack is empty.",
+          "is_correct": true,
+          "rationale": "`setTimeout` schedules a macrotask, which runs after the current synchronous script and any pending microtasks."
+        },
+        {
+          "key": "C",
+          "text": "It adds the callback to the microtask queue, ensuring it runs before any other macrotasks like rendering.",
+          "is_correct": false,
+          "rationale": "Promises and `queueMicrotask` use the microtask queue; `setTimeout` uses the macrotask queue."
+        },
+        {
+          "key": "D",
+          "text": "It runs the callback on a separate thread to avoid blocking the main UI thread during execution.",
+          "is_correct": false,
+          "rationale": "JavaScript is single-threaded; `setTimeout` callbacks execute on the main thread unless a Web Worker is used."
+        },
+        {
+          "key": "E",
+          "text": "It ignores the `0` millisecond delay and treats the callback as a regular synchronous function call.",
+          "is_correct": false,
+          "rationale": "The `0` delay means 'as soon as possible', but it is still an asynchronous operation handled by the event loop."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "In the context of GraphQL, what is the primary problem that the 'N+1 query problem' describes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A client sending N+1 separate HTTP requests to the server to fetch a list and its related items.",
+          "is_correct": false,
+          "rationale": "GraphQL solves this client-side issue by allowing nested queries in a single request."
+        },
+        {
+          "key": "B",
+          "text": "A server making one query for a list of items, then N subsequent queries for each item's children.",
+          "is_correct": true,
+          "rationale": "This server-side inefficiency occurs when resolving nested data without tools like DataLoader."
+        },
+        {
+          "key": "C",
+          "text": "A GraphQL query that is nested more than N levels deep, leading to excessive server processing time.",
+          "is_correct": false,
+          "rationale": "Query complexity is a concern, but it is distinct from the specific N+1 database query pattern."
+        },
+        {
+          "key": "D",
+          "text": "The requirement to make at least N+1 mutations to update a list of N items successfully.",
+          "is_correct": false,
+          "rationale": "The N+1 problem is related to data fetching (queries), not data modification (mutations)."
+        },
+        {
+          "key": "E",
+          "text": "An issue where a client over-fetches N+1 fields when only one field was actually required.",
+          "is_correct": false,
+          "rationale": "GraphQL is designed to prevent over-fetching by allowing clients to specify exactly the data they need."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What is the main purpose of using a `WeakMap` instead of a regular `Map` in JavaScript applications?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A `WeakMap` offers significantly faster key lookups and insertions compared to a standard `Map` object.",
+          "is_correct": false,
+          "rationale": "Performance differences are generally negligible; the choice is based on memory management, not speed."
+        },
+        {
+          "key": "B",
+          "text": "It allows objects to be used as keys without preventing them from being garbage collected if they're unreferenced.",
+          "is_correct": true,
+          "rationale": "WeakMaps hold 'weak' references to keys, preventing memory leaks by allowing garbage collection of unused objects."
+        },
+        {
+          "key": "C",
+          "text": "A `WeakMap` can only store primitive values like strings or numbers, making it more memory efficient.",
+          "is_correct": false,
+          "rationale": "WeakMaps require objects as keys and can store any value, just like a regular Map."
+        },
+        {
+          "key": "D",
+          "text": "It provides additional methods for iteration, such as `forEach` and `keys`, which are not on `Map`.",
+          "is_correct": false,
+          "rationale": "The opposite is true; WeakMaps are not iterable to avoid leaking information about garbage collection."
+        },
+        {
+          "key": "E",
+          "text": "It automatically serializes its contents to JSON, making it easier to store and transfer data.",
+          "is_correct": false,
+          "rationale": "WeakMaps, like Maps, are not directly serializable to JSON due to their complex nature."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "When implementing web accessibility (a11y), what is the correct use case for the `aria-live` attribute on an element?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To indicate that an element, such as a button or link, is currently the active element on the page.",
+          "is_correct": false,
+          "rationale": "The `aria-current` attribute is used for indicating the current item within a set, not `aria-live`."
+        },
+        {
+          "key": "B",
+          "text": "To hide an element from screen readers while keeping it visually available for sighted users on the page.",
+          "is_correct": false,
+          "rationale": "This is achieved using `aria-hidden=\"true\"`, which removes the element from the accessibility tree."
+        },
+        {
+          "key": "C",
+          "text": "To inform screen readers about dynamic content changes that happen elsewhere on the page without user focus.",
+          "is_correct": true,
+          "rationale": "`aria-live` creates a live region, making assistive technologies announce updates, like in notifications or chat messages."
+        },
+        {
+          "key": "D",
+          "text": "To provide a detailed textual description for a complex image or chart that cannot be described briefly.",
+          "is_correct": false,
+          "rationale": "This is the purpose of the `aria-describedby` attribute, which links an element to its description."
+        },
+        {
+          "key": "E",
+          "text": "To define a custom role for a widget that does not have a native HTML semantic equivalent.",
+          "is_correct": false,
+          "rationale": "This is accomplished using the `role` attribute, such as `role=\"tablist\"` or `role=\"slider\"`."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "In a CSS-in-JS library like Emotion or Styled-components, how does it prevent style collisions in a large application?",
+      "options": [
+        {
+          "key": "A",
+          "text": "By using the `!important` rule on every CSS property to ensure local styles always take precedence.",
+          "is_correct": false,
+          "rationale": "Overusing `!important` is an anti-pattern; these libraries use more sophisticated scoping mechanisms."
+        },
+        {
+          "key": "B",
+          "text": "By automatically generating unique class names for each component, thereby scoping the styles to that component.",
+          "is_correct": true,
+          "rationale": "This is the primary mechanism for style scoping, preventing global namespace conflicts."
+        },
+        {
+          "key": "C",
+          "text": "By converting all CSS styles into inline styles on the HTML elements during the rendering process.",
+          "is_correct": false,
+          "rationale": "While inline styles are used for some dynamic properties, the primary method is generating stylesheets with unique classes."
+        },
+        {
+          "key": "D",
+          "text": "By enforcing a strict BEM (Block, Element, Modifier) naming convention for all CSS classes written.",
+          "is_correct": false,
+          "rationale": "CSS-in-JS libraries eliminate the need for manual naming conventions like BEM by automating the scoping."
+        },
+        {
+          "key": "E",
+          "text": "By loading each component's styles inside a Shadow DOM to create a completely encapsulated style boundary.",
+          "is_correct": false,
+          "rationale": "While some libraries can integrate with Web Components/Shadow DOM, it is not their default scoping mechanism."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is the primary role of the `reconciliation` process in a virtual DOM library like React?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To compile JSX syntax into standard JavaScript `React.createElement` function calls during the build process.",
+          "is_correct": false,
+          "rationale": "This is the job of a transpiler like Babel, not the runtime reconciliation algorithm."
+        },
+        {
+          "key": "B",
+          "text": "To efficiently update the actual browser DOM by comparing the new virtual DOM tree with the previous one.",
+          "is_correct": true,
+          "rationale": "Reconciliation is the algorithm React uses to diff two virtual DOM trees and compute minimal DOM updates."
+        },
+        {
+          "key": "C",
+          "text": "To manage the application's global state and propagate changes to all subscribed components in the tree.",
+          "is_correct": false,
+          "rationale": "This describes the role of state management solutions like Context or Redux, not reconciliation."
+        },
+        {
+          "key": "D",
+          "text": "To handle user input events, such as clicks and keyboard entries, and bind them to component methods.",
+          "is_correct": false,
+          "rationale": "This is part of React's synthetic event system, which is related but distinct from the reconciliation process."
+        },
+        {
+          "key": "E",
+          "text": "To split the application bundle into smaller chunks that can be lazily loaded to improve performance.",
+          "is_correct": false,
+          "rationale": "This is code splitting, a feature often used with React but not part of the core reconciliation algorithm."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "When configuring a service worker, what is the fundamental purpose of a 'stale-while-revalidate' caching strategy?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It only serves content from the network, completely ignoring the cache to ensure data is always fresh.",
+          "is_correct": false,
+          "rationale": "This describes a 'network-only' strategy, which is the opposite of stale-while-revalidate."
+        },
+        {
+          "key": "B",
+          "text": "It exclusively serves content from the cache and never attempts to fetch an updated version from the network.",
+          "is_correct": false,
+          "rationale": "This describes a 'cache-only' strategy, which is suitable for assets that never change."
+        },
+        {
+          "key": "C",
+          "text": "It serves content from the cache immediately for speed, then fetches an update from the network for next time.",
+          "is_correct": true,
+          "rationale": "This strategy provides a fast user experience while keeping the cache up-to-date in the background."
+        },
+        {
+          "key": "D",
+          "text": "It tries the network first and only falls back to the cache if the network request fails completely.",
+          "is_correct": false,
+          "rationale": "This describes a 'network-first' strategy, which prioritizes freshness over speed."
+        },
+        {
+          "key": "E",
+          "text": "It requires both the network and cache to be available before it can serve any content to the user.",
+          "is_correct": false,
+          "rationale": "No standard caching strategy has this requirement, as it would defeat the purpose of offline support."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "In a monorepo managed by a tool like Nx or Turborepo, what is a key benefit of computation caching?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically deploys any changed applications or libraries to a production environment upon code commit.",
+          "is_correct": false,
+          "rationale": "This describes a continuous deployment (CD) pipeline, which is separate from computation caching."
+        },
+        {
+          "key": "B",
+          "text": "It prevents developers from running tasks like `build` or `test` on their local machines to save resources.",
+          "is_correct": false,
+          "rationale": "It allows developers to run these tasks, but it speeds them up by using cached results."
+        },
+        {
+          "key": "C",
+          "text": "It avoids re-running expensive tasks like building or testing if the source code has not changed.",
+          "is_correct": true,
+          "rationale": "It caches the output of tasks based on file hashes, replaying the result instantly if inputs are unchanged."
+        },
+        {
+          "key": "D",
+          "text": "It shares the `node_modules` folder across all projects in the monorepo to reduce disk space usage.",
+          "is_correct": false,
+          "rationale": "This is a feature of package managers like pnpm or Yarn workspaces, not computation caching itself."
+        },
+        {
+          "key": "E",
+          "text": "It caches the final application bundles in a CDN for faster delivery to end-users across the globe.",
+          "is_correct": false,
+          "rationale": "This is content delivery network (CDN) caching, which is a production optimization, not a development build optimization."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What is the primary security risk associated with using `target=\"_blank\"` on an anchor tag without `rel=\"noopener noreferrer\"`?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It allows the newly opened page to execute arbitrary JavaScript code on the original (opener) page.",
+          "is_correct": false,
+          "rationale": "This is prevented by the same-origin policy; direct script execution is not possible."
+        },
+        {
+          "key": "B",
+          "text": "It can cause a denial-of-service attack by opening an excessive number of new tabs from the link.",
+          "is_correct": false,
+          "rationale": "This is a user action and not a direct vulnerability of the attribute itself."
+        },
+        {
+          "key": "C",
+          "text": "The new page gets partial access to the original page via the `window.opener` object, enabling phishing attacks.",
+          "is_correct": true,
+          "rationale": "`window.opener.location` can be changed, redirecting the original tab to a malicious site."
+        },
+        {
+          "key": "D",
+          "text": "It creates a significant performance bottleneck by blocking the main thread while the new tab is loading.",
+          "is_correct": false,
+          "rationale": "While there can be minor performance implications, the primary risk is security-related."
+        },
+        {
+          "key": "E",
+          "text": "It prevents search engine crawlers from following the link, which can negatively impact the site's SEO.",
+          "is_correct": false,
+          "rationale": "This is the function of `rel=\"nofollow\"`, not `noopener` or `noreferrer`."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "In the context of modern CSS, what problem do container queries solve that media queries cannot effectively handle?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They allow developers to apply different styles based on the user's operating system, like Windows or macOS.",
+          "is_correct": false,
+          "rationale": "This is typically handled by user-agent sniffing in JavaScript, not CSS queries."
+        },
+        {
+          "key": "B",
+          "text": "They enable styling of components based on the size of their containing element rather than the entire viewport.",
+          "is_correct": true,
+          "rationale": "This allows for truly modular, self-contained components that adapt to their context, not just the screen size."
+        },
+        {
+          "key": "C",
+          "text": "They provide a way to apply styles only when the user has enabled a high-contrast mode in their system.",
+          "is_correct": false,
+          "rationale": "This is handled by the `prefers-contrast` media feature, which is a type of media query."
+        },
+        {
+          "key": "D",
+          "text": "They can change the layout of a page based on the device's current orientation, either portrait or landscape.",
+          "is_correct": false,
+          "rationale": "The `orientation` media feature, a standard media query, has handled this for many years."
+        },
+        {
+          "key": "E",
+          "text": "They allow for styling elements differently based on the number of sibling elements that exist within the parent.",
+          "is_correct": false,
+          "rationale": "This can be achieved with advanced CSS selectors like `:has()` or `:nth-child`, not container queries."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is a primary benefit of using a visual regression testing tool like Storybook or Percy in a CI/CD pipeline?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically checks for accessibility violations, such as missing alt text or insufficient color contrast ratios.",
+          "is_correct": false,
+          "rationale": "This is the function of accessibility testing tools like Axe or Lighthouse, not visual regression testing."
+        },
+        {
+          "key": "B",
+          "text": "It validates the business logic and state management of components by running a series of unit tests.",
+          "is_correct": false,
+          "rationale": "This is the purpose of unit testing frameworks like Jest or Vitest, which test logic, not visuals."
+        },
+        {
+          "key": "C",
+          "text": "It automatically detects and highlights unintended visual changes to UI components by comparing screenshots over time.",
+          "is_correct": true,
+          "rationale": "This helps catch UI bugs and ensure visual consistency by comparing pixel-perfect snapshots of components."
+        },
+        {
+          "key": "D",
+          "text": "It measures the rendering performance of each UI component and reports any regressions in load times.",
+          "is_correct": false,
+          "rationale": "This is the role of performance testing tools, which measure metrics like render time, not visual appearance."
+        },
+        {
+          "key": "E",
+          "text": "It analyzes the final bundle size and warns the developer if it exceeds a predefined budget.",
+          "is_correct": false,
+          "rationale": "This is handled by bundle analysis tools, which are focused on asset size, not visual output."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "When working with Web Workers, what is the main limitation regarding their access to the application's environment?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They are unable to make their own network requests using the `fetch` API or `XMLHttpRequest`.",
+          "is_correct": false,
+          "rationale": "Web Workers can perform network requests, which is one of their primary use cases for background tasks."
+        },
+        {
+          "key": "B",
+          "text": "They cannot directly access or manipulate the DOM of the main document, including the `window` object.",
+          "is_correct": true,
+          "rationale": "Workers run in a separate thread and context, preventing direct DOM access to avoid race conditions."
+        },
+        {
+          "key": "C",
+          "text": "They are restricted to using only primitive data types for communication with the main thread.",
+          "is_correct": false,
+          "rationale": "They can send complex objects and data structures using the structured cloning algorithm."
+        },
+        {
+          "key": "D",
+          "text": "They have a much smaller memory allocation than the main thread, limiting complex computational tasks.",
+          "is_correct": false,
+          "rationale": "There is no inherent, standardized memory limit that makes them unsuitable for complex computations."
+        },
+        {
+          "key": "E",
+          "text": "They cannot import external scripts or libraries, forcing all logic to be in a single file.",
+          "is_correct": false,
+          "rationale": "Web Workers can use `importScripts()` or ES modules (in modern browsers) to load external code."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What is the key difference in how Angular's change detection mechanism works compared to React's virtual DOM diffing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "React re-renders the entire component tree on every state change, while Angular only updates the changed element.",
+          "is_correct": false,
+          "rationale": "React uses virtual DOM diffing to avoid re-rendering the entire tree; it only updates what changed."
+        },
+        {
+          "key": "B",
+          "text": "Angular uses Zone.js to automatically detect changes from async events, while React requires explicit state updates.",
+          "is_correct": true,
+          "rationale": "Angular's Zone.js patches browser APIs to trigger change detection, whereas React relies on `setState` or hooks."
+        },
+        {
+          "key": "C",
+          "text": "React's change detection is significantly faster because it does not support two-way data binding like Angular.",
+          "is_correct": false,
+          "rationale": "Performance is highly dependent on the specific application; neither is definitively faster in all cases."
+        },
+        {
+          "key": "D",
+          "text": "Angular compares the real DOM directly with its internal state, whereas React uses an intermediate virtual DOM.",
+          "is_correct": false,
+          "rationale": "Angular does not directly read from the DOM for change detection; it compares old and new state values."
+        },
+        {
+          "key": "E",
+          "text": "React's change detection runs on a Web Worker by default, while Angular's runs on the main thread.",
+          "is_correct": false,
+          "rationale": "Both frameworks run their core change detection logic on the main thread by default."
+        }
+      ]
+    }
+  ]
+}

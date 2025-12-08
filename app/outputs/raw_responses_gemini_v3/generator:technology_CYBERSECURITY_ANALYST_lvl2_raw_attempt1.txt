@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "Which security principle ensures data remains unaltered from origin to destination during transmission or storage?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Confidentiality, protecting information from unauthorized access and disclosure.",
+          "is_correct": false,
+          "rationale": "Confidentiality focuses on preventing unauthorized access, not data integrity."
+        },
+        {
+          "key": "B",
+          "text": "Integrity, ensuring data accuracy and consistency throughout its lifecycle.",
+          "is_correct": true,
+          "rationale": "Integrity guarantees data remains unchanged and reliable."
+        },
+        {
+          "key": "C",
+          "text": "Availability, guaranteeing timely and reliable access to information and resources.",
+          "is_correct": false,
+          "rationale": "Availability ensures access, not the correctness of the data."
+        },
+        {
+          "key": "D",
+          "text": "Non-repudiation, preventing denial of actions, ensuring accountability and traceability.",
+          "is_correct": false,
+          "rationale": "Non-repudiation verifies actions, not data integrity during transmission."
+        },
+        {
+          "key": "E",
+          "text": "Authentication, verifying the identity of users, devices, or systems for secure access.",
+          "is_correct": false,
+          "rationale": "Authentication confirms identity, not data accuracy during transfer."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the primary purpose of a Security Information and Event Management (SIEM) system in cybersecurity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To encrypt sensitive data at rest and in transit using advanced cryptographic algorithms.",
+          "is_correct": false,
+          "rationale": "Encryption is a separate process, not a core SIEM function."
+        },
+        {
+          "key": "B",
+          "text": "To provide real-time monitoring and analysis of security events across an organization's IT infrastructure.",
+          "is_correct": true,
+          "rationale": "SIEMs aggregate and analyze logs for threat detection."
+        },
+        {
+          "key": "C",
+          "text": "To conduct regular penetration testing and vulnerability assessments to identify security weaknesses.",
+          "is_correct": false,
+          "rationale": "Penetration testing is a proactive security measure, not a SIEM function."
+        },
+        {
+          "key": "D",
+          "text": "To manage user access controls and permissions to ensure least privilege and prevent unauthorized access.",
+          "is_correct": false,
+          "rationale": "Access control is a separate security function."
+        },
+        {
+          "key": "E",
+          "text": "To perform automated backups and disaster recovery to protect against data loss and system failures.",
+          "is_correct": false,
+          "rationale": "Backup and recovery are related to data protection, not SIEM's purpose."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which type of malware disguises itself as legitimate software to trick users into installing it?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ransomware, which encrypts files and demands payment for decryption keys.",
+          "is_correct": false,
+          "rationale": "Ransomware focuses on extortion through encryption."
+        },
+        {
+          "key": "B",
+          "text": "Trojan horse, which hides malicious code within seemingly harmless applications.",
+          "is_correct": true,
+          "rationale": "Trojans deceive users by masquerading as legitimate software."
+        },
+        {
+          "key": "C",
+          "text": "Worm, which self-replicates and spreads to other systems without user interaction.",
+          "is_correct": false,
+          "rationale": "Worms spread automatically, not through user deception."
+        },
+        {
+          "key": "D",
+          "text": "Spyware, which secretly monitors user activity and collects sensitive information.",
+          "is_correct": false,
+          "rationale": "Spyware focuses on covert monitoring and data theft."
+        },
+        {
+          "key": "E",
+          "text": "Adware, which displays unwanted advertisements and redirects users to malicious websites.",
+          "is_correct": false,
+          "rationale": "Adware is about unwanted ads, not disguising as legitimate software."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is the purpose of a firewall in network security?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To encrypt network traffic and protect data from eavesdropping and interception.",
+          "is_correct": false,
+          "rationale": "Encryption is handled by other protocols like TLS/SSL, not firewalls."
+        },
+        {
+          "key": "B",
+          "text": "To filter network traffic based on predefined rules and block unauthorized access.",
+          "is_correct": true,
+          "rationale": "Firewalls control traffic based on rules."
+        },
+        {
+          "key": "C",
+          "text": "To detect and remove malware from infected systems and prevent further propagation.",
+          "is_correct": false,
+          "rationale": "Malware removal is the domain of antivirus software."
+        },
+        {
+          "key": "D",
+          "text": "To provide secure remote access to internal resources for authorized users.",
+          "is_correct": false,
+          "rationale": "Remote access is facilitated by VPNs, not firewalls."
+        },
+        {
+          "key": "E",
+          "text": "To perform regular backups and disaster recovery to protect against data loss and system failures.",
+          "is_correct": false,
+          "rationale": "Backups are for data recovery, not firewall functionality."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What is the main objective of penetration testing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To identify vulnerabilities in a system by simulating real-world attacks.",
+          "is_correct": true,
+          "rationale": "Penetration testing mimics attacks to find weaknesses."
+        },
+        {
+          "key": "B",
+          "text": "To ensure compliance with industry regulations and security standards.",
+          "is_correct": false,
+          "rationale": "Compliance is a separate goal, though informed by testing."
+        },
+        {
+          "key": "C",
+          "text": "To educate users about security best practices and raise awareness of potential threats.",
+          "is_correct": false,
+          "rationale": "User education is important but not the primary goal."
+        },
+        {
+          "key": "D",
+          "text": "To monitor network traffic and detect malicious activity in real-time.",
+          "is_correct": false,
+          "rationale": "Network monitoring is a separate security function."
+        },
+        {
+          "key": "E",
+          "text": "To develop and implement security policies and procedures for the organization.",
+          "is_correct": false,
+          "rationale": "Policy development is a management function."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Which security control is used to verify the identity of a user before granting access?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Encryption, which transforms data into an unreadable format to protect confidentiality.",
+          "is_correct": false,
+          "rationale": "Encryption protects data confidentiality, not user identity."
+        },
+        {
+          "key": "B",
+          "text": "Firewall, which filters network traffic based on predefined rules and policies.",
+          "is_correct": false,
+          "rationale": "Firewalls control network access, not user authentication."
+        },
+        {
+          "key": "C",
+          "text": "Authentication, which verifies the identity of a user, device, or system.",
+          "is_correct": true,
+          "rationale": "Authentication is the process of verifying identity."
+        },
+        {
+          "key": "D",
+          "text": "Auditing, which tracks and records user activity for security monitoring and analysis.",
+          "is_correct": false,
+          "rationale": "Auditing tracks activity after access is granted."
+        },
+        {
+          "key": "E",
+          "text": "VPN, which creates a secure tunnel for remote access to a private network.",
+          "is_correct": false,
+          "rationale": "VPNs provide secure connections, not identity verification."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What is the purpose of data loss prevention (DLP) systems?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To prevent unauthorized access to sensitive data and protect against data breaches.",
+          "is_correct": true,
+          "rationale": "DLP systems are designed to prevent data leakage."
+        },
+        {
+          "key": "B",
+          "text": "To encrypt data at rest and in transit to protect confidentiality and integrity.",
+          "is_correct": false,
+          "rationale": "Encryption is a separate security control."
+        },
+        {
+          "key": "C",
+          "text": "To monitor network traffic and detect malicious activity in real-time.",
+          "is_correct": false,
+          "rationale": "Network monitoring is a different security function."
+        },
+        {
+          "key": "D",
+          "text": "To manage user access controls and permissions to enforce the principle of least privilege.",
+          "is_correct": false,
+          "rationale": "Access control is related but distinct from DLP."
+        },
+        {
+          "key": "E",
+          "text": "To perform regular vulnerability assessments and penetration testing to identify security weaknesses.",
+          "is_correct": false,
+          "rationale": "Vulnerability assessments are proactive security measures."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is a common social engineering technique used to trick users?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Phishing, which involves sending fraudulent emails to trick users into revealing sensitive information.",
+          "is_correct": true,
+          "rationale": "Phishing is a common social engineering attack."
+        },
+        {
+          "key": "B",
+          "text": "SQL injection, which exploits vulnerabilities in database applications to gain unauthorized access.",
+          "is_correct": false,
+          "rationale": "SQL injection is a technical attack, not social engineering."
+        },
+        {
+          "key": "C",
+          "text": "Cross-site scripting (XSS), which injects malicious scripts into trusted websites.",
+          "is_correct": false,
+          "rationale": "XSS is a web application vulnerability, not social engineering."
+        },
+        {
+          "key": "D",
+          "text": "Denial-of-service (DoS), which floods a system with traffic to make it unavailable to legitimate users.",
+          "is_correct": false,
+          "rationale": "DoS attacks disrupt service availability."
+        },
+        {
+          "key": "E",
+          "text": "Buffer overflow, which exploits memory management vulnerabilities to execute arbitrary code.",
+          "is_correct": false,
+          "rationale": "Buffer overflows are memory-related exploits."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is the purpose of a VPN (Virtual Private Network)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To encrypt data at rest and protect it from unauthorized access.",
+          "is_correct": false,
+          "rationale": "Encryption at rest is a separate security measure."
+        },
+        {
+          "key": "B",
+          "text": "To filter network traffic based on predefined rules and policies.",
+          "is_correct": false,
+          "rationale": "Firewalls perform network traffic filtering."
+        },
+        {
+          "key": "C",
+          "text": "To provide a secure and encrypted connection over a public network.",
+          "is_correct": true,
+          "rationale": "VPNs create secure, encrypted tunnels."
+        },
+        {
+          "key": "D",
+          "text": "To monitor network traffic and detect malicious activity in real-time.",
+          "is_correct": false,
+          "rationale": "Network monitoring is a separate security function."
+        },
+        {
+          "key": "E",
+          "text": "To manage user access controls and permissions to enforce the principle of least privilege.",
+          "is_correct": false,
+          "rationale": "Access control is related but distinct from VPN functionality."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Which security principle ensures that individuals are held accountable for their actions?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Confidentiality, which protects information from unauthorized access and disclosure.",
+          "is_correct": false,
+          "rationale": "Confidentiality protects information, not accountability."
+        },
+        {
+          "key": "B",
+          "text": "Integrity, which ensures data accuracy and consistency throughout its lifecycle.",
+          "is_correct": false,
+          "rationale": "Integrity ensures data accuracy, not individual accountability."
+        },
+        {
+          "key": "C",
+          "text": "Availability, which guarantees timely and reliable access to information and resources.",
+          "is_correct": false,
+          "rationale": "Availability ensures access, not accountability."
+        },
+        {
+          "key": "D",
+          "text": "Non-repudiation, which prevents denial of actions, ensuring accountability and traceability.",
+          "is_correct": true,
+          "rationale": "Non-repudiation ensures actions cannot be denied."
+        },
+        {
+          "key": "E",
+          "text": "Authentication, which verifies the identity of users, devices, or systems.",
+          "is_correct": false,
+          "rationale": "Authentication verifies identity, not accountability."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the purpose of vulnerability scanning in cybersecurity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To identify security weaknesses in systems and applications.",
+          "is_correct": true,
+          "rationale": "Vulnerability scanning aims to find security flaws."
+        },
+        {
+          "key": "B",
+          "text": "To encrypt sensitive data to protect it from unauthorized access.",
+          "is_correct": false,
+          "rationale": "Encryption protects data confidentiality, not identifying vulnerabilities."
+        },
+        {
+          "key": "C",
+          "text": "To prevent malware infections and remove existing malware from systems.",
+          "is_correct": false,
+          "rationale": "Malware prevention and removal is the role of antivirus software."
+        },
+        {
+          "key": "D",
+          "text": "To monitor network traffic for suspicious activity and potential security threats.",
+          "is_correct": false,
+          "rationale": "Network monitoring detects threats in real-time."
+        },
+        {
+          "key": "E",
+          "text": "To enforce access control policies and prevent unauthorized access to resources.",
+          "is_correct": false,
+          "rationale": "Access control manages user permissions."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Which type of attack involves intercepting communication between two parties without their knowledge?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Denial-of-service (DoS), which overwhelms a system with traffic to make it unavailable.",
+          "is_correct": false,
+          "rationale": "DoS attacks disrupt service, not intercept communication."
+        },
+        {
+          "key": "B",
+          "text": "Phishing, which tricks users into revealing sensitive information through deceptive emails.",
+          "is_correct": false,
+          "rationale": "Phishing deceives users, not intercepting communication directly."
+        },
+        {
+          "key": "C",
+          "text": "Man-in-the-middle (MitM), which intercepts and potentially alters communication between two parties.",
+          "is_correct": true,
+          "rationale": "MitM attacks involve intercepting communications."
+        },
+        {
+          "key": "D",
+          "text": "SQL injection, which exploits vulnerabilities in database applications to gain unauthorized access.",
+          "is_correct": false,
+          "rationale": "SQL injection targets databases, not communication streams."
+        },
+        {
+          "key": "E",
+          "text": "Cross-site scripting (XSS), which injects malicious scripts into trusted websites.",
+          "is_correct": false,
+          "rationale": "XSS exploits website vulnerabilities, not intercepting communication."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is the primary goal of incident response in cybersecurity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To prevent all security incidents from occurring in the first place.",
+          "is_correct": false,
+          "rationale": "Preventing all incidents is impossible; response mitigates impact."
+        },
+        {
+          "key": "B",
+          "text": "To minimize the impact of security incidents and restore normal operations as quickly as possible.",
+          "is_correct": true,
+          "rationale": "Incident response aims to minimize damage and restore services."
+        },
+        {
+          "key": "C",
+          "text": "To identify and prosecute the attackers responsible for security incidents.",
+          "is_correct": false,
+          "rationale": "Attacker identification is a secondary goal, not the primary focus."
+        },
+        {
+          "key": "D",
+          "text": "To ensure compliance with all relevant security regulations and standards.",
+          "is_correct": false,
+          "rationale": "Compliance is a separate goal, though informed by incident handling."
+        },
+        {
+          "key": "E",
+          "text": "To educate users about security best practices and prevent future incidents.",
+          "is_correct": false,
+          "rationale": "User education is important but not the primary goal."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Which security control restricts access to resources based on a user's role or job function?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Multi-factor authentication, which requires multiple forms of verification for access.",
+          "is_correct": false,
+          "rationale": "MFA strengthens authentication, not role-based access."
+        },
+        {
+          "key": "B",
+          "text": "Role-based access control (RBAC), which grants access based on assigned roles.",
+          "is_correct": true,
+          "rationale": "RBAC directly manages access based on roles."
+        },
+        {
+          "key": "C",
+          "text": "Encryption, which transforms data into an unreadable format to protect confidentiality.",
+          "is_correct": false,
+          "rationale": "Encryption protects data, not controlling access based on roles."
+        },
+        {
+          "key": "D",
+          "text": "Firewall, which filters network traffic based on predefined rules and policies.",
+          "is_correct": false,
+          "rationale": "Firewalls control network access, not role-based permissions."
+        },
+        {
+          "key": "E",
+          "text": "Intrusion detection system (IDS), which monitors network traffic for malicious activity.",
+          "is_correct": false,
+          "rationale": "IDS detects threats, not managing access control."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is the purpose of a security audit in cybersecurity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To identify vulnerabilities in systems and applications.",
+          "is_correct": false,
+          "rationale": "Vulnerability scanning identifies weaknesses."
+        },
+        {
+          "key": "B",
+          "text": "To assess the effectiveness of security controls and compliance with policies.",
+          "is_correct": true,
+          "rationale": "Security audits evaluate security effectiveness."
+        },
+        {
+          "key": "C",
+          "text": "To prevent malware infections and remove existing malware from systems.",
+          "is_correct": false,
+          "rationale": "Antivirus software handles malware."
+        },
+        {
+          "key": "D",
+          "text": "To monitor network traffic for suspicious activity and potential security threats.",
+          "is_correct": false,
+          "rationale": "Network monitoring detects real-time threats."
+        },
+        {
+          "key": "E",
+          "text": "To encrypt sensitive data to protect it from unauthorized access.",
+          "is_correct": false,
+          "rationale": "Encryption protects data confidentiality."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Which of the following is a common method for securing wireless networks?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using WEP (Wired Equivalent Privacy) encryption for data protection.",
+          "is_correct": false,
+          "rationale": "WEP is outdated and easily cracked."
+        },
+        {
+          "key": "B",
+          "text": "Disabling SSID broadcasting to hide the network from unauthorized users.",
+          "is_correct": false,
+          "rationale": "Hiding the SSID provides minimal security."
+        },
+        {
+          "key": "C",
+          "text": "Implementing MAC address filtering to restrict access to authorized devices only.",
+          "is_correct": false,
+          "rationale": "MAC address filtering is easily bypassed."
+        },
+        {
+          "key": "D",
+          "text": "Enabling WPA2 or WPA3 encryption with a strong password.",
+          "is_correct": true,
+          "rationale": "WPA2/3 with a strong password provides robust wireless security."
+        },
+        {
+          "key": "E",
+          "text": "Leaving the wireless network open without any password protection.",
+          "is_correct": false,
+          "rationale": "Open networks are inherently insecure."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What is the purpose of data masking?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To encrypt data to prevent unauthorized access.",
+          "is_correct": false,
+          "rationale": "Encryption is a distinct method of data protection."
+        },
+        {
+          "key": "B",
+          "text": "To hide sensitive data by replacing it with modified or fictitious values.",
+          "is_correct": true,
+          "rationale": "Data masking replaces sensitive data with non-sensitive substitutes."
+        },
+        {
+          "key": "C",
+          "text": "To compress data to reduce storage space and bandwidth usage.",
+          "is_correct": false,
+          "rationale": "Compression reduces size, not protecting sensitive information."
+        },
+        {
+          "key": "D",
+          "text": "To validate data to ensure accuracy and consistency.",
+          "is_correct": false,
+          "rationale": "Data validation ensures accuracy, not hiding data."
+        },
+        {
+          "key": "E",
+          "text": "To convert data from one format to another for compatibility purposes.",
+          "is_correct": false,
+          "rationale": "Data conversion changes format, not protecting sensitive information."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Which security measure helps prevent brute-force attacks against passwords?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Implementing multi-factor authentication (MFA) for user logins.",
+          "is_correct": true,
+          "rationale": "MFA adds an extra layer of security, hindering brute-force attacks."
+        },
+        {
+          "key": "B",
+          "text": "Enabling encryption for data at rest and in transit.",
+          "is_correct": false,
+          "rationale": "Encryption protects data confidentiality, not preventing brute-force."
+        },
+        {
+          "key": "C",
+          "text": "Using a firewall to filter network traffic and block unauthorized access.",
+          "is_correct": false,
+          "rationale": "Firewalls control network access, not password attacks directly."
+        },
+        {
+          "key": "D",
+          "text": "Performing regular vulnerability assessments to identify security weaknesses.",
+          "is_correct": false,
+          "rationale": "Vulnerability assessments find weaknesses, not directly preventing brute-force."
+        },
+        {
+          "key": "E",
+          "text": "Implementing an intrusion detection system (IDS) to monitor network traffic.",
+          "is_correct": false,
+          "rationale": "IDS detects malicious activity, not specifically preventing brute-force."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is the primary purpose of a reverse proxy server?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To cache frequently accessed content to improve website performance.",
+          "is_correct": false,
+          "rationale": "Caching is a function, but not the primary purpose."
+        },
+        {
+          "key": "B",
+          "text": "To protect internal servers from direct exposure to the internet.",
+          "is_correct": true,
+          "rationale": "Reverse proxies shield internal servers."
+        },
+        {
+          "key": "C",
+          "text": "To encrypt network traffic to protect data confidentiality.",
+          "is_correct": false,
+          "rationale": "Encryption is a separate function."
+        },
+        {
+          "key": "D",
+          "text": "To monitor network traffic for malicious activity.",
+          "is_correct": false,
+          "rationale": "Network monitoring is done by other systems."
+        },
+        {
+          "key": "E",
+          "text": "To balance network traffic across multiple servers.",
+          "is_correct": false,
+          "rationale": "Load balancing is a separate function."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Which of the following is an example of Personally Identifiable Information (PII)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A user's IP address, which can be used to identify their general location.",
+          "is_correct": false,
+          "rationale": "IP addresses can be PII, but not always directly identifiable."
+        },
+        {
+          "key": "B",
+          "text": "A user's browsing history, which reveals their online activities and interests.",
+          "is_correct": false,
+          "rationale": "Browsing history can be sensitive, but not always directly identifiable."
+        },
+        {
+          "key": "C",
+          "text": "A user's full name, which can be used to uniquely identify them.",
+          "is_correct": true,
+          "rationale": "Full name is a direct identifier."
+        },
+        {
+          "key": "D",
+          "text": "A user's device type, which indicates the type of device they are using.",
+          "is_correct": false,
+          "rationale": "Device type is not directly identifying."
+        },
+        {
+          "key": "E",
+          "text": "A user's operating system, which indicates the OS they are using.",
+          "is_correct": false,
+          "rationale": "Operating system is not directly identifying."
+        }
+      ]
+    }
+  ]
+}

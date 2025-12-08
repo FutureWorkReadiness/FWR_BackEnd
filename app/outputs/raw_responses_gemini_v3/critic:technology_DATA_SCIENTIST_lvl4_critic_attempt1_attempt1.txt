@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "When estimating a marketing campaign's causal effect, which method is most robust to unobserved confounding variables that are stable over time?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Propensity Score Matching, which balances observed covariates between the treated and control groups to reduce selection bias.",
+          "is_correct": false,
+          "rationale": "This method only accounts for observed confounders, not unobserved ones that may introduce bias."
+        },
+        {
+          "key": "B",
+          "text": "Instrumental Variable Analysis, which requires finding a valid instrument correlated with treatment but not the outcome directly.",
+          "is_correct": false,
+          "rationale": "This can handle unobserved confounders, but finding a valid instrument is often very difficult."
+        },
+        {
+          "key": "C",
+          "text": "Difference-in-Differences, which compares the change in outcomes over time between a treatment and a control group.",
+          "is_correct": true,
+          "rationale": "This method effectively controls for time-invariant unobserved confounders by design, making it robust."
+        },
+        {
+          "key": "D",
+          "text": "A randomized controlled trial (A/B test), which is the gold standard for establishing true causal inference.",
+          "is_correct": false,
+          "rationale": "While ideal, A/B tests are not always feasible and this question implies an observational setting."
+        },
+        {
+          "key": "E",
+          "text": "Regression Discontinuity Design, which estimates effects for populations around a specific, arbitrary cutoff point for treatment.",
+          "is_correct": false,
+          "rationale": "This is a powerful quasi-experimental method, but it is only applicable in specific scenarios with a cutoff."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "You observe a gradual degradation in your deployed model's performance. What is the most likely cause and the best first diagnostic step to take?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Concept drift; the relationship between features and the target has changed, so you should immediately retrain the model.",
+          "is_correct": false,
+          "rationale": "Retraining is a solution, not a diagnostic step. The root cause must be confirmed first."
+        },
+        {
+          "key": "B",
+          "text": "Data drift; implement statistical monitoring on input feature distributions to confirm changes from the training data.",
+          "is_correct": true,
+          "rationale": "Diagnosing data drift by monitoring feature distributions is the correct first step before taking corrective action."
+        },
+        {
+          "key": "C",
+          "text": "A software bug in the inference service; you should review recent code commits and deployment logs.",
+          "is_correct": false,
+          "rationale": "A software bug would likely cause a sudden failure, not a gradual performance degradation."
+        },
+        {
+          "key": "D",
+          "text": "Upstream data pipeline failure; check the ETL logs for errors and verify data source integrity immediately.",
+          "is_correct": false,
+          "rationale": "A pipeline failure typically results in a catastrophic, not gradual, stop in predictions or data flow."
+        },
+        {
+          "key": "E",
+          "text": "Model staleness; immediately schedule more frequent, automated retraining cycles to keep the model current with new data.",
+          "is_correct": false,
+          "rationale": "This is a potential solution, but it's premature without first diagnosing the root cause of the degradation."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "In designing a neural network for a high-stakes medical diagnosis task, which technique is most critical for understanding and quantifying model uncertainty?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using a larger number of hidden layers and neurons to increase the model's overall capacity and accuracy.",
+          "is_correct": false,
+          "rationale": "Increasing model capacity does not inherently provide a measure of prediction uncertainty or confidence."
+        },
+        {
+          "key": "B",
+          "text": "Implementing Bayesian Neural Networks to produce a predictive distribution instead of a single point estimate for diagnosis.",
+          "is_correct": true,
+          "rationale": "BNNs are specifically designed to model uncertainty by learning distributions over model weights."
+        },
+        {
+          "key": "C",
+          "text": "Applying aggressive dropout during training as a form of stochastic regularization to prevent the model from overfitting.",
+          "is_correct": false,
+          "rationale": "While Monte Carlo dropout can approximate uncertainty, BNNs provide a more principled and direct approach."
+        },
+        {
+          "key": "D",
+          "text": "Employing transfer learning from a large, pre-trained model to leverage its powerful, pre-learned feature representations.",
+          "is_correct": false,
+          "rationale": "Transfer learning boosts performance but does not directly address the quantification of model uncertainty."
+        },
+        {
+          "key": "E",
+          "text": "Utilizing an Adam optimizer with a dynamic learning rate schedule for faster and more stable model convergence.",
+          "is_correct": false,
+          "rationale": "The choice of optimizer affects training dynamics, not the model's ability to quantify its own uncertainty."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "When designing an A/B test for a new social media feature that has strong network effects, what is the most appropriate experimental design?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A standard user-level randomization to ensure unbiased samples and a clean comparison between the treatment and control groups.",
+          "is_correct": false,
+          "rationale": "This violates the independence assumption (SUTVA), as treated users can influence control users, contaminating the results."
+        },
+        {
+          "key": "B",
+          "text": "A time-based split, where all users see one version for a week, and then see another version.",
+          "is_correct": false,
+          "rationale": "This design is highly susceptible to confounding from seasonality and other time-varying factors."
+        },
+        {
+          "key": "C",
+          "text": "A cluster-based randomization, like by user graph community, to isolate treatment effects and minimize interference between groups.",
+          "is_correct": true,
+          "rationale": "This correctly isolates interference by ensuring users who interact are likely in the same group."
+        },
+        {
+          "key": "D",
+          "text": "A multi-armed bandit approach to dynamically allocate more traffic to the better-performing variant during the test.",
+          "is_correct": false,
+          "rationale": "This optimizes the exploration-exploitation tradeoff but does not solve the underlying network effects problem."
+        },
+        {
+          "key": "E",
+          "text": "A geo-based randomization, assigning different cities or entire countries to different variants of the new feature.",
+          "is_correct": false,
+          "rationale": "This is a form of cluster randomization but is often too coarse and can be confounded by regional differences."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "For a low-resource language translation task, which approach would likely yield the best performance given a very limited parallel corpus for training?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Training a large Transformer model like BERT from scratch exclusively on the small, available dataset provided.",
+          "is_correct": false,
+          "rationale": "Training a large model from scratch on a small dataset will lead to severe overfitting and poor generalization."
+        },
+        {
+          "key": "B",
+          "text": "Fine-tuning a large, multilingual pre-trained model like mBERT or XLM-R on the task-specific low-resource data.",
+          "is_correct": true,
+          "rationale": "This leverages knowledge from high-resource languages, which is the most effective strategy in low-resource settings."
+        },
+        {
+          "key": "C",
+          "text": "Using a traditional statistical machine translation (SMT) system like Moses, which generally requires less training data.",
+          "is_correct": false,
+          "rationale": "While SMT works with less data, fine-tuned large language models consistently outperform it in modern applications."
+        },
+        {
+          "key": "D",
+          "text": "Implementing a recurrent neural network with an attention mechanism from scratch specifically for the translation task.",
+          "is_correct": false,
+          "rationale": "This architecture is less powerful than pre-trained transformers and would also suffer from data scarcity."
+        },
+        {
+          "key": "E",
+          "text": "Augmenting the data by back-translating from a high-resource target language to the low-resource source language.",
+          "is_correct": false,
+          "rationale": "Back-translation is a useful technique, but fine-tuning a pre-trained model is a more powerful foundational approach."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Which architectural choice best balances low latency and high personalization for a real-time recommendation system with a massive item catalog?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A batch collaborative filtering model that pre-computes all recommendations for every single user on a daily basis.",
+          "is_correct": false,
+          "rationale": "This approach has high latency as it cannot react to real-time user actions within a session."
+        },
+        {
+          "key": "B",
+          "text": "A two-stage architecture with a fast candidate generation model followed by a more complex ranking model.",
+          "is_correct": true,
+          "rationale": "This is the standard, scalable approach to filter a large catalog quickly then rank a small set accurately."
+        },
+        {
+          "key": "C",
+          "text": "A complex deep learning model that re-ranks the entire item catalog for every user request in real-time.",
+          "is_correct": false,
+          "rationale": "Scoring millions of items in real-time for every request is computationally infeasible and too slow."
+        },
+        {
+          "key": "D",
+          "text": "A simple content-based filtering model using only item metadata to ensure the lowest possible system latency.",
+          "is_correct": false,
+          "rationale": "This would be fast but would offer poor personalization as it ignores user behavior data."
+        },
+        {
+          "key": "E",
+          "text": "A streaming feature pipeline feeding a continuously updated online learning model that scores all available items.",
+          "is_correct": false,
+          "rationale": "This is operationally very complex and expensive to maintain, and may not be necessary for all use cases."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "You are optimizing a sequence of user notifications with reinforcement learning. Which concept is most critical to address delayed user conversion events?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Q-Learning with a small, discrete action space to simplify the overall learning process for the agent.",
+          "is_correct": false,
+          "rationale": "The choice of algorithm (like Q-learning) does not by itself solve the delayed reward problem."
+        },
+        {
+          "key": "B",
+          "text": "Policy Gradient methods, which are generally better suited for handling continuous or very large action spaces.",
+          "is_correct": false,
+          "rationale": "The nature of the action space is a separate concern from the delay in receiving rewards."
+        },
+        {
+          "key": "C",
+          "text": "The credit assignment problem, which involves attributing a delayed reward back to the early actions that caused it.",
+          "is_correct": true,
+          "rationale": "This is the fundamental challenge in RL with sparse or delayed rewards, solved by methods like TD learning."
+        },
+        {
+          "key": "D",
+          "text": "Multi-armed bandits, which are effective for stateless, single-decision optimization problems that have immediate rewards.",
+          "is_correct": false,
+          "rationale": "Bandits are inappropriate here because they do not model the sequential nature of the problem."
+        },
+        {
+          "key": "E",
+          "text": "Inverse Reinforcement Learning, which is used to infer an agent's reward function from its observed behavior.",
+          "is_correct": false,
+          "rationale": "This is overly complex and unnecessary when the reward (conversion) is known, even if it is delayed."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "A product manager wants to use machine learning to \"increase user engagement.\" What is the most critical first step for a lead data scientist?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately start building a prototype model using available user activity data to show quick progress to stakeholders.",
+          "is_correct": false,
+          "rationale": "This is a solution-first approach that skips the crucial problem definition phase, leading to wasted effort."
+        },
+        {
+          "key": "B",
+          "text": "Research state-of-the-art engagement prediction models in academic papers to find the best possible algorithm to use.",
+          "is_correct": false,
+          "rationale": "Technical research is premature before the business problem and success metrics are clearly defined."
+        },
+        {
+          "key": "C",
+          "text": "Work with the product manager to define a specific, measurable, and justifiable proxy metric for \"engagement.\"",
+          "is_correct": true,
+          "rationale": "Clearly defining the target variable and success metric is the most critical first step in any data science project."
+        },
+        {
+          "key": "D",
+          "text": "Request access to more granular data streams to improve potential model performance from the very beginning.",
+          "is_correct": false,
+          "rationale": "The need for more data can only be assessed after the problem and metric have been defined."
+        },
+        {
+          "key": "E",
+          "text": "Set up a detailed project plan and timeline for model development, testing, and final deployment.",
+          "is_correct": false,
+          "rationale": "Planning is impossible without a clear objective; the project scope is currently too vague."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "When applying clustering to high-dimensional user feature data, why is Principal Component Analysis (PCA) often used as a crucial preprocessing step?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To normalize the feature distributions across all dimensions, which is a strict requirement for the k-means algorithm.",
+          "is_correct": false,
+          "rationale": "PCA standardizes data but its primary purpose here is dimensionality reduction, not just normalization."
+        },
+        {
+          "key": "B",
+          "text": "To mitigate the curse of dimensionality, where distance metrics become less meaningful in a high-dimensional space.",
+          "is_correct": true,
+          "rationale": "By reducing dimensions, PCA helps distance-based algorithms like k-means perform more effectively and reliably."
+        },
+        {
+          "key": "C",
+          "text": "To transform categorical features into a numerical format that is suitable for use in clustering algorithms.",
+          "is_correct": false,
+          "rationale": "This is the role of encoding techniques like one-hot encoding, not PCA, which works on numerical data."
+        },
+        {
+          "key": "D",
+          "text": "To automatically identify the optimal number of clusters (k) for the k-means algorithm to use.",
+          "is_correct": false,
+          "rationale": "The optimal k is determined using methods like the elbow method or silhouette scores, not by PCA."
+        },
+        {
+          "key": "E",
+          "text": "To guarantee that the resulting clusters found by the algorithm are convex and generally well-separated from each other.",
+          "is_correct": false,
+          "rationale": "PCA does not provide any guarantees about the shape or separation of the final clusters."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "When forecasting sales data with multiple, complex seasonalities like weekly and yearly patterns, which model is inherently designed to handle this structure?",
+      "options": [
+        {
+          "key": "A",
+          "text": "An ARIMA model, which captures autocorrelation and trends but struggles with multiple, overlapping seasonal periods.",
+          "is_correct": false,
+          "rationale": "Standard ARIMA or even SARIMA models are not well-suited for handling multiple, overlapping seasonalities."
+        },
+        {
+          "key": "B",
+          "text": "Exponential smoothing methods like Holt-Winters, which can handle trend and a single primary seasonal component.",
+          "is_correct": false,
+          "rationale": "Holt-Winters is effective for one, or at most two, seasonalities but becomes unwieldy with more."
+        },
+        {
+          "key": "C",
+          "text": "A Prophet model, which decomposes the time series into trend, weekly, and yearly seasonal components by design.",
+          "is_correct": true,
+          "rationale": "Prophet is an additive model specifically designed to easily handle multiple seasonalities and holidays."
+        },
+        {
+          "key": "D",
+          "text": "A simple moving average, which is primarily used to smooth out noise and identify the local trend.",
+          "is_correct": false,
+          "rationale": "This method is too simplistic and completely ignores any seasonal patterns present in the data."
+        },
+        {
+          "key": "E",
+          "text": "A recurrent neural network (RNN) without explicit feature engineering for the different seasonalities in the data.",
+          "is_correct": false,
+          "rationale": "While an RNN could potentially learn these patterns, it is not explicitly designed for it and may struggle."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "To explain a single prediction from a complex gradient boosting model to a non-technical stakeholder, which method is most appropriate and intuitive?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Presenting the global feature importance plot, which shows the most influential features for the entire model.",
+          "is_correct": false,
+          "rationale": "This explains the model in general but does not explain why a specific prediction was made."
+        },
+        {
+          "key": "B",
+          "text": "Using LIME to build a local, linear approximation of the model's behavior around the specific prediction.",
+          "is_correct": false,
+          "rationale": "LIME is a good option, but SHAP is often preferred for its consistency and game-theoretic foundation."
+        },
+        {
+          "key": "C",
+          "text": "Calculating SHAP (SHapley Additive exPlanations) values to show each feature's contribution to the individual prediction.",
+          "is_correct": true,
+          "rationale": "SHAP values provide a fair and intuitive breakdown of how each feature pushed the prediction from the average."
+        },
+        {
+          "key": "D",
+          "text": "Showing the final leaf index of the instance in each decision tree within the model's ensemble.",
+          "is_correct": false,
+          "rationale": "This information is far too technical and not interpretable for a non-technical audience."
+        },
+        {
+          "key": "E",
+          "text": "Performing a permutation importance analysis on the specific instance to see how shuffling features affects its outcome.",
+          "is_correct": false,
+          "rationale": "This is computationally intensive and less direct than SHAP for explaining a single prediction."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "In a linear regression model with many highly correlated features, what is the primary advantage of using Elastic Net regularization over Lasso (L1)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is significantly more computationally efficient to train on large datasets than the standard Lasso (L1) model.",
+          "is_correct": false,
+          "rationale": "Both have similar computational complexity; efficiency is not the primary advantage of Elastic Net."
+        },
+        {
+          "key": "B",
+          "text": "It produces a sparser model by forcing a larger number of feature coefficients to be exactly zero.",
+          "is_correct": false,
+          "rationale": "Lasso generally produces sparser models than Elastic Net because it lacks the L2 penalty component."
+        },
+        {
+          "key": "C",
+          "text": "It encourages a grouping effect, selecting or deselecting groups of correlated features together rather than arbitrarily.",
+          "is_correct": true,
+          "rationale": "The L2 component of Elastic Net allows it to handle correlated features better than Lasso."
+        },
+        {
+          "key": "D",
+          "text": "It is guaranteed to find a globally optimal solution for the coefficients, whereas the Lasso algorithm is not.",
+          "is_correct": false,
+          "rationale": "Both Lasso and Elastic Net regression are convex optimization problems and have global optima."
+        },
+        {
+          "key": "E",
+          "text": "It only requires tuning one hyperparameter (alpha), making it much simpler to optimize than the Lasso model.",
+          "is_correct": false,
+          "rationale": "Elastic Net requires tuning two hyperparameters (alpha and l1_ratio), making it more complex to optimize."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is the primary purpose of specifying a prior distribution for a parameter in a Bayesian modeling context before observing any data?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure the posterior distribution is a standard, well-known distribution like the Normal or Gamma distribution.",
+          "is_correct": false,
+          "rationale": "This is a property of conjugate priors, which are a convenience, not the fundamental purpose of all priors."
+        },
+        {
+          "key": "B",
+          "text": "To incorporate existing knowledge or beliefs about a parameter's likely values before observing the data.",
+          "is_correct": true,
+          "rationale": "This is the core idea of Bayesian inference: updating prior beliefs with data to form a posterior belief."
+        },
+        {
+          "key": "C",
+          "text": "To maximize the likelihood of the observed data given the model's parameters and overall structure.",
+          "is_correct": false,
+          "rationale": "This describes Maximum Likelihood Estimation (MLE), a frequentist concept, not the role of the prior."
+        },
+        {
+          "key": "D",
+          "text": "To simplify the computation of the model's marginal likelihood, which is also known as the evidence.",
+          "is_correct": false,
+          "rationale": "While some priors can make computation easier, their main purpose is to represent prior belief."
+        },
+        {
+          "key": "E",
+          "text": "To act as a regularization term, similar to L1 or L2 penalties, to prevent the model from overfitting.",
+          "is_correct": false,
+          "rationale": "While priors often have a regularizing effect, their fundamental purpose is to encode prior information."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "You need to compute user session aggregates over a massive, terabyte-scale event log. Which of the following approaches is most scalable and efficient?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Loading the entire dataset into a single, large pandas DataFrame for fast in-memory processing on one machine.",
+          "is_correct": false,
+          "rationale": "A terabyte-scale dataset will not fit into the memory of a single machine for pandas to process."
+        },
+        {
+          "key": "B",
+          "text": "Using a distributed processing framework like Apache Spark with window functions over a distributed DataFrame.",
+          "is_correct": true,
+          "rationale": "Spark is designed for this exact purpose: scalable, distributed data processing on massive datasets."
+        },
+        {
+          "key": "C",
+          "text": "Writing a custom Python script that iterates through the log file line by line to build sessions.",
+          "is_correct": false,
+          "rationale": "This single-threaded approach would be incredibly slow and would not scale to terabytes of data."
+        },
+        {
+          "key": "D",
+          "text": "Storing the data in a relational database and using complex SQL self-joins to define user sessions.",
+          "is_correct": false,
+          "rationale": "Self-joins for sessionization are notoriously inefficient and would not perform well at this scale."
+        },
+        {
+          "key": "E",
+          "text": "Manually sharding the data into thousands of smaller files and processing them sequentially on one powerful machine.",
+          "is_correct": false,
+          "rationale": "This is inefficient and loses the immense benefits of parallel processing offered by distributed frameworks."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "The goal is to identify customers who will only make a purchase if they receive a marketing promotion. Which technique is specifically designed for this?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A classification model to predict the overall probability of purchase for every user in the customer database.",
+          "is_correct": false,
+          "rationale": "This predicts the outcome, but not the incremental impact (or lift) of the marketing promotion."
+        },
+        {
+          "key": "B",
+          "text": "A clustering model to segment customers into different groups based on their historical purchasing behavior patterns.",
+          "is_correct": false,
+          "rationale": "This identifies behavioral groups but does not measure the causal impact of a specific intervention."
+        },
+        {
+          "key": "C",
+          "text": "An uplift model to estimate the Conditional Average Treatment Effect (CATE) for each individual customer.",
+          "is_correct": true,
+          "rationale": "Uplift modeling is specifically designed to predict the change in behavior caused by a treatment."
+        },
+        {
+          "key": "D",
+          "text": "An anomaly detection model to find users with unusual purchasing patterns compared to the general population.",
+          "is_correct": false,
+          "rationale": "This is irrelevant to the goal of measuring the incremental impact of a marketing action."
+        },
+        {
+          "key": "E",
+          "text": "A propensity score model to match treated and control users to reduce selection bias in observational data.",
+          "is_correct": false,
+          "rationale": "Propensity scoring is a tool used in causal inference, but uplift modeling is the specific framework for this goal."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "For a task involving sentence-pair classification, such as paraphrase detection or natural language inference, which neural network architecture is most suitable?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A standard convolutional neural network (CNN) applied to the word embeddings of each sentence independently.",
+          "is_correct": false,
+          "rationale": "CNNs are better for single-sentence feature extraction rather than comparing semantic relationships between two sentences."
+        },
+        {
+          "key": "B",
+          "text": "A Siamese network using a shared-weight transformer encoder (like BERT) to generate comparable sentence embeddings.",
+          "is_correct": true,
+          "rationale": "Siamese networks are designed to compare two inputs in a shared vector space, making them ideal for this task."
+        },
+        {
+          "key": "C",
+          "text": "A simple recurrent neural network (RNN) that processes each sentence independently and combines the final hidden states.",
+          "is_correct": false,
+          "rationale": "This approach lacks the deep, contextual comparison provided by more advanced architectures like Siamese transformers."
+        },
+        {
+          "key": "D",
+          "text": "An autoencoder trained to reconstruct the input sentences from a compressed latent representation without supervision.",
+          "is_correct": false,
+          "rationale": "Autoencoders are an unsupervised method for representation learning, not supervised sentence-pair classification."
+        },
+        {
+          "key": "E",
+          "text": "A generative adversarial network (GAN) designed to generate new, realistic sentence pairs for augmenting training data.",
+          "is_correct": false,
+          "rationale": "GANs are used for data generation, not for the primary task of classifying existing sentence pairs."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Which metric is most crucial for monitoring a live classification model's health when the ground truth labels are significantly delayed or unavailable?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The model's prediction accuracy on the original, static held-out test set from the initial training phase.",
+          "is_correct": false,
+          "rationale": "This metric becomes stale and does not reflect the model's performance on current, live data."
+        },
+        {
+          "key": "B",
+          "text": "The Population Stability Index (PSI) between the training and live scoring feature distributions to detect drift.",
+          "is_correct": true,
+          "rationale": "PSI detects data drift without needing labels, providing an early warning that model performance may be degrading."
+        },
+        {
+          "key": "C",
+          "text": "The F1-score of the model, calculated once the true labels eventually become available for retrospective analysis.",
+          "is_correct": false,
+          "rationale": "While important for evaluation, this is a lagging indicator and not useful for real-time health monitoring."
+        },
+        {
+          "key": "D",
+          "text": "The 99th percentile inference latency of the model serving endpoint to ensure the system remains responsive.",
+          "is_correct": false,
+          "rationale": "This monitors operational performance (speed), not the statistical or predictive quality of the model."
+        },
+        {
+          "key": "E",
+          "text": "The area under the ROC curve (AUC) on the most recent batch of newly labeled data.",
+          "is_correct": false,
+          "rationale": "Like F1-score, this is a valuable but delayed metric that cannot be used for proactive monitoring."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "A loan approval model has a significantly higher false negative rate for a protected group. This represents a direct violation of which fairness criterion?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Demographic Parity, which requires the same positive prediction rate (i.e., acceptance rate) across all demographic groups.",
+          "is_correct": false,
+          "rationale": "This concerns the rate of positive outcomes, not the correctness of those outcomes or error rates."
+        },
+        {
+          "key": "B",
+          "text": "Predictive Parity, which requires the model to have the same precision (Positive Predictive Value) across all groups.",
+          "is_correct": false,
+          "rationale": "This focuses on the correctness of positive predictions (approvals), not on missing qualified applicants."
+        },
+        {
+          "key": "C",
+          "text": "Equality of Opportunity, which requires the model to have the same true positive rate (recall) across all groups.",
+          "is_correct": true,
+          "rationale": "A higher false negative rate is mathematically equivalent to a lower true positive rate, violating this criterion."
+        },
+        {
+          "key": "D",
+          "text": "Equalized Odds, which requires equal true positive rates and equal false positive rates across all groups.",
+          "is_correct": false,
+          "rationale": "This is a stricter criterion. The question specifically describes a violation of the true positive rate component."
+        },
+        {
+          "key": "E",
+          "text": "Overall Accuracy Equality, which requires the model to have the same overall accuracy score for all groups.",
+          "is_correct": false,
+          "rationale": "Accuracy can be misleading and can mask underlying disparities in specific error types like false negatives."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "You are building a model to detect fraudulent transactions within a complex network of users and accounts. Which technique is best suited for this?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A time-series model like ARIMA to forecast the aggregate volume of fraudulent transactions over a given time.",
+          "is_correct": false,
+          "rationale": "This analyzes macro trends but fails to leverage the rich relational information between individual entities."
+        },
+        {
+          "key": "B",
+          "text": "A graph neural network (GNN) that learns node embeddings based on their features and network connections.",
+          "is_correct": true,
+          "rationale": "GNNs are specifically designed to leverage the graph structure to identify complex relational patterns indicative of fraud."
+        },
+        {
+          "key": "C",
+          "text": "A logistic regression model using hand-crafted, aggregated features for each individual transaction in isolation.",
+          "is_correct": false,
+          "rationale": "This approach completely ignores the valuable network structure and relationships between users and accounts."
+        },
+        {
+          "key": "D",
+          "text": "An isolation forest to detect anomalous transactions based on their standalone feature values alone without network context.",
+          "is_correct": false,
+          "rationale": "This is a good anomaly detection method but it does not utilize the crucial network context."
+        },
+        {
+          "key": "E",
+          "text": "A community detection algorithm like Louvain to find dense clusters of highly connected users in the network.",
+          "is_correct": false,
+          "rationale": "This can be a useful feature engineering step, but it is not an end-to-end modeling solution itself."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "To calculate a 7-day rolling average of user logins from a large events table, which SQL feature is most efficient and expressive?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A self-join on the user ID with a date range condition specified in the WHERE clause.",
+          "is_correct": false,
+          "rationale": "This approach is notoriously inefficient on large tables as it creates a Cartesian product before filtering."
+        },
+        {
+          "key": "B",
+          "text": "A correlated subquery in the SELECT statement that calculates the average for each individual row separately.",
+          "is_correct": false,
+          "rationale": "Correlated subqueries are executed row-by-row, leading to very poor performance on large datasets."
+        },
+        {
+          "key": "C",
+          "text": "A window function like AVG() OVER (PARTITION BY user_id ORDER BY date ROWS BETWEEN 6 PRECEDING AND CURRENT ROW).",
+          "is_correct": true,
+          "rationale": "Window functions are the canonical, most efficient, and most readable way to perform this type of calculation in SQL."
+        },
+        {
+          "key": "D",
+          "text": "Fetching all the relevant data into a client-side script and performing the calculation in Python with pandas.",
+          "is_correct": false,
+          "rationale": "This is not scalable as it requires moving massive amounts of data over the network unnecessarily."
+        },
+        {
+          "key": "E",
+          "text": "Using a series of Common Table Expressions (CTEs) to iteratively build up the rolling average calculation.",
+          "is_correct": false,
+          "rationale": "This is more verbose and generally less performant than a single, well-defined window function."
+        }
+      ]
+    }
+  ]
+}

@@ -1,11 +1,13 @@
 """
 Hierarchical API endpoints for 3-level sector structure: Sector -> Branch -> Specialization
 """
+from typing import List
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from typing import List
+from .. import crud, schemas
+from ..models.models_hierarchical import Sector, Branch, Specialization
 from ..database import get_db
-from ..models_hierarchical import Sector, Branch, Specialization
+
 
 router = APIRouter()
 

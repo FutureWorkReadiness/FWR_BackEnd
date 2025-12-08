@@ -29,8 +29,8 @@ services:
     ports:
       - "8000:8000"
     environment:
-      DATABASE_URL: postgresql://fw_user:fw_password_123@postgres:5432/futurework
-      SECRET_KEY: dev-secret-key-change-in-production
+      - DATABASE_URL=postgresql://fw_user:fw_password_123@postgres/futurework
+      - SECRET_KEY=a_very_secret_key
     restart: unless-stopped
     # Run entrypoint script which will populate DB and start server
     entrypoint: ["/bin/bash", "-c"]
@@ -48,7 +48,7 @@ services:
         echo "📊 Running database population..."
         cd /app && python3 -c "from app.db_init import auto_populate_if_empty; auto_populate_if_empty()"
         echo "🚀 Starting FastAPI server..."
-        exec uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+        exec uvicorn app.main:app --host 0.0.0.0 --port 8000
 
   # frontend:
   #   build: ./Frontend

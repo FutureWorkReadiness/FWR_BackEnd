@@ -1,0 +1,824 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "Which of the following represents a typical application of supervised learning within machine learning?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dividing data into groups based on similarities without prior labels or guidance.",
+          "is_correct": false,
+          "rationale": "Clustering is an unsupervised learning method, not supervised.",
+          "rationale_length": 10
+        },
+        {
+          "key": "B",
+          "text": "Using historical data to predict stock prices, employing a dataset with labeled examples.",
+          "is_correct": true,
+          "rationale": "Supervised learning uses labeled data to make predictions.",
+          "rationale_length": 9
+        },
+        {
+          "key": "C",
+          "text": "Reducing data complexity while retaining essential information and structure within the dataset.",
+          "is_correct": false,
+          "rationale": "Dimensionality reduction is often an unsupervised process.",
+          "rationale_length": 7
+        },
+        {
+          "key": "D",
+          "text": "Creating new images resembling a training set, without explicit labels or categories.",
+          "is_correct": false,
+          "rationale": "Image generation often relies on unsupervised methods.",
+          "rationale_length": 7
+        },
+        {
+          "key": "E",
+          "text": "Identifying hidden patterns and relationships within data that lacks labels or categories.",
+          "is_correct": false,
+          "rationale": "Discovering patterns is generally an unsupervised learning task.",
+          "rationale_length": 8
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "In machine learning, what is the meaning of the term 'overfitting' during model development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A model that shows poor performance on the training data and also on unseen data.",
+          "is_correct": false,
+          "rationale": "This situation describes underfitting, not overfitting of the model.",
+          "rationale_length": 10
+        },
+        {
+          "key": "B",
+          "text": "A model that learns the training data too well, failing to generalize to new data.",
+          "is_correct": true,
+          "rationale": "Overfitting means the model has memorized the training data.",
+          "rationale_length": 9
+        },
+        {
+          "key": "C",
+          "text": "A model that requires a significant amount of time to train on large datasets.",
+          "is_correct": false,
+          "rationale": "Training time is not directly related to overfitting issues.",
+          "rationale_length": 9
+        },
+        {
+          "key": "D",
+          "text": "A model with an insufficient number of parameters to accurately capture data patterns.",
+          "is_correct": false,
+          "rationale": "This situation describes underfitting, not overfitting problems.",
+          "rationale_length": 8
+        },
+        {
+          "key": "E",
+          "text": "A model that can perfectly generalize to any and all possible unseen datasets.",
+          "is_correct": false,
+          "rationale": "Perfect generalization is a rare and often unachievable goal.",
+          "rationale_length": 9
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "When evaluating a binary classification model with imbalanced classes, which metric is most suitable?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Accuracy, because it gives a broad measure of how well classifications are performing.",
+          "is_correct": false,
+          "rationale": "Accuracy can be misleading when dealing with imbalanced classes.",
+          "rationale_length": 9
+        },
+        {
+          "key": "B",
+          "text": "Precision, as it specifically measures the accuracy and correctness of positive predictions.",
+          "is_correct": false,
+          "rationale": "Precision alone does not fully account for false negatives.",
+          "rationale_length": 9
+        },
+        {
+          "key": "C",
+          "text": "Recall, because it assesses the ability to identify all actual positive cases.",
+          "is_correct": false,
+          "rationale": "Recall alone does not fully account for false positives.",
+          "rationale_length": 9
+        },
+        {
+          "key": "D",
+          "text": "F1-score, which offers a balance between precision and recall in one metric.",
+          "is_correct": true,
+          "rationale": "F1-score is the harmonic mean of precision and recall.",
+          "rationale_length": 9
+        },
+        {
+          "key": "E",
+          "text": "Error rate, as it directly shows the overall number of incorrect predictions made.",
+          "is_correct": false,
+          "rationale": "Error rate is similar to accuracy and has the same issues.",
+          "rationale_length": 11
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "During machine learning model training, what is the main purpose of using a validation set?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To train the model using the complete dataset to achieve the highest performance.",
+          "is_correct": false,
+          "rationale": "Training on the entire dataset can cause overfitting issues.",
+          "rationale_length": 9
+        },
+        {
+          "key": "B",
+          "text": "To assess the model's effectiveness on new, unseen data during the training phase.",
+          "is_correct": true,
+          "rationale": "The validation set aids in tuning hyperparameters effectively.",
+          "rationale_length": 9
+        },
+        {
+          "key": "C",
+          "text": "To evaluate the model's performance and effectiveness specifically on the training data.",
+          "is_correct": false,
+          "rationale": "The training set is used to estimate training performance.",
+          "rationale_length": 9
+        },
+        {
+          "key": "D",
+          "text": "To deploy the trained model into a production environment for real-world application.",
+          "is_correct": false,
+          "rationale": "Deployment occurs after training and validation processes.",
+          "rationale_length": 7
+        },
+        {
+          "key": "E",
+          "text": "To visualize the model's internal parameters and its overall structural design.",
+          "is_correct": false,
+          "rationale": "Visualization is a separate diagnostic process, not validation.",
+          "rationale_length": 8
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which data preprocessing method is applied to scale numerical features within a specific range?",
+      "options": [
+        {
+          "key": "A",
+          "text": "One-hot encoding, which is used to transform categorical variables into numerical formats.",
+          "is_correct": false,
+          "rationale": "One-hot encoding is designed for categorical features only.",
+          "rationale_length": 8
+        },
+        {
+          "key": "B",
+          "text": "Normalization, which scales features to fit within a range between zero and one.",
+          "is_correct": true,
+          "rationale": "Normalization scales features to a specific range effectively.",
+          "rationale_length": 8
+        },
+        {
+          "key": "C",
+          "text": "Standardization, which centers the features around zero with a unit standard variance.",
+          "is_correct": false,
+          "rationale": "Standardization centers around zero with unit variance.",
+          "rationale_length": 8
+        },
+        {
+          "key": "D",
+          "text": "Imputation, a method used to fill in any missing values within the dataset.",
+          "is_correct": false,
+          "rationale": "Imputation is used to handle missing values effectively.",
+          "rationale_length": 8
+        },
+        {
+          "key": "E",
+          "text": "Discretization, which transforms continuous features into discrete, categorized segments or groups.",
+          "is_correct": false,
+          "rationale": "Discretization converts to discrete categories for analysis.",
+          "rationale_length": 7
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "In machine learning, what is the main objective of using Principal Component Analysis (PCA)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To enhance the accuracy of a classification model by introducing new features.",
+          "is_correct": false,
+          "rationale": "PCA reduces the number of features, not adds them.",
+          "rationale_length": 9
+        },
+        {
+          "key": "B",
+          "text": "To decrease the dimensionality of data while still preserving the variance effectively.",
+          "is_correct": true,
+          "rationale": "PCA aims to reduce dimensionality while preserving variance.",
+          "rationale_length": 8
+        },
+        {
+          "key": "C",
+          "text": "To detect outliers in a dataset for the purpose of anomaly detection.",
+          "is_correct": false,
+          "rationale": "PCA is not primarily designed for outlier detection tasks.",
+          "rationale_length": 9
+        },
+        {
+          "key": "D",
+          "text": "To group data points into distinct clusters based on their similarities.",
+          "is_correct": false,
+          "rationale": "PCA is a dimensionality reduction technique, not clustering.",
+          "rationale_length": 8
+        },
+        {
+          "key": "E",
+          "text": "To produce synthetic data points for the purpose of data augmentation.",
+          "is_correct": false,
+          "rationale": "PCA does not generate synthetic data points.",
+          "rationale_length": 7
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Which of the following options represents a commonly used activation function in neural networks?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mean Squared Error (MSE), which is used to quantify the difference between predicted values.",
+          "is_correct": false,
+          "rationale": "MSE is a loss function, not an activation function.",
+          "rationale_length": 9
+        },
+        {
+          "key": "B",
+          "text": "Cross-Entropy Loss, which is applied to assess the performance of classification models.",
+          "is_correct": false,
+          "rationale": "Cross-entropy is a loss function, not an activation function.",
+          "rationale_length": 9
+        },
+        {
+          "key": "C",
+          "text": "Sigmoid, which produces output values between 0 and 1, representing probabilities.",
+          "is_correct": true,
+          "rationale": "Sigmoid is a common and effective activation function.",
+          "rationale_length": 7
+        },
+        {
+          "key": "D",
+          "text": "Gradient Descent, an optimization algorithm used for training neural networks effectively.",
+          "is_correct": false,
+          "rationale": "Gradient descent is an optimization algorithm, not activation.",
+          "rationale_length": 8
+        },
+        {
+          "key": "E",
+          "text": "Backpropagation, which is utilized to compute gradients of the loss function accurately.",
+          "is_correct": false,
+          "rationale": "Backpropagation calculates gradients, not an activation function.",
+          "rationale_length": 7
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What is the primary purpose of using regularization techniques in machine learning models?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To increase the model's complexity and enhance its ability to fit the training data.",
+          "is_correct": false,
+          "rationale": "Regularization reduces model complexity, preventing overfitting.",
+          "rationale_length": 7
+        },
+        {
+          "key": "B",
+          "text": "To prevent overfitting by adding a penalty for models that are too complex.",
+          "is_correct": true,
+          "rationale": "Regularization prevents overfitting by penalizing complex models.",
+          "rationale_length": 8
+        },
+        {
+          "key": "C",
+          "text": "To accelerate the training process of machine learning models significantly.",
+          "is_correct": false,
+          "rationale": "Regularization might slightly slow down the training process.",
+          "rationale_length": 8
+        },
+        {
+          "key": "D",
+          "text": "To improve the model's performance on training data, sacrificing generalization ability.",
+          "is_correct": false,
+          "rationale": "Regularization improves generalization, not sacrificing it.",
+          "rationale_length": 7
+        },
+        {
+          "key": "E",
+          "text": "To decrease the amount of data required to train a model effectively.",
+          "is_correct": false,
+          "rationale": "Regularization does not reduce the need for data.",
+          "rationale_length": 8
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Which of the following algorithms is an example of unsupervised learning in practice?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Linear Regression, which is used to predict a continuous output based on inputs.",
+          "is_correct": false,
+          "rationale": "Linear regression is a supervised learning algorithm type.",
+          "rationale_length": 7
+        },
+        {
+          "key": "B",
+          "text": "Support Vector Machines (SVM), which are used for both classification and regression.",
+          "is_correct": false,
+          "rationale": "SVM is a supervised learning algorithm in practice.",
+          "rationale_length": 7
+        },
+        {
+          "key": "C",
+          "text": "K-Means Clustering, which groups data points into clusters based on their similarity.",
+          "is_correct": true,
+          "rationale": "K-Means is a classic unsupervised learning algorithm example.",
+          "rationale_length": 8
+        },
+        {
+          "key": "D",
+          "text": "Decision Trees, which create a tree-like structure for classification and regression tasks.",
+          "is_correct": false,
+          "rationale": "Decision trees are supervised learning algorithms.",
+          "rationale_length": 6
+        },
+        {
+          "key": "E",
+          "text": "Naive Bayes, a probabilistic classifier that relies on Bayes' theorem for predictions.",
+          "is_correct": false,
+          "rationale": "Naive Bayes is a supervised learning algorithm.",
+          "rationale_length": 7
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "In machine learning models, what does the term 'bias' generally refer to in practice?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The model's overall ability to generalize effectively to new, unseen data.",
+          "is_correct": false,
+          "rationale": "Generalization ability is related to variance, not bias.",
+          "rationale_length": 8
+        },
+        {
+          "key": "B",
+          "text": "The model's tendency to consistently make errors in a specific direction.",
+          "is_correct": true,
+          "rationale": "Bias is the tendency to consistently make errors.",
+          "rationale_length": 7
+        },
+        {
+          "key": "C",
+          "text": "The model's sensitivity to minor fluctuations present in the training data.",
+          "is_correct": false,
+          "rationale": "Sensitivity to fluctuations is related to variance, not bias.",
+          "rationale_length": 8
+        },
+        {
+          "key": "D",
+          "text": "The amount of computational resources needed to train the model effectively.",
+          "is_correct": false,
+          "rationale": "Computational resources are not related to bias directly.",
+          "rationale_length": 7
+        },
+        {
+          "key": "E",
+          "text": "The overall size of the training dataset used to train the model.",
+          "is_correct": false,
+          "rationale": "Dataset size is not directly related to bias.",
+          "rationale_length": 7
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is a common and effective technique for handling missing data?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature engineering, which involves creating new features derived from existing features.",
+          "is_correct": false,
+          "rationale": "Feature engineering creates new features from existing ones.",
+          "rationale_length": 8
+        },
+        {
+          "key": "B",
+          "text": "Data augmentation, which increases dataset size by creating modified copies of data.",
+          "is_correct": false,
+          "rationale": "Data augmentation increases the dataset size overall.",
+          "rationale_length": 7
+        },
+        {
+          "key": "C",
+          "text": "Imputation, which fills in missing values with estimated or predicted values.",
+          "is_correct": true,
+          "rationale": "Imputation is a technique for handling missing data.",
+          "rationale_length": 7
+        },
+        {
+          "key": "D",
+          "text": "Dimensionality reduction, which reduces the number of features present in the dataset.",
+          "is_correct": false,
+          "rationale": "Dimensionality reduction reduces the number of features.",
+          "rationale_length": 7
+        },
+        {
+          "key": "E",
+          "text": "Model selection, which involves choosing the best model from a set of models.",
+          "is_correct": false,
+          "rationale": "Model selection chooses the best model overall.",
+          "rationale_length": 7
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "When evaluating classification models, what is the purpose of using a confusion matrix?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To visualize the distribution of data points within a dataset effectively.",
+          "is_correct": false,
+          "rationale": "Distribution visualization is not the purpose of this.",
+          "rationale_length": 7
+        },
+        {
+          "key": "B",
+          "text": "To summarize the performance by showing true positives, false negatives, etc.",
+          "is_correct": true,
+          "rationale": "The confusion matrix summarizes classification performance overall.",
+          "rationale_length": 7
+        },
+        {
+          "key": "C",
+          "text": "To measure the correlation between different features within the dataset.",
+          "is_correct": false,
+          "rationale": "Correlation measurement is not the purpose of this.",
+          "rationale_length": 7
+        },
+        {
+          "key": "D",
+          "text": "To identify outliers in a dataset for anomaly detection purposes.",
+          "is_correct": false,
+          "rationale": "Outlier detection is not the primary purpose here.",
+          "rationale_length": 7
+        },
+        {
+          "key": "E",
+          "text": "To reduce the dimensionality of the dataset for efficient processing.",
+          "is_correct": false,
+          "rationale": "Dimensionality reduction is not the purpose of this.",
+          "rationale_length": 7
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Which of the following machine learning tasks involves predicting a continuous numerical value?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Classification, which assigns data points to predefined categories or specific classes.",
+          "is_correct": false,
+          "rationale": "Classification assigns data to categories, not continuous values.",
+          "rationale_length": 8
+        },
+        {
+          "key": "B",
+          "text": "Regression, which is used to predict a continuous numerical value.",
+          "is_correct": true,
+          "rationale": "Regression predicts continuous values in machine learning.",
+          "rationale_length": 7
+        },
+        {
+          "key": "C",
+          "text": "Clustering, which groups data points into clusters based on their similarity.",
+          "is_correct": false,
+          "rationale": "Clustering groups similar data points together effectively.",
+          "rationale_length": 6
+        },
+        {
+          "key": "D",
+          "text": "Dimensionality reduction, which reduces the number of features in the dataset.",
+          "is_correct": false,
+          "rationale": "Dimensionality reduction reduces features in the dataset.",
+          "rationale_length": 7
+        },
+        {
+          "key": "E",
+          "text": "Anomaly detection, which identifies unusual or rare data points effectively.",
+          "is_correct": false,
+          "rationale": "Anomaly detection identifies unusual points in data.",
+          "rationale_length": 7
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What role does gradient descent play in the training of machine learning models?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To evaluate the model's performance using unseen data effectively and efficiently.",
+          "is_correct": false,
+          "rationale": "Evaluation is done with a validation set separately.",
+          "rationale_length": 7
+        },
+        {
+          "key": "B",
+          "text": "To find optimal values for the model's parameters, minimizing the loss function.",
+          "is_correct": true,
+          "rationale": "Gradient descent minimizes the loss function effectively.",
+          "rationale_length": 7
+        },
+        {
+          "key": "C",
+          "text": "To preprocess the data before training the model for better results.",
+          "is_correct": false,
+          "rationale": "Preprocessing is a separate step before training.",
+          "rationale_length": 6
+        },
+        {
+          "key": "D",
+          "text": "To reduce the dimensionality of the dataset for efficient processing.",
+          "is_correct": false,
+          "rationale": "Dimensionality reduction is a different technique altogether.",
+          "rationale_length": 6
+        },
+        {
+          "key": "E",
+          "text": "To visualize the model's internal structure and its parameters effectively.",
+          "is_correct": false,
+          "rationale": "Visualization is a separate process from model training.",
+          "rationale_length": 7
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is a common technique for splitting a dataset?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cross-validation, which involves training and evaluating the model multiple times.",
+          "is_correct": false,
+          "rationale": "Cross-validation is a more complex evaluation technique.",
+          "rationale_length": 7
+        },
+        {
+          "key": "B",
+          "text": "Train-test split, which divides the dataset into training and testing sets.",
+          "is_correct": true,
+          "rationale": "Train-test split is a basic splitting technique.",
+          "rationale_length": 7
+        },
+        {
+          "key": "C",
+          "text": "Regularization, which adds a penalty to complex models to prevent overfitting.",
+          "is_correct": false,
+          "rationale": "Regularization prevents overfitting in complex models.",
+          "rationale_length": 6
+        },
+        {
+          "key": "D",
+          "text": "Normalization, which scales the features to a specific range effectively.",
+          "is_correct": false,
+          "rationale": "Normalization scales features to a specific range.",
+          "rationale_length": 6
+        },
+        {
+          "key": "E",
+          "text": "Feature selection, which selects the most relevant features for the model.",
+          "is_correct": false,
+          "rationale": "Feature selection chooses relevant features effectively.",
+          "rationale_length": 6
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "In machine learning, what is the main purpose of hyperparameter tuning processes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To optimize the model's parameters using gradient descent techniques effectively.",
+          "is_correct": false,
+          "rationale": "Gradient descent optimizes model parameters, not hyperparameters.",
+          "rationale_length": 7
+        },
+        {
+          "key": "B",
+          "text": "To find the best values for the model's hyperparameters effectively.",
+          "is_correct": true,
+          "rationale": "Hyperparameter tuning optimizes hyperparameters effectively.",
+          "rationale_length": 6
+        },
+        {
+          "key": "C",
+          "text": "To preprocess the data before training the model for better results.",
+          "is_correct": false,
+          "rationale": "Preprocessing is a separate step before training.",
+          "rationale_length": 6
+        },
+        {
+          "key": "D",
+          "text": "To reduce the dimensionality of the dataset for efficient processing.",
+          "is_correct": false,
+          "rationale": "Dimensionality reduction reduces features in the dataset.",
+          "rationale_length": 7
+        },
+        {
+          "key": "E",
+          "text": "To visualize the model's internal structure and its parameters effectively.",
+          "is_correct": false,
+          "rationale": "Visualization is a separate process from model training.",
+          "rationale_length": 7
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is a common distance metric used in clustering algorithms?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Accuracy, which measures the overall correctness of a classification model.",
+          "is_correct": false,
+          "rationale": "Accuracy is for classification tasks, not clustering.",
+          "rationale_length": 7
+        },
+        {
+          "key": "B",
+          "text": "Precision, which measures the correctness of positive predictions effectively.",
+          "is_correct": false,
+          "rationale": "Precision is for classification tasks, not clustering.",
+          "rationale_length": 7
+        },
+        {
+          "key": "C",
+          "text": "Recall, which measures the ability to capture all actual positive cases.",
+          "is_correct": false,
+          "rationale": "Recall is for classification tasks, not clustering.",
+          "rationale_length": 7
+        },
+        {
+          "key": "D",
+          "text": "Euclidean distance, which measures the straight-line distance between two points.",
+          "is_correct": true,
+          "rationale": "Euclidean distance is a common distance metric used.",
+          "rationale_length": 7
+        },
+        {
+          "key": "E",
+          "text": "F1-score, which balances precision and recall in classification tasks.",
+          "is_correct": false,
+          "rationale": "F1-score is for classification tasks, not clustering.",
+          "rationale_length": 7
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is the purpose of cross-validation in machine learning model evaluation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To train the model on the entire dataset for maximum performance results.",
+          "is_correct": false,
+          "rationale": "Training on the entire dataset can lead to overfitting.",
+          "rationale_length": 8
+        },
+        {
+          "key": "B",
+          "text": "To estimate performance on unseen data using multiple train-test splits effectively.",
+          "is_correct": true,
+          "rationale": "Cross-validation uses multiple train-test splits effectively.",
+          "rationale_length": 7
+        },
+        {
+          "key": "C",
+          "text": "To optimize the model's hyperparameters using gradient descent techniques.",
+          "is_correct": false,
+          "rationale": "Gradient descent optimizes model parameters, not hyperparameters.",
+          "rationale_length": 7
+        },
+        {
+          "key": "D",
+          "text": "To reduce the dimensionality of the dataset for efficient processing.",
+          "is_correct": false,
+          "rationale": "Dimensionality reduction reduces features in the dataset.",
+          "rationale_length": 7
+        },
+        {
+          "key": "E",
+          "text": "To visualize the model's internal structure and its parameters effectively.",
+          "is_correct": false,
+          "rationale": "Visualization is a separate process from model training.",
+          "rationale_length": 7
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Which of the following represents a common type of layer in neural networks?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Decision Tree layer, which creates a tree-like structure for classification or regression.",
+          "is_correct": false,
+          "rationale": "Decision trees are not neural network layers directly.",
+          "rationale_length": 7
+        },
+        {
+          "key": "B",
+          "text": "Support Vector Machine (SVM) layer, used for classification and regression tasks.",
+          "is_correct": false,
+          "rationale": "SVM is not a neural network layer directly.",
+          "rationale_length": 7
+        },
+        {
+          "key": "C",
+          "text": "Convolutional layer, which applies filters to extract features from images effectively.",
+          "is_correct": true,
+          "rationale": "Convolutional layers are common in CNNs effectively.",
+          "rationale_length": 6
+        },
+        {
+          "key": "D",
+          "text": "K-Means clustering layer, which groups data points into clusters effectively.",
+          "is_correct": false,
+          "rationale": "K-Means is not a neural network layer directly.",
+          "rationale_length": 7
+        },
+        {
+          "key": "E",
+          "text": "Principal Component Analysis (PCA) layer, which reduces dimensionality effectively.",
+          "is_correct": false,
+          "rationale": "PCA is not a neural network layer directly.",
+          "rationale_length": 7
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "In machine learning, what is the primary purpose of performing feature scaling?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To reduce the number of features present in the dataset effectively.",
+          "is_correct": false,
+          "rationale": "Feature scaling doesn't reduce the number of features.",
+          "rationale_length": 7
+        },
+        {
+          "key": "B",
+          "text": "To ensure that all features have a similar range of values effectively.",
+          "is_correct": true,
+          "rationale": "Feature scaling ensures similar ranges of values.",
+          "rationale_length": 6
+        },
+        {
+          "key": "C",
+          "text": "To create new features derived from existing features in the dataset.",
+          "is_correct": false,
+          "rationale": "Feature engineering creates new features from existing ones.",
+          "rationale_length": 8
+        },
+        {
+          "key": "D",
+          "text": "To fill in missing values present in the dataset effectively.",
+          "is_correct": false,
+          "rationale": "Imputation fills in missing values in the data.",
+          "rationale_length": 7
+        },
+        {
+          "key": "E",
+          "text": "To select the most relevant features for the model effectively.",
+          "is_correct": false,
+          "rationale": "Feature selection chooses relevant features for the model.",
+          "rationale_length": 7
+        }
+      ]
+    }
+  ]
+}

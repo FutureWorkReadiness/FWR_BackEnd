@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "Which Android component provides a screen for users to interact with and perform specific tasks within an application?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A Content Provider manages access to a central data repository, offering structured querying capabilities for other components.",
+          "is_correct": false,
+          "rationale": "Content Providers manage data, not direct user interaction."
+        },
+        {
+          "key": "B",
+          "text": "A Service runs in the background to perform long-running operations without a user interface, such as music playback.",
+          "is_correct": false,
+          "rationale": "Services handle background tasks, not user interaction."
+        },
+        {
+          "key": "C",
+          "text": "An Activity represents a single screen with a user interface, designed to handle user interactions and display information.",
+          "is_correct": true,
+          "rationale": "Activities are designed for user interaction."
+        },
+        {
+          "key": "D",
+          "text": "A Broadcast Receiver responds to system-wide broadcast announcements, triggering specific actions based on received events.",
+          "is_correct": false,
+          "rationale": "Broadcast Receivers react to system events, not user inputs."
+        },
+        {
+          "key": "E",
+          "text": "A Fragment is a modular section of an Activity's UI, enabling reusability and flexibility in designing user interfaces.",
+          "is_correct": false,
+          "rationale": "Fragments are UI parts, but Activities provide the screen."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the primary purpose of the AndroidManifest.xml file in the root directory of an Android project?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It stores the application's data, including user preferences and database information, using XML format for persistence.",
+          "is_correct": false,
+          "rationale": "Data storage is handled by databases or shared preferences."
+        },
+        {
+          "key": "B",
+          "text": "It defines the layout of user interface elements, specifying the arrangement of views and widgets within activities.",
+          "is_correct": false,
+          "rationale": "Layouts are defined in XML layout files, not the manifest."
+        },
+        {
+          "key": "C",
+          "text": "It declares the application's components, permissions, and hardware/software requirements for proper installation and execution.",
+          "is_correct": true,
+          "rationale": "The manifest declares app components and requirements."
+        },
+        {
+          "key": "D",
+          "text": "It contains the source code for the application's logic, defining the behavior of different components using Java or Kotlin.",
+          "is_correct": false,
+          "rationale": "Source code is written in Java or Kotlin files."
+        },
+        {
+          "key": "E",
+          "text": "It manages the application's build process, including compiling code, packaging resources, and signing the APK file.",
+          "is_correct": false,
+          "rationale": "The build process is managed by Gradle."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which Android layout manager is most suitable for efficiently displaying a dynamic list of items that may exceed the screen's boundaries?",
+      "options": [
+        {
+          "key": "A",
+          "text": "FrameLayout is designed for displaying single views stacked on top of each other, making it unsuitable for scrollable lists.",
+          "is_correct": false,
+          "rationale": "FrameLayout is for single, overlapping views."
+        },
+        {
+          "key": "B",
+          "text": "LinearLayout arranges views in a single row or column, but it lacks built-in scrolling capabilities for large datasets.",
+          "is_correct": false,
+          "rationale": "LinearLayout does not directly support scrolling."
+        },
+        {
+          "key": "C",
+          "text": "RelativeLayout positions views relative to each other, which is not ideal for managing dynamic lists with variable content.",
+          "is_correct": false,
+          "rationale": "RelativeLayout is for relative positioning."
+        },
+        {
+          "key": "D",
+          "text": "ConstraintLayout provides flexible positioning using constraints, but it's not optimized for displaying large, scrollable lists.",
+          "is_correct": false,
+          "rationale": "ConstraintLayout is for complex layouts."
+        },
+        {
+          "key": "E",
+          "text": "RecyclerView is optimized for displaying large datasets efficiently, supporting scrolling and recycling of views for performance.",
+          "is_correct": true,
+          "rationale": "RecyclerView is designed for large, scrollable lists."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "In Android UI development, what is the primary role and function of an Adapter class when working with data display?",
+      "options": [
+        {
+          "key": "A",
+          "text": "An Adapter handles user input events, such as clicks and touches, triggering corresponding actions within the application's logic.",
+          "is_correct": false,
+          "rationale": "Input events are handled by listeners."
+        },
+        {
+          "key": "B",
+          "text": "An Adapter manages network requests, fetching data from remote servers and caching responses locally for offline access.",
+          "is_correct": false,
+          "rationale": "Networking is handled by other classes."
+        },
+        {
+          "key": "C",
+          "text": "An Adapter acts as a bridge between a data source and a View, populating the View with data for display to the user.",
+          "is_correct": true,
+          "rationale": "Adapters connect data to views."
+        },
+        {
+          "key": "D",
+          "text": "An Adapter defines the layout of user interface elements, specifying the arrangement of views and widgets within activities.",
+          "is_correct": false,
+          "rationale": "Layout is defined in XML layout files."
+        },
+        {
+          "key": "E",
+          "text": "An Adapter persists data to local storage, such as SQLite databases or shared preferences, ensuring data is available offline.",
+          "is_correct": false,
+          "rationale": "Data persistence is handled by databases or shared preferences."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What is a key benefit of using Fragments in Android development for creating user interfaces and managing application components?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fragments automatically handle background tasks, improving application responsiveness and performance by offloading long-running operations.",
+          "is_correct": false,
+          "rationale": "Background tasks are handled by Services or coroutines."
+        },
+        {
+          "key": "B",
+          "text": "Fragments simplify network communication, making it easier to fetch data from remote servers and handle asynchronous requests efficiently.",
+          "is_correct": false,
+          "rationale": "Networking is handled by other classes."
+        },
+        {
+          "key": "C",
+          "text": "Fragments enable UI modularity and reusability, allowing developers to create dynamic and flexible user interfaces across different activities.",
+          "is_correct": true,
+          "rationale": "Fragments promote UI modularity and reuse."
+        },
+        {
+          "key": "D",
+          "text": "Fragments enhance data security, protecting sensitive information from unauthorized access by implementing encryption and access control mechanisms.",
+          "is_correct": false,
+          "rationale": "Security is handled by other mechanisms."
+        },
+        {
+          "key": "E",
+          "text": "Fragments improve database performance, optimizing data access and storage for large datasets by using efficient querying techniques.",
+          "is_correct": false,
+          "rationale": "Database performance depends on database design."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What is the primary purpose of the ViewModel component within the Android Jetpack library for application development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "ViewModel manages background tasks efficiently, ensuring they survive configuration changes seamlessly and without interrupting the user experience.",
+          "is_correct": false,
+          "rationale": "Background tasks are better handled by WorkManager or coroutines."
+        },
+        {
+          "key": "B",
+          "text": "ViewModel provides a way to store and manage UI-related data that survives configuration changes, such as screen rotations.",
+          "is_correct": true,
+          "rationale": "ViewModel stores UI-related data across config changes."
+        },
+        {
+          "key": "C",
+          "text": "ViewModel handles navigation between different screens, simplifying the management of application flow and user interface transitions.",
+          "is_correct": false,
+          "rationale": "Navigation is managed by the Navigation component."
+        },
+        {
+          "key": "D",
+          "text": "ViewModel manages database interactions, providing a clean and efficient way to access, query, and manipulate data within the application.",
+          "is_correct": false,
+          "rationale": "Database interaction is handled by Room or DAOs."
+        },
+        {
+          "key": "E",
+          "text": "ViewModel simplifies network communication, making it easier to fetch data from remote servers asynchronously and handle API responses.",
+          "is_correct": false,
+          "rationale": "Networking is handled by Retrofit or other libraries."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Which architectural pattern is currently recommended by Google for building robust, maintainable, and testable Android applications effectively?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Model-View-Presenter (MVP) separates the UI logic from the data presentation, enhancing testability and maintainability of the application.",
+          "is_correct": false,
+          "rationale": "MVP is a valid pattern, but not Google's recommendation."
+        },
+        {
+          "key": "B",
+          "text": "Model-View-Intent (MVI) uses unidirectional data flow and immutable data structures to manage state changes predictably and reliably.",
+          "is_correct": false,
+          "rationale": "MVI is a valid pattern, but not Google's recommendation."
+        },
+        {
+          "key": "C",
+          "text": "Model-View-Controller (MVC) divides the application into three interconnected parts: model, view, and controller for organization.",
+          "is_correct": false,
+          "rationale": "MVC is a valid pattern, but not Google's recommendation."
+        },
+        {
+          "key": "D",
+          "text": "Singleton pattern ensures only one instance of a class exists, useful for managing global state, but not a full architecture.",
+          "is_correct": false,
+          "rationale": "Singleton is a design pattern, not an architecture."
+        },
+        {
+          "key": "E",
+          "text": "Model-View-ViewModel (MVVM) separates the UI from the data logic, using data binding for efficient UI updates and testability.",
+          "is_correct": true,
+          "rationale": "MVVM is Google's recommended architecture."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What is the specific purpose of LiveData within the context of Android development using the Android Jetpack library?",
+      "options": [
+        {
+          "key": "A",
+          "text": "LiveData is a data storage solution, providing a way to persist data to local storage, such as SQLite databases or shared preferences.",
+          "is_correct": false,
+          "rationale": "LiveData is not a data storage solution."
+        },
+        {
+          "key": "B",
+          "text": "LiveData is an observable data holder class that is lifecycle-aware, updating views only when they are in an active state.",
+          "is_correct": true,
+          "rationale": "LiveData is an observable, lifecycle-aware data holder."
+        },
+        {
+          "key": "C",
+          "text": "LiveData is a background task manager, allowing you to execute long-running operations asynchronously without blocking the main thread.",
+          "is_correct": false,
+          "rationale": "LiveData is not for background tasks."
+        },
+        {
+          "key": "D",
+          "text": "LiveData is a networking library, simplifying the process of making HTTP requests to remote servers and handling API responses.",
+          "is_correct": false,
+          "rationale": "LiveData is not a networking library."
+        },
+        {
+          "key": "E",
+          "text": "LiveData is a dependency injection framework, managing the dependencies between different components efficiently and automatically.",
+          "is_correct": false,
+          "rationale": "LiveData is not a dependency injection framework."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is the primary role of the Room Persistence Library in Android development for managing local data storage?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Room is a networking library, simplifying communication with RESTful APIs and handling JSON serialization for data exchange.",
+          "is_correct": false,
+          "rationale": "Room is not a networking library."
+        },
+        {
+          "key": "B",
+          "text": "Room is a UI testing framework, allowing you to write automated tests for Android user interfaces and ensure functionality.",
+          "is_correct": false,
+          "rationale": "Room is not a UI testing framework."
+        },
+        {
+          "key": "C",
+          "text": "Room provides an abstraction layer over SQLite, simplifying database access and reducing boilerplate code for data management.",
+          "is_correct": true,
+          "rationale": "Room is an abstraction layer over SQLite."
+        },
+        {
+          "key": "D",
+          "text": "Room is a dependency injection framework, managing the dependencies between different components automatically and efficiently.",
+          "is_correct": false,
+          "rationale": "Room is not a dependency injection framework."
+        },
+        {
+          "key": "E",
+          "text": "Room is a background task scheduler, enabling you to schedule and manage asynchronous tasks efficiently and reliably in the background.",
+          "is_correct": false,
+          "rationale": "Room is not a task scheduler."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What is the main purpose of using coroutines in Android development, particularly when working with the Kotlin programming language?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Coroutines are used for managing UI layouts, simplifying the creation of complex user interfaces programmatically and efficiently.",
+          "is_correct": false,
+          "rationale": "Coroutines are not for UI layout."
+        },
+        {
+          "key": "B",
+          "text": "Coroutines are used for handling user input events, such as clicks and touches, in a more efficient and responsive manner.",
+          "is_correct": false,
+          "rationale": "Coroutines are not for handling user input."
+        },
+        {
+          "key": "C",
+          "text": "Coroutines are used for simplifying asynchronous programming, making it easier to write non-blocking code and manage concurrency.",
+          "is_correct": true,
+          "rationale": "Coroutines simplify asynchronous programming."
+        },
+        {
+          "key": "D",
+          "text": "Coroutines are used for data encryption, providing a secure way to store sensitive information locally and protect it from unauthorized access.",
+          "is_correct": false,
+          "rationale": "Coroutines are not for data encryption."
+        },
+        {
+          "key": "E",
+          "text": "Coroutines are used for dependency injection, managing the dependencies between different components efficiently and automatically.",
+          "is_correct": false,
+          "rationale": "Coroutines are not for dependency injection."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "In Android development, what is an Implicit Intent, and how does it fundamentally differ from an Explicit Intent in its operation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Implicit Intents specify the exact component to handle the intent, while Explicit Intents declare a general action to be performed.",
+          "is_correct": false,
+          "rationale": "The definitions are reversed."
+        },
+        {
+          "key": "B",
+          "text": "Implicit Intents declare a general action to perform, allowing the system to find a suitable component, while Explicit Intents directly specify the component.",
+          "is_correct": true,
+          "rationale": "This is the correct definition of implicit vs explicit intents."
+        },
+        {
+          "key": "C",
+          "text": "Implicit Intents are primarily used for local data storage, while Explicit Intents are used for efficient network communication.",
+          "is_correct": false,
+          "rationale": "Intents are for component activation, not data storage or networking."
+        },
+        {
+          "key": "D",
+          "text": "Implicit Intents are used for UI testing purposes, while Explicit Intents are used for unit testing application components.",
+          "is_correct": false,
+          "rationale": "Intents are not directly related to testing."
+        },
+        {
+          "key": "E",
+          "text": "Implicit Intents handle background tasks, while Explicit Intents manage user interface updates smoothly and efficiently on the main thread.",
+          "is_correct": false,
+          "rationale": "Intents are not for background tasks or UI updates."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "What is the specific purpose of the 'android:exported' attribute when used within an AndroidManifest.xml file for application components?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It specifies the minimum SDK version required to run the application, ensuring compatibility with older Android devices and versions.",
+          "is_correct": false,
+          "rationale": "This describes `minSdkVersion`."
+        },
+        {
+          "key": "B",
+          "text": "It indicates whether the component can be accessed and invoked by other applications, controlling its visibility and accessibility.",
+          "is_correct": true,
+          "rationale": "This is the correct function of `android:exported`."
+        },
+        {
+          "key": "C",
+          "text": "It defines the theme applied to the application, customizing the visual appearance of the user interface and its elements.",
+          "is_correct": false,
+          "rationale": "This describes `android:theme`."
+        },
+        {
+          "key": "D",
+          "text": "It specifies the hardware features required by the application, such as camera or Bluetooth, ensuring device compatibility.",
+          "is_correct": false,
+          "rationale": "This describes the `<uses-feature>` tag."
+        },
+        {
+          "key": "E",
+          "text": "It declares the permissions required by the application, allowing access to protected resources and functionalities securely and safely.",
+          "is_correct": false,
+          "rationale": "This describes the `<uses-permission>` tag."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "How does the concept of 'Context' apply within Android development, and what are its most common and important uses within applications?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Context is a storage solution, allowing you to persist data locally, such as user preferences and application settings, efficiently.",
+          "is_correct": false,
+          "rationale": "Context is not a storage solution."
+        },
+        {
+          "key": "B",
+          "text": "Context is an interface to global information about the application environment, providing access to resources, services, and system functionalities.",
+          "is_correct": true,
+          "rationale": "This is the correct definition of Context."
+        },
+        {
+          "key": "C",
+          "text": "Context is a UI component, providing a way to create and manage user interface elements programmatically and dynamically.",
+          "is_correct": false,
+          "rationale": "Context is not a UI component."
+        },
+        {
+          "key": "D",
+          "text": "Context is a networking library, simplifying communication with remote servers and handling data serialization for API interactions.",
+          "is_correct": false,
+          "rationale": "Context is not a networking library."
+        },
+        {
+          "key": "E",
+          "text": "Context is a background task scheduler, allowing you to schedule and manage asynchronous operations reliably and efficiently.",
+          "is_correct": false,
+          "rationale": "Context is not a task scheduler."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What are the primary benefits of using Data Binding in Android development, particularly in the context of the MVVM architectural pattern?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Data Binding simplifies background task management, making it easier to execute asynchronous operations efficiently and reliably.",
+          "is_correct": false,
+          "rationale": "Data Binding is not for background tasks."
+        },
+        {
+          "key": "B",
+          "text": "Data Binding automates UI updates by binding data directly to views, reducing boilerplate code and improving development efficiency.",
+          "is_correct": true,
+          "rationale": "Data Binding automates UI updates."
+        },
+        {
+          "key": "C",
+          "text": "Data Binding provides a secure way to store sensitive information locally, protecting it from unauthorized access and breaches.",
+          "is_correct": false,
+          "rationale": "Data Binding is not for data security."
+        },
+        {
+          "key": "D",
+          "text": "Data Binding simplifies database access, making it easier to query and manipulate data in a structured and efficient manner.",
+          "is_correct": false,
+          "rationale": "Data Binding is not for database access."
+        },
+        {
+          "key": "E",
+          "text": "Data Binding manages dependencies between different components, simplifying the overall application architecture and improving maintainability.",
+          "is_correct": false,
+          "rationale": "Data Binding is not for dependency management."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "When passing data between Android components, what are the key differences between the 'Serializable' and 'Parcelable' interfaces?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Serializable is generally faster and more efficient for data transfer, while Parcelable uses reflection, making it slower overall.",
+          "is_correct": false,
+          "rationale": "Parcelable is faster; the description is reversed."
+        },
+        {
+          "key": "B",
+          "text": "Serializable is a Java standard interface using reflection, while Parcelable is an Android-specific interface designed for efficiency.",
+          "is_correct": true,
+          "rationale": "This is the correct distinction between Serializable and Parcelable."
+        },
+        {
+          "key": "C",
+          "text": "Serializable is primarily used for network communication, while Parcelable is used for local data storage within the application.",
+          "is_correct": false,
+          "rationale": "Both are for passing data between components."
+        },
+        {
+          "key": "D",
+          "text": "Serializable supports complex data structures more easily, while Parcelable is limited to simple data types, such as strings and numbers.",
+          "is_correct": false,
+          "rationale": "Both support complex data structures."
+        },
+        {
+          "key": "E",
+          "text": "Serializable is used for updating UI elements, while Parcelable is used for managing background tasks and operations efficiently.",
+          "is_correct": false,
+          "rationale": "Both are for passing data between components."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What is the specific purpose of the 'WorkManager' component in Android Jetpack, and how does it improve the scheduling of background tasks?",
+      "options": [
+        {
+          "key": "A",
+          "text": "WorkManager is a UI testing framework, allowing you to write automated tests for Android user interfaces and ensure functionality.",
+          "is_correct": false,
+          "rationale": "WorkManager is not a testing framework."
+        },
+        {
+          "key": "B",
+          "text": "WorkManager is a networking library, simplifying communication with RESTful APIs and handling JSON serialization for data exchange.",
+          "is_correct": false,
+          "rationale": "WorkManager is not a networking library."
+        },
+        {
+          "key": "C",
+          "text": "WorkManager is a background task scheduler, ensuring tasks are executed even if the app is closed or the device restarts unexpectedly.",
+          "is_correct": true,
+          "rationale": "WorkManager schedules background tasks reliably."
+        },
+        {
+          "key": "D",
+          "text": "WorkManager is a dependency injection framework, managing the dependencies between different components automatically and efficiently.",
+          "is_correct": false,
+          "rationale": "WorkManager is not a dependency injection framework."
+        },
+        {
+          "key": "E",
+          "text": "WorkManager is a data encryption library, providing a secure way to store sensitive information locally and protect it from unauthorized access.",
+          "is_correct": false,
+          "rationale": "WorkManager is not for data encryption."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What are the key differences between using a 'Service' and an 'IntentService' in Android for performing various background tasks?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Service runs tasks on the main thread by default, while IntentService automatically runs tasks on a separate worker thread.",
+          "is_correct": false,
+          "rationale": "Service runs on the main thread by default; the descriptions are partially reversed."
+        },
+        {
+          "key": "B",
+          "text": "Service requires manual thread management, while IntentService automatically handles tasks in a worker thread and stops itself after completion.",
+          "is_correct": true,
+          "rationale": "This accurately describes the difference."
+        },
+        {
+          "key": "C",
+          "text": "Service is primarily used for updating UI elements, while IntentService is used for network communication and data transfer.",
+          "is_correct": false,
+          "rationale": "Both are for background tasks, not UI updates or networking specifically."
+        },
+        {
+          "key": "D",
+          "text": "Service is used for data encryption and security, while IntentService is used for local data storage and persistence.",
+          "is_correct": false,
+          "rationale": "Both are for background tasks, not encryption or storage specifically."
+        },
+        {
+          "key": "E",
+          "text": "Service is used for dependency injection, while IntentService is used for UI testing and ensuring application functionality.",
+          "is_correct": false,
+          "rationale": "Neither is for dependency injection or UI testing."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Explain the concept of 'App Bundles' in Android development and their benefits compared to traditional APK (Android Package Kit) files.",
+      "options": [
+        {
+          "key": "A",
+          "text": "App Bundles are smaller in size, optimized for specific device configurations, and offer dynamic feature delivery for enhanced user experience.",
+          "is_correct": true,
+          "rationale": "App Bundles offer smaller size and dynamic delivery."
+        },
+        {
+          "key": "B",
+          "text": "App Bundles are generally larger in size, supporting multiple architectures, and simplify the debugging process for developers.",
+          "is_correct": false,
+          "rationale": "App Bundles are smaller, not larger."
+        },
+        {
+          "key": "C",
+          "text": "App Bundles are used for UI testing, providing a more efficient way to automate tests for Android user interfaces and functionality.",
+          "is_correct": false,
+          "rationale": "App Bundles are not for UI testing."
+        },
+        {
+          "key": "D",
+          "text": "App Bundles are used for data encryption, providing a secure way to store sensitive information locally and protect it from unauthorized access.",
+          "is_correct": false,
+          "rationale": "App Bundles are not for data encryption."
+        },
+        {
+          "key": "E",
+          "text": "App Bundles are used for dependency injection, managing the dependencies between different components automatically and efficiently.",
+          "is_correct": false,
+          "rationale": "App Bundles are not for dependency injection."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is the purpose of using 'ProGuard' or 'R8' in Android development, and how do they contribute to improving application security?",
+      "options": [
+        {
+          "key": "A",
+          "text": "ProGuard/R8 are networking libraries, simplifying communication with RESTful APIs and handling data serialization securely for data exchange.",
+          "is_correct": false,
+          "rationale": "ProGuard/R8 are not networking libraries."
+        },
+        {
+          "key": "B",
+          "text": "ProGuard/R8 are UI testing frameworks, allowing you to write automated tests for Android user interfaces and ensure functionality.",
+          "is_correct": false,
+          "rationale": "ProGuard/R8 are not testing frameworks."
+        },
+        {
+          "key": "C",
+          "text": "ProGuard/R8 shrink, optimize, and obfuscate code, making it significantly harder to reverse engineer the application and improving security.",
+          "is_correct": true,
+          "rationale": "ProGuard/R8 obfuscate and optimize code."
+        },
+        {
+          "key": "D",
+          "text": "ProGuard/R8 are dependency injection frameworks, managing the dependencies between different components automatically and efficiently.",
+          "is_correct": false,
+          "rationale": "ProGuard/R8 are not dependency injection frameworks."
+        },
+        {
+          "key": "E",
+          "text": "ProGuard/R8 are background task schedulers, allowing you to schedule and manage asynchronous tasks reliably and efficiently in the background.",
+          "is_correct": false,
+          "rationale": "ProGuard/R8 are not task schedulers."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Explain how to effectively handle different screen sizes and densities in Android development to ensure a consistent and user-friendly experience.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use fixed pixel values for layouts, regardless of screen size or density; this is the simplest approach for UI design and implementation.",
+          "is_correct": false,
+          "rationale": "Fixed pixel values lead to inconsistent UI."
+        },
+        {
+          "key": "B",
+          "text": "Use vector graphics, density-independent pixels (dp), and ConstraintLayout to create flexible and adaptive layouts for various screens.",
+          "is_correct": true,
+          "rationale": "Using dp, vector graphics, and ConstraintLayout ensures adaptability."
+        },
+        {
+          "key": "C",
+          "text": "Create separate APKs for each screen size and density, which simplifies the development process and ensures optimal performance.",
+          "is_correct": false,
+          "rationale": "Creating separate APKs is not efficient."
+        },
+        {
+          "key": "D",
+          "text": "Use absolute positioning for all UI elements, ensuring they appear in the same location on all devices reliably and consistently.",
+          "is_correct": false,
+          "rationale": "Absolute positioning is not flexible."
+        },
+        {
+          "key": "E",
+          "text": "Ignore screen size and density variations, as Android automatically scales the UI to fit all devices seamlessly without any adjustments.",
+          "is_correct": false,
+          "rationale": "Ignoring variations leads to poor UI."
+        }
+      ]
+    }
+  ]
+}

@@ -1,31 +1,25 @@
 """
 Automatic database initialization - populates data if database is empty
 This runs automatically when the app starts
-Loads data from JSON files in the data/ directory
+Loads data from the `SECTOR_TRACKS` config in `app/engine/prompts.py`
 """
-import sys
 import os
-import json
 from pathlib import Path
-
-# Get the path to the data directory
-BASE_DIR = Path(__file__).resolve().parent.parent
-DATA_DIR = BASE_DIR / "data"
-
-from sqlalchemy.orm import Session
 from .database import SessionLocal
-from .models_hierarchical import Sector, Branch, Specialization, Quiz, Question, QuestionOption
+from .models.models_hierarchical import Sector, Branch, Specialization, Quiz, Question, QuestionOption
+import json
 
+# Import SECTOR_TRACKS to use it as the source of truth
+from .engine.prompts import SECTOR_TRACKS
+
+DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+
+# Load initial data from JSON files
 def load_sectors_from_json():
-    """Load sectors data from JSON file"""
-    sectors_file = DATA_DIR / "sectors.json"
-    if not sectors_file.exists():
-        print(f"⚠️  Sectors JSON file not found at {sectors_file}")
-        return None
-    
-    with open(sectors_file, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-        return data.get("sectors", [])
+    """Loads sector data from the embedded JSON file."""
+    sectors_file = os.path.join(os.path.dirname(__file__), '..', 'data', 'sectors.json')
+    with open(sectors_file, 'r') as f:
+        return json.load(f)
 
 def load_quizzes_from_json():
     """Load quizzes data from JSON file"""
@@ -49,233 +43,128 @@ def auto_populate_if_empty():
         # Check if any sectors exist
         sector_count = db.query(Sector).count()
         
-        if sector_count == 0:
-            print("📊 Database is empty. Auto-populating from JSON files...")
+        # We will now use SECTOR_TRACKS as the source of truth.
+        # This logic will add any missing sectors, branches, or specializations.
+        print("📊 Verifying database structure against `SECTOR_TRACKS`...")
+        
+        added_items = 0
+        
+        # Process each sector from the SECTOR_TRACKS dictionary
+        for sector_name, specializations_list in SECTOR_TRACKS.items():
+            # Format sector name (e.g., "health_social_care" -> "Health Social Care")
+            formatted_sector_name = sector_name.replace('_', ' ').title()
             
-            # Load sectors from JSON
-            sectors_data = load_sectors_from_json()
-            if not sectors_data:
-                print("❌ Could not load sectors from JSON. Using fallback data.")
-                return
-            
-            print(f"📂 Loading {len(sectors_data)} sector(s) from JSON...")
-            
-            # Process each sector from JSON
-            for sector_data in sectors_data:
-                # Create sector
-                sector = Sector(
-                    name=sector_data["name"],
-                    description=sector_data["description"]
-                )
+            # Find or create the Sector
+            sector = db.query(Sector).filter(Sector.name == formatted_sector_name).first()
+            if not sector:
+                sector = Sector(name=formatted_sector_name, description=f"{formatted_sector_name} sector")
                 db.add(sector)
                 db.commit()
                 db.refresh(sector)
                 print(f"✅ Created sector: {sector.name}")
-                
-                # Process branches for this sector
-                for branch_data in sector_data.get("branches", []):
-                    branch = Branch(
-                        name=branch_data["name"],
-                        description=branch_data["description"],
-                        sector_id=sector.id
-                    )
-                    db.add(branch)
-                    db.commit()
-                    db.refresh(branch)
-                    print(f"  ✅ Created branch: {branch.name}")
-                    
-                    # Process specializations for this branch
-                    for spec_data in branch_data.get("specializations", []):
-                        specialization = Specialization(
-                            name=spec_data["name"],
-                            description=spec_data["description"],
-                            branch_id=branch.id
-                        )
-                        db.add(specialization)
-                    db.commit()
-                    print(f"    ✅ Added {len(branch_data.get('specializations', []))} specializations")
+                added_items += 1
             
-            print("✅ Created all sectors, branches, and specializations from JSON")
+            # Create a default "General" branch for this sector if it doesn't exist
+            branch_name = f"{formatted_sector_name} General"
+            branch = db.query(Branch).filter(Branch.name == branch_name, Branch.sector_id == sector.id).first()
+            if not branch:
+                branch = Branch(name=branch_name, description=f"General branch for {formatted_sector_name}", sector_id=sector.id)
+                db.add(branch)
+                db.commit()
+                db.refresh(branch)
+                print(f"  ✅ Created branch: {branch.name}")
+                added_items += 1
             
-            # Now load quizzes from JSON
-            quiz_count = db.query(Quiz).count()
-            if quiz_count == 0:
-                print("📝 Loading quizzes from JSON...")
-                
-                quizzes_data = load_quizzes_from_json()
-                if quizzes_data:
-                    for quiz_data in quizzes_data:
-                        # Find specialization by name
-                        specialization = db.query(Specialization).filter(
-                            Specialization.name == quiz_data["specialization"]
-                        ).first()
-                        
-                        if not specialization:
-                            print(f"⚠️  Specialization '{quiz_data['specialization']}' not found. Skipping quiz: {quiz_data['title']}")
-                            continue
-                        
-                        # Check if quiz already exists
-                        existing_quiz = db.query(Quiz).filter(
-                            Quiz.title == quiz_data["title"],
-                            Quiz.specialization_id == specialization.id
-                        ).first()
-                        
-                        if existing_quiz:
-                            continue
-                        
-                        # Create quiz
-                        quiz = Quiz(
-                            title=quiz_data["title"],
-                            description=quiz_data["description"],
-                            specialization_id=specialization.id,
-                            difficulty_level=quiz_data["difficulty_level"],
-                            time_limit_minutes=quiz_data["time_limit_minutes"],
-                            passing_score=quiz_data["passing_score"]
-                        )
-                        db.add(quiz)
-                        db.commit()
-                        db.refresh(quiz)
-                        print(f"  ✅ Created quiz: {quiz.title}")
-                        
-                        # Create questions and options
-                        for idx, q_data in enumerate(quiz_data.get("questions", [])):
-                            question = Question(
-                                quiz_id=quiz.id,
-                                question_text=q_data["question_text"],
-                                question_type=q_data["question_type"],
-                                points=q_data.get("points", 1),
-                                order_index=idx + 1,
-                                explanation=q_data.get("explanation")
-                            )
-                            db.add(question)
-                            db.flush()
-                            
-                            for opt_idx, option_data in enumerate(q_data.get("options", [])):
-                                option = QuestionOption(
-                                    question_id=question.id,
-                                    option_text=option_data["text"],
-                                    is_correct=option_data["is_correct"],
-                                    order_index=opt_idx + 1
-                                )
-                                db.add(option)
-                        
-                        db.commit()
-                        print(f"    ✅ Added {len(quiz_data.get('questions', []))} questions")
-                    
-                    print("✅ Created all quizzes from JSON")
-                else:
-                    print("⚠️  Could not load quizzes from JSON")
-            
-            print("✅ Auto-population complete from JSON files!")
-            
+            # Process specializations (careers) for this branch
+            for spec_name in specializations_list:
+                formatted_spec_name = spec_name.replace('_', ' ').title()
+                specialization = db.query(Specialization).filter(Specialization.name == formatted_spec_name, Specialization.branch_id == branch.id).first()
+                if not specialization:
+                    specialization = Specialization(name=formatted_spec_name, description=f"{formatted_spec_name} role", branch_id=branch.id)
+                    db.add(specialization)
+                    added_items += 1
+                    print(f"    ✅ Added specialization: {specialization.name}")
+        
+        if added_items > 0:
+            db.commit()
+            print(f"✅ Structure sync complete. Added {added_items} new items.")
         else:
-            # Database has sectors, check if we need to add more sectors or quizzes
-            # Load sectors from JSON and add any missing ones
-            sectors_data = load_sectors_from_json()
-            if sectors_data:
-                added_sectors = 0
-                for sector_data in sectors_data:
-                    existing_sector = db.query(Sector).filter(Sector.name == sector_data["name"]).first()
-                    
-                    if not existing_sector:
-                        # Create missing sector
-                        sector = Sector(
-                            name=sector_data["name"],
-                            description=sector_data["description"]
-                        )
-                        db.add(sector)
-                        db.commit()
-                        db.refresh(sector)
-                        print(f"✅ Added missing sector: {sector.name}")
-                        added_sectors += 1
-                        
-                        # Add branches and specializations for new sector
-                        for branch_data in sector_data.get("branches", []):
-                            branch = Branch(
-                                name=branch_data["name"],
-                                description=branch_data["description"],
-                                sector_id=sector.id
-                            )
-                            db.add(branch)
-                            db.commit()
-                            db.refresh(branch)
-                            
-                            for spec_data in branch_data.get("specializations", []):
-                                specialization = Specialization(
-                                    name=spec_data["name"],
-                                    description=spec_data["description"],
-                                    branch_id=branch.id
-                                )
-                                db.add(specialization)
-                            db.commit()
-                
-                if added_sectors > 0:
-                    print(f"📊 Added {added_sectors} new sector(s) from JSON")
+            print("✅ Database structure is already in sync with `SECTOR_TRACKS`.")
             
-            quiz_count = db.query(Quiz).count()
-            
-            # Try to load additional quizzes from JSON that might not exist
-            quizzes_data = load_quizzes_from_json()
-            if quizzes_data:
-                added_count = 0
-                for quiz_data in quizzes_data:
-                    specialization = db.query(Specialization).filter(
-                        Specialization.name == quiz_data["specialization"]
-                    ).first()
-                    
-                    if not specialization:
-                        continue
-                    
-                    existing_quiz = db.query(Quiz).filter(
-                        Quiz.title == quiz_data["title"],
-                        Quiz.specialization_id == specialization.id
-                    ).first()
-                    
-                    if not existing_quiz:
-                        # Create missing quiz
-                        quiz = Quiz(
-                            title=quiz_data["title"],
-                            description=quiz_data["description"],
-                            specialization_id=specialization.id,
-                            difficulty_level=quiz_data["difficulty_level"],
-                            time_limit_minutes=quiz_data["time_limit_minutes"],
-                            passing_score=quiz_data["passing_score"]
-                        )
-                        db.add(quiz)
-                        db.commit()
-                        db.refresh(quiz)
-                        
-                        # Add questions
-                        for idx, q_data in enumerate(quiz_data.get("questions", [])):
-                            question = Question(
-                                quiz_id=quiz.id,
-                                question_text=q_data["question_text"],
-                                question_type=q_data["question_type"],
-                                points=q_data.get("points", 1),
-                                order_index=idx + 1,
-                                explanation=q_data.get("explanation")
-                            )
-                            db.add(question)
-                            db.flush()
-                            
-                            for opt_idx, option_data in enumerate(q_data.get("options", [])):
-                                option = QuestionOption(
-                                    question_id=question.id,
-                                    option_text=option_data["text"],
-                                    is_correct=option_data["is_correct"],
-                                    order_index=opt_idx + 1
-                                )
-                                db.add(option)
-                        
-                        db.commit()
-                        added_count += 1
+        # --- Quiz Population Logic (from JSON files) ---
+        # This part remains unchanged to allow loading quizzes from data/quizzes.json
+        quiz_count = db.query(Quiz).count()
+        quizzes_data = load_quizzes_from_json()
+        
+        if quizzes_data:
+            added_count = 0
+            for quiz_data in quizzes_data:
+                # Find specialization by formatted name
+                formatted_spec_name = quiz_data["specialization"].replace('_', ' ').title()
+                specialization = db.query(Specialization).filter(
+                    Specialization.name == formatted_spec_name
+                ).first()
                 
-                if added_count > 0:
-                    print(f"📝 Added {added_count} new quiz(zes) from JSON")
-                else:
-                    print(f"✅ Database already populated: {sector_count} sectors, {quiz_count} quizzes")
+                if not specialization:
+                    print(f"⚠️  Specialization '{formatted_spec_name}' not found. Skipping quiz: {quiz_data['title']}")
+                    continue
+                
+                existing_quiz = db.query(Quiz).filter(
+                    Quiz.title == quiz_data["title"],
+                    Quiz.specialization_id == specialization.id
+                ).first()
+                
+                if not existing_quiz:
+                    # Create missing quiz
+                    quiz = Quiz(
+                        title=quiz_data["title"],
+                        description=quiz_data["description"],
+                        specialization_id=specialization.id,
+                        difficulty_level=quiz_data["difficulty_level"],
+                        time_limit_minutes=quiz_data["time_limit_minutes"],
+                        passing_score=quiz_data["passing_score"]
+                    )
+                    db.add(quiz)
+                    db.commit()
+                    db.refresh(quiz)
+                    
+                    # Add questions
+                    for idx, q_data in enumerate(quiz_data.get("questions", [])):
+                        question = Question(
+                            quiz_id=quiz.id,
+                            question_text=q_data["question_text"],
+                            question_type=q_data["question_type"],
+                            points=q_data.get("points", 1),
+                            order_index=idx + 1,
+                            explanation=q_data.get("explanation")
+                        )
+                        db.add(question)
+                        db.flush()
+                        
+                        for opt_idx, option_data in enumerate(q_data.get("options", [])):
+                            option = QuestionOption(
+                                question_id=question.id,
+                                option_text=option_data["text"],
+                                is_correct=option_data["is_correct"],
+                                order_index=opt_idx + 1
+                            )
+                            db.add(option)
+                    
+                    db.commit()
+                    added_count += 1
+                    print(f"📝 Added new quiz: {quiz.title}")
+            
+            if added_count > 0:
+                print(f"📝 Added {added_count} new quiz(zes) from JSON files.")
             else:
-                print(f"✅ Database already populated: {sector_count} sectors, {quiz_count} quizzes")
+                print(f"✅ Quizzes are already up-to-date.")
+        else:
+            if quiz_count == 0:
+                print("⚠️  Could not load quizzes from JSON file.")
+            else:
+                print(f"✅ Database already populated with {quiz_count} quizzes.")
+
+        print("✅ Auto-population check complete!")
                     
     except Exception as e:
         print(f"⚠️  Auto-population error: {e}")

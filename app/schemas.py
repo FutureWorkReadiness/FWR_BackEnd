@@ -14,7 +14,32 @@ class SectorBase(BaseModel):
 class SectorCreate(SectorBase):
     pass
 
+class SectorUpdate(BaseModel):
+    name: Optional[str] = None
+    description: Optional[str] = None
+    is_active: Optional[bool] = None
+
 class Sector(SectorBase):
+    id: int
+    
+    class Config:
+        from_attributes = True
+
+# Branch schemas
+class BranchBase(BaseModel):
+    name: str
+    description: Optional[str] = None
+    sector_id: int
+
+class BranchCreate(BranchBase):
+    pass
+
+class BranchUpdate(BaseModel):
+    name: Optional[str] = None
+    description: Optional[str] = None
+    is_active: Optional[bool] = None
+
+class Branch(BranchBase):
     id: int
     
     class Config:
@@ -23,10 +48,15 @@ class Sector(SectorBase):
 class SpecializationBase(BaseModel):
     name: str
     description: Optional[str] = None
-    sector_id: int
+    branch_id: int
 
 class SpecializationCreate(SpecializationBase):
     pass
+
+class SpecializationUpdate(BaseModel):
+    name: Optional[str] = None
+    description: Optional[str] = None
+    is_active: Optional[bool] = None
 
 class Specialization(SpecializationBase):
     id: int
@@ -285,3 +315,21 @@ class PeerBenchmarkData(BaseModel):
 class PeerBenchmarkResponse(BaseModel):
     success: bool
     data: PeerBenchmarkData
+
+
+# Feedback Schemas
+class FeedbackBase(BaseModel):
+    rating: Optional[int] = None
+    feedback_text: Optional[str] = None
+    quiz_id: Optional[int] = None
+
+class FeedbackCreate(FeedbackBase):
+    user_id: Optional[int] = None # Can be anonymous
+
+class Feedback(FeedbackBase):
+    id: int
+    user_id: Optional[int] = None
+    created_at: datetime
+
+    class Config:
+        from_attributes = True

@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "What is the primary responsibility of a Database Administrator (DBA) regarding database systems within an organization?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Designing user interfaces for database applications, focusing on user experience and visual appeal for optimal interaction.",
+          "is_correct": false,
+          "rationale": "UI/UX design is typically handled by front-end developers or specialized UI/UX designers."
+        },
+        {
+          "key": "B",
+          "text": "Managing and maintaining database systems, ensuring performance, integrity, security, and availability for all users and applications.",
+          "is_correct": true,
+          "rationale": "DBAs are responsible for the overall health and efficiency of database systems."
+        },
+        {
+          "key": "C",
+          "text": "Writing code for application logic, implementing business rules, and creating software components that interact with the database.",
+          "is_correct": false,
+          "rationale": "Software developers typically handle application code and business logic."
+        },
+        {
+          "key": "D",
+          "text": "Performing network infrastructure maintenance, including configuring routers, switches, and firewalls to ensure reliable network connectivity.",
+          "is_correct": false,
+          "rationale": "Network administrators or engineers usually handle network maintenance."
+        },
+        {
+          "key": "E",
+          "text": "Creating marketing materials for database products, including brochures, website content, and presentations to promote sales and adoption.",
+          "is_correct": false,
+          "rationale": "The marketing department is responsible for creating marketing materials."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Which SQL command is specifically designed and used to retrieve data from one or more database tables based on specified criteria?",
+      "options": [
+        {
+          "key": "A",
+          "text": "UPDATE, a command used to modify existing data within a database table, changing values based on specified conditions.",
+          "is_correct": false,
+          "rationale": "UPDATE modifies data."
+        },
+        {
+          "key": "B",
+          "text": "DELETE, a command used to remove data from a database table, eliminating rows that match specified conditions or criteria.",
+          "is_correct": false,
+          "rationale": "DELETE removes data."
+        },
+        {
+          "key": "C",
+          "text": "SELECT, the fundamental SQL command for querying and retrieving data from one or more tables based on specified conditions.",
+          "is_correct": true,
+          "rationale": "SELECT retrieves data."
+        },
+        {
+          "key": "D",
+          "text": "INSERT, a command used to add new data into a database table, creating new rows with specified values for each column.",
+          "is_correct": false,
+          "rationale": "INSERT adds data."
+        },
+        {
+          "key": "E",
+          "text": "CREATE, a command used to define database objects, such as tables, indexes, and views, establishing the structure of the database.",
+          "is_correct": false,
+          "rationale": "CREATE defines objects."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "In the context of database transactions, what does the acronym ACID stand for, representing a set of properties guaranteeing validity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Atomicity, Consistency, Isolation, and Durability, ensuring reliable processing of database transactions and data integrity.",
+          "is_correct": true,
+          "rationale": "ACID ensures reliable transactions."
+        },
+        {
+          "key": "B",
+          "text": "Accuracy, Completeness, Integrity, and Delivery, focusing on data quality and ensuring information is delivered correctly and completely.",
+          "is_correct": false,
+          "rationale": "Incorrect acronym."
+        },
+        {
+          "key": "C",
+          "text": "Availability, Concurrency, Isolation, and Definition, emphasizing database accessibility and controlled concurrent access to data.",
+          "is_correct": false,
+          "rationale": "Incorrect acronym."
+        },
+        {
+          "key": "D",
+          "text": "Authorization, Consistency, Integrity, and Duplication, focusing on access control and preventing data redundancy within the database.",
+          "is_correct": false,
+          "rationale": "Incorrect acronym."
+        },
+        {
+          "key": "E",
+          "text": "Atomicity, Correction, Inversion, and Deduction, relating to data manipulation and logical operations performed on database contents.",
+          "is_correct": false,
+          "rationale": "Incorrect acronym."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Which database object is specifically designed to help improve the speed and efficiency of data retrieval operations in a database?",
+      "options": [
+        {
+          "key": "A",
+          "text": "View, a virtual table based on the result-set of a SQL statement, simplifying complex queries but not directly improving retrieval speed.",
+          "is_correct": false,
+          "rationale": "Views are virtual tables."
+        },
+        {
+          "key": "B",
+          "text": "Index, a data structure that allows the database to quickly locate data without scanning the entire table, improving query performance.",
+          "is_correct": true,
+          "rationale": "Indexes speed up data retrieval."
+        },
+        {
+          "key": "C",
+          "text": "Trigger, a procedure that automatically executes in response to certain events on a table, not directly improving data retrieval speed.",
+          "is_correct": false,
+          "rationale": "Triggers are event-driven."
+        },
+        {
+          "key": "D",
+          "text": "Stored Procedure, a precompiled set of SQL statements stored in the database, improving performance but not directly retrieval speed.",
+          "is_correct": false,
+          "rationale": "Stored procedures are precompiled SQL."
+        },
+        {
+          "key": "E",
+          "text": "Function, a routine that returns a value based on input parameters, used in queries but not directly affecting the speed of data retrieval.",
+          "is_correct": false,
+          "rationale": "Functions return a value."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "In the context of database tables, what is the primary purpose and function of a primary key constraint?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A key used for encryption purposes, securing data within the database and protecting it from unauthorized access and modification.",
+          "is_correct": false,
+          "rationale": "Encryption keys handle security."
+        },
+        {
+          "key": "B",
+          "text": "A key that uniquely identifies each record within a database table, ensuring no two rows have the same value in this column.",
+          "is_correct": true,
+          "rationale": "Primary keys uniquely identify records."
+        },
+        {
+          "key": "C",
+          "text": "A key used for sorting data within a table, arranging rows in a specific order based on the values in the designated column or columns.",
+          "is_correct": false,
+          "rationale": "Sorting is a secondary function."
+        },
+        {
+          "key": "D",
+          "text": "A key used to connect to the database, providing authentication and authorization to access and manipulate data within the system.",
+          "is_correct": false,
+          "rationale": "Connection strings are used for connection."
+        },
+        {
+          "key": "E",
+          "text": "A key that defines table relationships, linking tables together based on common columns and enforcing referential integrity between them.",
+          "is_correct": false,
+          "rationale": "Foreign keys define relationships."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Which SQL command is used to modify the structure of an existing table, such as adding, deleting, or modifying columns?",
+      "options": [
+        {
+          "key": "A",
+          "text": "CREATE TABLE, a command used to create a new table in the database, defining its structure and columns from scratch.",
+          "is_correct": false,
+          "rationale": "CREATE TABLE creates a new table."
+        },
+        {
+          "key": "B",
+          "text": "ALTER TABLE, a command specifically designed for modifying the structure of an existing table, including adding, dropping, or altering columns.",
+          "is_correct": true,
+          "rationale": "ALTER TABLE modifies table structure."
+        },
+        {
+          "key": "C",
+          "text": "UPDATE TABLE, a command used to modify data within a table, changing the values of existing rows based on specified conditions.",
+          "is_correct": false,
+          "rationale": "UPDATE modifies data."
+        },
+        {
+          "key": "D",
+          "text": "MODIFY TABLE, a non-standard SQL command, not generally recognized or supported across different database management systems.",
+          "is_correct": false,
+          "rationale": "MODIFY TABLE is not standard SQL."
+        },
+        {
+          "key": "E",
+          "text": "RENAME TABLE, a command used to change the name of a table, but not its underlying structure or the columns it contains.",
+          "is_correct": false,
+          "rationale": "RENAME changes the table name."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What is the primary purpose of a foreign key constraint in the context of relational database design and management?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To uniquely identify a record within its own table, ensuring that each row has a distinct identifier within that specific table.",
+          "is_correct": false,
+          "rationale": "Primary keys identify records."
+        },
+        {
+          "key": "B",
+          "text": "To establish a relationship between two tables, linking data in one table to data in another and enforcing referential integrity.",
+          "is_correct": true,
+          "rationale": "Foreign keys link tables."
+        },
+        {
+          "key": "C",
+          "text": "To encrypt data within a table, securing sensitive information and protecting it from unauthorized access and modification.",
+          "is_correct": false,
+          "rationale": "Encryption keys encrypt data."
+        },
+        {
+          "key": "D",
+          "text": "To improve the speed of data retrieval, optimizing query performance and allowing the database to quickly locate specific information.",
+          "is_correct": false,
+          "rationale": "Indexes improve retrieval speed."
+        },
+        {
+          "key": "E",
+          "text": "To define a unique constraint within a table, ensuring that values in a specific column are unique and preventing duplicate entries.",
+          "is_correct": false,
+          "rationale": "Unique constraints ensure uniqueness."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What is the primary purpose of database normalization, a key concept in relational database design and management?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To increase data redundancy within the database, creating multiple copies of data to ensure availability and prevent data loss.",
+          "is_correct": false,
+          "rationale": "Normalization reduces redundancy."
+        },
+        {
+          "key": "B",
+          "text": "To organize data to reduce redundancy and improve data integrity, minimizing dependencies and ensuring data consistency across the database.",
+          "is_correct": true,
+          "rationale": "Normalization reduces redundancy and improves integrity."
+        },
+        {
+          "key": "C",
+          "text": "To encrypt sensitive data within the database, protecting it from unauthorized access and ensuring confidentiality of critical information.",
+          "is_correct": false,
+          "rationale": "Encryption secures data."
+        },
+        {
+          "key": "D",
+          "text": "To improve the speed of data backups, optimizing the backup process and reducing the time required to create database backups.",
+          "is_correct": false,
+          "rationale": "Normalization does not affect backup speed."
+        },
+        {
+          "key": "E",
+          "text": "To limit the size of the database by compressing data and removing unnecessary information, reducing storage requirements and improving efficiency.",
+          "is_correct": false,
+          "rationale": "Normalization improves data integrity."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "In the context of database management, what accurately defines a database transaction and its role in data manipulation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A single SQL query executed against the database, representing a basic operation to retrieve, insert, update, or delete data.",
+          "is_correct": false,
+          "rationale": "A transaction can consist of multiple queries."
+        },
+        {
+          "key": "B",
+          "text": "A logical unit of work that comprises one or more SQL statements, treated as a single, indivisible operation to maintain data consistency.",
+          "is_correct": true,
+          "rationale": "Transactions ensure operations are treated as a single unit."
+        },
+        {
+          "key": "C",
+          "text": "A backup of the database, creating a copy of the data and schema for recovery purposes in case of data loss or system failure.",
+          "is_correct": false,
+          "rationale": "A backup is a copy of the database."
+        },
+        {
+          "key": "D",
+          "text": "A user's session connected to the database, representing an active connection through which a user can interact with the database system.",
+          "is_correct": false,
+          "rationale": "A session represents a connection."
+        },
+        {
+          "key": "E",
+          "text": "A report generated from the database, presenting data in a structured format for analysis and decision-making purposes, often scheduled regularly.",
+          "is_correct": false,
+          "rationale": "A report is a presentation of data."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Which SQL clause is specifically used to filter rows in a SELECT statement, allowing you to specify conditions for data retrieval?",
+      "options": [
+        {
+          "key": "A",
+          "text": "ORDER BY, a clause used to sort the result set in ascending or descending order based on one or more columns.",
+          "is_correct": false,
+          "rationale": "ORDER BY sorts the result set."
+        },
+        {
+          "key": "B",
+          "text": "GROUP BY, a clause used to group rows with the same values in one or more columns into summary rows.",
+          "is_correct": false,
+          "rationale": "GROUP BY groups rows."
+        },
+        {
+          "key": "C",
+          "text": "WHERE, a clause used to specify conditions to filter rows in a SELECT statement, retrieving only rows that meet the criteria.",
+          "is_correct": true,
+          "rationale": "WHERE filters rows."
+        },
+        {
+          "key": "D",
+          "text": "HAVING, a clause used to filter groups after aggregation in a SELECT statement, applying conditions to the grouped results.",
+          "is_correct": false,
+          "rationale": "HAVING filters groups."
+        },
+        {
+          "key": "E",
+          "text": "JOIN, a clause used to combine rows from two or more tables based on a related column between them, creating a unified result set.",
+          "is_correct": false,
+          "rationale": "JOIN combines rows."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the primary purpose and importance of creating a database backup in database management and administration practices?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To improve database performance by optimizing queries and reducing resource consumption, leading to faster response times and efficiency.",
+          "is_correct": false,
+          "rationale": "Backups do not improve performance."
+        },
+        {
+          "key": "B",
+          "text": "To secure the database from unauthorized access by implementing access control lists and authentication mechanisms, protecting sensitive information.",
+          "is_correct": false,
+          "rationale": "Security measures protect from unauthorized access."
+        },
+        {
+          "key": "C",
+          "text": "To restore the database to a previous state in case of data loss, corruption, or system failure, ensuring business continuity and data recovery.",
+          "is_correct": true,
+          "rationale": "Backups are essential for data restoration."
+        },
+        {
+          "key": "D",
+          "text": "To automatically update the database schema by applying schema changes and modifications, ensuring the database structure is up-to-date.",
+          "is_correct": false,
+          "rationale": "Schema updates are performed using DDL."
+        },
+        {
+          "key": "E",
+          "text": "To monitor database activity in real-time by tracking user sessions, query execution, and resource utilization, providing insights into performance.",
+          "is_correct": false,
+          "rationale": "Monitoring tools track database activity."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "In the context of database systems, what is a stored procedure and what benefits does it offer to database management?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A precompiled set of SQL statements stored in the database, which can be executed by name, improving performance and security.",
+          "is_correct": true,
+          "rationale": "Stored procedures enhance performance and security."
+        },
+        {
+          "key": "B",
+          "text": "A tool used to design database schemas, providing a visual interface for creating tables, relationships, and constraints within the database.",
+          "is_correct": false,
+          "rationale": "Database design tools are used for schema creation."
+        },
+        {
+          "key": "C",
+          "text": "A method for encrypting data in the database, securing sensitive information and protecting it from unauthorized access and modification.",
+          "is_correct": false,
+          "rationale": "Encryption algorithms are used for data encryption."
+        },
+        {
+          "key": "D",
+          "text": "A type of database index, used to improve the speed of data retrieval by creating a sorted list of values for a specific column.",
+          "is_correct": false,
+          "rationale": "Indexes are used for faster data retrieval."
+        },
+        {
+          "key": "E",
+          "text": "A report generated automatically by the database, providing insights into data trends and patterns, often scheduled for regular distribution.",
+          "is_correct": false,
+          "rationale": "Reporting tools generate reports."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What does the term 'schema' refer to in a database context, regarding the organization and structure of data?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The physical storage location of the database files, including the directories and file systems where the data is stored on disk.",
+          "is_correct": false,
+          "rationale": "The schema is a blueprint."
+        },
+        {
+          "key": "B",
+          "text": "The logical structure of the database, including tables, columns, relationships, constraints, and other database objects.",
+          "is_correct": true,
+          "rationale": "The schema defines the organization of data."
+        },
+        {
+          "key": "C",
+          "text": "The programming language used to interact with the database, such as SQL, which allows users to query, insert, update, and delete data.",
+          "is_correct": false,
+          "rationale": "SQL is the language."
+        },
+        {
+          "key": "D",
+          "text": "The security settings for the database, including user permissions, roles, and access controls that determine who can access and modify data.",
+          "is_correct": false,
+          "rationale": "Security settings control access."
+        },
+        {
+          "key": "E",
+          "text": "The process of backing up the database, creating a copy of the data and schema for recovery purposes in case of data loss or system failure.",
+          "is_correct": false,
+          "rationale": "Backups are copies of the data."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What is the purpose of the 'GROUP BY' clause in SQL queries, and how does it affect the result set?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To sort the result set in ascending order based on one or more columns, arranging the rows from lowest to highest values.",
+          "is_correct": false,
+          "rationale": "ORDER BY sorts the data."
+        },
+        {
+          "key": "B",
+          "text": "To filter rows based on a specified condition, retrieving only the rows that meet the criteria defined in the WHERE clause.",
+          "is_correct": false,
+          "rationale": "WHERE filters rows."
+        },
+        {
+          "key": "C",
+          "text": "To combine rows with the same values in one or more columns into a group, allowing aggregate functions to be applied to each group.",
+          "is_correct": true,
+          "rationale": "GROUP BY aggregates rows."
+        },
+        {
+          "key": "D",
+          "text": "To join two or more tables together based on a related column between them, creating a unified result set with data from both tables.",
+          "is_correct": false,
+          "rationale": "JOIN combines tables."
+        },
+        {
+          "key": "E",
+          "text": "To rename a column in the result set, providing a more descriptive or user-friendly name for the column in the output.",
+          "is_correct": false,
+          "rationale": "Aliases rename columns."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What are the key differences between the DELETE and TRUNCATE commands in SQL, especially regarding their effects and usage?",
+      "options": [
+        {
+          "key": "A",
+          "text": "DELETE removes specific rows based on a condition; TRUNCATE removes all rows and resets the identity of the table.",
+          "is_correct": true,
+          "rationale": "DELETE is DML, TRUNCATE is DDL and resets identity."
+        },
+        {
+          "key": "B",
+          "text": "DELETE removes all rows from a table; TRUNCATE removes specific rows based on a condition specified in a WHERE clause.",
+          "is_correct": false,
+          "rationale": "DELETE removes specific rows based on conditions."
+        },
+        {
+          "key": "C",
+          "text": "DELETE is generally faster than TRUNCATE because it operates on individual rows; TRUNCATE is slower due to transaction logging.",
+          "is_correct": false,
+          "rationale": "TRUNCATE is generally faster."
+        },
+        {
+          "key": "D",
+          "text": "DELETE is a Data Definition Language (DDL) command; TRUNCATE is a Data Manipulation Language (DML) command used for data changes.",
+          "is_correct": false,
+          "rationale": "DELETE is DML; TRUNCATE is DDL."
+        },
+        {
+          "key": "E",
+          "text": "DELETE requires fewer permissions than TRUNCATE because it only affects specific rows; TRUNCATE requires more elevated privileges.",
+          "is_correct": false,
+          "rationale": "TRUNCATE typically requires higher permissions."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What is the primary purpose and benefit of database replication in ensuring data availability and reliability?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To improve data security by encrypting the database, protecting sensitive information from unauthorized access and modification.",
+          "is_correct": false,
+          "rationale": "Encryption enhances security."
+        },
+        {
+          "key": "B",
+          "text": "To create multiple copies of a database for high availability and disaster recovery, ensuring data redundancy and minimizing downtime.",
+          "is_correct": true,
+          "rationale": "Replication ensures data redundancy and availability."
+        },
+        {
+          "key": "C",
+          "text": "To reduce the size of the database by compressing data, optimizing storage utilization and improving overall database performance.",
+          "is_correct": false,
+          "rationale": "Compression reduces size."
+        },
+        {
+          "key": "D",
+          "text": "To automatically optimize database queries, improving query performance and reducing the time required to retrieve data from the database.",
+          "is_correct": false,
+          "rationale": "Query optimizers improve query performance."
+        },
+        {
+          "key": "E",
+          "text": "To simplify database administration tasks by automating routine maintenance and monitoring activities, reducing the workload on DBAs.",
+          "is_correct": false,
+          "rationale": "Replication can add complexity."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What are the key differences between clustered and non-clustered indexes in database systems, particularly in how they store data?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Clustered indexes store the actual data rows in the index; non-clustered indexes store pointers to the data rows in the table.",
+          "is_correct": true,
+          "rationale": "Clustered indexes determine the physical order of data."
+        },
+        {
+          "key": "B",
+          "text": "Clustered indexes are stored separately from the table; non-clustered indexes are stored together with the table data in the same file.",
+          "is_correct": false,
+          "rationale": "Both types of indexes are stored separately."
+        },
+        {
+          "key": "C",
+          "text": "Clustered indexes can be created on multiple columns; non-clustered indexes can only be created on a single column in the table.",
+          "is_correct": false,
+          "rationale": "Both types of indexes can be created on multiple columns."
+        },
+        {
+          "key": "D",
+          "text": "Clustered indexes are generally slower than non-clustered indexes for data retrieval due to the overhead of maintaining the sorted order.",
+          "is_correct": false,
+          "rationale": "Clustered indexes can be faster for range queries."
+        },
+        {
+          "key": "E",
+          "text": "Clustered indexes do not require additional disk space; non-clustered indexes require extra space to store the index structure.",
+          "is_correct": false,
+          "rationale": "Both types of indexes require disk space."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is the primary purpose of a database view and how does it simplify data access and manipulation for users?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To physically store data in a structured format, organizing data into tables with rows and columns for efficient storage and retrieval.",
+          "is_correct": false,
+          "rationale": "Tables store data physically."
+        },
+        {
+          "key": "B",
+          "text": "To provide a simplified or customized representation of data from one or more tables, hiding complexity and presenting only relevant information.",
+          "is_correct": true,
+          "rationale": "Views simplify queries."
+        },
+        {
+          "key": "C",
+          "text": "To improve the speed of data backups by optimizing the backup process and reducing the time required to create database backups.",
+          "is_correct": false,
+          "rationale": "Backups are separate processes."
+        },
+        {
+          "key": "D",
+          "text": "To encrypt sensitive data within the database, protecting it from unauthorized access and ensuring confidentiality of critical information.",
+          "is_correct": false,
+          "rationale": "Encryption secures data."
+        },
+        {
+          "key": "E",
+          "text": "To automatically repair corrupted data by detecting and correcting errors, ensuring data integrity and preventing data loss.",
+          "is_correct": false,
+          "rationale": "Data repair is done through recovery processes."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Which SQL command is used to grant specific privileges or permissions to a user or role within a database system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "CREATE USER, a command used to create a new user account in the database, defining the user's login credentials and attributes.",
+          "is_correct": false,
+          "rationale": "CREATE USER creates a new user."
+        },
+        {
+          "key": "B",
+          "text": "ALTER USER, a command used to modify the attributes of an existing user account, such as changing the password or default schema.",
+          "is_correct": false,
+          "rationale": "ALTER USER modifies user attributes."
+        },
+        {
+          "key": "C",
+          "text": "GRANT, the standard SQL command for assigning specific privileges or permissions to a user or role, controlling access to database objects.",
+          "is_correct": true,
+          "rationale": "GRANT assigns privileges."
+        },
+        {
+          "key": "D",
+          "text": "REVOKE, a command used to remove previously granted privileges or permissions from a user or role, restricting access to database objects.",
+          "is_correct": false,
+          "rationale": "REVOKE removes privileges."
+        },
+        {
+          "key": "E",
+          "text": "UPDATE USER, a non-standard SQL command, not generally recognized or supported across different database management systems.",
+          "is_correct": false,
+          "rationale": "UPDATE USER is not standard SQL."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What is the primary purpose of data masking techniques in database security and data privacy practices?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To improve database performance by optimizing queries and reducing resource consumption, leading to faster response times and efficiency.",
+          "is_correct": false,
+          "rationale": "Query optimization enhances performance."
+        },
+        {
+          "key": "B",
+          "text": "To protect sensitive data by obscuring it from unauthorized users, replacing real data with realistic but non-sensitive values.",
+          "is_correct": true,
+          "rationale": "Data masking protects sensitive data."
+        },
+        {
+          "key": "C",
+          "text": "To reduce the size of the database by compressing data, optimizing storage utilization and improving overall database performance.",
+          "is_correct": false,
+          "rationale": "Compression reduces size."
+        },
+        {
+          "key": "D",
+          "text": "To automatically back up the database, creating a copy of the data and schema for recovery purposes in case of data loss or system failure.",
+          "is_correct": false,
+          "rationale": "Backups are separate processes."
+        },
+        {
+          "key": "E",
+          "text": "To encrypt the entire database, securing all data and protecting it from unauthorized access and modification using cryptographic algorithms.",
+          "is_correct": false,
+          "rationale": "Encryption secures data."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "Which SQL command is used to remove rows from a table based on a specified condition, effectively filtering the data?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The 'UPDATE' command is designed to modify existing data within a table, and it does not remove rows.",
+          "is_correct": false,
+          "rationale": "UPDATE modifies existing data."
+        },
+        {
+          "key": "B",
+          "text": "The 'DELETE' command is specifically used to remove rows that meet specified conditions from a table.",
+          "is_correct": true,
+          "rationale": "DELETE removes rows."
+        },
+        {
+          "key": "C",
+          "text": "The 'TRUNCATE' command removes all rows from a table, but it does not operate based on a condition.",
+          "is_correct": false,
+          "rationale": "TRUNCATE removes all rows."
+        },
+        {
+          "key": "D",
+          "text": "The 'DROP' command removes the entire table structure, not just specific rows of data within the table.",
+          "is_correct": false,
+          "rationale": "DROP removes the table."
+        },
+        {
+          "key": "E",
+          "text": "The 'SELECT' command retrieves data from a table; it does not remove or alter any data within the database.",
+          "is_correct": false,
+          "rationale": "SELECT retrieves data."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the primary purpose of database indexing, and how does it significantly impact overall query performance and speed?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Indexing slows down query performance by adding overhead to the data retrieval processes, making it inefficient.",
+          "is_correct": false,
+          "rationale": "Indexes speed up retrieval."
+        },
+        {
+          "key": "B",
+          "text": "Indexing primarily helps to sort the data in a specific order within the database, which is useful for reporting.",
+          "is_correct": false,
+          "rationale": "Indexes provide fast lookups."
+        },
+        {
+          "key": "C",
+          "text": "Indexing significantly speeds up data retrieval by creating a lookup table for much faster data access and location.",
+          "is_correct": true,
+          "rationale": "Indexes create lookup tables."
+        },
+        {
+          "key": "D",
+          "text": "Indexing primarily reduces storage space by compressing data within the database, saving disk space.",
+          "is_correct": false,
+          "rationale": "Indexes increase storage."
+        },
+        {
+          "key": "E",
+          "text": "Indexing is mainly used for encrypting sensitive data to protect it from unauthorized access and breaches.",
+          "is_correct": false,
+          "rationale": "Indexing is not for encryption."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Explain the key difference between clustered and non-clustered indexes and how they organize data within a database system.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Clustered indexes are stored separately from the actual data, while non-clustered indexes are integrated directly.",
+          "is_correct": false,
+          "rationale": "Incorrect definition of clustered vs. non-clustered."
+        },
+        {
+          "key": "B",
+          "text": "Clustered indexes define the physical order of the data, while non-clustered indexes are essentially pointers to data.",
+          "is_correct": true,
+          "rationale": "Correct definition."
+        },
+        {
+          "key": "C",
+          "text": "Clustered indexes are specifically designed for numerical data, while non-clustered indexes are for text-based data.",
+          "is_correct": false,
+          "rationale": "Incorrect data type association."
+        },
+        {
+          "key": "D",
+          "text": "Clustered indexes allow duplicate values, while non-clustered indexes enforce uniqueness of the indexed values.",
+          "is_correct": false,
+          "rationale": "Incorrect uniqueness constraint."
+        },
+        {
+          "key": "E",
+          "text": "Clustered indexes are created implicitly by the database, while non-clustered indexes are created explicitly by users.",
+          "is_correct": false,
+          "rationale": "Incorrect creation method."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What exactly constitutes a transaction in a database, and why is robust transaction management critically important for data integrity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A transaction is a single, indivisible unit of work; management ensures data integrity and consistency across operations.",
+          "is_correct": true,
+          "rationale": "Correct definition and importance."
+        },
+        {
+          "key": "B",
+          "text": "A transaction is essentially a backup of the entire database; management ensures data recovery in case of system failure.",
+          "is_correct": false,
+          "rationale": "Incorrect definition of transaction."
+        },
+        {
+          "key": "C",
+          "text": "A transaction represents a user session; management ensures proper user authentication and authorization within the system.",
+          "is_correct": false,
+          "rationale": "Incorrect definition of transaction."
+        },
+        {
+          "key": "D",
+          "text": "A transaction is a query optimization technique; management ensures query speed and efficient data retrieval processes.",
+          "is_correct": false,
+          "rationale": "Incorrect definition of transaction."
+        },
+        {
+          "key": "E",
+          "text": "A transaction is a data encryption method; management ensures data security and protection from unauthorized access attempts.",
+          "is_correct": false,
+          "rationale": "Incorrect definition of transaction."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Describe the ACID properties of a database transaction in detail and explain their overall significance for reliable data processing.",
+      "options": [
+        {
+          "key": "A",
+          "text": "ACID stands for Atomicity, Consistency, Isolation, and Durability; these properties ensure reliable and consistent data processing.",
+          "is_correct": true,
+          "rationale": "Correct definition and significance."
+        },
+        {
+          "key": "B",
+          "text": "ACID stands for Accuracy, Concurrency, Integrity, and Definition; these properties define data standards and quality metrics.",
+          "is_correct": false,
+          "rationale": "Incorrect definition of ACID."
+        },
+        {
+          "key": "C",
+          "text": "ACID stands for Authorization, Control, Identification, and Distribution; these properties manage access and data flow.",
+          "is_correct": false,
+          "rationale": "Incorrect definition of ACID."
+        },
+        {
+          "key": "D",
+          "text": "ACID stands for Availability, Capacity, Interoperability, and Design; these properties ensure optimal system performance.",
+          "is_correct": false,
+          "rationale": "Incorrect definition of ACID."
+        },
+        {
+          "key": "E",
+          "text": "ACID stands for Authentication, Compression, Indexing, and Defragmentation; these properties optimize data storage.",
+          "is_correct": false,
+          "rationale": "Incorrect definition of ACID."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What are the common isolation levels used in database transactions, and what specific problems are they designed to address effectively?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Isolation levels define the degree of data protection from concurrent transactions, preventing conflicts and inconsistencies effectively.",
+          "is_correct": true,
+          "rationale": "Correct definition of isolation levels."
+        },
+        {
+          "key": "B",
+          "text": "Isolation levels primarily define the speed of data retrieval during concurrent transactions, optimizing performance for multiple users.",
+          "is_correct": false,
+          "rationale": "Isolation levels don't directly impact speed."
+        },
+        {
+          "key": "C",
+          "text": "Isolation levels define the size of data packets transferred during transactions, optimizing network bandwidth usage efficiently.",
+          "is_correct": false,
+          "rationale": "Isolation levels do not affect packet size."
+        },
+        {
+          "key": "D",
+          "text": "Isolation levels define the physical location of data during transactions, optimizing data access based on proximity.",
+          "is_correct": false,
+          "rationale": "Isolation levels do not affect data location."
+        },
+        {
+          "key": "E",
+          "text": "Isolation levels define the encryption strength used during database transactions, enhancing data security and confidentiality.",
+          "is_correct": false,
+          "rationale": "Isolation levels don't define encryption."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Explain the core concept of database normalization thoroughly, including the different normal forms such as 1NF, 2NF, and 3NF.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Normalization is the process of organizing data to reduce redundancy and improve data integrity within the database system.",
+          "is_correct": true,
+          "rationale": "Accurate definition of normalization."
+        },
+        {
+          "key": "B",
+          "text": "Normalization is the process of encrypting data to protect it from unauthorized access and potential security breaches.",
+          "is_correct": false,
+          "rationale": "Normalization is not related to encryption."
+        },
+        {
+          "key": "C",
+          "text": "Normalization is the process of backing up data to prevent data loss in case of system failure or unexpected data corruption.",
+          "is_correct": false,
+          "rationale": "Normalization is not related to backups."
+        },
+        {
+          "key": "D",
+          "text": "Normalization is the process of compressing data to reduce storage space requirements and optimize disk usage effectively.",
+          "is_correct": false,
+          "rationale": "Normalization is not related to compression."
+        },
+        {
+          "key": "E",
+          "text": "Normalization is the process of indexing data to improve query performance and speed up data retrieval from the database.",
+          "is_correct": false,
+          "rationale": "Normalization is not indexing."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What are stored procedures in a database context, and what are the key benefits of utilizing them effectively within a database system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Stored procedures are precompiled SQL statements; they enhance security and improve overall database performance significantly.",
+          "is_correct": true,
+          "rationale": "Correct definition and benefits."
+        },
+        {
+          "key": "B",
+          "text": "Stored procedures are data encryption algorithms; they protect sensitive information from unauthorized access and breaches.",
+          "is_correct": false,
+          "rationale": "Stored procedures are not encryption algorithms."
+        },
+        {
+          "key": "C",
+          "text": "Stored procedures are data compression tools; they reduce storage space requirements and optimize disk usage efficiently.",
+          "is_correct": false,
+          "rationale": "Stored procedures are not compression tools."
+        },
+        {
+          "key": "D",
+          "text": "Stored procedures are data backup mechanisms; they prevent data loss and ensure data recovery in case of system failure.",
+          "is_correct": false,
+          "rationale": "Stored procedures are not backup mechanisms."
+        },
+        {
+          "key": "E",
+          "text": "Stored procedures are data indexing techniques; they improve query speed and optimize data retrieval from the database system.",
+          "is_correct": false,
+          "rationale": "Stored procedures are not indexing techniques."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Explain the primary purpose of database triggers and provide relevant examples of situations where they might be effectively used.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Triggers are automatic actions in response to database events; used for auditing or enforcing complex business rules effectively.",
+          "is_correct": true,
+          "rationale": "Correct definition and examples."
+        },
+        {
+          "key": "B",
+          "text": "Triggers are manual commands used for database maintenance; optimizing performance and ensuring system stability over time.",
+          "is_correct": false,
+          "rationale": "Triggers are automatic, not manual."
+        },
+        {
+          "key": "C",
+          "text": "Triggers are encryption keys used to secure sensitive data; preventing unauthorized access and protecting data confidentiality.",
+          "is_correct": false,
+          "rationale": "Triggers are not encryption keys."
+        },
+        {
+          "key": "D",
+          "text": "Triggers are backup schedules designed to prevent data loss; ensuring data recovery and system resilience in case of failure.",
+          "is_correct": false,
+          "rationale": "Triggers are not backup schedules."
+        },
+        {
+          "key": "E",
+          "text": "Triggers are indexing strategies used to improve query speed; optimizing data retrieval and enhancing database performance overall.",
+          "is_correct": false,
+          "rationale": "Triggers are not indexing strategies."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What are the different types of database backups available, and what are their respective advantages and disadvantages in practice?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Full, differential, and incremental backups; each offers different speed and recovery tradeoffs depending on the situation.",
+          "is_correct": true,
+          "rationale": "Correct types and advantages."
+        },
+        {
+          "key": "B",
+          "text": "Primary, secondary, and tertiary backups; each offers different storage locations and redundancy levels for data protection.",
+          "is_correct": false,
+          "rationale": "Incorrect backup types."
+        },
+        {
+          "key": "C",
+          "text": "Online, offline, and remote backups; each offers different accessibility options and operational considerations for administrators.",
+          "is_correct": false,
+          "rationale": "Incorrect backup types."
+        },
+        {
+          "key": "D",
+          "text": "Compressed, encrypted, and indexed backups; each offers different security features and performance characteristics overall.",
+          "is_correct": false,
+          "rationale": "Incorrect backup types."
+        },
+        {
+          "key": "E",
+          "text": "Automatic, manual, and scheduled backups; each offers different management styles and control options for database administrators.",
+          "is_correct": false,
+          "rationale": "Incorrect backup types."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "How would you effectively monitor database performance, and what key metrics are important to track for optimal operation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Track CPU usage, memory consumption, disk I/O, and query response time; identify performance bottlenecks effectively and quickly.",
+          "is_correct": true,
+          "rationale": "Correct metrics and purpose."
+        },
+        {
+          "key": "B",
+          "text": "Track user login frequency, password complexity, and access control lists; ensure robust security and prevent unauthorized access.",
+          "is_correct": false,
+          "rationale": "These are security metrics."
+        },
+        {
+          "key": "C",
+          "text": "Track network bandwidth, firewall rules, and intrusion detection logs; ensure optimal network health and prevent security breaches.",
+          "is_correct": false,
+          "rationale": "These are network metrics."
+        },
+        {
+          "key": "D",
+          "text": "Track server uptime, power consumption, and cooling system status; ensure hardware stability and prevent system failures effectively.",
+          "is_correct": false,
+          "rationale": "These are hardware metrics."
+        },
+        {
+          "key": "E",
+          "text": "Track software version, patch level, and license expiration date; ensure software compliance and prevent legal or operational issues.",
+          "is_correct": false,
+          "rationale": "These are software metrics."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "What are some common database security threats that organizations face, and how can you effectively mitigate these potential risks?",
+      "options": [
+        {
+          "key": "A",
+          "text": "SQL injection, privilege escalation, and data breaches; use parameterized queries and the principle of least privilege effectively.",
+          "is_correct": true,
+          "rationale": "Correct threats and mitigation."
+        },
+        {
+          "key": "B",
+          "text": "Hardware failure, power outages, and natural disasters; use RAID arrays, UPS systems, and regular data backups for protection.",
+          "is_correct": false,
+          "rationale": "These are physical threats."
+        },
+        {
+          "key": "C",
+          "text": "Network congestion, routing errors, and DNS spoofing; use QoS, firewalls, and intrusion detection systems for network protection.",
+          "is_correct": false,
+          "rationale": "These are network threats."
+        },
+        {
+          "key": "D",
+          "text": "Software bugs, compatibility issues, and version conflicts; use thorough testing, regular patching, and virtualization techniques.",
+          "is_correct": false,
+          "rationale": "These are software threats."
+        },
+        {
+          "key": "E",
+          "text": "User error, data corruption, and accidental deletion; use training, data validation, and transaction logs for data recovery.",
+          "is_correct": false,
+          "rationale": "These are user-related threats."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Explain the concept of database replication thoroughly and its significant benefits within a distributed database system environment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Replication copies data across multiple servers; improves availability, scalability, and redundancy for enhanced data protection.",
+          "is_correct": true,
+          "rationale": "Correct definition and benefits."
+        },
+        {
+          "key": "B",
+          "text": "Replication compresses data to reduce storage space; improves storage efficiency and reduces overall storage costs significantly.",
+          "is_correct": false,
+          "rationale": "Replication does not compress data."
+        },
+        {
+          "key": "C",
+          "text": "Replication encrypts data to protect it from unauthorized access; improves data security and confidentiality effectively overall.",
+          "is_correct": false,
+          "rationale": "Replication does not encrypt data."
+        },
+        {
+          "key": "D",
+          "text": "Replication indexes data to improve query performance; improves data retrieval speed and overall database responsiveness significantly.",
+          "is_correct": false,
+          "rationale": "Replication does not index data."
+        },
+        {
+          "key": "E",
+          "text": "Replication partitions data to improve data distribution; improves data organization and management within the database system.",
+          "is_correct": false,
+          "rationale": "Replication does not partition data."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What are the different types of database replication strategies, and how do they fundamentally differ from one another practically?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Synchronous, asynchronous, and semi-synchronous replication; differ in consistency and performance tradeoffs significantly.",
+          "is_correct": true,
+          "rationale": "Correct types and differences."
+        },
+        {
+          "key": "B",
+          "text": "Primary, secondary, and tertiary replication; differ in storage location and accessibility for data recovery purposes.",
+          "is_correct": false,
+          "rationale": "Incorrect replication types."
+        },
+        {
+          "key": "C",
+          "text": "Online, offline, and remote replication; differ in availability during the replication process and system downtime.",
+          "is_correct": false,
+          "rationale": "Incorrect replication types."
+        },
+        {
+          "key": "D",
+          "text": "Compressed, encrypted, and indexed replication; differ in data security and performance characteristics for data management.",
+          "is_correct": false,
+          "rationale": "Incorrect replication types."
+        },
+        {
+          "key": "E",
+          "text": "Automatic, manual, and scheduled replication; differ in management and control options for database administrators effectively.",
+          "is_correct": false,
+          "rationale": "Incorrect replication types."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Explain the primary purpose of database partitioning and its significant benefits for managing very large databases efficiently in practice.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Partitioning divides a large table into smaller, more manageable parts; improves query performance and simplifies data management.",
+          "is_correct": true,
+          "rationale": "Correct definition and benefits."
+        },
+        {
+          "key": "B",
+          "text": "Partitioning encrypts data to protect it from unauthorized access; improves data security and confidentiality within the system.",
+          "is_correct": false,
+          "rationale": "Partitioning does not encrypt data."
+        },
+        {
+          "key": "C",
+          "text": "Partitioning compresses data to reduce storage space; improves storage efficiency and reduces overall storage costs significantly.",
+          "is_correct": false,
+          "rationale": "Partitioning does not compress data."
+        },
+        {
+          "key": "D",
+          "text": "Partitioning indexes data to improve query performance; improves data retrieval speed and overall database responsiveness effectively.",
+          "is_correct": false,
+          "rationale": "Partitioning does not index data."
+        },
+        {
+          "key": "E",
+          "text": "Partitioning replicates data to improve availability; improves data redundancy and ensures business continuity in case of failure.",
+          "is_correct": false,
+          "rationale": "Partitioning does not replicate data."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What are the different types of database partitioning techniques, and how do they fundamentally work to manage data effectively?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Horizontal, vertical, and range partitioning; differ in how data is divided across partitions and managed effectively overall.",
+          "is_correct": true,
+          "rationale": "Correct types and differences."
+        },
+        {
+          "key": "B",
+          "text": "Primary, secondary, and tertiary partitioning; differ in storage location and accessibility for data recovery purposes effectively.",
+          "is_correct": false,
+          "rationale": "Incorrect partitioning types."
+        },
+        {
+          "key": "C",
+          "text": "Online, offline, and remote partitioning; differ in availability during the partitioning process and potential system downtime.",
+          "is_correct": false,
+          "rationale": "Incorrect partitioning types."
+        },
+        {
+          "key": "D",
+          "text": "Compressed, encrypted, and indexed partitioning; differ in data security and performance characteristics for data management.",
+          "is_correct": false,
+          "rationale": "Incorrect partitioning types."
+        },
+        {
+          "key": "E",
+          "text": "Automatic, manual, and scheduled partitioning; differ in management and control options for database administrators effectively overall.",
+          "is_correct": false,
+          "rationale": "Incorrect partitioning types."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "How would you effectively troubleshoot common database performance issues, such as slow queries or high CPU utilization in practice?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Identify slow queries, analyze execution plans, optimize indexes, and tune database parameters for improved performance overall.",
+          "is_correct": true,
+          "rationale": "Correct troubleshooting steps."
+        },
+        {
+          "key": "B",
+          "text": "Restart the database server, reinstall the operating system, and replace the hardware components as a first troubleshooting step.",
+          "is_correct": false,
+          "rationale": "These are drastic measures."
+        },
+        {
+          "key": "C",
+          "text": "Disable security features, reduce data encryption, and remove access controls to improve performance and system responsiveness.",
+          "is_correct": false,
+          "rationale": "These compromise security."
+        },
+        {
+          "key": "D",
+          "text": "Increase network bandwidth, upgrade firewall rules, and configure intrusion detection to improve security and network performance.",
+          "is_correct": false,
+          "rationale": "These are network-related."
+        },
+        {
+          "key": "E",
+          "text": "Ignore the performance issues, blame the users, and delay the problem resolution to avoid responsibility and potential conflicts.",
+          "is_correct": false,
+          "rationale": "This is unprofessional."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What are the different database recovery models available, and how do they affect data loss and overall recovery time practically?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Simple, full, and bulk-logged recovery models; differ in transaction logging and point-in-time recovery capabilities effectively.",
+          "is_correct": true,
+          "rationale": "Correct models and differences."
+        },
+        {
+          "key": "B",
+          "text": "Primary, secondary, and tertiary recovery models; differ in storage location and accessibility for data recovery purposes overall.",
+          "is_correct": false,
+          "rationale": "Incorrect recovery models."
+        },
+        {
+          "key": "C",
+          "text": "Online, offline, and remote recovery models; differ in availability during the recovery process and potential system downtime.",
+          "is_correct": false,
+          "rationale": "Incorrect recovery models."
+        },
+        {
+          "key": "D",
+          "text": "Compressed, encrypted, and indexed recovery models; differ in data security and performance characteristics for data management.",
+          "is_correct": false,
+          "rationale": "Incorrect recovery models."
+        },
+        {
+          "key": "E",
+          "text": "Automatic, manual, and scheduled recovery models; differ in management and control options for database administrators effectively.",
+          "is_correct": false,
+          "rationale": "Incorrect recovery models."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Explain the core concept of data warehousing and its primary purpose in the context of business intelligence and analytics.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Data warehousing consolidates data from various sources for comprehensive analysis and reporting purposes effectively overall.",
+          "is_correct": true,
+          "rationale": "Correct definition and purpose."
+        },
+        {
+          "key": "B",
+          "text": "Data warehousing encrypts data to protect it from unauthorized access; improves data security and confidentiality significantly overall.",
+          "is_correct": false,
+          "rationale": "Warehousing does not encrypt data."
+        },
+        {
+          "key": "C",
+          "text": "Data warehousing compresses data to reduce storage space; improves storage efficiency and reduces overall storage costs significantly.",
+          "is_correct": false,
+          "rationale": "Warehousing does not compress data."
+        },
+        {
+          "key": "D",
+          "text": "Data warehousing indexes data to improve query performance; improves data retrieval speed and overall database responsiveness effectively.",
+          "is_correct": false,
+          "rationale": "Warehousing does not index data."
+        },
+        {
+          "key": "E",
+          "text": "Data warehousing replicates data to improve availability; improves data redundancy and ensures business continuity in case of failure.",
+          "is_correct": false,
+          "rationale": "Warehousing does not replicate data."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What are the key differences between OLTP and OLAP database systems, and when would you choose one over the other practically?",
+      "options": [
+        {
+          "key": "A",
+          "text": "OLTP is designed for transactional processing, while OLAP is designed for analytical processing and decision support effectively.",
+          "is_correct": true,
+          "rationale": "Correct difference between OLTP and OLAP."
+        },
+        {
+          "key": "B",
+          "text": "OLTP is designed for data encryption, while OLAP is designed for data compression and storage optimization effectively overall.",
+          "is_correct": false,
+          "rationale": "Incorrect difference between OLTP and OLAP."
+        },
+        {
+          "key": "C",
+          "text": "OLTP is designed for data indexing, while OLAP is designed for data partitioning and performance tuning effectively overall.",
+          "is_correct": false,
+          "rationale": "Incorrect difference between OLTP and OLAP."
+        },
+        {
+          "key": "D",
+          "text": "OLTP is designed for data replication, while OLAP is designed for data backup and disaster recovery purposes effectively overall.",
+          "is_correct": false,
+          "rationale": "Incorrect difference between OLTP and OLAP."
+        },
+        {
+          "key": "E",
+          "text": "OLTP is designed for data validation, while OLAP is designed for data cleansing and quality control purposes effectively overall.",
+          "is_correct": false,
+          "rationale": "Incorrect difference between OLTP and OLAP."
+        }
+      ]
+    }
+  ]
+}

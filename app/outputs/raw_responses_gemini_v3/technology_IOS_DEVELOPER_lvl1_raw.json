@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "Which programming language is primarily used for iOS app development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Java, known for its platform independence and widespread use in enterprise applications.",
+          "is_correct": false,
+          "rationale": "Java is mainly used for Android development, not iOS."
+        },
+        {
+          "key": "B",
+          "text": "Kotlin, a modern language gaining popularity for Android development, emphasizing conciseness and safety.",
+          "is_correct": false,
+          "rationale": "Kotlin is used for Android development."
+        },
+        {
+          "key": "C",
+          "text": "Swift, Apple's modern language designed for safety, performance, and ease of use in iOS.",
+          "is_correct": true,
+          "rationale": "Swift is the primary language."
+        },
+        {
+          "key": "D",
+          "text": "C#, a Microsoft language used for .NET development and cross-platform mobile development via Xamarin.",
+          "is_correct": false,
+          "rationale": "C# is used with Xamarin, not natively for iOS."
+        },
+        {
+          "key": "E",
+          "text": "Python, known for its readability and versatility but not commonly used for native iOS development.",
+          "is_correct": false,
+          "rationale": "Python is not used for native iOS development."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is Xcode?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A version control system used for tracking changes in code and collaborating with other developers.",
+          "is_correct": false,
+          "rationale": "Git is the version control system."
+        },
+        {
+          "key": "B",
+          "text": "An integrated development environment (IDE) provided by Apple for developing software for Apple platforms.",
+          "is_correct": true,
+          "rationale": "Xcode is the IDE for Apple platforms."
+        },
+        {
+          "key": "C",
+          "text": "A package manager used for managing dependencies in Swift projects, similar to npm or pip.",
+          "is_correct": false,
+          "rationale": "Swift Package Manager manages dependencies."
+        },
+        {
+          "key": "D",
+          "text": "A cloud-based platform for building and testing iOS apps, offering features like continuous integration.",
+          "is_correct": false,
+          "rationale": "That describes a CI/CD platform."
+        },
+        {
+          "key": "E",
+          "text": "A framework for building user interfaces in a declarative way, used in web and native app development.",
+          "is_correct": false,
+          "rationale": "That describes a UI framework."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What is the purpose of Auto Layout?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To automatically generate code documentation, improving code maintainability and collaboration within the team.",
+          "is_correct": false,
+          "rationale": "Auto Layout does not generate documentation."
+        },
+        {
+          "key": "B",
+          "text": "To manage the app's data persistence using Core Data, ensuring data integrity and efficient storage.",
+          "is_correct": false,
+          "rationale": "Core Data handles data persistence."
+        },
+        {
+          "key": "C",
+          "text": "To define constraints that determine the size and position of views, adapting to different screen sizes.",
+          "is_correct": true,
+          "rationale": "Auto Layout manages view constraints."
+        },
+        {
+          "key": "D",
+          "text": "To handle network requests and responses, facilitating communication with web services and APIs.",
+          "is_correct": false,
+          "rationale": "URLSession handles networking."
+        },
+        {
+          "key": "E",
+          "text": "To manage background tasks and execute code even when the app is not in the foreground.",
+          "is_correct": false,
+          "rationale": "Background tasks are managed differently."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is a View Controller?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A class that manages a view hierarchy and handles user interactions within a specific portion of the app's interface.",
+          "is_correct": true,
+          "rationale": "View controllers manage views."
+        },
+        {
+          "key": "B",
+          "text": "A data structure for storing and managing collections of data, such as arrays, dictionaries, and sets.",
+          "is_correct": false,
+          "rationale": "That describes a data structure."
+        },
+        {
+          "key": "C",
+          "text": "A design pattern for separating data access logic from the user interface, promoting code reusability.",
+          "is_correct": false,
+          "rationale": "That describes MVC or similar."
+        },
+        {
+          "key": "D",
+          "text": "A tool for debugging and analyzing the performance of iOS apps, identifying memory leaks and bottlenecks.",
+          "is_correct": false,
+          "rationale": "That describes a profiler tool."
+        },
+        {
+          "key": "E",
+          "text": "A mechanism for handling asynchronous operations, allowing the app to perform tasks in the background.",
+          "is_correct": false,
+          "rationale": "That describes concurrency mechanisms."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What is the purpose of the Interface Builder?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage the app's data persistence using Core Data, ensuring data integrity and efficient storage.",
+          "is_correct": false,
+          "rationale": "Core Data handles data persistence."
+        },
+        {
+          "key": "B",
+          "text": "To visually design the user interface of an iOS app by dragging and dropping UI elements onto a storyboard.",
+          "is_correct": true,
+          "rationale": "Interface Builder is for UI design."
+        },
+        {
+          "key": "C",
+          "text": "To write unit tests and ensure the correctness of the app's code, improving code reliability and maintainability.",
+          "is_correct": false,
+          "rationale": "Unit tests verify code correctness."
+        },
+        {
+          "key": "D",
+          "text": "To manage network requests and responses, facilitating communication with web services and APIs.",
+          "is_correct": false,
+          "rationale": "URLSession handles networking."
+        },
+        {
+          "key": "E",
+          "text": "To manage background tasks and execute code even when the app is not in the foreground.",
+          "is_correct": false,
+          "rationale": "Background tasks are managed differently."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What is a Storyboard?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A file that contains the app's build settings and dependencies, defining how the app is compiled and linked.",
+          "is_correct": false,
+          "rationale": "That describes a project file."
+        },
+        {
+          "key": "B",
+          "text": "A visual representation of the app's user interface, showing the screens and their connections.",
+          "is_correct": true,
+          "rationale": "Storyboards visualize the UI flow."
+        },
+        {
+          "key": "C",
+          "text": "A set of guidelines and best practices for writing clean, maintainable, and efficient code in Swift.",
+          "is_correct": false,
+          "rationale": "That describes coding standards."
+        },
+        {
+          "key": "D",
+          "text": "A database management system used for storing and retrieving data in iOS apps, offering features like indexing.",
+          "is_correct": false,
+          "rationale": "That describes a database system."
+        },
+        {
+          "key": "E",
+          "text": "A tool for profiling the app's performance and identifying bottlenecks, helping developers optimize code.",
+          "is_correct": false,
+          "rationale": "That describes a profiler."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What is the purpose of delegation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A design pattern that allows one object to pass responsibility for handling a specific task to another object.",
+          "is_correct": true,
+          "rationale": "Delegation passes responsibility."
+        },
+        {
+          "key": "B",
+          "text": "A mechanism for storing and retrieving data from a database, providing an interface for data manipulation.",
+          "is_correct": false,
+          "rationale": "That describes a database interface."
+        },
+        {
+          "key": "C",
+          "text": "A technique for optimizing the app's performance by caching data in memory, reducing the need to fetch data.",
+          "is_correct": false,
+          "rationale": "That describes caching."
+        },
+        {
+          "key": "D",
+          "text": "A process for encrypting sensitive data to protect it from unauthorized access, ensuring data confidentiality.",
+          "is_correct": false,
+          "rationale": "That describes encryption."
+        },
+        {
+          "key": "E",
+          "text": "A method for handling user input events, such as touches and gestures, allowing the app to respond to user actions.",
+          "is_correct": false,
+          "rationale": "That describes event handling."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What is an IBOutlet?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A keyword used to define a constant value that cannot be changed after it is initialized, ensuring immutability.",
+          "is_correct": false,
+          "rationale": "That describes a constant."
+        },
+        {
+          "key": "B",
+          "text": "A connection between a UI element in Interface Builder and a property in the code, allowing code to access the element.",
+          "is_correct": true,
+          "rationale": "IBOutlet connects UI to code."
+        },
+        {
+          "key": "C",
+          "text": "A data structure for storing key-value pairs, providing a way to organize and access data based on unique keys.",
+          "is_correct": false,
+          "rationale": "That describes a dictionary."
+        },
+        {
+          "key": "D",
+          "text": "A function that is called automatically when a view controller's view is loaded into memory, used for setup.",
+          "is_correct": false,
+          "rationale": "That describes viewDidLoad."
+        },
+        {
+          "key": "E",
+          "text": "A protocol that defines a set of methods that a class can implement to conform to a specific behavior.",
+          "is_correct": false,
+          "rationale": "That describes a protocol."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is an IBAction?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A method in a view controller that is triggered by an event from a UI element in Interface Builder.",
+          "is_correct": true,
+          "rationale": "IBAction connects UI events to code."
+        },
+        {
+          "key": "B",
+          "text": "A class that manages the layout of views in a user interface, automatically adjusting their size and position.",
+          "is_correct": false,
+          "rationale": "That describes Auto Layout."
+        },
+        {
+          "key": "C",
+          "text": "A design pattern for separating data access logic from the user interface, promoting code reusability.",
+          "is_correct": false,
+          "rationale": "That describes MVC."
+        },
+        {
+          "key": "D",
+          "text": "A tool for debugging and analyzing the performance of iOS apps, identifying memory leaks and bottlenecks.",
+          "is_correct": false,
+          "rationale": "That describes a profiler."
+        },
+        {
+          "key": "E",
+          "text": "A mechanism for handling asynchronous operations, allowing the app to perform tasks in the background.",
+          "is_correct": false,
+          "rationale": "That describes concurrency."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What is the purpose of the viewDidLoad() method?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To handle user input events, such as touches and gestures, allowing the app to respond to user actions.",
+          "is_correct": false,
+          "rationale": "That describes event handling."
+        },
+        {
+          "key": "B",
+          "text": "To manage the app's data persistence using Core Data, ensuring data integrity and efficient storage.",
+          "is_correct": false,
+          "rationale": "Core Data handles data persistence."
+        },
+        {
+          "key": "C",
+          "text": "To perform initial setup of the view controller's view after it has been loaded into memory.",
+          "is_correct": true,
+          "rationale": "viewDidLoad is for initial setup."
+        },
+        {
+          "key": "D",
+          "text": "To manage network requests and responses, facilitating communication with web services and APIs.",
+          "is_correct": false,
+          "rationale": "URLSession handles networking."
+        },
+        {
+          "key": "E",
+          "text": "To manage background tasks and execute code even when the app is not in the foreground.",
+          "is_correct": false,
+          "rationale": "Background tasks are managed differently."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the use of a Table View?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To display data in a scrollable, single-column list of rows, often used for displaying collections of data.",
+          "is_correct": true,
+          "rationale": "Table views display scrollable lists."
+        },
+        {
+          "key": "B",
+          "text": "To present a modal view controller on top of the current view controller, used for displaying alerts or forms.",
+          "is_correct": false,
+          "rationale": "That describes modal presentation."
+        },
+        {
+          "key": "C",
+          "text": "To manage the app's data persistence using Core Data, ensuring data integrity and efficient storage.",
+          "is_correct": false,
+          "rationale": "Core Data handles persistence."
+        },
+        {
+          "key": "D",
+          "text": "To handle network requests and responses, facilitating communication with web services and APIs.",
+          "is_correct": false,
+          "rationale": "URLSession handles networking."
+        },
+        {
+          "key": "E",
+          "text": "To manage background tasks and execute code even when the app is not in the foreground.",
+          "is_correct": false,
+          "rationale": "Background tasks are managed differently."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "What is the purpose of a Navigation Controller?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage the app's data persistence using Core Data, ensuring data integrity and efficient storage.",
+          "is_correct": false,
+          "rationale": "Core Data handles persistence."
+        },
+        {
+          "key": "B",
+          "text": "To manage a stack of view controllers, allowing users to navigate forward and backward through the app's screens.",
+          "is_correct": true,
+          "rationale": "Navigation controllers manage view controller stacks."
+        },
+        {
+          "key": "C",
+          "text": "To handle network requests and responses, facilitating communication with web services and APIs.",
+          "is_correct": false,
+          "rationale": "URLSession handles networking."
+        },
+        {
+          "key": "D",
+          "text": "To manage background tasks and execute code even when the app is not in the foreground.",
+          "is_correct": false,
+          "rationale": "Background tasks are managed differently."
+        },
+        {
+          "key": "E",
+          "text": "To provide a visual interface for designing the user interface of an iOS app, using drag-and-drop.",
+          "is_correct": false,
+          "rationale": "Interface Builder designs the UI."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is the function of a Collection View?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To display data in a flexible, customizable grid layout, allowing for more complex and dynamic layouts than table views.",
+          "is_correct": true,
+          "rationale": "Collection views use a grid layout."
+        },
+        {
+          "key": "B",
+          "text": "To manage the app's data persistence using Core Data, ensuring data integrity and efficient storage.",
+          "is_correct": false,
+          "rationale": "Core Data handles persistence."
+        },
+        {
+          "key": "C",
+          "text": "To handle network requests and responses, facilitating communication with web services and APIs.",
+          "is_correct": false,
+          "rationale": "URLSession handles networking."
+        },
+        {
+          "key": "D",
+          "text": "To manage background tasks and execute code even when the app is not in the foreground.",
+          "is_correct": false,
+          "rationale": "Background tasks are managed differently."
+        },
+        {
+          "key": "E",
+          "text": "To provide a visual interface for designing the user interface of an iOS app, using drag-and-drop.",
+          "is_correct": false,
+          "rationale": "Interface Builder designs the UI."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What is the purpose of Core Data?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage the app's data persistence, providing an object-relational mapping (ORM) framework for storing and retrieving data.",
+          "is_correct": true,
+          "rationale": "Core Data is for data persistence."
+        },
+        {
+          "key": "B",
+          "text": "To handle network requests and responses, facilitating communication with web services and APIs.",
+          "is_correct": false,
+          "rationale": "URLSession handles networking."
+        },
+        {
+          "key": "C",
+          "text": "To manage background tasks and execute code even when the app is not in the foreground.",
+          "is_correct": false,
+          "rationale": "Background tasks are managed differently."
+        },
+        {
+          "key": "D",
+          "text": "To provide a visual interface for designing the user interface of an iOS app, using drag-and-drop.",
+          "is_correct": false,
+          "rationale": "Interface Builder designs the UI."
+        },
+        {
+          "key": "E",
+          "text": "To manage the app's user interface layout, automatically adjusting the size and position of views.",
+          "is_correct": false,
+          "rationale": "Auto Layout manages UI layout."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is the use of the URLSession class?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage the app's data persistence using Core Data, ensuring data integrity and efficient storage.",
+          "is_correct": false,
+          "rationale": "Core Data handles persistence."
+        },
+        {
+          "key": "B",
+          "text": "To handle network requests and responses, facilitating communication with web services and APIs.",
+          "is_correct": true,
+          "rationale": "URLSession is for networking."
+        },
+        {
+          "key": "C",
+          "text": "To manage background tasks and execute code even when the app is not in the foreground.",
+          "is_correct": false,
+          "rationale": "Background tasks are managed differently."
+        },
+        {
+          "key": "D",
+          "text": "To provide a visual interface for designing the user interface of an iOS app, using drag-and-drop.",
+          "is_correct": false,
+          "rationale": "Interface Builder designs the UI."
+        },
+        {
+          "key": "E",
+          "text": "To manage the app's user interface layout, automatically adjusting the size and position of views.",
+          "is_correct": false,
+          "rationale": "Auto Layout manages UI layout."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What is the purpose of Grand Central Dispatch (GCD)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage concurrent execution of code, allowing the app to perform tasks in the background without blocking the main thread.",
+          "is_correct": true,
+          "rationale": "GCD manages concurrent code execution."
+        },
+        {
+          "key": "B",
+          "text": "To manage the app's data persistence using Core Data, ensuring data integrity and efficient storage.",
+          "is_correct": false,
+          "rationale": "Core Data handles persistence."
+        },
+        {
+          "key": "C",
+          "text": "To handle network requests and responses, facilitating communication with web services and APIs.",
+          "is_correct": false,
+          "rationale": "URLSession handles networking."
+        },
+        {
+          "key": "D",
+          "text": "To provide a visual interface for designing the user interface of an iOS app, using drag-and-drop.",
+          "is_correct": false,
+          "rationale": "Interface Builder designs the UI."
+        },
+        {
+          "key": "E",
+          "text": "To manage the app's user interface layout, automatically adjusting the size and position of views.",
+          "is_correct": false,
+          "rationale": "Auto Layout manages UI layout."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What is a protocol in Swift?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A blueprint of methods, properties, and other requirements that suit a particular task or piece of functionality.",
+          "is_correct": true,
+          "rationale": "Protocols define requirements."
+        },
+        {
+          "key": "B",
+          "text": "A mechanism for managing the memory of objects in Swift, automatically releasing objects when they are no longer needed.",
+          "is_correct": false,
+          "rationale": "That describes automatic reference counting."
+        },
+        {
+          "key": "C",
+          "text": "A way to store and manage data in a structured format, providing an interface for data manipulation.",
+          "is_correct": false,
+          "rationale": "That describes a data structure."
+        },
+        {
+          "key": "D",
+          "text": "A function that is called automatically when a view controller's view is loaded into memory, used for setup.",
+          "is_correct": false,
+          "rationale": "That describes viewDidLoad."
+        },
+        {
+          "key": "E",
+          "text": "A tool for debugging and analyzing the performance of iOS apps, identifying memory leaks and bottlenecks.",
+          "is_correct": false,
+          "rationale": "That describes a profiler."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is the purpose of the App Delegate?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage the app's data persistence using Core Data, ensuring data integrity and efficient storage.",
+          "is_correct": false,
+          "rationale": "Core Data handles persistence."
+        },
+        {
+          "key": "B",
+          "text": "To handle key system-level events in the app's lifecycle, such as app launch, termination, and state transitions.",
+          "is_correct": true,
+          "rationale": "App Delegate handles system events."
+        },
+        {
+          "key": "C",
+          "text": "To handle network requests and responses, facilitating communication with web services and APIs.",
+          "is_correct": false,
+          "rationale": "URLSession handles networking."
+        },
+        {
+          "key": "D",
+          "text": "To provide a visual interface for designing the user interface of an iOS app, using drag-and-drop.",
+          "is_correct": false,
+          "rationale": "Interface Builder designs the UI."
+        },
+        {
+          "key": "E",
+          "text": "To manage the app's user interface layout, automatically adjusting the size and position of views.",
+          "is_correct": false,
+          "rationale": "Auto Layout manages UI layout."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is the use of guard let?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To safely unwrap an optional value and execute a block of code only if the optional contains a value.",
+          "is_correct": true,
+          "rationale": "guard let safely unwraps optionals."
+        },
+        {
+          "key": "B",
+          "text": "To define a constant value that cannot be changed after it is initialized, ensuring immutability.",
+          "is_correct": false,
+          "rationale": "That describes a constant declaration."
+        },
+        {
+          "key": "C",
+          "text": "To iterate over a sequence of values, executing a block of code for each value in the sequence.",
+          "is_correct": false,
+          "rationale": "That describes a loop."
+        },
+        {
+          "key": "D",
+          "text": "To handle errors that may occur during the execution of code, preventing the app from crashing.",
+          "is_correct": false,
+          "rationale": "That describes error handling."
+        },
+        {
+          "key": "E",
+          "text": "To manage the app's data persistence using Core Data, ensuring data integrity and efficient storage.",
+          "is_correct": false,
+          "rationale": "Core Data handles persistence."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What is the purpose of using a UIStackView?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage the layout of a collection of views in a linear fashion, either horizontally or vertically.",
+          "is_correct": true,
+          "rationale": "Stack views arrange views linearly."
+        },
+        {
+          "key": "B",
+          "text": "To handle network requests and responses, facilitating communication with web services and APIs.",
+          "is_correct": false,
+          "rationale": "URLSession handles networking."
+        },
+        {
+          "key": "C",
+          "text": "To manage background tasks and execute code even when the app is not in the foreground.",
+          "is_correct": false,
+          "rationale": "Background tasks are managed differently."
+        },
+        {
+          "key": "D",
+          "text": "To provide a visual interface for designing the user interface of an iOS app, using drag-and-drop.",
+          "is_correct": false,
+          "rationale": "Interface Builder designs the UI."
+        },
+        {
+          "key": "E",
+          "text": "To manage the app's data persistence using Core Data, ensuring data integrity and efficient storage.",
+          "is_correct": false,
+          "rationale": "Core Data handles persistence."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "Which HTML tag is typically used to define the structure for navigation menus on a website?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The `<article>` tag is used for defining independent, self-contained content.",
+          "is_correct": false,
+          "rationale": "The <article> tag represents a self-contained composition and is not for navigation."
+        },
+        {
+          "key": "B",
+          "text": "The `<nav>` tag is used for defining a section of navigation links for the site.",
+          "is_correct": true,
+          "rationale": "The <nav> tag explicitly defines a section intended for navigation links."
+        },
+        {
+          "key": "C",
+          "text": "The `<footer>` tag is used for defining the bottom section of a document or section.",
+          "is_correct": false,
+          "rationale": "The <footer> tag represents the footer of a document or section, not navigation."
+        },
+        {
+          "key": "D",
+          "text": "The `<header>` tag is used for defining the top introductory content of a document.",
+          "is_correct": false,
+          "rationale": "The <header> tag represents introductory content, not specifically navigation."
+        },
+        {
+          "key": "E",
+          "text": "The `<aside>` tag is used for content loosely related to the main content.",
+          "is_correct": false,
+          "rationale": "The <aside> tag represents content aside from the main content, not navigation."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the primary purpose of using CSS preprocessors like Sass or Less in web development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To enhance JavaScript performance by optimizing code before it runs in the browser.",
+          "is_correct": false,
+          "rationale": "CSS preprocessors do not directly optimize JavaScript performance."
+        },
+        {
+          "key": "B",
+          "text": "To extend CSS with features like variables, nesting, and mixins, improving maintainability.",
+          "is_correct": true,
+          "rationale": "Preprocessors extend CSS, enabling features that enhance code organization and maintainability."
+        },
+        {
+          "key": "C",
+          "text": "To directly manipulate the DOM, allowing dynamic updates to HTML elements' styles.",
+          "is_correct": false,
+          "rationale": "CSS preprocessors do not directly manipulate the DOM."
+        },
+        {
+          "key": "D",
+          "text": "To automatically handle cross-browser compatibility issues without any manual adjustments.",
+          "is_correct": false,
+          "rationale": "While they can help, they don't fully automate cross-browser compatibility."
+        },
+        {
+          "key": "E",
+          "text": "To convert HTML code into CSS, streamlining the styling process for web pages.",
+          "is_correct": false,
+          "rationale": "CSS preprocessors work in the opposite direction; they compile into CSS."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is NOT a valid data type in JavaScript for storing and manipulating values?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Boolean, which represents a logical value that can be either true or false.",
+          "is_correct": false,
+          "rationale": "Boolean is a valid JavaScript data type representing true or false values."
+        },
+        {
+          "key": "B",
+          "text": "String, which represents a sequence of characters used to store textual data.",
+          "is_correct": false,
+          "rationale": "String is a valid JavaScript data type used for textual data."
+        },
+        {
+          "key": "C",
+          "text": "Number, which represents numeric values, including integers and floating-point numbers.",
+          "is_correct": false,
+          "rationale": "Number is a valid JavaScript data type for numeric values."
+        },
+        {
+          "key": "D",
+          "text": "Symbol, which represents a unique and immutable value, often used as object keys.",
+          "is_correct": false,
+          "rationale": "Symbol is a valid JavaScript data type introduced in ES6."
+        },
+        {
+          "key": "E",
+          "text": "Float, which represents a single-precision floating point number with limited range.",
+          "is_correct": true,
+          "rationale": "Float is not a distinct data type in JavaScript; numbers are represented as double-precision."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is the purpose of the `alt` attribute in an `<img>` tag in HTML for web accessibility?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It specifies the alignment of the image within its containing element on the page.",
+          "is_correct": false,
+          "rationale": "The 'alt' attribute does not control image alignment within its container."
+        },
+        {
+          "key": "B",
+          "text": "It provides alternative text for the image if it cannot be displayed, improving accessibility.",
+          "is_correct": true,
+          "rationale": "The 'alt' attribute provides alternative text for screen readers and when images fail to load."
+        },
+        {
+          "key": "C",
+          "text": "It defines the animation or transition effect to apply when the image is loaded initially.",
+          "is_correct": false,
+          "rationale": "The 'alt' attribute does not define animation or transition effects for images."
+        },
+        {
+          "key": "D",
+          "text": "It sets the maximum width and height of the image to ensure responsive scaling on different devices.",
+          "is_correct": false,
+          "rationale": "The 'alt' attribute does not control image dimensions or responsive scaling."
+        },
+        {
+          "key": "E",
+          "text": "It encrypts the image source to protect it from unauthorized access or hotlinking on external sites.",
+          "is_correct": false,
+          "rationale": "The 'alt' attribute does not encrypt or protect image sources from unauthorized access."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which CSS property is used to control the spacing between lines of text within an element?",
+      "options": [
+        {
+          "key": "A",
+          "text": "`letter-spacing` property controls the horizontal spacing between individual text characters.",
+          "is_correct": false,
+          "rationale": "`letter-spacing` adjusts space between characters, not lines."
+        },
+        {
+          "key": "B",
+          "text": "`word-spacing` property controls the horizontal spacing between individual words in a text.",
+          "is_correct": false,
+          "rationale": "`word-spacing` adjusts space between words, not lines."
+        },
+        {
+          "key": "C",
+          "text": "`line-height` property controls the vertical spacing between lines of text within an element.",
+          "is_correct": true,
+          "rationale": "`line-height` is the correct property for adjusting the space between text lines."
+        },
+        {
+          "key": "D",
+          "text": "`text-spacing` property controls various text spacing options, including letter and word spacing.",
+          "is_correct": false,
+          "rationale": "`text-spacing` is not a standard CSS property."
+        },
+        {
+          "key": "E",
+          "text": "`paragraph-spacing` property controls the spacing between paragraphs of text within an element.",
+          "is_correct": false,
+          "rationale": "`paragraph-spacing` is not a standard CSS property."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What is the purpose of using `async` and `await` keywords in JavaScript when dealing with asynchronous operations?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To define synchronous functions that must execute in a single thread without interruption.",
+          "is_correct": false,
+          "rationale": "`async/await` is for asynchronous, not synchronous, operations."
+        },
+        {
+          "key": "B",
+          "text": "To make asynchronous code look and behave a bit more like synchronous code, improving readability.",
+          "is_correct": true,
+          "rationale": "`async/await` simplifies asynchronous code, making it more readable."
+        },
+        {
+          "key": "C",
+          "text": "To automatically optimize JavaScript code for faster execution speed, reducing latency.",
+          "is_correct": false,
+          "rationale": "`async/await` does not directly optimize code execution speed."
+        },
+        {
+          "key": "D",
+          "text": "To prevent the execution of any asynchronous code, ensuring that only synchronous operations are performed.",
+          "is_correct": false,
+          "rationale": "`async/await` is specifically for managing asynchronous operations."
+        },
+        {
+          "key": "E",
+          "text": "To enable the creation of multi-threaded JavaScript applications, allowing parallel execution.",
+          "is_correct": false,
+          "rationale": "JavaScript is single-threaded; `async/await` doesn't change that."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "In responsive web design, what is the primary purpose of using CSS media queries effectively?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To define JavaScript functions that dynamically modify the HTML content based on user interactions.",
+          "is_correct": false,
+          "rationale": "Media queries are CSS features, not JavaScript functions."
+        },
+        {
+          "key": "B",
+          "text": "To apply different styles based on the characteristics of the device, like screen size or orientation.",
+          "is_correct": true,
+          "rationale": "Media queries adapt styles based on device characteristics for responsiveness."
+        },
+        {
+          "key": "C",
+          "text": "To encrypt sensitive data transmitted between the client and the server for enhanced security.",
+          "is_correct": false,
+          "rationale": "Media queries do not handle data encryption or security."
+        },
+        {
+          "key": "D",
+          "text": "To optimize image loading and compression, reducing bandwidth usage and improving page load times.",
+          "is_correct": false,
+          "rationale": "Media queries do not directly optimize image loading or compression."
+        },
+        {
+          "key": "E",
+          "text": "To manage the version control of CSS files, enabling collaboration among multiple developers.",
+          "is_correct": false,
+          "rationale": "Media queries are not related to version control of CSS files."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is the correct way to declare a variable with block scope in JavaScript?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using the `const` keyword declares a block-scoped variable that cannot be reassigned.",
+          "is_correct": true,
+          "rationale": "`const` declares a block-scoped variable that is immutable after assignment."
+        },
+        {
+          "key": "B",
+          "text": "Using the `var` keyword declares a function-scoped variable that is accessible throughout the function.",
+          "is_correct": false,
+          "rationale": "`var` declares a function-scoped variable, not block-scoped."
+        },
+        {
+          "key": "C",
+          "text": "Using the `global` keyword declares a variable that is accessible from anywhere in the code.",
+          "is_correct": false,
+          "rationale": "`global` is not a JavaScript keyword for variable declaration."
+        },
+        {
+          "key": "D",
+          "text": "Using the `static` keyword declares a variable that is shared among all instances of a class.",
+          "is_correct": false,
+          "rationale": "`static` is not used for declaring block-scoped variables."
+        },
+        {
+          "key": "E",
+          "text": "Using the `let` keyword declares a variable with global scope, accessible throughout the script.",
+          "is_correct": false,
+          "rationale": "`let` declares a block-scoped variable, not global."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is the purpose of using a JavaScript framework like React, Angular, or Vue.js in frontend development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To directly manipulate the operating system and hardware resources of the user's computer.",
+          "is_correct": false,
+          "rationale": "Frontend frameworks do not directly interact with the operating system."
+        },
+        {
+          "key": "B",
+          "text": "To provide a structured way to build user interfaces and manage application state efficiently.",
+          "is_correct": true,
+          "rationale": "Frontend frameworks offer structure for UI building and state management."
+        },
+        {
+          "key": "C",
+          "text": "To automatically translate JavaScript code into other programming languages for cross-platform compatibility.",
+          "is_correct": false,
+          "rationale": "Frontend frameworks do not translate JavaScript into other languages."
+        },
+        {
+          "key": "D",
+          "text": "To create and manage server-side databases for storing and retrieving application data.",
+          "is_correct": false,
+          "rationale": "Frontend frameworks are client-side and do not manage databases."
+        },
+        {
+          "key": "E",
+          "text": "To handle network security and protect against cyber threats, like XSS and SQL injection.",
+          "is_correct": false,
+          "rationale": "Frontend frameworks don't primarily handle network security."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is a valid way to include external JavaScript file into an HTML document?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using the `<script src=\"script.js\">` tag within the `<head>` or `<body>` of the document.",
+          "is_correct": true,
+          "rationale": "This is the standard and correct method for including external JavaScript files."
+        },
+        {
+          "key": "B",
+          "text": "Using the `<link rel=\"javascript\" href=\"script.js\">` tag within the `<head>` of the document.",
+          "is_correct": false,
+          "rationale": "The `<link>` tag is used for CSS, not JavaScript."
+        },
+        {
+          "key": "C",
+          "text": "Using the `<js src=\"script.js\">` tag within the `<body>` of the document.",
+          "is_correct": false,
+          "rationale": "There is no `<js>` tag in HTML."
+        },
+        {
+          "key": "D",
+          "text": "Using the `<import src=\"script.js\">` tag within the `<head>` of the document.",
+          "is_correct": false,
+          "rationale": "The `<import>` tag is not used for including external JavaScript files."
+        },
+        {
+          "key": "E",
+          "text": "Using the `<javascript href=\"script.js\">` tag within the `<body>` of the document.",
+          "is_correct": false,
+          "rationale": "There is no `<javascript>` tag in HTML."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What does the term 'DOM' stand for in the context of web development with JavaScript?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Document Object Model, a programming interface for HTML and XML documents, structuring documents.",
+          "is_correct": true,
+          "rationale": "DOM stands for Document Object Model, representing the structure of HTML documents."
+        },
+        {
+          "key": "B",
+          "text": "Data Object Management, a system for managing data objects in a web application or website.",
+          "is_correct": false,
+          "rationale": "DOM is not related to data object management."
+        },
+        {
+          "key": "C",
+          "text": "Dynamic Output Module, a component for generating dynamic content on a web page or application.",
+          "is_correct": false,
+          "rationale": "DOM is not related to dynamic output modules."
+        },
+        {
+          "key": "D",
+          "text": "Design Optimization Method, a set of techniques for optimizing the design of web pages.",
+          "is_correct": false,
+          "rationale": "DOM is not related to design optimization methods."
+        },
+        {
+          "key": "E",
+          "text": "Distributed Object Management, a system for managing distributed objects across multiple servers.",
+          "is_correct": false,
+          "rationale": "DOM is not related to distributed object management."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Which CSS property is used to make an element completely invisible, removing it from the document flow?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The `display: none;` property removes the element from the document flow, and it's invisible.",
+          "is_correct": true,
+          "rationale": "`display: none;` makes an element invisible and removes it from the document flow."
+        },
+        {
+          "key": "B",
+          "text": "The `visibility: hidden;` property makes the element invisible, but it still occupies space.",
+          "is_correct": false,
+          "rationale": "`visibility: hidden;` hides the element but it still occupies space."
+        },
+        {
+          "key": "C",
+          "text": "The `opacity: 0;` property makes the element transparent, but it remains in the document flow.",
+          "is_correct": false,
+          "rationale": "`opacity: 0;` makes an element transparent but it remains in the flow."
+        },
+        {
+          "key": "D",
+          "text": "The `position: absolute;` property removes the element from the document flow, making it invisible.",
+          "is_correct": false,
+          "rationale": "`position: absolute;` changes positioning but does not inherently make it invisible."
+        },
+        {
+          "key": "E",
+          "text": "The `overflow: hidden;` property hides any content that overflows the element's boundaries.",
+          "is_correct": false,
+          "rationale": "`overflow: hidden;` hides overflowing content, not the entire element."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is the purpose of using version control systems like Git in web development projects?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To automatically optimize website performance by compressing images and minifying code files.",
+          "is_correct": false,
+          "rationale": "Version control does not directly optimize website performance."
+        },
+        {
+          "key": "B",
+          "text": "To track changes to code, collaborate with others, and revert to previous versions if needed.",
+          "is_correct": true,
+          "rationale": "Version control's purpose is to track changes, facilitate collaboration, and enable reverting."
+        },
+        {
+          "key": "C",
+          "text": "To automatically deploy website updates to production servers without any manual intervention.",
+          "is_correct": false,
+          "rationale": "Version control does not automatically deploy website updates."
+        },
+        {
+          "key": "D",
+          "text": "To encrypt sensitive data transmitted between the client and the server for enhanced security.",
+          "is_correct": false,
+          "rationale": "Version control does not handle data encryption for security."
+        },
+        {
+          "key": "E",
+          "text": "To generate documentation automatically from code comments and annotations in a project.",
+          "is_correct": false,
+          "rationale": "Version control does not generate documentation automatically."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Which of the following is a commonly used tool for debugging JavaScript code in a web browser?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The browser's developer tools, which include a debugger for stepping through code and inspecting variables.",
+          "is_correct": true,
+          "rationale": "Browser developer tools have debuggers for stepping through code and inspecting variables."
+        },
+        {
+          "key": "B",
+          "text": "A CSS validator, which checks CSS code for syntax errors and adherence to web standards.",
+          "is_correct": false,
+          "rationale": "CSS validators are for CSS, not JavaScript, debugging."
+        },
+        {
+          "key": "C",
+          "text": "An HTML minifier, which reduces the size of HTML files by removing unnecessary characters and whitespace.",
+          "is_correct": false,
+          "rationale": "HTML minifiers optimize HTML size, not debug JavaScript."
+        },
+        {
+          "key": "D",
+          "text": "A code obfuscator, which makes JavaScript code harder to understand for security purposes.",
+          "is_correct": false,
+          "rationale": "Code obfuscators make code harder to understand, hindering debugging."
+        },
+        {
+          "key": "E",
+          "text": "A performance profiler, which analyzes website performance and identifies bottlenecks for optimization.",
+          "is_correct": false,
+          "rationale": "Performance profilers analyze performance, not debug code logic."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is the purpose of using CSS frameworks like Bootstrap or Materialize in web development projects?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide a set of pre-designed components and styles, accelerating development and ensuring consistency.",
+          "is_correct": true,
+          "rationale": "CSS frameworks offer pre-designed components, speeding up development and ensuring consistency."
+        },
+        {
+          "key": "B",
+          "text": "To automatically generate server-side code for handling database interactions and user authentication.",
+          "is_correct": false,
+          "rationale": "CSS frameworks do not generate server-side code."
+        },
+        {
+          "key": "C",
+          "text": "To encrypt sensitive data transmitted between the client and the server for enhanced security.",
+          "is_correct": false,
+          "rationale": "CSS frameworks do not handle data encryption or security."
+        },
+        {
+          "key": "D",
+          "text": "To optimize website performance by automatically compressing images and minifying code files.",
+          "is_correct": false,
+          "rationale": "CSS frameworks do not automatically optimize website performance."
+        },
+        {
+          "key": "E",
+          "text": "To manage the version control of CSS files, enabling collaboration among multiple developers.",
+          "is_correct": false,
+          "rationale": "CSS frameworks are not related to version control."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Which of the following is NOT a valid CSS selector?",
+      "options": [
+        {
+          "key": "A",
+          "text": "`.class`, which selects elements with a specific class attribute applied to them.",
+          "is_correct": false,
+          "rationale": "`.class` is a valid CSS selector for selecting elements by class."
+        },
+        {
+          "key": "B",
+          "text": "`#id`, which selects an element with a specific ID attribute assigned to it.",
+          "is_correct": false,
+          "rationale": "`#id` is a valid CSS selector for selecting an element by ID."
+        },
+        {
+          "key": "C",
+          "text": "`element`, which selects all HTML elements of a specific type in the document.",
+          "is_correct": false,
+          "rationale": "`element` is a valid CSS selector for selecting elements by tag name."
+        },
+        {
+          "key": "D",
+          "text": "`attribute=value`, which selects elements with a specific attribute and value pair.",
+          "is_correct": false,
+          "rationale": "`[attribute=value]` is the correct syntax, but the question asks which is NOT valid."
+        },
+        {
+          "key": "E",
+          "text": "`@font-face`, which defines custom font styles to be used on a website or web application.",
+          "is_correct": true,
+          "rationale": "`@font-face` is an at-rule, not a selector."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What is the purpose of using the `localStorage` API in web development with JavaScript?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To store data on the server-side database for persistent storage across multiple user sessions.",
+          "is_correct": false,
+          "rationale": "`localStorage` is a client-side storage, not server-side."
+        },
+        {
+          "key": "B",
+          "text": "To store data locally in the user's browser with no expiration time, even after the browser is closed.",
+          "is_correct": true,
+          "rationale": "`localStorage` stores data locally without expiration."
+        },
+        {
+          "key": "C",
+          "text": "To store data temporarily in the browser's session storage, which is cleared when the browser is closed.",
+          "is_correct": false,
+          "rationale": "Session storage is cleared when the browser is closed, not `localStorage`."
+        },
+        {
+          "key": "D",
+          "text": "To store data in cookies, which are small text files stored on the user's computer by the web server.",
+          "is_correct": false,
+          "rationale": "Cookies are different from `localStorage`."
+        },
+        {
+          "key": "E",
+          "text": "To store data in the browser's cache for faster retrieval of frequently accessed resources.",
+          "is_correct": false,
+          "rationale": "Browser cache is for resources, not general data storage like `localStorage`."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is a valid way to comment out a single line of JavaScript code?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using `<!--` and `-->` to enclose the line of code you want to comment out.",
+          "is_correct": false,
+          "rationale": "These are HTML comments, not JavaScript comments."
+        },
+        {
+          "key": "B",
+          "text": "Using `/*` and `*/` to enclose the line of code you want to comment out.",
+          "is_correct": false,
+          "rationale": "This is for multi-line comments in JavaScript."
+        },
+        {
+          "key": "C",
+          "text": "Using `//` at the beginning of the line of code you want to comment out.",
+          "is_correct": true,
+          "rationale": "`//` is used for single-line comments in JavaScript."
+        },
+        {
+          "key": "D",
+          "text": "Using `<comment>` and `</comment>` to enclose the line of code you want to comment out.",
+          "is_correct": false,
+          "rationale": "This is not a valid comment syntax in JavaScript."
+        },
+        {
+          "key": "E",
+          "text": "Using `##` at the beginning of the line of code you want to comment out.",
+          "is_correct": false,
+          "rationale": "This is not a valid comment syntax in JavaScript."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is the purpose of using the `addEventListener` method in JavaScript for handling events?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To remove an event listener from an element, preventing it from responding to specific events.",
+          "is_correct": false,
+          "rationale": "`addEventListener` adds an event listener, not removes it."
+        },
+        {
+          "key": "B",
+          "text": "To attach one or more event handlers to an element, allowing it to respond to specific events.",
+          "is_correct": true,
+          "rationale": "`addEventListener` attaches event handlers to an element."
+        },
+        {
+          "key": "C",
+          "text": "To trigger a specific event manually on an element, simulating a user interaction or system event.",
+          "is_correct": false,
+          "rationale": "`addEventListener` does not trigger events; it listens for them."
+        },
+        {
+          "key": "D",
+          "text": "To prevent the default behavior of an event from occurring, such as form submission or link navigation.",
+          "is_correct": false,
+          "rationale": "`addEventListener` sets up the listener; `preventDefault` prevents default behavior."
+        },
+        {
+          "key": "E",
+          "text": "To check if an event listener is already attached to an element before adding a new one.",
+          "is_correct": false,
+          "rationale": "`addEventListener` doesn't check for existing listeners before adding new ones."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Which of the following is the correct way to select an HTML element by its ID using JavaScript?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using `document.querySelector('#elementId')`, which returns the first element matching the selector.",
+          "is_correct": true,
+          "rationale": "This is the correct method using querySelector."
+        },
+        {
+          "key": "B",
+          "text": "Using `window.getElementById('elementId')`, which searches the entire window for the element.",
+          "is_correct": false,
+          "rationale": "The `window` object is not typically used for selecting elements by ID."
+        },
+        {
+          "key": "C",
+          "text": "Using `document.getElementsByName('elementId')`, which returns a list of elements with the name.",
+          "is_correct": false,
+          "rationale": "This selects by `name`, not `id`."
+        },
+        {
+          "key": "D",
+          "text": "Using `document.querySelectorAll('elementId')`, which returns all elements with the specified ID.",
+          "is_correct": false,
+          "rationale": "`querySelectorAll` requires a CSS selector, and IDs should be unique."
+        },
+        {
+          "key": "E",
+          "text": "Using `document.getElementByClass('elementId')`, which returns an element with the specified class.",
+          "is_correct": false,
+          "rationale": "This selects by class, not ID, and the method name is incorrect."
+        }
+      ]
+    }
+  ]
+}

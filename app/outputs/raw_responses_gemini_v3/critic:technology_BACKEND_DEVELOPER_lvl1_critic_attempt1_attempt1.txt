@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "Which HTTP method is typically the most appropriate one to use when you want to retrieve data from a server?",
+      "options": [
+        {
+          "key": "A",
+          "text": "POST, which is used for creating new resources on the server, sending data in the request body.",
+          "is_correct": false,
+          "rationale": "POST is designed for creating resources, not retrieving them."
+        },
+        {
+          "key": "B",
+          "text": "PUT, used to replace the entire targeted resource, or create it if it does not already exist.",
+          "is_correct": false,
+          "rationale": "PUT is for replacing or creating entire resources."
+        },
+        {
+          "key": "C",
+          "text": "GET, used to request data from a specified resource; it is read-only and safe to use.",
+          "is_correct": true,
+          "rationale": "GET is designed specifically to retrieve data."
+        },
+        {
+          "key": "D",
+          "text": "DELETE, used to delete the specified resource, provided that the user has the required permissions.",
+          "is_correct": false,
+          "rationale": "DELETE is used to remove a resource, not retrieve data."
+        },
+        {
+          "key": "E",
+          "text": "PATCH, used to apply partial modifications to a resource, rather than replacing the entire resource.",
+          "is_correct": false,
+          "rationale": "PATCH is for partial updates, not full retrieval."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the primary function of a database management system within a typical backend system architecture?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To directly manage user interface elements and interactions within a web browser environment.",
+          "is_correct": false,
+          "rationale": "Databases do not handle user interface elements."
+        },
+        {
+          "key": "B",
+          "text": "To store, retrieve, update, and manage persistent data that is crucial for the application's operation.",
+          "is_correct": true,
+          "rationale": "Databases are designed for data management."
+        },
+        {
+          "key": "C",
+          "text": "To handle client-side scripting and dynamic content rendering directly within web browsers.",
+          "is_correct": false,
+          "rationale": "Databases do not handle client-side logic."
+        },
+        {
+          "key": "D",
+          "text": "To define the structure and styling of web pages using HTML, CSS, and related technologies.",
+          "is_correct": false,
+          "rationale": "Databases are not used for styling web pages."
+        },
+        {
+          "key": "E",
+          "text": "To manage network routing and ensure secure data transmission protocols across different networks.",
+          "is_correct": false,
+          "rationale": "Databases do not handle network routing functions."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which fundamental data structure strictly adheres to the Last-In, First-Out (LIFO) principle for element access?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A Queue, where elements are processed strictly in a First-In, First-Out (FIFO) order of arrival.",
+          "is_correct": false,
+          "rationale": "Queues operate on a FIFO principle."
+        },
+        {
+          "key": "B",
+          "text": "A Stack, where the last element added to the structure is the first one removed (LIFO).",
+          "is_correct": true,
+          "rationale": "Stacks are based on the LIFO principle."
+        },
+        {
+          "key": "C",
+          "text": "A Linked List, which is a linear collection of data elements connected via pointers to the next element.",
+          "is_correct": false,
+          "rationale": "Linked lists do not inherently enforce LIFO."
+        },
+        {
+          "key": "D",
+          "text": "A Heap, which is a tree-based data structure that satisfies the heap property for parent-child relationships.",
+          "is_correct": false,
+          "rationale": "Heaps have priority-based ordering rules."
+        },
+        {
+          "key": "E",
+          "text": "A Graph, which consists of nodes connected by edges, representing complex relationships between data elements.",
+          "is_correct": false,
+          "rationale": "Graphs represent relationships, not LIFO."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is the primary purpose of an API (Application Programming Interface) in software development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To directly manage hardware resources and device drivers within the operating system kernel.",
+          "is_correct": false,
+          "rationale": "APIs do not directly manage hardware."
+        },
+        {
+          "key": "B",
+          "text": "To define a set of rules and specifications that software programs can follow to communicate with each other.",
+          "is_correct": true,
+          "rationale": "APIs define communication rules and standards."
+        },
+        {
+          "key": "C",
+          "text": "To create graphical user interfaces (GUIs) for desktop and mobile applications, enhancing user interaction.",
+          "is_correct": false,
+          "rationale": "APIs do not create graphical user interfaces."
+        },
+        {
+          "key": "D",
+          "text": "To encrypt and decrypt sensitive data to ensure secure communication over a network connection.",
+          "is_correct": false,
+          "rationale": "Encryption is a separate security concern."
+        },
+        {
+          "key": "E",
+          "text": "To provide a low-level interface for directly interacting with the file system and managing files.",
+          "is_correct": false,
+          "rationale": "APIs are higher-level than file system interaction."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What does the term 'scalability' generally refer to within the context of backend development and system design?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The ability of a system to gracefully handle an increasing amount of workload or user traffic.",
+          "is_correct": true,
+          "rationale": "Scalability is about handling increased load effectively."
+        },
+        {
+          "key": "B",
+          "text": "The process of securing a system against unauthorized access and potential cyber threats and vulnerabilities.",
+          "is_correct": false,
+          "rationale": "This definition refers to system security measures."
+        },
+        {
+          "key": "C",
+          "text": "The practice of optimizing code for improved readability and maintainability by software developers.",
+          "is_correct": false,
+          "rationale": "This definition refers to code quality and maintainability."
+        },
+        {
+          "key": "D",
+          "text": "The design of user interfaces and user experiences for web and mobile applications, focusing on usability.",
+          "is_correct": false,
+          "rationale": "This definition refers to UI/UX design principles."
+        },
+        {
+          "key": "E",
+          "text": "The systematic testing of software to identify and fix bugs before deployment to a production environment.",
+          "is_correct": false,
+          "rationale": "This definition refers to software testing practices."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What is the primary purpose of using version control systems, such as Git, in software development projects?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To effectively manage and track changes to source code over time, enabling seamless collaboration among developers.",
+          "is_correct": true,
+          "rationale": "Version control tracks code changes and facilitates collaboration."
+        },
+        {
+          "key": "B",
+          "text": "To automatically deploy applications to production servers without any manual intervention, streamlining the deployment process.",
+          "is_correct": false,
+          "rationale": "This describes the purpose of CI/CD pipelines."
+        },
+        {
+          "key": "C",
+          "text": "To design and create user interfaces for web and mobile applications, focusing on user experience and accessibility.",
+          "is_correct": false,
+          "rationale": "This describes UI/UX design processes."
+        },
+        {
+          "key": "D",
+          "text": "To manage and configure network infrastructure and server settings, ensuring optimal performance and security.",
+          "is_correct": false,
+          "rationale": "This describes network administration tasks."
+        },
+        {
+          "key": "E",
+          "text": "To rigorously test software for bugs and vulnerabilities before it is released to end-users, ensuring quality.",
+          "is_correct": false,
+          "rationale": "This describes software testing procedures."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Which of the following database systems is typically categorized as a NoSQL database, differing from traditional relational databases?",
+      "options": [
+        {
+          "key": "A",
+          "text": "MySQL, which is a widely used relational database management system based on SQL for data management.",
+          "is_correct": false,
+          "rationale": "MySQL is a relational database system."
+        },
+        {
+          "key": "B",
+          "text": "PostgreSQL, an object-relational database system emphasizing standards compliance and extensibility features.",
+          "is_correct": false,
+          "rationale": "PostgreSQL is a relational database system."
+        },
+        {
+          "key": "C",
+          "text": "MongoDB, a document-oriented database that stores data in flexible, JSON-like documents for scalability.",
+          "is_correct": true,
+          "rationale": "MongoDB is a popular NoSQL database system."
+        },
+        {
+          "key": "D",
+          "text": "Oracle, a multi-model database management system produced by Oracle Corporation for enterprise applications.",
+          "is_correct": false,
+          "rationale": "Oracle is a relational database system."
+        },
+        {
+          "key": "E",
+          "text": "MS SQL Server, a relational database management system developed by Microsoft for various applications.",
+          "is_correct": false,
+          "rationale": "MS SQL Server is a relational database system."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What is the primary purpose of implementing caching mechanisms within backend systems and architectures?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To permanently store data for long-term archival purposes and compliance requirements, ensuring data retention.",
+          "is_correct": false,
+          "rationale": "Caching is designed for temporary data storage."
+        },
+        {
+          "key": "B",
+          "text": "To temporarily store frequently accessed data to significantly improve response times and reduce latency for users.",
+          "is_correct": true,
+          "rationale": "Caching improves response times by storing data."
+        },
+        {
+          "key": "C",
+          "text": "To encrypt sensitive data to protect it from unauthorized access and potential cyber threats, ensuring data security.",
+          "is_correct": false,
+          "rationale": "Caching is not directly related to data security."
+        },
+        {
+          "key": "D",
+          "text": "To manage and configure network infrastructure and server settings, optimizing network performance and reliability.",
+          "is_correct": false,
+          "rationale": "Caching is not used for network management."
+        },
+        {
+          "key": "E",
+          "text": "To provide real-time data analytics and business intelligence dashboards for monitoring key performance indicators.",
+          "is_correct": false,
+          "rationale": "Caching is not used for data analytics purposes."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is the typical role of middleware components within a backend architecture and software ecosystem?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To directly interact with hardware components and device drivers, managing low-level system operations.",
+          "is_correct": false,
+          "rationale": "Middleware does not directly interact with hardware."
+        },
+        {
+          "key": "B",
+          "text": "To provide essential services and functionalities that facilitate communication and data management between applications.",
+          "is_correct": true,
+          "rationale": "Middleware facilitates communication and data handling."
+        },
+        {
+          "key": "C",
+          "text": "To handle client-side scripting and dynamic content rendering directly within web browsers for enhanced interactivity.",
+          "is_correct": false,
+          "rationale": "Middleware does not handle client-side scripting."
+        },
+        {
+          "key": "D",
+          "text": "To define the structure and styling of web pages using HTML, CSS, and related web technologies for presentation.",
+          "is_correct": false,
+          "rationale": "Middleware is not used for styling web pages."
+        },
+        {
+          "key": "E",
+          "text": "To manage network routing and ensure secure data transmission protocols across different network segments.",
+          "is_correct": false,
+          "rationale": "Middleware does not handle network routing directly."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What is the primary purpose of utilizing environment variables within backend applications and deployment configurations?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To securely store sensitive information and configuration settings separately from the application's source code repository.",
+          "is_correct": true,
+          "rationale": "Environment variables store configuration details securely."
+        },
+        {
+          "key": "B",
+          "text": "To define the structure and styling of web pages using HTML and CSS, controlling the visual presentation of content.",
+          "is_correct": false,
+          "rationale": "Environment variables are not used for styling."
+        },
+        {
+          "key": "C",
+          "text": "To manage and configure network infrastructure and server settings, optimizing network performance and security.",
+          "is_correct": false,
+          "rationale": "Environment variables are not for network management."
+        },
+        {
+          "key": "D",
+          "text": "To provide real-time data analytics and business intelligence dashboards for monitoring key performance indicators.",
+          "is_correct": false,
+          "rationale": "Environment variables are not used for analytics."
+        },
+        {
+          "key": "E",
+          "text": "To handle client-side scripting and dynamic content rendering directly within web browsers for enhanced interactivity.",
+          "is_correct": false,
+          "rationale": "Environment variables are not for client-side scripting."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the fundamental purpose of employing an ORM (Object-Relational Mapper) in backend development projects?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage network routing and ensure secure data transmission protocols across different network segments effectively.",
+          "is_correct": false,
+          "rationale": "ORM is not related to network routing."
+        },
+        {
+          "key": "B",
+          "text": "To provide a convenient way to interact with databases using object-oriented programming paradigms and principles.",
+          "is_correct": true,
+          "rationale": "ORM maps objects to database records seamlessly."
+        },
+        {
+          "key": "C",
+          "text": "To handle client-side scripting and dynamic content rendering directly within web browsers for enhanced user experience.",
+          "is_correct": false,
+          "rationale": "ORM is not used for client-side scripting."
+        },
+        {
+          "key": "D",
+          "text": "To define the structure and styling of web pages using HTML and CSS, controlling the visual presentation of content.",
+          "is_correct": false,
+          "rationale": "ORM is not used for styling web pages."
+        },
+        {
+          "key": "E",
+          "text": "To directly manage hardware resources and device drivers within the operating system kernel for low-level control.",
+          "is_correct": false,
+          "rationale": "ORM is not designed for hardware interaction."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "What is the precise meaning of the term 'stateless' when it is used in the context of APIs (Application Programming Interfaces)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The server does not store any client session information between requests, ensuring each request is independent.",
+          "is_correct": true,
+          "rationale": "Stateless means no session data is stored on the server."
+        },
+        {
+          "key": "B",
+          "text": "The API is specifically designed to handle only a single type of request at any given time, limiting its functionality.",
+          "is_correct": false,
+          "rationale": "Statelessness does not limit the types of requests."
+        },
+        {
+          "key": "C",
+          "text": "The API does not require any form of authentication or authorization for access, making it completely open to the public.",
+          "is_correct": false,
+          "rationale": "Statelessness does not imply no authentication is required."
+        },
+        {
+          "key": "D",
+          "text": "The API is currently unable to process requests due to a server-side error or temporary unavailability.",
+          "is_correct": false,
+          "rationale": "This indicates a server-side error condition."
+        },
+        {
+          "key": "E",
+          "text": "The API utilizes a complex state machine to carefully manage interactions and track the state of each client session.",
+          "is_correct": false,
+          "rationale": "This is the opposite of being stateless in design."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Which of the following options represents a commonly used data serialization format in modern software development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "HTML, which is a markup language used for creating web pages with structured content and elements.",
+          "is_correct": false,
+          "rationale": "HTML is a markup language for web pages."
+        },
+        {
+          "key": "B",
+          "text": "CSS, which is a stylesheet language used for describing the presentation of a document, including colors and layout.",
+          "is_correct": false,
+          "rationale": "CSS is a stylesheet language for styling."
+        },
+        {
+          "key": "C",
+          "text": "JSON, which is a lightweight format for data interchange that is easy for both humans and machines to read.",
+          "is_correct": true,
+          "rationale": "JSON is widely used for data serialization."
+        },
+        {
+          "key": "D",
+          "text": "SQL, which is a domain-specific language used in programming and designed for managing data in relational databases.",
+          "is_correct": false,
+          "rationale": "SQL is a database query language."
+        },
+        {
+          "key": "E",
+          "text": "XML, a markup language that defines a set of rules for encoding documents in a format that is both human-readable.",
+          "is_correct": false,
+          "rationale": "XML is a data serialization format, but less common than JSON."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What is the primary purpose of a load balancer component within a backend system architecture and infrastructure?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To efficiently distribute incoming network traffic across multiple servers to prevent any single server from being overloaded.",
+          "is_correct": true,
+          "rationale": "Load balancers distribute traffic effectively."
+        },
+        {
+          "key": "B",
+          "text": "To encrypt sensitive data to protect it from unauthorized access and potential cyber threats, ensuring data security.",
+          "is_correct": false,
+          "rationale": "Encryption is a separate security concern."
+        },
+        {
+          "key": "C",
+          "text": "To manage and configure network infrastructure and server settings, optimizing network performance and reliability.",
+          "is_correct": false,
+          "rationale": "Network management is a broader set of tasks."
+        },
+        {
+          "key": "D",
+          "text": "To provide real-time data analytics and business intelligence dashboards for monitoring key performance indicators.",
+          "is_correct": false,
+          "rationale": "Analytics are not the primary purpose of a load balancer."
+        },
+        {
+          "key": "E",
+          "text": "To handle client-side scripting and dynamic content rendering directly within web browsers for enhanced interactivity.",
+          "is_correct": false,
+          "rationale": "Load balancing is a server-side infrastructure concern."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What does the widely recognized acronym 'CRUD' stand for in the context of database operations and management?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create, Read, Update, and Delete, representing the four fundamental operations performed on data in databases.",
+          "is_correct": true,
+          "rationale": "CRUD defines the basic database operations accurately."
+        },
+        {
+          "key": "B",
+          "text": "Compute, Render, Upload, and Download, representing common actions performed in web applications for data handling.",
+          "is_correct": false,
+          "rationale": "These actions relate to data transfer, not database operations."
+        },
+        {
+          "key": "C",
+          "text": "Connect, Request, Update, and Deploy, representing key steps related to network communication and deployment processes.",
+          "is_correct": false,
+          "rationale": "These steps relate to network and deployment activities."
+        },
+        {
+          "key": "D",
+          "text": "Compile, Run, Upload, and Debug, representing typical steps in the software development lifecycle for applications.",
+          "is_correct": false,
+          "rationale": "These steps are part of software development processes."
+        },
+        {
+          "key": "E",
+          "text": "Cache, Retrieve, Update, and Purge, representing actions related to data caching mechanisms and management.",
+          "is_correct": false,
+          "rationale": "These actions are related to data caching strategies."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What is the primary role of message queues within backend systems and distributed architectures for application development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage and configure network infrastructure and server settings, optimizing network performance and security.",
+          "is_correct": false,
+          "rationale": "Message queues are not used for network management."
+        },
+        {
+          "key": "B",
+          "text": "To enable asynchronous communication between different components or services, decoupling them for increased resilience.",
+          "is_correct": true,
+          "rationale": "Message queues facilitate asynchronous communication effectively."
+        },
+        {
+          "key": "C",
+          "text": "To define the structure and styling of web pages using HTML and CSS, controlling the visual presentation of content.",
+          "is_correct": false,
+          "rationale": "Message queues are not used for styling web pages."
+        },
+        {
+          "key": "D",
+          "text": "To directly interact with hardware components and device drivers, managing low-level system operations and resources.",
+          "is_correct": false,
+          "rationale": "Message queues are not used for hardware interaction."
+        },
+        {
+          "key": "E",
+          "text": "To provide real-time data analytics and business intelligence dashboards for monitoring key performance indicators.",
+          "is_correct": false,
+          "rationale": "Message queues are not used for data analytics."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What is a common and practical use case for utilizing WebSockets technology in modern web application development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Enabling real-time, bidirectional communication between a client and a server, facilitating interactive applications.",
+          "is_correct": true,
+          "rationale": "WebSockets enable real-time communication efficiently."
+        },
+        {
+          "key": "B",
+          "text": "Storing and managing large volumes of unstructured data in a distributed manner across multiple storage nodes.",
+          "is_correct": false,
+          "rationale": "This is a typical use case for NoSQL databases."
+        },
+        {
+          "key": "C",
+          "text": "Defining the structure and styling of web pages using HTML and CSS for controlling the visual presentation of content.",
+          "is_correct": false,
+          "rationale": "HTML and CSS are used for styling web pages."
+        },
+        {
+          "key": "D",
+          "text": "Managing and tracking changes to source code over time, enabling collaboration among developers on projects.",
+          "is_correct": false,
+          "rationale": "This is a typical use case for version control systems."
+        },
+        {
+          "key": "E",
+          "text": "Managing and configuring network infrastructure and server settings, optimizing network performance and security.",
+          "is_correct": false,
+          "rationale": "This is a task for network administrators."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is the primary purpose of implementing input validation techniques in backend development and API design?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To significantly improve the performance and scalability of the backend system under heavy load and high traffic.",
+          "is_correct": false,
+          "rationale": "Validation is not directly related to system performance."
+        },
+        {
+          "key": "B",
+          "text": "To ensure that the data received from clients is in the expected format and within the acceptable range of values.",
+          "is_correct": true,
+          "rationale": "Input validation ensures data quality and correctness."
+        },
+        {
+          "key": "C",
+          "text": "To manage and configure network infrastructure and server settings, optimizing network performance and security.",
+          "is_correct": false,
+          "rationale": "Validation is not used for network management tasks."
+        },
+        {
+          "key": "D",
+          "text": "To provide real-time data analytics and business intelligence dashboards for monitoring key performance indicators.",
+          "is_correct": false,
+          "rationale": "Validation is not used for data analytics purposes."
+        },
+        {
+          "key": "E",
+          "text": "To handle client-side scripting and dynamic content rendering directly within web browsers for enhanced interactivity.",
+          "is_correct": false,
+          "rationale": "Validation is not used for client-side scripting."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is the primary purpose of using Docker technology in backend development and deployment workflows?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To define the structure and styling of web pages using HTML and CSS, controlling the visual presentation of content.",
+          "is_correct": false,
+          "rationale": "Docker is not used for styling web pages."
+        },
+        {
+          "key": "B",
+          "text": "To manage and configure network infrastructure and server settings, optimizing network performance and security.",
+          "is_correct": false,
+          "rationale": "Docker is not used for network management directly."
+        },
+        {
+          "key": "C",
+          "text": "To containerize applications and their dependencies, ensuring consistency across different environments and systems.",
+          "is_correct": true,
+          "rationale": "Docker containerizes applications and their dependencies."
+        },
+        {
+          "key": "D",
+          "text": "To provide real-time data analytics and business intelligence dashboards for monitoring key performance indicators.",
+          "is_correct": false,
+          "rationale": "Docker is not used for data analytics purposes."
+        },
+        {
+          "key": "E",
+          "text": "To handle client-side scripting and dynamic content rendering directly within web browsers for enhanced interactivity.",
+          "is_correct": false,
+          "rationale": "Docker is not used for client-side scripting."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What is the primary reason for using HTTPS instead of HTTP for communication between a client and a server?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To significantly improve the performance and scalability of the backend system under heavy load and high traffic.",
+          "is_correct": false,
+          "rationale": "HTTPS has a negligible impact on performance in most cases."
+        },
+        {
+          "key": "B",
+          "text": "To encrypt the communication between the client and the server, ensuring data confidentiality and security from eavesdropping.",
+          "is_correct": true,
+          "rationale": "HTTPS encrypts communication for enhanced security."
+        },
+        {
+          "key": "C",
+          "text": "To manage and configure network infrastructure and server settings, optimizing network performance and reliability.",
+          "is_correct": false,
+          "rationale": "HTTPS is not used for network management tasks."
+        },
+        {
+          "key": "D",
+          "text": "To provide real-time data analytics and business intelligence dashboards for monitoring key performance indicators.",
+          "is_correct": false,
+          "rationale": "HTTPS is not used for data analytics purposes."
+        },
+        {
+          "key": "E",
+          "text": "To handle client-side scripting and dynamic content rendering directly within web browsers for enhanced interactivity.",
+          "is_correct": false,
+          "rationale": "HTTPS is not used for client-side scripting."
+        }
+      ]
+    }
+  ]
+}

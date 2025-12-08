@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 101,
+      "question": "When designing a causal inference study to measure ad campaign lift, which method best controls for unobserved time-invariant confounders between groups?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Propensity score matching on pre-campaign user attributes to balance the treatment and control groups.",
+          "is_correct": false,
+          "rationale": "Propensity score matching only accounts for observed confounders, not unobserved ones."
+        },
+        {
+          "key": "B",
+          "text": "A simple t-test comparing the post-campaign conversion rates of the exposed and unexposed user groups.",
+          "is_correct": false,
+          "rationale": "A simple t-test does not control for any confounding variables, leading to biased estimates."
+        },
+        {
+          "key": "C",
+          "text": "Using an instrumental variable that is correlated with ad exposure but not the outcome directly.",
+          "is_correct": false,
+          "rationale": "Instrumental variables are used for unobserved confounders, but not specifically time-invariant ones in this context."
+        },
+        {
+          "key": "D",
+          "text": "Implementing a Difference-in-Differences (DiD) estimator using pre- and post-campaign data for both groups.",
+          "is_correct": true,
+          "rationale": "DiD is specifically designed to control for unobserved time-invariant confounders by comparing trend differences."
+        },
+        {
+          "key": "E",
+          "text": "Applying a regression model with user demographics as covariates to predict the final conversion outcome.",
+          "is_correct": false,
+          "rationale": "Standard regression only controls for observed covariates included in the model, not unobserved ones."
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "question": "In a real-time bidding system, what is the primary advantage of using a multi-armed bandit algorithm over a traditional A/B testing framework?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It guarantees finding the absolute best performing ad creative among all available options.",
+          "is_correct": false,
+          "rationale": "Bandits do not guarantee finding the absolute best arm, but they converge towards it."
+        },
+        {
+          "key": "B",
+          "text": "It minimizes regret by dynamically allocating more traffic to better-performing variations during the test.",
+          "is_correct": true,
+          "rationale": "The core principle of bandits is to balance exploration and exploitation to minimize cumulative regret."
+        },
+        {
+          "key": "C",
+          "text": "It provides a more statistically robust estimate of the true conversion rate for each variation.",
+          "is_correct": false,
+          "rationale": "A/B tests with fixed horizons often yield more precise final estimates for each variation."
+        },
+        {
+          "key": "D",
+          "text": "It simplifies the experimental setup by removing the need for a randomized control group.",
+          "is_correct": false,
+          "rationale": "Bandits still rely on randomization; they just adjust the allocation probabilities over time."
+        },
+        {
+          "key": "E",
+          "text": "It is less computationally expensive as it does not require continuous model retraining or updates.",
+          "is_correct": false,
+          "rationale": "Bandit algorithms require frequent, low-latency updates to their value estimates, which can be computationally intensive."
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "question": "When fine-tuning a large pre-trained transformer model on a small, domain-specific dataset, which technique is most effective for preventing catastrophic forgetting?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using a very high learning rate to quickly adapt the model to the new data distribution.",
+          "is_correct": false,
+          "rationale": "A high learning rate would likely overwrite pre-trained weights, accelerating catastrophic forgetting."
+        },
+        {
+          "key": "B",
+          "text": "Implementing dropout on all layers of the transformer model to increase its overall generalization.",
+          "is_correct": false,
+          "rationale": "While dropout aids generalization, it does not specifically prevent the overwriting of pre-trained knowledge."
+        },
+        {
+          "key": "C",
+          "text": "Applying gradual unfreezing, where layers are sequentially unfrozen and trained with a differential learning rate.",
+          "is_correct": true,
+          "rationale": "Gradual unfreezing and differential learning rates preserve early layer knowledge while adapting later layers."
+        },
+        {
+          "key": "D",
+          "text": "Increasing the batch size significantly to get more stable gradient estimates during the fine-tuning process.",
+          "is_correct": false,
+          "rationale": "A large batch size can help training stability but doesn't directly address catastrophic forgetting."
+        },
+        {
+          "key": "E",
+          "text": "Removing the residual connections within the transformer blocks to simplify the model architecture.",
+          "is_correct": false,
+          "rationale": "Removing residual connections would severely degrade the model's performance and training stability."
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "question": "You need to build a fraud detection model where false negatives are 10 times more costly than false positives. Which metric should you prioritize for optimization?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Accuracy, because it provides a holistic view of the model's overall correctness on all classes.",
+          "is_correct": false,
+          "rationale": "Accuracy is misleading in imbalanced datasets and does not account for asymmetric costs."
+        },
+        {
+          "key": "B",
+          "text": "F1-Score, as it represents the harmonic mean of precision and recall, balancing both error types.",
+          "is_correct": false,
+          "rationale": "F1-score weights precision and recall equally, which is not suitable for this cost scenario."
+        },
+        {
+          "key": "C",
+          "text": "Area Under the Precision-Recall Curve (AUPRC), as it is robust to class imbalance.",
+          "is_correct": false,
+          "rationale": "AUPRC is a good summary metric but doesn't allow for explicit cost-based threshold optimization."
+        },
+        {
+          "key": "D",
+          "text": "Recall (True Positive Rate), because it directly measures the model's ability to identify all actual fraud cases.",
+          "is_correct": true,
+          "rationale": "Prioritizing recall minimizes false negatives (missed fraud), which is the most costly error here."
+        },
+        {
+          "key": "E",
+          "text": "Specificity (True Negative Rate), to ensure that the model does not incorrectly flag legitimate transactions.",
+          "is_correct": false,
+          "rationale": "Specificity focuses on minimizing false positives, which is the less costly error in this scenario."
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "question": "When deploying a deep learning model to edge devices with limited memory, which technique offers the best trade-off for model compression and accuracy retention?",
+      "options": [
+        {
+          "key": "A",
+          "text": "L1 regularization during training to encourage sparsity in the model's weight matrices.",
+          "is_correct": false,
+          "rationale": "L1 regularization induces sparsity but is generally less effective for compression than quantization or pruning."
+        },
+        {
+          "key": "B",
+          "text": "Data augmentation to create a more robust model that generalizes better to unseen data.",
+          "is_correct": false,
+          "rationale": "Data augmentation improves model robustness but does not reduce the model's size or memory footprint."
+        },
+        {
+          "key": "C",
+          "text": "Post-training quantization, which converts 32-bit floating-point weights to lower-precision integers like INT8.",
+          "is_correct": true,
+          "rationale": "Quantization significantly reduces model size and can improve latency with minimal accuracy loss."
+        },
+        {
+          "key": "D",
+          "text": "Using a larger batch size during inference to process more data points simultaneously.",
+          "is_correct": false,
+          "rationale": "A larger batch size increases memory usage during inference, which is counterproductive for edge devices."
+        },
+        {
+          "key": "E",
+          "text": "Switching to a more complex optimizer like AdamW for better convergence during the training phase.",
+          "is_correct": false,
+          "rationale": "The choice of optimizer affects training dynamics, not the final size of the deployed model."
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "question": "In a system monitoring for data drift, what is the primary limitation of using the Kolmogorov-Smirnov test on high-dimensional feature spaces?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The test is computationally too expensive to run on more than a few features at a time.",
+          "is_correct": false,
+          "rationale": "The K-S test is computationally efficient, but its statistical power diminishes in high dimensions."
+        },
+        {
+          "key": "B",
+          "text": "It is highly sensitive to the curse of dimensionality, losing statistical power and becoming unreliable.",
+          "is_correct": true,
+          "rationale": "The K-S test's effectiveness degrades significantly as the number of dimensions increases."
+        },
+        {
+          "key": "C",
+          "text": "The test can only be applied to categorical features, not continuous numerical features.",
+          "is_correct": false,
+          "rationale": "The K-S test is specifically designed for continuous distributions, not categorical ones."
+        },
+        {
+          "key": "D",
+          "text": "It requires the underlying data distributions to be perfectly Gaussian for accurate results.",
+          "is_correct": false,
+          "rationale": "The K-S test is non-parametric and does not assume any specific underlying data distribution."
+        },
+        {
+          "key": "E",
+          "text": "It can only detect changes in the mean of a distribution, not changes in variance or shape.",
+          "is_correct": false,
+          "rationale": "The K-S test is sensitive to any difference in the cumulative distribution functions, including shape and variance."
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "question": "When interpreting a SHAP force plot for a single prediction, what does the 'base value' represent in the context of the model?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The minimum possible prediction value that the machine learning model can output.",
+          "is_correct": false,
+          "rationale": "The base value is an average, not an absolute minimum or maximum possible output."
+        },
+        {
+          "key": "B",
+          "text": "The model's prediction for the given instance before applying the final activation function.",
+          "is_correct": false,
+          "rationale": "The base value is unrelated to the pre-activation output for a specific instance."
+        },
+        {
+          "key": "C",
+          "text": "The average model output over the entire training dataset, used as a starting point for explanation.",
+          "is_correct": true,
+          "rationale": "The base value is the mean prediction, representing the model's output without any feature information."
+        },
+        {
+          "key": "D",
+          "text": "A value of zero, representing a neutral starting point before adding feature contributions.",
+          "is_correct": false,
+          "rationale": "The base value is the dataset's average prediction, which is rarely zero in practice."
+        },
+        {
+          "key": "E",
+          "text": "The prediction that would be made if all input feature values for the instance were zero.",
+          "is_correct": false,
+          "rationale": "It's the average prediction over the dataset, not the prediction for an all-zero input vector."
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "question": "You are building a recommender system for a new product with no user interaction data. Which modeling approach is most suitable for this cold-start problem?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Matrix factorization techniques like SVD to decompose the user-item interaction matrix.",
+          "is_correct": false,
+          "rationale": "Matrix factorization relies on existing user-item interactions, which are absent for new items."
+        },
+        {
+          "key": "B",
+          "text": "A user-based collaborative filtering model that finds similar users based on their past ratings.",
+          "is_correct": false,
+          "rationale": "This requires interaction data for the new item to find users who have rated it."
+        },
+        {
+          "key": "C",
+          "text": "A content-based filtering model that uses item metadata and features to determine similarity.",
+          "is_correct": true,
+          "rationale": "Content-based models use item attributes (e.g., genre, price), making them ideal for new items."
+        },
+        {
+          "key": "D",
+          "text": "A deep learning model using recurrent neural networks to model sequences of user clicks.",
+          "is_correct": false,
+          "rationale": "Sequential models also require historical interaction data, which is unavailable for new items."
+        },
+        {
+          "key": "E",
+          "text": "An item-based collaborative filtering model that finds similar items based on co-ratings.",
+          "is_correct": false,
+          "rationale": "This requires the new item to have been co-rated with other items by users."
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "question": "What is the primary motivation for using a GARCH model instead of an ARIMA model for financial time series forecasting?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To better capture long-term seasonal patterns and trends present in the financial data.",
+          "is_correct": false,
+          "rationale": "ARIMA, especially its seasonal variant (SARIMA), is better suited for capturing seasonality and trends."
+        },
+        {
+          "key": "B",
+          "text": "To model and forecast the conditional volatility and variance clustering often seen in financial returns.",
+          "is_correct": true,
+          "rationale": "GARCH models are specifically designed to handle heteroskedasticity and volatility clustering in time series."
+        },
+        {
+          "key": "C",
+          "text": "To simplify the model by reducing the number of parameters that need to be estimated.",
+          "is_correct": false,
+          "rationale": "GARCH models introduce additional parameters for the variance equation, often increasing model complexity."
+        },
+        {
+          "key": "D",
+          "text": "To handle multivariate time series data with multiple interacting financial instruments simultaneously.",
+          "is_correct": false,
+          "rationale": "Vector Autoregression (VAR) models are the standard choice for modeling multivariate time series."
+        },
+        {
+          "key": "E",
+          "text": "To ensure the time series is stationary before any modeling attempts are made.",
+          "is_correct": false,
+          "rationale": "Both ARIMA and GARCH models typically require the underlying time series to be stationary."
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "question": "In the context of deep learning, what is the fundamental purpose of using residual connections as introduced in ResNet architectures?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To reduce the number of trainable parameters in the network, making it more memory efficient.",
+          "is_correct": false,
+          "rationale": "Residual connections do not inherently reduce the parameter count of the layers they bypass."
+        },
+        {
+          "key": "B",
+          "text": "To enable the training of much deeper neural networks by mitigating the vanishing gradient problem.",
+          "is_correct": true,
+          "rationale": "The shortcut connections provide an alternative path for gradients to flow, combating the vanishing gradient issue."
+        },
+        {
+          "key": "C",
+          "text": "To introduce non-linearity into the model, allowing it to learn more complex data patterns.",
+          "is_correct": false,
+          "rationale": "Non-linearity is introduced by activation functions (like ReLU), not the residual connections themselves."
+        },
+        {
+          "key": "D",
+          "text": "To enforce weight sharing across different layers, similar to how convolutional filters operate.",
+          "is_correct": false,
+          "rationale": "Residual connections are about identity mappings and gradient flow, not weight sharing between layers."
+        },
+        {
+          "key": "E",
+          "text": "To automatically perform feature selection by pruning less important connections during the training process.",
+          "is_correct": false,
+          "rationale": "This describes network pruning, a separate technique unrelated to the function of residual connections."
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "question": "When evaluating a classification model, what is the main advantage of using Area Under the ROC Curve (AUC) over simple accuracy?",
+      "options": [
+        {
+          "key": "A",
+          "text": "AUC is much faster to compute, making it more suitable for large-scale model evaluation pipelines.",
+          "is_correct": false,
+          "rationale": "AUC computation can be more intensive than accuracy as it requires evaluating multiple thresholds."
+        },
+        {
+          "key": "B",
+          "text": "It provides a single scalar value that is independent of the chosen classification probability threshold.",
+          "is_correct": true,
+          "rationale": "AUC measures the model's ability to discriminate between classes across all possible thresholds."
+        },
+        {
+          "key": "C",
+          "text": "AUC directly incorporates the business cost of false positives and false negatives into its calculation.",
+          "is_correct": false,
+          "rationale": "AUC does not inherently account for asymmetric costs; cost curves are used for that purpose."
+        },
+        {
+          "key": "D",
+          "text": "It is only applicable to binary classification problems, making its interpretation simpler than accuracy.",
+          "is_correct": false,
+          "rationale": "While originally for binary cases, AUC can be extended to multi-class problems (e.g., one-vs-rest)."
+        },
+        {
+          "key": "E",
+          "text": "It is more interpretable for non-technical stakeholders because it is expressed as a simple percentage.",
+          "is_correct": false,
+          "rationale": "Accuracy is generally considered more intuitive and easier for non-technical audiences to understand."
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "question": "Why is cross-validation a more robust method for estimating a model's generalization performance than a single train-test split?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It significantly reduces the computational time required to train and evaluate the final model.",
+          "is_correct": false,
+          "rationale": "Cross-validation is computationally more expensive as it requires training the model multiple times."
+        },
+        {
+          "key": "B",
+          "text": "It eliminates the need for a separate, held-out test set for final model validation.",
+          "is_correct": false,
+          "rationale": "A final hold-out test set is still recommended to get an unbiased estimate of performance."
+        },
+        {
+          "key": "C",
+          "text": "It reduces the variance of the performance estimate by averaging over multiple different data partitions.",
+          "is_correct": true,
+          "rationale": "By using different splits, it provides a more stable and less biased estimate of model performance."
+        },
+        {
+          "key": "D",
+          "text": "It automatically tunes the model's hyperparameters to their optimal values without requiring a grid search.",
+          "is_correct": false,
+          "rationale": "Cross-validation is the framework used within a grid search to evaluate hyperparameter combinations."
+        },
+        {
+          "key": "E",
+          "text": "It ensures that the training data distribution perfectly matches the production data distribution.",
+          "is_correct": false,
+          "rationale": "Cross-validation cannot guarantee a match with future production data, which may exhibit drift."
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "question": "What is the primary purpose of using an attention mechanism in a sequence-to-sequence model, such as in machine translation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To decrease the model's overall parameter count, allowing for faster training on smaller GPUs.",
+          "is_correct": false,
+          "rationale": "Attention mechanisms add parameters and computational complexity to the model, they do not reduce them."
+        },
+        {
+          "key": "B",
+          "text": "To allow the model to dynamically focus on relevant parts of the input sequence when generating output.",
+          "is_correct": true,
+          "rationale": "Attention helps the decoder focus on specific input tokens that are most relevant for the current output step."
+        },
+        {
+          "key": "C",
+          "text": "To enforce a strict one-to-one mapping between the input tokens and the output tokens.",
+          "is_correct": false,
+          "rationale": "Attention allows for flexible, many-to-one or one-to-many relationships between input and output tokens."
+        },
+        {
+          "key": "D",
+          "text": "To replace the need for recurrent neural networks (RNNs) with a purely feed-forward architecture.",
+          "is_correct": false,
+          "rationale": "While self-attention can replace RNNs (as in Transformers), its original purpose was to enhance RNN-based models."
+        },
+        {
+          "key": "E",
+          "text": "To regularize the model by randomly dropping out connections between the encoder and the decoder.",
+          "is_correct": false,
+          "rationale": "This describes dropout, a different regularization technique. Attention is a focused weighting mechanism."
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "question": "When using a tree-based model like XGBoost, how does it inherently handle missing values in the input features during training?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically imputes all missing values with the mean or median of the respective feature column.",
+          "is_correct": false,
+          "rationale": "XGBoost does not perform a separate imputation step; it handles missing values during tree construction."
+        },
+        {
+          "key": "B",
+          "text": "It treats missing values as a separate category and learns the best direction to send them at each split.",
+          "is_correct": true,
+          "rationale": "During split finding, XGBoost evaluates sending nulls to the left or right child and chooses the path that maximizes gain."
+        },
+        {
+          "key": "C",
+          "text": "It requires the user to manually impute all missing data before passing it to the model for training.",
+          "is_correct": false,
+          "rationale": "Unlike many other models, XGBoost has a built-in, sophisticated mechanism for handling missing values."
+        },
+        {
+          "key": "D",
+          "text": "It simply ignores any rows that contain missing values, effectively reducing the size of the training dataset.",
+          "is_correct": false,
+          "rationale": "XGBoost does not discard rows with missing data; it learns how to use their absence as information."
+        },
+        {
+          "key": "E",
+          "text": "It replaces missing values with a globally constant placeholder like zero or negative one.",
+          "is_correct": false,
+          "rationale": "It learns the optimal path for nulls rather than using a fixed replacement value."
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "question": "You observe that your model's performance on the validation set is significantly higher than on the training set. What is the most likely cause?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The model is severely overfitting to the specific patterns present in the training data.",
+          "is_correct": false,
+          "rationale": "Overfitting would result in high training performance and low validation performance, the opposite of this scenario."
+        },
+        {
+          "key": "B",
+          "text": "There is a data leakage issue where information from the validation set is contaminating the training process.",
+          "is_correct": false,
+          "rationale": "Data leakage would typically inflate training performance, not cause validation performance to be higher."
+        },
+        {
+          "key": "C",
+          "text": "The validation set is significantly easier or has a different distribution than the training set.",
+          "is_correct": true,
+          "rationale": "This discrepancy suggests the validation data does not represent the same complexity or distribution as the training data."
+        },
+        {
+          "key": "D",
+          "text": "The model has not been trained for enough epochs and is currently underfitting the data.",
+          "is_correct": false,
+          "rationale": "Underfitting would result in poor performance on both the training and validation sets."
+        },
+        {
+          "key": "E",
+          "text": "The learning rate is too high, causing the model's weights to diverge during the training phase.",
+          "is_correct": false,
+          "rationale": "A diverging model would exhibit poor performance on both sets, with training loss likely increasing."
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "question": "In Bayesian A/B testing, what is the primary output used to determine the winning variant, instead of a p-value?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The chi-squared statistic, which compares the observed frequencies to the expected frequencies.",
+          "is_correct": false,
+          "rationale": "The chi-squared test is a frequentist method, not a Bayesian one."
+        },
+        {
+          "key": "B",
+          "text": "The posterior probability distribution of the conversion rates or their difference.",
+          "is_correct": true,
+          "rationale": "Bayesian methods yield a full posterior distribution, from which probabilities of superiority can be calculated."
+        },
+        {
+          "key": "C",
+          "text": "The confidence interval around the observed lift between the variant and the control group.",
+          "is_correct": false,
+          "rationale": "Confidence intervals are a concept from frequentist statistics; Bayesians use credible intervals."
+        },
+        {
+          "key": "D",
+          "text": "The z-score, which indicates how many standard deviations the result is from the null hypothesis.",
+          "is_correct": false,
+          "rationale": "The z-score is a cornerstone of frequentist hypothesis testing, not Bayesian analysis."
+        },
+        {
+          "key": "E",
+          "text": "The Akaike Information Criterion (AIC) to compare the relative quality of the two models.",
+          "is_correct": false,
+          "rationale": "AIC is a model selection criterion, not the primary output for comparing variants in a Bayesian test."
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "question": "What is the primary benefit of using word embeddings like Word2Vec or GloVe over one-hot encoding for representing text in NLP models?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They create a sparse representation of words, which is more memory-efficient for large vocabularies.",
+          "is_correct": false,
+          "rationale": "Word embeddings create dense representations; one-hot encoding creates sparse, high-dimensional vectors."
+        },
+        {
+          "key": "B",
+          "text": "They capture semantic relationships between words, allowing the model to understand context and similarity.",
+          "is_correct": true,
+          "rationale": "Embeddings place semantically similar words close to each other in the vector space."
+        },
+        {
+          "key": "C",
+          "text": "They are guaranteed to be orthogonal, which simplifies the mathematical operations within the model.",
+          "is_correct": false,
+          "rationale": "One-hot encoded vectors are orthogonal by definition; word embedding vectors are dense and not orthogonal."
+        },
+        {
+          "key": "D",
+          "text": "They provide a unique, fixed-length vector for every possible word in the English language.",
+          "is_correct": false,
+          "rationale": "Embeddings are learned from a specific corpus and are limited to the vocabulary of that corpus."
+        },
+        {
+          "key": "E",
+          "text": "They are context-independent, meaning a word has the same vector regardless of the surrounding sentence.",
+          "is_correct": false,
+          "rationale": "While true for Word2Vec/GloVe, this is a limitation, not a benefit, compared to contextual embeddings like BERT."
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "question": "When designing a feature store for a large-scale machine learning platform, what is its most critical function for ensuring model consistency?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide a user interface for data scientists to browse and discover new potential features.",
+          "is_correct": false,
+          "rationale": "While useful, feature discovery is a secondary benefit, not the most critical function for consistency."
+        },
+        {
+          "key": "B",
+          "text": "To automate the process of hyperparameter tuning for models that consume the features.",
+          "is_correct": false,
+          "rationale": "Hyperparameter tuning is part of the model training pipeline, not a function of the feature store."
+        },
+        {
+          "key": "C",
+          "text": "To guarantee that the same feature logic is used during both model training and real-time inference.",
+          "is_correct": true,
+          "rationale": "The feature store's primary role is to prevent train-serve skew by providing a single source of truth for features."
+        },
+        {
+          "key": "D",
+          "text": "To store the final predictions of all production models for later analysis and auditing.",
+          "is_correct": false,
+          "rationale": "Prediction logging is a separate MLOps component, distinct from the role of a feature store."
+        },
+        {
+          "key": "E",
+          "text": "To version control the source code of the machine learning models themselves.",
+          "is_correct": false,
+          "rationale": "Model code versioning is typically handled by source control systems like Git, not the feature store."
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "question": "What is the primary reason for applying dimensionality reduction techniques like PCA before feeding data into a k-means clustering algorithm?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure that all input features are on the same scale, which is a requirement for k-means.",
+          "is_correct": false,
+          "rationale": "Feature scaling (e.g., standardization) addresses this issue; PCA is for dimensionality reduction."
+        },
+        {
+          "key": "B",
+          "text": "To mitigate the curse of dimensionality, where distance metrics become less meaningful in high-dimensional spaces.",
+          "is_correct": true,
+          "rationale": "In high dimensions, distances between points become uniform, making clustering algorithms like k-means ineffective."
+        },
+        {
+          "key": "C",
+          "text": "To transform non-linearly separable data into a space where the clusters are linearly separable.",
+          "is_correct": false,
+          "rationale": "PCA is a linear technique; kernel PCA or other non-linear methods would be needed for this."
+        },
+        {
+          "key": "D",
+          "text": "To automatically determine the optimal number of clusters (k) for the k-means algorithm.",
+          "is_correct": false,
+          "rationale": "PCA does not determine the optimal k; methods like the elbow method or silhouette analysis are used for that."
+        },
+        {
+          "key": "E",
+          "text": "To convert categorical features into a numerical format that can be used by the k-means algorithm.",
+          "is_correct": false,
+          "rationale": "This is the role of encoding techniques like one-hot encoding, not dimensionality reduction."
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "question": "In reinforcement learning, what is the fundamental difference between a model-based and a model-free approach to solving a problem?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Model-based methods always converge to the optimal policy, whereas model-free methods may not.",
+          "is_correct": false,
+          "rationale": "Both types of methods have variants that can converge to optimal policies under certain conditions."
+        },
+        {
+          "key": "B",
+          "text": "Model-free methods are generally more sample-efficient, requiring fewer interactions with the environment.",
+          "is_correct": false,
+          "rationale": "Model-based methods are typically more sample-efficient because they can simulate experiences using the learned model."
+        },
+        {
+          "key": "C",
+          "text": "Model-based methods explicitly learn a model of the environment's dynamics, while model-free methods do not.",
+          "is_correct": true,
+          "rationale": "This is the core distinction: model-based methods learn a transition function P(s'|s,a) and reward function R(s,a)."
+        },
+        {
+          "key": "D",
+          "text": "Model-free methods, like Q-learning, can only handle discrete action spaces, unlike model-based methods.",
+          "is_correct": false,
+          "rationale": "There are model-free methods (e.g., DDPG, SAC) specifically designed for continuous action spaces."
+        },
+        {
+          "key": "E",
+          "text": "Model-based methods directly learn a policy function, while model-free methods learn a value function.",
+          "is_correct": false,
+          "rationale": "Both approaches can learn policies directly (policy optimization) or indirectly via value functions (value iteration)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "What is the primary function of a network switch in a local area network (LAN)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To forward data packets between network segments based on MAC addresses.",
+          "is_correct": true,
+          "rationale": "Switches use MAC addresses to forward data within a LAN."
+        },
+        {
+          "key": "B",
+          "text": "To provide wireless connectivity to devices within a limited range.",
+          "is_correct": false,
+          "rationale": "Wireless connectivity is a function of wireless access points."
+        },
+        {
+          "key": "C",
+          "text": "To route data packets between different networks using IP addresses.",
+          "is_correct": false,
+          "rationale": "Routing between networks is the function of a router."
+        },
+        {
+          "key": "D",
+          "text": "To translate domain names into IP addresses for internet access.",
+          "is_correct": false,
+          "rationale": "DNS servers perform domain name resolution."
+        },
+        {
+          "key": "E",
+          "text": "To filter network traffic based on predefined security rules and policies.",
+          "is_correct": false,
+          "rationale": "Firewalls perform traffic filtering."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Which protocol is responsible for assigning IP addresses to devices on a network automatically?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Domain Name System (DNS) translates domain names to IP addresses.",
+          "is_correct": false,
+          "rationale": "DNS resolves domain names."
+        },
+        {
+          "key": "B",
+          "text": "Dynamic Host Configuration Protocol (DHCP) assigns IP addresses automatically.",
+          "is_correct": true,
+          "rationale": "DHCP is designed for automatic IP address assignment."
+        },
+        {
+          "key": "C",
+          "text": "Simple Mail Transfer Protocol (SMTP) handles email transmission.",
+          "is_correct": false,
+          "rationale": "SMTP is for email."
+        },
+        {
+          "key": "D",
+          "text": "File Transfer Protocol (FTP) is used for transferring files between systems.",
+          "is_correct": false,
+          "rationale": "FTP is for file transfer."
+        },
+        {
+          "key": "E",
+          "text": "Hypertext Transfer Protocol (HTTP) is used for web browsing.",
+          "is_correct": false,
+          "rationale": "HTTP is for web traffic."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What does the acronym 'OSI' stand for in the context of network models?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Open System Interconnection is the correct expansion of the acronym OSI.",
+          "is_correct": true,
+          "rationale": "OSI refers to the Open Systems Interconnection model."
+        },
+        {
+          "key": "B",
+          "text": "Operating System Interface is related to software, not network models.",
+          "is_correct": false,
+          "rationale": "This is related to system calls."
+        },
+        {
+          "key": "C",
+          "text": "Optical Signal Indicator is related to hardware, not network models.",
+          "is_correct": false,
+          "rationale": "This is related to hardware signals."
+        },
+        {
+          "key": "D",
+          "text": "Organization for Standards Implementation is about organizations, not models.",
+          "is_correct": false,
+          "rationale": "This refers to standardization bodies."
+        },
+        {
+          "key": "E",
+          "text": "Overall Security Infrastructure is related to security, not network models.",
+          "is_correct": false,
+          "rationale": "This refers to security architecture."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Which layer of the OSI model is responsible for routing data packets between networks?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The physical layer deals with physical connections and signals.",
+          "is_correct": false,
+          "rationale": "The physical layer is about hardware."
+        },
+        {
+          "key": "B",
+          "text": "The data link layer handles MAC addressing and local network communication.",
+          "is_correct": false,
+          "rationale": "The data link layer is for local communication."
+        },
+        {
+          "key": "C",
+          "text": "The network layer is responsible for routing data packets between networks.",
+          "is_correct": true,
+          "rationale": "The network layer handles routing."
+        },
+        {
+          "key": "D",
+          "text": "The transport layer provides reliable data transfer between applications.",
+          "is_correct": false,
+          "rationale": "The transport layer is for reliable transfer."
+        },
+        {
+          "key": "E",
+          "text": "The session layer manages connections between applications.",
+          "is_correct": false,
+          "rationale": "The session layer manages connections."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What is the purpose of a subnet mask in IP addressing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To encrypt data transmitted across the network for security purposes.",
+          "is_correct": false,
+          "rationale": "Encryption is not handled by subnet masks."
+        },
+        {
+          "key": "B",
+          "text": "To identify the network portion and host portion of an IP address.",
+          "is_correct": true,
+          "rationale": "The subnet mask separates network and host IDs."
+        },
+        {
+          "key": "C",
+          "text": "To translate domain names into IP addresses for internet access.",
+          "is_correct": false,
+          "rationale": "DNS performs domain name resolution."
+        },
+        {
+          "key": "D",
+          "text": "To prevent unauthorized access to the network by filtering traffic.",
+          "is_correct": false,
+          "rationale": "Firewalls handle access control."
+        },
+        {
+          "key": "E",
+          "text": "To compress data packets to improve transmission efficiency.",
+          "is_correct": false,
+          "rationale": "Compression is not the function of subnet masks."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is a common network cabling standard?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Coaxial cable is an older standard, less common in modern networks.",
+          "is_correct": false,
+          "rationale": "Coaxial is older technology."
+        },
+        {
+          "key": "B",
+          "text": "Fiber optic cable is used for high-speed, long-distance connections.",
+          "is_correct": false,
+          "rationale": "Fiber is for specific high-speed needs."
+        },
+        {
+          "key": "C",
+          "text": "Unshielded Twisted Pair (UTP) is a common network cabling standard.",
+          "is_correct": true,
+          "rationale": "UTP is widely used in LANs."
+        },
+        {
+          "key": "D",
+          "text": "Parallel cable is primarily used for printer connections, not networking.",
+          "is_correct": false,
+          "rationale": "Parallel cables are for printers."
+        },
+        {
+          "key": "E",
+          "text": "Serial cable is used for device communication, not general networking.",
+          "is_correct": false,
+          "rationale": "Serial cables are for device connections."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What is the purpose of a firewall in network security?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To route network traffic between different networks efficiently.",
+          "is_correct": false,
+          "rationale": "Routing is the function of a router."
+        },
+        {
+          "key": "B",
+          "text": "To prevent unauthorized access to or from a network.",
+          "is_correct": true,
+          "rationale": "Firewalls control network access."
+        },
+        {
+          "key": "C",
+          "text": "To translate domain names into IP addresses for internet access.",
+          "is_correct": false,
+          "rationale": "DNS handles domain name resolution."
+        },
+        {
+          "key": "D",
+          "text": "To assign IP addresses to devices on the network automatically.",
+          "is_correct": false,
+          "rationale": "DHCP assigns IP addresses."
+        },
+        {
+          "key": "E",
+          "text": "To provide wireless connectivity to devices within a limited range.",
+          "is_correct": false,
+          "rationale": "Wireless access points provide wireless connectivity."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Which protocol is used for secure remote access to a network device?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Telnet transmits data in plaintext, making it insecure for remote access.",
+          "is_correct": false,
+          "rationale": "Telnet is not secure."
+        },
+        {
+          "key": "B",
+          "text": "Secure Shell (SSH) provides encrypted remote access to network devices.",
+          "is_correct": true,
+          "rationale": "SSH is the secure remote access protocol."
+        },
+        {
+          "key": "C",
+          "text": "File Transfer Protocol (FTP) is used for file transfers, not remote access.",
+          "is_correct": false,
+          "rationale": "FTP is for file transfer."
+        },
+        {
+          "key": "D",
+          "text": "Simple Mail Transfer Protocol (SMTP) handles email transmission.",
+          "is_correct": false,
+          "rationale": "SMTP is for email."
+        },
+        {
+          "key": "E",
+          "text": "Hypertext Transfer Protocol (HTTP) is used for web browsing.",
+          "is_correct": false,
+          "rationale": "HTTP is for web traffic."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is the purpose of a VPN (Virtual Private Network)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To create a secure, encrypted connection over a public network.",
+          "is_correct": true,
+          "rationale": "VPNs provide secure connections."
+        },
+        {
+          "key": "B",
+          "text": "To increase the speed of internet connections by optimizing data flow.",
+          "is_correct": false,
+          "rationale": "VPNs do not generally increase speed."
+        },
+        {
+          "key": "C",
+          "text": "To provide wireless connectivity to devices within a limited range.",
+          "is_correct": false,
+          "rationale": "Wireless access points provide wireless connectivity."
+        },
+        {
+          "key": "D",
+          "text": "To translate domain names into IP addresses for internet access.",
+          "is_correct": false,
+          "rationale": "DNS handles domain name resolution."
+        },
+        {
+          "key": "E",
+          "text": "To filter network traffic based on predefined security rules and policies.",
+          "is_correct": false,
+          "rationale": "Firewalls perform traffic filtering."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is a private IP address range?",
+      "options": [
+        {
+          "key": "A",
+          "text": "10.0.0.0/8 is a private IP address range as defined by RFC 1918.",
+          "is_correct": true,
+          "rationale": "10.0.0.0/8 is a private range."
+        },
+        {
+          "key": "B",
+          "text": "172.33.0.0/16 is not a designated private IP address range.",
+          "is_correct": false,
+          "rationale": "This is not a private range."
+        },
+        {
+          "key": "C",
+          "text": "192.169.0.0/16 is not a designated private IP address range.",
+          "is_correct": false,
+          "rationale": "This is not a private range."
+        },
+        {
+          "key": "D",
+          "text": "203.0.113.0/24 is a public IP address range used for documentation.",
+          "is_correct": false,
+          "rationale": "This is a public range."
+        },
+        {
+          "key": "E",
+          "text": "8.8.8.8 is a public IP address used by Google's DNS service.",
+          "is_correct": false,
+          "rationale": "This is a public DNS server."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the function of the 'ping' command in network troubleshooting?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To transfer files between devices on a network.",
+          "is_correct": false,
+          "rationale": "File transfer is done by FTP or SCP."
+        },
+        {
+          "key": "B",
+          "text": "To test the reachability of a network host.",
+          "is_correct": true,
+          "rationale": "Ping tests network reachability."
+        },
+        {
+          "key": "C",
+          "text": "To display the routing path to a destination.",
+          "is_correct": false,
+          "rationale": "Traceroute displays the routing path."
+        },
+        {
+          "key": "D",
+          "text": "To configure network interfaces on a device.",
+          "is_correct": false,
+          "rationale": "ifconfig or ipconfig configures interfaces."
+        },
+        {
+          "key": "E",
+          "text": "To analyze network traffic and identify bottlenecks.",
+          "is_correct": false,
+          "rationale": "Network analyzers do traffic analysis."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Which of the following devices operates at Layer 2 (Data Link Layer) of the OSI model?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A router operates at Layer 3 (Network Layer) for routing traffic.",
+          "is_correct": false,
+          "rationale": "Routers operate at Layer 3."
+        },
+        {
+          "key": "B",
+          "text": "A switch operates at Layer 2 (Data Link Layer) for forwarding frames.",
+          "is_correct": true,
+          "rationale": "Switches operate at Layer 2."
+        },
+        {
+          "key": "C",
+          "text": "A hub operates at Layer 1 (Physical Layer) for signal transmission.",
+          "is_correct": false,
+          "rationale": "Hubs operate at Layer 1."
+        },
+        {
+          "key": "D",
+          "text": "A firewall operates at multiple layers for security functions.",
+          "is_correct": false,
+          "rationale": "Firewalls operate at multiple layers."
+        },
+        {
+          "key": "E",
+          "text": "A modem operates at Layer 1 (Physical Layer) for signal modulation.",
+          "is_correct": false,
+          "rationale": "Modems operate at Layer 1."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is the purpose of DNS (Domain Name System)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To assign IP addresses to devices automatically.",
+          "is_correct": false,
+          "rationale": "DHCP assigns IP addresses."
+        },
+        {
+          "key": "B",
+          "text": "To translate domain names to IP addresses.",
+          "is_correct": true,
+          "rationale": "DNS resolves domain names."
+        },
+        {
+          "key": "C",
+          "text": "To encrypt network traffic for secure communication.",
+          "is_correct": false,
+          "rationale": "Encryption is done by protocols like TLS/SSL."
+        },
+        {
+          "key": "D",
+          "text": "To manage network routing protocols.",
+          "is_correct": false,
+          "rationale": "Routers manage routing protocols."
+        },
+        {
+          "key": "E",
+          "text": "To filter network traffic based on security policies.",
+          "is_correct": false,
+          "rationale": "Firewalls filter network traffic."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Which protocol is commonly used for sending emails?",
+      "options": [
+        {
+          "key": "A",
+          "text": "File Transfer Protocol (FTP) is used for transferring files.",
+          "is_correct": false,
+          "rationale": "FTP is for file transfer."
+        },
+        {
+          "key": "B",
+          "text": "Simple Mail Transfer Protocol (SMTP) is used for sending emails.",
+          "is_correct": true,
+          "rationale": "SMTP sends emails."
+        },
+        {
+          "key": "C",
+          "text": "Hypertext Transfer Protocol (HTTP) is used for web browsing.",
+          "is_correct": false,
+          "rationale": "HTTP is for web traffic."
+        },
+        {
+          "key": "D",
+          "text": "Domain Name System (DNS) resolves domain names to IP addresses.",
+          "is_correct": false,
+          "rationale": "DNS resolves domain names."
+        },
+        {
+          "key": "E",
+          "text": "Secure Shell (SSH) provides secure remote access.",
+          "is_correct": false,
+          "rationale": "SSH is for remote access."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is the purpose of VLANs (Virtual LANs)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To physically separate network devices for security.",
+          "is_correct": false,
+          "rationale": "VLANs are logical, not physical separations."
+        },
+        {
+          "key": "B",
+          "text": "To logically segment a network without physical separation.",
+          "is_correct": true,
+          "rationale": "VLANs segment networks logically."
+        },
+        {
+          "key": "C",
+          "text": "To increase the physical distance between network devices.",
+          "is_correct": false,
+          "rationale": "VLANs do not affect physical distance."
+        },
+        {
+          "key": "D",
+          "text": "To provide wireless connectivity to devices.",
+          "is_correct": false,
+          "rationale": "Wireless access points provide wireless connectivity."
+        },
+        {
+          "key": "E",
+          "text": "To encrypt all network traffic for security.",
+          "is_correct": false,
+          "rationale": "Encryption is not the primary function of VLANs."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What is the function of a DHCP server?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To resolve domain names to IP addresses.",
+          "is_correct": false,
+          "rationale": "DNS resolves domain names."
+        },
+        {
+          "key": "B",
+          "text": "To automatically assign IP addresses to network devices.",
+          "is_correct": true,
+          "rationale": "DHCP assigns IP addresses automatically."
+        },
+        {
+          "key": "C",
+          "text": "To route network traffic between different networks.",
+          "is_correct": false,
+          "rationale": "Routers route network traffic."
+        },
+        {
+          "key": "D",
+          "text": "To provide secure remote access to the network.",
+          "is_correct": false,
+          "rationale": "VPNs provide secure remote access."
+        },
+        {
+          "key": "E",
+          "text": "To filter network traffic based on security rules.",
+          "is_correct": false,
+          "rationale": "Firewalls filter network traffic."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is a command-line tool used to display network configuration information on Windows?",
+      "options": [
+        {
+          "key": "A",
+          "text": "ifconfig is used on Linux/Unix-like systems, not Windows.",
+          "is_correct": false,
+          "rationale": "ifconfig is for Linux/Unix."
+        },
+        {
+          "key": "B",
+          "text": "ipconfig is used on Windows to display network configuration details.",
+          "is_correct": true,
+          "rationale": "ipconfig is for Windows."
+        },
+        {
+          "key": "C",
+          "text": "netstat displays network connections and listening ports.",
+          "is_correct": false,
+          "rationale": "netstat shows network connections."
+        },
+        {
+          "key": "D",
+          "text": "traceroute traces the route packets take to a destination.",
+          "is_correct": false,
+          "rationale": "traceroute traces the network path."
+        },
+        {
+          "key": "E",
+          "text": "ping tests the reachability of a network host.",
+          "is_correct": false,
+          "rationale": "ping tests network reachability."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is the purpose of a default gateway?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide wireless connectivity to network devices.",
+          "is_correct": false,
+          "rationale": "Wireless access points provide wireless connectivity."
+        },
+        {
+          "key": "B",
+          "text": "To route traffic to destinations outside the local network.",
+          "is_correct": true,
+          "rationale": "The default gateway routes external traffic."
+        },
+        {
+          "key": "C",
+          "text": "To translate domain names into IP addresses.",
+          "is_correct": false,
+          "rationale": "DNS resolves domain names."
+        },
+        {
+          "key": "D",
+          "text": "To assign IP addresses to devices on the network.",
+          "is_correct": false,
+          "rationale": "DHCP assigns IP addresses."
+        },
+        {
+          "key": "E",
+          "text": "To filter network traffic based on security policies.",
+          "is_correct": false,
+          "rationale": "Firewalls filter network traffic."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Which of the following is a network protocol that operates over UDP?",
+      "options": [
+        {
+          "key": "A",
+          "text": "TCP provides reliable, connection-oriented communication.",
+          "is_correct": false,
+          "rationale": "TCP is connection-oriented."
+        },
+        {
+          "key": "B",
+          "text": "HTTP typically operates over TCP for reliable web browsing.",
+          "is_correct": false,
+          "rationale": "HTTP uses TCP."
+        },
+        {
+          "key": "C",
+          "text": "DNS can operate over UDP for faster, simpler queries.",
+          "is_correct": true,
+          "rationale": "DNS can use UDP."
+        },
+        {
+          "key": "D",
+          "text": "SMTP operates over TCP for reliable email transmission.",
+          "is_correct": false,
+          "rationale": "SMTP uses TCP."
+        },
+        {
+          "key": "E",
+          "text": "FTP operates over TCP for reliable file transfer.",
+          "is_correct": false,
+          "rationale": "FTP uses TCP."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What is the purpose of network documentation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide a record of network design, configuration, and troubleshooting.",
+          "is_correct": true,
+          "rationale": "Documentation records network information."
+        },
+        {
+          "key": "B",
+          "text": "To automatically configure network devices.",
+          "is_correct": false,
+          "rationale": "Automation tools configure devices."
+        },
+        {
+          "key": "C",
+          "text": "To encrypt network traffic for security.",
+          "is_correct": false,
+          "rationale": "Encryption secures traffic."
+        },
+        {
+          "key": "D",
+          "text": "To prevent unauthorized access to the network.",
+          "is_correct": false,
+          "rationale": "Firewalls prevent unauthorized access."
+        },
+        {
+          "key": "E",
+          "text": "To increase the speed of network connections.",
+          "is_correct": false,
+          "rationale": "Optimization increases network speed."
+        }
+      ]
+    }
+  ]
+}

@@ -21,7 +21,7 @@ import os
 sys.path.insert(0, os.path.realpath(os.path.join(os.path.dirname(__file__), '..')))
 
 from app.database import Base
-from app.models_hierarchical import *  # Import all models
+from app.models.models_hierarchical import *  # Correct the import path for the models
 
 target_metadata = Base.metadata
 

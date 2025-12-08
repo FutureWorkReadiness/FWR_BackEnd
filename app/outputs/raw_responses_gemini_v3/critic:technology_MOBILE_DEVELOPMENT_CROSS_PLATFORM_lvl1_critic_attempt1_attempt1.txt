@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "Which programming language is most commonly used for cross-platform mobile app development using the React Native framework?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Java, primarily used for native Android development and known for its platform independence.",
+          "is_correct": false,
+          "rationale": "Java is mainly for native Android development, not directly with React Native."
+        },
+        {
+          "key": "B",
+          "text": "Swift, Apple's language for iOS and macOS development, known for strong typing and performance.",
+          "is_correct": false,
+          "rationale": "Swift is for native iOS development, not directly within React Native projects."
+        },
+        {
+          "key": "C",
+          "text": "JavaScript, a versatile language for web and mobile development, especially with React Native framework.",
+          "is_correct": true,
+          "rationale": "React Native uses JavaScript to build cross-platform mobile applications."
+        },
+        {
+          "key": "D",
+          "text": "C#, Microsoft's language for .NET, commonly used with Xamarin for cross-platform application development.",
+          "is_correct": false,
+          "rationale": "C# is primarily used with Xamarin, another cross-platform framework, not React Native."
+        },
+        {
+          "key": "E",
+          "text": "Objective-C, an older language used for iOS development, largely superseded by Swift in modern projects.",
+          "is_correct": false,
+          "rationale": "Objective-C is an older iOS language, not directly used in React Native."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is considered the primary advantage of utilizing a cross-platform framework such as Flutter or React Native?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Code reusability across multiple platforms, significantly reducing development time and overall effort required.",
+          "is_correct": true,
+          "rationale": "Cross-platform frameworks allow writing code once and deploying on multiple platforms."
+        },
+        {
+          "key": "B",
+          "text": "Direct access to native device features, providing unparalleled performance and advanced capabilities.",
+          "is_correct": false,
+          "rationale": "Direct access is more common in native development, not a primary benefit of cross-platform."
+        },
+        {
+          "key": "C",
+          "text": "Guaranteed superior performance compared to native applications, leading to a more enhanced user experience.",
+          "is_correct": false,
+          "rationale": "Native apps often have better performance. Cross-platform frameworks focus on reusability."
+        },
+        {
+          "key": "D",
+          "text": "Complete elimination of the need for platform-specific code, ensuring total code portability across systems.",
+          "is_correct": false,
+          "rationale": "Some platform-specific code might still be needed, depending on the framework and features."
+        },
+        {
+          "key": "E",
+          "text": "Automatic optimization for all device screen sizes, removing the need for responsive design considerations.",
+          "is_correct": false,
+          "rationale": "Responsive design is still needed to handle different screen sizes effectively."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which UI programming paradigm is most commonly associated with React Native when building mobile interfaces?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Imperative programming, where developers directly manipulate the DOM and UI elements for updates.",
+          "is_correct": false,
+          "rationale": "React Native favors declarative programming, not direct DOM manipulation."
+        },
+        {
+          "key": "B",
+          "text": "Declarative programming, defining the desired UI state, letting React handle the necessary updates.",
+          "is_correct": true,
+          "rationale": "React Native uses a declarative approach to define UI components and their states."
+        },
+        {
+          "key": "C",
+          "text": "Object-oriented programming, focusing on classes and inheritance for UI component design and structure.",
+          "is_correct": false,
+          "rationale": "While OOP can be used, the primary paradigm is declarative for UI rendering."
+        },
+        {
+          "key": "D",
+          "text": "Functional programming, emphasizing pure functions and immutable data for UI logic implementation.",
+          "is_correct": false,
+          "rationale": "While functional concepts are used, the main UI paradigm is declarative."
+        },
+        {
+          "key": "E",
+          "text": "Event-driven programming, reacting to user interactions and directly triggering UI updates accordingly.",
+          "is_correct": false,
+          "rationale": "Event handling is part of it, but the UI is primarily defined declaratively."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "In cross-platform mobile development, what specific purpose does a 'bridge' serve in architectures like React Native?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To directly execute native code within the JavaScript environment, bypassing any translation layers present.",
+          "is_correct": false,
+          "rationale": "The bridge facilitates communication, not direct execution without translation."
+        },
+        {
+          "key": "B",
+          "text": "To facilitate seamless communication between the JavaScript/Dart code and the underlying native platform code.",
+          "is_correct": true,
+          "rationale": "The bridge enables communication between the JavaScript/Dart code and the native platform."
+        },
+        {
+          "key": "C",
+          "text": "To compile the JavaScript/Dart code directly into native machine code, improving overall application performance.",
+          "is_correct": false,
+          "rationale": "Compilation is a separate process; the bridge handles communication, not compilation."
+        },
+        {
+          "key": "D",
+          "text": "To provide a visual interface specifically for debugging the application's native code components effectively.",
+          "is_correct": false,
+          "rationale": "Debugging tools are separate from the bridge's core functionality."
+        },
+        {
+          "key": "E",
+          "text": "To automatically generate comprehensive documentation for the native code APIs used by the application.",
+          "is_correct": false,
+          "rationale": "Documentation generation is not the primary purpose of the bridge."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which state management library is commonly used alongside React Native to effectively handle complex application data?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Redux, a predictable state container for JavaScript applications, integrates well with React Native projects.",
+          "is_correct": true,
+          "rationale": "Redux is a popular choice for managing state in React Native applications."
+        },
+        {
+          "key": "B",
+          "text": "AngularJS's built-in dependency injection system, designed for managing components and data flow efficiently.",
+          "is_correct": false,
+          "rationale": "AngularJS is a web framework, not directly applicable to React Native state management."
+        },
+        {
+          "key": "C",
+          "text": "Vuex, the state management library for Vue.js, known for its simplicity and ease of integration and use.",
+          "is_correct": false,
+          "rationale": "Vuex is designed for Vue.js applications, not React Native."
+        },
+        {
+          "key": "D",
+          "text": "Ember Data, a data persistence library for Ember.js, handling model and data synchronization tasks.",
+          "is_correct": false,
+          "rationale": "Ember Data is specific to Ember.js, not used in React Native development."
+        },
+        {
+          "key": "E",
+          "text": "Backbone.js's model-view-controller (MVC) architecture, designed for managing data and UI components effectively.",
+          "is_correct": false,
+          "rationale": "Backbone.js is a separate framework, not typically used for React Native state management."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "In cross-platform mobile development, what role does 'hot reloading' play within development environments?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To automatically deploy the application to the app stores immediately upon detecting any code changes.",
+          "is_correct": false,
+          "rationale": "Hot reloading does not handle app store deployment; it's for development."
+        },
+        {
+          "key": "B",
+          "text": "To update the application's code and user interface in real-time without losing the current application state.",
+          "is_correct": true,
+          "rationale": "Hot reloading updates code and UI without a full reload, preserving app state."
+        },
+        {
+          "key": "C",
+          "text": "To optimize the application's performance by pre-compiling code during the development process.",
+          "is_correct": false,
+          "rationale": "Hot reloading is about faster iteration, not performance optimization."
+        },
+        {
+          "key": "D",
+          "text": "To automatically generate unit tests for the application's components and modules during development.",
+          "is_correct": false,
+          "rationale": "Hot reloading doesn't involve automatic unit test generation."
+        },
+        {
+          "key": "E",
+          "text": "To provide a visual interface for debugging the application's network requests effectively during development.",
+          "is_correct": false,
+          "rationale": "Network debugging is a separate tool, not related to hot reloading."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Which testing approach is commonly employed to verify the functionality of individual React Native components?",
+      "options": [
+        {
+          "key": "A",
+          "text": "End-to-end testing, simulating user interactions across the entire application flow and user experience.",
+          "is_correct": false,
+          "rationale": "End-to-end testing is broader than just component testing."
+        },
+        {
+          "key": "B",
+          "text": "Unit testing, isolating and testing individual components or functions in complete isolation from others.",
+          "is_correct": true,
+          "rationale": "Unit testing focuses on testing individual components in isolation."
+        },
+        {
+          "key": "C",
+          "text": "Integration testing, verifying the interaction and communication between different modules or services.",
+          "is_correct": false,
+          "rationale": "Integration testing is about module interaction, not individual components."
+        },
+        {
+          "key": "D",
+          "text": "Performance testing, measuring the application's speed, efficiency, and overall resource consumption.",
+          "is_correct": false,
+          "rationale": "Performance testing focuses on speed and resource usage, not functionality."
+        },
+        {
+          "key": "E",
+          "text": "Security testing, identifying potential vulnerabilities and ensuring robust data protection measures.",
+          "is_correct": false,
+          "rationale": "Security testing is about identifying vulnerabilities, not component functionality."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What is the primary purpose of utilizing native modules within a cross-platform mobile application project?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To write platform-specific code for accessing features not available through the cross-platform framework.",
+          "is_correct": true,
+          "rationale": "Native modules allow access to platform-specific features not in the framework."
+        },
+        {
+          "key": "B",
+          "text": "To completely replace the cross-platform framework with native code for the entire application project.",
+          "is_correct": false,
+          "rationale": "Native modules supplement, not replace, the cross-platform framework."
+        },
+        {
+          "key": "C",
+          "text": "To automatically translate the cross-platform code into the native language of the target platform.",
+          "is_correct": false,
+          "rationale": "Translation is handled by the framework; native modules are for specific features."
+        },
+        {
+          "key": "D",
+          "text": "To provide a visual interface for designing the application's user interface elements and components.",
+          "is_correct": false,
+          "rationale": "UI design is separate from native module functionality."
+        },
+        {
+          "key": "E",
+          "text": "To optimize the application's performance by caching data effectively in the native file system.",
+          "is_correct": false,
+          "rationale": "Caching can be done, but it's not the primary purpose of native modules."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Which of the following options represents a popular framework specifically designed for building cross-platform mobile applications?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Spring, a comprehensive framework for building robust Java-based enterprise applications effectively.",
+          "is_correct": false,
+          "rationale": "Spring is a Java framework, not designed for cross-platform mobile development."
+        },
+        {
+          "key": "B",
+          "text": "Django, a high-level Python web framework, encouraging rapid development and clean, maintainable design.",
+          "is_correct": false,
+          "rationale": "Django is a Python web framework, not used for mobile development directly."
+        },
+        {
+          "key": "C",
+          "text": "Flutter, a UI toolkit by Google for building natively compiled applications from a single codebase.",
+          "is_correct": true,
+          "rationale": "Flutter is a popular framework for cross-platform mobile development."
+        },
+        {
+          "key": "D",
+          "text": "Ruby on Rails, a server-side web application framework written in the Ruby programming language.",
+          "is_correct": false,
+          "rationale": "Ruby on Rails is a web framework, not for mobile app development."
+        },
+        {
+          "key": "E",
+          "text": "Laravel, a PHP web framework designed for developing web applications following the MVC architectural pattern.",
+          "is_correct": false,
+          "rationale": "Laravel is a PHP web framework, not used for mobile app development."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Within the context of React Native development, what specific purpose does Expo primarily serve for developers?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A comprehensive set of tools and services simplifying React Native development, including building and deployment.",
+          "is_correct": true,
+          "rationale": "Expo simplifies React Native development with tools and services."
+        },
+        {
+          "key": "B",
+          "text": "A JavaScript library specifically designed for creating animations and transitions in React Native applications.",
+          "is_correct": false,
+          "rationale": "Expo is more than just an animation library; it's a development platform."
+        },
+        {
+          "key": "C",
+          "text": "A state management library specifically designed for React Native applications to manage application state.",
+          "is_correct": false,
+          "rationale": "Expo is a development platform, not a state management library."
+        },
+        {
+          "key": "D",
+          "text": "A testing framework for writing unit and integration tests for React Native components and modules.",
+          "is_correct": false,
+          "rationale": "Expo provides tools, but it's not primarily a testing framework."
+        },
+        {
+          "key": "E",
+          "text": "A database management system for storing, managing, and retrieving data within React Native applications.",
+          "is_correct": false,
+          "rationale": "Expo is not a database management system."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What specific role does JSX play within the context of React Native development projects and workflows?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A templating language enabling developers to write HTML-like syntax directly within their JavaScript code.",
+          "is_correct": true,
+          "rationale": "JSX allows writing HTML-like syntax in JavaScript for UI components."
+        },
+        {
+          "key": "B",
+          "text": "A styling language specifically for defining the visual appearance of React Native components effectively.",
+          "is_correct": false,
+          "rationale": "JSX defines the structure, not the styling, of components."
+        },
+        {
+          "key": "C",
+          "text": "A state management library designed for handling data flow efficiently within React Native applications.",
+          "is_correct": false,
+          "rationale": "JSX is for defining UI, not managing application state."
+        },
+        {
+          "key": "D",
+          "text": "A testing framework for writing comprehensive unit tests for React Native components and modules.",
+          "is_correct": false,
+          "rationale": "JSX is a templating language, not a testing framework."
+        },
+        {
+          "key": "E",
+          "text": "A navigation library designed for handling screen transitions smoothly in React Native applications.",
+          "is_correct": false,
+          "rationale": "JSX defines UI elements, not screen navigation."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "What is considered a key advantage of utilizing components within React Native development projects?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Components enable code reusability, making it significantly easier to build and maintain complex user interfaces.",
+          "is_correct": true,
+          "rationale": "Components promote code reusability and easier UI maintenance."
+        },
+        {
+          "key": "B",
+          "text": "Components automatically handle all network requests required by the application seamlessly and efficiently.",
+          "is_correct": false,
+          "rationale": "Components are for UI, not automatic network request handling."
+        },
+        {
+          "key": "C",
+          "text": "Components completely eliminate the need for any styling within React Native applications entirely.",
+          "is_correct": false,
+          "rationale": "Components require styling to define their appearance."
+        },
+        {
+          "key": "D",
+          "text": "Components automatically optimize the application's performance effectively on all target devices.",
+          "is_correct": false,
+          "rationale": "Components don't automatically optimize performance; optimization is a separate task."
+        },
+        {
+          "key": "E",
+          "text": "Components handle all database interactions and data storage requirements for the application.",
+          "is_correct": false,
+          "rationale": "Components are for UI, not database interactions or data storage."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Which of the following represents a common approach for styling components in React Native applications?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using inline styles directly within the component's JSX code, suitable for very simple styling needs.",
+          "is_correct": false,
+          "rationale": "While possible, inline styles are not the most common or maintainable approach."
+        },
+        {
+          "key": "B",
+          "text": "Using traditional CSS stylesheets, similar to web development, for consistent styling across the application.",
+          "is_correct": false,
+          "rationale": "React Native uses a different styling system than traditional CSS stylesheets."
+        },
+        {
+          "key": "C",
+          "text": "Using Styled Components, writing actual CSS directly within your components, useful for dynamic themes.",
+          "is_correct": false,
+          "rationale": "Styled Components are not a standard approach in React Native; CSS is not directly used."
+        },
+        {
+          "key": "D",
+          "text": "Using React Native's StyleSheet API, creating style objects for component styling and management.",
+          "is_correct": true,
+          "rationale": "React Native's StyleSheet API is the standard way to style components."
+        },
+        {
+          "key": "E",
+          "text": "Using SASS or LESS preprocessors to generate CSS for styling React Native components effectively.",
+          "is_correct": false,
+          "rationale": "SASS/LESS are not directly used in React Native styling; it has its own system."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "In cross-platform mobile development, what does the term 'native' specifically refer to in this context?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Code written in languages designed for a specific platform, like Swift for iOS or Java for Android.",
+          "is_correct": true,
+          "rationale": "Native refers to platform-specific languages and code, offering direct access."
+        },
+        {
+          "key": "B",
+          "text": "Code written in JavaScript or Dart, which can be executed seamlessly on any mobile platform.",
+          "is_correct": false,
+          "rationale": "JavaScript/Dart are used in cross-platform frameworks, not native development."
+        },
+        {
+          "key": "C",
+          "text": "Code automatically generated by a cross-platform framework, such as React Native or Flutter.",
+          "is_correct": false,
+          "rationale": "Generated code is based on cross-platform code, not native code itself."
+        },
+        {
+          "key": "D",
+          "text": "Code written using standard web technologies, including HTML, CSS, and JavaScript languages.",
+          "is_correct": false,
+          "rationale": "Web technologies are used for web apps, not native mobile development."
+        },
+        {
+          "key": "E",
+          "text": "Code designed to run on both mobile and desktop platforms simultaneously and efficiently.",
+          "is_correct": false,
+          "rationale": "Running on both mobile and desktop is a separate concept from native development."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is the primary purpose of utilizing navigation libraries within React Native applications effectively?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To handle screen transitions, manage navigation history, and implement different navigation patterns efficiently.",
+          "is_correct": true,
+          "rationale": "Navigation libraries manage screen transitions, history, and navigation patterns."
+        },
+        {
+          "key": "B",
+          "text": "To manage the application's state and data flow effectively between different components and modules.",
+          "is_correct": false,
+          "rationale": "State management libraries handle data flow, not navigation."
+        },
+        {
+          "key": "C",
+          "text": "To style the application's components and define their visual appearance and user experience.",
+          "is_correct": false,
+          "rationale": "Styling libraries handle visual appearance, not navigation."
+        },
+        {
+          "key": "D",
+          "text": "To handle network requests and communicate seamlessly with external APIs and services efficiently.",
+          "is_correct": false,
+          "rationale": "Network libraries handle API communication, not navigation."
+        },
+        {
+          "key": "E",
+          "text": "To test the application's functionality thoroughly and ensure its overall quality and reliability.",
+          "is_correct": false,
+          "rationale": "Testing frameworks ensure quality, not navigation."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Which mobile platforms are typically targeted by cross-platform frameworks during application development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Primarily iOS and Android, but some frameworks also offer support for web and desktop platforms.",
+          "is_correct": true,
+          "rationale": "Cross-platform frameworks target iOS and Android, with some extending to web/desktop."
+        },
+        {
+          "key": "B",
+          "text": "Exclusively iOS, providing a consistent user experience across all Apple devices and platforms.",
+          "is_correct": false,
+          "rationale": "Cross-platform aims for multiple platforms, not just iOS."
+        },
+        {
+          "key": "C",
+          "text": "Exclusively Android, leveraging the open-source nature and flexibility of the platform effectively.",
+          "is_correct": false,
+          "rationale": "Cross-platform aims for multiple platforms, not just Android."
+        },
+        {
+          "key": "D",
+          "text": "Only web browsers, allowing applications to run on any device equipped with a web browser.",
+          "is_correct": false,
+          "rationale": "Web apps target browsers, cross-platform targets native mobile."
+        },
+        {
+          "key": "E",
+          "text": "Only desktop operating systems, providing a consistent experience across Windows and macOS systems.",
+          "is_correct": false,
+          "rationale": "Desktop apps are different from cross-platform mobile apps."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What is the primary purpose of utilizing version control systems like Git in mobile development projects?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To track changes to the codebase, facilitate collaboration with other developers, and manage different versions.",
+          "is_correct": true,
+          "rationale": "Git tracks changes, enables collaboration, and manages versions effectively."
+        },
+        {
+          "key": "B",
+          "text": "To automatically deploy the application to the app stores whenever any changes are made to the code.",
+          "is_correct": false,
+          "rationale": "Git manages code, not automatic app store deployment."
+        },
+        {
+          "key": "C",
+          "text": "To design the user interface of the application using a visual editor and design tools effectively.",
+          "is_correct": false,
+          "rationale": "Git is for code management, not UI design."
+        },
+        {
+          "key": "D",
+          "text": "To manage the application's database and store user data securely and efficiently.",
+          "is_correct": false,
+          "rationale": "Git manages code, not database or user data."
+        },
+        {
+          "key": "E",
+          "text": "To test the application's performance and identify any potential bottlenecks or issues.",
+          "is_correct": false,
+          "rationale": "Git manages code, not performance testing."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is the purpose of using simulators or emulators in cross-platform mobile development environments?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To test the application on different device configurations without needing physical devices for testing.",
+          "is_correct": true,
+          "rationale": "Simulators/emulators allow testing on various configurations without physical devices."
+        },
+        {
+          "key": "B",
+          "text": "To automatically translate the application's code into the native language of the target platform.",
+          "is_correct": false,
+          "rationale": "Simulators/emulators do not translate code; they simulate devices."
+        },
+        {
+          "key": "C",
+          "text": "To design the user interface of the application using a drag-and-drop interface and visual tools.",
+          "is_correct": false,
+          "rationale": "Simulators/emulators are for testing, not UI design."
+        },
+        {
+          "key": "D",
+          "text": "To manage the application's dependencies and install all necessary libraries and components.",
+          "is_correct": false,
+          "rationale": "Dependency management tools handle libraries, not simulators/emulators."
+        },
+        {
+          "key": "E",
+          "text": "To optimize the application's performance effectively by reducing its memory footprint and resource usage.",
+          "is_correct": false,
+          "rationale": "Simulators/emulators are for testing, not performance optimization."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Which of the following represents a key factor to consider when choosing a cross-platform framework?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The performance of the framework on different devices and various operating systems is crucial.",
+          "is_correct": true,
+          "rationale": "Performance is a crucial factor when selecting a cross-platform framework."
+        },
+        {
+          "key": "B",
+          "text": "The size of the development team and their existing familiarity with the chosen framework.",
+          "is_correct": false,
+          "rationale": "Team size/familiarity are important but secondary to core framework capabilities."
+        },
+        {
+          "key": "C",
+          "text": "The availability of pre-built components and user interface elements within the framework.",
+          "is_correct": false,
+          "rationale": "Component availability is helpful but not the primary deciding factor."
+        },
+        {
+          "key": "D",
+          "text": "The overall cost of the framework's license and the associated support services provided.",
+          "is_correct": false,
+          "rationale": "Cost is a factor, but performance is more critical for app success."
+        },
+        {
+          "key": "E",
+          "text": "The framework's overall popularity and the level of community support available to developers.",
+          "is_correct": false,
+          "rationale": "Popularity/community are beneficial but don't guarantee optimal performance."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What is the primary purpose of utilizing push notifications within mobile applications effectively?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To engage users with timely and relevant information, even when the app is not actively being used.",
+          "is_correct": true,
+          "rationale": "Push notifications deliver timely info and engage users even when the app is closed."
+        },
+        {
+          "key": "B",
+          "text": "To collect comprehensive user data and track their behavior within the application effectively.",
+          "is_correct": false,
+          "rationale": "Data collection is separate from the purpose of push notifications."
+        },
+        {
+          "key": "C",
+          "text": "To display advertisements and generate revenue for the application developer effectively.",
+          "is_correct": false,
+          "rationale": "Advertising is a separate revenue stream, not the primary function of notifications."
+        },
+        {
+          "key": "D",
+          "text": "To encrypt user data and secure their communications within the application effectively and reliably.",
+          "is_correct": false,
+          "rationale": "Encryption secures data, but it's unrelated to the purpose of push notifications."
+        },
+        {
+          "key": "E",
+          "text": "To automatically update the application's code and install new features seamlessly and efficiently.",
+          "is_correct": false,
+          "rationale": "App updates are separate from the function of push notifications."
+        }
+      ]
+    }
+  ]
+}

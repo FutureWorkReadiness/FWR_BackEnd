@@ -17,15 +17,16 @@ done
 
 echo "✅ Database is ready!"
 
-# Run database migrations
-echo "🔄 Running database migrations..."
-cd /app && alembic upgrade head
+# Create database tables
+echo "📊 Creating database tables..."
+python3 -c "import sys; sys.path.append('/app'); from app.database import Base, engine; from app.models import models_hierarchical; Base.metadata.create_all(bind=engine)"
+
 
 # Run database population
 echo "📊 Running database population..."
-python3 -c "from app.db_init import auto_populate_if_empty; auto_populate_if_empty()"
+python3 -c "import sys; sys.path.append('/app'); from app.db_init import auto_populate_if_empty; auto_populate_if_empty()"
 
 # Start FastAPI server
 echo "🚀 Starting FastAPI server..."
-exec uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+exec uvicorn app.main:app --host 0.0.0.0 --port 8000
 

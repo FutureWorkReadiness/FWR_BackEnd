@@ -1,0 +1,724 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "How does tree shaking primarily optimize a final JavaScript bundle during the build process?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It compresses JavaScript files using algorithms like Gzip for smaller network transfers and faster downloads.",
+          "is_correct": false,
+          "rationale": "This describes asset compression, a different optimization technique. Tree shaking is about code elimination, not file compression."
+        },
+        {
+          "key": "B",
+          "text": "It removes unused code, specifically dead code exports, from the bundle to reduce its overall size.",
+          "is_correct": true,
+          "rationale": "Tree shaking is a static analysis process that eliminates unreachable code from the final bundle, making it smaller."
+        },
+        {
+          "key": "C",
+          "text": "It splits the code into smaller chunks that are loaded on demand by the browser.",
+          "is_correct": false,
+          "rationale": "This is code splitting, a technique for lazy loading parts of an application, not tree shaking."
+        },
+        {
+          "key": "D",
+          "text": "It analyzes runtime execution paths to dynamically load only the necessary functions for the user.",
+          "is_correct": false,
+          "rationale": "Tree shaking is a static analysis technique performed at build time, not a runtime analysis process."
+        },
+        {
+          "key": "E",
+          "text": "It transpiles modern JavaScript syntax into older versions for better browser compatibility across all devices.",
+          "is_correct": false,
+          "rationale": "This describes transpilation, typically done by tools like Babel, which is distinct from tree shaking."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "When would you choose `useLayoutEffect` over `useEffect` in a React functional component for optimal performance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "For fetching data from an API as soon as the component is added to the DOM.",
+          "is_correct": false,
+          "rationale": "`useEffect` is preferred for asynchronous operations like data fetching to avoid blocking the browser paint."
+        },
+        {
+          "key": "B",
+          "text": "When you need to perform a side effect that does not require direct DOM manipulation.",
+          "is_correct": false,
+          "rationale": "For non-DOM side effects, `useEffect` is the standard and preferred hook to avoid blocking rendering."
+        },
+        {
+          "key": "C",
+          "text": "To schedule an effect that runs after the browser has completed painting the updated component.",
+          "is_correct": false,
+          "rationale": "This describes the behavior of `useEffect`, which runs asynchronously after the render is painted to the screen."
+        },
+        {
+          "key": "D",
+          "text": "When your effect needs to synchronously measure or mutate the DOM before the browser paints.",
+          "is_correct": true,
+          "rationale": "`useLayoutEffect` runs synchronously after all DOM mutations but before paint, ideal for DOM measurements to prevent flicker."
+        },
+        {
+          "key": "E",
+          "text": "For setting up subscriptions to external data sources that update asynchronously over the component's lifecycle.",
+          "is_correct": false,
+          "rationale": "Asynchronous subscriptions are a perfect use case for `useEffect` to avoid delaying the browser's paint process."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "In the browser's event loop, how are tasks from the microtask queue prioritized relative to the macrotask queue?",
+      "options": [
+        {
+          "key": "A",
+          "text": "One microtask is processed, then one macrotask is processed in an alternating, strictly one-to-one sequence.",
+          "is_correct": false,
+          "rationale": "The relationship is not one-to-one; the entire microtask queue is processed after one macrotask."
+        },
+        {
+          "key": "B",
+          "text": "All tasks in the macrotask queue are executed before any tasks from the microtask queue are run.",
+          "is_correct": false,
+          "rationale": "This is incorrect. Microtasks have higher priority and run before the next macrotask."
+        },
+        {
+          "key": "C",
+          "text": "The entire microtask queue is emptied after the current macrotask completes, before the next macrotask begins.",
+          "is_correct": true,
+          "rationale": "After one macrotask finishes, all available microtasks are executed to completion before the next macrotask is processed."
+        },
+        {
+          "key": "D",
+          "text": "The browser randomly selects a task from either queue to ensure fairness and prevent UI blocking.",
+          "is_correct": false,
+          "rationale": "The processing order is strictly defined and not random; microtasks always have priority over the next macrotask."
+        },
+        {
+          "key": "E",
+          "text": "Microtasks are only processed during idle periods when the browser is not performing any rendering work.",
+          "is_correct": false,
+          "rationale": "Microtasks are processed at a specific point in the event loop, not just during idle callbacks."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is the primary architectural advantage of using Module Federation in a micro-frontend setup?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It enforces a single, shared state management store like Redux across all micro-frontends for consistency.",
+          "is_correct": false,
+          "rationale": "Module Federation does not enforce a specific state management strategy; it is agnostic to state management."
+        },
+        {
+          "key": "B",
+          "text": "It allows separately built and deployed applications to dynamically share code and dependencies at runtime.",
+          "is_correct": true,
+          "rationale": "Its key benefit is enabling runtime code sharing between independent applications without requiring a shared library."
+        },
+        {
+          "key": "C",
+          "text": "It compiles all micro-frontends into a single, monolithic JavaScript file for faster initial page loads.",
+          "is_correct": false,
+          "rationale": "This is the opposite of its goal, which is to keep applications decoupled and independently deployable."
+        },
+        {
+          "key": "D",
+          "text": "It isolates each micro-frontend in its own iframe to prevent CSS and JavaScript conflicts completely.",
+          "is_correct": false,
+          "rationale": "While iframes are one way to implement micro-frontends, Module Federation provides a more integrated, non-iframe approach."
+        },
+        {
+          "key": "E",
+          "text": "It provides a standardized UI component library that all teams must use for a consistent user experience.",
+          "is_correct": false,
+          "rationale": "Module Federation is a build-time and runtime integration technology, not a UI component library itself."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "How do CSS Container Queries differ fundamentally from traditional Media Queries for responsive design?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Container queries respond to the properties of a containing element, rather than the entire browser viewport.",
+          "is_correct": true,
+          "rationale": "This is the core distinction; they allow for component-level responsiveness based on the parent container's size."
+        },
+        {
+          "key": "B",
+          "text": "They allow developers to use JavaScript variables directly within CSS for more dynamic styling capabilities.",
+          "is_correct": false,
+          "rationale": "This describes CSS Custom Properties (variables) and Houdini APIs, not container queries."
+        },
+        {
+          "key": "C",
+          "text": "Media queries are faster because they are handled by the browser's rendering engine at a lower level.",
+          "is_correct": false,
+          "rationale": "Both are handled by the rendering engine; performance differences are negligible and not the fundamental distinction."
+        },
+        {
+          "key": "D",
+          "text": "Container queries are specifically designed for styling print layouts and are not intended for screen media.",
+          "is_correct": false,
+          "rationale": "Container queries are designed for screen media to create more modular and reusable responsive components."
+        },
+        {
+          "key": "E",
+          "text": "They only apply styles based on user preferences like dark mode, ignoring any screen or element size.",
+          "is_correct": false,
+          "rationale": "This describes user preference media features, which are a type of media query, not container queries."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What is the primary purpose of a Web Worker in a modern frontend application?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To directly manipulate the DOM in a more performant way than using the main browser thread.",
+          "is_correct": false,
+          "rationale": "Web Workers cannot directly access or manipulate the DOM; they are isolated from the main thread."
+        },
+        {
+          "key": "B",
+          "text": "To run computationally intensive tasks in a background thread without blocking the user interface.",
+          "is_correct": true,
+          "rationale": "Their main purpose is to offload heavy scripts from the main thread, preventing the UI from freezing."
+        },
+        {
+          "key": "C",
+          "text": "To store large amounts of data on the client-side, acting as a more advanced version of localStorage.",
+          "is_correct": false,
+          "rationale": "This describes technologies like IndexedDB. Web Workers can use these, but it's not their primary purpose."
+        },
+        {
+          "key": "D",
+          "text": "To intercept network requests and serve cached responses, enabling offline application functionality.",
+          "is_correct": false,
+          "rationale": "This is the primary role of a Service Worker, which is a specific type of worker."
+        },
+        {
+          "key": "E",
+          "text": "To manage and share application state between different browser tabs that are open on the same domain.",
+          "is_correct": false,
+          "rationale": "This can be achieved with a Broadcast Channel API or Shared Workers, but it's not the primary purpose of a standard Web Worker."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "In the context of Core Web Vitals, what does Cumulative Layout Shift (CLS) measure?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The time it takes for the largest content element on the page to become visible to the user.",
+          "is_correct": false,
+          "rationale": "This describes Largest Contentful Paint (LCP), which measures loading performance."
+        },
+        {
+          "key": "B",
+          "text": "The total time the main thread was blocked, preventing the user from interacting with the page.",
+          "is_correct": false,
+          "rationale": "This is related to Total Blocking Time (TBT), which measures page responsiveness."
+        },
+        {
+          "key": "C",
+          "text": "The visual stability of a page, quantifying how much unexpected layout shifts occur during its lifecycle.",
+          "is_correct": true,
+          "rationale": "CLS measures the impact of unexpected element movements, which contribute to a poor user experience."
+        },
+        {
+          "key": "D",
+          "text": "The delay between a user's first interaction with the page and the browser's response to it.",
+          "is_correct": false,
+          "rationale": "This describes First Input Delay (FID), which measures interactivity."
+        },
+        {
+          "key": "E",
+          "text": "The total size of all network resources that were downloaded to render the initial page view.",
+          "is_correct": false,
+          "rationale": "This is a general performance metric but is not a specific Core Web Vital like CLS."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What is a key difference between Server-Side Rendering (SSR) and Static Site Generation (SSG)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "SSR generates HTML on the client-side using JavaScript, while SSG pre-renders it on the server.",
+          "is_correct": false,
+          "rationale": "Both SSR and SSG generate HTML on the server; the key difference is when they do it."
+        },
+        {
+          "key": "B",
+          "text": "SSG is better for dynamic, user-specific content, whereas SSR is ideal for static marketing pages.",
+          "is_correct": false,
+          "rationale": "The opposite is true. SSR is better for dynamic content, while SSG is ideal for static content."
+        },
+        {
+          "key": "C",
+          "text": "SSR builds the HTML page at request time, while SSG builds the HTML page at build time.",
+          "is_correct": true,
+          "rationale": "SSR generates a page for each user request. SSG generates all pages once during the build process."
+        },
+        {
+          "key": "D",
+          "text": "SSG requires a running Node.js server to function, but SSR can be deployed on any static host.",
+          "is_correct": false,
+          "rationale": "SSR requires a server to handle requests, while SSG outputs static files that can be hosted anywhere."
+        },
+        {
+          "key": "E",
+          "text": "SSR provides better SEO performance than SSG because search engine crawlers can execute JavaScript effectively.",
+          "is_correct": false,
+          "rationale": "Both provide excellent SEO. SSG is often faster as pages are pre-built, which can be an SEO advantage."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "How does the Shadow DOM help in creating robust and maintainable web components?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically makes all custom elements accessible by adding the necessary ARIA roles and attributes.",
+          "is_correct": false,
+          "rationale": "Accessibility must still be managed by the developer; Shadow DOM does not automate it."
+        },
+        {
+          "key": "B",
+          "text": "It provides a global CSS scope, allowing component styles to be easily overridden by parent pages.",
+          "is_correct": false,
+          "rationale": "It does the opposite; it provides encapsulated, not global, CSS scope to prevent style leakage."
+        },
+        {
+          "key": "C",
+          "text": "It encrypts the component's internal state, providing a secure boundary for sensitive user data.",
+          "is_correct": false,
+          "rationale": "Shadow DOM is for encapsulation of DOM and styles, not for data encryption or security."
+        },
+        {
+          "key": "D",
+          "text": "It allows components to share their internal DOM structure directly with other components for better performance.",
+          "is_correct": false,
+          "rationale": "It encapsulates the DOM structure, preventing direct access from outside the component to ensure reliability."
+        },
+        {
+          "key": "E",
+          "text": "It encapsulates a component's DOM and styling, preventing conflicts with the main document's DOM.",
+          "is_correct": true,
+          "rationale": "This encapsulation is the key benefit, ensuring a component's styles and structure do not leak out or get affected."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "In TypeScript, what is the primary function of the `Partial<Type>` utility type?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It constructs a new type by picking a set of properties from an existing `Type`.",
+          "is_correct": false,
+          "rationale": "This describes the `Pick<Type, Keys>` utility type, which selects specified properties."
+        },
+        {
+          "key": "B",
+          "text": "It creates a type where all properties of the original `Type` are made optional.",
+          "is_correct": true,
+          "rationale": "`Partial<Type>` iterates over all properties of `Type` and marks each one as optional (e.g., `prop?: value`)."
+        },
+        {
+          "key": "C",
+          "text": "It constructs a type by excluding a set of specified properties from the original `Type`.",
+          "is_correct": false,
+          "rationale": "This describes the `Omit<Type, Keys>` utility type, which removes specified properties."
+        },
+        {
+          "key": "D",
+          "text": "It creates a type where all properties of the original `Type` are made read-only.",
+          "is_correct": false,
+          "rationale": "This describes the `Readonly<Type>` utility type, which prevents properties from being reassigned."
+        },
+        {
+          "key": "E",
+          "text": "It ensures that all properties of the original `Type` are present and not null or undefined.",
+          "is_correct": false,
+          "rationale": "This describes the `Required<Type>` utility type, which makes all properties mandatory."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the most effective way to prevent Cross-Site Scripting (XSS) in a React application?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using the `dangerouslySetInnerHTML` prop to render all dynamic content received from APIs.",
+          "is_correct": false,
+          "rationale": "This prop explicitly bypasses React's protections and is a common source of XSS vulnerabilities if not used carefully."
+        },
+        {
+          "key": "B",
+          "text": "Implementing a strict Content Security Policy (CSP) header on the server hosting the application.",
+          "is_correct": false,
+          "rationale": "CSP is a crucial defense-in-depth measure, but the primary prevention is proper output encoding, which React does by default."
+        },
+        {
+          "key": "C",
+          "text": "Relying on React's default data binding and JSX syntax, which automatically escapes content.",
+          "is_correct": true,
+          "rationale": "React automatically escapes string values embedded in JSX, converting them to text and preventing script injection."
+        },
+        {
+          "key": "D",
+          "text": "Manually validating and sanitizing all user input on the client-side before sending it to a server.",
+          "is_correct": false,
+          "rationale": "Client-side validation is good practice but easily bypassed; the vulnerability occurs when rendering untrusted data, not receiving it."
+        },
+        {
+          "key": "E",
+          "text": "Storing all sensitive user data in browser `localStorage` instead of `sessionStorage` for better security.",
+          "is_correct": false,
+          "rationale": "Storage choice is unrelated to XSS prevention. Both `localStorage` and `sessionStorage` are vulnerable to XSS attacks."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "When implementing infinite scrolling, which modern browser API is most efficient for detecting when to load more content?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The `scroll` event listener attached to the window, checking element positions on every scroll event.",
+          "is_correct": false,
+          "rationale": "This is inefficient as it fires rapidly, potentially causing performance issues and jank on the main thread."
+        },
+        {
+          "key": "B",
+          "text": "The `ResizeObserver` API, which can monitor when the document's total height changes significantly.",
+          "is_correct": false,
+          "rationale": "`ResizeObserver` is for observing changes to an element's size, not its visibility within the viewport."
+        },
+        {
+          "key": "C",
+          "text": "The `MutationObserver` API, which detects when new items are added to the list of content.",
+          "is_correct": false,
+          "rationale": "`MutationObserver` observes DOM changes but does not track element visibility relative to the viewport."
+        },
+        {
+          "key": "D",
+          "text": "The `IntersectionObserver` API, which asynchronously observes when a target element enters the viewport.",
+          "is_correct": true,
+          "rationale": "This API is highly performant as it offloads visibility checks from the main thread, making it ideal for this use case."
+        },
+        {
+          "key": "E",
+          "text": "The `getBoundingClientRect()` method inside a `setInterval` to periodically check an element's position.",
+          "is_correct": false,
+          "rationale": "This polling approach is inefficient and can cause layout thrashing, leading to poor performance."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is the primary role of middleware, like Redux Thunk or Redux Saga, in a Redux application?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To directly mutate the Redux state, bypassing the need for pure functions in reducers.",
+          "is_correct": false,
+          "rationale": "Middleware should not mutate state directly; that is the sole responsibility of pure reducer functions."
+        },
+        {
+          "key": "B",
+          "text": "To allow side effects, such as asynchronous API calls, to be handled within the Redux action lifecycle.",
+          "is_correct": true,
+          "rationale": "Middleware provides a third-party extension point between dispatching an action and the moment it reaches the reducer."
+        },
+        {
+          "key": "C",
+          "text": "To replace the need for connecting React components to the Redux store with a simpler API.",
+          "is_correct": false,
+          "rationale": "Connecting components is handled by libraries like React-Redux, which is separate from middleware's purpose."
+        },
+        {
+          "key": "D",
+          "text": "To combine multiple reducers into a single root reducer for the Redux store to use.",
+          "is_correct": false,
+          "rationale": "This is the job of the `combineReducers` function provided by the core Redux library."
+        },
+        {
+          "key": "E",
+          "text": "To provide a way to persist the entire Redux state to `localStorage` automatically on every change.",
+          "is_correct": false,
+          "rationale": "While persistence can be implemented as middleware, it is not the primary or universal role of all middleware."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "In CSS, what is the key advantage of using `rem` units over `px` units for font sizes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "`rem` units provide more precise control over element sizing, allowing for fractional pixel values.",
+          "is_correct": false,
+          "rationale": "`px` is the unit for precise pixel control. `rem` is for scalability, not precision."
+        },
+        {
+          "key": "B",
+          "text": "Using `rem` units for fonts allows the entire UI to scale accessibility with the root font-size setting.",
+          "is_correct": true,
+          "rationale": "`rem` is relative to the root `<html>` element's font-size, making it easy to scale the entire application."
+        },
+        {
+          "key": "C",
+          "text": "`rem` units are calculated faster by the browser's rendering engine, leading to better paint performance.",
+          "is_correct": false,
+          "rationale": "The performance difference between `rem` and `px` calculations is negligible and not a factor in choosing them."
+        },
+        {
+          "key": "D",
+          "text": "They are relative to the parent element's font size, making them ideal for nested component styling.",
+          "is_correct": false,
+          "rationale": "This describes `em` units. `rem` units are always relative to the root element, which avoids nesting complexity."
+        },
+        {
+          "key": "E",
+          "text": "Browsers automatically convert `rem` units to `vh` or `vw` units for better responsive layout behavior.",
+          "is_correct": false,
+          "rationale": "`rem` units are related to font size, not viewport units like `vh` or `vw`."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What problem does React's `memo` higher-order component primarily solve in application performance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It prevents a component from re-rendering if its props have not changed, avoiding unnecessary render cycles.",
+          "is_correct": true,
+          "rationale": "`memo` performs a shallow comparison of props, and if they are the same, it reuses the last rendered result."
+        },
+        {
+          "key": "B",
+          "text": "It caches the results of expensive function calls within a component between multiple renders.",
+          "is_correct": false,
+          "rationale": "This describes the `useMemo` hook, which memoizes a value, not an entire component."
+        },
+        {
+          "key": "C",
+          "text": "It automatically debounces event handler functions to prevent them from firing too frequently.",
+          "is_correct": false,
+          "rationale": "Debouncing is a separate performance technique that is not handled by `React.memo`."
+        },
+        {
+          "key": "D",
+          "text": "It allows a component to fetch data asynchronously without blocking the initial component render.",
+          "is_correct": false,
+          "rationale": "This is typically handled by `useEffect` for data fetching or features like React Suspense."
+        },
+        {
+          "key": "E",
+          "text": "It splits a large component's render logic into smaller chunks that can be processed independently.",
+          "is_correct": false,
+          "rationale": "This is more related to code splitting or concurrent rendering features, not component memoization."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "When configuring a Content Security Policy (CSP), what is the purpose of the `nonce` attribute?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It specifies a list of trusted domain names from which scripts are allowed to be loaded.",
+          "is_correct": false,
+          "rationale": "This is the purpose of the `script-src` directive itself (e.g., `script-src 'self' trusted.com`)."
+        },
+        {
+          "key": "B",
+          "text": "It allows specific inline scripts to execute by matching a unique, randomly generated value in the header.",
+          "is_correct": true,
+          "rationale": "A nonce allows whitelisting specific inline scripts on a per-request basis, which is safer than `'unsafe-inline'`."
+        },
+        {
+          "key": "C",
+          "text": "It forces all network requests from the page to be made over a secure HTTPS connection.",
+          "is_correct": false,
+          "rationale": "This is handled by the `upgrade-insecure-requests` directive or by using HSTS headers."
+        },
+        {
+          "key": "D",
+          "text": "It blocks the execution of any scripts that use the `eval()` function or similar string-to-code methods.",
+          "is_correct": false,
+          "rationale": "This is controlled by the `'unsafe-eval'` keyword within the `script-src` directive."
+        },
+        {
+          "key": "E",
+          "text": "It provides a cryptographic hash of an external script file to ensure its integrity has not been compromised.",
+          "is_correct": false,
+          "rationale": "This describes Subresource Integrity (SRI), which uses the `integrity` attribute on a script tag, not a CSP nonce."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What is a primary benefit of using CSS-in-JS libraries like Styled Components or Emotion?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They completely eliminate the need for a CSS preprocessor like Sass for variables and mixins.",
+          "is_correct": false,
+          "rationale": "While they offer similar features, their primary benefit is scoped styling and component-based architecture."
+        },
+        {
+          "key": "B",
+          "text": "They generate globally scoped CSS class names that are easier to debug and override when needed.",
+          "is_correct": false,
+          "rationale": "They do the opposite; they generate unique, locally scoped class names to prevent conflicts and ensure encapsulation."
+        },
+        {
+          "key": "C",
+          "text": "They guarantee faster initial page loads by inlining all CSS directly into the HTML document.",
+          "is_correct": false,
+          "rationale": "Runtime CSS-in-JS can have a performance cost; the benefits are primarily in developer experience and maintainability."
+        },
+        {
+          "key": "D",
+          "text": "They colocate styles with their corresponding components, improving modularity and code maintainability.",
+          "is_correct": true,
+          "rationale": "This colocation makes components self-contained and easier to manage, refactor, or remove without leaving orphaned styles."
+        },
+        {
+          "key": "E",
+          "text": "They enforce a strict BEM (Block, Element, Modifier) naming convention for all CSS classes.",
+          "is_correct": false,
+          "rationale": "They abstract away class names entirely, eliminating the need for manual naming conventions like BEM."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "In accessibility (a11y), what is the main purpose of the `aria-live` attribute?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To indicate to screen readers that an element is currently visible on the screen.",
+          "is_correct": false,
+          "rationale": "Element visibility is determined by its presence in the DOM and CSS; `aria-live` is for dynamic content."
+        },
+        {
+          "key": "B",
+          "text": "To hide purely decorative elements from assistive technologies so they are not announced to the user.",
+          "is_correct": false,
+          "rationale": "This is the purpose of `aria-hidden=\"true\"` or using a `role=\"presentation\"`."
+        },
+        {
+          "key": "C",
+          "text": "To inform assistive technologies that a region's content is updated dynamically and should be announced.",
+          "is_correct": true,
+          "rationale": "It marks a live region, telling screen readers to announce content changes without the user having to shift focus."
+        },
+        {
+          "key": "D",
+          "text": "To define a custom keyboard shortcut for activating a specific interactive element on the page.",
+          "is_correct": false,
+          "rationale": "Keyboard shortcuts are typically managed with JavaScript event listeners, not the `aria-live` attribute."
+        },
+        {
+          "key": "E",
+          "text": "To provide a descriptive text label for an element that has no visible text content.",
+          "is_correct": false,
+          "rationale": "This is the purpose of attributes like `aria-label` or `aria-labelledby`."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "How does Vite's development server achieve significantly faster startup times compared to traditional bundlers like Webpack?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It pre-bundles the entire application into a single, highly optimized file before starting the server.",
+          "is_correct": false,
+          "rationale": "This is what traditional bundlers do, which is slow. Vite avoids this initial bundling step."
+        },
+        {
+          "key": "B",
+          "text": "It leverages native ES Modules (ESM) in the browser, serving files on demand as they are requested.",
+          "is_correct": true,
+          "rationale": "Vite serves source files over native ESM, letting the browser handle the module graph, which is extremely fast."
+        },
+        {
+          "key": "C",
+          "text": "It uses a more efficient programming language like Rust for its core bundling logic.",
+          "is_correct": false,
+          "rationale": "While some modern tools use Rust (e.g., SWC), Vite's speed comes from its no-bundle architecture, not the language."
+        },
+        {
+          "key": "D",
+          "text": "It runs the development server entirely in a Web Worker to avoid blocking the main thread.",
+          "is_correct": false,
+          "rationale": "The dev server is a Node.js process; its architecture, not its execution context, provides the speed."
+        },
+        {
+          "key": "E",
+          "text": "It maintains a persistent cache of all modules on a global server, sharing it between projects.",
+          "is_correct": false,
+          "rationale": "While it does have caching, its primary speed advantage is the native ESM on-demand approach."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What is a key trade-off when using the Context API in React for global state management?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It can only be used in class components, making it incompatible with modern functional components and hooks.",
+          "is_correct": false,
+          "rationale": "The Context API is fully compatible with functional components through the `useContext` hook."
+        },
+        {
+          "key": "B",
+          "text": "Context is inherently asynchronous, introducing potential race conditions when updating state from multiple components.",
+          "is_correct": false,
+          "rationale": "Context updates are synchronous within React's render cycle; it does not have inherent race conditions."
+        },
+        {
+          "key": "C",
+          "text": "Components consuming a context will re-render whenever the context value changes, even if they don't use that specific part.",
+          "is_correct": true,
+          "rationale": "Context has no selector mechanism, causing all consumers to re-render on any value change, which can lead to performance issues."
+        },
+        {
+          "key": "D",
+          "text": "It does not allow for storing non-serializable data, such as functions or class instances, in its state.",
+          "is_correct": false,
+          "rationale": "Context can hold any JavaScript value, including functions and objects, unlike some state management tools that require serializability."
+        },
+        {
+          "key": "E",
+          "text": "It requires a complex setup with reducers and actions, similar to Redux, for even simple state sharing.",
+          "is_correct": false,
+          "rationale": "Context API can be used with a simple `useState` for basic state, making it much simpler than Redux for many use cases."
+        }
+      ]
+    }
+  ]
+}

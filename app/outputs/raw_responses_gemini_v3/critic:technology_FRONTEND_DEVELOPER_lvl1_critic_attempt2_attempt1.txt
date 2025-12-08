@@ -1,0 +1,775 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "Which HTML tag is the correct one to use when defining the structure of a navigation menu on a website?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The `<article>` tag defines independent, self-contained content that is reusable in many different parts of a website.",
+          "is_correct": false,
+          "rationale": "The `<article>` tag is for independent content.",
+          "is_correct": false
+        },
+        {
+          "key": "B",
+          "text": "The `<nav>` tag is designed and used for sections of a webpage that contain links to other pages or parts.",
+          "is_correct": true,
+          "rationale": "The `<nav>` tag is designed for navigation.",
+          "is_correct": true
+        },
+        {
+          "key": "C",
+          "text": "The `<aside>` tag is used to define content aside from the main page content, like a sidebar with related information.",
+          "is_correct": false,
+          "rationale": "The `<aside>` tag defines supplementary content.",
+          "is_correct": false
+        },
+        {
+          "key": "D",
+          "text": "The `<footer>` tag defines the footer section of a document, typically containing contact and copyright information for the site.",
+          "is_correct": false,
+          "rationale": "The `<footer>` tag is for document footers.",
+          "is_correct": false
+        },
+        {
+          "key": "E",
+          "text": "The `<section>` tag is a thematic grouping of content, typically including a heading, but not specifically for navigation.",
+          "is_correct": false,
+          "rationale": "The `<section>` tag is a general content division.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the primary function of CSS in web development, especially for front-end developers working on user interfaces?",
+      "options": [
+        {
+          "key": "A",
+          "text": "CSS primarily handles the server-side logic and database interactions required for a dynamic web application to function correctly.",
+          "is_correct": false,
+          "rationale": "CSS does not handle server-side logic.",
+          "is_correct": false
+        },
+        {
+          "key": "B",
+          "text": "CSS is used for defining the styling, visual layout, and overall presentation of HTML elements on a webpage.",
+          "is_correct": true,
+          "rationale": "CSS is for styling and layout.",
+          "is_correct": true
+        },
+        {
+          "key": "C",
+          "text": "CSS is responsible for managing the dynamic behavior, interactivity, and complex animations of web applications and user interfaces.",
+          "is_correct": false,
+          "rationale": "CSS does not manage behavior.",
+          "is_correct": false
+        },
+        {
+          "key": "D",
+          "text": "CSS is used for defining the document structure, content hierarchy, and semantic meaning of a webpage's elements.",
+          "is_correct": false,
+          "rationale": "CSS is not for document structure.",
+          "is_correct": false
+        },
+        {
+          "key": "E",
+          "text": "CSS compiles and optimizes the JavaScript code to improve the performance, loading times, and overall efficiency of a web application.",
+          "is_correct": false,
+          "rationale": "CSS does not optimize JavaScript.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which JavaScript keyword is used to declare a variable with block scope, meaning it's only accessible within that block?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using the keyword `global` declares a variable with global scope, accessible from anywhere in the JavaScript environment or application.",
+          "is_correct": false,
+          "rationale": "`global` is not a JavaScript keyword.",
+          "is_correct": false
+        },
+        {
+          "key": "B",
+          "text": "The keyword `var` declares a variable with function scope, or global scope if declared outside of a function in JavaScript.",
+          "is_correct": false,
+          "rationale": "`var` has function scope.",
+          "is_correct": false
+        },
+        {
+          "key": "C",
+          "text": "The keyword `const` declares a variable with block scope, and its value cannot be reassigned after its initial assignment.",
+          "is_correct": true,
+          "rationale": "`const` is block-scoped and immutable.",
+          "is_correct": true
+        },
+        {
+          "key": "D",
+          "text": "The keyword `static` is used for defining class-level variables or methods, not for declaring block-scoped variables in JavaScript.",
+          "is_correct": false,
+          "rationale": "`static` is for class-level variables.",
+          "is_correct": false
+        },
+        {
+          "key": "E",
+          "text": "The keyword `function` is used to declare a new function and does not define variables with specific scoping rules in JavaScript.",
+          "is_correct": false,
+          "rationale": "`function` is for defining functions.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is the primary purpose of the `alt` attribute in an `<img>` tag within HTML documents for web accessibility?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The `alt` attribute specifies the alignment of the image relative to the surrounding text and other elements on the page.",
+          "is_correct": false,
+          "rationale": "Alignment is not the purpose.",
+          "is_correct": false
+        },
+        {
+          "key": "B",
+          "text": "The `alt` attribute defines the alternative text that is displayed if the image fails to load due to errors or slow connections.",
+          "is_correct": true,
+          "rationale": "Alt provides alternative text.",
+          "is_correct": true
+        },
+        {
+          "key": "C",
+          "text": "The `alt` attribute sets the animation speed for animated images like GIFs or WebP formats, controlling how fast they play.",
+          "is_correct": false,
+          "rationale": "Animation speed is not the purpose.",
+          "is_correct": false
+        },
+        {
+          "key": "D",
+          "text": "The `alt` attribute provides advanced tracking data for image views, interactions, and user engagement for analytics purposes.",
+          "is_correct": false,
+          "rationale": "Tracking is not the purpose.",
+          "is_correct": false
+        },
+        {
+          "key": "E",
+          "text": "The `alt` attribute is used for setting the image resolution for different screen sizes and devices to ensure optimal display quality.",
+          "is_correct": false,
+          "rationale": "Resolution is not the purpose.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which CSS property is used to control the spacing between lines of text within HTML elements, improving readability?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The `word-spacing` property adjusts the space between individual words, not the vertical spacing between lines of text in elements.",
+          "is_correct": false,
+          "rationale": "`word-spacing` affects word spacing.",
+          "is_correct": false
+        },
+        {
+          "key": "B",
+          "text": "The `text-indent` property is used to specify the indentation of the first line of text within a block-level element.",
+          "is_correct": false,
+          "rationale": "`text-indent` indents the first line.",
+          "is_correct": false
+        },
+        {
+          "key": "C",
+          "text": "The `letter-spacing` property adjusts the space between individual characters, not the spacing between lines of text in elements.",
+          "is_correct": false,
+          "rationale": "`letter-spacing` affects letter spacing.",
+          "is_correct": false
+        },
+        {
+          "key": "D",
+          "text": "The `line-height` property is used to control the space between lines of text within HTML elements, affecting readability.",
+          "is_correct": true,
+          "rationale": "`line-height` controls line spacing.",
+          "is_correct": true
+        },
+        {
+          "key": "E",
+          "text": "The `white-space` property controls how white space is handled within an element, not the specific spacing between lines of text.",
+          "is_correct": false,
+          "rationale": "`white-space` handles white space.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What is the primary purpose of using `console.log()` in JavaScript development and debugging processes for web applications?",
+      "options": [
+        {
+          "key": "A",
+          "text": "`console.log()` is used to display formatted output and debugging information directly in the browser's console for developers.",
+          "is_correct": true,
+          "rationale": "`console.log()` displays output to the console.",
+          "is_correct": true
+        },
+        {
+          "key": "B",
+          "text": "`console.log()` is used to create interactive user interfaces directly within the browser, allowing for real-time user interaction.",
+          "is_correct": false,
+          "rationale": "`console.log()` does not create UIs.",
+          "is_correct": false
+        },
+        {
+          "key": "C",
+          "text": "`console.log()` is used to send data to a server for logging and analysis purposes, tracking user behavior and application performance.",
+          "is_correct": false,
+          "rationale": "`console.log()` doesn't send data to servers.",
+          "is_correct": false
+        },
+        {
+          "key": "D",
+          "text": "`console.log()` is used to automatically fix errors in JavaScript code during runtime, correcting syntax and logic issues.",
+          "is_correct": false,
+          "rationale": "`console.log()` does not fix errors.",
+          "is_correct": false
+        },
+        {
+          "key": "E",
+          "text": "`console.log()` is used to encrypt sensitive data before storing it in local storage, ensuring user data is protected from unauthorized access.",
+          "is_correct": false,
+          "rationale": "`console.log()` does not encrypt data.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Which HTML element is used to embed external JavaScript files into an HTML document, allowing the code to be executed?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The `<link>` element is used for linking external resources like stylesheets, not for including or embedding JavaScript files in HTML.",
+          "is_correct": false,
+          "rationale": "`<link>` is for stylesheets.",
+          "is_correct": false
+        },
+        {
+          "key": "B",
+          "text": "The `<script>` element is used to embed or reference executable JavaScript code within an HTML document for dynamic functionality.",
+          "is_correct": true,
+          "rationale": "`<script>` is for JavaScript code.",
+          "is_correct": true
+        },
+        {
+          "key": "C",
+          "text": "The `<style>` element is used for embedding CSS styles directly within an HTML document, not for including JavaScript files for execution.",
+          "is_correct": false,
+          "rationale": "`<style>` is for CSS.",
+          "is_correct": false
+        },
+        {
+          "key": "D",
+          "text": "The `<object>` element is generally used for embedding multimedia content, not specifically for including external JavaScript files in HTML.",
+          "is_correct": false,
+          "rationale": "`<object>` is for multimedia.",
+          "is_correct": false
+        },
+        {
+          "key": "E",
+          "text": "The `<iframe>` element is used to embed another HTML document within the current one, not for including external JavaScript files.",
+          "is_correct": false,
+          "rationale": "`<iframe>` embeds HTML documents.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What is the primary purpose of using a CSS preprocessor like Sass or Less in modern front-end web development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "CSS preprocessors enhance CSS with features like variables, nesting, and mixins, improving code organization and maintainability for developers.",
+          "is_correct": true,
+          "rationale": "Preprocessors add features to CSS.",
+          "is_correct": true
+        },
+        {
+          "key": "B",
+          "text": "CSS preprocessors directly optimize JavaScript code for better performance, faster execution, and improved overall application efficiency.",
+          "is_correct": false,
+          "rationale": "Preprocessors don't optimize JavaScript.",
+          "is_correct": false
+        },
+        {
+          "key": "C",
+          "text": "CSS preprocessors handle server-side rendering of web pages for improved SEO performance, accessibility, and initial load times.",
+          "is_correct": false,
+          "rationale": "Preprocessors don't handle server-side rendering.",
+          "is_correct": false
+        },
+        {
+          "key": "D",
+          "text": "CSS preprocessors automatically convert HTML code into optimized CSS for better rendering, performance, and cross-browser compatibility.",
+          "is_correct": false,
+          "rationale": "Preprocessors don't convert HTML to CSS.",
+          "is_correct": false
+        },
+        {
+          "key": "E",
+          "text": "CSS preprocessors manage and optimize image assets for faster loading times on web pages, improving user experience and site performance.",
+          "is_correct": false,
+          "rationale": "Preprocessors don't manage image assets.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is the significance of the `defer` attribute when used in a `<script>` tag within an HTML document?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The `defer` attribute ensures the script is executed immediately, blocking HTML parsing until the script has been fully executed and completed.",
+          "is_correct": false,
+          "rationale": "`defer` does not block parsing.",
+          "is_correct": false
+        },
+        {
+          "key": "B",
+          "text": "The `defer` attribute indicates that the script should only be executed if the browser supports the specific version of JavaScript used.",
+          "is_correct": false,
+          "rationale": "`defer` does not check for browser support.",
+          "is_correct": false
+        },
+        {
+          "key": "C",
+          "text": "The `defer` attribute downloads the script in parallel with HTML parsing and executes it after the HTML parsing is fully complete.",
+          "is_correct": true,
+          "rationale": "`defer` downloads and executes after parsing.",
+          "is_correct": true
+        },
+        {
+          "key": "D",
+          "text": "The `defer` attribute encrypts the script content for secure transmission over the network, protecting it from unauthorized access.",
+          "is_correct": false,
+          "rationale": "`defer` does not encrypt content.",
+          "is_correct": false
+        },
+        {
+          "key": "E",
+          "text": "The `defer` attribute compresses the script to reduce file size and improve loading times, enhancing website performance and speed.",
+          "is_correct": false,
+          "rationale": "`defer` does not compress files.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Which CSS property or technique is commonly used to create responsive layouts that adapt to different screen sizes and devices?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The `position` property controls the placement of elements, but does not inherently handle responsiveness across different screen sizes.",
+          "is_correct": false,
+          "rationale": "`position` controls element placement.",
+          "is_correct": false
+        },
+        {
+          "key": "B",
+          "text": "The `display` property controls how elements are displayed, but does not automatically handle responsiveness for various screen sizes.",
+          "is_correct": false,
+          "rationale": "`display` controls element display.",
+          "is_correct": false
+        },
+        {
+          "key": "C",
+          "text": "The `float` property positions elements to the left or right, but does not manage overall responsiveness for different screen sizes.",
+          "is_correct": false,
+          "rationale": "`float` positions elements.",
+          "is_correct": false
+        },
+        {
+          "key": "D",
+          "text": "The `margin` property sets the margin around elements, but does not adapt layouts to fit different screen sizes and devices.",
+          "is_correct": false,
+          "rationale": "`margin` sets element margins.",
+          "is_correct": false
+        },
+        {
+          "key": "E",
+          "text": "Media queries adapt styles based on screen size, enabling responsive layouts for different devices and screen resolutions effectively.",
+          "is_correct": true,
+          "rationale": "Media queries adapt to screen size.",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the primary purpose of using `addEventListener` in JavaScript when handling DOM events in web development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "`addEventListener` is used to remove an existing event listener from an HTML element, detaching a function from a specific event.",
+          "is_correct": false,
+          "rationale": "`addEventListener` adds, not removes, listeners.",
+          "is_correct": false
+        },
+        {
+          "key": "B",
+          "text": "`addEventListener` sets the default styling for HTML elements, overriding CSS stylesheets and inline styles for visual presentation.",
+          "is_correct": false,
+          "rationale": "`addEventListener` doesn't style elements.",
+          "is_correct": false
+        },
+        {
+          "key": "C",
+          "text": "`addEventListener` attaches a function to be executed when a specific event occurs on an HTML element, enabling dynamic behavior.",
+          "is_correct": true,
+          "rationale": "`addEventListener` attaches event handlers.",
+          "is_correct": true
+        },
+        {
+          "key": "D",
+          "text": "`addEventListener` is used to define new HTML elements and their properties, extending the standard HTML vocabulary with custom elements.",
+          "is_correct": false,
+          "rationale": "`addEventListener` doesn't define elements.",
+          "is_correct": false
+        },
+        {
+          "key": "E",
+          "text": "`addEventListener` is used to encrypt data transmitted between the client and server, ensuring secure communication and data protection.",
+          "is_correct": false,
+          "rationale": "`addEventListener` doesn't encrypt data.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Which of the following HTML5 elements is NOT a valid semantic element used for structuring web content and improving accessibility?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The `<article>` element is a valid semantic element that represents a self-contained composition in a document or page.",
+          "is_correct": false,
+          "rationale": "`<article>` is a valid semantic element.",
+          "is_correct": false
+        },
+        {
+          "key": "B",
+          "text": "The `<aside>` element is a valid semantic element representing content aside from the main content of the page, like a sidebar.",
+          "is_correct": false,
+          "rationale": "`<aside>` is a valid semantic element.",
+          "is_correct": false
+        },
+        {
+          "key": "C",
+          "text": "The `<section>` element is a valid semantic element that defines a thematic grouping of content within a document or application.",
+          "is_correct": false,
+          "rationale": "`<section>` is a valid semantic element.",
+          "is_correct": false
+        },
+        {
+          "key": "D",
+          "text": "The `<header>` element is a valid semantic element that represents the header of a document or section, often containing titles.",
+          "is_correct": false,
+          "rationale": "`<header>` is a valid semantic element.",
+          "is_correct": false
+        },
+        {
+          "key": "E",
+          "text": "The `<center>` element is not a semantic element and is deprecated in favor of CSS styling for aligning content on a webpage.",
+          "is_correct": true,
+          "rationale": "`<center>` is deprecated.",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is the purpose of using `localStorage` in web development with front-end technologies like JavaScript for web applications?",
+      "options": [
+        {
+          "key": "A",
+          "text": "`localStorage` is used for storing session-specific data that is automatically cleared when the browser window or tab is closed by the user.",
+          "is_correct": false,
+          "rationale": "`localStorage` persists after browser close.",
+          "is_correct": false
+        },
+        {
+          "key": "B",
+          "text": "`localStorage` is used for storing data on the server-side for permanent data storage, accessible across multiple user sessions and devices.",
+          "is_correct": false,
+          "rationale": "`localStorage` is client-side.",
+          "is_correct": false
+        },
+        {
+          "key": "C",
+          "text": "`localStorage` is used for storing data locally in the browser with no expiration time, persisting data even after the browser is closed.",
+          "is_correct": true,
+          "rationale": "`localStorage` stores data locally.",
+          "is_correct": true
+        },
+        {
+          "key": "D",
+          "text": "`localStorage` is used for storing data temporarily in the browser's cache for quick access, similar to cookies but with more storage capacity.",
+          "is_correct": false,
+          "rationale": "`localStorage` is not temporary cache.",
+          "is_correct": false
+        },
+        {
+          "key": "E",
+          "text": "`localStorage` is used for storing data securely, encrypted, and accessible only by the user, ensuring data privacy and protection.",
+          "is_correct": false,
+          "rationale": "`localStorage` is not inherently secure.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Which of the following is a valid way to comment out multiple lines of code in JavaScript files to prevent their execution?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using `<!--` and `-->` is the correct way to comment out multiple lines of code in HTML files, not in JavaScript files for web applications.",
+          "is_correct": false,
+          "rationale": "HTML comments are not valid in JS.",
+          "is_correct": false
+        },
+        {
+          "key": "B",
+          "text": "Using `//` at the beginning of each line is a valid way to create single-line comments, not multi-line blocks, in JavaScript files.",
+          "is_correct": false,
+          "rationale": "Single-line comments aren't multi-line.",
+          "is_correct": false
+        },
+        {
+          "key": "C",
+          "text": "Using `/*` to start and `*/` to end a block is the valid way to comment out multiple lines of code in JavaScript files effectively.",
+          "is_correct": true,
+          "rationale": "`/* */` comments out blocks of code.",
+          "is_correct": true
+        },
+        {
+          "key": "D",
+          "text": "Using single quotes `'` at the start and end of the block makes it a string, not a comment, and will likely cause errors in JavaScript.",
+          "is_correct": false,
+          "rationale": "Quotes define a string.",
+          "is_correct": false
+        },
+        {
+          "key": "E",
+          "text": "Using `##` at the beginning of each line is not a valid comment syntax in JavaScript and will result in syntax errors during execution.",
+          "is_correct": false,
+          "rationale": "`##` is not valid JS comment syntax.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What does the term 'DOM' stand for in the context of web development and JavaScript programming for interactive websites?",
+      "options": [
+        {
+          "key": "A",
+          "text": "DOM stands for Data Object Model, which is a standard for representing data structures and relationships in computer memory.",
+          "is_correct": false,
+          "rationale": "DOM is not Data Object Model.",
+          "is_correct": false
+        },
+        {
+          "key": "B",
+          "text": "DOM stands for Document Object Model, representing HTML and XML documents as a structured object tree for manipulation.",
+          "is_correct": true,
+          "rationale": "DOM is Document Object Model.",
+          "is_correct": true
+        },
+        {
+          "key": "C",
+          "text": "DOM stands for Dynamic Output Module, which is a JavaScript library used for generating dynamic content and user interfaces.",
+          "is_correct": false,
+          "rationale": "DOM is not Dynamic Output Module.",
+          "is_correct": false
+        },
+        {
+          "key": "D",
+          "text": "DOM stands for Design Optimization Method, a technique for optimizing website loading times and improving overall performance.",
+          "is_correct": false,
+          "rationale": "DOM is not Design Optimization Method.",
+          "is_correct": false
+        },
+        {
+          "key": "E",
+          "text": "DOM stands for Distributed Object Management, a system for managing objects across a network in distributed computing environments.",
+          "is_correct": false,
+          "rationale": "DOM is not Distributed Object Management.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Which CSS selector is used to target all the paragraph elements `<p>` that are direct children within a `<div>` element?",
+      "options": [
+        {
+          "key": "A",
+          "text": "`div p` selects all `<p>` elements that are descendants of a `<div>`, not just the direct children within the `<div>` element.",
+          "is_correct": false,
+          "rationale": "`div p` selects all descendants.",
+          "is_correct": false
+        },
+        {
+          "key": "B",
+          "text": "`div > p` selects all `<p>` elements that are direct children of a `<div>` element, immediately nested inside the `<div>`.",
+          "is_correct": true,
+          "rationale": "`div > p` selects direct children.",
+          "is_correct": true
+        },
+        {
+          "key": "C",
+          "text": "`div + p` selects the first `<p>` element that is an immediate sibling of a `<div>` element, appearing directly after the `<div>`.",
+          "is_correct": false,
+          "rationale": "`div + p` selects immediate siblings.",
+          "is_correct": false
+        },
+        {
+          "key": "D",
+          "text": "`div ~ p` selects all `<p>` elements that are siblings of a `<div>` element, sharing the same parent element in the HTML structure.",
+          "is_correct": false,
+          "rationale": "`div ~ p` selects all siblings.",
+          "is_correct": false
+        },
+        {
+          "key": "E",
+          "text": "`div.p` selects elements that have both `div` and `p` classes applied, which is not the intended way to target paragraph elements.",
+          "is_correct": false,
+          "rationale": "`div.p` targets class names.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What is the purpose of using the `typeof` operator in JavaScript when programming web applications and handling data?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The `typeof` operator is used to determine the data type of a variable or expression in JavaScript, such as string, number, or boolean.",
+          "is_correct": true,
+          "rationale": "`typeof` determines data type.",
+          "is_correct": true
+        },
+        {
+          "key": "B",
+          "text": "The `typeof` operator is used to define a new class or object type in JavaScript code, creating custom data structures and objects.",
+          "is_correct": false,
+          "rationale": "`typeof` doesn't define classes.",
+          "is_correct": false
+        },
+        {
+          "key": "C",
+          "text": "The `typeof` operator is used to check if a variable is defined within a specific scope, determining its accessibility and visibility.",
+          "is_correct": false,
+          "rationale": "`typeof` doesn't check scope.",
+          "is_correct": false
+        },
+        {
+          "key": "D",
+          "text": "The `typeof` operator is used to convert a variable from one data type to another in JavaScript, such as converting a string to a number.",
+          "is_correct": false,
+          "rationale": "`typeof` doesn't convert data types.",
+          "is_correct": false
+        },
+        {
+          "key": "E",
+          "text": "The `typeof` operator is used to compare two variables to check if they are of the same data type, ensuring type consistency in operations.",
+          "is_correct": false,
+          "rationale": "`typeof` doesn't compare variables.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is a valid way to declare an arrow function in modern JavaScript (ES6) for web development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "`function = () => { ... }` is not a valid syntax for declaring a function in JavaScript and will result in a syntax error.",
+          "is_correct": false,
+          "rationale": "Invalid function declaration syntax.",
+          "is_correct": false
+        },
+        {
+          "key": "B",
+          "text": "`() => { ... } = function` is not a valid syntax for assigning a function in JavaScript and will cause an assignment error.",
+          "is_correct": false,
+          "rationale": "Invalid function assignment syntax.",
+          "is_correct": false
+        },
+        {
+          "key": "C",
+          "text": "`const myFunction = () => { ... }` is the correct and standard syntax for declaring an arrow function in modern JavaScript.",
+          "is_correct": true,
+          "rationale": "Correct arrow function declaration.",
+          "is_correct": true
+        },
+        {
+          "key": "D",
+          "text": "`myFunction() => { ... }` is not a valid syntax for declaring a function in JavaScript and will lead to a syntax error.",
+          "is_correct": false,
+          "rationale": "Invalid function declaration syntax.",
+          "is_correct": false
+        },
+        {
+          "key": "E",
+          "text": "`function => { ... }` is not a valid syntax for declaring a function in JavaScript and will result in a syntax error.",
+          "is_correct": false,
+          "rationale": "Invalid function declaration syntax.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is the purpose of using the `z-index` property in CSS when positioning HTML elements on a webpage for visual effects?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The `z-index` property controls the horizontal alignment of elements on a webpage, determining their position from left to right.",
+          "is_correct": false,
+          "rationale": "`z-index` doesn't control horizontal alignment.",
+          "is_correct": false
+        },
+        {
+          "key": "B",
+          "text": "The `z-index` property controls the stacking order of elements that overlap on a webpage, determining which element appears on top.",
+          "is_correct": true,
+          "rationale": "`z-index` controls stacking order.",
+          "is_correct": true
+        },
+        {
+          "key": "C",
+          "text": "The `z-index` property controls the zoom level of elements when the user zooms in or out, affecting their size and magnification.",
+          "is_correct": false,
+          "rationale": "`z-index` doesn't control zoom level.",
+          "is_correct": false
+        },
+        {
+          "key": "D",
+          "text": "The `z-index` property controls the size of elements relative to their parent container, adjusting their width and height dynamically.",
+          "is_correct": false,
+          "rationale": "`z-index` doesn't control element size.",
+          "is_correct": false
+        },
+        {
+          "key": "E",
+          "text": "The `z-index` property controls the transparency of elements, making them more or less visible by adjusting their opacity
