@@ -1,6 +1,7 @@
 """
 Alembic environment configuration for database migrations.
 """
+
 from logging.config import fileConfig
 import sys
 import os
@@ -20,17 +21,11 @@ if config.config_file_name is not None:
     fileConfig(config.config_file_name)
 
 # Add project root to path for imports
-sys.path.insert(0, os.path.realpath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.insert(0, os.path.realpath(os.path.join(os.path.dirname(__file__), "..")))
 
-# Import Base and all models for autogenerate support
-from app.core.database import Base
-from app.models import (
-    Sector, Branch, Specialization,
-    Quiz, Question, QuestionOption, QuizAttempt,
-    User, PeerBenchmark,
-    Badge, UserBadge,
-    Goal, JournalEntry,
-)
+# Import Base and all models from the central registry
+from src.app.db.base import Base
+from src.app.db.models import *  # noqa: F401, F403 - imports all models for autogenerate
 
 target_metadata = Base.metadata
 
@@ -66,10 +61,10 @@ def run_migrations_online() -> None:
     """
     # Use environment variables or fallback to alembic.ini
     database_url = os.getenv("DATABASE_URL", config.get_main_option("sqlalchemy.url"))
-    
+
     configuration = config.get_section(config.config_ini_section, {})
     configuration["sqlalchemy.url"] = database_url
-    
+
     connectable = engine_from_config(
         configuration,
         prefix="sqlalchemy.",
@@ -77,10 +72,7 @@ def run_migrations_online() -> None:
     )
 
     with connectable.connect() as connection:
-        context.configure(
-            connection=connection, 
-            target_metadata=target_metadata
-        )
+        context.configure(connection=connection, target_metadata=target_metadata)
 
         with context.begin_transaction():
             context.run_migrations()

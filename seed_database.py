@@ -21,39 +21,38 @@ def main():
         nargs="?",
         default="all",
         choices=["all", "sectors", "quizzes", "expanded"],
-        help="What to seed (default: all)"
+        help="What to seed (default: all)",
     )
-    parser.add_argument(
-        "--force",
-        action="store_true",
-        help="Force seeding even if data exists"
-    )
-    
+    parser.add_argument("--force", action="store_true", help="Force seeding even if data exists")
+
     args = parser.parse_args()
-    
+
     print("=" * 50)
     print("🌱 FWR Database Seeder")
     print("=" * 50)
-    
+
     if args.target == "all":
-        from app.seeds.base import run_all_seeds
+        from seeds.base import run_all_seeds
+
         run_all_seeds(force=args.force)
-    
+
     elif args.target == "sectors":
-        from app.seeds.seed_sectors import seed_sectors
+        from seeds.seed_sectors import seed_sectors
+
         seed_sectors(force=args.force)
-    
+
     elif args.target == "quizzes":
-        from app.seeds.seed_quizzes import seed_quizzes
+        from seeds.seed_quizzes import seed_quizzes
+
         seed_quizzes(force=args.force)
-    
+
     elif args.target == "expanded":
-        from app.seeds.seed_quizzes import seed_expanded_quizzes
+        from seeds.seed_quizzes import seed_expanded_quizzes
+
         seed_expanded_quizzes()
-    
+
     print("=" * 50)
 
 
 if __name__ == "__main__":
     main()
-

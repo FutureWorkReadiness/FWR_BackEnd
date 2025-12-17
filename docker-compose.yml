@@ -21,8 +21,9 @@ services:
     build: .
     container_name: futurework_backend
     volumes:
-      - ./app:/app/app
+      - ./src:/app/src
       - ./data:/app/data
+      - ./seeds:/app/seeds
       - ./alembic:/app/alembic
       - ./alembic.ini:/app/alembic.ini
       - ./seed_database.py:/app/seed_database.py
@@ -54,17 +55,18 @@ services:
 
         echo "📊 Creating tables and seeding database..."
         cd /app && python3 -c "
-        from app.core.database import Base, engine
-        from app.models import *
+        from src.app.db.session import engine
+        from src.app.db.base import Base
+        from src.app.db.models import *  # Import all models from central registry
         Base.metadata.create_all(bind=engine)
         print('✅ Tables created/verified')
         "
 
         echo "🌱 Auto-seeding if database is empty..."
-        cd /app && python3 -c "from app.seeds.base import auto_seed_if_empty; auto_seed_if_empty()"
+        cd /app && python3 -c "from seeds.base import auto_seed_if_empty; auto_seed_if_empty()"
 
         echo "🚀 Starting FastAPI server..."
-        exec uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+        exec uvicorn src.app.main:app --host 0.0.0.0 --port 8000 --reload
 
 volumes:
   postgres_data:

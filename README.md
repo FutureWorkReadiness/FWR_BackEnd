@@ -50,6 +50,7 @@ docker-compose logs -f backend
 ```bash
 docker-compose down        # Stop containers
 docker-compose down -v     # Stop and remove volumes (clean slate)
+docker-compose down -v --rmi all      # Also remove images if you want a complete clean slate
 ```
 
 ---
@@ -122,41 +123,16 @@ GRANT ALL PRIVILEGES ON DATABASE futurework TO fw_user;
 EOF
 ```
 
-**Option B (continued): Linux (Ubuntu/Debian)**
-
-```bash
-# Install PostgreSQL
-sudo apt update
-sudo apt install postgresql postgresql-contrib
-
-# Start PostgreSQL
-sudo systemctl start postgresql
-
-# Create database and user
-sudo -u postgres psql << EOF
-CREATE USER fw_user WITH PASSWORD 'fw_password_123';
-CREATE DATABASE futurework OWNER fw_user;
-GRANT ALL PRIVILEGES ON DATABASE futurework TO fw_user;
-EOF
-```
-
 ### Step 5: Configure Environment Variables
 
 ```bash
-# Copy example environment file
-cp .env.example .env
-
-# Edit .env file (optional - defaults work for local development)
-# The default DATABASE_URL is: postgresql://fw_user:fw_password_123@localhost:5432/futurework
-```
-
-**Verify your `.env` file contains:**
-
-```env
+# Create .env file
+cat > .env << EOF
 DATABASE_URL=postgresql://fw_user:fw_password_123@localhost:5432/futurework
 SECRET_KEY=dev-secret-key-change-in-production
 ENVIRONMENT=development
 DEBUG=true
+EOF
 ```
 
 ### Step 6: Create Database Tables
@@ -166,16 +142,19 @@ DEBUG=true
 alembic upgrade head
 
 # Or create tables directly
-python3 -c "from app.core.database import Base, engine; from app.models import *; Base.metadata.create_all(bind=engine); print('✅ Tables created')"
+python3 -c "
+from src.app.db.session import engine
+from src.app.db.base import Base
+from src.app.modules.sectors.models import *
+from src.app.modules.quizzes.models import *
+from src.app.modules.users.models import *
+from src.app.modules.benchmarks.models import *
+from src.app.modules.badges.models import *
+from src.app.modules.goals.models import *
+Base.metadata.create_all(bind=engine)
+print('✅ Tables created')
+"
 ```
-
-> **⚠️ Note about UUID Migration**: The database uses UUID primary keys for all tables. If upgrading from an older version with integer IDs, you must drop all existing tables first:
-> ```bash
-> # WARNING: This will delete ALL data
-> alembic downgrade base
-> alembic upgrade head
-> python3 seed_database.py --force
-> ```
 
 ### Step 7: Seed the Database
 
@@ -193,7 +172,7 @@ python3 seed_database.py --force    # Force re-seed (add missing data)
 
 ```bash
 # Start FastAPI with hot reload
-uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+uvicorn src.app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 ### Step 9: Verify Installation
@@ -223,58 +202,76 @@ curl http://localhost:8000/api/v1/quizzes
 
 ```
 FWR_BackEnd/
-├── app/
-│   ├── api/                      # API endpoints
-│   │   └── v1/                   # Version 1 API
-│   │       ├── __init__.py       # Exports api_router
-│   │       ├── router.py         # API router aggregator
-│   │       ├── users.py          # User authentication & profiles
-│   │       ├── quizzes.py        # Quiz management & attempts
-│   │       ├── sectors.py        # Sector hierarchy endpoints
-│   │       ├── goals.py          # Goals & journal entries
-│   │       └── admin.py          # Admin management endpoints
-│   ├── core/                     # Core infrastructure
-│   │   ├── config.py             # Application settings (env vars)
-│   │   └── database.py           # SQLAlchemy engine & sessions
-│   ├── models/                   # SQLAlchemy ORM models
-│   │   ├── __init__.py           # Exports all models
-│   │   ├── user.py               # User model
-│   │   ├── sector.py             # Sector, Branch, Specialization
-│   │   ├── quiz.py               # Quiz, Question, QuestionOption
-│   │   ├── goal.py               # Goal, JournalEntry
-│   │   ├── badge.py              # Badge, UserBadge
-│   │   └── benchmark.py          # PeerBenchmark
-│   ├── schemas/                  # Pydantic request/response schemas
-│   │   ├── __init__.py           # Exports all schemas
-│   │   ├── user.py
-│   │   ├── sector.py
-│   │   ├── quiz.py
-│   │   ├── goal.py
-│   │   ├── benchmark.py
-│   │   └── common.py
-│   ├── services/                 # Business logic layer
-│   │   ├── __init__.py           # Exports all services
-│   │   ├── user_service.py
-│   │   ├── quiz_service.py
-│   │   ├── sector_service.py
-│   │   ├── goal_service.py
-│   │   └── benchmark_service.py
-│   ├── seeds/                    # Database seeding
-│   │   ├── base.py               # Seed utilities & auto-seed
-│   │   ├── seed_sectors.py       # Seed sectors from JSON
-│   │   └── seed_quizzes.py       # Seed quizzes from JSON
-│   ├── main.py                   # FastAPI app entry point
-│   └── entrypoint.sh             # Docker entrypoint script
-├── data/                         # Source data (JSON files)
-│   ├── sectors.json              # Sector hierarchy data
-│   └── quizzes.json              # Quiz questions data
-├── alembic/                      # Database migrations
-│   ├── versions/                 # Migration scripts
-│   └── env.py                    # Alembic configuration
-├── seed_database.py              # CLI tool for manual seeding
-├── docker-compose.yml            # Docker orchestration
-├── Dockerfile                    # Docker build configuration
-├── requirements.txt              # Python dependencies
+├── src/
+│   └── app/
+│       ├── main.py                    # Minimal entrypoint
+│       ├── bootstrap.py               # Application assembly
+│       ├── config/
+│       │   ├── __init__.py
+│       │   └── settings.py            # Application settings
+│       ├── db/
+│       │   ├── __init__.py
+│       │   ├── base.py                # SQLAlchemy Base
+│       │   └── session.py             # Database session
+│       ├── core/
+│       │   ├── __init__.py
+│       │   ├── exceptions.py          # Custom exceptions
+│       │   └── logging.py             # Logging utilities
+│       ├── shared/
+│       │   ├── __init__.py
+│       │   └── schemas.py             # Common schemas
+│       └── modules/
+│           ├── users/
+│           │   ├── __init__.py
+│           │   ├── router.py          # API routes
+│           │   ├── service.py         # Business logic
+│           │   ├── schema.py          # Pydantic schemas
+│           │   └── models.py          # SQLAlchemy models
+│           ├── quizzes/
+│           │   ├── __init__.py
+│           │   ├── router.py
+│           │   ├── service.py
+│           │   ├── schema.py
+│           │   └── models.py
+│           ├── sectors/
+│           │   ├── __init__.py
+│           │   ├── router.py
+│           │   ├── service.py
+│           │   ├── schema.py
+│           │   └── models.py
+│           ├── goals/
+│           │   ├── __init__.py
+│           │   ├── router.py
+│           │   ├── service.py
+│           │   ├── schema.py
+│           │   └── models.py
+│           ├── benchmarks/
+│           │   ├── __init__.py
+│           │   ├── service.py
+│           │   ├── schema.py
+│           │   └── models.py
+│           ├── badges/
+│           │   ├── __init__.py
+│           │   └── models.py
+│           └── admin/
+│               ├── __init__.py
+│               └── router.py
+├── seeds/
+│   ├── __init__.py
+│   ├── base.py                        # Seed utilities
+│   ├── seed_sectors.py                # Seed sectors from JSON
+│   └── seed_quizzes.py                # Seed quizzes from JSON
+├── data/
+│   ├── sectors.json                   # Sector hierarchy data
+│   └── quizzes.json                   # Quiz questions data
+├── alembic/
+│   ├── versions/                      # Migration scripts
+│   └── env.py                         # Alembic configuration
+├── seed_database.py                   # CLI tool for manual seeding
+├── docker-compose.yml                 # Docker orchestration
+├── Dockerfile                         # Docker build configuration
+├── entrypoint.sh                      # Docker entrypoint script
+├── requirements.txt                   # Python dependencies
 └── README.md
 ```
 
@@ -286,7 +283,7 @@ FWR_BackEnd/
 
 ```bash
 # Start server with hot reload
-uvicorn app.main:app --reload --port 8000
+uvicorn src.app.main:app --reload --port 8000
 
 # Run database migrations
 alembic upgrade head
@@ -438,7 +435,7 @@ For production:
 7. Use gunicorn instead of uvicorn:
 
 ```bash
-gunicorn app.main:app -w 4 -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:8000
+gunicorn src.app.main:app -w 4 -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:8000
 ```
 
 ---

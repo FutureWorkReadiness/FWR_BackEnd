@@ -1,15 +1,12 @@
-"""Migrate all tables to UUID primary keys
+"""Initial database schema with UUID primary keys
 
-This is a BREAKING CHANGE migration that:
-1. Drops all existing tables
-2. Recreates them with UUID primary keys
-3. Renames 'id' columns to entity-specific names (e.g., user_id, quiz_id)
-
-WARNING: This migration will DELETE ALL EXISTING DATA.
-Make sure to back up any important data before running this migration.
+Creates all tables with:
+- UUID primary keys (e.g., user_id, quiz_id, sector_id)
+- Proper foreign key relationships
+- Timestamps (created_at, updated_at)
 
 Revision ID: uuid_migration_001
-Revises: a37388c9e015
+Revises: None (initial migration)
 Create Date: 2024-01-15
 
 """
@@ -19,31 +16,15 @@ from sqlalchemy.dialects import postgresql
 
 # revision identifiers, used by Alembic.
 revision = 'uuid_migration_001'
-down_revision = 'a37388c9e015'
+down_revision = None  # Initial migration
 branch_labels = None
 depends_on = None
 
 
 def upgrade() -> None:
     """
-    Drop all existing tables and recreate with UUID primary keys.
+    Create all tables with UUID primary keys.
     """
-    
-    # Drop all existing tables in reverse order of dependencies
-    op.drop_table('user_badges', if_exists=True)
-    op.drop_table('journal_entries', if_exists=True)
-    op.drop_table('goals', if_exists=True)
-    op.drop_table('quiz_attempts', if_exists=True)
-    op.drop_table('question_options', if_exists=True)
-    op.drop_table('questions', if_exists=True)
-    op.drop_table('quizzes', if_exists=True)
-    op.drop_table('peer_benchmarks', if_exists=True)
-    op.drop_table('badges', if_exists=True)
-    op.drop_table('users', if_exists=True)
-    op.drop_table('specializations', if_exists=True)
-    op.drop_table('branches', if_exists=True)
-    op.drop_table('sectors', if_exists=True)
-    
     # Create sectors table with UUID
     op.create_table('sectors',
         sa.Column('sector_id', postgresql.UUID(as_uuid=True), nullable=False),
@@ -263,17 +244,14 @@ def downgrade() -> None:
     This migration is not reversible without data loss.
     The downgrade will drop all tables.
     """
-    op.drop_table('peer_benchmarks', if_exists=True)
-    op.drop_table('user_badges', if_exists=True)
-    op.drop_table('journal_entries', if_exists=True)
-    op.drop_table('goals', if_exists=True)
-    op.drop_table('quiz_attempts', if_exists=True)
-    op.drop_table('question_options', if_exists=True)
-    op.drop_table('questions', if_exists=True)
-    op.drop_table('quizzes', if_exists=True)
-    op.drop_table('badges', if_exists=True)
-    op.drop_table('users', if_exists=True)
-    op.drop_table('specializations', if_exists=True)
-    op.drop_table('branches', if_exists=True)
-    op.drop_table('sectors', if_exists=True)
+    bind = op.get_bind()
+    
+    tables_to_drop = [
+        'peer_benchmarks', 'user_badges', 'journal_entries', 'goals',
+        'quiz_attempts', 'question_options', 'questions', 'quizzes',
+        'badges', 'users', 'specializations', 'branches', 'sectors'
+    ]
+    
+    for table in tables_to_drop:
+        bind.execute(sa.text(f'DROP TABLE IF EXISTS {table} CASCADE'))
 
