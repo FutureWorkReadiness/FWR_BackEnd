@@ -91,12 +91,14 @@ def _register_routers(app: FastAPI) -> None:
     from src.app.modules.sectors.router import router as sectors_router
     from src.app.modules.goals.router import router as goals_router
     from src.app.modules.admin.router import router as admin_router
+    from src.app.modules.quiz_generator.router import router as quiz_generator_router
 
     app.include_router(users_router, prefix=f"{settings.API_V1_PREFIX}/users", tags=["Users"])
     app.include_router(quizzes_router, prefix=f"{settings.API_V1_PREFIX}/quizzes", tags=["Quizzes"])
     app.include_router(sectors_router, prefix=f"{settings.API_V1_PREFIX}/sectors", tags=["Sectors"])
     app.include_router(goals_router, prefix=f"{settings.API_V1_PREFIX}/goals", tags=["Goals"])
     app.include_router(admin_router, prefix=f"{settings.API_V1_PREFIX}/admin", tags=["Admin"])
+    app.include_router(quiz_generator_router, prefix=f"{settings.API_V1_PREFIX}/quiz-generator", tags=["Quiz Generator"])
 
 
 def _register_root_endpoints(app: FastAPI) -> None:

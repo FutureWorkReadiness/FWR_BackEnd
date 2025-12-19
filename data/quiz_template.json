@@ -37,46 +37,14 @@
   ],
   "_template_notes": {
     "difficulty_levels": {
-      "1": "Basics - 30 min, 70% passing",
+      "1": "Beginner - 30 min, 70% passing",
       "2": "Intermediate - 40 min, 70% passing",
-      "3": "Advanced - 50 min, 75% passing",
-      "4": "Expert - 60 min, 80% passing"
+      "3": "Proficient - 50 min, 75% passing",
+      "4": "Master - 50 min, 75% passing",
+      "5": "Expert - 60 min, 80% passing"
     },
-    "available_specializations": [
-      "Frontend Development",
-      "Backend Development",
-      "Full-Stack Development",
-      "Data Science",
-      "Cybersecurity Analyst / InfoSec Analyst",
-      "DevOps Engineer",
-      "Mobile App Development",
-      "Cloud Engineer / Architect",
-      "AI/ML Engineer",
-      "Product Manager / Owner",
-      "UX/UI Designer",
-      "Healthcare Administrator",
-      "Registered Nurse (RN)",
-      "Medical Assistant",
-      "Certified Public Accountant (CPA)",
-      "Financial Analyst",
-      "Elementary School Teacher",
-      "Secondary School Teacher",
-      "Retail Sales Associate",
-      "Store Manager"
-    ],
     "question_types": [
-      "multiple_choice",
-      "true_false",
-      "short_answer"
-    ],
-    "tips": [
-      "Include exactly 8 questions per quiz for consistency",
-      "Make sure only ONE option is marked as is_correct: true",
-      "Provide helpful explanations that teach, not just confirm",
-      "Use the exact specialization name as it appears in the database",
-      "Progress difficulty from easier to harder questions within the quiz",
-      "Test domain-specific knowledge and practical application",
-      "Avoid questions that are too obvious or too obscure"
+      "multiple_choice"
     ]
   }
 }

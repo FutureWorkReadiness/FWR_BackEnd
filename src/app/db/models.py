@@ -32,6 +32,9 @@ from src.app.modules.badges.models import Badge, UserBadge
 # Goal & Journal models
 from src.app.modules.goals.models import Goal, JournalEntry
 
+# Quiz Generator models
+from src.app.modules.quiz_generator.models import GenerationJob
+
 # Export all models
 __all__ = [
     "Base",
@@ -54,4 +57,6 @@ __all__ = [
     # Goals
     "Goal",
     "JournalEntry",
+    # Quiz Generator
+    "GenerationJob",
 ]

@@ -27,12 +27,18 @@ services:
       - ./alembic:/app/alembic
       - ./alembic.ini:/app/alembic.ini
       - ./seed_database.py:/app/seed_database.py
+      # Mount geminiGenerator for development (editable mode)
+      - ./geminiGenerator:/app/geminiGenerator
     depends_on:
       postgres:
         condition: service_healthy
     ports:
       - '8000:8000'
+    # Load environment variables from root .env file
+    env_file:
+      - .env
     environment:
+      # These override .env values or provide defaults
       DATABASE_URL: postgresql://fw_user:fw_password_123@postgres:5432/futurework
       SECRET_KEY: dev-secret-key-change-in-production
       ENVIRONMENT: development

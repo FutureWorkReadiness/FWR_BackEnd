@@ -1,0 +1,356 @@
+{
+	"sectors": [
+		{
+			"name": "technology",
+			"description": "The sector focused on the creation, management, and innovation of software, data systems, and digital infrastructure.",
+			"branches": [
+				{
+					"name": "Software Development",
+					"description": "Roles focused on designing, coding, and maintaining web-based applications and software solutions.",
+					"specializations": [
+						{
+							"name": "FRONTEND_DEVELOPER",
+							"description": "Specialises in building the visual and interactive elements of websites and applications that users interact with directly."
+						},
+						{
+							"name": "BACKEND_DEVELOPER",
+							"description": "Focuses on server-side logic, databases, and application architecture that power the user-facing side of software."
+						}
+					]
+				},
+				{
+					"name": "Mobile Development",
+					"description": "Roles dedicated to building applications specifically for mobile operating systems and devices.",
+					"specializations": [
+						{
+							"name": "IOS_DEVELOPER",
+							"description": "Develops applications specifically for Apple's iOS ecosystem using Swift or Objective-C."
+						},
+						{
+							"name": "ANDROID_DEVELOPER",
+							"description": "Develops applications specifically for the Android operating system using Kotlin or Java."
+						},
+						{
+							"name": "MOBILE_DEVELOPMENT_CROSS_PLATFORM",
+							"description": "Builds mobile applications that run on multiple operating systems using frameworks like React Native or Flutter."
+						}
+					]
+				},
+				{
+					"name": "Data Science & AI",
+					"description": "The branch concerned with extracting insights from data and building intelligent systems.",
+					"specializations": [
+						{
+							"name": "DATA_SCIENTIST",
+							"description": "Uses advanced statistical methods and machine learning to analyse complex data and solve business problems."
+						},
+						{
+							"name": "DATA_ANALYST",
+							"description": "Interprets data sets to identify trends, create visualisations, and generate actionable business insights."
+						},
+						{
+							"name": "DATA_ENGINEER",
+							"description": "Builds and maintains the pipelines and infrastructure required to collect, store, and process large scale data."
+						},
+						{
+							"name": "AI_ML_ENGINEER",
+							"description": "Designs and deploys artificial intelligence models and machine learning algorithms into production environments."
+						}
+					]
+				},
+				{
+					"name": "Infrastructure & Cloud Operations",
+					"description": "Roles focused on the underlying systems, networks, and cloud environments that support software applications.",
+					"specializations": [
+						{
+							"name": "DEVOPS_ENGINEER",
+							"description": "Bridges development and operations to automate deployment, ensuring continuous integration and delivery."
+						},
+						{
+							"name": "CLOUD_ENGINEER",
+							"description": "Architects and manages cloud computing strategies and services on platforms like AWS, Azure, or Google Cloud."
+						},
+						{
+							"name": "DATABASE_ADMINISTRATOR_DBA",
+							"description": "Ensures the performance, integrity, and security of organisational databases."
+						},
+						{
+							"name": "NETWORK_ENGINEER",
+							"description": "Designs, implements, and manages local and wide area networks to ensure connectivity and uptime."
+						},
+						{
+							"name": "SYSTEMS_ADMINISTRATOR",
+							"description": "Manages and configures server hardware, software, and operating systems to ensure organisational IT reliability."
+						}
+					]
+				},
+				{
+					"name": "Cybersecurity",
+					"description": "The practice of protecting systems, networks, and programs from digital attacks.",
+					"specializations": [
+						{
+							"name": "CYBERSECURITY_ANALYST",
+							"description": "Monitors networks for security breaches, investigates violations, and implements protection measures."
+						}
+					]
+				},
+				{
+					"name": "Quality Assurance",
+					"description": "Ensures software reliability and standards through rigorous testing and validation.",
+					"specializations": [
+						{
+							"name": "QA_AUTOMATION_ENGINEER_SET",
+							"description": "Writes scripts and uses tools to automate the testing of software to identify bugs and ensure quality."
+						}
+					]
+				},
+				{
+					"name": "Product & Design",
+					"description": "Roles that define the user experience, feature set, and strategic execution of technical products.",
+					"specializations": [
+						{
+							"name": "UX_UI_DESIGNER",
+							"description": "Designs user interfaces and experiences, ensuring products are intuitive, accessible, and visually appealing."
+						},
+						{
+							"name": "TECHNICAL_PRODUCT_MANAGER",
+							"description": "Oversees the product lifecycle, translating business requirements into technical specifications for engineering teams."
+						},
+						{
+							"name": "TECHNICAL_PROJECT_MANAGER_SCRUM_MASTER",
+							"description": "Facilitates agile processes and manages project timelines to ensure engineering teams deliver value efficiently."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "finance",
+			"description": "The sector dealing with the management of money, investments, banking, and financial regulation.",
+			"branches": [
+				{
+					"name": "Investment Banking & Asset Management",
+					"description": "Roles focused on raising capital, managing investments, and growing wealth for individuals and corporations.",
+					"specializations": [
+						{
+							"name": "investment_banker",
+							"description": "Advises companies on capital raising, mergers, and acquisitions to maximise financial growth."
+						},
+						{
+							"name": "portfolio_manager",
+							"description": "Makes investment decisions and manages collections of assets to meet specific financial goals for clients."
+						},
+						{
+							"name": "trader",
+							"description": "Buys and sells financial instruments in capital markets to capture short-term profits."
+						},
+						{
+							"name": "fund_manager",
+							"description": "Oversees mutual funds, hedge funds, or pension funds, making strategic trading decisions."
+						},
+						{
+							"name": "wealth_manager",
+							"description": "Provides comprehensive financial planning and investment advice to high-net-worth individuals."
+						}
+					]
+				},
+				{
+					"name": "Financial Analysis & Planning",
+					"description": "Focuses on evaluating economic trends, budgeting, and planning future financial stability.",
+					"specializations": [
+						{
+							"name": "financial_analyst",
+							"description": "Analyses financial data to guide business decisions and forecast future economic conditions."
+						},
+						{
+							"name": "financial_planner",
+							"description": "Helps individuals and corporations create strategies to meet long-term financial objectives."
+						},
+						{
+							"name": "budget_analyst",
+							"description": " helps organisations organise their finances, preparing budget reports and monitoring institutional spending."
+						}
+					]
+				},
+				{
+					"name": "Accounting & Auditing",
+					"description": "The branch dedicated to recording, examining, and reporting financial transactions accurately.",
+					"specializations": [
+						{
+							"name": "accountant",
+							"description": "Prepares and examines financial records, ensuring accuracy and payment of taxes."
+						},
+						{
+							"name": "tax_consultant",
+							"description": "Advises clients on tax strategies and compliance with complex tax legislation."
+						},
+						{
+							"name": "auditor",
+							"description": "Reviews financial statements and operational processes to ensure compliance and accuracy."
+						}
+					]
+				},
+				{
+					"name": "Risk Management & Compliance",
+					"description": "Roles focused on identifying financial risks and ensuring adherence to laws and regulations.",
+					"specializations": [
+						{
+							"name": "risk_manager",
+							"description": "Identifies and assesses threats to an organisation's capital and earnings, implementing mitigation strategies."
+						},
+						{
+							"name": "compliance_officer",
+							"description": "Ensures the company operates within the legal framework and adheres to internal policies."
+						},
+						{
+							"name": "credit_analyst",
+							"description": "Evaluates the creditworthiness of loan applicants to determine risk levels for lenders."
+						},
+						{
+							"name": "insurance_underwriter",
+							"description": "Evaluates insurance applications to determine coverage amounts and premiums based on risk."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "health_social_care",
+			"description": "The sector dedicated to the treatment of patients, promotion of health, and provision of social support.",
+			"branches": [
+				{
+					"name": "Nursing & Midwifery",
+					"description": "Clinical roles focused on providing direct patient care, support during childbirth, and health maintenance.",
+					"specializations": [
+						{
+							"name": "nurse",
+							"description": "Provides medical care, monitors patient health, and assists doctors in various healthcare settings."
+						},
+						{
+							"name": "midwife",
+							"description": "Specialises in pregnancy, childbirth, and postpartum care for women and newborns."
+						}
+					]
+				},
+				{
+					"name": "Allied Health & Therapy",
+					"description": "Therapeutic roles focused on rehabilitation, mental health, and physical well-being.",
+					"specializations": [
+						{
+							"name": "occupational_therapist",
+							"description": "Helps patients improve their ability to perform daily living and working tasks after illness or injury."
+						},
+						{
+							"name": "physiotherapist",
+							"description": "Treats physical ailments and injuries through exercise, manual therapy, and rehabilitation techniques."
+						},
+						{
+							"name": "mental_health_counselor",
+							"description": "Provides support and therapy for individuals dealing with mental health issues and emotional distress."
+						}
+					]
+				},
+				{
+					"name": "Social Care & Support",
+					"description": "Roles focused on supporting vulnerable individuals and communities in their daily lives.",
+					"specializations": [
+						{
+							"name": "care_worker",
+							"description": "Assists elderly or disabled individuals with daily activities and personal care."
+						},
+						{
+							"name": "social_worker",
+							"description": "Supports individuals and families through difficult times, ensuring vulnerable people are protected."
+						},
+						{
+							"name": "healthcare_assistant",
+							"description": "Supports medical staff by monitoring patient vitals and assisting with basic care tasks."
+						}
+					]
+				},
+				{
+					"name": "Public Health",
+					"description": "Focuses on the health of populations through prevention and education.",
+					"specializations": [
+						{
+							"name": "public_health_officer",
+							"description": "Monitors community health standards and implements programmes to prevent disease and promote wellness."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "education",
+			"description": "The sector responsible for facilitating learning and acquiring knowledge, skills, and values.",
+			"branches": [
+				{
+					"name": "Teaching & Instruction",
+					"description": "Roles dedicated to the direct instruction and mentorship of students.",
+					"specializations": [
+						{
+							"name": "teacher",
+							"description": "Delivers curriculum and facilitates learning for students in schools or educational institutions."
+						},
+						{
+							"name": "special_need_educator",
+							"description": "Adapts teaching methods to meet the unique learning requirements of students with disabilities."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "construction",
+			"description": "The sector involved in designing, planning, and building infrastructure and structures.",
+			"branches": [
+				{
+					"name": "Engineering & Design",
+					"description": "Technical roles focused on the structural integrity and architectural design of projects.",
+					"specializations": [
+						{
+							"name": "civil_engineer",
+							"description": "Designs and oversees the construction of infrastructure projects like roads, bridges, and water systems."
+						},
+						{
+							"name": "architect",
+							"description": "Plans and designs the functional and aesthetic aspects of buildings and structures."
+						},
+						{
+							"name": "structural_engineer",
+							"description": "Calculates and analyses the stability and strength of structures to ensure they can withstand loads."
+						}
+					]
+				},
+				{
+					"name": "Construction Management & Cost",
+					"description": "Roles that manage the logistics, financials, and onsite execution of construction projects.",
+					"specializations": [
+						{
+							"name": "site_manager",
+							"description": "Oversees day-to-day operations on a construction site, ensuring safety and schedule compliance."
+						},
+						{
+							"name": "quantity_surveyor",
+							"description": "Manages construction costs and contracts to ensure projects stay within budget."
+						},
+						{
+							"name": "project_manager",
+							"description": "Plans and coordinates the entire construction lifecycle, managing resources, timelines, and stakeholders."
+						}
+					]
+				},
+				{
+					"name": "Trades & Labour",
+					"description": "Hands-on roles responsible for the physical building and assembly tasks.",
+					"specializations": [
+						{
+							"name": "construction_worker",
+							"description": "Performs physical labour on construction sites, operating machinery and handling building materials."
+						}
+					]
+				}
+			]
+		}
+	]
+}
