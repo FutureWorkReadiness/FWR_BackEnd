@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "When leading an IEP meeting for a student with complex behavioral and academic needs, what is your primary responsibility as the lead educator?",
+      "explanation": "The lead educator's role is to act as a facilitator, ensuring all voices are heard and integrated into a cohesive, student-focused plan. This collaborative approach leads to a more effective and legally defensible IEP.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Facilitating a collaborative discussion that synthesizes input from all team members to create a cohesive, student-centered plan.",
+          "is_correct": true,
+          "rationale": "This emphasizes collaboration and synthesis of all expert input, which is the core responsibility of the IEP team leader."
+        },
+        {
+          "key": "B",
+          "text": "Presenting a pre-written draft of the IEP goals for the team to quickly review and approve for efficiency.",
+          "is_correct": false,
+          "rationale": "This undermines the collaborative nature of the IEP process and can be seen as predetermination, a procedural violation."
+        },
+        {
+          "key": "C",
+          "text": "Ensuring the parents understand that the school's proposed services are the only legally defensible options available to them.",
+          "is_correct": false,
+          "rationale": "This creates an adversarial tone and misrepresents the collaborative spirit and legal requirements of an IEP meeting."
+        },
+        {
+          "key": "D",
+          "text": "Focusing solely on the academic data presented by the general education teacher to drive all goal creation for the student.",
+          "is_correct": false,
+          "rationale": "An effective IEP must consider all aspects of the student's needs, including functional, behavioral, and related services data."
+        },
+        {
+          "key": "E",
+          "text": "Advocating for the most resource-intensive interventions available, regardless of the student's specific documented needs or progress data.",
+          "is_correct": false,
+          "rationale": "Interventions must be based on individual need, not on what is most expensive or intensive; this is not appropriate."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "A student's challenging behavior persists despite a Behavior Intervention Plan (BIP) being in place. What is the most appropriate next step?",
+      "explanation": "When a BIP is ineffective, the team must re-evaluate the function of the behavior. A new FBA provides the necessary data to revise the plan with strategies that more accurately address the student's underlying needs.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately increasing the severity of consequences outlined in the current behavior intervention plan to ensure student compliance.",
+          "is_correct": false,
+          "rationale": "Escalating consequences without understanding the behavior's function is often ineffective and can be counterproductive to the student's progress."
+        },
+        {
+          "key": "B",
+          "text": "Reconvening the IEP team to conduct a new Functional Behavior Assessment (FBA) to re-evaluate the function of the behavior.",
+          "is_correct": true,
+          "rationale": "This data-driven approach is best practice for determining why a BIP is failing and how to adjust it effectively."
+        },
+        {
+          "key": "C",
+          "text": "Recommending a more restrictive placement for the student without first gathering new data on the behavior's function.",
+          "is_correct": false,
+          "rationale": "Placement changes should be a last resort and must be based on comprehensive data, including a revised FBA and BIP."
+        },
+        {
+          "key": "D",
+          "text": "Assigning a one-on-one paraprofessional to manage the behavior without changing the existing intervention strategies or plan.",
+          "is_correct": false,
+          "rationale": "Adding staff without changing the intervention plan does not address the root cause of the behavior's persistence."
+        },
+        {
+          "key": "E",
+          "text": "Waiting for the annual IEP review to address the issue, continuing with the current ineffective plan until that time.",
+          "is_correct": false,
+          "rationale": "An ineffective BIP requires timely review; waiting for the annual meeting denies the student appropriate educational benefit."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Under the Individuals with Disabilities Education Act (IDEA), what is the most critical component of ensuring a Free Appropriate Public Education (FAPE)?",
+      "explanation": "The Supreme Court's Endrew F. decision clarified that FAPE requires an IEP to be reasonably calculated for a child to make progress appropriate in light of their unique circumstances, moving beyond a minimal standard.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Guaranteeing that the student will achieve the exact same academic outcomes as their non-disabled peers in all subjects.",
+          "is_correct": false,
+          "rationale": "FAPE requires access and progress, not identical outcomes, which may be unrealistic for some students with significant disabilities."
+        },
+        {
+          "key": "B",
+          "text": "Providing the absolute best possible educational services and technology available, regardless of the associated cost to the district.",
+          "is_correct": false,
+          "rationale": "This describes the 'Cadillac' standard, which the law does not require; services must be appropriate, not the absolute best."
+        },
+        {
+          "key": "C",
+          "text": "Designing an individualized education program reasonably calculated to enable the child to make appropriate progress in light of their circumstances.",
+          "is_correct": true,
+          "rationale": "This aligns with the Supreme Court's standard for FAPE, emphasizing individualized and meaningful progress for the student."
+        },
+        {
+          "key": "D",
+          "text": "Placing the student in a general education classroom for the entire school day, even without necessary supports.",
+          "is_correct": false,
+          "rationale": "This violates the principle of providing necessary supports and services, which are essential components of FAPE in the LRE."
+        },
+        {
+          "key": "E",
+          "text": "Following the parents' requests for specific programs or methodologies exactly as they demand, without professional team input.",
+          "is_correct": false,
+          "rationale": "While parental input is vital, the IEP team makes the final determination of what constitutes an appropriate program."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "In an inclusive co-teaching setting, which model is most effective for delivering differentiated instruction to a group with diverse learning needs?",
+      "explanation": "Station teaching allows for small-group instruction, enabling both teachers to target specific skills and provide differentiated content simultaneously. This model maximizes student engagement and addresses a wide range of academic levels effectively.",
+      "options": [
+        {
+          "key": "A",
+          "text": "One teach, one observe, where one teacher delivers the main lesson while the other only collects specific data on students.",
+          "is_correct": false,
+          "rationale": "This model is useful for data collection but does not actively provide differentiated instruction to the entire class."
+        },
+        {
+          "key": "B",
+          "text": "One teach, one assist, where one teacher leads instruction and the other circulates to provide minimal student support.",
+          "is_correct": false,
+          "rationale": "This often results in the special educator acting as a helper, limiting their ability to deliver specialized instruction."
+        },
+        {
+          "key": "C",
+          "text": "Team teaching, where both educators deliver the exact same content simultaneously to the entire class as a single unit.",
+          "is_correct": false,
+          "rationale": "While engaging, this model can be difficult to differentiate effectively for students with widely varying needs."
+        },
+        {
+          "key": "D",
+          "text": "Station teaching, where teachers lead small, targeted groups and students rotate through different learning centers, including independent work.",
+          "is_correct": true,
+          "rationale": "This model is specifically designed for differentiation, allowing teachers to work with small groups on targeted skills."
+        },
+        {
+          "key": "E",
+          "text": "Parallel teaching, where the class is split in half and both teachers deliver the same lesson to their groups.",
+          "is_correct": false,
+          "rationale": "This lowers the student-teacher ratio but does not inherently provide differentiated content unless specifically planned for within groups."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What is the special need educator's key role in developing a legally compliant and effective transition plan for a high school student?",
+      "explanation": "An effective transition plan is student-centered and data-driven. The educator must use assessments to help the student create measurable goals and then coordinate with all stakeholders, including outside agencies, to create a viable plan.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Solely selecting vocational courses for the student based on what programs are most readily available within the school district.",
+          "is_correct": false,
+          "rationale": "This approach is based on convenience rather than the student's individual strengths, preferences, and interests as required by law."
+        },
+        {
+          "key": "B",
+          "text": "Writing generic postsecondary goals that apply to most students to ensure the paperwork is completed on time for compliance.",
+          "is_correct": false,
+          "rationale": "Transition goals must be individualized and based on the student's specific needs and assessments, not generic templates."
+        },
+        {
+          "key": "C",
+          "text": "Focusing the entire transition plan only on academic preparation for a four-year college, ignoring other postsecondary options.",
+          "is_correct": false,
+          "rationale": "Transition planning must consider all postsecondary options, including vocational training, employment, and independent living, based on student needs."
+        },
+        {
+          "key": "D",
+          "text": "Delegating all transition planning responsibilities to the school guidance counselor without any direct involvement or collaboration from them.",
+          "is_correct": false,
+          "rationale": "The special educator is a required IEP team member and plays a critical, collaborative role in transition planning."
+        },
+        {
+          "key": "E",
+          "text": "Coordinating with the student, family, and external agencies to develop measurable postsecondary goals based on age-appropriate transition assessments.",
+          "is_correct": true,
+          "rationale": "This describes the legally required, collaborative, and assessment-based process for creating an effective and compliant transition plan."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "When implementing a co-teaching model for an inclusive classroom, which approach is most effective for introducing complex new concepts to all students?",
+      "explanation": "Team Teaching allows both educators to leverage their expertise to present complex information in multiple ways, engage in dialogue, and provide immediate clarification, benefiting all learners during initial instruction of a new, complex topic.",
+      "options": [
+        {
+          "key": "A",
+          "text": "One Teach, One Assist, where one teacher leads the lesson while the other provides individual support to struggling students.",
+          "is_correct": false,
+          "rationale": "This model is better for review or practice, not introducing new complex content to the whole group."
+        },
+        {
+          "key": "B",
+          "text": "Parallel Teaching, where the class is divided into two groups and each teacher instructs one group on the same content.",
+          "is_correct": false,
+          "rationale": "This is good for differentiation but doesn't leverage both teachers' expertise for a single, unified introduction."
+        },
+        {
+          "key": "C",
+          "text": "Team Teaching, where both educators simultaneously deliver instruction, allowing for dynamic interaction and clarification of difficult material for everyone.",
+          "is_correct": true,
+          "rationale": "This model leverages both teachers' strengths to introduce complex material to the entire class effectively."
+        },
+        {
+          "key": "D",
+          "text": "Station Teaching, where students rotate through various learning centers, with teachers facilitating different stations to reinforce skills.",
+          "is_correct": false,
+          "rationale": "This model is designed for practice and reinforcement, not the initial delivery of a new concept."
+        },
+        {
+          "key": "E",
+          "text": "Alternative Teaching, where one teacher works with a small group for pre-teaching while the other teaches the larger group.",
+          "is_correct": false,
+          "rationale": "This is a targeted intervention strategy, not a method for whole-class initial instruction."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "A student with an emotional disturbance classification is facing disciplinary action for a serious behavioral infraction. What is the primary purpose of conducting a Manifestation Determination Review?",
+      "explanation": "The Manifestation Determination Review is a legally mandated process under IDEA to determine if a student's behavior is a manifestation of their disability, which then dictates the disciplinary actions the school can take.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To immediately create a new, more restrictive Behavior Intervention Plan that will prevent future behavioral incidents from occurring.",
+          "is_correct": false,
+          "rationale": "A BIP update may result from the meeting, but it is not the primary legal purpose of the review."
+        },
+        {
+          "key": "B",
+          "text": "To determine if the student's misconduct was caused by, or had a direct and substantial relationship to, their disability.",
+          "is_correct": true,
+          "rationale": "This is the core legal question the MDR is designed to answer, as defined by IDEA."
+        },
+        {
+          "key": "C",
+          "text": "To decide on the most appropriate disciplinary consequence, such as suspension, based on the school's general code of conduct.",
+          "is_correct": false,
+          "rationale": "The MDR's findings inform the disciplinary decision, but deciding the consequence is not its primary function."
+        },
+        {
+          "key": "D",
+          "text": "To gather input from the student's parents about the effectiveness of the current Individualized Education Program and its implementation.",
+          "is_correct": false,
+          "rationale": "This is a function of a standard IEP meeting, not the specific purpose of an MDR."
+        },
+        {
+          "key": "E",
+          "text": "To assess whether the school district failed to properly implement the student's IEP, which is a secondary consideration.",
+          "is_correct": false,
+          "rationale": "Failure to implement the IEP is a component of the review, but not the primary purpose."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "You are analyzing progress monitoring data for a student with a specific learning disability. What does a flat trend line over six consecutive data points indicate?",
+      "explanation": "In progress monitoring, a flat trend line across multiple data points is a clear visual indicator that the student is not responding to the intervention. This signals a need to change the instructional approach.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The current instructional intervention is ineffective, and a significant change in strategy or intensity is urgently required to promote growth.",
+          "is_correct": true,
+          "rationale": "A flat trend line over several data points signifies a lack of progress, necessitating an instructional change."
+        },
+        {
+          "key": "B",
+          "text": "The student has successfully mastered the targeted skill, and it is now appropriate to move on to the next learning objective.",
+          "is_correct": false,
+          "rationale": "Mastery would be indicated by a rising trend line that meets or exceeds the goal line."
+        },
+        {
+          "key": "C",
+          "text": "The data collection method is likely flawed or inconsistent, requiring a re-evaluation of how progress is being measured.",
+          "is_correct": false,
+          "rationale": "While possible, the most direct interpretation is intervention ineffectiveness, not measurement error."
+        },
+        {
+          "key": "D",
+          "text": "The student is experiencing a temporary regression, and the current intervention should be continued without any immediate modification.",
+          "is_correct": false,
+          "rationale": "Six data points suggest a pattern of non-response, not a temporary dip in performance."
+        },
+        {
+          "key": "E",
+          "text": "The initial baseline data was inaccurate, and a new baseline assessment should be conducted before making any instructional changes.",
+          "is_correct": false,
+          "rationale": "While baseline accuracy is important, the trend itself points to a problem with the current intervention."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "How should a special education teacher best collaborate with a school psychologist to develop a comprehensive and effective Behavior Intervention Plan (BIP)?",
+      "explanation": "Effective collaboration involves both professionals bringing their expertise to the table. Jointly analyzing the Functional Behavior Assessment (FBA) data ensures the resulting BIP is data-driven, function-based, and practical for classroom implementation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "By requesting the psychologist to conduct the FBA independently and then provide a completed BIP for the teacher to implement.",
+          "is_correct": false,
+          "rationale": "This is a siloed approach that lacks the teacher's crucial input on classroom context and feasibility."
+        },
+        {
+          "key": "B",
+          "text": "By providing the psychologist with anecdotal notes and asking them to select interventions from a pre-approved list of strategies.",
+          "is_correct": false,
+          "rationale": "This method is not data-driven and bypasses the critical FBA process needed for an effective BIP."
+        },
+        {
+          "key": "C",
+          "text": "By implementing the psychologist's recommended strategies first and then meeting later to discuss whether any modifications are needed.",
+          "is_correct": false,
+          "rationale": "This approach is reactive rather than proactive and collaborative in the initial planning phase."
+        },
+        {
+          "key": "D",
+          "text": "By co-analyzing the Functional Behavior Assessment (FBA) data to jointly identify the behavior's function and brainstorm appropriate replacement skills.",
+          "is_correct": true,
+          "rationale": "This represents true, data-driven collaboration, combining psychological expertise with practical classroom knowledge."
+        },
+        {
+          "key": "E",
+          "text": "By leading the development of the BIP based on classroom observations and then having the psychologist review and approve it.",
+          "is_correct": false,
+          "rationale": "This minimizes the psychologist's key role in assessment, data analysis, and function identification."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "When leading an IEP team through the process of selecting assistive technology for a non-verbal student, what is the most critical first step?",
+      "explanation": "The first and most crucial step is a thorough assessment of the student's needs, abilities, and the environments where the technology will be used. This ensures the selected assistive technology is appropriate and effective.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Conducting a comprehensive assistive technology assessment that considers the student's specific needs, abilities, environments, and required tasks.",
+          "is_correct": true,
+          "rationale": "This student-centered assessment (like the SETT framework) is the foundational best practice for AT selection."
+        },
+        {
+          "key": "B",
+          "text": "Researching the most popular and highest-rated augmentative and alternative communication (AAC) devices currently available on the market.",
+          "is_correct": false,
+          "rationale": "This approach is device-centered rather than student-centered and may lead to an inappropriate match."
+        },
+        {
+          "key": "C",
+          "text": "Scheduling demonstrations with various technology vendors to allow the team to see the latest available software and hardware options.",
+          "is_correct": false,
+          "rationale": "Vendor demos are useful later in the process, but they should not be the first step."
+        },
+        {
+          "key": "D",
+          "text": "Polling the student's parents and current teachers to gather opinions on which specific device they believe would be most helpful.",
+          "is_correct": false,
+          "rationale": "While team input is vital, it must be informed by a formal assessment, not just opinion."
+        },
+        {
+          "key": "E",
+          "text": "Reviewing the school district's inventory of available assistive technology devices to determine what can be provided at no cost.",
+          "is_correct": false,
+          "rationale": "Cost and availability are factors, but the student's needs, determined by assessment, must come first."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "When introducing a complex new concept requiring intensive, differentiated instruction for a small group, which co-teaching model is most appropriate?",
+      "explanation": "Alternative Teaching is ideal for this scenario because it allows for targeted, intensive instruction for a small group with specific needs while ensuring the rest of the class continues with meaningful learning.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Alternative Teaching, where one teacher instructs a small group needing specialized instruction while the other teacher works with the larger group.",
+          "is_correct": true,
+          "rationale": "This model specifically allows for intensive, small-group re-teaching or pre-teaching."
+        },
+        {
+          "key": "B",
+          "text": "Station Teaching, where the instructional content is divided among several learning centers that students rotate through during the lesson.",
+          "is_correct": false,
+          "rationale": "Station teaching is for delivering different content simultaneously, not intensive instruction on one topic."
+        },
+        {
+          "key": "C",
+          "text": "Parallel Teaching, where the teacher divides the class into two mixed-ability groups and instructs them on the same content simultaneously.",
+          "is_correct": false,
+          "rationale": "This model lowers the student-teacher ratio but does not inherently provide differentiated, intensive instruction."
+        },
+        {
+          "key": "D",
+          "text": "Team Teaching, where both co-teachers are actively involved in leading instruction for the entire class at the same time.",
+          "is_correct": false,
+          "rationale": "This model is for whole-group instruction and does not target a small group."
+        },
+        {
+          "key": "E",
+          "text": "One Teach, One Observe, where one teacher leads the lesson and the other gathers specific observational data on student learning.",
+          "is_correct": false,
+          "rationale": "This model is primarily for data collection, not for delivering differentiated instruction."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "What is the primary purpose of a Manifestation Determination Review (MDR) within the context of student discipline procedures under IDEA?",
+      "explanation": "The MDR's core legal function is to establish a causal link between a student's disability and their behavior to ensure disciplinary actions are fair and do not violate their rights under IDEA.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To create a new Individualized Education Program for the student immediately following any serious disciplinary incident that occurs.",
+          "is_correct": false,
+          "rationale": "An IEP review might result from an MDR, but it is not its primary purpose."
+        },
+        {
+          "key": "B",
+          "text": "To determine if a student's misconduct was caused by, or had a direct and substantial relationship to, their disability.",
+          "is_correct": true,
+          "rationale": "This is the central question the MDR team must answer according to IDEA regulations."
+        },
+        {
+          "key": "C",
+          "text": "To serve as the primary formal meeting where parents can officially appeal the school's disciplinary decisions for their child.",
+          "is_correct": false,
+          "rationale": "Appeals and due process hearings are separate legal procedures from the MDR meeting."
+        },
+        {
+          "key": "D",
+          "text": "To decide on the most appropriate disciplinary consequence, such as suspension, without specific regard to the student's identified disability.",
+          "is_correct": false,
+          "rationale": "This is contrary to the purpose of an MDR, which explicitly considers the disability."
+        },
+        {
+          "key": "E",
+          "text": "To review if the school failed to implement the student's Behavior Intervention Plan, which is a key component of the process.",
+          "is_correct": false,
+          "rationale": "This is one part of the review, but the primary purpose is determining the link to disability."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "When conducting a Functional Behavior Assessment (FBA), what is the most critical first step to ensure the resulting intervention plan is effective?",
+      "explanation": "Defining the behavior in specific, measurable terms is the foundational step of an FBA. Without a clear definition, data collection is unreliable, and any subsequent analysis or intervention will be flawed.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately implementing a preferred reinforcement strategy to see if the challenging behavior decreases without any further formal assessment.",
+          "is_correct": false,
+          "rationale": "This skips the essential data collection and analysis phases of the FBA process."
+        },
+        {
+          "key": "B",
+          "text": "Interviewing the student's parents to gather historical information about the behavior before any direct classroom observation takes place.",
+          "is_correct": false,
+          "rationale": "Parent interviews are important, but defining the behavior must come first for consistent observation."
+        },
+        {
+          "key": "C",
+          "text": "Formulating a testable hypothesis about the function of the behavior based only on initial teacher reports and anecdotal records.",
+          "is_correct": false,
+          "rationale": "A hypothesis is formed after defining the behavior and collecting baseline data."
+        },
+        {
+          "key": "D",
+          "text": "Selecting a standardized assessment tool to diagnose an underlying emotional or behavioral disorder that may be causing the behavior.",
+          "is_correct": false,
+          "rationale": "An FBA focuses on the function of a behavior, not on formal diagnosis."
+        },
+        {
+          "key": "E",
+          "text": "Clearly and objectively defining the target behavior in measurable terms to ensure consistent data collection and observation.",
+          "is_correct": true,
+          "rationale": "A clear, measurable definition is the foundation for all subsequent steps in the FBA."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "How can a special education teacher best facilitate the generalization of skills taught by related service providers like occupational therapists?",
+      "explanation": "Generalization occurs when a student can use a skill in various settings. Embedding therapeutic strategies into the natural classroom environment is the most effective way to promote this transfer of learning.",
+      "options": [
+        {
+          "key": "A",
+          "text": "By embedding therapeutic strategies and activities recommended by the therapist directly into daily classroom routines and academic tasks.",
+          "is_correct": true,
+          "rationale": "This approach integrates skills into the natural environment, which is the definition of generalization."
+        },
+        {
+          "key": "B",
+          "text": "Scheduling separate, isolated time blocks each day for the student to practice the specific skills learned in therapy sessions.",
+          "is_correct": false,
+          "rationale": "Practicing skills in isolation is the opposite of generalization and can hinder transfer."
+        },
+        {
+          "key": "C",
+          "text": "Ensuring the therapist provides detailed written reports after each session for the teacher to file in the student's records.",
+          "is_correct": false,
+          "rationale": "This is a passive administrative task and does not involve active facilitation of skills."
+        },
+        {
+          "key": "D",
+          "text": "Relying solely on the therapist to work on these specific skills during their designated pull-out sessions with the student.",
+          "is_correct": false,
+          "rationale": "This approach compartmentalizes skill development and works against generalization in the classroom."
+        },
+        {
+          "key": "E",
+          "text": "Asking the student to verbally explain the strategies they learned in therapy to their classmates during a morning meeting.",
+          "is_correct": false,
+          "rationale": "This does not ensure practice and may be socially inappropriate for the student."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Which of the following classroom practices best exemplifies the Universal Design for Learning (UDL) principle of Multiple Means of Engagement?",
+      "explanation": "The principle of Multiple Means of Engagement focuses on tapping into learners' interests and motivating them. Providing choice and autonomy is a core strategy for achieving this goal within the UDL framework.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using both visual aids and auditory explanations when presenting new information to the entire class during a lecture.",
+          "is_correct": false,
+          "rationale": "This is an example of Multiple Means of Representation, not Engagement."
+        },
+        {
+          "key": "B",
+          "text": "Allowing students to demonstrate their understanding by either writing an essay, creating a presentation, or building a model.",
+          "is_correct": false,
+          "rationale": "This is an example of Multiple Means of Action and Expression, not Engagement."
+        },
+        {
+          "key": "C",
+          "text": "Offering students choices in their assignment topics or the tools they use to complete their work to foster autonomy.",
+          "is_correct": true,
+          "rationale": "Providing choice and fostering autonomy are key ways to increase student engagement."
+        },
+        {
+          "key": "D",
+          "text": "Providing all students with the same digital graphic organizer to help them structure their writing for a history essay.",
+          "is_correct": false,
+          "rationale": "This is a support scaffold, but it does not offer choice to increase engagement."
+        },
+        {
+          "key": "E",
+          "text": "Translating key vocabulary terms into multiple languages for English language learners who are present in the classroom.",
+          "is_correct": false,
+          "rationale": "This is an accessibility support related to the principle of Representation."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "When co-teaching an inclusive science class, which model is most effective for introducing complex new vocabulary to a diverse group of learners?",
+      "explanation": "Parallel Teaching reduces the student-to-teacher ratio, enabling more focused, differentiated instruction and immediate feedback, which is crucial for mastering complex new vocabulary in a diverse classroom setting for all students.",
+      "options": [
+        {
+          "key": "A",
+          "text": "One Teach, One Observe, where one teacher leads instruction while the other only gathers data on student understanding without intervening.",
+          "is_correct": false,
+          "rationale": "This model is passive for one teacher and doesn't maximize instructional intensity."
+        },
+        {
+          "key": "B",
+          "text": "Parallel Teaching, where the class is split into two smaller groups, allowing for more targeted instruction and repetition of terms.",
+          "is_correct": true,
+          "rationale": "This model lowers the student-teacher ratio, allowing for more targeted support."
+        },
+        {
+          "key": "C",
+          "text": "Alternative Teaching, where one teacher pulls out a small group, which can stigmatize students and remove them from core instruction.",
+          "is_correct": false,
+          "rationale": "This model separates students and is better for re-teaching, not initial instruction."
+        },
+        {
+          "key": "D",
+          "text": "Team Teaching, where both teachers lead instruction together, which can be overwhelming for students who struggle with auditory processing.",
+          "is_correct": false,
+          "rationale": "This can create too much auditory input for some learners."
+        },
+        {
+          "key": "E",
+          "text": "Station Teaching, where students rotate through various centers that may not all focus specifically on the new vocabulary being introduced.",
+          "is_correct": false,
+          "rationale": "Not all stations may target the specific vocabulary, leading to inconsistent learning."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "During a Manifestation Determination Review (MDR), what is the primary legal question the IEP team must answer regarding a student's misconduct?",
+      "explanation": "The MDR process is legally mandated under IDEA to determine if a student's behavior is a manifestation of their disability or a failure to implement the IEP. This determination dictates the disciplinary actions the school can legally take.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Whether the conduct was caused by the disability, or if it resulted from the school's failure to implement the student's IEP.",
+          "is_correct": true,
+          "rationale": "This correctly states the two legal prongs of the MDR process."
+        },
+        {
+          "key": "B",
+          "text": "To decide on a more restrictive educational placement for the student to prevent any future behavioral incidents from occurring.",
+          "is_correct": false,
+          "rationale": "Placement changes are a separate IEP team decision, not the primary purpose of an MDR."
+        },
+        {
+          "key": "C",
+          "text": "To determine if the parents agree with the disciplinary actions proposed by the school administration before they are officially implemented.",
+          "is_correct": false,
+          "rationale": "Parental agreement on discipline is not the legal purpose of the MDR meeting."
+        },
+        {
+          "key": "D",
+          "text": "To immediately rewrite the student's Behavior Intervention Plan (BIP) based solely on the most recent incident of serious misconduct.",
+          "is_correct": false,
+          "rationale": "A BIP review may result from an MDR, but it is not the primary question."
+        },
+        {
+          "key": "E",
+          "text": "To assess whether the student fully understands the school's code of conduct and the consequences of their specific actions.",
+          "is_correct": false,
+          "rationale": "While relevant, this is not the specific legal question the MDR must answer."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is the most critical first step when considering a new high-tech augmentative and alternative communication (AAC) device for a non-verbal student?",
+      "explanation": "A thorough, student-centered assessment is paramount. Frameworks like SETT (Student, Environments, Tasks, Tools) emphasize that the student's specific needs, abilities, and learning environments must guide the selection of any assistive technology tool.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ordering the most popular and feature-rich AAC device available to ensure the student has access to the very best technology.",
+          "is_correct": false,
+          "rationale": "The 'best' device is the one that meets the student's needs, not the most popular."
+        },
+        {
+          "key": "B",
+          "text": "Consulting primarily with the school's IT department to ensure the device is compatible with the existing school network infrastructure.",
+          "is_correct": false,
+          "rationale": "Compatibility is a factor, but student needs are the primary consideration."
+        },
+        {
+          "key": "C",
+          "text": "Scheduling training for all classroom staff on a specific device before the student has even been assessed for their needs.",
+          "is_correct": false,
+          "rationale": "Training should occur after a specific, appropriate device has been selected for the student."
+        },
+        {
+          "key": "D",
+          "text": "Conducting a comprehensive assessment of the student's motor, cognitive, and communication skills to match them with an appropriate device.",
+          "is_correct": true,
+          "rationale": "A thorough assessment of the student's unique needs must always be the first step."
+        },
+        {
+          "key": "E",
+          "text": "Asking the student's parents to purchase the device themselves in order to save the school district's limited financial resources.",
+          "is_correct": false,
+          "rationale": "The district is legally obligated to provide necessary assistive technology at no cost to parents."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "As a lead special education teacher, how would you best support a new paraeducator who is struggling with implementing a student's Behavior Intervention Plan (BIP)?",
+      "explanation": "Direct modeling, coaching, and providing specific, constructive feedback is the most effective and supportive approach. It builds the paraeducator's capacity and skills while ensuring the student's needs are met, fostering a positive and collaborative team environment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Instruct the paraeducator to simply read the student's BIP again more carefully and then document every instance of non-compliance.",
+          "is_correct": false,
+          "rationale": "This approach is unsupportive and does not provide practical guidance for improvement."
+        },
+        {
+          "key": "B",
+          "text": "Provide direct coaching by modeling the BIP strategies in the classroom and then offering specific, constructive feedback during a debrief.",
+          "is_correct": true,
+          "rationale": "This is a collaborative, supportive approach that builds capacity and ensures fidelity."
+        },
+        {
+          "key": "C",
+          "text": "Immediately report the paraeducator's performance issues to the school principal to request that a replacement be assigned to the classroom.",
+          "is_correct": false,
+          "rationale": "This is an escalatory step that undermines teamwork and professional development."
+        },
+        {
+          "key": "D",
+          "text": "Take over all responsibilities for implementing the BIP yourself to ensure it is done correctly and without any potential errors.",
+          "is_correct": false,
+          "rationale": "This does not build team capacity and is an unsustainable long-term solution."
+        },
+        {
+          "key": "E",
+          "text": "Suggest the paraeducator attend a generic, district-wide professional development workshop that may not address the specific student's needs.",
+          "is_correct": false,
+          "rationale": "Generic training is less effective than job-embedded, specific coaching and feedback."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "You notice that progress monitoring data shows a school-wide decline in reading fluency for students with specific learning disabilities. What is your most appropriate next step?",
+      "explanation": "Effective data-driven instruction requires a deeper analysis to understand the root cause of a trend. Collaboration and targeted adjustments to instruction based on specific deficits are more effective than making broad, unsupported assumptions or system-wide changes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Conclude that the current reading curriculum is ineffective and immediately advocate for a brand new district-wide adoption without further investigation.",
+          "is_correct": false,
+          "rationale": "This is a drastic step based on incomplete analysis of the data."
+        },
+        {
+          "key": "B",
+          "text": "Assume the data is inaccurate due to inconsistent collection methods and disregard the trend until the next official reporting period.",
+          "is_correct": false,
+          "rationale": "Ignoring potential data trends is irresponsible and fails to address student needs."
+        },
+        {
+          "key": "C",
+          "text": "Immediately increase the direct service time for all students with learning disabilities on their IEPs without any further diagnostic assessment.",
+          "is_correct": false,
+          "rationale": "Increasing service time without knowing the specific deficit is an inefficient solution."
+        },
+        {
+          "key": "D",
+          "text": "Assign blame to the general education teachers for not providing adequate Tier 1 instruction to the students in their classrooms.",
+          "is_correct": false,
+          "rationale": "Blaming colleagues is unprofessional and does not lead to productive problem-solving."
+        },
+        {
+          "key": "E",
+          "text": "Analyze the data further to identify specific skill deficits and collaborate with colleagues to adjust instructional strategies and interventions.",
+          "is_correct": true,
+          "rationale": "This is a collaborative, data-driven approach to problem-solving and improving instruction."
+        }
+      ]
+    }
+  ]
+}

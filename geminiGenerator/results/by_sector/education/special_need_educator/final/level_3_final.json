@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "When conducting a Functional Behavior Assessment (FBA), what is the most critical initial step to accurately determine the function of a student's challenging behavior?",
+      "explanation": "The core of an FBA is direct, systematic observation and data collection (ABC data). This empirical approach is essential for forming a valid hypothesis about the behavior's function before developing an intervention.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Systematically observing and collecting direct data on the antecedent, behavior, and consequence across various settings and times.",
+          "is_correct": true,
+          "rationale": "Direct observation and ABC data collection are foundational to a valid FBA."
+        },
+        {
+          "key": "B",
+          "text": "Immediately implementing a preferred behavior intervention plan based on anecdotal reports from the student's previous teachers.",
+          "is_correct": false,
+          "rationale": "Interventions should be based on data, not just anecdotal reports."
+        },
+        {
+          "key": "C",
+          "text": "Interviewing the student's parents to understand their disciplinary strategies used at home to manage the behavior.",
+          "is_correct": false,
+          "rationale": "Parent interviews are part of the process but not the most critical initial step for determining function."
+        },
+        {
+          "key": "D",
+          "text": "Administering a standardized academic achievement test to rule out any potential learning disabilities as the primary cause.",
+          "is_correct": false,
+          "rationale": "While relevant, this does not directly identify the function of a specific behavior."
+        },
+        {
+          "key": "E",
+          "text": "Placing the student in a more restrictive environment to see if the behavior diminishes with fewer distractions.",
+          "is_correct": false,
+          "rationale": "Changing placement is an intervention, not a method for assessing behavioral function."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the most important characteristic of a well-written annual goal within a student's Individualized Education Program (IEP)?",
+      "explanation": "IEP goals must be written using the SMART framework (Specific, Measurable, Achievable, Relevant, Time-bound). This ensures they are clear, trackable, and meaningful, allowing the IEP team to objectively measure student progress.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The goal should be broad and aspirational to encourage the student to reach their fullest potential.",
+          "is_correct": false,
+          "rationale": "Goals must be specific and measurable, not broad and vague."
+        },
+        {
+          "key": "B",
+          "text": "The goal must be specific, measurable, achievable, relevant, and time-bound (SMART) to track progress effectively.",
+          "is_correct": true,
+          "rationale": "The SMART framework is the standard for writing effective and legally defensible IEP goals."
+        },
+        {
+          "key": "C",
+          "text": "The goal is primarily written by the school administrator to ensure it aligns with district-wide curriculum standards.",
+          "is_correct": false,
+          "rationale": "Goals are developed by the entire IEP team, not just one person."
+        },
+        {
+          "key": "D",
+          "text": "The goal should focus exclusively on the student's academic deficits without considering any social or emotional needs.",
+          "is_correct": false,
+          "rationale": "IEP goals must address all areas of need, including social-emotional and functional skills."
+        },
+        {
+          "key": "E",
+          "text": "The goal is copied directly from a previous year's IEP to maintain consistency in the student's program.",
+          "is_correct": false,
+          "rationale": "Goals must be updated annually based on current data and student progress."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "In an inclusive classroom, which co-teaching model is most effective for providing targeted, differentiated instruction to small, heterogeneous groups of students?",
+      "explanation": "Station teaching allows for smaller student-to-teacher ratios and the ability to differentiate content and activities at each station, effectively meeting the diverse needs within a heterogeneous group of learners.",
+      "options": [
+        {
+          "key": "A",
+          "text": "One teach, one observe, where one teacher leads instruction while the other collects data on specific students.",
+          "is_correct": false,
+          "rationale": "This model is primarily for data collection, not differentiated instruction for all."
+        },
+        {
+          "key": "B",
+          "text": "Team teaching, where both educators deliver the same instruction together to the entire class at the same time.",
+          "is_correct": false,
+          "rationale": "This model typically involves whole-group instruction, limiting differentiation."
+        },
+        {
+          "key": "C",
+          "text": "One teach, one assist, where the lead teacher instructs while the other provides individual support as needed.",
+          "is_correct": false,
+          "rationale": "This can lead to one teacher being viewed as a helper rather than an equal partner."
+        },
+        {
+          "key": "D",
+          "text": "Station teaching, where teachers divide content and students, with each teacher instructing a small group at a station.",
+          "is_correct": true,
+          "rationale": "This model is specifically designed for differentiation and small-group instruction."
+        },
+        {
+          "key": "E",
+          "text": "Parallel teaching, where the class is split and each teacher delivers the same lesson to a smaller group.",
+          "is_correct": false,
+          "rationale": "This lowers the student-teacher ratio but doesn't inherently differentiate instruction as well as stations."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Under the Individuals with Disabilities Education Act (IDEA), what does the principle of Free Appropriate Public Education (FAPE) guarantee for every eligible student?",
+      "explanation": "FAPE ensures that a student with a disability receives special education and related services at no cost, tailored to their individual needs through an IEP, allowing them to make meaningful educational progress.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Access to the most advanced and expensive educational technology available, regardless of the student's specific disability.",
+          "is_correct": false,
+          "rationale": "FAPE guarantees 'appropriate' technology, not necessarily the most expensive or advanced."
+        },
+        {
+          "key": "B",
+          "text": "A placement in a private school at public expense if parents are dissatisfied with public school progress.",
+          "is_correct": false,
+          "rationale": "This is only an option in specific circumstances where the district cannot provide FAPE."
+        },
+        {
+          "key": "C",
+          "text": "That the student will achieve the same academic results and test scores as their non-disabled peers.",
+          "is_correct": false,
+          "rationale": "FAPE guarantees access and progress, not identical outcomes to peers."
+        },
+        {
+          "key": "D",
+          "text": "The right to be educated exclusively in a general education classroom, regardless of the severity of their disability.",
+          "is_correct": false,
+          "rationale": "This relates to the Least Restrictive Environment (LRE), not the core definition of FAPE."
+        },
+        {
+          "key": "E",
+          "text": "An education program that is individually designed to meet their unique needs and provides meaningful educational benefit.",
+          "is_correct": true,
+          "rationale": "This is the legal standard for FAPE as established by Supreme Court rulings."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "When the IEP team is considering assistive technology (AT) for a student, what is the most crucial factor to evaluate first?",
+      "explanation": "The primary consideration for AT is its functional relevance. The team must first analyze the student's needs and the specific tasks they struggle with (the 'why') before selecting a tool (the 'what').",
+      "options": [
+        {
+          "key": "A",
+          "text": "The total cost of the technology and whether it fits within the current school district's annual budget.",
+          "is_correct": false,
+          "rationale": "Cost cannot be the primary factor if the technology is required for FAPE."
+        },
+        {
+          "key": "B",
+          "text": "The popularity of the technology among other special education teachers in the school district and online forums.",
+          "is_correct": false,
+          "rationale": "Decisions must be individualized, not based on trends or popularity."
+        },
+        {
+          "key": "C",
+          "text": "The specific tasks the student needs to accomplish and how a particular device can help overcome barriers.",
+          "is_correct": true,
+          "rationale": "This task-oriented approach ensures the AT directly addresses the student's individual needs."
+        },
+        {
+          "key": "D",
+          "text": "How easily the technology can be used by all other students in the general education classroom setting.",
+          "is_correct": false,
+          "rationale": "The focus must be on the specific student's needs, not universal classroom use."
+        },
+        {
+          "key": "E",
+          "text": "The availability of immediate technical support from the vendor in case the device malfunctions during class time.",
+          "is_correct": false,
+          "rationale": "While important for implementation, this is a secondary consideration to the student's actual needs."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "When implementing a \"station teaching\" co-teaching model, what is the most effective way to structure the classroom learning environment?",
+      "explanation": "Station teaching involves dividing content and students into groups. Teachers facilitate different stations, allowing for differentiated instruction and smaller group sizes, while some stations can be independent work, maximizing student engagement.",
+      "options": [
+        {
+          "key": "A",
+          "text": "One teacher instructs the whole class while the other teacher provides individual support to students who are struggling.",
+          "is_correct": false,
+          "rationale": "This describes the 'One Teach, One Assist' model, not station teaching."
+        },
+        {
+          "key": "B",
+          "text": "Both teachers divide the instructional content and each takes responsibility for teaching one half of the class simultaneously.",
+          "is_correct": false,
+          "rationale": "This describes the 'Parallel Teaching' model."
+        },
+        {
+          "key": "C",
+          "text": "The class is divided into multiple learning centers, with each teacher facilitating a station and others being independent.",
+          "is_correct": true,
+          "rationale": "This is the correct definition of station teaching."
+        },
+        {
+          "key": "D",
+          "text": "Both teachers lead instruction together, delivering the same content at the same time to the entire group.",
+          "is_correct": false,
+          "rationale": "This describes the 'Team Teaching' model."
+        },
+        {
+          "key": "E",
+          "text": "One teacher pre-teaches a small group of students before they join the main lesson led by the other teacher.",
+          "is_correct": false,
+          "rationale": "This describes a form of the 'Alternative Teaching' model."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "After conducting a Functional Behavior Assessment (FBA), what is the most critical next step in developing an effective Behavior Intervention Plan (BIP)?",
+      "explanation": "The core of an effective BIP is not just stopping a behavior, but teaching a functionally equivalent replacement skill. This addresses the student's underlying need, making the intervention more meaningful and sustainable.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately implementing a system of rewards and consequences based on the observed behaviors without further analysis.",
+          "is_correct": false,
+          "rationale": "This approach ignores the function of the behavior, which is critical."
+        },
+        {
+          "key": "B",
+          "text": "Selecting a pre-written, generic intervention plan that has been successful for students with similar diagnoses in the past.",
+          "is_correct": false,
+          "rationale": "BIPs must be individualized based on the specific FBA data."
+        },
+        {
+          "key": "C",
+          "text": "Developing replacement behaviors that serve the same function as the problem behavior and teaching them explicitly to the student.",
+          "is_correct": true,
+          "rationale": "This directly addresses the 'why' behind the behavior, leading to lasting change."
+        },
+        {
+          "key": "D",
+          "text": "Focusing solely on antecedent strategies to prevent the behavior from occurring, without addressing the behavior's function.",
+          "is_correct": false,
+          "rationale": "Antecedent strategies are important, but not sufficient without teaching replacement skills."
+        },
+        {
+          "key": "E",
+          "text": "Scheduling a meeting with the parents to discuss the FBA results and ask them to manage the behavior at home.",
+          "is_correct": false,
+          "rationale": "While parent collaboration is key, the school must develop the BIP."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "According to the Individuals with Disabilities Education Act (IDEA), what is the primary purpose of a transition plan within an IEP?",
+      "explanation": "IDEA mandates that transition planning focuses on a coordinated set of activities designed to facilitate the student's movement from school to post-school activities, including education, employment, and independent living.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure the student successfully completes all required academic coursework for graduation from high school with their peers.",
+          "is_correct": false,
+          "rationale": "This is a goal of the overall IEP, but not the specific purpose of transition planning."
+        },
+        {
+          "key": "B",
+          "text": "To prepare the student for further education, employment, and independent living after they have completed their high school education.",
+          "is_correct": true,
+          "rationale": "This aligns directly with IDEA's definition of transition services."
+        },
+        {
+          "key": "C",
+          "text": "To provide parents with a comprehensive list of community resources and support agencies available after the student graduates.",
+          "is_correct": false,
+          "rationale": "Providing resources is part of the process, but not the primary purpose."
+        },
+        {
+          "key": "D",
+          "text": "To document the student's vocational interests and hobbies to help them choose elective courses during their senior year.",
+          "is_correct": false,
+          "rationale": "This is a component of transition assessment, not the overall purpose of the plan."
+        },
+        {
+          "key": "E",
+          "text": "To create a legal document that guarantees the student will be accepted into a specific post-secondary program or job.",
+          "is_correct": false,
+          "rationale": "A transition plan is for preparation and goal-setting, not a guarantee of outcomes."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "When evaluating the effectiveness of a new assistive technology (AT) device for a non-verbal student, what data is most important to collect?",
+      "explanation": "The primary goal of augmentative and alternative communication (AAC) is functional communication. Therefore, data on how often, how independently, and in what contexts the student uses the device is the most critical measure.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The total cost of the device and the amount of professional development time required for staff to learn its functions.",
+          "is_correct": false,
+          "rationale": "These are logistical factors, but they do not measure student effectiveness."
+        },
+        {
+          "key": "B",
+          "text": "The student's level of enjoyment and preference for the device compared to other non-technological communication methods.",
+          "is_correct": false,
+          "rationale": "While student preference is important, it doesn't measure functional communication gains."
+        },
+        {
+          "key": "C",
+          "text": "The frequency and spontaneity of the student's communication attempts using the device across different settings and with various partners.",
+          "is_correct": true,
+          "rationale": "This data directly measures the device's impact on functional communication skills."
+        },
+        {
+          "key": "D",
+          "text": "The opinions of other teachers and staff members regarding the device's ease of use and integration into classroom routines.",
+          "is_correct": false,
+          "rationale": "Staff opinion is useful feedback but is subjective and secondary to student data."
+        },
+        {
+          "key": "E",
+          "text": "The number of technical glitches or software errors that occur during the initial trial period of using the device.",
+          "is_correct": false,
+          "rationale": "Technical reliability is a factor, but not the primary measure of effectiveness for the student."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "During an IEP meeting, parents disagree with the school's proposed placement. What is the legally required first step for the team to take?",
+      "explanation": "Procedural safeguards under IDEA require the IEP team, including parents, to work collaboratively. The first step in a disagreement is to continue discussion and attempt to resolve the conflict before escalating to more formal dispute resolution options.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Adjourn the meeting and implement the school's proposed placement until a formal complaint can be officially filed by the parents.",
+          "is_correct": false,
+          "rationale": "This violates the 'stay-put' provision and parental rights."
+        },
+        {
+          "key": "B",
+          "text": "Immediately schedule a due process hearing to allow a neutral third party to make a final decision on the placement.",
+          "is_correct": false,
+          "rationale": "This is a later step in dispute resolution, not the first."
+        },
+        {
+          "key": "C",
+          "text": "Document the parents' disagreement and continue the meeting to try and reach a consensus through further discussion and negotiation.",
+          "is_correct": true,
+          "rationale": "Collaboration and attempting to reach consensus is the required initial step."
+        },
+        {
+          "key": "D",
+          "text": "Inform the parents that the school's recommendation is final and based on expert assessment, which cannot be legally challenged.",
+          "is_correct": false,
+          "rationale": "This is legally incorrect; parents have the right to challenge recommendations."
+        },
+        {
+          "key": "E",
+          "text": "Ask the parents to find an alternative school placement on their own while the disagreement is being formally resolved.",
+          "is_correct": false,
+          "rationale": "The school district remains responsible for providing a Free Appropriate Public Education (FAPE)."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Which co-teaching model is most effective for introducing a new, complex academic concept to a class with diverse learning needs?",
+      "explanation": "Team Teaching is ideal for introducing complex new content as both educators can model, clarify, and provide varied explanations simultaneously, addressing diverse learning styles and potential misconceptions in real-time.",
+      "options": [
+        {
+          "key": "A",
+          "text": "One Teach, One Observe, where one educator leads the lesson while the other systematically gathers data on specific student behaviors.",
+          "is_correct": false,
+          "rationale": "This model is best for data collection, not for introducing complex new content to a diverse group."
+        },
+        {
+          "key": "B",
+          "text": "Station Teaching, where students rotate through different learning centers, with each teacher responsible for a specific station's content.",
+          "is_correct": false,
+          "rationale": "This is excellent for differentiation and practice but less effective for a unified initial introduction of a topic."
+        },
+        {
+          "key": "C",
+          "text": "Parallel Teaching, which involves dividing the class into two mixed-ability groups, with each teacher instructing the same content simultaneously.",
+          "is_correct": false,
+          "rationale": "This model reduces the student-teacher ratio but doesn't leverage the expertise of both teachers for a single, powerful introduction."
+        },
+        {
+          "key": "D",
+          "text": "Team Teaching, where both educators jointly plan and deliver instruction to the entire class, sharing the teaching responsibilities equally.",
+          "is_correct": true,
+          "rationale": "This synergistic approach allows for dynamic instruction, modeling, and clarification, which is ideal for complex new topics."
+        },
+        {
+          "key": "E",
+          "text": "One Teach, One Assist, which has one teacher leading the lesson while the other circulates to provide individual student support.",
+          "is_correct": false,
+          "rationale": "This can lead to the special educator being viewed as an assistant rather than an equal instructional partner."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "When conducting a Functional Behavior Assessment (FBA), what is the most crucial initial step to accurately identify the function of a student's behavior?",
+      "explanation": "An operational definition is the foundational first step. It ensures everyone involved is observing and measuring the exact same behavior, which is critical for collecting valid data to determine its function.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately implementing a new behavior intervention plan based on initial assumptions about the student's needs and motivations.",
+          "is_correct": false,
+          "rationale": "Intervention should only be developed after the function of the behavior has been identified through data collection."
+        },
+        {
+          "key": "B",
+          "text": "Interviewing the student's parents and previous teachers to gather historical information about past behavioral patterns.",
+          "is_correct": false,
+          "rationale": "While important for context, this is part of the data gathering process, not the absolute first step."
+        },
+        {
+          "key": "C",
+          "text": "Operationally defining the target behavior in specific, observable, and measurable terms to ensure consistent data collection.",
+          "is_correct": true,
+          "rationale": "A clear, objective definition of the behavior is essential before any observation or data collection can begin accurately."
+        },
+        {
+          "key": "D",
+          "text": "Selecting an appropriate and functionally equivalent replacement behavior to teach the student as an alternative.",
+          "is_correct": false,
+          "rationale": "A replacement behavior cannot be selected until the function of the original target behavior is fully understood."
+        },
+        {
+          "key": "E",
+          "text": "Administering standardized academic assessments to rule out any underlying learning disabilities as the primary cause.",
+          "is_correct": false,
+          "rationale": "This can be part of a comprehensive evaluation but is not the first step of the FBA process itself."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "A student with a specific learning disability in reading struggles with grade-level texts. Which differentiation strategy is most appropriate for this situation?",
+      "explanation": "This approach maintains high expectations by providing access to grade-level content through an alternative format (audio). The graphic organizer scaffolds the comprehension task, addressing the student's needs without changing the core learning objective.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Providing the student with a completely different, lower-level text on a much simpler, unrelated topic to ensure success.",
+          "is_correct": false,
+          "rationale": "This lowers expectations and removes the student from the core curriculum and grade-level content."
+        },
+        {
+          "key": "B",
+          "text": "Requiring the student to read the grade-level text independently but allowing them to have extra time for completion.",
+          "is_correct": false,
+          "rationale": "Extended time alone does not address the fundamental difficulty with decoding and comprehending the text."
+        },
+        {
+          "key": "C",
+          "text": "Supplying an audio version of the grade-level text and a graphic organizer to help identify key ideas.",
+          "is_correct": true,
+          "rationale": "This provides access to the same content through a different modality, accommodating the disability while maintaining rigor."
+        },
+        {
+          "key": "D",
+          "text": "Excusing the student from all reading assignments and providing alternative, non-textual tasks like drawing a picture.",
+          "is_correct": false,
+          "rationale": "This avoids addressing the skill deficit and removes the student from essential learning opportunities."
+        },
+        {
+          "key": "E",
+          "text": "Having the student repeatedly copy key paragraphs from the text to improve their overall reading fluency and comprehension.",
+          "is_correct": false,
+          "rationale": "Copying text is not an evidence-based strategy for improving reading fluency or comprehension skills."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "During an annual IEP meeting, a parent expresses strong disagreement with the school's proposed placement. What is the educator's best initial response?",
+      "explanation": "This response validates the parent as an equal member of the IEP team. It promotes collaboration by actively listening and seeking to understand their viewpoint before moving toward a resolution, fostering a positive partnership.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately end the meeting and reschedule it for a later date when an official district mediator can be present.",
+          "is_correct": false,
+          "rationale": "This is an escalatory step that should only be taken after initial attempts at resolution have failed."
+        },
+        {
+          "key": "B",
+          "text": "Politely explain that the school's recommendation is based on expert opinion and is considered the final decision.",
+          "is_correct": false,
+          "rationale": "This dismisses the parent's legal role as an equal member of the IEP team and creates an adversarial tone."
+        },
+        {
+          "key": "C",
+          "text": "Actively listen to and acknowledge the parent's concerns, ask clarifying questions, and document their perspective.",
+          "is_correct": true,
+          "rationale": "This collaborative approach validates the parent's input and keeps the focus on finding a mutually agreeable solution."
+        },
+        {
+          "key": "D",
+          "text": "Advise the parent to file a formal complaint with the district office if they continue to disagree.",
+          "is_correct": false,
+          "rationale": "This prematurely moves the process toward a legal dispute instead of collaborative problem-solving within the team."
+        },
+        {
+          "key": "E",
+          "text": "Present data from other students in the proposed placement to demonstrate its overall effectiveness and success rate.",
+          "is_correct": false,
+          "rationale": "This violates student confidentiality and is irrelevant, as the focus must remain on the individual student's needs."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is the most critical consideration when selecting an assistive technology (AT) device for a student with a physical disability affecting writing?",
+      "explanation": "This approach aligns with the SETT Framework (Student, Environments, Tasks, Tools), a best practice for AT consideration. It ensures the technology is matched to the individual's specific circumstances for the greatest chance of success.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Choosing the most technologically advanced and expensive device available to ensure it has the maximum number of features.",
+          "is_correct": false,
+          "rationale": "The best tool is not always the most complex or expensive; it must match the user's specific needs."
+        },
+        {
+          "key": "B",
+          "text": "Selecting the same device that other students with similar disabilities in the school district are currently using.",
+          "is_correct": false,
+          "rationale": "AT decisions must be individualized; what works for one student may not work for another."
+        },
+        {
+          "key": "C",
+          "text": "Evaluating the student's specific needs, the required tasks, and the environments where the tool will be used.",
+          "is_correct": true,
+          "rationale": "This student-centered process (the SETT framework) ensures the technology is a functional match for the individual."
+        },
+        {
+          "key": "D",
+          "text": "Prioritizing a device that requires the least amount of training for the teaching staff to implement quickly.",
+          "is_correct": false,
+          "rationale": "Staff convenience should not be the primary factor; the student's needs are the top priority in AT selection."
+        },
+        {
+          "key": "E",
+          "text": "Ensuring the device is compatible only with the school's current software and not considering its use at home.",
+          "is_correct": false,
+          "rationale": "Technology should support the student across all relevant environments, including home, to promote skill generalization."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "When co-planning with a speech-language pathologist, what is the most effective strategy for integrating communication goals into academic lessons?",
+      "explanation": "This approach ensures communication skills are practiced in a meaningful, contextualized way, promoting generalization and reinforcing both academic and communication objectives simultaneously without isolating the skills from the curriculum.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Schedule separate, isolated pull-out sessions with the pathologist to work exclusively on the student's communication skills.",
+          "is_correct": false,
+          "rationale": "This isolates skills and hinders generalization into the classroom environment."
+        },
+        {
+          "key": "B",
+          "text": "Embed specific speech and language targets directly into the lesson plan's activities and instructional materials for consistent practice.",
+          "is_correct": true,
+          "rationale": "This promotes skill generalization by integrating therapy goals into academic content."
+        },
+        {
+          "key": "C",
+          "text": "Assign the pathologist to lead the entire lesson while the special educator observes the student's social interactions.",
+          "is_correct": false,
+          "rationale": "This underutilizes the special educator's expertise and is not true co-planning."
+        },
+        {
+          "key": "D",
+          "text": "Rely solely on the pathologist's recommendations without actively modifying the curriculum to incorporate their specific goals.",
+          "is_correct": false,
+          "rationale": "Effective collaboration requires active participation and modification from the teacher."
+        },
+        {
+          "key": "E",
+          "text": "Focus academic instruction first and ask the pathologist to address communication deficits during non-instructional times like recess.",
+          "is_correct": false,
+          "rationale": "This devalues communication goals and misses key instructional opportunities."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "A parent is upset about their child's lack of progress on an IEP goal. What is your most appropriate initial response?",
+      "explanation": "A collaborative, data-driven approach respects the parent's concerns, maintains a positive partnership, and focuses on problem-solving to best support the student's needs, which is central to the IEP process.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Inform the parent that progress takes time and they should be more patient with the established educational process.",
+          "is_correct": false,
+          "rationale": "This response is dismissive and can damage the parent-teacher relationship."
+        },
+        {
+          "key": "B",
+          "text": "Immediately suggest a more restrictive placement for the student since the current strategies are clearly not working.",
+          "is_correct": false,
+          "rationale": "This is a significant decision that should not be the initial response."
+        },
+        {
+          "key": "C",
+          "text": "Defend the current instructional strategies by showing the parent all the work the student has completed in class.",
+          "is_correct": false,
+          "rationale": "This can appear defensive and doesn't address the core concern about progress."
+        },
+        {
+          "key": "D",
+          "text": "Schedule a meeting to review current data, discuss interventions, and collaboratively brainstorm potential adjustments to the plan.",
+          "is_correct": true,
+          "rationale": "This is a collaborative, data-informed, and respectful approach to problem-solving."
+        },
+        {
+          "key": "E",
+          "text": "Advise the parent to seek an outside evaluation as the school's resources may be insufficient for their child.",
+          "is_correct": false,
+          "rationale": "This shifts responsibility away from the school team's duty to problem-solve."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "When developing a Behavior Intervention Plan (BIP) based on a Functional Behavior Assessment (FBA), what is the most critical component?",
+      "explanation": "The core of an effective BIP is not just stopping a behavior, but teaching a more appropriate way for the student to get their needs met, which directly addresses the function of the behavior.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Including a wide variety of punitive consequences to deter the student from engaging in the target behavior again.",
+          "is_correct": false,
+          "rationale": "Punishment-based plans are less effective and do not teach new skills."
+        },
+        {
+          "key": "B",
+          "text": "Teaching and reinforcing a functionally equivalent replacement behavior that meets the same need as the problem behavior.",
+          "is_correct": true,
+          "rationale": "This addresses the root cause of the behavior identified in the FBA."
+        },
+        {
+          "key": "C",
+          "text": "Focusing exclusively on rewarding the student whenever they are not exhibiting the challenging behavior, regardless of context.",
+          "is_correct": false,
+          "rationale": "This is a non-specific strategy that doesn't teach an alternative skill."
+        },
+        {
+          "key": "D",
+          "text": "Documenting every single instance of the behavior without analyzing the antecedents or consequences that surround it.",
+          "is_correct": false,
+          "rationale": "This describes data collection, not the intervention component of the BIP."
+        },
+        {
+          "key": "E",
+          "text": "Implementing the plan for only a short period before determining that it is ineffective and needs rewriting.",
+          "is_correct": false,
+          "rationale": "A BIP requires sufficient time for implementation and data collection."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "According to the Individuals with Disabilities Education Act (IDEA), what is a key requirement for a student's IEP starting at age 16?",
+      "explanation": "Under IDEA, transition planning is a mandatory component of the IEP for students 16 and older, focusing on measurable post-school outcomes in training, education, employment, and independent living skills.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The IEP must guarantee the student's successful admission into a four-year university program upon their graduation.",
+          "is_correct": false,
+          "rationale": "An IEP cannot guarantee outcomes, only provide services and support."
+        },
+        {
+          "key": "B",
+          "text": "The plan must require the student to participate in a mandatory vocational training program selected by the school.",
+          "is_correct": false,
+          "rationale": "Transition services must be based on the individual student's needs and interests."
+        },
+        {
+          "key": "C",
+          "text": "It must include measurable postsecondary goals and a description of the transition services needed to meet those goals.",
+          "is_correct": true,
+          "rationale": "This is a specific legal requirement for transition planning under IDEA."
+        },
+        {
+          "key": "D",
+          "text": "It should focus solely on academic achievement, deferring all life skills planning until after the student graduates.",
+          "is_correct": false,
+          "rationale": "Transition planning must be comprehensive and address post-school life."
+        },
+        {
+          "key": "E",
+          "text": "The document must be signed by a potential employer to confirm a job offer is waiting for the student.",
+          "is_correct": false,
+          "rationale": "This is not a realistic or legally required component of an IEP."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "You overhear a colleague discussing a student's specific disability with a parent of another child. What is your most ethical action?",
+      "explanation": "This approach addresses the immediate ethical breach directly and professionally, providing a learning opportunity for the colleague while upholding legal obligations to protect student privacy under FERPA without escalating unnecessarily.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Join the conversation to add your own perspective on the student's needs and classroom performance.",
+          "is_correct": false,
+          "rationale": "This would compound the breach of confidentiality, not resolve it."
+        },
+        {
+          "key": "B",
+          "text": "Ignore the conversation entirely as it is not your direct responsibility to intervene in colleagues' discussions.",
+          "is_correct": false,
+          "rationale": "All educators have an ethical responsibility to protect student confidentiality."
+        },
+        {
+          "key": "C",
+          "text": "Immediately report the colleague to the school principal without first speaking to them about the confidentiality breach.",
+          "is_correct": false,
+          "rationale": "This is an escalatory step; a direct, private conversation is more professional first."
+        },
+        {
+          "key": "D",
+          "text": "Post a general reminder about student confidentiality in the staff lounge without addressing the specific individual.",
+          "is_correct": false,
+          "rationale": "This is a passive approach that may not effectively address the specific behavior."
+        },
+        {
+          "key": "E",
+          "text": "Privately and respectfully remind the colleague later about confidentiality laws like FERPA and protecting student information.",
+          "is_correct": true,
+          "rationale": "This is a direct, professional, and educational response to the ethical lapse."
+        }
+      ]
+    }
+  ]
+}

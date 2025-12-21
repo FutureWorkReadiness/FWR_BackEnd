@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "A student with an Individualized Education Program (IEP) is consistently struggling to complete assignments. What is your most appropriate initial action?",
+      "explanation": "This approach is collaborative and legally compliant, focusing on providing appropriate support as outlined in the IEP rather than punitive measures or simply reducing expectations without professional consultation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Review the student's IEP accommodations and collaborate with the special education teacher to adjust instructional strategies.",
+          "is_correct": true,
+          "rationale": "This aligns with legal requirements and best practices for supporting students with IEPs."
+        },
+        {
+          "key": "B",
+          "text": "Provide the student with simplified assignments that cover less content than what is given to their peers.",
+          "is_correct": false,
+          "rationale": "This lowers expectations without addressing the root cause or consulting the student's specific plan."
+        },
+        {
+          "key": "C",
+          "text": "Contact the student's parents immediately to discuss the lack of effort and suggest consequences at home.",
+          "is_correct": false,
+          "rationale": "This wrongly assumes the issue is effort and bypasses the professional team responsible for the IEP."
+        },
+        {
+          "key": "D",
+          "text": "Assign the student to a peer tutor who has already mastered the content to help them catch up.",
+          "is_correct": false,
+          "rationale": "While potentially helpful, this is not the primary intervention and ignores the legally mandated IEP process."
+        },
+        {
+          "key": "E",
+          "text": "Advise the student to attend after-school tutoring sessions until their performance improves to the class average.",
+          "is_correct": false,
+          "rationale": "This places the burden on the student without first examining the effectiveness of in-class instruction and support."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the most effective way to use formative assessment data to guide your instructional planning for the upcoming week?",
+      "explanation": "Effective formative assessment is 'assessment for learning.' The data should be used to diagnose learning gaps and inform immediate instructional adjustments, such as targeted reteaching, to meet student needs.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use the formative assessment scores primarily to calculate a portion of the students' final report card grades.",
+          "is_correct": false,
+          "rationale": "This describes summative assessment, not the primary purpose of formative data which is to inform instruction."
+        },
+        {
+          "key": "B",
+          "text": "Analyze patterns of student misunderstanding from exit tickets and quizzes to create targeted small-group reteaching sessions.",
+          "is_correct": true,
+          "rationale": "This uses data to directly inform and differentiate upcoming instruction, which is the core purpose."
+        },
+        {
+          "key": "C",
+          "text": "Display the class average on the board to motivate students to perform better on the next assessment.",
+          "is_correct": false,
+          "rationale": "This can demotivate struggling students and does not provide specific feedback for instructional improvement."
+        },
+        {
+          "key": "D",
+          "text": "Send a report of the low scores home to parents, requesting they review the material with their children.",
+          "is_correct": false,
+          "rationale": "While communication is important, this shifts the instructional responsibility away from the teacher's planning."
+        },
+        {
+          "key": "E",
+          "text": "Move on to the next unit as scheduled to ensure all curriculum standards are covered by the term.",
+          "is_correct": false,
+          "rationale": "This ignores the data indicating a lack of mastery and prioritizes pacing over actual student learning."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Two students have a significant conflict during a collaborative activity. Which approach best reflects a restorative justice practice in the classroom?",
+      "explanation": "Restorative practices focus on repairing harm and relationships rather than simply punishing behavior. Facilitating a dialogue allows students to understand the impact of their actions and take ownership of the resolution.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately send both students to the principal's office with disciplinary referrals to enforce a zero-tolerance policy.",
+          "is_correct": false,
+          "rationale": "This is a punitive approach that removes students from the learning environment without resolving the conflict."
+        },
+        {
+          "key": "B",
+          "text": "Separate the students for the remainder of the class period and assign them individual work to complete in silence.",
+          "is_correct": false,
+          "rationale": "This de-escalates the situation temporarily but fails to address the underlying issue or repair the relationship."
+        },
+        {
+          "key": "C",
+          "text": "Facilitate a structured conversation where both students can share their perspectives, discuss the harm caused, and agree on a solution.",
+          "is_correct": true,
+          "rationale": "This core restorative practice focuses on repairing harm, building empathy, and teaching conflict resolution skills."
+        },
+        {
+          "key": "D",
+          "text": "Publicly reprimand both students in front of the class to discourage others from engaging in similar disruptive behavior.",
+          "is_correct": false,
+          "rationale": "This can shame students and damage the classroom community, which is contrary to restorative principles."
+        },
+        {
+          "key": "E",
+          "text": "Require both students to write a formal apology letter to you for disrupting the learning environment.",
+          "is_correct": false,
+          "rationale": "This focuses on compliance and teacher authority rather than on the harm caused between the students."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "When integrating a new educational technology tool into your lesson plans, what is the most critical pedagogical consideration for success?",
+      "explanation": "Pedagogy must drive technology use. The primary goal is to enhance learning. A tool is only effective if it purposefully aligns with and supports the lesson's educational objectives.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Selecting the most popular and feature-rich application available on the market to impress students and administrators.",
+          "is_correct": false,
+          "rationale": "This prioritizes trends over instructional purpose, often leading to ineffective implementation."
+        },
+        {
+          "key": "B",
+          "text": "Verifying that every student has access to a personal device with a reliable, high-speed internet connection at home.",
+          "is_correct": false,
+          "rationale": "While equity of access is important, it is a logistical consideration, not a pedagogical one."
+        },
+        {
+          "key": "C",
+          "text": "Completing the district-mandated technology training module before attempting to use the tool in any classroom setting.",
+          "is_correct": false,
+          "rationale": "This is a compliance step; it does not guarantee effective pedagogical integration into a specific lesson."
+        },
+        {
+          "key": "D",
+          "text": "Ensuring the technology directly supports specific learning objectives and enhances student engagement rather than being a novelty.",
+          "is_correct": true,
+          "rationale": "This aligns technology with learning goals, which is the foundation of effective educational technology integration."
+        },
+        {
+          "key": "E",
+          "text": "Focusing on tools that automate grading and reduce your workload, regardless of their direct impact on student learning.",
+          "is_correct": false,
+          "rationale": "Teacher efficiency is a secondary benefit; the primary consideration must always be student learning outcomes."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Your grade-level team is analyzing standardized test data. What is the most productive first step for using this data to improve instruction?",
+      "explanation": "The most effective data analysis focuses on identifying systemic patterns of student need. By pinpointing specific weak areas, the team can collaboratively develop targeted instructional strategies and interventions.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Compare individual teacher results to determine which teacher had the highest-performing students in the grade level.",
+          "is_correct": false,
+          "rationale": "This fosters competition rather than collaboration and ignores variables that affect class performance."
+        },
+        {
+          "key": "B",
+          "text": "Focus solely on the highest-achieving students to see what strategies can be replicated for the entire group.",
+          "is_correct": false,
+          "rationale": "This neglects the students who are most in need of instructional changes and support."
+        },
+        {
+          "key": "C",
+          "text": "Immediately begin searching for new curriculum programs to purchase that promise better results for the next year.",
+          "is_correct": false,
+          "rationale": "This is a reactive, large-scale solution attempted before analyzing specific instructional needs."
+        },
+        {
+          "key": "D",
+          "text": "Dismiss the data as an inaccurate representation of student learning due to test anxiety and other external factors.",
+          "is_correct": false,
+          "rationale": "While data has limitations, dismissing it entirely prevents any opportunity for reflection and improvement."
+        },
+        {
+          "key": "E",
+          "text": "Collaboratively identify specific standards or skills where a significant number of students demonstrated weakness across all classes.",
+          "is_correct": true,
+          "rationale": "This is a collaborative, data-driven approach that pinpoints specific areas for targeted instructional improvement."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "A mandatory, district-wide curriculum change is implemented mid-year. What is your most effective initial strategy for managing this transition in your classroom?",
+      "explanation": "A gap analysis is the most strategic first step. It allows the teacher to make informed decisions about how to blend the new requirements with what students have already learned, ensuring a smoother, more effective transition.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately replace all existing lesson plans with the new curriculum materials to ensure full compliance from the start of the change.",
+          "is_correct": false,
+          "rationale": "This is reactive and ignores potential learning gaps for students."
+        },
+        {
+          "key": "B",
+          "text": "Conduct a thorough gap analysis between the old and new curricula to identify critical overlaps and bridge learning for students.",
+          "is_correct": true,
+          "rationale": "This shows strategic planning and prioritizes student learning continuity."
+        },
+        {
+          "key": "C",
+          "text": "Continue teaching the old curriculum until the end of the term to avoid disrupting the students' current learning momentum.",
+          "is_correct": false,
+          "rationale": "This is non-compliant and fails to prepare students for future assessments."
+        },
+        {
+          "key": "D",
+          "text": "Form a committee with other teachers to formally protest the mid-year change and request a delay until the next school year.",
+          "is_correct": false,
+          "rationale": "This is unprofessional and avoids the immediate challenge of implementation."
+        },
+        {
+          "key": "E",
+          "text": "Focus solely on the new curriculum's standardized test components to maximize student scores despite the abrupt instructional shift.",
+          "is_correct": false,
+          "rationale": "This is poor pedagogy, teaching to the test while neglecting holistic learning."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "A parent objects to your inquiry-based learning approach, demanding a traditional, lecture-based method for their child. What is the most professional response?",
+      "explanation": "Involving an administrator demonstrates a united front and adherence to school policy. It allows for a professional, collaborative conversation that explains the pedagogical rationale while also validating the parent's concerns and seeking a resolution.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Agree to the parent's request and create a separate, lecture-based curriculum exclusively for their child to avoid further conflict.",
+          "is_correct": false,
+          "rationale": "This is impractical, inequitable, and undermines pedagogical consistency."
+        },
+        {
+          "key": "B",
+          "text": "Defend your pedagogical choice by citing its research basis and explain why you cannot alter the core instructional model for one student.",
+          "is_correct": false,
+          "rationale": "This can be perceived as confrontational and lacks a collaborative approach."
+        },
+        {
+          "key": "C",
+          "text": "Schedule a meeting with the parent and an administrator to explain the rationale behind the school's chosen pedagogy and find common ground.",
+          "is_correct": true,
+          "rationale": "This is collaborative, professional, and involves school leadership for support."
+        },
+        {
+          "key": "D",
+          "text": "Suggest the parent consider transferring their child to a different school that aligns more closely with their educational philosophy.",
+          "is_correct": false,
+          "rationale": "This is dismissive of a valid concern and escalates the situation."
+        },
+        {
+          "key": "E",
+          "text": "Ignore the parent's complaint, assuming they will eventually accept the classroom's established teaching methods and routines over time.",
+          "is_correct": false,
+          "rationale": "This is unprofessional and neglects crucial parent communication."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Your school adopts a new digital learning platform, but many veteran teachers are resistant. What leadership role could you take to facilitate successful implementation?",
+      "explanation": "Taking a peer leadership role fosters a collaborative and supportive environment. By becoming a resource and advocate, you can help colleagues overcome their hesitation and see the practical value of the new tool, leading to wider, more effective adoption.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Focus only on your own classroom's successful adoption, creating an example for others to follow without directly engaging resistant colleagues.",
+          "is_correct": false,
+          "rationale": "This is a passive approach that misses a key leadership opportunity."
+        },
+        {
+          "key": "B",
+          "text": "Report the names of resistant teachers to the administration, suggesting they need mandatory, remedial technology training to catch up.",
+          "is_correct": false,
+          "rationale": "This is punitive and undermines collegial trust and relationships."
+        },
+        {
+          "key": "C",
+          "text": "Volunteer to become a 'super-user,' offering peer-led workshops and one-on-one support to demonstrate the platform's benefits for student learning.",
+          "is_correct": true,
+          "rationale": "This demonstrates proactive leadership and provides collaborative support."
+        },
+        {
+          "key": "D",
+          "text": "Publicly criticize the platform's flaws in staff meetings to show solidarity with the colleagues who are struggling with the new technology.",
+          "is_correct": false,
+          "rationale": "This is counterproductive and fosters a negative school culture."
+        },
+        {
+          "key": "E",
+          "text": "Develop your own alternative digital tools, effectively bypassing the school's officially adopted platform for your own classroom use.",
+          "is_correct": false,
+          "rationale": "This undermines school-wide initiatives and instructional consistency."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "When designing a major interdisciplinary project-based learning unit, what is the most critical element to ensure both rigor and student engagement are maintained?",
+      "explanation": "An authentic driving question is the heart of Project-Based Learning. It provides purpose, sparks curiosity, and frames the learning process, ensuring that students are engaged in meaningful inquiry rather than simply completing a series of disconnected tasks.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensuring the final product is a high-quality presentation that can be showcased to parents and the wider school community.",
+          "is_correct": false,
+          "rationale": "This focuses on the outcome, not the learning process itself."
+        },
+        {
+          "key": "B",
+          "text": "Aligning the project with as many state standards as possible, even if the connections are not obvious to students.",
+          "is_correct": false,
+          "rationale": "Standards are a goal, not the driver of student engagement."
+        },
+        {
+          "key": "C",
+          "text": "Creating a highly detailed, prescriptive rubric that outlines every single step and requirement for students to follow precisely.",
+          "is_correct": false,
+          "rationale": "This stifles creativity and inquiry, which are central to PBL."
+        },
+        {
+          "key": "D",
+          "text": "Developing an authentic, complex driving question that requires sustained inquiry and connects content to real-world problems.",
+          "is_correct": true,
+          "rationale": "This is the core principle of effective and engaging Project-Based Learning."
+        },
+        {
+          "key": "E",
+          "text": "Prioritizing student choice in all aspects of the project, allowing them to select their own topics, methods, and final products.",
+          "is_correct": false,
+          "rationale": "While choice is important, it needs structure from a driving question."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "A student shares a serious family issue affecting their academic performance, which is not a safeguarding concern. What is your most appropriate professional response?",
+      "explanation": "The teacher's role is to be a supportive first point of contact but not a trained counselor. The most professional and helpful action is to listen with empathy and then refer the student to appropriate school support services.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately contact the student's parents to discuss the issue they shared with you in confidence without the student's permission.",
+          "is_correct": false,
+          "rationale": "This is a breach of the student's trust and potentially harmful."
+        },
+        {
+          "key": "B",
+          "text": "Offer the student academic advice, such as time management strategies, without directly acknowledging the personal issue they have shared.",
+          "is_correct": false,
+          "rationale": "This is dismissive of the student's emotional needs and the root cause."
+        },
+        {
+          "key": "C",
+          "text": "Listen empathetically, acknowledge their struggle, and connect them with the school counselor or pastoral support team for specialized assistance.",
+          "is_correct": true,
+          "rationale": "This respects professional boundaries and connects the student to expert help."
+        },
+        {
+          "key": "D",
+          "text": "Share your own personal stories and experiences to show the student that you can relate to what they are going through.",
+          "is_correct": false,
+          "rationale": "This oversteps professional boundaries and centers the teacher's experience."
+        },
+        {
+          "key": "E",
+          "text": "Advise the student to keep personal problems at home and focus on their schoolwork while they are in your classroom.",
+          "is_correct": false,
+          "rationale": "This is unempathetic, unrealistic, and unhelpful to the student's well-being."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "When managing a complex safeguarding disclosure that involves external agencies, what is the teacher's most critical initial responsibility?",
+      "explanation": "The primary duty is to follow established procedures meticulously. The Designated Safeguarding Lead (DSL) is the designated point of contact for liaising with external agencies, ensuring a coordinated and legally compliant response.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately follow the school's established safeguarding protocol, recording all details accurately and reporting to the Designated Safeguarding Lead.",
+          "is_correct": true,
+          "rationale": "Following protocol and reporting to the DSL is the correct, mandatory first step."
+        },
+        {
+          "key": "B",
+          "text": "Contact the external agencies like social services directly to expedite the process and share information more quickly.",
+          "is_correct": false,
+          "rationale": "This bypasses the DSL, which is a breach of protocol and can cause confusion."
+        },
+        {
+          "key": "C",
+          "text": "Conduct a private investigation with the student to gather as much evidence as possible before officially reporting it.",
+          "is_correct": false,
+          "rationale": "This is not the teacher's role and can compromise a formal investigation."
+        },
+        {
+          "key": "D",
+          "text": "Inform the student's parents about the disclosure immediately to ensure they are aware of the situation from the start.",
+          "is_correct": false,
+          "rationale": "This could place the child at further risk and is against safeguarding procedures."
+        },
+        {
+          "key": "E",
+          "text": "Wait for further corroborating evidence from other students before escalating the concern to the school's senior leadership.",
+          "is_correct": false,
+          "rationale": "Delaying a report can put a child in continued danger and violates policy."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "You are mentoring an Early Career Teacher (ECT) who is struggling with classroom management. What is the most effective strategy?",
+      "explanation": "A collaborative, personalized approach empowers the ECT to develop their own effective practice. It combines targeted strategies with ongoing support and feedback, which is crucial for professional growth and long-term success.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Advise the ECT to simply adopt your own successful classroom management techniques without any modifications for their style.",
+          "is_correct": false,
+          "rationale": "This one-size-fits-all approach ignores the ECT's individual teaching style and classroom context."
+        },
+        {
+          "key": "B",
+          "text": "Collaboratively develop a personalized action plan, focusing on specific, observable strategies and providing regular, constructive feedback sessions.",
+          "is_correct": true,
+          "rationale": "This approach is supportive, tailored, and focused on sustainable professional development."
+        },
+        {
+          "key": "C",
+          "text": "Recommend that the ECT attends a generic, one-day external training course on behavior management to solve the issues.",
+          "is_correct": false,
+          "rationale": "External courses can be helpful but lack the specific, ongoing support needed for this situation."
+        },
+        {
+          "key": "D",
+          "text": "Take over the ECT's most challenging classes for a week to demonstrate how it should be done properly.",
+          "is_correct": false,
+          "rationale": "This undermines the ECT's authority and does not build their own capacity for management."
+        },
+        {
+          "key": "E",
+          "text": "Suggest that the ECT should focus more on building personal relationships, as this will resolve all behavior issues.",
+          "is_correct": false,
+          "rationale": "While important, relationships alone are not a substitute for explicit classroom management strategies."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "When leading a departmental curriculum review, what is the most crucial first step to ensure successful implementation of any changes?",
+      "explanation": "A successful review must be evidence-based. Auditing current performance and involving colleagues from the start ensures changes are relevant, targeted, and have the buy-in necessary for effective implementation and long-term success.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately purchase new textbooks and resources that align with the latest educational trends and popular teaching methods.",
+          "is_correct": false,
+          "rationale": "This action is premature and should follow a needs analysis, not precede it."
+        },
+        {
+          "key": "B",
+          "text": "Survey the students to determine which topics they find most engaging and base the new curriculum on their preferences.",
+          "is_correct": false,
+          "rationale": "Student voice is valuable, but curriculum must be based on broader educational goals."
+        },
+        {
+          "key": "C",
+          "text": "Conduct a thorough audit of the existing curriculum's effectiveness, analyzing student performance data and gathering feedback from staff.",
+          "is_correct": true,
+          "rationale": "This data-driven, collaborative approach ensures changes are purposeful and well-supported."
+        },
+        {
+          "key": "D",
+          "text": "Present a fully formed, new curriculum plan to the department for them to adopt without extensive prior consultation.",
+          "is_correct": false,
+          "rationale": "A top-down approach alienates staff and misses valuable input, hindering implementation."
+        },
+        {
+          "key": "E",
+          "text": "Focus exclusively on aligning the curriculum with national assessment objectives, ignoring the unique school context and student needs.",
+          "is_correct": false,
+          "rationale": "This narrow focus fails to create a rich, responsive, and contextualized curriculum."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "How should a teacher initially respond to an escalated and emotionally charged complaint from a parent about their child's progress?",
+      "explanation": "De-escalation is key. Active listening and empathy build trust and show respect, creating a foundation for a productive, collaborative conversation focused on the student's best interests rather than a defensive argument.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Defend your teaching methods robustly, providing evidence that the parent's perception of the situation is incorrect or misguided.",
+          "is_correct": false,
+          "rationale": "This approach is confrontational and will likely escalate the parent's frustration."
+        },
+        {
+          "key": "B",
+          "text": "Immediately refer the parent to senior leadership without attempting to address any of their concerns yourself first.",
+          "is_correct": false,
+          "rationale": "This can appear dismissive and avoids the teacher's professional responsibility to engage."
+        },
+        {
+          "key": "C",
+          "text": "Actively listen to the parent's concerns with empathy, validate their feelings, and schedule a follow-up meeting to discuss solutions.",
+          "is_correct": true,
+          "rationale": "This de-escalates the situation and establishes a collaborative, problem-solving tone."
+        },
+        {
+          "key": "D",
+          "text": "Suggest that the parent's high expectations might be unrealistic for their child's current academic ability level.",
+          "is_correct": false,
+          "rationale": "This can be perceived as blaming the parent or child, causing further offense."
+        },
+        {
+          "key": "E",
+          "text": "Agree with all of the parent's complaints to de-escalate the situation quickly, even if you disagree with their points.",
+          "is_correct": false,
+          "rationale": "This is disingenuous and sets unrealistic expectations for future actions and outcomes."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "When analyzing summative assessment data for your department, which action demonstrates the most sophisticated use of this information for improvement?",
+      "explanation": "Sophisticated data use involves looking beyond averages. Disaggregation allows educators to identify specific learning gaps for different student groups and content areas, leading to precise, evidence-based improvements in teaching and curriculum.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Calculating the average score for each class and then ranking teachers based on their students' overall performance results.",
+          "is_correct": false,
+          "rationale": "This is a punitive and overly simplistic use of data that ignores many variables."
+        },
+        {
+          "key": "B",
+          "text": "Focusing only on the highest-achieving students to see how their performance can be pushed even further next year.",
+          "is_correct": false,
+          "rationale": "This neglects the needs of the majority of students and potential widespread issues."
+        },
+        {
+          "key": "C",
+          "text": "Disaggregating the data by student subgroups and specific topics to identify systemic gaps and inform targeted instructional changes.",
+          "is_correct": true,
+          "rationale": "This detailed analysis leads to specific, actionable insights for improving teaching and learning."
+        },
+        {
+          "key": "D",
+          "text": "Using the data primarily to justify requests for more departmental funding and resources from the school's senior leadership.",
+          "is_correct": false,
+          "rationale": "While data can support requests, its primary purpose should be instructional improvement."
+        },
+        {
+          "key": "E",
+          "text": "Discarding any outlier data points, both high and low, to create a more normalized and favorable view of performance.",
+          "is_correct": false,
+          "rationale": "Outliers often provide the most valuable insights into student needs or curriculum issues."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "You are mentoring a new teacher struggling with classroom management. What is the most effective initial strategy to support their professional growth?",
+      "explanation": "A collaborative, non-evaluative approach builds trust and empowers the new teacher. Co-planning, observation, and specific feedback are foundational to effective mentoring, fostering growth rather than creating dependency or fear of failure.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately take over the class for a day to model effective management techniques for the new teacher to observe.",
+          "is_correct": false,
+          "rationale": "Modeling is useful, but taking over can undermine the new teacher's authority and create dependency."
+        },
+        {
+          "key": "B",
+          "text": "Recommend a list of classroom management books and online articles for the teacher to study independently in their own time.",
+          "is_correct": false,
+          "rationale": "This is a passive approach that lacks the direct, personalized support needed for significant improvement."
+        },
+        {
+          "key": "C",
+          "text": "Arrange a collaborative meeting to co-plan strategies, observe their class non-judgmentally, and provide specific, actionable feedback afterwards.",
+          "is_correct": true,
+          "rationale": "This collaborative and supportive cycle is the most effective way to build skills and confidence."
+        },
+        {
+          "key": "D",
+          "text": "Advise the teacher to implement a stricter, more punitive discipline system to quickly establish authority in the classroom.",
+          "is_correct": false,
+          "rationale": "This may offer a short-term fix but fails to address root causes or build positive relationships."
+        },
+        {
+          "key": "E",
+          "text": "Report the teacher's struggles to school administration immediately to request formal intervention and a performance improvement plan.",
+          "is_correct": false,
+          "rationale": "Escalating prematurely undermines the mentoring relationship and can be punitive rather than supportive."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "When leading a departmental curriculum review, what is the most critical first step to ensure the process is collaborative and data-informed?",
+      "explanation": "A successful curriculum review must be structured and evidence-based. Establishing shared goals and analyzing current data first ensures the team works collaboratively toward a common, well-defined purpose based on actual student needs.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately purchase new textbooks and resources based on the latest educational trends and publisher recommendations.",
+          "is_correct": false,
+          "rationale": "This skips the crucial analysis phase, potentially wasting resources on materials that don't meet student needs."
+        },
+        {
+          "key": "B",
+          "text": "Begin by surveying students to determine which topics they find most engaging and interesting to learn about.",
+          "is_correct": false,
+          "rationale": "Student interest is important, but curriculum must first align with standards and identified learning gaps."
+        },
+        {
+          "key": "C",
+          "text": "Establish shared goals and a clear timeline while analyzing current student performance data against existing curriculum standards.",
+          "is_correct": true,
+          "rationale": "This foundational step aligns the team and ensures decisions are driven by evidence and clear objectives."
+        },
+        {
+          "key": "D",
+          "text": "Assign each teacher a different section of the curriculum to revise independently to ensure the work is completed quickly.",
+          "is_correct": false,
+          "rationale": "This approach lacks collaboration and can lead to an incoherent, disjointed curriculum."
+        },
+        {
+          "key": "E",
+          "text": "Schedule meetings with curriculum leaders from neighboring districts to adopt their successful models without extensive internal review.",
+          "is_correct": false,
+          "rationale": "Adopting another district's model ignores the unique context and specific student needs of your own school."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "A parent has escalated a complaint about your grading policies to the administration. What is your most professional and constructive course of action?",
+      "explanation": "This approach demonstrates professionalism, transparency, and a willingness to collaborate. It respects the parent's concerns while maintaining professional boundaries by including an administrator, fostering a constructive resolution rather than escalating conflict.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Avoid communicating with the parent directly and wait for the administrator to resolve the issue on your behalf.",
+          "is_correct": false,
+          "rationale": "This is a passive and unprofessional response that avoids responsibility for your own professional practices."
+        },
+        {
+          "key": "B",
+          "text": "Send an email to the parent defending your grading policies with examples of their child's substandard work attached.",
+          "is_correct": false,
+          "rationale": "This escalates the conflict and creates an adversarial relationship rather than seeking a mutual understanding."
+        },
+        {
+          "key": "C",
+          "text": "Request a meeting with the parent and an administrator to listen to their concerns and transparently explain your grading philosophy.",
+          "is_correct": true,
+          "rationale": "This collaborative approach is professional, transparent, and focused on de-escalation and constructive problem-solving."
+        },
+        {
+          "key": "D",
+          "text": "Immediately change the student's grade to appease the parent and avoid any further conflict with the administration.",
+          "is_correct": false,
+          "rationale": "This undermines your professional integrity and sets a poor precedent for handling future parent concerns."
+        },
+        {
+          "key": "E",
+          "text": "Discuss the situation with other teachers in the staff lounge to gather support for your established grading practices.",
+          "is_correct": false,
+          "rationale": "This is unprofessional and turns a private matter into gossip, failing to address the parent's concern directly."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "When analyzing school-wide standardized test data, which approach is most effective for identifying systemic instructional gaps and planning targeted interventions?",
+      "explanation": "Effective data analysis requires disaggregation to move beyond averages. Breaking down data by subgroups and standards reveals specific inequities and content-area weaknesses, allowing for precise, targeted instructional interventions and support.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Focus solely on the highest-performing students to understand what strategies are working well in those specific classrooms.",
+          "is_correct": false,
+          "rationale": "This ignores the students who need the most support and fails to identify systemic issues."
+        },
+        {
+          "key": "B",
+          "text": "Primarily compare your school's overall average scores against the national averages to gauge general performance levels.",
+          "is_correct": false,
+          "rationale": "Broad averages can mask significant performance gaps among different student populations and learning standards."
+        },
+        {
+          "key": "C",
+          "text": "Disaggregate the data by student subgroups and standards to identify specific learning gaps and inform targeted professional development.",
+          "is_correct": true,
+          "rationale": "Disaggregation is key to actionable insights, allowing for targeted support where it is most needed."
+        },
+        {
+          "key": "D",
+          "text": "Attribute poor results primarily to external factors like student motivation and home environment without examining instruction.",
+          "is_correct": false,
+          "rationale": "This deflects responsibility and misses the opportunity to improve instructional practices within the school's control."
+        },
+        {
+          "key": "E",
+          "text": "Create a public display of class rankings by test scores to motivate teachers and students through direct competition.",
+          "is_correct": false,
+          "rationale": "This fosters an unhealthy, competitive culture and can lead to teaching to the test, not learning."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "You are proposing a new school-wide initiative, such as a cross-curricular PBL program. What is the most crucial step for gaining staff buy-in?",
+      "explanation": "Gaining buy-in for a major initiative is best achieved through collaboration and empowerment. A pilot program with volunteer teachers creates champions for the idea and allows for refinement before a wider, more successful implementation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Announce the initiative as a mandatory directive from administration to ensure compliance from all staff members.",
+          "is_correct": false,
+          "rationale": "Top-down mandates often create resistance and resentment, hindering the initiative's long-term success."
+        },
+        {
+          "key": "B",
+          "text": "Present a fully developed plan at a staff meeting, focusing only on the benefits without discussing potential challenges.",
+          "is_correct": false,
+          "rationale": "This approach can seem dismissive of teachers' valid concerns and practical questions about implementation."
+        },
+        {
+          "key": "C",
+          "text": "Form a volunteer committee of interested teachers to pilot the program in their classrooms before a school-wide rollout.",
+          "is_correct": true,
+          "rationale": "A pilot program builds momentum, creates advocates, and allows for practical adjustments before a full rollout."
+        },
+        {
+          "key": "D",
+          "text": "Require all teachers to attend a series of intensive training sessions before they have a chance to ask questions.",
+          "is_correct": false,
+          "rationale": "Forced training without prior buy-in is often ineffective and can increase staff resistance to the change."
+        },
+        {
+          "key": "E",
+          "text": "Emphasize how the initiative will improve the school's test scores and public reputation above all other factors.",
+          "is_correct": false,
+          "rationale": "Focusing only on metrics ignores pedagogical value and can alienate teachers who prioritize student learning."
+        }
+      ]
+    }
+  ]
+}
