@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "A terminally ill patient with full mental capacity clearly expresses a wish to refuse further nutritional support. What is your most appropriate initial action?",
+      "explanation": "This action respects the patient's autonomy while adhering to professional boundaries and escalation protocols. The registered nurse is responsible for assessing capacity and coordinating with the wider multidisciplinary team to ensure the patient's wishes are handled correctly.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Attempt to persuade the patient to reconsider their decision by explaining the benefits of continued nutritional intake for their comfort.",
+          "is_correct": false,
+          "rationale": "This undermines the patient's autonomy and right to refuse treatment."
+        },
+        {
+          "key": "B",
+          "text": "Immediately inform the patient's family members about the decision to ensure they are fully aware of the situation.",
+          "is_correct": false,
+          "rationale": "This breaches patient confidentiality without their explicit consent."
+        },
+        {
+          "key": "C",
+          "text": "Document the patient's wishes clearly in their care plan and immediately report the conversation to the registered nurse in charge.",
+          "is_correct": true,
+          "rationale": "This correctly follows protocol by documenting, respecting autonomy, and escalating."
+        },
+        {
+          "key": "D",
+          "text": "Continue providing nutritional support as prescribed until a doctor formally writes a new order to cease it.",
+          "is_correct": false,
+          "rationale": "This ignores the patient's expressed wishes and could be considered battery."
+        },
+        {
+          "key": "E",
+          "text": "Consult with the hospital's ethics committee yourself to seek guidance on how to proceed with this complex request.",
+          "is_correct": false,
+          "rationale": "This is not the HCA's role; escalation should be to the nurse."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "You observe a colleague taking a photo of a patient's unusual wound with their personal mobile phone. What is your immediate professional responsibility?",
+      "explanation": "This is a serious safeguarding and data protection breach. Immediate escalation to management and formal documentation are required to protect the patient and ensure the issue is handled according to organisational policy and legal requirements.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Politely ask the colleague to delete the photograph and explain to them why their action was inappropriate and unprofessional.",
+          "is_correct": false,
+          "rationale": "This is insufficient as it doesn't guarantee the incident is formally reported."
+        },
+        {
+          "key": "B",
+          "text": "Immediately report the incident to the ward manager or nurse in charge and complete a formal incident report.",
+          "is_correct": true,
+          "rationale": "This is the correct procedure for a serious safeguarding concern."
+        },
+        {
+          "key": "C",
+          "text": "Ignore the situation to avoid creating conflict with your colleague, as they may have had good intentions.",
+          "is_correct": false,
+          "rationale": "Ignoring a safeguarding breach is a failure of your duty of care."
+        },
+        {
+          "key": "D",
+          "text": "Discuss what you saw with other healthcare assistants to get their opinion before deciding whether to report it.",
+          "is_correct": false,
+          "rationale": "This delays reporting and breaches confidentiality about the incident."
+        },
+        {
+          "key": "E",
+          "text": "Check the patient's file to see if consent for medical photography was given before taking any further action.",
+          "is_correct": false,
+          "rationale": "Personal mobile phones should never be used for clinical photography."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "A newly qualified healthcare assistant asks for your guidance on performing a complex dressing change they are not yet signed off for. What is the correct response?",
+      "explanation": "Patient safety is paramount. Healthcare assistants must only perform tasks for which they are deemed competent. The correct action is to redirect the colleague to the appropriate person, a registered nurse, for formal supervision and competency assessment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Supervise them closely while they perform the procedure to ensure they are doing it correctly and safely for the patient.",
+          "is_correct": false,
+          "rationale": "This allows them to practice outside their competency, which is unsafe."
+        },
+        {
+          "key": "B",
+          "text": "Advise them that they cannot perform the task and must find a registered nurse for supervision and competency assessment.",
+          "is_correct": true,
+          "rationale": "This upholds safety standards and follows correct delegation and competency protocols."
+        },
+        {
+          "key": "C",
+          "text": "Perform the dressing change yourself and use it as an informal teaching opportunity to explain the steps to them.",
+          "is_correct": false,
+          "rationale": "While helpful, this does not address their need for formal assessment."
+        },
+        {
+          "key": "D",
+          "text": "Provide them with the official procedure manual and tell them to follow the detailed instructions very carefully.",
+          "is_correct": false,
+          "rationale": "Reading is not a substitute for supervised training and competency assessment."
+        },
+        {
+          "key": "E",
+          "text": "Suggest they practice the technique on a training mannequin first before attempting it on a real patient.",
+          "is_correct": false,
+          "rationale": "This doesn't address the immediate patient need or the formal sign-off process."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "You are caring for a patient with advanced dementia who becomes highly agitated and verbally aggressive during personal care. What is the best de-escalation strategy?",
+      "explanation": "De-escalation techniques for patients with dementia prioritize reducing stimuli and providing reassurance. Withdrawing, giving space, and using a calm tone can help reduce anxiety and prevent the situation from worsening, ensuring safety for both patient and staff.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Continue with the personal care task as quickly as possible to finish before the agitation worsens any further.",
+          "is_correct": false,
+          "rationale": "This is likely to increase the patient's distress and escalate the situation."
+        },
+        {
+          "key": "B",
+          "text": "Raise your voice to be heard over their shouting and firmly instruct them that they need to calm down.",
+          "is_correct": false,
+          "rationale": "This is a confrontational approach that will increase fear and agitation."
+        },
+        {
+          "key": "C",
+          "text": "Immediately request that sedative medication be prescribed by the doctor to manage the patient's aggressive behaviour effectively.",
+          "is_correct": false,
+          "rationale": "Medication is a last resort and not an initial de-escalation strategy."
+        },
+        {
+          "key": "D",
+          "text": "Temporarily stop the task, give the patient some physical space, and speak in a calm, reassuring tone.",
+          "is_correct": true,
+          "rationale": "This prioritises safety and uses a person-centred, non-threatening approach to reduce distress."
+        },
+        {
+          "key": "E",
+          "text": "Ask a family member to come in and assist with the personal care task to help calm the patient.",
+          "is_correct": false,
+          "rationale": "This places undue responsibility on the family and may not be effective."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "As a senior healthcare assistant, you notice inconsistent hand hygiene practices among junior staff. What is the most effective leadership action to take?",
+      "explanation": "A senior HCA should demonstrate leadership. Proactively leading a team discussion is a supportive, educational, and non-confrontational way to address the issue, improve team compliance, and reinforce a culture of safety for everyone on the ward.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Anonymously report the specific staff members to the infection control team and let them handle the necessary retraining.",
+          "is_correct": false,
+          "rationale": "This is a passive approach that misses a direct leadership opportunity."
+        },
+        {
+          "key": "B",
+          "text": "Proactively lead a brief team huddle to review hand hygiene techniques and reinforce their critical importance to patient safety.",
+          "is_correct": true,
+          "rationale": "This demonstrates leadership, is educational, and addresses the team as a whole."
+        },
+        {
+          "key": "C",
+          "text": "Place additional hand hygiene posters in prominent locations around the ward to serve as a constant visual reminder.",
+          "is_correct": false,
+          "rationale": "This is a low-impact action that does not address the root cause."
+        },
+        {
+          "key": "D",
+          "text": "Document every instance of non-compliance and submit a formal report to the ward manager at the end of the week.",
+          "is_correct": false,
+          "rationale": "This is punitive and delayed, rather than proactive and educational."
+        },
+        {
+          "key": "E",
+          "text": "Privately remind individual staff members of the policy each time you observe a breach in hand hygiene protocol.",
+          "is_correct": false,
+          "rationale": "While good, a team-based approach is more effective for a widespread issue."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "A patient with advanced dementia becomes agitated and forcefully refuses personal care. What is the most appropriate initial action to take in this situation?",
+      "explanation": "This approach respects the patient's autonomy while ensuring their needs are not neglected. It de-escalates the situation and allows for reassessment, which is a key principle of person-centred dementia care and avoids confrontation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Respect their refusal for now and try again later, documenting the event and observing for changes in their condition.",
+          "is_correct": true,
+          "rationale": "This respects autonomy and de-escalates the situation."
+        },
+        {
+          "key": "B",
+          "text": "Firmly explain that the care is necessary for their health and proceed with the task despite their resistance.",
+          "is_correct": false,
+          "rationale": "This action can increase agitation and disregards consent."
+        },
+        {
+          "key": "C",
+          "text": "Immediately request a sedative from the nursing staff to calm the patient down before attempting care again.",
+          "is_correct": false,
+          "rationale": "Chemical restraint is a last resort, not an initial action."
+        },
+        {
+          "key": "D",
+          "text": "Leave the patient alone for the rest of the shift to avoid causing further distress or agitation.",
+          "is_correct": false,
+          "rationale": "This constitutes neglect of the patient's essential care needs."
+        },
+        {
+          "key": "E",
+          "text": "Ask a family member to come in and persuade the patient to accept the required personal care.",
+          "is_correct": false,
+          "rationale": "This inappropriately shifts professional responsibility to the family."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "You are providing care for a palliative patient who is exhibiting Cheyne-Stokes respirations. What does this specific breathing pattern typically indicate?",
+      "explanation": "Cheyne-Stokes respirations, characterized by cycles of deep breathing followed by apnea, are a common physiological sign indicating that the body's systems are shutting down and death is approaching. Recognizing this is crucial for providing appropriate end-of-life care.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It signals a severe allergic reaction that requires immediate administration of an antihistamine or epinephrine medication by a nurse.",
+          "is_correct": false,
+          "rationale": "Allergic reactions present with different respiratory signs."
+        },
+        {
+          "key": "B",
+          "text": "This is a common sign that the patient is experiencing significant pain and requires urgent analgesic intervention from medical staff.",
+          "is_correct": false,
+          "rationale": "Pain is typically indicated by tachypnea, not this pattern."
+        },
+        {
+          "key": "C",
+          "text": "It is a characteristic breathing pattern often observed as a patient approaches the end of their life.",
+          "is_correct": true,
+          "rationale": "This pattern is a classic sign in end-of-life care."
+        },
+        {
+          "key": "D",
+          "text": "The pattern indicates a partial airway obstruction that can be resolved by repositioning the patient's head and neck.",
+          "is_correct": false,
+          "rationale": "Airway obstruction would cause stridor or snoring sounds."
+        },
+        {
+          "key": "E",
+          "text": "This breathing rhythm suggests the patient is having a panic attack and requires reassurance and calming techniques.",
+          "is_correct": false,
+          "rationale": "Panic attacks are associated with hyperventilation, not apnea."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "While assisting a resident, you notice several unexplained bruises on their arms and they seem unusually withdrawn. What is your immediate professional responsibility?",
+      "explanation": "The primary responsibility in a potential safeguarding situation is to observe, document factually, and report concerns immediately through the correct channels. This ensures a timely and appropriate investigation by trained professionals while maintaining confidentiality.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask the resident directly and repeatedly what happened until they provide you with a clear explanation for the bruises.",
+          "is_correct": false,
+          "rationale": "This approach could be intimidating and distressing for the resident."
+        },
+        {
+          "key": "B",
+          "text": "Discuss your concerns with other healthcare assistants to see if they have noticed anything similar happening recently.",
+          "is_correct": false,
+          "rationale": "This breaches patient confidentiality and is not the formal process."
+        },
+        {
+          "key": "C",
+          "text": "Document your specific, factual observations and immediately report them to the nurse in charge or your line manager.",
+          "is_correct": true,
+          "rationale": "This follows correct safeguarding procedure for escalation."
+        },
+        {
+          "key": "D",
+          "text": "Wait to see if more bruises appear over the next few days before deciding to escalate the situation.",
+          "is_correct": false,
+          "rationale": "Delaying a report puts the resident at further risk."
+        },
+        {
+          "key": "E",
+          "text": "Contact the resident's family directly to inquire about the origin of the bruises you have observed.",
+          "is_correct": false,
+          "rationale": "This oversteps your role and breaches patient confidentiality."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "A patient is on contact precautions for Methicillin-resistant Staphylococcus aureus (MRSA). Which action is most critical for preventing transmission to other patients?",
+      "explanation": "For contact precautions, the primary mode of transmission is direct or indirect contact. Therefore, using Personal Protective Equipment (PPE) such as gloves and gowns creates a barrier, which is the most critical step in preventing the spread of organisms like MRSA.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensuring the patient wears a surgical mask whenever they are being transported outside of their private room.",
+          "is_correct": false,
+          "rationale": "Masks are used for droplet or airborne precautions, not contact."
+        },
+        {
+          "key": "B",
+          "text": "Using only alcohol-based hand rub for hand hygiene after every interaction with the patient's environment.",
+          "is_correct": false,
+          "rationale": "Hand washing with soap and water is often required."
+        },
+        {
+          "key": "C",
+          "text": "Wearing appropriate personal protective equipment (PPE), like gloves and a gown, for all contact with the patient.",
+          "is_correct": true,
+          "rationale": "PPE is the primary barrier to prevent contact transmission."
+        },
+        {
+          "key": "D",
+          "text": "Restricting all visitors from entering the patient's room until the infection has completely cleared from their system.",
+          "is_correct": false,
+          "rationale": "Visitor restrictions are specific and not usually a total ban."
+        },
+        {
+          "key": "E",
+          "text": "Administering prophylactic antibiotics to patients in adjacent rooms to prevent them from contracting the infection.",
+          "is_correct": false,
+          "rationale": "This is an inappropriate use of antibiotics and medically unsound."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "You observe that a post-operative patient's urine output has been less than 30ml per hour for the past two hours. What should you do?",
+      "explanation": "A urine output of less than 30ml/hour (oliguria) is a significant clinical sign that can indicate serious issues like dehydration, shock, or acute kidney injury. It requires immediate reporting to a registered nurse for further assessment and intervention.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Encourage the patient to drink more fluids and then re-check their urine output in another two hours.",
+          "is_correct": false,
+          "rationale": "This delays essential medical review for a critical sign."
+        },
+        {
+          "key": "B",
+          "text": "Document the low urine output in the patient's chart and plan to mention it during the next handover.",
+          "is_correct": false,
+          "rationale": "This response is not urgent enough for a red flag sign."
+        },
+        {
+          "key": "C",
+          "text": "Immediately report this finding to the registered nurse as it could indicate potential kidney dysfunction or dehydration.",
+          "is_correct": true,
+          "rationale": "This is a critical finding requiring immediate escalation."
+        },
+        {
+          "key": "D",
+          "text": "Check the catheter tubing for any kinks or blockages before deciding if further action is necessary.",
+          "is_correct": false,
+          "rationale": "While a good check, immediate reporting is the priority."
+        },
+        {
+          "key": "E",
+          "text": "Assume this is a normal post-operative occurrence and continue with your routine patient care tasks as scheduled.",
+          "is_correct": false,
+          "rationale": "This is a clinically significant abnormal finding, not normal."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "A junior healthcare assistant you are mentoring consistently fails to document fluid intake for a patient with renal issues. What is your most appropriate initial action?",
+      "explanation": "The best initial approach is supportive and educational. It addresses the performance issue directly with the individual, reinforces correct procedure, and fosters a positive learning environment, which is a key mentoring responsibility.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately report the junior colleague's repeated errors directly to the ward manager to ensure patient safety is prioritised above all.",
+          "is_correct": false,
+          "rationale": "This is an escalation, not a supportive first step."
+        },
+        {
+          "key": "B",
+          "text": "Take over the documentation tasks for that specific patient yourself to prevent any further mistakes from being made by them.",
+          "is_correct": false,
+          "rationale": "This does not address the colleague's learning need."
+        },
+        {
+          "key": "C",
+          "text": "Privately discuss the importance of accurate fluid balance charting with the colleague, demonstrating the correct procedure and offering support.",
+          "is_correct": true,
+          "rationale": "This is a constructive, educational, and supportive first action."
+        },
+        {
+          "key": "D",
+          "text": "Announce the mistake during the team handover meeting to make everyone aware of the potential for documentation errors.",
+          "is_correct": false,
+          "rationale": "This is unprofessional and not a constructive way to teach."
+        },
+        {
+          "key": "E",
+          "text": "Advise the patient's family to monitor the fluid intake themselves as an extra layer of safety and precaution.",
+          "is_correct": false,
+          "rationale": "This inappropriately delegates a professional responsibility."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "You observe a post-operative patient with dementia who is unusually quiet and refusing food, though their vital signs are stable. What is the most critical interpretation?",
+      "explanation": "In patients with cognitive impairments, subtle behavioural changes are often the earliest and only signs of serious clinical deterioration, such as sepsis or significant pain. Recognising this is a critical skill for an experienced HCA.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Assume this behavioural change is a normal progression of their dementia and simply document the observation for the next shift.",
+          "is_correct": false,
+          "rationale": "This dismisses a potential acute medical issue."
+        },
+        {
+          "key": "B",
+          "text": "Conclude the patient is likely just tired from the surgery and will probably feel better after some extended rest.",
+          "is_correct": false,
+          "rationale": "This is a potentially dangerous assumption to make."
+        },
+        {
+          "key": "C",
+          "text": "Recognise that subtle non-verbal changes can indicate serious underlying issues like silent infection or pain in non-communicative patients.",
+          "is_correct": true,
+          "rationale": "This demonstrates advanced clinical awareness and judgement."
+        },
+        {
+          "key": "D",
+          "text": "Offer the patient a different meal choice, assuming the issue is purely related to their personal food preferences.",
+          "is_correct": false,
+          "rationale": "This ignores the broader context of the behavioural change."
+        },
+        {
+          "key": "E",
+          "text": "Ask the patient's family if this is typical behaviour for them when they are feeling upset or disoriented.",
+          "is_correct": false,
+          "rationale": "While useful, it's not the most critical clinical interpretation."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "A patient's family member insists on assisting with personal care but you notice they are rough and dismissive of the patient's discomfort. What is your immediate priority?",
+      "explanation": "The immediate priority in any potential safeguarding situation is to ensure the patient's safety and dignity. This requires tactful but direct intervention to stop the potentially harmful behaviour and re-establish professional care standards.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Avoid confrontation with the family member to maintain a good relationship and prevent them from becoming defensive or angry.",
+          "is_correct": false,
+          "rationale": "Patient safety must always be prioritised over avoiding conflict."
+        },
+        {
+          "key": "B",
+          "text": "Politely but firmly intervene, stating that for safety and comfort, trained staff will now take over the patient's personal care.",
+          "is_correct": true,
+          "rationale": "This is an immediate, assertive action to protect the patient."
+        },
+        {
+          "key": "C",
+          "text": "Wait until the family member has left and then ask the patient if they feel safe with their assistance.",
+          "is_correct": false,
+          "rationale": "This delays action and puts the patient in a difficult position."
+        },
+        {
+          "key": "D",
+          "text": "Document your observations in the patient's notes and plan to discuss it with the nurse in charge later.",
+          "is_correct": false,
+          "rationale": "This response is not immediate enough for a safeguarding risk."
+        },
+        {
+          "key": "E",
+          "text": "Suggest to the family member that they take a break, hoping they will understand the hint without direct intervention.",
+          "is_correct": false,
+          "rationale": "This is too passive and may not resolve the immediate risk."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "During a medical emergency, a registered nurse asks you to prepare an IV drip, a task outside your standard competency. What is the correct course of action?",
+      "explanation": "Patient safety and professional accountability require healthcare assistants to work strictly within their defined scope of practice, even during emergencies. The correct response is to clearly and calmly state your limitations and offer alternative assistance.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Attempt to prepare the IV drip to the best of your ability, as it is a critical emergency situation.",
+          "is_correct": false,
+          "rationale": "Working outside your scope of practice is unsafe and unprofessional."
+        },
+        {
+          "key": "B",
+          "text": "Immediately state that preparing an IV drip is outside your scope of practice but ask for another task you can perform.",
+          "is_correct": true,
+          "rationale": "This clearly communicates limitations while remaining helpful and professional."
+        },
+        {
+          "key": "C",
+          "text": "Ask another, more experienced healthcare assistant to prepare the IV drip for you while you assist with other tasks.",
+          "is_correct": false,
+          "rationale": "This delegates an unsafe act to another HCA."
+        },
+        {
+          "key": "D",
+          "text": "Find the hospital's policy manual to check if there are any exceptions for HCAs during emergency situations.",
+          "is_correct": false,
+          "rationale": "This wastes critical time during an active emergency."
+        },
+        {
+          "key": "E",
+          "text": "Agree to do it but ask the nurse to supervise you very closely to ensure you are doing it correctly.",
+          "is_correct": false,
+          "rationale": "Supervision does not make it permissible to work outside your scope."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "You overhear two colleagues arguing about care plan responsibilities, causing tension that could affect patient care. What is the most constructive response for a senior HCA?",
+      "explanation": "A senior HCA should demonstrate leadership by de-escalating conflict and facilitating professional, solution-focused communication. Addressing the issue privately and constructively helps resolve the problem while maintaining team cohesion and ensuring patient care is not compromised.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ignore the argument as it is a personal disagreement between them and does not directly involve you or your duties.",
+          "is_correct": false,
+          "rationale": "This ignores the negative impact on the team and patient care."
+        },
+        {
+          "key": "B",
+          "text": "Report both colleagues to the ward manager for unprofessional conduct without attempting to resolve the situation yourself first.",
+          "is_correct": false,
+          "rationale": "This escalates the issue prematurely without attempting local resolution."
+        },
+        {
+          "key": "C",
+          "text": "Publicly tell them to stop arguing because their behaviour is creating a negative atmosphere for the patients on the ward.",
+          "is_correct": false,
+          "rationale": "This is unprofessional and likely to escalate the conflict."
+        },
+        {
+          "key": "D",
+          "text": "Wait for a calm moment and facilitate a private conversation with them, focusing on clarifying the care plan and finding a solution.",
+          "is_correct": true,
+          "rationale": "This is a proactive, professional, and solution-focused response."
+        },
+        {
+          "key": "E",
+          "text": "Take sides with the colleague you believe is correct in the argument to help resolve the dispute more quickly.",
+          "is_correct": false,
+          "rationale": "This creates further division within the team and is unprofessional."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "You are mentoring a new healthcare assistant who struggles with time management and prioritising patient care tasks. What is the most effective initial approach to support them?",
+      "explanation": "A collaborative and educational approach is most effective for mentoring. Creating a prioritised list together and explaining the clinical reasoning builds competence, confidence, and understanding, which is more sustainable than simply taking over tasks or being punitive.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Collaboratively create a prioritised daily task list, explaining the clinical reasoning behind the order of the required tasks.",
+          "is_correct": true,
+          "rationale": "This is a supportive, educational approach that empowers the new staff member."
+        },
+        {
+          "key": "B",
+          "text": "Report their performance issues directly to the ward manager without discussing it with them first to ensure formal intervention.",
+          "is_correct": false,
+          "rationale": "This is unsupportive and escalates the issue prematurely without attempting to mentor."
+        },
+        {
+          "key": "C",
+          "text": "Advise them to simply work faster and observe how more experienced colleagues manage their time during their shifts.",
+          "is_correct": false,
+          "rationale": "This is unhelpful advice that lacks specific, actionable guidance for improvement."
+        },
+        {
+          "key": "D",
+          "text": "Take over some of their more complex tasks to prevent them from falling behind and causing delays in patient care.",
+          "is_correct": false,
+          "rationale": "This prevents them from learning and does not address the root cause of the issue."
+        },
+        {
+          "key": "E",
+          "text": "Suggest they read the trust's policy on time management and ask if they have any questions about it later.",
+          "is_correct": false,
+          "rationale": "This is a passive approach that lacks the practical, hands-on guidance required."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "A patient's family is expressing significant distress and anger about the perceived lack of communication regarding their relative's care plan. What is your most appropriate action?",
+      "explanation": "As a healthcare assistant, your role is to facilitate communication, not to deliver complex clinical information. Escalating to the registered nurse ensures the family receives accurate information from the appropriate professional, de-escalating the situation and addressing their concerns correctly.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately find the registered nurse in charge of the patient's care to address the family's specific concerns directly.",
+          "is_correct": true,
+          "rationale": "This correctly escalates the issue to the appropriate professional for resolution."
+        },
+        {
+          "key": "B",
+          "text": "Attempt to explain the full medical details of the care plan yourself to reassure the family as quickly as possible.",
+          "is_correct": false,
+          "rationale": "This is outside the scope of practice for a healthcare assistant and risks miscommunication."
+        },
+        {
+          "key": "C",
+          "text": "Advise the family to submit a formal complaint through the Patient Advice and Liaison Service (PALS) for resolution.",
+          "is_correct": false,
+          "rationale": "This escalates to a formal complaint system before attempting local resolution."
+        },
+        {
+          "key": "D",
+          "text": "Politely tell the family you are not authorised to discuss care plans and suggest they wait for the doctor's rounds.",
+          "is_correct": false,
+          "rationale": "This is unhelpful and dismissive, potentially escalating the family's frustration."
+        },
+        {
+          "key": "E",
+          "text": "Document the family's complaint in the patient's notes and inform the next shift of the ongoing communication issue.",
+          "is_correct": false,
+          "rationale": "Documentation is important, but this action fails to address the immediate concern."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "You are caring for a patient with a valid Advance Decision to Refuse Treatment (ADRT) who is now refusing life-sustaining nutritional support. What is your primary responsibility?",
+      "explanation": "A valid ADRT is a legally binding document that outlines a patient's wishes. The primary responsibility of any healthcare professional is to respect patient autonomy and their documented decisions, while continuing to provide all other aspects of care, such as comfort and dignity.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Respect the patient's decision as documented in the ADRT and continue providing other forms of comfort and palliative care.",
+          "is_correct": true,
+          "rationale": "This upholds the patient's legal right to autonomy and respects their advance decision."
+        },
+        {
+          "key": "B",
+          "text": "Attempt to persuade the patient to accept the nutritional support, highlighting the potential negative health consequences of their refusal.",
+          "is_correct": false,
+          "rationale": "This undermines the patient's autonomy and the legal standing of the ADRT."
+        },
+        {
+          "key": "C",
+          "text": "Immediately provide the nutritional support against their wishes, believing it is in their best medical interest to do so.",
+          "is_correct": false,
+          "rationale": "This would constitute battery and is a serious breach of legal and ethical duties."
+        },
+        {
+          "key": "D",
+          "text": "Inform the patient's family of the situation and ask them to convince the patient to change their mind about treatment.",
+          "is_correct": false,
+          "rationale": "This puts undue pressure on the patient and family, ignoring the patient's wishes."
+        },
+        {
+          "key": "E",
+          "text": "Escalate the situation to the hospital's legal team to verify the document's validity before taking any further action.",
+          "is_correct": false,
+          "rationale": "The ADRT is stated as valid; delaying action to re-verify it disrespects the patient's wishes."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "While providing personal care, you notice unexplained bruising on a vulnerable adult patient who seems fearful of a specific family member. What is your immediate safeguarding duty?",
+      "explanation": "Safeguarding vulnerable adults is a key responsibility. The correct procedure involves meticulous documentation of objective facts and immediate escalation to the nurse in charge or safeguarding lead. This ensures a formal, structured investigation is initiated promptly and safely.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Document your observations meticulously and report them immediately to the nurse in charge and follow the local safeguarding procedures.",
+          "is_correct": true,
+          "rationale": "This follows the correct safeguarding protocol of observe, record, and report."
+        },
+        {
+          "key": "B",
+          "text": "Directly confront the family member you suspect, asking them to explain the cause of the patient's unexplained bruising.",
+          "is_correct": false,
+          "rationale": "This is inappropriate, unprofessional, and could place the patient at greater risk."
+        },
+        {
+          "key": "C",
+          "text": "Ask the patient directly about the bruising in front of the family member to see how they react to the question.",
+          "is_correct": false,
+          "rationale": "This could intimidate the patient, compromise their safety, and hinder a proper investigation."
+        },
+        {
+          "key": "D",
+          "text": "Wait to see if more bruises appear over the next few days before escalating the issue to avoid false accusations.",
+          "is_correct": false,
+          "rationale": "Delaying a report could leave the vulnerable adult in a harmful situation."
+        },
+        {
+          "key": "E",
+          "text": "Discuss your concerns discreetly with other healthcare assistants on the ward to see if they have noticed anything similar.",
+          "is_correct": false,
+          "rationale": "This is gossip and does not follow the formal, confidential reporting procedure."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "You are the first to discover a patient who is unresponsive and not breathing. What is your most critical initial action while waiting for the resuscitation team?",
+      "explanation": "In a cardiac arrest, immediate action is vital. Following Basic Life Support (BLS) protocol, the priority is to call for help to activate the emergency response, then start high-quality chest compressions to circulate blood to vital organs.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately call for help, start chest compressions as per your Basic Life Support training, and ensure the airway is clear.",
+          "is_correct": true,
+          "rationale": "This follows the correct DR-ABC protocol, prioritising immediate life-saving interventions."
+        },
+        {
+          "key": "B",
+          "text": "Run to find the patient's medical notes to check for a Do Not Attempt Resuscitation (DNAR) order before doing anything.",
+          "is_correct": false,
+          "rationale": "Resuscitation should be started immediately unless a DNAR is already known and confirmed."
+        },
+        {
+          "key": "C",
+          "text": "Move the patient from their bed onto the floor to create a harder surface for performing effective chest compressions.",
+          "is_correct": false,
+          "rationale": "This wastes critical time; compressions should be started on the bed immediately."
+        },
+        {
+          "key": "D",
+          "text": "Quickly check the patient's vital signs using monitoring equipment to confirm the cardiac arrest before starting any interventions.",
+          "is_correct": false,
+          "rationale": "Unresponsiveness and no breathing are sufficient to start BLS; equipment wastes time."
+        },
+        {
+          "key": "E",
+          "text": "Secure the area by asking other patients and visitors to leave the immediate vicinity to maintain patient dignity.",
+          "is_correct": false,
+          "rationale": "While dignity is important, it is secondary to performing immediate life-saving actions."
+        }
+      ]
+    }
+  ]
+}

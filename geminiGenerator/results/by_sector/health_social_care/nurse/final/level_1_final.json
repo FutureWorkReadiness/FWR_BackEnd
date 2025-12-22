@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "What is the most important consideration when assisting a patient with personal hygiene, such as bathing?",
+      "explanation": "Ensuring patient safety and comfort is paramount during personal care. Incorrect water temperature can cause burns or hypothermia, leading to serious harm or discomfort for the patient. This directly impacts their well-being.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensuring the water temperature is comfortable and safe for the patient to prevent burns or discomfort.",
+          "is_correct": true,
+          "rationale": "Patient safety and comfort are primary concerns during personal care."
+        },
+        {
+          "key": "B",
+          "text": "Completing the task as quickly as possible to save time for other demanding nursing duties.",
+          "is_correct": false,
+          "rationale": "Efficiency is secondary to patient safety and comfort."
+        },
+        {
+          "key": "C",
+          "text": "Using the most expensive brand of soap and shampoo available to enhance the patient's experience.",
+          "is_correct": false,
+          "rationale": "Brand of products is not a primary safety consideration."
+        },
+        {
+          "key": "D",
+          "text": "Allowing the patient to remain completely independent, even if they struggle significantly with the task.",
+          "is_correct": false,
+          "rationale": "Independence is important, but safety and assistance are prioritized."
+        },
+        {
+          "key": "E",
+          "text": "Documenting the exact amount of water used during the bathing process for accurate fluid balance.",
+          "is_correct": false,
+          "rationale": "Water usage documentation is generally not a primary concern for bathing."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "When should a nurse perform hand hygiene, according to standard infection control precautions?",
+      "explanation": "Standard precautions mandate hand hygiene before and after patient contact, after body fluid exposure, and after glove removal. This prevents the spread of microorganisms, ensuring patient and staff safety. It is a fundamental infection control measure.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only after providing direct patient care to a patient diagnosed with an infectious disease.",
+          "is_correct": false,
+          "rationale": "Hand hygiene is required for all patients, not just those with known infections."
+        },
+        {
+          "key": "B",
+          "text": "Before and after direct contact with every patient, and after removing gloves for any task.",
+          "is_correct": true,
+          "rationale": "This aligns with standard infection control guidelines for hand hygiene."
+        },
+        {
+          "key": "C",
+          "text": "Just before administering medications to a patient, not necessarily after touching other surfaces.",
+          "is_correct": false,
+          "rationale": "Hand hygiene is needed before and after many tasks, not just medication."
+        },
+        {
+          "key": "D",
+          "text": "Exclusively when visibly soiled hands are observed, otherwise it is not strictly required.",
+          "is_correct": false,
+          "rationale": "Hand hygiene is crucial even when hands do not appear visibly soiled."
+        },
+        {
+          "key": "E",
+          "text": "Only at the beginning and end of the nursing shift, regardless of specific patient contact.",
+          "is_correct": false,
+          "rationale": "Hand hygiene must be performed frequently throughout the shift based on tasks."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Why is accurately measuring and documenting a patient's vital signs so important for a nurse?",
+      "explanation": "Vital signs offer crucial insights into a patient's physiological state. Early detection of changes allows for timely intervention, potentially preventing adverse outcomes or deterioration. It's a key assessment tool.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide a general record for administrative purposes, without much immediate clinical significance.",
+          "is_correct": false,
+          "rationale": "Vital signs have significant clinical value beyond administrative records."
+        },
+        {
+          "key": "B",
+          "text": "To identify changes in a patient's condition and detect potential health problems early for intervention.",
+          "is_correct": true,
+          "rationale": "Vital signs are critical for monitoring patient status and detecting changes."
+        },
+        {
+          "key": "C",
+          "text": "To ensure the patient is comfortable and relaxed during their hospital stay, reducing anxiety levels.",
+          "is_correct": false,
+          "rationale": "While comfort is a goal, it's not the primary reason for vital sign monitoring."
+        },
+        {
+          "key": "D",
+          "text": "To determine the exact amount of medication a patient should receive each day, based on their weight.",
+          "is_correct": false,
+          "rationale": "Medication dosage is based on various factors, not solely vital signs."
+        },
+        {
+          "key": "E",
+          "text": "To justify the need for additional nursing staff during busy periods, based on patient acuity.",
+          "is_correct": false,
+          "rationale": "While acuity is related, this is not the direct purpose of measuring vital signs."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is a fundamental nursing intervention to prevent falls for an elderly patient in a hospital setting?",
+      "explanation": "Ensuring the call bell is accessible empowers patients to request assistance, preventing them from attempting to mobilize unsupervised, which greatly reduces fall risk. This is a critical safety measure.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Keeping the patient's room dimly lit at all times to promote restful sleep and reduce stimulation.",
+          "is_correct": false,
+          "rationale": "Dim lighting can actually increase fall risk by impairing visibility."
+        },
+        {
+          "key": "B",
+          "text": "Ensuring the patient's call bell is always within easy reach and they know how to use it effectively.",
+          "is_correct": true,
+          "rationale": "An accessible call bell allows patients to seek help, preventing unsupervised ambulation."
+        },
+        {
+          "key": "C",
+          "text": "Restricting the patient's fluid intake to reduce the need for frequent bathroom visits during the night.",
+          "is_correct": false,
+          "rationale": "Fluid restriction can lead to dehydration and other health issues; it's not a fall prevention strategy."
+        },
+        {
+          "key": "D",
+          "text": "Allowing the patient to ambulate independently without supervision, regardless of their current mobility status.",
+          "is_correct": false,
+          "rationale": "Unsupervised ambulation for at-risk patients significantly increases fall risk."
+        },
+        {
+          "key": "E",
+          "text": "Providing soft, plush slippers that are easy to slip on and off quickly for maximum comfort.",
+          "is_correct": false,
+          "rationale": "Slippery or ill-fitting footwear can increase fall risk; non-slip socks are better."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What is the most appropriate action for a nurse regarding a patient's confidential health information?",
+      "explanation": "Patient confidentiality is a cornerstone of nursing ethics and legal requirements. Information should only be shared on a 'need-to-know' basis with those directly involved in the patient's care to protect their privacy.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sharing relevant details with any family member who asks, to keep them fully informed about care.",
+          "is_correct": false,
+          "rationale": "Information can only be shared with family with explicit patient consent."
+        },
+        {
+          "key": "B",
+          "text": "Discussing the patient's case with colleagues in a public area, as long as specific names are not used.",
+          "is_correct": false,
+          "rationale": "Discussions about patients should always occur in private, confidential settings."
+        },
+        {
+          "key": "C",
+          "text": "Only sharing information with healthcare team members directly involved in the patient's direct care.",
+          "is_correct": true,
+          "rationale": "This adheres to the 'need-to-know' principle and protects patient confidentiality."
+        },
+        {
+          "key": "D",
+          "text": "Posting general updates about interesting patient cases on personal social media accounts for awareness.",
+          "is_correct": false,
+          "rationale": "Posting patient information on social media is a serious breach of confidentiality."
+        },
+        {
+          "key": "E",
+          "text": "Leaving patient charts open and unattended in the hallway for easy access by authorized personnel.",
+          "is_correct": false,
+          "rationale": "Patient charts must be secured to prevent unauthorized access to confidential information."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What is the most important aspect of providing personal hygiene care for a bedridden patient?",
+      "explanation": "Maintaining a patient's dignity and privacy is paramount in nursing care, especially during personal hygiene tasks. It fosters trust and respect while ensuring comfort.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensuring the patient's privacy and dignity are maintained throughout the entire procedure.",
+          "is_correct": true,
+          "rationale": "Patient dignity and privacy are crucial during personal care."
+        },
+        {
+          "key": "B",
+          "text": "Using only highly scented soaps and lotions to ensure the patient smells pleasant and fresh.",
+          "is_correct": false,
+          "rationale": "Scented products can cause allergies or discomfort for patients."
+        },
+        {
+          "key": "C",
+          "text": "Completing the hygiene tasks as quickly as possible to save time for other duties.",
+          "is_correct": false,
+          "rationale": "Rushing can compromise care quality and patient comfort."
+        },
+        {
+          "key": "D",
+          "text": "Involving family members in all aspects of personal care without asking the patient first.",
+          "is_correct": false,
+          "rationale": "Patient consent is needed before involving family in personal care."
+        },
+        {
+          "key": "E",
+          "text": "Documenting only the tasks that were fully completed, ignoring any challenges encountered.",
+          "is_correct": false,
+          "rationale": "All relevant details, including challenges, should be documented."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Before administering any medication to a patient, what crucial step must a nurse always perform first?",
+      "explanation": "Verifying the patient's identity using at least two identifiers is a critical safety step to prevent medication errors and ensure the right patient receives the correct treatment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Verify the patient's identity using at least two identifiers like name and date of birth.",
+          "is_correct": true,
+          "rationale": "Patient identification is the first and most critical medication safety step."
+        },
+        {
+          "key": "B",
+          "text": "Prepare all medications for the entire shift in advance to streamline the administration process.",
+          "is_correct": false,
+          "rationale": "Preparing all medications at once increases the risk of errors."
+        },
+        {
+          "key": "C",
+          "text": "Ask the patient if they feel like taking the medication at that particular moment.",
+          "is_correct": false,
+          "rationale": "While important, this is not the first crucial safety step."
+        },
+        {
+          "key": "D",
+          "text": "Documenting the medication administration should only occur immediately after the patient has taken the dose.",
+          "is_correct": false,
+          "rationale": "Documentation should occur after administration, not before."
+        },
+        {
+          "key": "E",
+          "text": "Consult with the charge nurse for every single medication dose to be administered.",
+          "is_correct": false,
+          "rationale": "This is not standard practice for every dose unless there's an issue."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "When a patient expresses fear or anxiety about their treatment plan, how should a nurse best respond?",
+      "explanation": "Empathetic listening and providing clear, accurate information helps alleviate patient anxiety. It builds trust and empowers patients by helping them understand their care.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Listen empathetically and provide clear, reassuring information about the next steps and expected outcomes.",
+          "is_correct": true,
+          "rationale": "Empathetic listening and clear information help reduce patient anxiety."
+        },
+        {
+          "key": "B",
+          "text": "Immediately call the doctor to report the patient's emotional state without addressing the patient first.",
+          "is_correct": false,
+          "rationale": "The nurse should first address the patient's concerns directly."
+        },
+        {
+          "key": "C",
+          "text": "Tell the patient not to worry because everything will be fine, without further explanation.",
+          "is_correct": false,
+          "rationale": "Dismissing concerns without explanation is unhelpful and dismissive."
+        },
+        {
+          "key": "D",
+          "text": "Change the treatment plan as requested by the patient, without consulting the medical team.",
+          "is_correct": false,
+          "rationale": "Nurses cannot independently change a prescribed treatment plan."
+        },
+        {
+          "key": "E",
+          "text": "Document only the patient's negative feelings, without exploring the underlying reasons.",
+          "is_correct": false,
+          "rationale": "Understanding the root cause of fear is important for effective care."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is the single most effective method for preventing the spread of infection in a healthcare setting?",
+      "explanation": "Hand hygiene is universally recognized as the most critical measure to prevent the transmission of healthcare-associated infections. It significantly reduces pathogen spread.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Performing thorough hand hygiene before and after all patient contact and procedures.",
+          "is_correct": true,
+          "rationale": "Hand hygiene is the most effective way to prevent infection spread."
+        },
+        {
+          "key": "B",
+          "text": "Routinely wearing sterile gloves for every single patient interaction, regardless of the task.",
+          "is_correct": false,
+          "rationale": "Sterile gloves are not needed for every interaction and don't replace hand hygiene."
+        },
+        {
+          "key": "C",
+          "text": "Keeping all patient room doors closed at all times to contain potential airborne pathogens.",
+          "is_correct": false,
+          "rationale": "While useful for some isolation, it's not the single most effective method overall."
+        },
+        {
+          "key": "D",
+          "text": "Administering prophylactic antibiotics to all new patients admitted to the facility.",
+          "is_correct": false,
+          "rationale": "Routine prophylactic antibiotics contribute to antibiotic resistance and are not standard."
+        },
+        {
+          "key": "E",
+          "text": "Disinfecting all hospital equipment surfaces thoroughly once daily, irrespective of use.",
+          "is_correct": false,
+          "rationale": "Equipment needs disinfection after each use, not just once daily."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "If a nurse observes a sudden and significant change in a patient's vital signs, what is the immediate priority action?",
+      "explanation": "Promptly notifying the healthcare provider or charge nurse is crucial when a patient's condition changes significantly. This allows for timely assessment and intervention, ensuring patient safety.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notify the primary healthcare provider or charge nurse promptly for further assessment and orders.",
+          "is_correct": true,
+          "rationale": "Rapidly escalating significant changes ensures timely medical intervention."
+        },
+        {
+          "key": "B",
+          "text": "Wait for the next scheduled vital sign check to see if the readings normalize on their own.",
+          "is_correct": false,
+          "rationale": "Delaying action could lead to adverse patient outcomes."
+        },
+        {
+          "key": "C",
+          "text": "Reassure the patient that minor fluctuations in vital signs are completely normal and common.",
+          "is_correct": false,
+          "rationale": "Significant changes warrant investigation, not dismissal."
+        },
+        {
+          "key": "D",
+          "text": "Document the change in the patient's chart and continue with routine care tasks as planned.",
+          "is_correct": false,
+          "rationale": "Documentation is important, but not the immediate priority over notifying staff."
+        },
+        {
+          "key": "E",
+          "text": "Adjust the patient's medication dosage independently based on the new vital sign readings.",
+          "is_correct": false,
+          "rationale": "Nurses cannot independently adjust medication dosages without a doctor's order."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the most crucial initial step a nurse should take when admitting a new patient to the ward?",
+      "explanation": "A comprehensive initial assessment is fundamental for understanding the patient's current health status, identifying immediate needs, and forming an appropriate care plan. This baseline data guides all subsequent nursing interventions.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately administer any prescribed medications to ensure timely treatment initiation for the patient.",
+          "is_correct": false,
+          "rationale": "Medication administration follows assessment and verification."
+        },
+        {
+          "key": "B",
+          "text": "Conduct a thorough initial assessment, including vital signs and patient history, to establish baseline data.",
+          "is_correct": true,
+          "rationale": "Initial assessment provides crucial baseline data for care planning."
+        },
+        {
+          "key": "C",
+          "text": "Introduce the patient to all other patients in the room to foster a friendly and welcoming environment.",
+          "is_correct": false,
+          "rationale": "Social introductions are secondary to clinical assessment."
+        },
+        {
+          "key": "D",
+          "text": "Provide a detailed tour of the entire hospital facility so the patient understands the layout completely.",
+          "is_correct": false,
+          "rationale": "A full hospital tour is not an immediate priority for patient admission."
+        },
+        {
+          "key": "E",
+          "text": "Ask the patient to complete all necessary administrative paperwork before any clinical interventions begin.",
+          "is_correct": false,
+          "rationale": "Administrative tasks can be completed after initial clinical assessment."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Why is proper hand hygiene considered the single most effective measure to prevent healthcare-associated infections?",
+      "explanation": "Proper hand hygiene physically removes transient pathogens from the hands, which are the primary vehicles for transmitting infections in healthcare settings. This simple action drastically reduces the spread of harmful microorganisms.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It eliminates all types of bacteria and viruses from the skin, creating a completely sterile environment for patient care.",
+          "is_correct": false,
+          "rationale": "Hand hygiene reduces, but does not eliminate, all microorganisms."
+        },
+        {
+          "key": "B",
+          "text": "It physically removes transient microorganisms acquired from the environment, significantly reducing their transmission between patients and staff.",
+          "is_correct": true,
+          "rationale": "Hand hygiene removes transient microbes, preventing infection transmission."
+        },
+        {
+          "key": "C",
+          "text": "It provides a protective barrier on the skin, preventing pathogens from entering the bloodstream during invasive procedures.",
+          "is_correct": false,
+          "rationale": "Hand hygiene doesn't create a barrier; it removes existing pathogens."
+        },
+        {
+          "key": "D",
+          "text": "It is a quick and convenient method that does not require specialized equipment, making it universally accessible to all healthcare workers.",
+          "is_correct": false,
+          "rationale": "Convenience is a benefit, not the primary reason for effectiveness."
+        },
+        {
+          "key": "E",
+          "text": "It enhances the nurse's professional appearance, contributing to patient trust and confidence in the care provided.",
+          "is_correct": false,
+          "rationale": "Professional appearance is unrelated to infection prevention effectiveness."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "When a patient expresses fear or anxiety about an upcoming procedure, what is the nurse's most appropriate response?",
+      "explanation": "Active listening and empathetic communication build trust and help alleviate patient anxiety. Providing clear, understandable information empowers patients and reduces their fear of the unknown.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reassure the patient that everything will be fine without providing any further specific details about the procedure.",
+          "is_correct": false,
+          "rationale": "Vague reassurance does not address the patient's specific fears."
+        },
+        {
+          "key": "B",
+          "text": "Immediately call the doctor to request a sedative for the patient to help manage their reported anxiety levels.",
+          "is_correct": false,
+          "rationale": "Medication is not the first-line response for anxiety management."
+        },
+        {
+          "key": "C",
+          "text": "Listen actively to their concerns, acknowledge their feelings, and provide clear, simple explanations about what to expect.",
+          "is_correct": true,
+          "rationale": "Empathetic listening and clear information reduce patient anxiety."
+        },
+        {
+          "key": "D",
+          "text": "Change the subject to distract the patient from their worries, focusing on more positive topics instead.",
+          "is_correct": false,
+          "rationale": "Distraction avoids addressing the patient's genuine concerns."
+        },
+        {
+          "key": "E",
+          "text": "Advise the patient to simply try to relax and stop worrying, as stress can make their condition worse.",
+          "is_correct": false,
+          "rationale": "Dismissing feelings can invalidate the patient's experience and increase anxiety."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Before administering any medication, what critical safety check must a nurse perform to ensure patient well-being?",
+      "explanation": "The \"five rights\" are a fundamental safety protocol in medication administration. Adhering to these rights prevents errors, protects patients from harm, and ensures the correct treatment is delivered.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Confirm the medication's expiration date and immediately discard any expired drugs from the entire supply cabinet.",
+          "is_correct": false,
+          "rationale": "Checking expiration is part of the 'right drug' but not the sole critical check."
+        },
+        {
+          "key": "B",
+          "text": "Verify the \"five rights\" of medication administration: right patient, drug, dose, route, and time, every single time.",
+          "is_correct": true,
+          "rationale": "Verifying the 'five rights' is essential for safe medication administration."
+        },
+        {
+          "key": "C",
+          "text": "Ask the patient if they feel like taking the medication at that particular moment, respecting their preferences.",
+          "is_correct": false,
+          "rationale": "Patient preference is important but secondary to the 'five rights' safety check."
+        },
+        {
+          "key": "D",
+          "text": "Review the patient's entire medical chart for any new diagnoses that might have been added by other doctors.",
+          "is_correct": false,
+          "rationale": "Reviewing the chart is ongoing, but not the immediate critical check before administration."
+        },
+        {
+          "key": "E",
+          "text": "Check the medication's color and consistency to ensure it matches the expected appearance for quality control.",
+          "is_correct": false,
+          "rationale": "Visual inspection is a good practice but not the primary safety check."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is the primary reason for maintaining accurate and timely documentation of patient care in a healthcare setting?",
+      "explanation": "Accurate documentation is vital for seamless communication among all healthcare professionals involved in patient care. It ensures everyone has up-to-date information, promoting continuity, safety, and informed decision-making.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide a comprehensive record for billing purposes, ensuring all services rendered are correctly charged to the patient.",
+          "is_correct": false,
+          "rationale": "Billing is a secondary benefit, not the primary clinical reason."
+        },
+        {
+          "key": "B",
+          "text": "To facilitate effective communication among the healthcare team, ensuring continuity of care and promoting patient safety.",
+          "is_correct": true,
+          "rationale": "Documentation ensures continuity of care and communication among the team."
+        },
+        {
+          "key": "C",
+          "text": "To demonstrate the nurse's workload and justify staffing levels to hospital management, supporting resource allocation decisions.",
+          "is_correct": false,
+          "rationale": "Workload justification is a secondary administrative use, not the primary purpose."
+        },
+        {
+          "key": "D",
+          "text": "To allow for future research studies by providing a large database of patient outcomes and treatment effectiveness.",
+          "is_correct": false,
+          "rationale": "Research is a potential secondary use, not the main purpose of daily documentation."
+        },
+        {
+          "key": "E",
+          "text": "To protect the nurse legally in case of any complaints or litigation, serving as irrefutable evidence of actions taken.",
+          "is_correct": false,
+          "rationale": "Legal protection is a benefit, but the primary purpose is clinical communication and safety."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What is the most crucial initial step a nurse should take when assessing a patient's general health status?",
+      "explanation": "Taking vital signs provides fundamental baseline data about a patient's physiological state, which is essential for identifying immediate concerns and guiding further assessment and care planning.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Administering prescribed medications to alleviate any discomfort or pain the patient might be experiencing.",
+          "is_correct": false,
+          "rationale": "Medication administration is typically done after initial assessment."
+        },
+        {
+          "key": "B",
+          "text": "Checking and accurately recording the patient's vital signs, including temperature, pulse, respiration, and blood pressure.",
+          "is_correct": true,
+          "rationale": "Vital signs provide essential baseline data for patient assessment."
+        },
+        {
+          "key": "C",
+          "text": "Documenting the patient's entire medical history and family background into the electronic health record system.",
+          "is_correct": false,
+          "rationale": "History taking is important but often follows initial vital sign assessment."
+        },
+        {
+          "key": "D",
+          "text": "Providing a detailed explanation of all scheduled medical procedures and treatments to the patient.",
+          "is_correct": false,
+          "rationale": "Patient education occurs after assessment and care planning."
+        },
+        {
+          "key": "E",
+          "text": "Arranging for a consultation with a specialist physician to address any complex or unusual symptoms.",
+          "is_correct": false,
+          "rationale": "Specialist consultation is a later step, after initial nurse assessment."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "A patient expresses anxiety about an upcoming procedure; how should the nurse best respond to their concerns?",
+      "explanation": "Active listening and providing clear, empathetic information helps to build trust and reduce patient anxiety, which is crucial for their emotional well-being and cooperation during care.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Briefly reassure the patient that everything will be fine and then quickly move on to other nursing tasks.",
+          "is_correct": false,
+          "rationale": "Dismissing concerns is not therapeutic or effective for patient anxiety."
+        },
+        {
+          "key": "B",
+          "text": "Explain the procedure thoroughly, answer all questions honestly, and offer emotional support to the anxious patient.",
+          "is_correct": true,
+          "rationale": "Empathetic communication and clear information reduce patient anxiety effectively."
+        },
+        {
+          "key": "C",
+          "text": "Advise the patient to discuss their anxieties directly with the attending physician during the next ward round.",
+          "is_correct": false,
+          "rationale": "Nurses are responsible for addressing patient concerns directly."
+        },
+        {
+          "key": "D",
+          "text": "Suggest that the patient read informational brochures about the procedure to better understand the process.",
+          "is_correct": false,
+          "rationale": "Brochures can supplement but not replace direct nurse communication."
+        },
+        {
+          "key": "E",
+          "text": "Dismiss their worries, stating that many patients experience similar feelings before medical interventions.",
+          "is_correct": false,
+          "rationale": "Minimizing feelings can invalidate the patient's experience and increase anxiety."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Why is thorough hand hygiene considered the single most important measure in preventing healthcare-associated infections?",
+      "explanation": "Hand hygiene, when performed correctly, physically removes or destroys microorganisms on the hands, significantly reducing the transmission of pathogens between patients, healthcare workers, and surfaces in the clinical environment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It eliminates the need for personal protective equipment, making patient care more efficient and streamlined.",
+          "is_correct": false,
+          "rationale": "Hand hygiene complements, but does not replace, PPE use."
+        },
+        {
+          "key": "B",
+          "text": "It ensures that all medical equipment is completely sterile before being used on any new patient.",
+          "is_correct": false,
+          "rationale": "Equipment sterilization is a separate process from hand hygiene."
+        },
+        {
+          "key": "C",
+          "text": "It directly removes transient microorganisms from hands, preventing their spread to vulnerable patients and surfaces.",
+          "is_correct": true,
+          "rationale": "Hand hygiene directly removes pathogens, preventing infection spread."
+        },
+        {
+          "key": "D",
+          "text": "It creates a protective barrier on the skin, preventing bacteria from entering the nurse's bloodstream during procedures.",
+          "is_correct": false,
+          "rationale": "Hand hygiene cleanses, it does not create a barrier on the skin."
+        },
+        {
+          "key": "E",
+          "text": "It is primarily a regulatory requirement, with less direct impact on actual infection transmission rates in clinical settings.",
+          "is_correct": false,
+          "rationale": "It is a crucial infection control measure with significant impact."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is the primary reason for a nurse to accurately and promptly document all patient care activities and observations?",
+      "explanation": "Accurate and timely documentation ensures continuity of care, facilitates communication among the healthcare team, provides a legal record of interventions, and supports appropriate billing and quality assurance.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To create a comprehensive historical record for future research studies on similar patient conditions.",
+          "is_correct": false,
+          "rationale": "While data can be used for research, it's not the primary reason for daily documentation."
+        },
+        {
+          "key": "B",
+          "text": "To ensure legal protection for the healthcare facility in case of any future malpractice lawsuits.",
+          "is_correct": false,
+          "rationale": "Legal protection is a benefit, but not the primary purpose of documentation."
+        },
+        {
+          "key": "C",
+          "text": "To maintain clear communication, ensure continuity of care, and provide a legal record of interventions.",
+          "is_correct": true,
+          "rationale": "Documentation ensures continuity of care, communication, and legal record-keeping."
+        },
+        {
+          "key": "D",
+          "text": "To justify the nurse's workload and demonstrate productivity to hospital management and administrators.",
+          "is_correct": false,
+          "rationale": "This is a secondary benefit, not the main purpose of patient documentation."
+        },
+        {
+          "key": "E",
+          "text": "To allow the patient to review their own medical chart at any time without requiring staff assistance.",
+          "is_correct": false,
+          "rationale": "Patient access is important, but documentation serves broader care purposes."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "A patient's family member asks for details about another patient's condition. How should the nurse respond ethically?",
+      "explanation": "Patient confidentiality is a fundamental ethical and legal principle. Nurses must protect patient information and only share it with authorized individuals, even with family members of other patients.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Provide a brief overview of the patient's general condition without revealing specific medical details.",
+          "is_correct": false,
+          "rationale": "Any disclosure of another patient's information is a breach of confidentiality."
+        },
+        {
+          "key": "B",
+          "text": "Inform the family member that patient information cannot be shared due to confidentiality regulations.",
+          "is_correct": true,
+          "rationale": "Patient confidentiality is paramount; information cannot be shared with unauthorized individuals."
+        },
+        {
+          "key": "C",
+          "text": "Suggest they speak with the patient directly to obtain the information they are seeking.",
+          "is_correct": false,
+          "rationale": "Directing them to the patient does not absolve the nurse of confidentiality duties."
+        },
+        {
+          "key": "D",
+          "text": "Offer to check with the patient's primary physician to see if any information can be released.",
+          "is_correct": false,
+          "rationale": "The nurse should not seek to disclose information about another patient."
+        },
+        {
+          "key": "E",
+          "text": "Share only information that is already publicly known or seems harmless to disclose.",
+          "is_correct": false,
+          "rationale": "Confidentiality applies to all patient information, regardless of perceived harm."
+        }
+      ]
+    }
+  ]
+}

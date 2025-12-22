@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "During a delivery complicated by shoulder dystocia, what is the most appropriate initial sequence of actions after calling for senior help?",
+      "explanation": "The HELPERR mnemonic guides shoulder dystocia management. After calling for help, the first steps involve repositioning the mother with the McRoberts manoeuvre and applying suprapubic pressure to dislodge the anterior shoulder before attempting internal manoeuvres.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Perform the McRoberts manoeuvre by hyperflexing the mother's legs, then apply suprapubic pressure to dislodge the anterior shoulder.",
+          "is_correct": true,
+          "rationale": "This follows the standard evidence-based protocol for initial management."
+        },
+        {
+          "key": "B",
+          "text": "Immediately attempt delivery of the posterior arm, as this is often the quickest method to resolve the obstruction.",
+          "is_correct": false,
+          "rationale": "This is a secondary manoeuvre, performed after initial external attempts fail."
+        },
+        {
+          "key": "C",
+          "text": "Place the mother in an all-fours position (Gaskin manoeuvre) before attempting any other external or internal manipulations.",
+          "is_correct": false,
+          "rationale": "The Gaskin manoeuvre is a valid option but not the primary initial step."
+        },
+        {
+          "key": "D",
+          "text": "Apply continuous fundal pressure combined with gentle traction on the fetal head to expedite the delivery process quickly.",
+          "is_correct": false,
+          "rationale": "Fundal pressure is contraindicated as it can worsen the impaction and cause injury."
+        },
+        {
+          "key": "E",
+          "text": "Administer a tocolytic agent to relax the uterus before proceeding with a Zavanelli manoeuvre for cephalic replacement.",
+          "is_correct": false,
+          "rationale": "The Zavanelli manoeuvre is a last-resort procedure for catastrophic situations."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "You are resuscitating a newborn with persistent central cyanosis and a heart rate of 50 bpm despite effective inflation breaths. What is your next priority?",
+      "explanation": "According to the Newborn Life Support algorithm, if the heart rate is below 60 bpm despite effective ventilation, chest compressions should be commenced immediately in a 3:1 ratio with ventilations to support circulation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Commence chest compressions at a 3:1 ratio with positive pressure ventilation using 100% oxygen to support circulation.",
+          "is_correct": true,
+          "rationale": "A heart rate below 60 bpm requires immediate chest compressions."
+        },
+        {
+          "key": "B",
+          "text": "Administer a bolus of intravenous normal saline to address potential hypovolemia as the primary cause of the bradycardia.",
+          "is_correct": false,
+          "rationale": "Volume expansion is not the priority over compressions for severe bradycardia."
+        },
+        {
+          "key": "C",
+          "text": "Secure an endotracheal tube to ensure a definitive airway before starting any further resuscitation efforts or interventions.",
+          "is_correct": false,
+          "rationale": "Do not delay compressions for intubation if ventilation is already effective."
+        },
+        {
+          "key": "D",
+          "text": "Prepare and administer intravenous adrenaline via an umbilical venous catheter as the initial treatment for the low heart rate.",
+          "is_correct": false,
+          "rationale": "Adrenaline is used only after effective ventilation and compressions fail to improve heart rate."
+        },
+        {
+          "key": "E",
+          "text": "Continue positive pressure ventilation for another 60 seconds and then reassess the heart rate before escalating care.",
+          "is_correct": false,
+          "rationale": "Delaying chest compressions with a heart rate this low is inappropriate."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "A woman at 34 weeks gestation presents with severe pre-eclampsia, a blood pressure of 170/115 mmHg, and proteinuria. What is the definitive management plan?",
+      "explanation": "Severe pre-eclampsia requires urgent management to prevent eclampsia and other complications. This involves administering magnesium sulfate for seizure prophylaxis, controlling hypertension, and planning for expedited delivery, which is the only definitive cure for the condition.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Administer magnesium sulfate for seizure prophylaxis and expedite the delivery of the baby following maternal stabilisation with antihypertensives.",
+          "is_correct": true,
+          "rationale": "This addresses seizure risk and the underlying cause (the placenta)."
+        },
+        {
+          "key": "B",
+          "text": "Prescribe oral labetalol and advise strict bed rest at home with daily blood pressure monitoring by a community midwife.",
+          "is_correct": false,
+          "rationale": "This is inadequate for severe pre-eclampsia, which requires inpatient care."
+        },
+        {
+          "key": "C",
+          "text": "Immediately perform an emergency caesarean section without any delay for administering antihypertensive or anticonvulsant medications.",
+          "is_correct": false,
+          "rationale": "Maternal stabilisation before delivery is crucial to reduce anaesthetic and surgical risks."
+        },
+        {
+          "key": "D",
+          "text": "Initiate an intravenous infusion of hydralazine to rapidly lower her blood pressure to a normal range below 140/90 mmHg.",
+          "is_correct": false,
+          "rationale": "Rapidly lowering blood pressure can compromise vital uteroplacental perfusion."
+        },
+        {
+          "key": "E",
+          "text": "Administer corticosteroids to promote fetal lung maturity and plan for delivery in one week's time if stable.",
+          "is_correct": false,
+          "rationale": "With severe features, delivery should not be delayed for a week."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "You are managing a major postpartum haemorrhage due to uterine atony unresponsive to initial uterotonics. What is the next appropriate mechanical intervention?",
+      "explanation": "When pharmacological measures fail to control an atonic PPH, the next step is to apply direct pressure to the bleeding surface. This is achieved mechanically through bimanual uterine compression or by inserting an intrauterine balloon tamponade device.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Insert an intrauterine balloon tamponade device or apply bimanual compression to control the ongoing bleeding from the placental site.",
+          "is_correct": true,
+          "rationale": "These are standard second-line mechanical interventions for uterine atony."
+        },
+        {
+          "key": "B",
+          "text": "Proceed immediately to the operating theatre for an emergency hysterectomy to definitively stop the source of the bleeding.",
+          "is_correct": false,
+          "rationale": "Hysterectomy is a surgical last resort, not the next mechanical step."
+        },
+        {
+          "key": "C",
+          "text": "Administer tranexamic acid and activate the major haemorrhage protocol without attempting any further mechanical uterine interventions at this stage.",
+          "is_correct": false,
+          "rationale": "This is a pharmacological step; a mechanical intervention is required."
+        },
+        {
+          "key": "D",
+          "text": "Perform an examination under anaesthesia to suture any unrecognised cervical or high vaginal lacerations that may be contributing.",
+          "is_correct": false,
+          "rationale": "The cause is stated as atony, so this is not the primary focus."
+        },
+        {
+          "key": "E",
+          "text": "Request an interventional radiologist for uterine artery embolization as the primary next step in the management plan.",
+          "is_correct": false,
+          "rationale": "This is a tertiary intervention and not the immediate next mechanical step."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "A woman with a previous traumatic birth is refusing all vaginal examinations during her labour. How should you best support her while ensuring safety?",
+      "explanation": "The midwife's role is to balance maternal autonomy with clinical safety. Using trauma-informed principles to explore her fears, building trust, and discussing alternative ways to monitor progress respects her experience while maintaining vigilance.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Respect her autonomy, explore her fears using trauma-informed care principles, and discuss alternative methods of monitoring labour progress.",
+          "is_correct": true,
+          "rationale": "This approach balances autonomy, safety, and compassionate, person-centred care."
+        },
+        {
+          "key": "B",
+          "text": "Explain that vaginal examinations are mandatory for safe care and that proceeding without them would constitute clinical negligence.",
+          "is_correct": false,
+          "rationale": "This is coercive, disrespects her autonomy, and can escalate trauma."
+        },
+        {
+          "key": "C",
+          "text": "Document her refusal clearly in the notes and continue care without any assessment of labour progress until she consents.",
+          "is_correct": false,
+          "rationale": "This is passive and fails to proactively manage potential risks."
+        },
+        {
+          "key": "D",
+          "text": "Involve a senior obstetrician immediately to explain the significant risks of unmonitored labour and persuade her to consent.",
+          "is_correct": false,
+          "rationale": "This escalates confrontationally rather than attempting to build trust first."
+        },
+        {
+          "key": "E",
+          "text": "Suggest an epidural to reduce the discomfort of examinations, making it easier for her to comply with standard procedures.",
+          "is_correct": false,
+          "rationale": "This medicalises the issue without addressing the underlying psychological trauma."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "A woman with known placenta accreta spectrum disorder has a massive postpartum haemorrhage post-caesarean. What is the most critical immediate management priority for the team?",
+      "explanation": "In a known accreta with massive PPH, immediate and aggressive resuscitation via a massive transfusion protocol is paramount to prevent coagulopathy and cardiovascular collapse, alongside definitive surgical management.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately activate the massive transfusion protocol and ensure effective communication with haematology and the blood bank for products.",
+          "is_correct": true,
+          "rationale": "MTP is the critical life-saving intervention for managing coagulopathy in massive haemorrhage."
+        },
+        {
+          "key": "B",
+          "text": "Administer a second dose of Syntometrine intramuscularly to contract the non-adherent portion of the uterine muscle.",
+          "is_correct": false,
+          "rationale": "Uterotonics are less effective with accreta; resuscitation is the priority."
+        },
+        {
+          "key": "C",
+          "text": "Focus primarily on applying bimanual compression to provide tamponade while awaiting further surgical intervention from the consultant.",
+          "is_correct": false,
+          "rationale": "Compression is a useful adjunct, but systemic resuscitation is the main priority."
+        },
+        {
+          "key": "D",
+          "text": "Prepare the patient for an immediate transfer to the intensive care unit for advanced haemodynamic monitoring and support.",
+          "is_correct": false,
+          "rationale": "Transfer is secondary to initial stabilisation and haemorrhage control in theatre."
+        },
+        {
+          "key": "E",
+          "text": "Request an urgent intraoperative ultrasound scan to confirm the exact depth of placental invasion before proceeding with hysterectomy.",
+          "is_correct": false,
+          "rationale": "This delays definitive surgical management during a life-threatening bleed."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "A neonate is born apnoeic through thick meconium with a heart rate of 50 bpm despite initial inflation breaths. What is the correct next step?",
+      "explanation": "According to current resuscitation guidelines, if the heart rate remains below 60 beats per minute despite effective inflation breaths, chest compressions should be commenced immediately, coordinated with ventilation at a 3:1 ratio.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Commence chest compressions immediately at a 3:1 ratio with ventilation breaths, ensuring they are well-coordinated.",
+          "is_correct": true,
+          "rationale": "HR below 60 bpm despite effective inflation breaths is the indication for chest compressions."
+        },
+        {
+          "key": "B",
+          "text": "Perform deep oropharyngeal suctioning to clear all visible meconium from the airway before attempting further ventilation.",
+          "is_correct": false,
+          "rationale": "Routine suctioning for meconium is no longer recommended and delays effective resuscitation."
+        },
+        {
+          "key": "C",
+          "text": "Administer an initial dose of intravenous adrenaline via an umbilical venous catheter before starting any chest compressions.",
+          "is_correct": false,
+          "rationale": "Adrenaline is considered only after effective ventilation and compressions fail to improve heart rate."
+        },
+        {
+          "key": "D",
+          "text": "Continue with inflation breaths only for another 30 seconds before reassessing the heart rate and considering compressions.",
+          "is_correct": false,
+          "rationale": "Delaying compressions when the heart rate is this low is inappropriate and harmful."
+        },
+        {
+          "key": "E",
+          "text": "Focus on vigorous drying and tactile stimulation for at least one minute to encourage spontaneous respiratory effort.",
+          "is_correct": false,
+          "rationale": "Stimulation is ineffective for an apnoeic neonate with severe bradycardia; intervention is needed."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "A woman has a high-risk combined screening result for Trisomy 21 and is ambivalent about invasive testing. What is the most appropriate next step?",
+      "explanation": "Offering non-invasive prenatal testing (NIPT) is the recommended next step. It provides a more accurate screening result with no risk of miscarriage, helping the woman make a more informed choice about invasive procedures.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Arrange a referral for non-invasive prenatal testing (NIPT) to provide a more accurate risk assessment before any decisions.",
+          "is_correct": true,
+          "rationale": "NIPT refines risk and supports informed choice without miscarriage risk."
+        },
+        {
+          "key": "B",
+          "text": "Strongly advise her to proceed with chorionic villus sampling immediately to get a definitive and timely diagnosis.",
+          "is_correct": false,
+          "rationale": "This approach is coercive and does not respect patient autonomy or anxiety."
+        },
+        {
+          "key": "C",
+          "text": "Suggest she waits for the 20-week anomaly scan, which can identify structural markers associated with the condition.",
+          "is_correct": false,
+          "rationale": "This delays diagnosis and limits options, causing unnecessary prolonged anxiety."
+        },
+        {
+          "key": "D",
+          "text": "Provide her with statistical leaflets about the condition and allow her to make the decision without further specialist input.",
+          "is_correct": false,
+          "rationale": "The woman requires specialist counselling, not just written information, to make this decision."
+        },
+        {
+          "key": "E",
+          "text": "Book an urgent consultation with a neonatologist to discuss the potential outcomes of the diagnosis in detail.",
+          "is_correct": false,
+          "rationale": "This is premature; the immediate need is counselling on diagnostic options."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "A woman at 36 weeks gestation presents with nausea, vomiting, jaundice, and right upper quadrant pain. Which diagnosis requires the most urgent consideration?",
+      "explanation": "The combination of jaundice, nausea, vomiting, and right upper quadrant pain in the third trimester is a classic presentation of Acute Fatty Liver of Pregnancy (AFLP), a rare but life-threatening obstetric emergency requiring prompt delivery.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Acute Fatty Liver of Pregnancy (AFLP), which necessitates urgent assessment and planning for prompt delivery of the baby.",
+          "is_correct": true,
+          "rationale": "This symptom constellation is classic for AFLP, a critical obstetric emergency."
+        },
+        {
+          "key": "B",
+          "text": "Severe pre-eclampsia with HELLP syndrome, which shares some features but jaundice is less prominent than in AFLP.",
+          "is_correct": false,
+          "rationale": "While a differential, the prominent jaundice points more strongly towards AFLP."
+        },
+        {
+          "key": "C",
+          "text": "Obstetric cholestasis, which typically presents with severe pruritus rather than these acute systemic and painful symptoms.",
+          "is_correct": false,
+          "rationale": "The primary symptom of obstetric cholestasis is intense itching (pruritus)."
+        },
+        {
+          "key": "D",
+          "text": "Viral hepatitis, which is a differential diagnosis but pregnancy-specific liver disorders must be prioritised for exclusion first.",
+          "is_correct": false,
+          "rationale": "Pregnancy-specific causes must be ruled out first in a pregnant patient."
+        },
+        {
+          "key": "E",
+          "text": "Gallstone pancreatitis, which can present similarly but AFLP is a more urgent obstetric emergency that must be excluded.",
+          "is_correct": false,
+          "rationale": "AFLP is the most critical obstetric diagnosis to consider first."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "As a senior midwife, you identify a trend of poor documentation leading to communication errors. What is the most effective leadership action to take?",
+      "explanation": "An audit provides objective data to understand the problem's scope. Involving the team in creating a solution based on this data fosters ownership and is more effective for sustainable change than a top-down, punitive approach.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Conduct a clinical audit of documentation standards and present the findings to the team to collaboratively develop an improvement plan.",
+          "is_correct": true,
+          "rationale": "This is a collaborative, evidence-based approach to quality improvement."
+        },
+        {
+          "key": "B",
+          "text": "Implement a new, stricter documentation policy immediately and warn staff that non-compliance will result in disciplinary action.",
+          "is_correct": false,
+          "rationale": "A punitive approach is likely to damage morale and be ineffective long-term."
+        },
+        {
+          "key": "C",
+          "text": "Report the issue directly to the Head of Midwifery and suggest that external consultants should be hired for retraining.",
+          "is_correct": false,
+          "rationale": "Escalating without first attempting local resolution is premature and disempowering."
+        },
+        {
+          "key": "D",
+          "text": "Personally review every patient's notes at the end of each shift to correct any errors you find yourself.",
+          "is_correct": false,
+          "rationale": "This is not a sustainable solution and undermines team responsibility and autonomy."
+        },
+        {
+          "key": "E",
+          "text": "Organise a single mandatory training session for all staff on the importance of good record-keeping and professional standards.",
+          "is_correct": false,
+          "rationale": "A single session is often insufficient for lasting behavioural change without engagement."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "A multiparous woman in active labour suddenly develops profound hypotension, hypoxia, and coagulopathy. What is the most critical initial management priority?",
+      "explanation": "This presentation suggests an amniotic fluid embolism, a catastrophic obstetric emergency. The immediate priority is maternal resuscitation, focusing on airway, breathing, and circulation (ABC) to prevent cardiovascular collapse and support vital organs before addressing other issues.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately initiate high-quality cardiopulmonary resuscitation and secure the airway, while calling for multidisciplinary emergency team support.",
+          "is_correct": true,
+          "rationale": "Prioritises maternal ABCs, which is the cornerstone of managing this life-threatening obstetric emergency."
+        },
+        {
+          "key": "B",
+          "text": "Prepare for an immediate emergency caesarean section to deliver the fetus and reduce uterine pressure on major vessels.",
+          "is_correct": false,
+          "rationale": "Delivery is important, but maternal stabilisation must occur first or concurrently if possible."
+        },
+        {
+          "key": "C",
+          "text": "Request an urgent coagulation screen and cross-match blood products in anticipation of disseminated intravascular coagulation.",
+          "is_correct": false,
+          "rationale": "This is a crucial secondary step, but immediate resuscitation takes precedence over diagnostic blood tests."
+        },
+        {
+          "key": "D",
+          "text": "Administer a large fluid bolus and high-flow oxygen while awaiting the arrival of the full medical emergency team.",
+          "is_correct": false,
+          "rationale": "While part of resuscitation, this is less complete than initiating full CPR if she is in cardiac arrest."
+        },
+        {
+          "key": "E",
+          "text": "Focus on administering uterotonic drugs to manage the potential for a massive postpartum haemorrhage following the event.",
+          "is_correct": false,
+          "rationale": "Haemorrhage is a likely consequence, but managing the initial cardiovascular collapse is the first priority."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "As a lead midwife implementing a continuity of carer model, what is the most effective strategy for gaining team buy-in and ensuring sustainability?",
+      "explanation": "Successful implementation of new care models requires collaborative leadership. Involving the team in planning, addressing their concerns transparently, and highlighting benefits for both women and staff fosters ownership, reduces resistance, and improves long-term sustainability.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mandate the new working pattern with a clear deadline, providing a detailed top-down directive from senior management to ensure compliance.",
+          "is_correct": false,
+          "rationale": "A top-down mandate often creates resistance and resentment, undermining the model's long-term success."
+        },
+        {
+          "key": "B",
+          "text": "Focus solely on presenting the positive clinical outcome data for women and babies to persuade the team of its benefits.",
+          "is_correct": false,
+          "rationale": "While important, data alone doesn't address staff concerns about workload, rotas, and personal impact."
+        },
+        {
+          "key": "C",
+          "text": "Co-design the implementation plan with the midwifery team, incorporating their feedback and addressing concerns through open workshops and communication.",
+          "is_correct": true,
+          "rationale": "Collaborative co-design fosters ownership and addresses concerns proactively, which is key for successful change management."
+        },
+        {
+          "key": "D",
+          "text": "Implement the model with a small group of volunteer midwives first, hoping their success will eventually convince the rest of the team.",
+          "is_correct": false,
+          "rationale": "A pilot can be useful, but it doesn't guarantee wider buy-in without a broader engagement strategy."
+        },
+        {
+          "key": "E",
+          "text": "Offer financial incentives or bonuses to midwives who agree to adopt the new continuity of carer model quickly.",
+          "is_correct": false,
+          "rationale": "Incentives can be divisive and may not address the underlying professional or logistical concerns of the team."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "You observe a senior colleague consistently failing to obtain fully informed consent for a procedure. What is your most appropriate professional and ethical first action?",
+      "explanation": "Patient safety and professional accountability are paramount. The initial step should be a direct, private conversation with the colleague to understand their perspective and gently remind them of their professional obligations, escalating only if this fails.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately report the colleague's behaviour anonymously to the Head of Midwifery and the hospital's clinical governance team.",
+          "is_correct": false,
+          "rationale": "Anonymous reporting should not be the first step; direct communication is preferred unless there's immediate harm."
+        },
+        {
+          "key": "B",
+          "text": "Approach the colleague privately and respectfully to discuss your observations, referencing professional standards and trust policies on informed consent.",
+          "is_correct": true,
+          "rationale": "A direct, professional conversation is the appropriate first step to address concerns and resolve issues collegially."
+        },
+        {
+          "key": "C",
+          "text": "Document your observations meticulously over several weeks before deciding on any further action to build a stronger case.",
+          "is_correct": false,
+          "rationale": "Delaying action puts patients at continued risk; an immediate, direct conversation is required for patient safety."
+        },
+        {
+          "key": "D",
+          "text": "Inform the women affected that their consent may not have been valid and advise them on how to make a formal complaint.",
+          "is_correct": false,
+          "rationale": "This escalates the situation prematurely and undermines professional relationships before attempting to resolve it internally."
+        },
+        {
+          "key": "E",
+          "text": "Discuss the situation informally with other midwives in the staff room to see if they have noticed similar behaviour.",
+          "is_correct": false,
+          "rationale": "This constitutes gossip and is unprofessional; the concern should be addressed directly or through formal channels."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "When critically appraising a randomised controlled trial for a new third-stage management technique, which factor is most indicative of high-quality, reliable evidence?",
+      "explanation": "Allocation concealment prevents selection bias by ensuring the person enrolling participants does not know which group the next participant will be assigned to. This is a crucial marker of a methodologically sound randomised controlled trial, more so than other factors.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A very large sample size of several thousand participants, which guarantees the statistical significance of the study's primary findings.",
+          "is_correct": false,
+          "rationale": "A large sample size increases power but doesn't guarantee validity if there are fundamental methodological flaws."
+        },
+        {
+          "key": "B",
+          "text": "The study being published in a highly prestigious and well-known medical journal with a very high impact factor.",
+          "is_correct": false,
+          "rationale": "Journal prestige is not a substitute for critical appraisal of the study's own methodology and potential biases."
+        },
+        {
+          "key": "C",
+          "text": "The inclusion of multiple secondary outcomes that all show a statistically significant benefit for the new intervention being tested.",
+          "is_correct": false,
+          "rationale": "Focusing on secondary outcomes can be misleading; the primary outcome and study methodology are more important."
+        },
+        {
+          "key": "D",
+          "text": "Evidence of robust allocation concealment, ensuring researchers were unaware of group assignment during participant recruitment.",
+          "is_correct": true,
+          "rationale": "Allocation concealment is critical for preventing selection bias, which is a major threat to a trial's validity."
+        },
+        {
+          "key": "E",
+          "text": "A detailed description of the statistical analysis plan that was used to compare the outcomes between the two groups.",
+          "is_correct": false,
+          "rationale": "A good analysis plan cannot correct for biases introduced during recruitment, such as poor allocation concealment."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "You are leading the resuscitation of a non-vigorous newborn delivered through thick meconium-stained liquor. What is the current evidence-based initial step?",
+      "explanation": "Current international guidelines no longer recommend routine intrapartum or postnatal suctioning for non-vigorous infants born through meconium. The priority is to initiate ventilation promptly if the infant is not breathing or has a low heart rate.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Perform immediate routine endotracheal intubation and suction the trachea to remove any meconium below the vocal cords before ventilation.",
+          "is_correct": false,
+          "rationale": "This practice is no longer recommended as it delays ventilation and has not been shown to improve outcomes."
+        },
+        {
+          "key": "B",
+          "text": "Vigorously dry and stimulate the infant for at least 60 seconds to encourage spontaneous breathing before considering other interventions.",
+          "is_correct": false,
+          "rationale": "While initial stimulation is standard, prolonged stimulation of a non-vigorous infant delays essential ventilation support."
+        },
+        {
+          "key": "C",
+          "text": "Use a large-bore suction catheter to thoroughly clear the mouth and pharynx of all visible meconium before providing stimulation.",
+          "is_correct": false,
+          "rationale": "Routine oropharyngeal suctioning is no longer advised for non-vigorous infants as it can induce bradycardia."
+        },
+        {
+          "key": "D",
+          "text": "Immediately place the infant under a radiant warmer and begin positive pressure ventilation if they are not breathing effectively.",
+          "is_correct": true,
+          "rationale": "Current evidence prioritises immediate ventilation over routine suctioning, which can delay effective resuscitation and cause harm."
+        },
+        {
+          "key": "E",
+          "text": "Immediately clamp and cut the umbilical cord to transfer the baby to the resuscitation team for specialised airway management.",
+          "is_correct": false,
+          "rationale": "Delayed cord clamping is often beneficial, and resuscitation can begin at the bedside without immediate cutting."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "How would you lead the implementation of a new evidence-based guideline, such as for managing postpartum haemorrhage, across your entire midwifery unit?",
+      "explanation": "A multi-faceted strategy is crucial for effective change management. This approach ensures staff are educated, practice is monitored, and a culture of continuous improvement is fostered, leading to safer and more effective care.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Develop a strategy including staff training, creating accessible protocols, auditing current practice, and establishing a feedback loop for continuous quality improvement.",
+          "is_correct": true,
+          "rationale": "This demonstrates a comprehensive, strategic approach to change management."
+        },
+        {
+          "key": "B",
+          "text": "Simply email the new guideline to all staff members and expect them to adopt it into their daily practice without further support.",
+          "is_correct": false,
+          "rationale": "This passive approach is ineffective for implementing significant practice changes."
+        },
+        {
+          "key": "C",
+          "text": "Delegate the entire implementation process to a junior midwife without providing any senior oversight or structured support for the project.",
+          "is_correct": false,
+          "rationale": "This is inappropriate delegation and lacks the necessary leadership."
+        },
+        {
+          "key": "D",
+          "text": "Wait for the guideline to be mandated by the hospital trust before taking any proactive steps to introduce the changes to the team.",
+          "is_correct": false,
+          "rationale": "A senior midwife should be proactive in adopting best practices."
+        },
+        {
+          "key": "E",
+          "text": "Focus only on lecturing staff about the new guideline during a single team meeting without any practical follow-up or skills sessions.",
+          "is_correct": false,
+          "rationale": "This method lacks the depth and reinforcement needed for learning."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "You are leading a root cause analysis following a serious untoward incident involving a neonatal collapse. What is the most critical initial step?",
+      "explanation": "A systems-based approach is fundamental to modern patient safety investigations. It avoids a blame culture and identifies underlying system failures that contributed to the incident, leading to more effective and sustainable improvements.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately assign blame to the individuals directly involved in the incident to ensure accountability is established from the beginning of the investigation.",
+          "is_correct": false,
+          "rationale": "This promotes a blame culture and hinders open investigation."
+        },
+        {
+          "key": "B",
+          "text": "Focus solely on reviewing the clinical documentation to identify any gaps or errors made by the attending midwifery and medical staff.",
+          "is_correct": false,
+          "rationale": "This is too narrow and ignores wider system factors."
+        },
+        {
+          "key": "C",
+          "text": "Establish a multidisciplinary team to systematically review the entire care pathway, focusing on systems and processes rather than individual performance errors.",
+          "is_correct": true,
+          "rationale": "This promotes a just culture and identifies systemic issues."
+        },
+        {
+          "key": "D",
+          "text": "Prioritise communicating with the hospital's legal department to prepare for potential litigation before fully investigating the clinical details of the case.",
+          "is_correct": false,
+          "rationale": "Patient safety and learning should be the primary focus."
+        },
+        {
+          "key": "E",
+          "text": "Recommend immediate retraining for all staff on the ward, assuming the incident was caused by a widespread lack of essential clinical skills.",
+          "is_correct": false,
+          "rationale": "This is a reactive assumption without proper investigation."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "As a senior midwife, how would you strategically address a persistent issue of high staff turnover and low morale within your midwifery team?",
+      "explanation": "This approach is collaborative and evidence-based. By engaging staff to understand the core issues and co-designing solutions, it addresses the root causes of turnover and low morale, fostering a positive and sustainable work environment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Implement stricter performance management policies and increase clinical competency assessments to identify and remove underperforming staff members from the team.",
+          "is_correct": false,
+          "rationale": "This punitive approach is likely to worsen morale further."
+        },
+        {
+          "key": "B",
+          "text": "Ignore the issue, assuming that high turnover is an unavoidable and normal aspect of working in a high-pressure healthcare environment.",
+          "is_correct": false,
+          "rationale": "This is a passive response and fails to address leadership responsibility."
+        },
+        {
+          "key": "C",
+          "text": "Conduct confidential staff surveys and focus groups to identify root causes, then co-design solutions focusing on wellbeing and professional development.",
+          "is_correct": true,
+          "rationale": "This collaborative approach addresses root causes and empowers staff."
+        },
+        {
+          "key": "D",
+          "text": "Request a significant budget increase for higher salaries, believing that financial incentives are the only effective way to improve staff retention.",
+          "is_correct": false,
+          "rationale": "This oversimplifies the issue; morale is rarely just about pay."
+        },
+        {
+          "key": "E",
+          "text": "Focus exclusively on recruiting new midwives to fill vacancies without addressing the underlying reasons why experienced staff are choosing to leave.",
+          "is_correct": false,
+          "rationale": "This is a short-term fix that does not solve the core problem."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "You are mediating a conflict between a junior midwife advocating for a woman's birth plan and a consultant obstetrician who deems it unsafe. What is your priority?",
+      "explanation": "This approach prioritises patient-centred care, shared decision-making, and respectful interprofessional communication. It balances the woman's autonomy with the need for a safe clinical outcome, which is a key leadership skill for a senior midwife.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Automatically side with the consultant obstetrician's opinion, as their medical authority and experience should always take precedence in clinical decision-making.",
+          "is_correct": false,
+          "rationale": "This undermines midwifery autonomy and shared decision-making principles."
+        },
+        {
+          "key": "B",
+          "text": "Remove the junior midwife from the situation to avoid further conflict and take over the woman's care personally without further discussion.",
+          "is_correct": false,
+          "rationale": "This fails to resolve the conflict or support the junior midwife."
+        },
+        {
+          "key": "C",
+          "text": "Facilitate a respectful conversation with the woman, midwife, and obstetrician, focusing on shared decision-making while clearly articulating all clinical risks involved.",
+          "is_correct": true,
+          "rationale": "This promotes shared decision-making and interprofessional collaboration."
+        },
+        {
+          "key": "D",
+          "text": "Advise the woman to file a formal complaint against the consultant if she feels her choices are not being respected by the team.",
+          "is_correct": false,
+          "rationale": "This escalates conflict rather than seeking immediate resolution."
+        },
+        {
+          "key": "E",
+          "text": "Instruct the junior midwife to follow the consultant's orders without question to maintain the established hierarchical structure within the delivery suite.",
+          "is_correct": false,
+          "rationale": "This reinforces a rigid hierarchy and discourages professional advocacy."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "You are tasked with developing a business case for a new midwifery-led continuity of carer model. What key component is essential for securing funding?",
+      "explanation": "A successful business case must be evidence-based, demonstrating clear benefits across multiple domains including clinical outcomes, patient satisfaction, and financial viability. This comprehensive approach is essential for securing investment from senior management and commissioners.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Focus the proposal entirely on the improved philosophical satisfaction for midwives, arguing that this is the most important outcome for the service.",
+          "is_correct": false,
+          "rationale": "This is too narrow and ignores patient and financial outcomes."
+        },
+        {
+          "key": "B",
+          "text": "Present a detailed analysis showing improved clinical outcomes, better patient experience, and long-term cost-effectiveness from reduced interventions and shorter hospital stays.",
+          "is_correct": true,
+          "rationale": "This provides a robust, evidence-based case for investment."
+        },
+        {
+          "key": "C",
+          "text": "Submit a simple request for additional staff without providing any supporting data on how the new model would be implemented or evaluated.",
+          "is_correct": false,
+          "rationale": "A request without a supporting business case is unlikely to succeed."
+        },
+        {
+          "key": "D",
+          "text": "Base the entire business case on anecdotal evidence and positive testimonials from a small number of women who have experienced similar models.",
+          "is_correct": false,
+          "rationale": "Anecdotal evidence is not sufficient for a major service investment."
+        },
+        {
+          "key": "E",
+          "text": "Argue that the new model is trendy and that the trust should adopt it to appear more modern and competitive with other hospitals.",
+          "is_correct": false,
+          "rationale": "Decisions should be based on evidence, not on trends."
+        }
+      ]
+    }
+  ]
+}

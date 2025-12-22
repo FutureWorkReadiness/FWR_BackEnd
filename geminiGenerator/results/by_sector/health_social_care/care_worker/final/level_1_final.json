@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "What is the most important aspect of assisting a service user with personal care, such as bathing or dressing?",
+      "explanation": "Providing personal care requires a sensitive approach. Upholding a service user's privacy, dignity, and comfort ensures they feel respected and safe, fostering trust and promoting their well-being above all else.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Completing the task as quickly as possible to move on to the next scheduled service user.",
+          "is_correct": false,
+          "rationale": "Speed should not compromise dignity or quality of care for the service user."
+        },
+        {
+          "key": "B",
+          "text": "Ensuring the service user's privacy, dignity, and comfort are always maintained throughout the process.",
+          "is_correct": true,
+          "rationale": "Maintaining dignity and respect is paramount during personal care assistance."
+        },
+        {
+          "key": "C",
+          "text": "Strictly following the care plan without asking the service user for their preferences or input.",
+          "is_correct": false,
+          "rationale": "Service user input is vital for providing person-centered care and respecting autonomy."
+        },
+        {
+          "key": "D",
+          "text": "Using the most expensive personal care products available to ensure a high-quality experience for them.",
+          "is_correct": false,
+          "rationale": "Product cost is irrelevant to the quality of personal care and dignity."
+        },
+        {
+          "key": "E",
+          "text": "Letting the service user do everything themselves, even if it puts their safety at potential risk.",
+          "is_correct": false,
+          "rationale": "Safety is a primary concern and must not be compromised by excessive independence."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "If a care worker observes a significant change in a service user's health or behaviour, what is the correct immediate action?",
+      "explanation": "Promptly reporting significant changes in a service user's condition to a supervisor is crucial. This ensures that the appropriate medical or support professionals can assess the situation quickly and intervene if necessary, safeguarding the service user's health.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Wait until the next scheduled team meeting to discuss the observations with colleagues.",
+          "is_correct": false,
+          "rationale": "Delaying reporting could put the service user's health at significant risk."
+        },
+        {
+          "key": "B",
+          "text": "Document the change in the care plan and continue with the daily routine as planned.",
+          "is_correct": false,
+          "rationale": "Documentation is important, but reporting to a senior is the immediate priority."
+        },
+        {
+          "key": "C",
+          "text": "Immediately report the changes to a supervisor or designated senior staff member for guidance.",
+          "is_correct": true,
+          "rationale": "Prompt reporting ensures timely assessment and appropriate intervention for the service user."
+        },
+        {
+          "key": "D",
+          "text": "Advise the service user to contact their general practitioner directly for medical advice.",
+          "is_correct": false,
+          "rationale": "Care workers should report to supervisors, not advise direct medical contact."
+        },
+        {
+          "key": "E",
+          "text": "Assume it is a temporary issue and monitor the situation for several days before acting.",
+          "is_correct": false,
+          "rationale": "Assuming temporary issues can lead to missed opportunities for early intervention."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Why is maintaining good hand hygiene, such as regular hand washing, absolutely essential for care workers?",
+      "explanation": "Good hand hygiene is fundamental in health and social care to prevent the transmission of harmful microorganisms. It protects vulnerable service users from infections and also reduces the risk of care workers contracting or spreading illnesses.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure the care worker's hands look clean and presentable for all service users.",
+          "is_correct": false,
+          "rationale": "Hand hygiene's primary purpose is not related to the aesthetic appearance of hands."
+        },
+        {
+          "key": "B",
+          "text": "To prevent the spread of infections and protect both the service user and the care worker.",
+          "is_correct": true,
+          "rationale": "Hand hygiene is critical for infection control in health and social care settings."
+        },
+        {
+          "key": "C",
+          "text": "To comply with aesthetic standards set by the care facility's internal policies and procedures.",
+          "is_correct": false,
+          "rationale": "Compliance is important, but the core reason is infection control and safety."
+        },
+        {
+          "key": "D",
+          "text": "Because it is a quick and easy task that fills time between other more complex care duties.",
+          "is_correct": false,
+          "rationale": "Hand washing is a crucial safety measure, not merely a time-filler task."
+        },
+        {
+          "key": "E",
+          "text": "Primarily to remove visible dirt from hands, rather than targeting microscopic germs or bacteria.",
+          "is_correct": false,
+          "rationale": "Hand washing targets both visible dirt and invisible pathogens effectively."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "How should a care worker best support a service user's independence and personal choices during daily activities?",
+      "explanation": "Supporting a service user's independence means empowering them to make choices and participate in their own care. Offering assistance only when necessary respects their autonomy, promotes self-reliance, and enhances their overall well-being and dignity.",
+      "options": [
+        {
+          "key": "A",
+          "text": "By completing all tasks for them to save time and ensure everything is done correctly.",
+          "is_correct": false,
+          "rationale": "This approach reduces independence and can disempower the service user."
+        },
+        {
+          "key": "B",
+          "text": "By encouraging them to do as much as they safely can, offering assistance only when needed.",
+          "is_correct": true,
+          "rationale": "Promoting independence empowers service users and respects their autonomy."
+        },
+        {
+          "key": "C",
+          "text": "By making all decisions for the service user, as the care worker knows what is best.",
+          "is_correct": false,
+          "rationale": "Care workers should support choices, not make all decisions for them."
+        },
+        {
+          "key": "D",
+          "text": "By strictly adhering to the care plan without considering the service user's daily preferences.",
+          "is_correct": false,
+          "rationale": "Care plans should be flexible to accommodate daily preferences where safe."
+        },
+        {
+          "key": "E",
+          "text": "By allowing them to refuse all care, even if it poses a significant risk to their well-being.",
+          "is_correct": false,
+          "rationale": "While respecting choice, safety must always be a primary consideration for care workers."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What is the most appropriate action if a service user falls and appears to be injured while you are providing care?",
+      "explanation": "In the event of a fall and suspected injury, the priority is to ensure the service user's safety and get appropriate medical help. Calling emergency services for serious injuries or unresponsiveness is the correct immediate action to prevent further harm.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately attempt to move the service user to a more comfortable position.",
+          "is_correct": false,
+          "rationale": "Moving an injured person without proper assessment could potentially worsen their injuries."
+        },
+        {
+          "key": "B",
+          "text": "Call emergency services (e.g., 999 or 111) if they are seriously injured or unresponsive.",
+          "is_correct": true,
+          "rationale": "Prioritizing safety and calling for professional help in emergencies is crucial."
+        },
+        {
+          "key": "C",
+          "text": "Wait for a colleague to arrive before taking any action or making any decisions.",
+          "is_correct": false,
+          "rationale": "Immediate action is often required; waiting can delay critical help."
+        },
+        {
+          "key": "D",
+          "text": "Document the incident in the care plan before assessing the service user's condition.",
+          "is_correct": false,
+          "rationale": "Assessment and immediate safety measures take precedence over documentation."
+        },
+        {
+          "key": "E",
+          "text": "Give them some water and encourage them to try standing up slowly by themselves.",
+          "is_correct": false,
+          "rationale": "Encouraging movement after a fall without assessment is unsafe."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "If you notice a significant change in a service user's condition, what is the most appropriate action to take first?",
+      "explanation": "Prompt reporting to a supervisor or designated person ensures that appropriate action can be taken quickly. This is crucial for the service user's well-being and safety, allowing for timely intervention.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately inform the service user's family members about the observed changes directly.",
+          "is_correct": false,
+          "rationale": "Reporting to a supervisor is the correct initial step."
+        },
+        {
+          "key": "B",
+          "text": "Document the changes thoroughly in the care plan notes before telling anyone else.",
+          "is_correct": false,
+          "rationale": "Documentation is important, but not the first action for significant changes."
+        },
+        {
+          "key": "C",
+          "text": "Contact your supervisor or the designated person in charge to report the observation promptly.",
+          "is_correct": true,
+          "rationale": "Reporting to a supervisor ensures prompt, appropriate action."
+        },
+        {
+          "key": "D",
+          "text": "Wait until your next scheduled shift handover to discuss the changes with the incoming care worker.",
+          "is_correct": false,
+          "rationale": "Delaying reporting a significant change could put the service user at risk."
+        },
+        {
+          "key": "E",
+          "text": "Reassure the service user that everything is fine and continue with your planned tasks.",
+          "is_correct": false,
+          "rationale": "Ignoring significant changes is unsafe and unprofessional."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "When assisting a service user with personal care, what is the most important principle to uphold?",
+      "explanation": "Maintaining privacy and dignity is fundamental to person-centred care. It fosters respect and comfort for the service user, especially during vulnerable moments, and builds trust in the care relationship.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Complete the tasks as quickly as possible to ensure efficiency throughout your busy shift.",
+          "is_correct": false,
+          "rationale": "Efficiency is secondary to dignity and quality of care."
+        },
+        {
+          "key": "B",
+          "text": "Ensure the service user's privacy and dignity are maintained at all times during the process.",
+          "is_correct": true,
+          "rationale": "Upholding privacy and dignity respects the service user's personal space."
+        },
+        {
+          "key": "C",
+          "text": "Encourage the service user to do as much as they can, even if it takes a very long time.",
+          "is_correct": false,
+          "rationale": "Encouragement is good, but privacy and dignity are paramount."
+        },
+        {
+          "key": "D",
+          "text": "Discuss their personal preferences loudly with them so everyone nearby can hear and understand.",
+          "is_correct": false,
+          "rationale": "Loud discussions violate privacy and are unprofessional."
+        },
+        {
+          "key": "E",
+          "text": "Follow the exact routine from the care plan without asking for any service user input.",
+          "is_correct": false,
+          "rationale": "Service user input is important for person-centred care, alongside the care plan."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Before assisting a service user with mobility using equipment, what should you always check?",
+      "explanation": "Ensuring equipment is safe and functional is paramount to prevent injuries to both the service user and the care worker during transfers or mobility assistance. This is a key safety measure.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The service user's favourite television channel is already turned on for their enjoyment.",
+          "is_correct": false,
+          "rationale": "Entertainment is secondary to safety checks before mobility assistance."
+        },
+        {
+          "key": "B",
+          "text": "All necessary mobility equipment is clean, functional, and safe for immediate use.",
+          "is_correct": true,
+          "rationale": "Checking equipment ensures safety for both the service user and care worker."
+        },
+        {
+          "key": "C",
+          "text": "Your personal mobile phone is fully charged in case of any unexpected emergencies.",
+          "is_correct": false,
+          "rationale": "Your personal phone's charge is not the primary safety check for equipment."
+        },
+        {
+          "key": "D",
+          "text": "The room temperature is perfectly adjusted to the service user's specific comfort preference.",
+          "is_correct": false,
+          "rationale": "Room temperature is for comfort, not a pre-mobility equipment safety check."
+        },
+        {
+          "key": "E",
+          "text": "You have completed all other administrative tasks before starting any physical assistance.",
+          "is_correct": false,
+          "rationale": "Administrative tasks are not a prerequisite for safe mobility assistance."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is the primary purpose of a service user's individual care plan in health social care?",
+      "explanation": "A care plan is a vital document that guides care workers on how to provide tailored, person-centred support. It ensures consistency and effectiveness in meeting individual needs and preferences.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide a detailed record of all financial transactions related to their care.",
+          "is_correct": false,
+          "rationale": "Financial records are separate from the care plan's primary purpose."
+        },
+        {
+          "key": "B",
+          "text": "To outline the specific needs, preferences, and goals for their personalised support.",
+          "is_correct": true,
+          "rationale": "Care plans ensure personalised, consistent support for individual needs."
+        },
+        {
+          "key": "C",
+          "text": "To document the daily schedule of all care workers assigned to that particular service user.",
+          "is_correct": false,
+          "rationale": "Care plans focus on the service user, not care worker schedules."
+        },
+        {
+          "key": "D",
+          "text": "To serve as a legal contract between the care provider and the service user's family.",
+          "is_correct": false,
+          "rationale": "Care plans are not legal contracts; they are care guides."
+        },
+        {
+          "key": "E",
+          "text": "To list all the medical conditions the service user has, without detailing care actions.",
+          "is_correct": false,
+          "rationale": "Care plans detail actions based on conditions, not just list them."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What should you do if you suspect a service user is experiencing abuse or neglect?",
+      "explanation": "Safeguarding is a core responsibility for all care workers. Reporting concerns immediately to the appropriate person ensures that the service user is protected and proper procedures are followed to investigate the situation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Confront the alleged abuser directly to gather more information about the situation.",
+          "is_correct": false,
+          "rationale": "Confrontation can escalate the situation and put you or others at risk."
+        },
+        {
+          "key": "B",
+          "text": "Keep your suspicions to yourself to avoid causing unnecessary alarm or distress.",
+          "is_correct": false,
+          "rationale": "Keeping suspicions to yourself is a failure of safeguarding duty."
+        },
+        {
+          "key": "C",
+          "text": "Report your concerns immediately to your supervisor or the designated safeguarding lead.",
+          "is_correct": true,
+          "rationale": "Immediate reporting protects the service user and initiates safeguarding procedures."
+        },
+        {
+          "key": "D",
+          "text": "Document your observations in a personal diary and review them at a later date.",
+          "is_correct": false,
+          "rationale": "A personal diary is not an official reporting channel for safeguarding."
+        },
+        {
+          "key": "E",
+          "text": "Discuss your concerns with other care workers to get their opinions before acting.",
+          "is_correct": false,
+          "rationale": "Discussing with colleagues before reporting can delay crucial action."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the most important consideration when assisting a service user with personal care tasks like bathing?",
+      "explanation": "Maintaining a service user's privacy and dignity is paramount during personal care. It builds trust and respects their individuality, ensuring a positive and comfortable experience.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensuring their comfort and maintaining their privacy and dignity throughout the process.",
+          "is_correct": true,
+          "rationale": "Dignity and privacy are fundamental rights during personal care."
+        },
+        {
+          "key": "B",
+          "text": "Completing the task as quickly as possible to move on to other responsibilities efficiently.",
+          "is_correct": false,
+          "rationale": "Speed should not compromise the service user's comfort or dignity."
+        },
+        {
+          "key": "C",
+          "text": "Using the hottest water temperature possible to ensure thorough cleanliness and hygiene.",
+          "is_correct": false,
+          "rationale": "Water temperature must be safe and comfortable for the service user."
+        },
+        {
+          "key": "D",
+          "text": "Allowing family members to assist with all aspects of personal care without supervision.",
+          "is_correct": false,
+          "rationale": "Family involvement requires consent and often supervision for safety."
+        },
+        {
+          "key": "E",
+          "text": "Strictly following a pre-set schedule regardless of the service user's immediate preferences.",
+          "is_correct": false,
+          "rationale": "Flexibility and service user preferences are important in care."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "How should a care worker effectively communicate with a service user who has difficulty speaking clearly?",
+      "explanation": "Patience, clear simple language, and active listening are key. Using communication aids can also bridge gaps, ensuring the service user feels understood and respected.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Interrupting them frequently to guess what they are trying to express and speed up the conversation.",
+          "is_correct": false,
+          "rationale": "Interrupting can be frustrating and disrespectful to the service user."
+        },
+        {
+          "key": "B",
+          "text": "Speaking louder and faster, assuming this will help them understand the message more easily.",
+          "is_correct": false,
+          "rationale": "Speaking louder or faster often hinders understanding, especially for those with difficulties."
+        },
+        {
+          "key": "C",
+          "text": "Listening patiently, using simple language, and perhaps employing communication aids if available.",
+          "is_correct": true,
+          "rationale": "Patience and appropriate tools facilitate effective communication."
+        },
+        {
+          "key": "D",
+          "text": "Asking complex open-ended questions that require detailed and elaborate verbal responses.",
+          "is_correct": false,
+          "rationale": "Complex questions can be overwhelming for individuals with speech difficulties."
+        },
+        {
+          "key": "E",
+          "text": "Relying solely on non-verbal cues without attempting any verbal communication whatsoever.",
+          "is_correct": false,
+          "rationale": "Both verbal and non-verbal communication are important, not just one."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is the correct action to take if you suspect a service user is experiencing neglect or abuse?",
+      "explanation": "Safeguarding is a critical responsibility. Any suspicion of neglect or abuse must be reported immediately to a supervisor or the designated safeguarding lead to ensure prompt investigation and protection.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Confronting the alleged abuser directly to gather more information about the situation immediately.",
+          "is_correct": false,
+          "rationale": "Direct confrontation can escalate danger and interfere with investigation."
+        },
+        {
+          "key": "B",
+          "text": "Keeping the suspicion to yourself to avoid causing unnecessary distress or potential conflict.",
+          "is_correct": false,
+          "rationale": "Failing to report suspected abuse is a breach of safeguarding duty."
+        },
+        {
+          "key": "C",
+          "text": "Discussing your concerns with other care workers before deciding on any further action.",
+          "is_correct": false,
+          "rationale": "While colleagues can offer support, formal reporting is the priority."
+        },
+        {
+          "key": "D",
+          "text": "Reporting your concerns immediately to your supervisor or the designated safeguarding lead without delay.",
+          "is_correct": true,
+          "rationale": "Immediate reporting to the correct authority is crucial for safeguarding."
+        },
+        {
+          "key": "E",
+          "text": "Waiting for concrete evidence of harm before taking any action or raising the issue.",
+          "is_correct": false,
+          "rationale": "Suspicions alone warrant reporting to protect the service user."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What is a care worker's key responsibility when assisting a service user with their prescribed medication?",
+      "explanation": "The '5 Rights' of medication administration (right patient, right drug, right dose, right route, right time) are fundamental. Ensuring accuracy prevents harm and promotes health outcomes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Changing the dosage if the service user says they feel better or worse than usual.",
+          "is_correct": false,
+          "rationale": "Care workers must never alter medication dosages; this is a medical decision."
+        },
+        {
+          "key": "B",
+          "text": "Administering medication that has been prescribed for a different service user.",
+          "is_correct": false,
+          "rationale": "Administering incorrect medication is a serious and dangerous error."
+        },
+        {
+          "key": "C",
+          "text": "Ensuring the correct medication is given to the correct person at the correct time.",
+          "is_correct": true,
+          "rationale": "This aligns with the '5 Rights' of medication administration, ensuring safety."
+        },
+        {
+          "key": "D",
+          "text": "Advising the service user to stop taking their medication if they report side effects.",
+          "is_correct": false,
+          "rationale": "Care workers should report side effects, not advise stopping medication."
+        },
+        {
+          "key": "E",
+          "text": "Storing all medications in a communal area for easy access by all care staff members.",
+          "is_correct": false,
+          "rationale": "Medications must be stored securely and individually to prevent errors."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is essential for maintaining a safe and hazard-free environment for service users in their home?",
+      "explanation": "Regularly checking for and removing trip hazards, ensuring clear pathways, and addressing potential dangers proactively are crucial for preventing falls and maintaining a safe living space.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Leaving electrical cords trailing across walkways to make cleaning more convenient for staff.",
+          "is_correct": false,
+          "rationale": "Trailing cords are significant trip hazards and must be secured."
+        },
+        {
+          "key": "B",
+          "text": "Storing all cleaning products in easily accessible, unlocked cupboards within the living area.",
+          "is_correct": false,
+          "rationale": "Cleaning products should be stored securely and out of reach of service users."
+        },
+        {
+          "key": "C",
+          "text": "Regularly checking for trip hazards and ensuring clear pathways throughout the service user's home.",
+          "is_correct": true,
+          "rationale": "Preventing falls by removing hazards is a primary safety measure."
+        },
+        {
+          "key": "D",
+          "text": "Allowing clutter to accumulate in common areas, as it provides a sense of familiarity for residents.",
+          "is_correct": false,
+          "rationale": "Clutter creates trip hazards and can impede mobility, compromising safety."
+        },
+        {
+          "key": "E",
+          "text": "Ignoring minor spills on the floor, assuming the service user will notice and avoid them independently.",
+          "is_correct": false,
+          "rationale": "Spills must be cleaned immediately to prevent slips and falls."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "How should a care worker ensure a service user's dignity and privacy during personal care tasks, such as bathing?",
+      "explanation": "Maintaining dignity and privacy is paramount in care. This involves physical barriers, clear communication, and respecting the individual's comfort, ensuring they feel valued and respected.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Always close doors and curtains, explaining actions, and ensuring the service user feels comfortable.",
+          "is_correct": true,
+          "rationale": "This option prioritizes dignity, privacy, and communication."
+        },
+        {
+          "key": "B",
+          "text": "Complete the task quickly without much conversation to minimize any potential discomfort for the individual.",
+          "is_correct": false,
+          "rationale": "Speed should not compromise dignity or communication."
+        },
+        {
+          "key": "C",
+          "text": "Involve other care staff to speed up the process, ensuring the service user is not left alone for long.",
+          "is_correct": false,
+          "rationale": "Involving extra staff can compromise privacy and dignity."
+        },
+        {
+          "key": "D",
+          "text": "Ask the service user if they prefer to be left alone, even if assistance is clearly required for their safety.",
+          "is_correct": false,
+          "rationale": "Safety and required care must be balanced with preferences."
+        },
+        {
+          "key": "E",
+          "text": "Discuss the service user's personal care needs openly with other residents to gather helpful suggestions.",
+          "is_correct": false,
+          "rationale": "Discussing personal care with others violates privacy."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What is the most important action a care worker must take before assisting a service user with their prescribed medication?",
+      "explanation": "The '5 Rights of Medication Administration' (right patient, right drug, right dose, right route, right time) are critical. Verifying identity and matching the medication to the care plan and label prevents errors.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Check the medication's expiration date and ensure it matches the prescription exactly.",
+          "is_correct": false,
+          "rationale": "This is important, but not the first most important step."
+        },
+        {
+          "key": "B",
+          "text": "Confirm the service user's identity and verify the medication against the care plan and label carefully.",
+          "is_correct": true,
+          "rationale": "Verifying identity and medication against the plan is crucial."
+        },
+        {
+          "key": "C",
+          "text": "Ask the service user if they have taken their medication recently to avoid giving a double dose.",
+          "is_correct": false,
+          "rationale": "While important, this comes after initial verification steps."
+        },
+        {
+          "key": "D",
+          "text": "Prepare all other necessary care tasks first, then administer the medication as the very last step.",
+          "is_correct": false,
+          "rationale": "Medication timing is often specific and should not be delayed."
+        },
+        {
+          "key": "E",
+          "text": "Document the medication administration immediately before giving it to the service user for accuracy.",
+          "is_correct": false,
+          "rationale": "Documentation is done after administration, not before."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "A service user suddenly becomes confused and appears unwell. What is the immediate and most appropriate action for a care worker to take?",
+      "explanation": "Prompt reporting of changes in a service user's condition is vital. This ensures timely assessment by appropriate medical professionals, potentially preventing further deterioration or serious health issues.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Observe the service user closely for a few hours to see if their condition improves on its own.",
+          "is_correct": false,
+          "rationale": "Delaying action could worsen the service user's condition significantly."
+        },
+        {
+          "key": "B",
+          "text": "Immediately report the change in condition to the senior care worker or nurse and document the observations.",
+          "is_correct": true,
+          "rationale": "Immediate reporting ensures professional assessment and intervention."
+        },
+        {
+          "key": "C",
+          "text": "Offer the service user a warm drink and reassure them that they will likely feel better very soon.",
+          "is_correct": false,
+          "rationale": "Comfort measures are secondary to reporting a serious change."
+        },
+        {
+          "key": "D",
+          "text": "Contact the service user's family directly to inform them of the situation before doing anything else.",
+          "is_correct": false,
+          "rationale": "Family should be informed after professional assessment is initiated."
+        },
+        {
+          "key": "E",
+          "text": "Search online for possible causes of confusion and potential home remedies to suggest to the individual.",
+          "is_correct": false,
+          "rationale": "Diagnosing or suggesting remedies is outside a care worker's role."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Why is it important for a care worker to maintain clear professional boundaries with service users and their families?",
+      "explanation": "Professional boundaries are crucial for ethical care. They protect the service user's vulnerability, maintain the care worker's professionalism, and prevent misunderstandings or inappropriate relationships, ensuring focus remains on care needs.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It helps to prevent the care worker from becoming too emotionally invested in the service user's personal life.",
+          "is_correct": false,
+          "rationale": "While true, this is a secondary benefit of maintaining boundaries."
+        },
+        {
+          "key": "B",
+          "text": "It ensures the care worker maintains objectivity, professionalism, and protects both parties from exploitation.",
+          "is_correct": true,
+          "rationale": "Boundaries protect both parties, ensuring ethical, objective, and professional care."
+        },
+        {
+          "key": "C",
+          "text": "Clear boundaries allow the care worker to delegate personal tasks to family members more effectively.",
+          "is_correct": false,
+          "rationale": "Delegation is not the primary purpose of professional boundaries."
+        },
+        {
+          "key": "D",
+          "text": "It minimizes the amount of time spent on non-care related conversations, increasing efficiency during shifts.",
+          "is_correct": false,
+          "rationale": "Efficiency is not the main reason for professional boundaries."
+        },
+        {
+          "key": "E",
+          "text": "Establishing boundaries ensures the care worker is always seen as an authority figure, not a friend.",
+          "is_correct": false,
+          "rationale": "The focus is on professional role, not strictly authority over friendship."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What is the single most effective way a care worker can prevent the spread of infections in a care setting?",
+      "explanation": "Hand hygiene is universally recognized as the most critical measure in infection control. Proper hand washing physically removes or inactivates pathogens, significantly reducing transmission risks in any care environment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Regularly clean and disinfect all shared surfaces and equipment throughout the care facility.",
+          "is_correct": false,
+          "rationale": "Environmental cleaning is important but less impactful than hand hygiene."
+        },
+        {
+          "key": "B",
+          "text": "Ensure all service users are up to date with their vaccinations, including the annual flu jab.",
+          "is_correct": false,
+          "rationale": "Vaccination is key for immunity but not the primary daily prevention by staff."
+        },
+        {
+          "key": "C",
+          "text": "Consistently practice thorough hand hygiene, including washing hands with soap and water or using hand gel.",
+          "is_correct": true,
+          "rationale": "Hand hygiene is the most effective method for preventing infection spread."
+        },
+        {
+          "key": "D",
+          "text": "Encourage service users to cover their mouths when coughing or sneezing to contain respiratory droplets.",
+          "is_correct": false,
+          "rationale": "Respiratory etiquette is important but secondary to consistent hand hygiene."
+        },
+        {
+          "key": "E",
+          "text": "Wear personal protective equipment (PPE) like gloves and aprons for all direct contact tasks.",
+          "is_correct": false,
+          "rationale": "PPE is crucial for specific tasks but not the single most effective overall method."
+        }
+      ]
+    }
+  ]
+}

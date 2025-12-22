@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "When conducting an initial assessment for a new client, what is the most critical first step for a social worker to undertake?",
+      "explanation": "The initial assessment is crucial for understanding the client's needs and risks. Identifying immediate risks ensures the client's safety and well-being, which is paramount in social work practice.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately develop a comprehensive long-term care plan without further consultation or assessment.",
+          "is_correct": false,
+          "rationale": "Developing a full plan is premature without a thorough assessment."
+        },
+        {
+          "key": "B",
+          "text": "Thoroughly review all available historical case notes and previous agency records before meeting the client.",
+          "is_correct": false,
+          "rationale": "While important, immediate safety takes precedence over historical review."
+        },
+        {
+          "key": "C",
+          "text": "Establish rapport and identify any immediate risks or urgent safety concerns for the individual.",
+          "is_correct": true,
+          "rationale": "Prioritizing safety and building rapport are essential first steps."
+        },
+        {
+          "key": "D",
+          "text": "Refer the client directly to a specialist mental health service based on initial observations.",
+          "is_correct": false,
+          "rationale": "Referral is too premature without a comprehensive initial assessment."
+        },
+        {
+          "key": "E",
+          "text": "Inform the client about all potential legal consequences of their current situation and choices.",
+          "is_correct": false,
+          "rationale": "This is not the most critical first step; safety and rapport come first."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "A social worker is collaborating with a multidisciplinary team. What is the most effective approach to ensure holistic client care?",
+      "explanation": "Effective communication and information sharing are fundamental for multidisciplinary teams. This ensures all professionals have a complete picture, leading to coordinated and holistic client support.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Independently make all decisions about the client's care plan without seeking team input.",
+          "is_correct": false,
+          "rationale": "This defeats the purpose of multidisciplinary collaboration and holistic care."
+        },
+        {
+          "key": "B",
+          "text": "Focus solely on the social aspects, leaving health matters entirely to medical staff colleagues.",
+          "is_correct": false,
+          "rationale": "Holistic care requires integration of all aspects, not siloed work."
+        },
+        {
+          "key": "C",
+          "text": "Regularly share relevant client information and coordinate interventions with all team members.",
+          "is_correct": true,
+          "rationale": "Coordinated information sharing is key to effective multidisciplinary care."
+        },
+        {
+          "key": "D",
+          "text": "Only communicate with team members when a major crisis or urgent situation arises unexpectedly.",
+          "is_correct": false,
+          "rationale": "Proactive communication is needed for holistic care, not just reactive."
+        },
+        {
+          "key": "E",
+          "text": "Delegate all complex case management tasks to the team's most senior professional for efficiency.",
+          "is_correct": false,
+          "rationale": "Shared responsibility and collaboration are vital in a multidisciplinary team."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What is the primary responsibility of a social worker when they suspect a vulnerable adult is experiencing abuse or neglect?",
+      "explanation": "Safeguarding vulnerable individuals is a core duty for social workers. Reporting concerns through established procedures is essential to initiate protective measures and ensure the adult's safety.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Confront the alleged abuser directly to gather more specific evidence and details about the situation.",
+          "is_correct": false,
+          "rationale": "Direct confrontation can be dangerous and is not the primary reporting protocol."
+        },
+        {
+          "key": "B",
+          "text": "Document the concerns internally but wait for the adult to explicitly request intervention from authorities.",
+          "is_correct": false,
+          "rationale": "Waiting delays protection; social workers have a duty to act."
+        },
+        {
+          "key": "C",
+          "text": "Immediately report the concerns to the appropriate safeguarding adults team following local protocols.",
+          "is_correct": true,
+          "rationale": "Immediate reporting to the safeguarding team is the correct procedure."
+        },
+        {
+          "key": "D",
+          "text": "Advise the vulnerable adult to contact the police themselves without further social worker involvement.",
+          "is_correct": false,
+          "rationale": "This shifts responsibility and may not be appropriate for a vulnerable adult."
+        },
+        {
+          "key": "E",
+          "text": "Conduct a full, independent investigation into the allegations before taking any official action.",
+          "is_correct": false,
+          "rationale": "Investigation is the role of the safeguarding team, not the initial reporter."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "How should a social worker manage a situation where a client offers them a personal gift of significant monetary value?",
+      "explanation": "Maintaining professional boundaries is crucial for ethical social work practice. Accepting significant gifts can create conflicts of interest, compromise objectivity, and damage professional relationships.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Graciously accept the gift to maintain a positive and trusting client relationship with them.",
+          "is_correct": false,
+          "rationale": "Accepting significant gifts breaches professional boundaries and ethics."
+        },
+        {
+          "key": "B",
+          "text": "Accept the gift only if the client insists and it is given in a private setting away from others.",
+          "is_correct": false,
+          "rationale": "Client insistence does not override professional ethical guidelines."
+        },
+        {
+          "key": "C",
+          "text": "Politely decline the gift, explaining the professional boundaries and ethical guidelines of the profession.",
+          "is_correct": true,
+          "rationale": "Declining respectfully while explaining boundaries upholds professional ethics."
+        },
+        {
+          "key": "D",
+          "text": "Accept the gift but immediately donate its monetary value to a local charity organization.",
+          "is_correct": false,
+          "rationale": "The act of accepting still compromises professional boundaries and ethics."
+        },
+        {
+          "key": "E",
+          "text": "Consult with a supervisor only after accepting the gift and taking it home with you.",
+          "is_correct": false,
+          "rationale": "Consultation should ideally happen before acceptance, or it should be declined immediately."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What is the most effective way for a social worker to demonstrate person-centered care during client interactions?",
+      "explanation": "Person-centered care prioritizes the individual's unique needs, preferences, and strengths. Active listening, empathy, and involving the client in decision-making are fundamental to this approach.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Always direct the client towards the solutions that the social worker deems most efficient and practical.",
+          "is_correct": false,
+          "rationale": "This approach is directive, not person-centered, as it bypasses client autonomy."
+        },
+        {
+          "key": "B",
+          "text": "Focus primarily on completing paperwork and administrative tasks during the meeting to save time.",
+          "is_correct": false,
+          "rationale": "Administrative focus detracts from engaging with the client's needs and feelings."
+        },
+        {
+          "key": "C",
+          "text": "Actively listen to the client's perspectives, validate their feelings, and involve them in decisions.",
+          "is_correct": true,
+          "rationale": "Active listening and client involvement are cornerstones of person-centered care."
+        },
+        {
+          "key": "D",
+          "text": "Provide extensive unsolicited advice and personal opinions based on past professional experiences.",
+          "is_correct": false,
+          "rationale": "Unsolicited advice is not person-centered and can be unprofessional."
+        },
+        {
+          "key": "E",
+          "text": "Maintain a strictly formal and detached demeanor to ensure professional objectivity at all times.",
+          "is_correct": false,
+          "rationale": "While objectivity is key, a detached demeanor can hinder rapport and empathy."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "When conducting an initial assessment for a new service user, what is the most important first step for a social worker?",
+      "explanation": "The most crucial first step in an initial assessment is to gather comprehensive information. This foundation allows for an accurate understanding of the service user's situation before planning any interventions or support.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately develop a detailed care plan with the service user's family present for collaboration.",
+          "is_correct": false,
+          "rationale": "Developing a care plan is premature without thorough information gathering."
+        },
+        {
+          "key": "B",
+          "text": "Gather comprehensive information about the individual's needs, risks, and strengths from various reliable sources.",
+          "is_correct": true,
+          "rationale": "Comprehensive information gathering is the essential first step."
+        },
+        {
+          "key": "C",
+          "text": "Inform the service user about all available local support services and financial benefits immediately.",
+          "is_correct": false,
+          "rationale": "Providing all information upfront can be overwhelming and not tailored."
+        },
+        {
+          "key": "D",
+          "text": "Document the entire initial conversation in detail for legal purposes before any other action is taken.",
+          "is_correct": false,
+          "rationale": "Documentation is ongoing, but not the primary 'first step' of assessment itself."
+        },
+        {
+          "key": "E",
+          "text": "Schedule a follow-up meeting with other professionals already involved in the service user's care pathway.",
+          "is_correct": false,
+          "rationale": "Multi-agency meetings occur after initial assessment and information gathering."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What is the primary responsibility of a social worker when concerns arise about a vulnerable adult's safety and well-being?",
+      "explanation": "A social worker's primary responsibility is to conduct a thorough risk assessment and adhere to safeguarding policies. This ensures the vulnerable adult's protection while respecting their rights and involving them in the process.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately contact the police to report suspected abuse or neglect without further assessment.",
+          "is_correct": false,
+          "rationale": "Direct police involvement may be premature without initial assessment."
+        },
+        {
+          "key": "B",
+          "text": "Conduct a thorough risk assessment and follow safeguarding policies to ensure the individual's protection.",
+          "is_correct": true,
+          "rationale": "Risk assessment and policy adherence are crucial for safeguarding."
+        },
+        {
+          "key": "C",
+          "text": "Inform the vulnerable adult that they must move to a safer environment immediately for their own protection.",
+          "is_correct": false,
+          "rationale": "Removing agency and forcing a move is not always the first or best option."
+        },
+        {
+          "key": "D",
+          "text": "Advise the family to resolve the issues internally to maintain family cohesion and privacy concerns.",
+          "is_correct": false,
+          "rationale": "This neglects the social worker's professional duty to safeguard."
+        },
+        {
+          "key": "E",
+          "text": "Document the concerns and wait for another professional to officially raise the issue with management.",
+          "is_correct": false,
+          "rationale": "Passivity is inappropriate; immediate action is required when concerns arise."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Why is multi-agency working considered crucial for effective social work practice in the health social care sector?",
+      "explanation": "Multi-agency working is vital because it ensures a holistic and coordinated approach. This collaboration allows for comprehensive support tailored to the complex needs of service users, drawing on diverse professional expertise.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It helps to reduce the individual workload of social workers by distributing tasks among various professionals.",
+          "is_correct": false,
+          "rationale": "Workload reduction is a secondary benefit, not the primary purpose."
+        },
+        {
+          "key": "B",
+          "text": "It ensures a holistic and coordinated approach to meeting the complex needs of service users and their families.",
+          "is_correct": true,
+          "rationale": "Holistic and coordinated care is the core benefit of multi-agency work."
+        },
+        {
+          "key": "C",
+          "text": "It primarily focuses on sharing financial resources between different organizations to maximize efficiency.",
+          "is_correct": false,
+          "rationale": "Resource sharing is a factor, but not the main reason for collaboration."
+        },
+        {
+          "key": "D",
+          "text": "It allows social workers to delegate difficult or challenging cases to other agencies without direct involvement.",
+          "is_correct": false,
+          "rationale": "Social workers remain involved; it's about collaboration, not delegation."
+        },
+        {
+          "key": "E",
+          "text": "It is mainly required for legal compliance in specific high-risk safeguarding cases only and not others.",
+          "is_correct": false,
+          "rationale": "Multi-agency working extends beyond just high-risk legal compliance."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "How should a social worker ethically manage a situation where a service user offers them a significant personal gift?",
+      "explanation": "Accepting significant personal gifts can create conflicts of interest and compromise professional objectivity. It is essential to respectfully decline, explaining the professional boundaries to maintain trust and ethical practice.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Politely accept the gift to avoid offending the service user and maintain a positive rapport with them.",
+          "is_correct": false,
+          "rationale": "Accepting gifts breaches professional boundaries and ethical guidelines."
+        },
+        {
+          "key": "B",
+          "text": "Decline the gift respectfully, explaining professional boundaries and the importance of maintaining objectivity.",
+          "is_correct": true,
+          "rationale": "Declining respectfully upholds ethical standards and professional boundaries."
+        },
+        {
+          "key": "C",
+          "text": "Accept the gift, but immediately report it to their line manager for official record-keeping purposes.",
+          "is_correct": false,
+          "rationale": "Reporting does not negate the initial breach of professional boundaries."
+        },
+        {
+          "key": "D",
+          "text": "Suggest that the service user donate the gift to a relevant charity instead of offering it personally.",
+          "is_correct": false,
+          "rationale": "This can be seen as directing the service user's actions, which is inappropriate."
+        },
+        {
+          "key": "E",
+          "text": "Keep the gift but ensure that it does not influence any future professional decisions or assessments made.",
+          "is_correct": false,
+          "rationale": "It is difficult to guarantee impartiality, and the perception of influence remains."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What is the most effective approach for a social worker to communicate complex information to a service user?",
+      "explanation": "Effective communication involves using clear, simple language and actively checking for understanding. This approach ensures accessibility, empowers service users, and allows for clarification, leading to better engagement and outcomes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Provide all information in a single, detailed written report for the service user to review at their convenience.",
+          "is_correct": false,
+          "rationale": "Written reports can be overwhelming and may not be fully understood without discussion."
+        },
+        {
+          "key": "B",
+          "text": "Use clear, simple language, checking for understanding and offering opportunities for questions and clarification.",
+          "is_correct": true,
+          "rationale": "Clear language and checking understanding are crucial for effective communication."
+        },
+        {
+          "key": "C",
+          "text": "Rely solely on family members to interpret and explain the information to the service user, if present.",
+          "is_correct": false,
+          "rationale": "This removes direct communication and can lead to misinterpretation or exclusion."
+        },
+        {
+          "key": "D",
+          "text": "Speak quickly and comprehensively to ensure all points are covered within the allocated appointment time.",
+          "is_correct": false,
+          "rationale": "Speaking quickly can hinder comprehension and prevent the service user from processing information."
+        },
+        {
+          "key": "E",
+          "text": "Assume the service user understands technical jargon commonly used within the health social care sector.",
+          "is_correct": false,
+          "rationale": "Assuming understanding of jargon reduces accessibility and can lead to misunderstanding."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the most crucial initial step a social worker must take when concerns arise about an adult's potential neglect or abuse?",
+      "explanation": "The immediate priority in safeguarding is to ensure the safety of the individual and follow established protocols. Documenting and reporting to the safeguarding lead or local authority is the correct initial step to trigger formal assessment and intervention processes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately confront the alleged perpetrator to gather their perspective and understand the situation thoroughly.",
+          "is_correct": false,
+          "rationale": "Confrontation can escalate risk; not the first step."
+        },
+        {
+          "key": "B",
+          "text": "Document all observations meticulously and report concerns to the relevant safeguarding lead or local authority.",
+          "is_correct": true,
+          "rationale": "Reporting and documenting are critical initial safeguarding steps."
+        },
+        {
+          "key": "C",
+          "text": "Directly advise the adult to leave their current living situation for their immediate safety and well-being.",
+          "is_correct": false,
+          "rationale": "Direct advice can be premature and may not ensure safety."
+        },
+        {
+          "key": "D",
+          "text": "Arrange an urgent family meeting to discuss the allegations openly and seek a collaborative resolution.",
+          "is_correct": false,
+          "rationale": "Family meetings are not the first step in suspected abuse."
+        },
+        {
+          "key": "E",
+          "text": "Provide extensive emotional support to the adult before taking any formal action or making official reports.",
+          "is_correct": false,
+          "rationale": "Support is vital, but formal reporting is the immediate action."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "When working with a service user experiencing complex mental health issues and housing instability, what is the most effective approach for a social worker?",
+      "explanation": "Complex needs often require a multi-disciplinary approach. Coordinating with various agencies ensures a holistic and integrated care plan, addressing all aspects of the service user's well-being comprehensively and effectively.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Focus solely on providing individual counselling sessions to address the immediate mental health symptoms.",
+          "is_correct": false,
+          "rationale": "Single focus is insufficient for complex, multi-faceted issues."
+        },
+        {
+          "key": "B",
+          "text": "Refer the service user to a single specialist agency and expect them to manage all their needs independently.",
+          "is_correct": false,
+          "rationale": "Expecting independent management is not effective for complex needs."
+        },
+        {
+          "key": "C",
+          "text": "Coordinate with multiple agencies, including housing, mental health services, and financial support, for holistic care.",
+          "is_correct": true,
+          "rationale": "Holistic care requires coordination across multiple relevant agencies."
+        },
+        {
+          "key": "D",
+          "text": "Prioritize finding immediate temporary accommodation, delaying any engagement with mental health support until later.",
+          "is_correct": false,
+          "rationale": "Delaying mental health support is not ideal for complex needs."
+        },
+        {
+          "key": "E",
+          "text": "Encourage the service user to independently research and contact all necessary support services themselves.",
+          "is_correct": false,
+          "rationale": "Expecting self-navigation is unrealistic for vulnerable service users."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "A service user confides personal information during a home visit, explicitly requesting strict confidentiality. When might a social worker ethically breach this confidentiality?",
+      "explanation": "Confidentiality is paramount, but it is not absolute. Ethical guidelines and legal frameworks permit disclosure when there is a clear and immediate risk of serious harm, aligning with safeguarding principles.",
+      "options": [
+        {
+          "key": "A",
+          "text": "When the information could potentially damage the reputation of the social worker's employing organization.",
+          "is_correct": false,
+          "rationale": "Organizational reputation is not a valid reason to breach confidentiality."
+        },
+        {
+          "key": "B",
+          "text": "If the service user expresses a clear and immediate risk of serious harm to themselves or to others.",
+          "is_correct": true,
+          "rationale": "Risk of serious harm is a primary ethical and legal ground for disclosure."
+        },
+        {
+          "key": "C",
+          "text": "Sharing information informally with colleagues without explicit consent violates confidentiality principles.",
+          "is_correct": false,
+          "rationale": "Informal sharing without consent violates confidentiality principles."
+        },
+        {
+          "key": "D",
+          "text": "When the social worker believes sharing the information will significantly expedite the service user's recovery process.",
+          "is_correct": false,
+          "rationale": "Expediting recovery does not override the fundamental right to confidentiality."
+        },
+        {
+          "key": "E",
+          "text": "To disclose details to family members who express concern about the service user's overall well-being.",
+          "is_correct": false,
+          "rationale": "Disclosing to family without consent breaches confidentiality, even with concern."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What is the most effective way for a social worker to empower a service user to make informed decisions about their care plan?",
+      "explanation": "Empowerment involves enabling service users to have control over their lives. Providing full information and supporting their autonomous decision-making fosters self-determination and promotes effective, person-centred care.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Presenting a pre-determined care plan and explaining why it is the best course of action for their situation.",
+          "is_correct": false,
+          "rationale": "Presenting pre-determined plans does not foster empowerment or genuine service user choice."
+        },
+        {
+          "key": "B",
+          "text": "Providing comprehensive information about all available options, discussing potential outcomes, and supporting their choice.",
+          "is_correct": true,
+          "rationale": "Providing full information and supporting choice is fundamental to empowerment."
+        },
+        {
+          "key": "C",
+          "text": "Making decisions on behalf of the service user to ensure the most professional and efficient outcomes are achieved.",
+          "is_correct": false,
+          "rationale": "Making decisions for the service user undermines their autonomy and empowerment."
+        },
+        {
+          "key": "D",
+          "text": "Encouraging the service user to rely solely on family members for all decision-making processes regarding their care.",
+          "is_correct": false,
+          "rationale": "Relying solely on family can disempower the service user's own voice."
+        },
+        {
+          "key": "E",
+          "text": "Limiting options to only those that are easiest for the social worker to implement and monitor effectively.",
+          "is_correct": false,
+          "rationale": "Limiting options based on convenience does not serve the service user's best interest."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Why is accurate, contemporaneous, and comprehensive record-keeping absolutely essential for a social worker in health social care?",
+      "explanation": "Good record-keeping is vital for professional accountability, legal compliance, and ensuring seamless, informed care. It supports decision-making, protects service users, and facilitates effective multi-agency working.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Primarily to justify the social worker's workload and demonstrate their productivity to line managers.",
+          "is_correct": false,
+          "rationale": "Justifying workload is a secondary benefit, not the primary purpose."
+        },
+        {
+          "key": "B",
+          "text": "It provides a clear audit trail for accountability, supports continuity of care, and informs future interventions effectively.",
+          "is_correct": true,
+          "rationale": "Records ensure accountability, continuity, and informed future interventions."
+        },
+        {
+          "key": "C",
+          "text": "To share detailed personal information with all relevant external stakeholders without necessarily obtaining consent.",
+          "is_correct": false,
+          "rationale": "Sharing without consent breaches confidentiality and data protection."
+        },
+        {
+          "key": "D",
+          "text": "For creating extensive reports that can be used to publicize successful case outcomes within the local community.",
+          "is_correct": false,
+          "rationale": "Publicizing case outcomes is not the primary purpose of record-keeping."
+        },
+        {
+          "key": "E",
+          "text": "To ensure that all interactions are formally logged, regardless of their relevance to the service user's care plan.",
+          "is_correct": false,
+          "rationale": "Records should be relevant and purposeful, not just logged for logging's sake."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "When assessing a vulnerable adult in a health social care setting, what is the most important initial step?",
+      "explanation": "Establishing trust is fundamental for effective engagement and accurate assessment with vulnerable adults. It ensures their active participation and respects their autonomy, leading to better outcomes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Establish a trusting relationship with the individual, ensuring their voice and preferences are heard and respected throughout the process.",
+          "is_correct": true,
+          "rationale": "Building trust is crucial for engagement and respecting autonomy."
+        },
+        {
+          "key": "B",
+          "text": "Immediately contact the police to report potential abuse, even without full evidence or client consent.",
+          "is_correct": false,
+          "rationale": "Reporting without evidence or consent can breach trust and policy."
+        },
+        {
+          "key": "C",
+          "text": "Focus solely on gathering extensive medical records to understand their physical health status completely.",
+          "is_correct": false,
+          "rationale": "Medical records are important but not the sole initial focus."
+        },
+        {
+          "key": "D",
+          "text": "Inform the family about all concerns before speaking directly with the vulnerable adult themselves.",
+          "is_correct": false,
+          "rationale": "The adult's voice should be prioritized before informing family."
+        },
+        {
+          "key": "E",
+          "text": "Document all observations thoroughly before taking any further action or intervention with the client.",
+          "is_correct": false,
+          "rationale": "Documentation is important but not the very first step."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "A social worker identifies a patient needing integrated support from health and housing services. What is the best approach?",
+      "explanation": "Multi-agency meetings facilitate coordinated care planning, ensuring all relevant professionals contribute their expertise. This holistic approach addresses complex needs effectively and avoids service fragmentation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Initiate a multi-agency meeting to develop a coordinated care plan, ensuring all relevant professionals contribute effectively.",
+          "is_correct": true,
+          "rationale": "Multi-agency meetings ensure coordinated, holistic support."
+        },
+        {
+          "key": "B",
+          "text": "Advise the patient to contact each service independently to arrange their own support and care.",
+          "is_correct": false,
+          "rationale": "This places undue burden on the patient and lacks coordination."
+        },
+        {
+          "key": "C",
+          "text": "Prioritize contacting only the housing department first, as shelter is a fundamental human need.",
+          "is_correct": false,
+          "rationale": "Both health and housing are critical and need integrated attention."
+        },
+        {
+          "key": "D",
+          "text": "Document the identified need in the patient's file and wait for other services to reach out.",
+          "is_correct": false,
+          "rationale": "Proactive engagement is needed, not passive waiting for others."
+        },
+        {
+          "key": "E",
+          "text": "Take full responsibility for coordinating all aspects of the patient's care personally without help.",
+          "is_correct": false,
+          "rationale": "This is unsustainable and neglects other agencies' expertise."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "A client confides sensitive information that is not directly harmful but could impact their care plan. What is the most ethical action?",
+      "explanation": "Ethical practice requires discussing confidentiality limits and the necessity of sharing relevant information with the client. This respects their autonomy while ensuring appropriate care planning.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Discuss the implications of the information with the client, explaining confidentiality limits and the need for appropriate sharing.",
+          "is_correct": true,
+          "rationale": "Discussing confidentiality and sharing respects autonomy and care planning."
+        },
+        {
+          "key": "B",
+          "text": "Immediately document the information in full detail without informing the client about its intended use.",
+          "is_correct": false,
+          "rationale": "Documenting without consent breaches trust and ethical guidelines."
+        },
+        {
+          "key": "C",
+          "text": "Keep the information entirely confidential, even if it might negatively affect their overall care outcomes.",
+          "is_correct": false,
+          "rationale": "Withholding vital information can compromise care quality."
+        },
+        {
+          "key": "D",
+          "text": "Share the information with all team members without the client's explicit consent or prior knowledge.",
+          "is_correct": false,
+          "rationale": "Sharing without consent is a breach of confidentiality and trust."
+        },
+        {
+          "key": "E",
+          "text": "Advise the client that you cannot continue working with them due to the sensitive nature of their disclosure.",
+          "is_correct": false,
+          "rationale": "This is an extreme reaction and avoids professional responsibility."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "How should a social worker respond when a client becomes verbally aggressive and distressed during a home visit?",
+      "explanation": "Remaining calm, actively listening, and using de-escalation techniques are crucial for managing aggressive behavior. This prioritizes safety, maintains professional boundaries, and seeks to understand the underlying distress.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Remain calm, use a reassuring tone, actively listen to their concerns, and attempt to de-escalate the situation safely.",
+          "is_correct": true,
+          "rationale": "Calm de-escalation prioritizes safety and addresses distress effectively."
+        },
+        {
+          "key": "B",
+          "text": "Immediately terminate the visit and leave the premises to ensure your own personal safety.",
+          "is_correct": false,
+          "rationale": "While safety is paramount, immediate departure might not always be necessary or best."
+        },
+        {
+          "key": "C",
+          "text": "Raise your voice to assert authority and regain control of the escalating conversation with them.",
+          "is_correct": false,
+          "rationale": "Raising your voice can further escalate the client's aggression."
+        },
+        {
+          "key": "D",
+          "text": "Threaten to call the police if the client does not immediately calm down and cooperate.",
+          "is_correct": false,
+          "rationale": "Threats can damage trust and escalate the situation unnecessarily."
+        },
+        {
+          "key": "E",
+          "text": "Ignore the aggression and continue with the planned agenda, hoping it will subside naturally.",
+          "is_correct": false,
+          "rationale": "Ignoring aggression is unsafe and neglects the client's distress."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What is a crucial aspect of maintaining professional boundaries and preventing burnout for social workers?",
+      "explanation": "Regular reflective practice and supervision are vital for processing challenging cases, maintaining objectivity, and setting clear boundaries. This supports professional well-being and prevents burnout.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Regularly engage in reflective practice and supervision, ensuring clear boundaries between personal and professional life.",
+          "is_correct": true,
+          "rationale": "Supervision and reflection help maintain boundaries and prevent burnout."
+        },
+        {
+          "key": "B",
+          "text": "Work extended hours consistently to ensure all client needs are always immediately met without delay.",
+          "is_correct": false,
+          "rationale": "Consistent extended hours lead to burnout and poor work-life balance."
+        },
+        {
+          "key": "C",
+          "text": "Avoid discussing challenging cases with colleagues, keeping all client information strictly to oneself.",
+          "is_correct": false,
+          "rationale": "Isolation prevents peer support and learning, increasing stress."
+        },
+        {
+          "key": "D",
+          "text": "Form close personal friendships with clients to build stronger rapport and trust quickly with them.",
+          "is_correct": false,
+          "rationale": "Personal friendships with clients violate professional boundaries."
+        },
+        {
+          "key": "E",
+          "text": "Take on every new case available to demonstrate commitment and dedication to the role.",
+          "is_correct": false,
+          "rationale": "Overloading caseloads leads to stress and reduced quality of care."
+        }
+      ]
+    }
+  ]
+}

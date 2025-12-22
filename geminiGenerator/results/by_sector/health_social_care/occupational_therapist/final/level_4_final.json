@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "A client recovering from a right-sided CVA exhibits signs of unilateral neglect. Which standardized assessment is most appropriate for quantifying this specific perceptual deficit?",
+      "explanation": "The Behavioural Inattention Test (BIT) is specifically designed to assess unilateral neglect. It provides quantitative data on its severity through both conventional and behavioural subtests, which is crucial for targeted intervention planning and measuring outcomes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Administer the Mini-Mental State Examination to get a broad overview of their general cognitive state and memory functions.",
+          "is_correct": false,
+          "rationale": "The MMSE is a general cognitive screen and does not specifically measure or quantify unilateral neglect."
+        },
+        {
+          "key": "B",
+          "text": "Utilize the Behavioural Inattention Test to specifically measure the presence and severity of visual neglect through functional tasks.",
+          "is_correct": true,
+          "rationale": "The BIT is the gold standard assessment tool designed specifically for evaluating the presence and extent of unilateral neglect."
+        },
+        {
+          "key": "C",
+          "text": "Complete the Functional Independence Measure to evaluate their overall level of disability across various self-care and mobility domains.",
+          "is_correct": false,
+          "rationale": "While neglect impacts FIM scores, the FIM measures overall function, not the specific deficit of neglect itself."
+        },
+        {
+          "key": "D",
+          "text": "Use the Berg Balance Scale to assess their static and dynamic balance abilities, which are often affected post-stroke.",
+          "is_correct": false,
+          "rationale": "This assessment is focused on balance and fall risk, not on perceptual deficits like unilateral neglect."
+        },
+        {
+          "key": "E",
+          "text": "Conduct the Nine-Hole Peg Test to accurately gauge their fine motor dexterity and hand-eye coordination in the unaffected limb.",
+          "is_correct": false,
+          "rationale": "This test measures fine motor speed and dexterity, which is unrelated to the assessment of visual-perceptual neglect."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "When coordinating a complex hospital discharge for an elderly patient with multiple comorbidities, what is the occupational therapist's primary responsibility?",
+      "explanation": "The OT's core role in discharge planning is to assess the patient's functional abilities and the environment they are returning to. This ensures a safe transition by identifying risks and recommending necessary adaptations, equipment, or support.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To arrange all necessary transportation from the hospital ward to the patient's designated home or care facility.",
+          "is_correct": false,
+          "rationale": "Arranging transport is typically a task for ward clerks or social workers, not a primary OT responsibility."
+        },
+        {
+          "key": "B",
+          "text": "To ensure a safe and functional transition by assessing home hazards and recommending appropriate equipment and support services.",
+          "is_correct": true,
+          "rationale": "This aligns with the core OT role of matching person-environment-occupation to ensure safety and enable function post-discharge."
+        },
+        {
+          "key": "C",
+          "text": "To provide a definitive diagnosis for any new cognitive impairments that have emerged during the hospital stay.",
+          "is_correct": false,
+          "rationale": "Diagnosing medical conditions is outside the OT scope of practice; this is the role of a physician or psychologist."
+        },
+        {
+          "key": "D",
+          "text": "To take sole responsibility for securing long-term social care funding for the patient's ongoing needs post-discharge.",
+          "is_correct": false,
+          "rationale": "Securing funding is a multi-disciplinary task, often led by social workers or case managers, not solely the OT."
+        },
+        {
+          "key": "E",
+          "text": "To prescribe and manage the patient's complete medication regimen to ensure compliance after they have left the hospital.",
+          "is_correct": false,
+          "rationale": "Medication prescription and management fall under the scope of doctors and pharmacists, not occupational therapists."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "A client with high fall risk refuses a recommended home adaptation you believe is essential for safety. What is your most appropriate initial action?",
+      "explanation": "Upholding client autonomy is paramount. The first step is to engage in a collaborative conversation to understand their perspective, provide clear education on the risks and benefits, and explore alternatives together, respecting their right to make decisions.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Document the refusal and immediately discharge the client from the service due to non-compliance with safety recommendations.",
+          "is_correct": false,
+          "rationale": "This is a punitive action that abandons the client and fails to explore their reasoning or alternative solutions."
+        },
+        {
+          "key": "B",
+          "text": "Explore the client's reasoning for refusal, provide education on the risks, and collaboratively problem-solve potential alternative solutions.",
+          "is_correct": true,
+          "rationale": "This respects client autonomy while fulfilling the duty of care through education and collaborative problem-solving."
+        },
+        {
+          "key": "C",
+          "text": "Contact the client's family members immediately to persuade them to override the client's decision for their own safety.",
+          "is_correct": false,
+          "rationale": "This breaches client confidentiality and undermines their autonomy, assuming they lack capacity without proper assessment."
+        },
+        {
+          "key": "D",
+          "text": "Proceed with ordering and arranging the installation of the adaptation, as patient safety overrides their stated personal preference.",
+          "is_correct": false,
+          "rationale": "This violates the client's right to self-determination and consent, which is a serious ethical breach."
+        },
+        {
+          "key": "E",
+          "text": "Refer the client to a social worker to address the issue, as it is no longer an occupational therapy matter.",
+          "is_correct": false,
+          "rationale": "This is an inappropriate delegation; managing risk related to function and environment is a core OT competency."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "When treating a school-aged child with sensory processing disorder, which intervention approach has the strongest evidence base for improving functional participation?",
+      "explanation": "Modern evidence supports interventions that integrate sensory strategies into meaningful, goal-directed activities within the child's natural environments (home, school). This improves participation more effectively than isolated sensory input without a functional context.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using exclusively clinic-based sensory integration therapy that focuses solely on providing specific types of sensory input.",
+          "is_correct": false,
+          "rationale": "Evidence for traditional, clinic-based SI is mixed; best practice now integrates strategies into daily life."
+        },
+        {
+          "key": "B",
+          "text": "Implementing a strict behavioural modification program that rewards desired behaviours without addressing underlying sensory needs.",
+          "is_correct": false,
+          "rationale": "This approach ignores the underlying neurological reasons for the behaviour and is less effective long-term."
+        },
+        {
+          "key": "C",
+          "text": "A participation-focused approach that embeds sensory-based strategies into the child's daily routines and meaningful activities.",
+          "is_correct": true,
+          "rationale": "This is client-centered, occupation-based, and has the strongest evidence for improving functional outcomes in natural environments."
+        },
+        {
+          "key": "D",
+          "text": "Recommending medication as the primary intervention to manage the child's sensory sensitivities and behavioural responses.",
+          "is_correct": false,
+          "rationale": "Medication is not a primary OT intervention and does not address the core issues of sensory processing."
+        },
+        {
+          "key": "E",
+          "text": "Providing passive sensory stimulation, such as weighted blankets, without linking it to any active engagement in occupations.",
+          "is_correct": false,
+          "rationale": "Passive interventions have limited evidence for lasting change and do not promote active participation or skill development."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "How should an occupational therapist best manage a situation where family members strongly disagree on the care plan for a palliative patient?",
+      "explanation": "The OT's role is to be a client-centered advocate. Facilitating a meeting that refocuses the discussion on the patient's previously expressed wishes, values, and goals helps mediate conflict and ensures care remains person-centered, even when the patient cannot participate.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Side with the family member who has the most medical knowledge to ensure the best clinical outcome is achieved.",
+          "is_correct": false,
+          "rationale": "This creates alliances and escalates conflict, ignoring the patient-centered approach and other family members' valid perspectives."
+        },
+        {
+          "key": "B",
+          "text": "Withdraw from the case to avoid being caught in the middle of a complex family conflict and disagreement.",
+          "is_correct": false,
+          "rationale": "This constitutes abandonment of the patient and fails to provide necessary therapeutic support during a critical time."
+        },
+        {
+          "key": "C",
+          "text": "Implement the care plan that you, as the clinician, believe is the most therapeutically beneficial for the patient.",
+          "is_correct": false,
+          "rationale": "This approach is paternalistic and disregards the crucial role of the family and the patient's own values."
+        },
+        {
+          "key": "D",
+          "text": "Facilitate a goal-setting meeting with the family, focusing the discussion on the patient's own expressed wishes and values.",
+          "is_correct": true,
+          "rationale": "This is a client-centered, diplomatic approach that promotes consensus by grounding the plan in the patient's autonomy."
+        },
+        {
+          "key": "E",
+          "text": "Defer all decision-making to the primary physician, as they hold the ultimate responsibility for the patient's overall care.",
+          "is_correct": false,
+          "rationale": "While the physician is key, the OT has a unique role in advocating for function and quality of life."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What is the primary therapeutic goal when applying sensory integration therapy for a child diagnosed with Autism Spectrum Disorder?",
+      "explanation": "Sensory integration therapy aims to help individuals organize sensory information from their body and the environment. This improved processing allows for more adaptive responses, better self-regulation, and enhanced participation in daily occupations.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To directly improve the child's academic performance in specific subjects such as mathematics and reading comprehension.",
+          "is_correct": false,
+          "rationale": "This is a potential secondary outcome, not the primary goal of this specific therapeutic approach."
+        },
+        {
+          "key": "B",
+          "text": "To help the child better process sensory input, enabling more organized and adaptive responses to environmental demands.",
+          "is_correct": true,
+          "rationale": "This correctly defines the core principle of sensory integration therapy, focusing on processing and adaptive responses."
+        },
+        {
+          "key": "C",
+          "text": "To teach the child specific social communication scripts for use during structured group play sessions with peers.",
+          "is_correct": false,
+          "rationale": "This describes a behavioural or social skills training approach, not sensory integration therapy."
+        },
+        {
+          "key": "D",
+          "text": "To focus primarily on increasing overall muscle strength and endurance for participation in competitive team sports.",
+          "is_correct": false,
+          "rationale": "While motor skills may improve, the primary focus is on sensory processing, not just physical strength."
+        },
+        {
+          "key": "E",
+          "text": "To eliminate all self-stimulatory behaviours without considering their potential function for sensory regulation and calming.",
+          "is_correct": false,
+          "rationale": "This approach is counter-intuitive to SI, which seeks to understand the sensory need behind behaviours."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What is the most critical factor to assess when creating a safe discharge plan for an elderly patient returning home alone after a hip replacement?",
+      "explanation": "A successful discharge hinges on the patient's functional safety within their own home. An OT's assessment of transfers, mobility, and ADLs in that specific context is paramount to prevent falls, re-injury, and hospital re-admission.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The patient's stated preference for specific brands of assistive devices and home medical equipment.",
+          "is_correct": false,
+          "rationale": "Patient preference is important but secondary to the clinical appropriateness and safety of the equipment."
+        },
+        {
+          "key": "B",
+          "text": "The patient's ability to safely perform transfers and essential ADLs within their specific home environment.",
+          "is_correct": true,
+          "rationale": "This is the core OT assessment that directly determines the patient's safety and independence at home."
+        },
+        {
+          "key": "C",
+          "text": "The proximity of the patient's home to the hospital for potential follow-up appointments and emergencies.",
+          "is_correct": false,
+          "rationale": "This is a logistical consideration but not the primary functional factor assessed by an occupational therapist."
+        },
+        {
+          "key": "D",
+          "text": "The willingness of the patient's extended family members to provide round-the-clock, 24-hour care.",
+          "is_correct": false,
+          "rationale": "While support is vital, the primary assessment is the patient's own functional capacity first."
+        },
+        {
+          "key": "E",
+          "text": "Ensuring all follow-up medical appointments are scheduled within the first week of their discharge.",
+          "is_correct": false,
+          "rationale": "This is an important administrative task but does not assess the patient's functional safety at home."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "You discover a colleague is consistently documenting therapy sessions that did not actually occur. What is your immediate ethical and professional responsibility according to professional standards?",
+      "explanation": "Professional codes of conduct mandate reporting unethical or fraudulent behaviour. The correct procedure is to follow the established internal chain of command by informing a supervisor, ensuring the issue is handled formally and appropriately to protect patients and the profession.",
+      "options": [
+        {
+          "key": "A",
+          "text": "You should immediately confront the colleague in a public setting to ensure transparency with the entire team.",
+          "is_correct": false,
+          "rationale": "This is unprofessional, escalates conflict, and breaches confidentiality protocols for raising concerns."
+        },
+        {
+          "key": "B",
+          "text": "You should ignore the issue, as intervening in a colleague's documentation is outside your scope of practice.",
+          "is_correct": false,
+          "rationale": "Ignoring fraud is a violation of professional ethics and duty of care to patients and the service."
+        },
+        {
+          "key": "C",
+          "text": "You must report your observations to your direct supervisor or line manager following your organisation's official procedures.",
+          "is_correct": true,
+          "rationale": "This follows the correct professional and ethical pathway for addressing serious misconduct in the workplace."
+        },
+        {
+          "key": "D",
+          "text": "You should advise the patients involved to file a formal complaint against the therapist themselves.",
+          "is_correct": false,
+          "rationale": "This inappropriately shifts the responsibility from you to the patient and bypasses internal procedures."
+        },
+        {
+          "key": "E",
+          "text": "You should begin secretly gathering more evidence over several weeks before deciding on any definitive action.",
+          "is_correct": false,
+          "rationale": "Delaying a report of known fraud can place patients at risk and compromise the investigation."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Which standardized assessment is most specifically designed to evaluate a range of cognitive functions in adults recovering from a neurological event like a stroke?",
+      "explanation": "The LOTCA is a specific tool developed for occupational therapists to measure cognitive abilities, including orientation, visual perception, spatial perception, motor praxis, and thinking operations, making it highly suitable for this clinical population.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Berg Balance Scale, which is primarily used to assess a patient's static and dynamic balance.",
+          "is_correct": false,
+          "rationale": "This assessment measures balance and fall risk, not cognitive functions like memory or problem-solving."
+        },
+        {
+          "key": "B",
+          "text": "The Canadian Occupational Performance Measure, which focuses on the client's self-perception of their occupational performance.",
+          "is_correct": false,
+          "rationale": "This is a client-centred outcome measure, not a standardized assessment of cognitive function."
+        },
+        {
+          "key": "C",
+          "text": "The Manual Muscle Test, a common procedure used for grading the strength of specific muscle groups.",
+          "is_correct": false,
+          "rationale": "This is a physical assessment for muscle strength and has no cognitive components."
+        },
+        {
+          "key": "D",
+          "text": "The Loewenstein Occupational Therapy Cognitive Assessment (LOTCA), which measures orientation, perception, and thinking operations.",
+          "is_correct": true,
+          "rationale": "This tool is specifically designed to provide a detailed profile of a client's cognitive abilities."
+        },
+        {
+          "key": "E",
+          "text": "The Functional Independence Measure (FIM), which provides a broad overview of overall disability level.",
+          "is_correct": false,
+          "rationale": "While FIM has cognitive items, it is a broad measure of burden of care, not a detailed cognitive assessment."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What is a primary occupational therapy goal for an inpatient client experiencing severe depression and social withdrawal?",
+      "explanation": "In mental health, OTs use occupation as a therapeutic medium. For depression, facilitating engagement in meaningful activities helps combat anhedonia and avolition, rebuilds structure and routine, and provides opportunities for success, which can improve mood and self-worth.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To conduct daily psychotherapy sessions to uncover the deep-seated psychological origins of their current condition.",
+          "is_correct": false,
+          "rationale": "This describes the role of a psychotherapist or psychologist, not an occupational therapist."
+        },
+        {
+          "key": "B",
+          "text": "To adjust and manage the client's psychotropic medication schedule to ensure maximum pharmacological benefit.",
+          "is_correct": false,
+          "rationale": "Medication management is the responsibility of a psychiatrist or other medical prescriber."
+        },
+        {
+          "key": "C",
+          "text": "To facilitate engagement in meaningful, graded activities to rebuild routine, motivation, and a sense of accomplishment.",
+          "is_correct": true,
+          "rationale": "This is the core of OT in mental health, using occupation to improve function and well-being."
+        },
+        {
+          "key": "D",
+          "text": "To complete a comprehensive physical assessment to rule out any underlying physiological causes for their symptoms.",
+          "is_correct": false,
+          "rationale": "This is the role of a medical doctor or physician, not an occupational therapist."
+        },
+        {
+          "key": "E",
+          "text": "To focus solely on developing a detailed plan for their immediate return to full-time employment.",
+          "is_correct": false,
+          "rationale": "This is too narrow and may be premature for an inpatient who needs to stabilize first."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "An elderly client with mild cognitive impairment insists on living alone, despite recent falls. What is the most appropriate initial action for the occupational therapist?",
+      "explanation": "This approach balances the ethical principles of autonomy and beneficence. A thorough assessment provides the objective data needed to support the client's goals while mitigating risks, respecting their right to self-determination and promoting safety.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Conduct a comprehensive home safety and functional assessment to identify risks and recommend specific modifications and supports to enable their choice safely.",
+          "is_correct": true,
+          "rationale": "This balances client autonomy with safety by gathering essential data to inform a collaborative plan."
+        },
+        {
+          "key": "B",
+          "text": "Immediately contact adult protective services to report the client as being at risk, which would override their stated preference for independence.",
+          "is_correct": false,
+          "rationale": "This is premature and escalates the situation without first attempting less restrictive, collaborative solutions."
+        },
+        {
+          "key": "C",
+          "text": "Respect the client's autonomy completely and discharge them from the service without any further intervention or follow-up, which could be negligent.",
+          "is_correct": false,
+          "rationale": "This action ignores the therapist's duty of care and fails to address identified safety risks."
+        },
+        {
+          "key": "D",
+          "text": "Advise the family to seek legal guardianship to make decisions on the client's behalf without conducting a thorough assessment first.",
+          "is_correct": false,
+          "rationale": "This undermines the client's rights and is an extreme step taken without sufficient evidence."
+        },
+        {
+          "key": "E",
+          "text": "Refer the client directly to a residential care facility, assuming that living alone is no longer a viable option for them.",
+          "is_correct": false,
+          "rationale": "This dismisses the client's goals without exploring adaptations or supports that could enable them."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "When selecting an intervention for a child with sensory processing disorder, what is the most critical factor to consider for evidence-based practice?",
+      "explanation": "Evidence-based practice requires integrating clinical expertise with the best available external clinical evidence from systematic research. Relying on peer-reviewed studies ensures the chosen intervention is valid, reliable, and effective for the client's specific needs.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The existing body of peer-reviewed research supporting the intervention's effectiveness for the specific sensory challenges identified in the assessment.",
+          "is_correct": true,
+          "rationale": "This is the core principle of evidence-based practice, ensuring interventions are scientifically supported."
+        },
+        {
+          "key": "B",
+          "text": "The popularity of the intervention on social media platforms and among parent groups in the local community.",
+          "is_correct": false,
+          "rationale": "Popularity does not equate to clinical effectiveness and can often be based on misinformation."
+        },
+        {
+          "key": "C",
+          "text": "The therapist's personal preference and familiarity with a particular therapeutic technique, regardless of the specific evidence base.",
+          "is_correct": false,
+          "rationale": "This prioritises therapist comfort over client outcomes and ignores evidence-based practice principles."
+        },
+        {
+          "key": "D",
+          "text": "The availability of expensive, high-tech equipment that claims to provide rapid sensory integration results without scientific backing.",
+          "is_correct": false,
+          "rationale": "Cost and technology do not guarantee effectiveness; evidence should be the primary driver of choice."
+        },
+        {
+          "key": "E",
+          "text": "The anecdotal success stories shared by other therapists during informal conversations without reference to any specific research studies.",
+          "is_correct": false,
+          "rationale": "Anecdotal reports are not a substitute for rigorous, systematic research and are prone to bias."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "You are part of a multidisciplinary team where the physiotherapist's goals seem to conflict with your occupational therapy plan. What is your most professional response?",
+      "explanation": "Proactive, collaborative communication is key to effective interdisciplinary practice. A joint meeting ensures client-centred care, resolves professional differences, and creates a unified, more effective therapeutic approach for the patient's benefit.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Schedule a joint meeting with the physiotherapist and the client to discuss goals, clarify roles, and develop an integrated care plan.",
+          "is_correct": true,
+          "rationale": "This promotes collaboration, client-centred care, and resolves professional differences constructively."
+        },
+        {
+          "key": "B",
+          "text": "Continue with your own treatment plan independently, assuming the physiotherapist will eventually align with your professional recommendations.",
+          "is_correct": false,
+          "rationale": "This creates a fragmented approach to care and undermines the purpose of the multidisciplinary team."
+        },
+        {
+          "key": "C",
+          "text": "Complain about the physiotherapist's approach to your line manager without first attempting to resolve the conflict directly with them.",
+          "is_correct": false,
+          "rationale": "This is unprofessional and avoids direct communication, which is necessary for effective teamwork."
+        },
+        {
+          "key": "D",
+          "text": "Ask the client to choose which professional's advice they would prefer to follow, creating a division within the care team.",
+          "is_correct": false,
+          "rationale": "This places an unfair burden on the client and demonstrates poor interprofessional collaboration."
+        },
+        {
+          "key": "E",
+          "text": "Immediately change your goals to match the physiotherapist's plan to avoid any potential conflict or professional disagreement.",
+          "is_correct": false,
+          "rationale": "This compromises your professional judgement and the unique contribution of occupational therapy."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Which method is most effective for demonstrating the clinical effectiveness and value of your occupational therapy services to commissioners or managers?",
+      "explanation": "Standardised outcome measures provide objective, quantifiable evidence of change. This data is crucial for demonstrating efficacy, justifying funding, and contributing to service development and evidence-based practice, which is highly valued by commissioners.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using standardised, validated outcome measures consistently at assessment and discharge to provide objective data on functional improvements and goal attainment.",
+          "is_correct": true,
+          "rationale": "Objective data from validated tools provides the strongest evidence of service effectiveness and value."
+        },
+        {
+          "key": "B",
+          "text": "Relying solely on qualitative client testimonials and thank-you cards to show that the service is well-liked by its users.",
+          "is_correct": false,
+          "rationale": "While valuable for feedback, testimonials lack the objective, quantifiable data needed for service evaluation."
+        },
+        {
+          "key": "C",
+          "text": "Presenting the total number of appointments completed over a fiscal year without any data on the actual outcomes achieved.",
+          "is_correct": false,
+          "rationale": "This measures activity, not effectiveness, and fails to demonstrate the impact of the interventions."
+        },
+        {
+          "key": "D",
+          "text": "Creating a detailed report based on your subjective clinical observations without incorporating any standardised assessment scores or metrics.",
+          "is_correct": false,
+          "rationale": "Subjective observations are prone to bias and are less compelling than objective, standardised data."
+        },
+        {
+          "key": "E",
+          "text": "Comparing your service's waiting list times to other departments to suggest high demand, regardless of the patient outcomes.",
+          "is_correct": false,
+          "rationale": "High demand does not prove clinical effectiveness or positive outcomes for the clients served."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "When planning a complex discharge for a patient with a new spinal cord injury, what is the most critical initial step for the occupational therapist?",
+      "explanation": "Early and thorough assessment of the home and social context is fundamental. It allows for timely arrangement of necessary adaptations, equipment, and care packages, preventing discharge delays and ensuring a safe, successful transition to the community.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Initiating a comprehensive assessment of the home environment and the patient's support network well in advance of the planned discharge date.",
+          "is_correct": true,
+          "rationale": "Early assessment of the discharge environment is crucial for proactive and safe discharge planning."
+        },
+        {
+          "key": "B",
+          "text": "Waiting until the patient has fully completed all their inpatient rehabilitation before considering any aspects of their discharge plan.",
+          "is_correct": false,
+          "rationale": "This approach leads to significant delays and a poorly coordinated, unsafe discharge process."
+        },
+        {
+          "key": "C",
+          "text": "Focusing exclusively on ordering durable medical equipment without first assessing the patient's specific functional needs and home layout.",
+          "is_correct": false,
+          "rationale": "Equipment must be prescribed based on a thorough assessment of the person and environment."
+        },
+        {
+          "key": "D",
+          "text": "Providing the family with a generic list of community resources without tailoring it to the patient's unique circumstances and location.",
+          "is_correct": false,
+          "rationale": "Generic information is not client-centred and fails to address the specific, complex needs."
+        },
+        {
+          "key": "E",
+          "text": "Assuming the patient will be discharged to a long-term care facility and not exploring options for returning to their own home.",
+          "is_correct": false,
+          "rationale": "This is a restrictive assumption and contradicts the goal of promoting maximum independence."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "When tasked with leading a quality improvement project for a community-based falls prevention service, what is the most critical initial step?",
+      "explanation": "A successful quality improvement project must be grounded in a solid understanding of current performance and identified needs. An initial audit provides the necessary baseline data to guide evidence-based changes and measure outcomes effectively.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Conduct a thorough needs analysis and audit of current service delivery to identify specific areas for evidence-based improvement.",
+          "is_correct": true,
+          "rationale": "This establishes a baseline and ensures changes are data-driven."
+        },
+        {
+          "key": "B",
+          "text": "Immediately implement a new set of standardized assessment tools that have been recently published in a high-impact journal.",
+          "is_correct": false,
+          "rationale": "Implementation without analysis is premature and not evidence-based for the specific service."
+        },
+        {
+          "key": "C",
+          "text": "Secure additional funding from commissioning bodies by presenting a preliminary proposal based on anecdotal evidence from colleagues.",
+          "is_correct": false,
+          "rationale": "Funding proposals should be based on solid data, not anecdotes."
+        },
+        {
+          "key": "D",
+          "text": "Focus primarily on redesigning patient information leaflets to improve the visual appeal and readability for all service users.",
+          "is_correct": false,
+          "rationale": "This addresses only one small aspect without identifying the core problem."
+        },
+        {
+          "key": "E",
+          "text": "Organize a series of training sessions for junior staff members on the latest therapeutic techniques without first assessing relevance.",
+          "is_correct": false,
+          "rationale": "Training should be targeted to identified needs, not implemented arbitrarily."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "You are supervising a junior OT who expresses moral distress over a patient's decision to refuse essential home modifications, despite clear risks. What is your primary responsibility?",
+      "explanation": "The supervisor's role is to support the junior OT's professional development in managing complex ethical situations, balancing patient autonomy with safety concerns, and ensuring robust documentation and adherence to legal frameworks like the Mental Capacity Act.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Guide the junior OT to explore the patient's capacity and reasoning while upholding their autonomy and documenting the process thoroughly.",
+          "is_correct": true,
+          "rationale": "This supports the junior OT's professional growth and respects patient rights."
+        },
+        {
+          "key": "B",
+          "text": "Advise the junior OT to contact the patient's family directly to persuade them to override the patient's decision for safety.",
+          "is_correct": false,
+          "rationale": "This breaches patient confidentiality and undermines their autonomy."
+        },
+        {
+          "key": "C",
+          "text": "Instruct the junior OT to discharge the patient from the service immediately, citing non-compliance with the recommended treatment plan.",
+          "is_correct": false,
+          "rationale": "This is a punitive action and abandons the duty of care."
+        },
+        {
+          "key": "D",
+          "text": "Take over the case completely yourself to remove the junior OT from the stressful and ethically challenging situation.",
+          "is_correct": false,
+          "rationale": "This fails to develop the junior OT's skills in managing difficult cases."
+        },
+        {
+          "key": "E",
+          "text": "Suggest documenting the refusal and proceeding with other, less critical interventions that the patient is willing to accept.",
+          "is_correct": false,
+          "rationale": "While part of the process, it misses the key supervisory duty to explore capacity."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "A patient with complex, multi-faceted needs is being discharged. What is the most effective strategy to ensure a safe and coordinated transition into social care services?",
+      "explanation": "For patients with complex needs, a proactive, multi-disciplinary approach is crucial. Leading a case conference ensures all stakeholders contribute to a unified, person-centered plan, minimizing gaps in care, clarifying roles, and improving outcomes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Proactively lead a multi-disciplinary case conference involving social workers, care providers, and the family to establish a single, integrated care plan.",
+          "is_correct": true,
+          "rationale": "This collaborative approach ensures a holistic and coordinated plan."
+        },
+        {
+          "key": "B",
+          "text": "Complete the standard OT discharge summary and send it to the GP, assuming they will coordinate all subsequent community care.",
+          "is_correct": false,
+          "rationale": "This is a passive approach and makes unsafe assumptions about coordination."
+        },
+        {
+          "key": "C",
+          "text": "Provide the family with a comprehensive list of local agencies and support services they can contact independently after discharge.",
+          "is_correct": false,
+          "rationale": "This places an inappropriate burden on the family to coordinate complex care."
+        },
+        {
+          "key": "D",
+          "text": "Focus solely on providing the necessary adaptive equipment for the home, leaving care package arrangements to the social work team.",
+          "is_correct": false,
+          "rationale": "This siloed approach fragments care and ignores the OT's role in coordination."
+        },
+        {
+          "key": "E",
+          "text": "Arrange a single follow-up home visit one month post-discharge to address any problems that may have arisen.",
+          "is_correct": false,
+          "rationale": "This is a reactive measure, whereas proactive planning is required."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "How should a senior occupational therapist best integrate new research findings on neuro-rehabilitation into their team's clinical practice?",
+      "explanation": "Effective integration of evidence requires critical appraisal for validity, team discussion to ensure shared understanding, and a structured pilot to manage change and evaluate outcomes before wider adoption. This demonstrates strong clinical leadership and responsible practice.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Critically appraise the research for validity and relevance, then lead a journal club and develop a pilot implementation plan.",
+          "is_correct": true,
+          "rationale": "This is a structured, evidence-based approach to implementing change."
+        },
+        {
+          "key": "B",
+          "text": "Immediately replace all existing treatment protocols with the new methods described in the latest published research paper.",
+          "is_correct": false,
+          "rationale": "This is reckless and bypasses critical appraisal and local context."
+        },
+        {
+          "key": "C",
+          "text": "Wait for the new findings to be incorporated into national clinical guidelines before considering any changes to team practice.",
+          "is_correct": false,
+          "rationale": "This is overly cautious and can lead to significant delays in adopting best practice."
+        },
+        {
+          "key": "D",
+          "text": "Distribute a summary of the research paper via email to the team and expect them to implement it individually.",
+          "is_correct": false,
+          "rationale": "This lacks leadership and fails to ensure consistent, quality-assured application."
+        },
+        {
+          "key": "E",
+          "text": "Only consider implementing the new findings if they require no additional budget for training or new equipment purchases.",
+          "is_correct": false,
+          "rationale": "This allows financial constraints to dictate clinical practice over patient benefit."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "You are managing an OT team where one experienced practitioner consistently resists adopting new digital record-keeping systems, affecting team data quality. What is your best approach?",
+      "explanation": "A supportive management approach first seeks to understand the root cause of resistance. By addressing specific barriers through targeted training and setting clear, reasonable expectations, you support the individual while upholding essential service standards and policies.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Meet privately to understand their specific barriers, offer targeted training, and set clear, time-bound expectations for compliance.",
+          "is_correct": true,
+          "rationale": "This is a supportive, problem-solving approach that respects the individual."
+        },
+        {
+          "key": "B",
+          "text": "Implement a formal disciplinary process immediately to address their non-compliance with established team and organisational policies.",
+          "is_correct": false,
+          "rationale": "This is an overly punitive first step without attempting to resolve the issue."
+        },
+        {
+          "key": "C",
+          "text": "Reassign all their cases that require significant digital input to other members of the team to work around the issue.",
+          "is_correct": false,
+          "rationale": "This avoids the problem and unfairly burdens other team members."
+        },
+        {
+          "key": "D",
+          "text": "Announce in a team meeting that failure to use the new system will result in negative performance reviews for everyone.",
+          "is_correct": false,
+          "rationale": "This is poor management that punishes the entire team for one person's issue."
+        },
+        {
+          "key": "E",
+          "text": "Ignore the issue, assuming the experienced practitioner will eventually adapt to the new system without any direct intervention.",
+          "is_correct": false,
+          "rationale": "This is passive and allows poor practice and data quality issues to continue."
+        }
+      ]
+    }
+  ]
+}

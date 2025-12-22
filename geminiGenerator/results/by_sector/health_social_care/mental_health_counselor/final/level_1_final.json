@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "What is the most crucial ethical principle a mental health counselor must uphold regarding client information?",
+      "explanation": "Confidentiality is paramount in counseling, building trust and ensuring clients feel safe to share sensitive information without fear of disclosure. It is legally and ethically required.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Maintaining strict confidentiality of all client discussions and personal details shared during sessions.",
+          "is_correct": true,
+          "rationale": "Confidentiality is a core ethical and legal obligation."
+        },
+        {
+          "key": "B",
+          "text": "Ensuring all client records are stored digitally on a secure cloud server accessible only by authorized personnel.",
+          "is_correct": false,
+          "rationale": "This is a security measure, supporting confidentiality, but not the principle itself."
+        },
+        {
+          "key": "C",
+          "text": "Regularly consulting with supervisors about complex client cases to ensure the best possible therapeutic outcomes.",
+          "is_correct": false,
+          "rationale": "Supervision is good practice, but not the primary ethical principle regarding client information."
+        },
+        {
+          "key": "D",
+          "text": "Providing clients with a clear informed consent document outlining the therapeutic process and their rights.",
+          "is_correct": false,
+          "rationale": "Informed consent is an ethical requirement, but not the most crucial principle for information handling."
+        },
+        {
+          "key": "E",
+          "text": "Developing a strong therapeutic alliance with clients by being consistently empathetic and non-judgmental.",
+          "is_correct": false,
+          "rationale": "Empathy is a core skill, but not the primary ethical principle for information."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Which statement best describes the primary purpose of active listening in a mental health counseling session?",
+      "explanation": "Active listening demonstrates empathy and understanding, helping clients feel heard and validated. It allows the counselor to accurately grasp the client's perspective and needs.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To gather factual information about the client's medical history and current medication regimen.",
+          "is_correct": false,
+          "rationale": "While information is gathered, this is not the primary purpose of active listening."
+        },
+        {
+          "key": "B",
+          "text": "To provide immediate solutions and practical advice for the client's presenting problems and challenges.",
+          "is_correct": false,
+          "rationale": "Active listening precedes advice; it focuses on understanding first."
+        },
+        {
+          "key": "C",
+          "text": "To fully understand the client's perspective, feelings, and experiences without judgment or interruption.",
+          "is_correct": true,
+          "rationale": "Active listening's core is understanding and validating the client's world."
+        },
+        {
+          "key": "D",
+          "text": "To formulate a diagnostic impression based on observed symptoms and reported emotional distress.",
+          "is_correct": false,
+          "rationale": "Diagnosis is a separate step, not the primary goal of active listening."
+        },
+        {
+          "key": "E",
+          "text": "To encourage the client to talk more freely by asking a series of open-ended and probing questions.",
+          "is_correct": false,
+          "rationale": "This describes questioning techniques, which complement, but are distinct from, active listening."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What is the immediate priority for a mental health counselor when a client expresses thoughts of self-harm?",
+      "explanation": "Client safety is always the paramount concern. Assessing risk and taking immediate steps to ensure the client's well-being is crucial when self-harm is disclosed.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately contacting the client's emergency contact person to inform them of the situation and seek assistance.",
+          "is_correct": false,
+          "rationale": "This may be a step, but a safety plan with the client is usually prior or concurrent."
+        },
+        {
+          "key": "B",
+          "text": "Collaboratively developing a comprehensive safety plan with the client to mitigate immediate risks and ensure their well-being.",
+          "is_correct": true,
+          "rationale": "Developing a safety plan with the client is the immediate and collaborative priority for risk reduction."
+        },
+        {
+          "key": "C",
+          "text": "Documenting the client's statements thoroughly in their clinical record for future reference and legal protection.",
+          "is_correct": false,
+          "rationale": "Documentation is important but not the immediate priority over ensuring safety."
+        },
+        {
+          "key": "D",
+          "text": "Referring the client to a psychiatrist for immediate medication evaluation and potential hospitalization if necessary.",
+          "is_correct": false,
+          "rationale": "Referral may be necessary, but a safety plan is the immediate first step."
+        },
+        {
+          "key": "E",
+          "text": "Exploring the underlying causes of these self-harm thoughts to address the root issues therapeutically.",
+          "is_correct": false,
+          "rationale": "Addressing root causes is long-term; immediate safety takes precedence."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Why is establishing clear professional boundaries essential for a mental health counselor in their practice?",
+      "explanation": "Clear boundaries protect both the client and the counselor, maintaining the professional integrity of the therapeutic relationship. They prevent dual relationships and ensure ethical practice.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To prevent the development of dual relationships that could compromise the therapeutic process and client welfare.",
+          "is_correct": true,
+          "rationale": "Boundaries protect against conflicts of interest and maintain professional integrity."
+        },
+        {
+          "key": "B",
+          "text": "To ensure that all counseling sessions adhere strictly to the scheduled time limits and agreed-upon fees.",
+          "is_correct": false,
+          "rationale": "This is one aspect of boundaries, but not the most essential reason for their establishment."
+        },
+        {
+          "key": "C",
+          "text": "To allow the counselor to share personal experiences that might help the client feel more understood and connected.",
+          "is_correct": false,
+          "rationale": "Self-disclosure needs careful consideration and is not the primary purpose of boundaries."
+        },
+        {
+          "key": "D",
+          "text": "To maintain a professional distance from clients, avoiding any personal discussions outside of therapy sessions.",
+          "is_correct": false,
+          "rationale": "Maintaining distance is part of boundaries, but preventing harm from dual relationships is key."
+        },
+        {
+          "key": "E",
+          "text": "To clearly define the roles and responsibilities of both the counselor and the client within the therapeutic setting.",
+          "is_correct": false,
+          "rationale": "Defining roles is part of boundaries, but preventing harm from dual relationships is the core reason."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "When should a mental health counselor consider referring a client to a different specialist or service?",
+      "explanation": "Counselors must recognize their limitations and ensure clients receive the most appropriate care. Referral is necessary when a client's needs exceed the counselor's scope of practice or expertise.",
+      "options": [
+        {
+          "key": "A",
+          "text": "When the client's presenting issues fall outside the counselor's specific area of expertise or training.",
+          "is_correct": true,
+          "rationale": "Referring ensures clients receive specialized care when needs exceed the counselor's scope."
+        },
+        {
+          "key": "B",
+          "text": "If the client expresses dissatisfaction with the therapeutic progress after only a few initial sessions.",
+          "is_correct": false,
+          "rationale": "Dissatisfaction warrants discussion and adjustment, not automatic referral."
+        },
+        {
+          "key": "C",
+          "text": "When the counselor feels emotionally overwhelmed or personally challenged by the client's complex situation.",
+          "is_correct": false,
+          "rationale": "This situation calls for supervision and self-care, not necessarily client referral."
+        },
+        {
+          "key": "D",
+          "text": "If the client consistently misses scheduled appointments without providing sufficient prior notice or explanation.",
+          "is_correct": false,
+          "rationale": "Missed appointments require addressing attendance policies, not automatic referral."
+        },
+        {
+          "key": "E",
+          "text": "When the client requests to see another professional, even if the current therapeutic relationship is progressing well.",
+          "is_correct": false,
+          "rationale": "Client choice is important, but a direct request isn't the primary reason for counselor-initiated referral."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Why is maintaining client confidentiality absolutely crucial for a mental health counselor in every session?",
+      "explanation": "Client confidentiality is a cornerstone of therapeutic trust. It ensures clients feel safe enough to share sensitive information, which is vital for effective treatment and adherence to ethical guidelines.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It helps build trust and rapport with the client, encouraging them to share personal and sensitive information freely.",
+          "is_correct": true,
+          "rationale": "Confidentiality builds trust, essential for client disclosure."
+        },
+        {
+          "key": "B",
+          "text": "It prevents other healthcare professionals from accessing client records without explicit permission or legal mandate.",
+          "is_correct": false,
+          "rationale": "While true, building trust is the primary therapeutic reason."
+        },
+        {
+          "key": "C",
+          "text": "It is a legal requirement that protects the counselor from potential lawsuits regarding information disclosure.",
+          "is_correct": false,
+          "rationale": "Legal protection is a benefit, but trust is the core reason."
+        },
+        {
+          "key": "D",
+          "text": "It ensures that all therapeutic notes are securely stored and only accessible to the primary mental health counselor.",
+          "is_correct": false,
+          "rationale": "Security is part of confidentiality, but trust is paramount."
+        },
+        {
+          "key": "E",
+          "text": "It streamlines the administrative process by limiting who needs to be aware of client details and progress.",
+          "is_correct": false,
+          "rationale": "This is not the primary therapeutic reason for confidentiality."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Which of the following best describes active listening in a mental health counseling context?",
+      "explanation": "Active listening involves fully concentrating on the client, understanding their message, reflecting it back, and demonstrating empathy. It's crucial for building rapport and ensuring the client feels heard and understood.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Providing direct advice and solutions to the client's problems as quickly as possible during the session.",
+          "is_correct": false,
+          "rationale": "Active listening focuses on understanding, not immediate solutions."
+        },
+        {
+          "key": "B",
+          "text": "Focusing solely on formulating your next question while the client is speaking about their feelings.",
+          "is_correct": false,
+          "rationale": "This indicates a lack of full presence and engagement."
+        },
+        {
+          "key": "C",
+          "text": "Fully concentrating, understanding, responding, and remembering what the client is communicating verbally and non-verbally.",
+          "is_correct": true,
+          "rationale": "Active listening encompasses full engagement and comprehension."
+        },
+        {
+          "key": "D",
+          "text": "Interrupting the client to clarify points and guide the conversation towards specific therapeutic goals.",
+          "is_correct": false,
+          "rationale": "Frequent interruption hinders the client's flow and trust."
+        },
+        {
+          "key": "E",
+          "text": "Taking extensive notes throughout the session to document every single detail the client shares with you.",
+          "is_correct": false,
+          "rationale": "Note-taking is important, but not the sole definition of active listening."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What is an immediate and appropriate first step if a mental health counselor suspects a client is at imminent risk of self-harm?",
+      "explanation": "Ensuring client safety is the paramount concern in such situations. Directly assessing the risk allows the counselor to determine the necessary level of intervention, which may include involving emergency services.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately contact the client's emergency contact person without discussing it with the client first.",
+          "is_correct": false,
+          "rationale": "Direct assessment with the client should precede third-party contact if safe."
+        },
+        {
+          "key": "B",
+          "text": "Gently and directly ask the client about their thoughts, plans, and intent regarding self-harm.",
+          "is_correct": true,
+          "rationale": "Direct assessment is crucial to evaluate risk and plan intervention."
+        },
+        {
+          "key": "C",
+          "text": "Advise the client to schedule an appointment with a psychiatrist for immediate medication review.",
+          "is_correct": false,
+          "rationale": "This is a secondary step; immediate risk assessment comes first."
+        },
+        {
+          "key": "D",
+          "text": "End the session promptly and refer the client to an inpatient facility for immediate admission.",
+          "is_correct": false,
+          "rationale": "Immediate referral without assessment might not be appropriate or possible."
+        },
+        {
+          "key": "E",
+          "text": "Document the concern in the client's file and discuss it with a supervisor during the next scheduled meeting.",
+          "is_correct": false,
+          "rationale": "Imminent risk requires immediate action, not just documentation for later review."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Why is it essential for a mental health counselor to establish clear professional boundaries with clients?",
+      "explanation": "Clear boundaries protect both the client and the counselor. They maintain the therapeutic relationship's integrity, prevent exploitation, and ensure the focus remains on the client's well-being and treatment goals.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure the counselor can maintain a friendly relationship with clients outside of the professional setting.",
+          "is_correct": false,
+          "rationale": "Boundaries prevent dual relationships, not encourage outside friendships."
+        },
+        {
+          "key": "B",
+          "text": "To prevent the client from becoming overly dependent on the counselor for personal advice or support.",
+          "is_correct": true,
+          "rationale": "Boundaries foster client autonomy and prevent unhealthy dependency."
+        },
+        {
+          "key": "C",
+          "text": "To limit the amount of time the counselor spends on each client's case outside of scheduled sessions.",
+          "is_correct": false,
+          "rationale": "Boundaries define the professional relationship, not just time management."
+        },
+        {
+          "key": "D",
+          "text": "To allow the counselor to share personal experiences to build deeper empathy and understanding with clients.",
+          "is_correct": false,
+          "rationale": "Self-disclosure should be used sparingly and purposefully, not as a boundary-breaking tool."
+        },
+        {
+          "key": "E",
+          "text": "To ensure that clients always perceive the counselor as an authority figure, fostering compliance with treatment plans.",
+          "is_correct": false,
+          "rationale": "Boundaries are about safety and ethics, not strictly authority or compliance."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What is the primary reason mental health counselors must engage in regular self-care practices?",
+      "explanation": "Self-care is crucial for preventing burnout and maintaining professional effectiveness. Counselors regularly deal with emotionally challenging situations, making self-care essential for their well-being and ability to provide quality care.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure they have enough personal stories to share with clients to build rapport effectively.",
+          "is_correct": false,
+          "rationale": "Self-care is for the counselor's well-being, not client engagement."
+        },
+        {
+          "key": "B",
+          "text": "To avoid professional burnout and maintain their own mental and emotional well-being over time.",
+          "is_correct": true,
+          "rationale": "Self-care is vital for counselor resilience and sustained professional ability."
+        },
+        {
+          "key": "C",
+          "text": "To demonstrate to clients that counselors also face personal struggles and overcome them successfully.",
+          "is_correct": false,
+          "rationale": "Counselor self-care is not primarily for client demonstration or education."
+        },
+        {
+          "key": "D",
+          "text": "To fulfill a mandatory requirement for continuing professional development hours each year.",
+          "is_correct": false,
+          "rationale": "While important, self-care is distinct from formal professional development."
+        },
+        {
+          "key": "E",
+          "text": "To develop a diverse range of hobbies that can be recommended to clients seeking new coping strategies.",
+          "is_correct": false,
+          "rationale": "Self-care is personal well-being, not a source of client recommendations."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is a fundamental aspect of active listening in a counseling session with a client?",
+      "explanation": "Active listening involves fully concentrating on the client, understanding their message, and responding appropriately. It builds trust and ensures the client feels heard and valued, which is crucial for effective therapy.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Providing unsolicited advice and immediate solutions to all client problems.",
+          "is_correct": false,
+          "rationale": "Counselors focus on client-led solutions, not unsolicited advice."
+        },
+        {
+          "key": "B",
+          "text": "Focusing solely on formulating your next question while the client is speaking.",
+          "is_correct": false,
+          "rationale": "This distracts from truly hearing the client's current message."
+        },
+        {
+          "key": "C",
+          "text": "Demonstrating full attention and understanding through verbal and non-verbal cues.",
+          "is_correct": true,
+          "rationale": "Active listening shows the client they are truly heard and understood."
+        },
+        {
+          "key": "D",
+          "text": "Interrupting frequently to clarify details and correct any perceived inaccuracies.",
+          "is_correct": false,
+          "rationale": "Frequent interruptions disrupt client flow and can feel dismissive."
+        },
+        {
+          "key": "E",
+          "text": "Sharing your personal experiences to show empathy and common ground with the client.",
+          "is_correct": false,
+          "rationale": "While empathy is key, sharing personal stories can shift focus from the client."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "What is a core ethical principle regarding client information that all mental health counselors must uphold?",
+      "explanation": "Confidentiality is paramount in counseling, ensuring clients feel safe to share sensitive information without fear of disclosure. Upholding this principle builds trust and maintains the integrity of the therapeutic relationship.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sharing client details with family members to ensure their well-being and provide updates.",
+          "is_correct": false,
+          "rationale": "Sharing client details without consent breaches confidentiality."
+        },
+        {
+          "key": "B",
+          "text": "Discussing client cases openly with colleagues during lunch breaks for peer support.",
+          "is_correct": false,
+          "rationale": "Informal discussions of client cases breach confidentiality."
+        },
+        {
+          "key": "C",
+          "text": "Maintaining strict privacy of all client information unless there is a clear risk of harm.",
+          "is_correct": true,
+          "rationale": "Confidentiality protects client privacy, with limits for safety."
+        },
+        {
+          "key": "D",
+          "text": "Recording all sessions without client consent for future training and supervision purposes.",
+          "is_correct": false,
+          "rationale": "Recording sessions requires explicit client consent and clear purpose."
+        },
+        {
+          "key": "E",
+          "text": "Disclosing client information to law enforcement upon any general request for records.",
+          "is_correct": false,
+          "rationale": "Disclosure to law enforcement typically requires a court order or immediate danger."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "When conducting an initial client assessment, what is the primary goal for the mental health counselor?",
+      "explanation": "The initial assessment aims to gather comprehensive information about the client's presenting issues, history, and goals. This forms the foundation for developing an appropriate and effective treatment plan tailored to their needs.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately diagnosing the client with a specific mental health disorder without gathering sufficient background information.",
+          "is_correct": false,
+          "rationale": "Diagnosis is part of assessment but not the immediate primary goal."
+        },
+        {
+          "key": "B",
+          "text": "Establishing rapport and gathering information to understand the client's needs.",
+          "is_correct": true,
+          "rationale": "Building rapport and gathering information are crucial first steps."
+        },
+        {
+          "key": "C",
+          "text": "Referring the client to a specialist without thoroughly understanding their situation.",
+          "is_correct": false,
+          "rationale": "Premature referral without understanding client needs is inappropriate."
+        },
+        {
+          "key": "D",
+          "text": "Providing a detailed list of available community resources and support groups.",
+          "is_correct": false,
+          "rationale": "Resource provision is secondary to understanding the client's core issues."
+        },
+        {
+          "key": "E",
+          "text": "Offering a single, universal therapeutic technique for all presenting problems.",
+          "is_correct": false,
+          "rationale": "Counseling is individualized; a single technique for all is ineffective."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Why is it crucial for a mental health counselor to establish and maintain clear professional boundaries with clients?",
+      "explanation": "Professional boundaries protect both the client and the counselor, ensuring the therapeutic relationship remains ethical and effective. They prevent exploitation, maintain objectivity, and create a safe space for healing.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To encourage clients to rely solely on the counselor for all life decisions and support.",
+          "is_correct": false,
+          "rationale": "Counseling aims for client autonomy, not dependence on the counselor."
+        },
+        {
+          "key": "B",
+          "text": "To prevent the development of a dual relationship that could compromise objectivity and ethics.",
+          "is_correct": true,
+          "rationale": "Boundaries prevent conflicts of interest and maintain professional integrity."
+        },
+        {
+          "key": "C",
+          "text": "To make the counseling sessions more informal and personally engaging for the client.",
+          "is_correct": false,
+          "rationale": "While engagement is important, informality can blur professional lines."
+        },
+        {
+          "key": "D",
+          "text": "To allow the counselor to share personal struggles and experiences for mutual understanding.",
+          "is_correct": false,
+          "rationale": "Sharing personal struggles can shift focus from the client's needs."
+        },
+        {
+          "key": "E",
+          "text": "To ensure the counselor can easily access client personal information outside of sessions.",
+          "is_correct": false,
+          "rationale": "This is unethical and a breach of privacy, not a purpose of boundaries."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is the most important reason for a mental health counselor to practice regular self-care strategies?",
+      "explanation": "Self-care is essential for counselors to prevent burnout, manage stress, and maintain their own mental well-being. This ensures they can provide high-quality, empathetic care to clients consistently and sustainably.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To demonstrate to clients that counselors never experience any personal stress or difficulties.",
+          "is_correct": false,
+          "rationale": "Counselors are human; self-care is about managing stress, not denying it."
+        },
+        {
+          "key": "B",
+          "text": "To ensure the counselor remains energized and effective in providing high-quality client care.",
+          "is_correct": true,
+          "rationale": "Self-care maintains the counselor's capacity to provide effective, empathetic care."
+        },
+        {
+          "key": "C",
+          "text": "To avoid needing any professional supervision or consultation regarding difficult client cases.",
+          "is_correct": false,
+          "rationale": "Self-care complements, but does not replace, professional supervision."
+        },
+        {
+          "key": "D",
+          "text": "To allow for more flexible scheduling and less commitment to professional development activities.",
+          "is_correct": false,
+          "rationale": "Self-care supports professional commitment, it doesn't reduce it."
+        },
+        {
+          "key": "E",
+          "text": "To impress colleagues and supervisors with their ability to handle immense pressure without support.",
+          "is_correct": false,
+          "rationale": "Self-care is for personal well-being, not for external validation or ignoring support."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What is the primary goal of utilizing active listening techniques during a counseling session with a new client?",
+      "explanation": "Active listening is crucial for building rapport and truly comprehending the client's world. It shows respect and validates their experiences, which is vital for a strong therapeutic alliance and effective support.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To quickly identify the client's core problem and immediately suggest effective coping strategies for their situation.",
+          "is_correct": false,
+          "rationale": "Active listening focuses on understanding, not immediate solutions."
+        },
+        {
+          "key": "B",
+          "text": "To demonstrate genuine empathy and fully understand the client's perspective, feelings, and experiences shared.",
+          "is_correct": true,
+          "rationale": "Active listening aims to deeply understand and empathize with the client."
+        },
+        {
+          "key": "C",
+          "text": "To gather all necessary factual information about the client's history and current life circumstances.",
+          "is_correct": false,
+          "rationale": "While information is gathered, it's not the primary goal of active listening."
+        },
+        {
+          "key": "D",
+          "text": "To formulate appropriate diagnostic criteria based on the client's verbal and non-verbal communication.",
+          "is_correct": false,
+          "rationale": "Diagnosis is part of assessment, not the primary goal of active listening."
+        },
+        {
+          "key": "E",
+          "text": "To encourage the client to talk more extensively, filling any silences that naturally occur during the conversation.",
+          "is_correct": false,
+          "rationale": "Active listening isn't about filling silences, but understanding content."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Which of the following client statements would most strongly indicate an immediate need for a crisis intervention plan?",
+      "explanation": "Direct expressions of suicidal ideation and planning indicate an immediate and severe risk. This requires urgent intervention to ensure the client's safety and connect them with appropriate support and resources.",
+      "options": [
+        {
+          "key": "A",
+          "text": "I've been feeling really sad and unmotivated to do anything enjoyable for the past few weeks.",
+          "is_correct": false,
+          "rationale": "This suggests depression, but not an immediate crisis."
+        },
+        {
+          "key": "B",
+          "text": "Sometimes I just feel like giving up on everything, and I've started planning how to end it all.",
+          "is_correct": true,
+          "rationale": "This indicates active suicidal ideation with a plan, requiring immediate intervention."
+        },
+        {
+          "key": "C",
+          "text": "My sleep schedule is completely off, and I'm finding it very difficult to concentrate at work.",
+          "is_correct": false,
+          "rationale": "These are symptoms of distress, but not an immediate crisis."
+        },
+        {
+          "key": "D",
+          "text": "I'm constantly worried about small things, and it feels like my anxiety is always present.",
+          "is_correct": false,
+          "rationale": "This describes anxiety symptoms, not an immediate crisis."
+        },
+        {
+          "key": "E",
+          "text": "I had a really bad argument with my partner yesterday, and I am still feeling very angry.",
+          "is_correct": false,
+          "rationale": "This indicates conflict and anger, but not an immediate crisis."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Why is it critically important for mental health counselors to regularly practice self-care and maintain personal well-being?",
+      "explanation": "Self-care is essential for counselors to sustain their emotional and mental health. It prevents burnout, enhances resilience, and ensures they can effectively support clients without becoming depleted themselves, thus maintaining professional efficacy.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure they always have enough energy to take on additional client cases and increase their professional income.",
+          "is_correct": false,
+          "rationale": "While a side effect, it's not the primary ethical reason."
+        },
+        {
+          "key": "B",
+          "text": "To prevent burnout, maintain professional effectiveness, and provide high-quality support to their clients consistently.",
+          "is_correct": true,
+          "rationale": "Self-care prevents burnout and maintains counselor's ability to help."
+        },
+        {
+          "key": "C",
+          "text": "To demonstrate a healthy lifestyle to clients, thereby encouraging them to adopt similar positive habits.",
+          "is_correct": false,
+          "rationale": "This is a potential benefit, but not the primary objective."
+        },
+        {
+          "key": "D",
+          "text": "To meet minimum professional development requirements set by their regulatory and licensing bodies annually.",
+          "is_correct": false,
+          "rationale": "Self-care is distinct from formal professional development requirements."
+        },
+        {
+          "key": "E",
+          "text": "To avoid personal issues from inadvertently influencing their therapeutic approach and objective judgment during sessions.",
+          "is_correct": false,
+          "rationale": "While important, it's a consequence of burnout, not the primary self-care goal."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is the primary purpose of maintaining accurate and timely client progress notes in a mental health counseling practice?",
+      "explanation": "Progress notes are vital for continuity of care, treatment planning, and demonstrating accountability. They document the client's journey, interventions, and progress, guiding future sessions and ensuring ethical and effective practice.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To track billing hours efficiently and ensure proper reimbursement from insurance companies for services rendered.",
+          "is_correct": false,
+          "rationale": "This is a secondary administrative function, not the primary purpose."
+        },
+        {
+          "key": "B",
+          "text": "To provide a clear record of the client's journey, interventions used, and progress towards their therapeutic goals.",
+          "is_correct": true,
+          "rationale": "Progress notes document the therapeutic process and client progress."
+        },
+        {
+          "key": "C",
+          "text": "To fulfill administrative requirements and demonstrate compliance with internal organizational policies and procedures.",
+          "is_correct": false,
+          "rationale": "While they do this, it's not the core client-centered purpose."
+        },
+        {
+          "key": "D",
+          "text": "To prepare comprehensive reports for legal proceedings or court orders, if the client's case requires it.",
+          "is_correct": false,
+          "rationale": "This is a specific use, not the primary daily purpose."
+        },
+        {
+          "key": "E",
+          "text": "To share relevant client information with other mental health professionals involved in their multidisciplinary care.",
+          "is_correct": false,
+          "rationale": "Sharing requires consent; notes primarily guide individual counseling."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "A client casually mentions their young child often stays home alone for extended periods while they are out. What is your initial ethical obligation?",
+      "explanation": "When a client discloses information suggesting potential harm to a minor, a counselor's immediate duty is to document and consult. Supervision provides ethical guidance and ensures appropriate action while balancing client confidentiality and child protection.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately contact child protective services based on the client's concerning disclosure without any further assessment or consultation with a supervisor.",
+          "is_correct": false,
+          "rationale": "This action is premature without further assessment or supervision, which are critical first steps in the ethical decision-making process."
+        },
+        {
+          "key": "B",
+          "text": "Document the statement thoroughly and discuss it with your clinical supervisor for appropriate guidance and to determine the necessary next steps.",
+          "is_correct": true,
+          "rationale": "This ensures ethical practice, client safety, and proper reporting procedures are followed if deemed necessary after professional consultation."
+        },
+        {
+          "key": "C",
+          "text": "Directly confront the client about the potential for child neglect during the current session to gather more specific details immediately.",
+          "is_correct": false,
+          "rationale": "This approach can damage the therapeutic rapport and is not the first ethical step, which should prioritize consultation and careful assessment."
+        },
+        {
+          "key": "D",
+          "text": "Advise the client on responsible childcare options without further inquiry into the specifics of their current and potentially dangerous situation.",
+          "is_correct": false,
+          "rationale": "This avoids the ethical duty to assess the situation for potential harm and to take appropriate protective action if required by law."
+        },
+        {
+          "key": "E",
+          "text": "Maintain strict client confidentiality, as the client did not explicitly state abuse or direct intent to cause any harm to the child.",
+          "is_correct": false,
+          "rationale": "The ethical and legal duty to protect a potentially endangered child from neglect overrides strict confidentiality in this specific case."
+        }
+      ]
+    }
+  ]
+}

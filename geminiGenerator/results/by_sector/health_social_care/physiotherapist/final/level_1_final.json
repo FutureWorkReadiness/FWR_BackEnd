@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "When conducting an initial assessment for a new patient, which of the following is the most crucial first step for a physiotherapist?",
+      "explanation": "A comprehensive review of medical history and current symptoms is fundamental for a physiotherapist to form a clinical impression and develop an appropriate, safe, and effective treatment plan.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately begin with manual therapy techniques to alleviate any reported acute pain symptoms.",
+          "is_correct": false,
+          "rationale": "Prematurely starting treatment without assessment is unsafe."
+        },
+        {
+          "key": "B",
+          "text": "Thoroughly review the patient's medical history and current symptoms to understand their condition.",
+          "is_correct": true,
+          "rationale": "Essential for safe and effective treatment planning and diagnosis."
+        },
+        {
+          "key": "C",
+          "text": "Provide a detailed exercise prescription tailored to their specific needs without further questioning.",
+          "is_correct": false,
+          "rationale": "An exercise plan requires a full assessment first."
+        },
+        {
+          "key": "D",
+          "text": "Refer the patient directly to a specialist consultant without performing any preliminary examination.",
+          "is_correct": false,
+          "rationale": "Bypasses the physiotherapist's assessment role and scope."
+        },
+        {
+          "key": "E",
+          "text": "Document all observations meticulously in the patient's file before any direct interaction takes place.",
+          "is_correct": false,
+          "rationale": "Documentation follows interaction and assessment, not precedes it."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "A patient presents with an acute ankle sprain. What is the most appropriate initial intervention a physiotherapist should recommend?",
+      "explanation": "For an acute ankle sprain, the RICE protocol (Rest, Ice, Compression, Elevation) is the most appropriate initial intervention to reduce pain, swelling, and protect the injured tissues from further damage.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Encourage immediate high-impact exercises to restore full range of motion as quickly as possible.",
+          "is_correct": false,
+          "rationale": "High-impact exercises are contraindicated for acute injuries."
+        },
+        {
+          "key": "B",
+          "text": "Advise the patient to apply heat packs and perform deep tissue massage to the injured area.",
+          "is_correct": false,
+          "rationale": "Heat and massage are not typically recommended for acute sprains."
+        },
+        {
+          "key": "C",
+          "text": "Recommend rest, ice, compression, and elevation (RICE) to manage swelling and pain effectively.",
+          "is_correct": true,
+          "rationale": "RICE is the standard initial management for acute soft tissue injuries."
+        },
+        {
+          "key": "D",
+          "text": "Prescribe strong oral pain medication to the patient for immediate relief of their discomfort.",
+          "is_correct": false,
+          "rationale": "Prescribing medication is outside the scope of a physiotherapist."
+        },
+        {
+          "key": "E",
+          "text": "Perform vigorous stretching of the ankle joint to prevent stiffness and improve flexibility early on.",
+          "is_correct": false,
+          "rationale": "Vigorous stretching can exacerbate an acute ankle injury."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "When communicating sensitive information to a patient, what is the most important principle for a physiotherapist to uphold?",
+      "explanation": "Clear, empathetic communication tailored to the patient's understanding is paramount. This ensures informed consent, builds trust, and empowers patients to actively participate in their recovery journey.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use highly technical medical jargon to demonstrate expertise and professional knowledge effectively.",
+          "is_correct": false,
+          "rationale": "Medical jargon can confuse patients and hinder understanding."
+        },
+        {
+          "key": "B",
+          "text": "Ensure the information is delivered clearly, empathetically, and in a way the patient can understand fully.",
+          "is_correct": true,
+          "rationale": "Promotes patient understanding, trust, and informed decision-making."
+        },
+        {
+          "key": "C",
+          "text": "Deliver the information quickly and efficiently to maximize the number of patients seen in a day.",
+          "is_correct": false,
+          "rationale": "Rushing communication can compromise patient comprehension and care."
+        },
+        {
+          "key": "D",
+          "text": "Always involve family members in every discussion, even if the patient has not given explicit consent.",
+          "is_correct": false,
+          "rationale": "Violates patient confidentiality and autonomy without explicit consent."
+        },
+        {
+          "key": "E",
+          "text": "Present only the most positive aspects of their prognosis to maintain their morale and optimism.",
+          "is_correct": false,
+          "rationale": "Lacks honesty and transparency, which can erode trust."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Before initiating any physical treatment, what critical safety measure must a physiotherapist always confirm with the patient?",
+      "explanation": "Obtaining informed consent is a fundamental ethical and legal requirement. It ensures the patient understands the proposed treatment, its risks, benefits, and alternatives, allowing them to make an autonomous decision.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The patient has read and understood all the latest physiotherapy research papers published this month.",
+          "is_correct": false,
+          "rationale": "This is an unrealistic and unnecessary requirement for patients."
+        },
+        {
+          "key": "B",
+          "text": "The patient has given informed consent for the specific treatment plan proposed by the physiotherapist.",
+          "is_correct": true,
+          "rationale": "Informed consent is a legal and ethical imperative before treatment."
+        },
+        {
+          "key": "C",
+          "text": "The patient has purchased all recommended home exercise equipment prior to starting any in-clinic sessions.",
+          "is_correct": false,
+          "rationale": "Equipment purchase is not a prerequisite for initiating treatment."
+        },
+        {
+          "key": "D",
+          "text": "The patient has already achieved their personal fitness goals before beginning any rehabilitative therapy.",
+          "is_correct": false,
+          "rationale": "Achieving goals is the outcome of therapy, not a safety prerequisite."
+        },
+        {
+          "key": "E",
+          "text": "The patient has brought a detailed list of all their current social media contacts for reference.",
+          "is_correct": false,
+          "rationale": "Social media contacts are irrelevant to safe physiotherapy treatment."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What is the primary goal of patient education in a physiotherapy rehabilitation program for chronic back pain?",
+      "explanation": "Patient education empowers individuals to understand their condition, manage symptoms, and adopt self-management strategies. This fosters independence and significantly contributes to long-term pain reduction and recurrence prevention.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide patients with a comprehensive list of all available surgical options for their condition.",
+          "is_correct": false,
+          "rationale": "Surgical options are typically discussed by surgeons, not primarily by physiotherapists."
+        },
+        {
+          "key": "B",
+          "text": "To empower patients with knowledge and self-management strategies to reduce pain and prevent recurrence effectively.",
+          "is_correct": true,
+          "rationale": "Empowering self-management is key for chronic condition rehabilitation."
+        },
+        {
+          "key": "C",
+          "text": "To teach patients complex anatomical terms and physiological processes related to their spinal column.",
+          "is_correct": false,
+          "rationale": "While some anatomy is useful, complex jargon can be overwhelming."
+        },
+        {
+          "key": "D",
+          "text": "To encourage patients to rely solely on the physiotherapist for all future pain management decisions.",
+          "is_correct": false,
+          "rationale": "Patient education aims to foster independence, not dependence."
+        },
+        {
+          "key": "E",
+          "text": "To ensure patients strictly adhere to a rigid, pre-defined exercise routine without any personal modifications.",
+          "is_correct": false,
+          "rationale": "Education should promote adaptable strategies, not rigid adherence."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "A new patient presents with acute knee pain after a fall. What is the crucial initial step for a physiotherapist?",
+      "explanation": "A thorough assessment is paramount to understand the patient's condition, identify the injury mechanism, and rule out contraindications before planning any intervention.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately apply ice and elevate the limb to reduce swelling and pain effectively.",
+          "is_correct": false,
+          "rationale": "While ice and elevation can help, a proper assessment must precede any intervention."
+        },
+        {
+          "key": "B",
+          "text": "Conduct a thorough subjective and objective assessment to understand the injury mechanism and patient history.",
+          "is_correct": true,
+          "rationale": "Assessment is the foundational step for diagnosis and treatment planning."
+        },
+        {
+          "key": "C",
+          "text": "Refer the patient directly to an orthopedic surgeon for immediate surgical evaluation.",
+          "is_correct": false,
+          "rationale": "Referral may be necessary later, but assessment comes first to determine need."
+        },
+        {
+          "key": "D",
+          "text": "Prescribe a series of strengthening exercises without prior detailed examination.",
+          "is_correct": false,
+          "rationale": "Prescribing exercises without assessment is unsafe and unprofessional practice."
+        },
+        {
+          "key": "E",
+          "text": "Advise the patient to rest completely for several weeks before any intervention.",
+          "is_correct": false,
+          "rationale": "Complete rest is not always appropriate and should follow a proper assessment."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is a fundamental manual therapy technique used by physiotherapists to improve joint mobility?",
+      "explanation": "Joint mobilizations are a core manual therapy technique involving skilled passive movements of a joint to restore normal range of motion and reduce pain.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Applying high-frequency electrical currents to stimulate muscle growth and repair damaged tissues.",
+          "is_correct": false,
+          "rationale": "This describes electrotherapy, not a manual therapy technique for joint mobility."
+        },
+        {
+          "key": "B",
+          "text": "Performing joint mobilizations or manipulations to restore normal joint play and reduce stiffness effectively.",
+          "is_correct": true,
+          "rationale": "Joint mobilizations are key for improving range of motion and reducing stiffness."
+        },
+        {
+          "key": "C",
+          "text": "Administering oral pain medication to alleviate patient discomfort before commencing any treatment.",
+          "is_correct": false,
+          "rationale": "Physiotherapists do not administer oral pain medication; this is a medical intervention."
+        },
+        {
+          "key": "D",
+          "text": "Instructing patients on complex yoga poses for general flexibility without specific injury focus.",
+          "is_correct": false,
+          "rationale": "While exercise is used, this option lacks specificity and therapeutic focus."
+        },
+        {
+          "key": "E",
+          "text": "Utilizing advanced robotic devices to guide patients through automated and repetitive exercise routines.",
+          "is_correct": false,
+          "rationale": "Robotic devices are technology, not a manual therapy technique performed by hand."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Maintaining patient confidentiality is a cornerstone of professional physiotherapy practice. What does this principle primarily entail?",
+      "explanation": "Patient confidentiality ensures that all personal and medical information shared by a patient remains private and is only disclosed with their explicit consent or when legally required.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sharing patient information freely with family members to ensure they are fully informed about treatment progress.",
+          "is_correct": false,
+          "rationale": "Information should only be shared with family with explicit patient consent."
+        },
+        {
+          "key": "B",
+          "text": "Discussing patient cases openly with colleagues in public spaces to gather diverse professional opinions.",
+          "is_correct": false,
+          "rationale": "Discussions should be private and anonymized to protect patient identity."
+        },
+        {
+          "key": "C",
+          "text": "Ensuring all patient data, including medical records and personal details, is kept private and secure.",
+          "is_correct": true,
+          "rationale": "Protecting patient data is the core of maintaining confidentiality."
+        },
+        {
+          "key": "D",
+          "text": "Using patient stories in promotional materials without obtaining explicit written consent beforehand.",
+          "is_correct": false,
+          "rationale": "Using patient stories requires explicit, informed written consent."
+        },
+        {
+          "key": "E",
+          "text": "Only maintaining confidentiality for patients who explicitly request it in writing.",
+          "is_correct": false,
+          "rationale": "Confidentiality is an inherent professional obligation for all patients."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Before commencing any exercise program with a patient, what is the most important safety consideration for a physiotherapist?",
+      "explanation": "Understanding a patient's medical history, current condition, and any contraindications is crucial to prevent harm and ensure the exercise program is safe and appropriate for them.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensuring the patient has access to a wide range of expensive, high-tech exercise equipment immediately.",
+          "is_correct": false,
+          "rationale": "Equipment access is secondary to patient safety and suitability for exercise."
+        },
+        {
+          "key": "B",
+          "text": "Verifying the patient's medical history, current physical condition, and any contraindications or precautions.",
+          "is_correct": true,
+          "rationale": "This ensures the exercise program is safe and tailored to the individual's needs."
+        },
+        {
+          "key": "C",
+          "text": "Obtaining a signed waiver from the patient releasing the clinic from all liability for potential injuries.",
+          "is_correct": false,
+          "rationale": "Waivers do not replace professional duty of care or thorough safety checks."
+        },
+        {
+          "key": "D",
+          "text": "Focusing solely on the patient's desired outcomes, regardless of their current physical limitations.",
+          "is_correct": false,
+          "rationale": "Patient safety must always take precedence over desired outcomes if there's a risk."
+        },
+        {
+          "key": "E",
+          "text": "Providing a general exercise handout without demonstrating specific techniques or proper form.",
+          "is_correct": false,
+          "rationale": "Proper demonstration and instruction are vital for safety and effective exercise."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Effective communication is vital in physiotherapy. Why is it important to use clear, simple language when explaining exercises to patients?",
+      "explanation": "Using clear, simple language ensures patients understand their treatment plan and exercises, which significantly improves adherence, proper execution, and overall treatment outcomes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To impress patients with complex medical terminology, demonstrating advanced professional knowledge.",
+          "is_correct": false,
+          "rationale": "Using complex jargon can confuse patients and hinder understanding, not impress them."
+        },
+        {
+          "key": "B",
+          "text": "To ensure patients fully understand instructions, promoting adherence and correct execution of exercises.",
+          "is_correct": true,
+          "rationale": "Clear communication improves patient understanding, compliance, and treatment effectiveness."
+        },
+        {
+          "key": "C",
+          "text": "To limit the patient's questions, thereby streamlining the treatment session and saving valuable time.",
+          "is_correct": false,
+          "rationale": "Limiting questions is counterproductive; patient engagement is crucial for success."
+        },
+        {
+          "key": "D",
+          "text": "To avoid lengthy discussions, allowing more time for passive modalities and hands-on treatment.",
+          "is_correct": false,
+          "rationale": "Patient education is an active and essential part of physiotherapy treatment."
+        },
+        {
+          "key": "E",
+          "text": "Because most patients prefer not to engage deeply with the rationale behind their treatment plan.",
+          "is_correct": false,
+          "rationale": "Patients generally benefit from understanding the rationale for better engagement."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the primary purpose of conducting a thorough initial assessment with a new physiotherapy patient?",
+      "explanation": "The initial assessment is fundamental for gathering crucial information about the patient's condition, history, and goals. This data forms the basis for accurate diagnosis and the development of an individualized, effective treatment plan.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To immediately prescribe advanced exercises and manual therapy techniques without any further delay.",
+          "is_correct": false,
+          "rationale": "Immediate prescription without assessment is unsafe and ineffective."
+        },
+        {
+          "key": "B",
+          "text": "To gather comprehensive information about the patient's medical history, current symptoms, and functional goals.",
+          "is_correct": true,
+          "rationale": "This information is essential for accurate diagnosis and individualized treatment planning."
+        },
+        {
+          "key": "C",
+          "text": "To determine the patient's financial capabilities and suggest appropriate private healthcare packages available.",
+          "is_correct": false,
+          "rationale": "Financial assessment is not the primary purpose of a clinical assessment."
+        },
+        {
+          "key": "D",
+          "text": "To provide a detailed overview of the clinic's administrative procedures and billing processes.",
+          "is_correct": false,
+          "rationale": "Administrative details are secondary to clinical assessment."
+        },
+        {
+          "key": "E",
+          "text": "To ensure the patient fully understands all potential risks associated with physiotherapy treatment.",
+          "is_correct": false,
+          "rationale": "Risk explanation is part of consent, not the primary assessment purpose."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Which communication technique is most effective when explaining a new exercise program to a patient?",
+      "explanation": "Using clear, simple language, demonstrating exercises, and allowing the patient to practice ensures they understand the instructions. This active engagement improves adherence and safety, leading to better outcomes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using highly technical medical jargon to demonstrate your professional expertise and knowledge.",
+          "is_correct": false,
+          "rationale": "Technical jargon can confuse patients and hinder understanding."
+        },
+        {
+          "key": "B",
+          "text": "Providing a lengthy written document with complex diagrams without any verbal explanation.",
+          "is_correct": false,
+          "rationale": "Written documents alone are insufficient without verbal explanation."
+        },
+        {
+          "key": "C",
+          "text": "Verbally explaining the exercises quickly, assuming the patient will remember all instructions.",
+          "is_correct": false,
+          "rationale": "Quick verbal explanations are often forgotten or misunderstood by patients."
+        },
+        {
+          "key": "D",
+          "text": "Using clear, simple language, demonstrating the exercises, and allowing the patient to practice them.",
+          "is_correct": true,
+          "rationale": "This multi-modal approach enhances patient understanding, retention, and confidence."
+        },
+        {
+          "key": "E",
+          "text": "Asking the patient to research the exercises online before their next scheduled appointment.",
+          "is_correct": false,
+          "rationale": "Relying on patient self-research is irresponsible and potentially unsafe."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is a crucial safety consideration a physiotherapist must always take before starting any treatment?",
+      "explanation": "Identifying contraindications is paramount for patient safety. Certain conditions or medical histories may make specific treatments unsafe or even harmful, requiring modification or complete avoidance of therapy.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensuring the patient has paid for the session in advance to avoid any financial disputes later.",
+          "is_correct": false,
+          "rationale": "Financial matters are secondary to immediate patient safety considerations."
+        },
+        {
+          "key": "B",
+          "text": "Confirming the patient has brought a change of clothes suitable for intense physical activity.",
+          "is_correct": false,
+          "rationale": "While practical, clothing is not a crucial safety consideration before treatment."
+        },
+        {
+          "key": "C",
+          "text": "Identifying any contraindications or red flags that would make treatment unsafe for the patient.",
+          "is_correct": true,
+          "rationale": "Identifying contraindications prevents harm and ensures patient safety during treatment."
+        },
+        {
+          "key": "D",
+          "text": "Discussing the latest advancements in physiotherapy research and theoretical concepts with the patient.",
+          "is_correct": false,
+          "rationale": "Academic discussions are not a crucial safety step before starting treatment."
+        },
+        {
+          "key": "E",
+          "text": "Obtaining detailed feedback from previous healthcare providers about the patient's personality.",
+          "is_correct": false,
+          "rationale": "Patient personality is not a direct safety consideration for starting treatment."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "How should a physiotherapist effectively manage a patient who is experiencing significant pain during an exercise?",
+      "explanation": "Pain is a crucial indicator. The physiotherapist must stop the exercise, assess the pain's nature, and adjust the program. Pushing through severe pain can lead to injury or worsen the condition.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Encourage the patient to push through the pain, as it is a necessary part of rehabilitation progress.",
+          "is_correct": false,
+          "rationale": "Encouraging pain can cause injury and is generally not a safe approach."
+        },
+        {
+          "key": "B",
+          "text": "Immediately stop the exercise, reassess the patient's condition, and modify the activity as needed.",
+          "is_correct": true,
+          "rationale": "Stopping and reassessing prevents further injury and ensures patient safety."
+        },
+        {
+          "key": "C",
+          "text": "Ignore the patient's complaints and continue with the planned exercise regimen as scheduled.",
+          "is_correct": false,
+          "rationale": "Ignoring pain is unprofessional and risks patient harm and mistrust."
+        },
+        {
+          "key": "D",
+          "text": "Recommend taking strong over-the-counter pain medication to alleviate their discomfort immediately.",
+          "is_correct": false,
+          "rationale": "Physiotherapists do not prescribe medication; this is outside their scope of practice."
+        },
+        {
+          "key": "E",
+          "text": "Refer the patient directly to a surgeon for immediate surgical intervention without further assessment.",
+          "is_correct": false,
+          "rationale": "Immediate surgical referral without thorough assessment is usually inappropriate."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is the primary role of patient education in achieving successful physiotherapy outcomes?",
+      "explanation": "Patient education empowers individuals to understand their condition, actively participate in their recovery, and manage their health long-term. This fosters independence and improves adherence to treatment plans.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To demonstrate the physiotherapist's superior knowledge and impress the patient with complex medical terms.",
+          "is_correct": false,
+          "rationale": "Education should empower patients, not just display knowledge."
+        },
+        {
+          "key": "B",
+          "text": "To ensure the patient understands their condition, treatment plan, and how to self-manage effectively.",
+          "is_correct": true,
+          "rationale": "Education empowers patients, improving adherence, self-management, and long-term outcomes."
+        },
+        {
+          "key": "C",
+          "text": "To reduce the amount of time the physiotherapist needs to spend on direct manual therapy.",
+          "is_correct": false,
+          "rationale": "Education's primary role is patient empowerment, not workload reduction."
+        },
+        {
+          "key": "D",
+          "text": "To convince the patient to purchase additional physiotherapy equipment or products from the clinic.",
+          "is_correct": false,
+          "rationale": "Patient education should be for health benefit, not sales promotion."
+        },
+        {
+          "key": "E",
+          "text": "To provide a detailed historical account of physiotherapy as a profession over the centuries.",
+          "is_correct": false,
+          "rationale": "Historical accounts are not directly relevant to current treatment outcomes."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "When a new patient presents with acute lower back pain, what is the initial crucial step for a physiotherapist?",
+      "explanation": "A thorough subjective assessment is paramount to gather essential information about the patient's pain, medical history, lifestyle, and goals. This guides subsequent objective examination and treatment planning.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately begin with hands-on manual therapy techniques to alleviate discomfort and improve spinal mobility.",
+          "is_correct": false,
+          "rationale": "Direct intervention without assessment can be ineffective or harmful."
+        },
+        {
+          "key": "B",
+          "text": "Conduct a comprehensive subjective assessment to gather detailed history and understand the patient's symptoms.",
+          "is_correct": true,
+          "rationale": "Subjective assessment is the first and most crucial step in patient management."
+        },
+        {
+          "key": "C",
+          "text": "Refer the patient directly to a neurosurgeon for surgical evaluation without further assessment.",
+          "is_correct": false,
+          "rationale": "Referral is premature without initial physiotherapy assessment."
+        },
+        {
+          "key": "D",
+          "text": "Apply heat packs and recommend complete bed rest for several days to reduce inflammation effectively.",
+          "is_correct": false,
+          "rationale": "Treatment without assessment is inappropriate and potentially harmful."
+        },
+        {
+          "key": "E",
+          "text": "Perform advanced diagnostic imaging like MRI scans to precisely identify the underlying pathology.",
+          "is_correct": false,
+          "rationale": "Imaging is typically not the first step and requires clinical indication."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Which of the following interventions is most appropriate for a patient recovering from a recent anterior cruciate ligament (ACL) reconstruction?",
+      "explanation": "Progressive rehabilitation, including strengthening and proprioceptive exercises, is crucial for restoring function and stability after ACL reconstruction. This approach minimizes re-injury risk.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Prescribing strong opioid pain medication to manage acute discomfort effectively and swiftly.",
+          "is_correct": false,
+          "rationale": "Pain management is important, but not the primary physiotherapy intervention."
+        },
+        {
+          "key": "B",
+          "text": "Implementing progressive strengthening exercises and balance training to restore function and stability.",
+          "is_correct": true,
+          "rationale": "Progressive exercises are fundamental to ACL rehabilitation and recovery."
+        },
+        {
+          "key": "C",
+          "text": "Recommending complete immobilization of the knee for several months to ensure full ligament healing.",
+          "is_correct": false,
+          "rationale": "Prolonged immobilization is detrimental to joint health and recovery."
+        },
+        {
+          "key": "D",
+          "text": "Suggesting immediate return to high-impact sports activities to test the knee's new strength.",
+          "is_correct": false,
+          "rationale": "Returning too soon to high-impact sports risks re-injury to the repaired ligament."
+        },
+        {
+          "key": "E",
+          "text": "Performing complex spinal manipulation techniques to address peripheral joint issues.",
+          "is_correct": false,
+          "rationale": "Spinal manipulation is not a primary intervention for ACL reconstruction rehabilitation."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is the most important consideration when instructing a patient on home exercises to ensure safety and adherence?",
+      "explanation": "Ensuring a patient fully understands their exercises, including proper technique and precautions, is vital for safety, effectiveness, and compliance. Clear instruction prevents injury and promotes successful rehabilitation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Providing a generic exercise sheet without personalized instructions for their specific condition.",
+          "is_correct": false,
+          "rationale": "Generic instructions lack personalization and may not be effective or safe."
+        },
+        {
+          "key": "B",
+          "text": "Ensuring the patient fully understands proper technique and potential precautions before leaving the clinic.",
+          "is_correct": true,
+          "rationale": "Patient understanding is critical for safe and effective home exercise execution."
+        },
+        {
+          "key": "C",
+          "text": "Assuming the patient will remember all instructions without needing any written or visual aids.",
+          "is_correct": false,
+          "rationale": "Memory alone is insufficient; supplementary aids are often necessary."
+        },
+        {
+          "key": "D",
+          "text": "Encouraging them to push through any severe pain to achieve faster recovery results.",
+          "is_correct": false,
+          "rationale": "Pushing through severe pain can lead to further injury and impede recovery."
+        },
+        {
+          "key": "E",
+          "text": "Focusing solely on the quantity of exercises rather than the quality of movement performed.",
+          "is_correct": false,
+          "rationale": "Quality of movement is more important than quantity for effective outcomes."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is the primary function of ligaments in the human musculoskeletal system, crucial for joint stability?",
+      "explanation": "Ligaments are strong, fibrous connective tissues that connect bones to other bones. Their primary role is to provide stability to joints, limiting excessive movement and preventing dislocation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Generating muscular contractions to produce movement across various joints throughout the body.",
+          "is_correct": false,
+          "rationale": "Muscles, not ligaments, generate contractions for movement."
+        },
+        {
+          "key": "B",
+          "text": "Connecting muscles to bones, facilitating the transmission of force during physical activity.",
+          "is_correct": false,
+          "rationale": "Tendons connect muscles to bones, not ligaments."
+        },
+        {
+          "key": "C",
+          "text": "Providing structural support and connecting bones to other bones, stabilizing joints effectively.",
+          "is_correct": true,
+          "rationale": "Ligaments connect bones to bones, providing crucial joint stability."
+        },
+        {
+          "key": "D",
+          "text": "Producing red blood cells and storing essential minerals like calcium and phosphorus.",
+          "is_correct": false,
+          "rationale": "This describes the function of bone marrow and bones themselves."
+        },
+        {
+          "key": "E",
+          "text": "Transmitting nerve impulses from the brain to muscles, controlling voluntary actions and reflexes.",
+          "is_correct": false,
+          "rationale": "Nerves transmit impulses, not ligaments."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Why is clear and empathetic communication essential when discussing a patient's treatment plan and progress?",
+      "explanation": "Clear and empathetic communication builds trust, fosters patient understanding, and encourages active participation in their rehabilitation. This leads to better adherence and improved outcomes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure the patient passively accepts all recommendations without asking any difficult questions.",
+          "is_correct": false,
+          "rationale": "Effective communication encourages questions and active patient involvement."
+        },
+        {
+          "key": "B",
+          "text": "To foster patient understanding, adherence, and active participation in their rehabilitation journey.",
+          "is_correct": true,
+          "rationale": "Clear communication improves understanding, adherence, and patient engagement."
+        },
+        {
+          "key": "C",
+          "text": "To demonstrate the physiotherapist's superior knowledge and authority in the healthcare setting.",
+          "is_correct": false,
+          "rationale": "Communication should be patient-centered, not about demonstrating authority."
+        },
+        {
+          "key": "D",
+          "text": "To quickly conclude the session and move on to the next patient without delay or interruption.",
+          "is_correct": false,
+          "rationale": "Rushing communication compromises patient care and understanding."
+        },
+        {
+          "key": "E",
+          "text": "To avoid any personal connection with the patient, maintaining strict professional distance at all times.",
+          "is_correct": false,
+          "rationale": "Empathetic communication builds rapport, which is beneficial for treatment."
+        }
+      ]
+    }
+  ]
+}

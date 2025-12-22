@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "When designing a home modification plan for a bariatric client with severe COPD and limited social support, what is the primary strategic consideration?",
+      "explanation": "The best approach is holistic and client-centered, balancing immediate needs with long-term goals. It integrates equipment, client education, and caregiver support to foster sustainable independence and safety, addressing the complex interplay of physical and social factors.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Focus solely on procuring specialized bariatric equipment to ensure the client's immediate safety and basic mobility within the home.",
+          "is_correct": false,
+          "rationale": "This approach is too narrow and ignores the client's COPD, energy levels, and lack of social support."
+        },
+        {
+          "key": "B",
+          "text": "Prioritize extensive and costly structural changes to the home, such as widening all doorways and installing a permanent stairlift.",
+          "is_correct": false,
+          "rationale": "This ignores financial feasibility and may not be the most client-centered or necessary first step."
+        },
+        {
+          "key": "C",
+          "text": "Develop a phased plan balancing equipment needs, energy conservation techniques, and caregiver training to maximize long-term functional independence.",
+          "is_correct": true,
+          "rationale": "This is a comprehensive, client-centered strategy addressing the client's complex, intersecting needs."
+        },
+        {
+          "key": "D",
+          "text": "Recommend immediate placement in a skilled nursing facility, as the combination of factors makes independent living too high-risk.",
+          "is_correct": false,
+          "rationale": "This option is premature and dismisses the core OT goal of enabling occupation in the preferred environment."
+        },
+        {
+          "key": "E",
+          "text": "Defer all intervention until a formal social work assessment is completed, delaying the provision of any immediate therapeutic support.",
+          "is_correct": false,
+          "rationale": "While interdisciplinary collaboration is key, delaying all OT intervention unnecessarily increases client risk."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "As a lead OT, you identify a service gap for young adults transitioning from pediatric to adult stroke rehabilitation. What is your initial strategic action?",
+      "explanation": "A lead therapist's first step in service development should be systematic and evidence-based. A needs assessment validates the perceived gap, engages key stakeholders, and provides the necessary data to justify and design an effective, targeted program.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately begin designing a new clinical program based on your own professional experience to expedite the service launch.",
+          "is_correct": false,
+          "rationale": "This approach lacks collaboration and an evidence base, risking a poorly designed or unsupported service."
+        },
+        {
+          "key": "B",
+          "text": "Conduct a comprehensive needs assessment involving stakeholders, analyzing local data, and reviewing evidence-based models for this specific population.",
+          "is_correct": true,
+          "rationale": "This is the correct foundational step for evidence-based service development, ensuring the program meets actual needs."
+        },
+        {
+          "key": "C",
+          "text": "Submit a large budget request for new staff and equipment based on anecdotal evidence from a few recent cases.",
+          "is_correct": false,
+          "rationale": "Acting on anecdotal evidence without a formal assessment is not a robust or justifiable approach to resource allocation."
+        },
+        {
+          "key": "D",
+          "text": "Delegate the entire project to a junior therapist to develop their skills, providing minimal initial guidance or direct supervision.",
+          "is_correct": false,
+          "rationale": "This represents inappropriate delegation for a complex service development task that requires senior-level expertise."
+        },
+        {
+          "key": "E",
+          "text": "Advocate for this client group to be managed exclusively by existing adult services without creating any specialized transition pathway.",
+          "is_correct": false,
+          "rationale": "This fails to address the unique developmental and psychosocial needs of the specific young adult population."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "A client with deteriorating cognition refuses recommended assistive technology, despite clear evidence it would improve their safety at home. What is your ethical priority?",
+      "explanation": "The ethical priority is to balance the principles of beneficence (promoting safety) and autonomy (respecting the client's choice). This requires a collaborative, client-centered approach to understand their perspective and co-create acceptable alternative solutions, rather than imposing a solution or abandoning care.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Override the client's refusal and install the equipment, prioritizing their physical safety above all other ethical considerations.",
+          "is_correct": false,
+          "rationale": "This violates the client's autonomy and right to self-determination, which is a core ethical principle."
+        },
+        {
+          "key": "B",
+          "text": "Immediately discharge the client from the occupational therapy service due to non-compliance with the recommended treatment plan.",
+          "is_correct": false,
+          "rationale": "This could be considered client abandonment and fails to explore alternative ways to meet their needs."
+        },
+        {
+          "key": "C",
+          "text": "Engage in a collaborative process to explore their reasoning, respect their autonomy, and find mutually agreeable alternative safety strategies.",
+          "is_correct": true,
+          "rationale": "This respects client autonomy while upholding the duty of care by seeking alternative, acceptable solutions."
+        },
+        {
+          "key": "D",
+          "text": "Involve the client's family members to persuade the client to accept the technology, bypassing direct communication with them.",
+          "is_correct": false,
+          "rationale": "This undermines the therapeutic relationship and the client's capacity, unless they have formally designated decision-makers."
+        },
+        {
+          "key": "E",
+          "text": "Document the refusal in the clinical notes and cease all further attempts to discuss or implement any safety interventions.",
+          "is_correct": false,
+          "rationale": "This is a passive response that fails to actively problem-solve or fulfill the duty of care."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "When evaluating the effectiveness of a new sensory integration program for adults with developmental trauma, which outcome measure provides the most holistic data?",
+      "explanation": "The COPM is an individualized, client-centered outcome measure that captures a person's self-perception of performance and satisfaction in their chosen occupations. This makes it ideal for holistically evaluating the real-world impact of an intervention like sensory integration on daily life.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Canadian Occupational Performance Measure (COPM) to capture client-perceived changes in performance and satisfaction across self-identified occupational goals.",
+          "is_correct": true,
+          "rationale": "The COPM is client-centered and directly measures the impact on meaningful occupation, which is the goal."
+        },
+        {
+          "key": "B",
+          "text": "The Functional Independence Measure (FIM), which primarily assesses the client's level of assistance needed for basic self-care tasks.",
+          "is_correct": false,
+          "rationale": "The FIM is too narrow, focusing on physical dependence rather than the broader impact of sensory integration."
+        },
+        {
+          "key": "C",
+          "text": "The Beck Depression Inventory (BDI) to exclusively measure changes in the client's mood and any depressive symptoms.",
+          "is_correct": false,
+          "rationale": "While mood may be a factor, this tool only measures one domain and is not occupation-focused."
+        },
+        {
+          "key": "D",
+          "text": "Grip strength dynamometry, which provides an objective measure of physical improvement following the therapeutic intervention period.",
+          "is_correct": false,
+          "rationale": "Grip strength is unlikely to be a relevant or primary outcome for a sensory integration program."
+        },
+        {
+          "key": "E",
+          "text": "The Allen Cognitive Level Screen (ACLS) to assess any changes in the client's functional cognition and problem-solving abilities.",
+          "is_correct": false,
+          "rationale": "The ACLS measures cognitive function, which is not the primary target of a sensory integration intervention."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "A junior OT you supervise consistently struggles with clinical reasoning for complex neurological cases. What is the most effective supervisory approach to foster development?",
+      "explanation": "Effective supervision for clinical reasoning involves a structured, supportive, and collaborative approach. Using real cases, observing practice, and facilitating reflection allows the supervisee to actively build their skills and confidence in a safe, guided environment, which is more effective than passive learning.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Take over the management of all complex cases yourself to ensure optimal patient care and reduce the junior's workload.",
+          "is_correct": false,
+          "rationale": "This removes the learning opportunity and does not build the junior therapist's long-term competence or confidence."
+        },
+        {
+          "key": "B",
+          "text": "Mandate that the junior therapist completes a series of online courses on neurology without providing any direct clinical support.",
+          "is_correct": false,
+          "rationale": "This approach lacks the crucial element of applying theoretical knowledge to real-world clinical practice with guidance."
+        },
+        {
+          "key": "C",
+          "text": "Implement structured supervision using case-based discussions, joint sessions, and reflective practice to guide their reasoning process collaboratively.",
+          "is_correct": true,
+          "rationale": "This is a supportive, active, and evidence-based approach to developing complex clinical reasoning skills."
+        },
+        {
+          "key": "D",
+          "text": "Recommend a formal performance improvement plan focusing on the negative impacts their struggles are having on the service.",
+          "is_correct": false,
+          "rationale": "This is a punitive step that should be reserved for when supportive measures have failed, not as an initial approach."
+        },
+        {
+          "key": "E",
+          "text": "Advise them to seek out informal peer support from other junior therapists who may be experiencing similar professional challenges.",
+          "is_correct": false,
+          "rationale": "While peer support is valuable, this deflects the formal responsibility of the supervisor to provide direct guidance."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "When leading the redesign of a community reablement service, what is the most critical initial step to ensure its clinical effectiveness and sustainability?",
+      "explanation": "Effective service design in health and social care must be user-centered and context-specific. Co-production with stakeholders ensures the service meets actual needs, promotes buy-in, and is more likely to be sustainable and effective long-term.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Focus primarily on securing the largest possible budget allocation before any other strategic planning activities are undertaken.",
+          "is_correct": false,
+          "rationale": "Budget is important, but it should follow a needs analysis, not precede it."
+        },
+        {
+          "key": "B",
+          "text": "Immediately implement the latest evidence-based interventions from research journals to fast-track the service improvements.",
+          "is_correct": false,
+          "rationale": "Evidence must be adapted to the local context and user needs, not just copied."
+        },
+        {
+          "key": "C",
+          "text": "Conduct a comprehensive needs analysis involving service users, carers, and multi-disciplinary stakeholders to co-produce the model.",
+          "is_correct": true,
+          "rationale": "This co-production approach ensures the service is relevant, effective, and meets identified local needs."
+        },
+        {
+          "key": "D",
+          "text": "Replicate a successful service model from a different geographical region without adapting it for the local population.",
+          "is_correct": false,
+          "rationale": "Models must be adapted to local demographics, resources, and specific community needs."
+        },
+        {
+          "key": "E",
+          "text": "Prioritize the procurement of new assistive technology and equipment before defining the service's core clinical objectives.",
+          "is_correct": false,
+          "rationale": "Equipment should be chosen to meet service objectives, not the other way around."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "You are managing a case with conflicting capacity assessments for an adult with a fluctuating cognitive impairment. What is your primary legal responsibility?",
+      "explanation": "The Mental Capacity Act (2005) requires practitioners to presume a person has capacity unless proven otherwise. For fluctuating conditions, capacity must be assessed at the specific time the decision needs to be made, for that specific decision.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Defer to the assessment completed by the most senior clinician, regardless of when it was actually carried out.",
+          "is_correct": false,
+          "rationale": "The timing and decision-specificity of the assessment are more important than the clinician's seniority."
+        },
+        {
+          "key": "B",
+          "text": "Apply the principle of presuming capacity and undertake a new, decision-specific assessment at the relevant time.",
+          "is_correct": true,
+          "rationale": "This correctly follows the core tenets of the Mental Capacity Act for fluctuating conditions."
+        },
+        {
+          "key": "C",
+          "text": "Make a best interests decision on the client's behalf immediately to avoid any potential delays in their care.",
+          "is_correct": false,
+          "rationale": "A best interests decision can only be made after establishing a lack of capacity."
+        },
+        {
+          "key": "D",
+          "text": "Seek a ruling from the Court of Protection for all future decisions to remove any clinical ambiguity.",
+          "is_correct": false,
+          "rationale": "This is a disproportionate step and not the required initial action for fluctuating capacity."
+        },
+        {
+          "key": "E",
+          "text": "Average the findings from all existing assessments to reach a consensus decision on the client's overall capacity.",
+          "is_correct": false,
+          "rationale": "Capacity is not an average; it is specific to a particular decision at a particular time."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "When using the Canadian Model of Occupational Performance and Engagement (CMOP-E), how should you address a significant conflict between person and environment factors?",
+      "explanation": "The CMOP-E conceptualizes occupational performance as the dynamic interaction between the person, environment, and occupation. An OT's role is to mediate this interaction, often by adapting the environment or task to enable occupational engagement.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Prioritize the person's stated goals exclusively, even if they are completely unachievable within their current environment.",
+          "is_correct": false,
+          "rationale": "This ignores the environmental component of the model, leading to unrealistic goal setting."
+        },
+        {
+          "key": "B",
+          "text": "Focus solely on modifying the environment, disregarding the person's intrinsic motivations and spiritual values.",
+          "is_correct": false,
+          "rationale": "This neglects the person-centered and spirituality core constructs of the CMOP-E model."
+        },
+        {
+          "key": "C",
+          "text": "Advise the client that their occupational performance issues are unresolvable due to the environmental barriers present.",
+          "is_correct": false,
+          "rationale": "This is a passive approach; the OT's role is to find solutions and enable occupation."
+        },
+        {
+          "key": "D",
+          "text": "Mediate the conflict by collaboratively exploring environmental modifications, task adaptations, or developing new client skills.",
+          "is_correct": true,
+          "rationale": "This approach actively addresses the person-environment fit, which is central to the CMOP-E."
+        },
+        {
+          "key": "E",
+          "text": "Refer the client to a social worker, as the conflict indicates a social rather than an occupational issue.",
+          "is_correct": false,
+          "rationale": "The person-environment interaction is a core domain of occupational therapy practice."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "As a clinical supervisor, you observe a junior occupational therapist consistently struggling with clinical reasoning. What is the most effective initial supportive action?",
+      "explanation": "Effective supervision focuses on developing the supervisee's skills. Facilitating reflective practice allows the junior OT to analyze their own thought processes in a safe, structured way, identifying gaps and building competence, which is more empowering than being given answers.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately assign the junior therapist a reduced caseload with only non-complex patients to minimize any potential risks.",
+          "is_correct": false,
+          "rationale": "This avoids the problem rather than addressing the developmental need of the junior therapist."
+        },
+        {
+          "key": "B",
+          "text": "Facilitate a structured reflective practice session using a case study to identify and explore the specific reasoning gaps.",
+          "is_correct": true,
+          "rationale": "This is a collaborative, educational approach that builds competence and confidence in the supervisee."
+        },
+        {
+          "key": "C",
+          "text": "Recommend a formal performance improvement plan to document the issues for human resources from the outset.",
+          "is_correct": false,
+          "rationale": "This is an escalatory step that should be reserved for when supportive measures have failed."
+        },
+        {
+          "key": "D",
+          "text": "Provide the junior OT with pre-written intervention plans to follow for all of their future cases.",
+          "is_correct": false,
+          "rationale": "This undermines the development of independent clinical reasoning skills and professional autonomy."
+        },
+        {
+          "key": "E",
+          "text": "Increase the frequency of direct observation without providing any feedback to see if performance improves under pressure.",
+          "is_correct": false,
+          "rationale": "Observation without constructive feedback is not a supportive or effective supervisory tool."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "You identify a significant safeguarding concern for a vulnerable adult who actively refuses any intervention or report. What is your overriding professional duty?",
+      "explanation": "While respecting autonomy is crucial, the duty to safeguard a vulnerable adult from significant harm overrides their refusal. Professional and legal frameworks, like the Care Act 2014, mandate reporting serious concerns to the appropriate local authority.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Respect the adult's autonomy and close the case, carefully documenting their explicit refusal to engage with the service.",
+          "is_correct": false,
+          "rationale": "Autonomy does not override the duty to act when there is a risk of significant harm."
+        },
+        {
+          "key": "B",
+          "text": "Follow local safeguarding procedures to report the concern to the appropriate authority, even without the adult's consent.",
+          "is_correct": true,
+          "rationale": "The duty to protect from significant harm legally and ethically supersedes the client's refusal."
+        },
+        {
+          "key": "C",
+          "text": "Only take action if you personally witness an act of abuse, as secondhand information is not sufficient for a report.",
+          "is_correct": false,
+          "rationale": "A reasonable suspicion of harm is sufficient grounds to raise a safeguarding concern."
+        },
+        {
+          "key": "D",
+          "text": "Attempt to persuade a family member to make the official safeguarding report to protect your therapeutic relationship.",
+          "is_correct": false,
+          "rationale": "This abdicates professional responsibility; the duty to report lies with the practitioner who identified it."
+        },
+        {
+          "key": "E",
+          "text": "Wait for a multi-disciplinary team meeting to achieve a consensus before taking any independent action on the matter.",
+          "is_correct": false,
+          "rationale": "Safeguarding concerns require prompt action and should not be delayed unnecessarily for meetings."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "As a lead therapist, you identify a need to implement a new evidence-based model of care. What is the most effective initial strategic action?",
+      "explanation": "A lead therapist must ensure new initiatives are viable, supported, and evidence-based. A comprehensive needs analysis and stakeholder consultation builds the necessary foundation for a successful business case, securing buy-in and resources before implementation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately mandate the new model for all junior staff and schedule compulsory training sessions within the next month.",
+          "is_correct": false,
+          "rationale": "This top-down approach lacks collaboration and is likely to fail."
+        },
+        {
+          "key": "B",
+          "text": "Pilot the new model with a small, select group of your own clients to gather some preliminary anecdotal data.",
+          "is_correct": false,
+          "rationale": "Piloting is useful, but not the most effective initial strategic action."
+        },
+        {
+          "key": "C",
+          "text": "Conduct a comprehensive needs analysis and stakeholder consultation to build a business case demonstrating clinical and financial benefits.",
+          "is_correct": true,
+          "rationale": "This foundational approach ensures the project is justified, gains necessary support, and aligns with organizational goals."
+        },
+        {
+          "key": "D",
+          "text": "Request a significant budget increase from senior management without providing a detailed implementation plan or clear rationale.",
+          "is_correct": false,
+          "rationale": "A request without a robust business case and clear justification is highly unlikely to be approved by management."
+        },
+        {
+          "key": "E",
+          "text": "Focus solely on publishing research about the model's benefits before considering any practical implementation within the service.",
+          "is_correct": false,
+          "rationale": "This approach prioritizes academic pursuits over the immediate and practical needs of the service and its clients."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "You are managing a complex case where the ideal care plan exceeds the allocated budget. What is your primary ethical and professional responsibility?",
+      "explanation": "The primary responsibility is to balance pragmatic care delivery with professional advocacy. This involves providing the best possible care within constraints while formally documenting unmet needs and advocating through official channels for the necessary resources for the client.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Provide the best possible care within the budget, documenting all unmet needs and advocating for additional required resources.",
+          "is_correct": true,
+          "rationale": "This approach fulfills the dual duty of providing care while advocating for the client's unmet needs."
+        },
+        {
+          "key": "B",
+          "text": "Use resources allocated to other, less complex patients to meet the needs of this high-priority individual.",
+          "is_correct": false,
+          "rationale": "This action is unethical as it creates an inequitable distribution of resources among patients in your care."
+        },
+        {
+          "key": "C",
+          "text": "Advise the family to fund the additional required care privately without exploring all other statutory funding options first.",
+          "is_correct": false,
+          "rationale": "This approach inappropriately shifts the financial burden onto the family before exhausting all statutory funding avenues."
+        },
+        {
+          "key": "D",
+          "text": "Implement only the parts of the care plan that are low-cost, ignoring the more critical, expensive interventions.",
+          "is_correct": false,
+          "rationale": "This action compromises clinical effectiveness and could potentially jeopardize the patient's overall safety and well-being."
+        },
+        {
+          "key": "E",
+          "text": "Discharge the patient from the service, explaining that their complex needs cannot be met by the current provision.",
+          "is_correct": false,
+          "rationale": "This constitutes an abdication of professional duty and could be considered a form of patient abandonment."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "During supervision, a junior OT expresses significant difficulty managing their caseload and shows signs of burnout. What is your most appropriate initial action?",
+      "explanation": "The most appropriate action is multifaceted, offering immediate practical support, fostering professional growth, and addressing underlying issues in a supportive environment. This approach tackles both the symptoms and causes of burnout.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Advise them to take a period of sick leave and suggest that occupational therapy may not be the right career.",
+          "is_correct": false,
+          "rationale": "This response is unsupportive and fails to address the underlying systemic or personal factors contributing to burnout."
+        },
+        {
+          "key": "B",
+          "text": "Immediately reduce their caseload and assign a mentor while exploring the root causes of their stress in supervision.",
+          "is_correct": true,
+          "rationale": "This is a comprehensive approach that provides immediate relief while also addressing the root causes of stress."
+        },
+        {
+          "key": "C",
+          "text": "Implement a formal performance management plan focusing strictly on their missed deadlines and documentation errors.",
+          "is_correct": false,
+          "rationale": "This punitive approach fails to address the root cause and will likely exacerbate the therapist's stress and burnout."
+        },
+        {
+          "key": "D",
+          "text": "Suggest they attend a generic time management course without discussing their specific clinical or personal challenges.",
+          "is_correct": false,
+          "rationale": "This is a superficial solution that ignores the complexity of burnout."
+        },
+        {
+          "key": "E",
+          "text": "Take over their most complex cases yourself to immediately relieve the pressure without addressing their coping skills.",
+          "is_correct": false,
+          "rationale": "This is a temporary fix that does not build their capacity."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "A client with a known traumatic brain injury presents with a sudden decline in functional independence and apathy. What is your clinical priority?",
+      "explanation": "In cases of sudden functional decline, especially with a neurological history, the clinical priority is to rule out new or evolving medical issues. Collaboration with the medical team for differential diagnosis is essential before implementing any rehabilitative interventions.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Assume the decline is a permanent feature of their TBI and focus on teaching compensatory strategies to caregivers.",
+          "is_correct": false,
+          "rationale": "Making this assumption is premature and fails to conduct a thorough investigation into reversible medical causes."
+        },
+        {
+          "key": "B",
+          "text": "Immediately implement a graded activity program focused on re-engaging them in previously enjoyed occupations to combat apathy.",
+          "is_correct": false,
+          "rationale": "This is clinically unsafe without first ruling out new medical causes."
+        },
+        {
+          "key": "C",
+          "text": "Attribute the changes solely to a lack of motivation and implement a strict behavioural activation treatment plan.",
+          "is_correct": false,
+          "rationale": "This approach ignores potentially serious underlying medical or psychiatric causes for the sudden functional decline."
+        },
+        {
+          "key": "D",
+          "text": "Collaborate with the medical team to rule out new organic factors, such as hydrocephalus, infection, or clinical depression.",
+          "is_correct": true,
+          "rationale": "This approach correctly prioritizes medical stability and an accurate differential diagnosis before beginning any rehabilitation."
+        },
+        {
+          "key": "E",
+          "text": "Refer the client directly to a neuropsychologist for cognitive reassessment without any further medical investigation.",
+          "is_correct": false,
+          "rationale": "This is important but secondary to ruling out acute medical issues."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "When developing a moving and handling plan for a new bariatric patient with complex mobility issues, what is the most critical initial step?",
+      "explanation": "The foundation of any safe and effective moving and handling plan is a thorough, person-centered risk assessment. This must involve the patient, consider the environment, and incorporate input from the wider multidisciplinary team to ensure all risks are identified and managed.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Conducting a comprehensive environmental and patient-specific risk assessment involving the patient and multidisciplinary team.",
+          "is_correct": true,
+          "rationale": "This collaborative assessment is the essential first step for creating a safe and effective person-centered care plan."
+        },
+        {
+          "key": "B",
+          "text": "Ordering a standard bariatric equipment package from the approved supplier before meeting the patient for the first time.",
+          "is_correct": false,
+          "rationale": "This approach is not person-centered and risks providing equipment that is inappropriate for the individual's specific needs."
+        },
+        {
+          "key": "C",
+          "text": "Training the family members to use a hoist, making them primarily responsible for all patient transfers at home.",
+          "is_correct": false,
+          "rationale": "This represents an inappropriate delegation of risk and professional responsibility onto untrained family members or carers."
+        },
+        {
+          "key": "D",
+          "text": "Referring the patient to a specialist moving and handling advisor without completing your own initial OT assessment.",
+          "is_correct": false,
+          "rationale": "This action abdicates the occupational therapist's core professional responsibility to conduct an initial holistic assessment."
+        },
+        {
+          "key": "E",
+          "text": "Documenting that manual handling is too high-risk and recommending a care home placement as the only option.",
+          "is_correct": false,
+          "rationale": "This is a restrictive, last-resort option, not an initial step."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "As a lead OT developing a business case for a new early intervention service, what is the most critical component for securing funding from commissioners?",
+      "explanation": "A strong business case must demonstrate financial viability and long-term value to commissioners. A cost-benefit analysis provides the quantitative evidence needed to justify the investment by showing future savings.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A detailed cost-benefit analysis demonstrating long-term savings to health and social care systems against the initial investment required for the service.",
+          "is_correct": true,
+          "rationale": "Commissioners require strong financial justification, and this analysis provides the necessary evidence for approving the requested funding."
+        },
+        {
+          "key": "B",
+          "text": "A comprehensive literature review of existing therapeutic models without specific application to the local population's unique demographic and socioeconomic needs.",
+          "is_correct": false,
+          "rationale": "Lacks local context and relevance, making it too theoretical for commissioners."
+        },
+        {
+          "key": "C",
+          "text": "A list of potential staffing hires for the new service without including a clear plan for their professional development and supervision.",
+          "is_correct": false,
+          "rationale": "This is an operational detail, not the core strategic justification for the service."
+        },
+        {
+          "key": "D",
+          "text": "Focusing solely on the clinical outcomes for service users, while neglecting the wider impact on family well-being and school participation.",
+          "is_correct": false,
+          "rationale": "Commissioners look for broader societal and systemic impact, not just clinical metrics."
+        },
+        {
+          "key": "E",
+          "text": "Proposing the use of cutting-edge technology without providing robust evidence for its clinical effectiveness or cost-efficiency in this specific context.",
+          "is_correct": false,
+          "rationale": "Lacks the evidence base required for responsible investment of public funds."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "You are managing a case where a client with full capacity refuses a critical home adaptation, despite significant, predictable risks. What is your primary ethical responsibility?",
+      "explanation": "The core ethical principle is respecting client autonomy when they have capacity. The OT's role is to inform, explore alternatives, and meticulously document the process, not to coerce or override the client's decision.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Respecting the client's autonomy while thoroughly documenting the risks, their understanding of them, and exploring all less intrusive alternative solutions.",
+          "is_correct": true,
+          "rationale": "This upholds the client's right to self-determination while ensuring professional diligence."
+        },
+        {
+          "key": "B",
+          "text": "Overriding the client's decision by proceeding with the adaptation, justifying it based on the principle of beneficence to prevent imminent harm.",
+          "is_correct": false,
+          "rationale": "This violates the principle of autonomy for a client who has capacity."
+        },
+        {
+          "key": "C",
+          "text": "Discharging the client from the service immediately because their non-compliance makes effective therapeutic intervention impossible to continue safely.",
+          "is_correct": false,
+          "rationale": "This is abandonment and fails to explore all options to mitigate risk."
+        },
+        {
+          "key": "D",
+          "text": "Referring the case directly to adult social care for a safeguarding investigation, assuming their refusal constitutes self-neglect without further assessment.",
+          "is_correct": false,
+          "rationale": "Refusing treatment when a client has full capacity is not automatically a safeguarding concern requiring investigation."
+        },
+        {
+          "key": "E",
+          "text": "Persuading the family to convince the client to accept the adaptation, thereby shifting the decision-making responsibility away from the professional.",
+          "is_correct": false,
+          "rationale": "This approach undermines the client's autonomy by using the family to apply undue influence on their decision."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "When supervising a junior OT struggling with clinical reasoning for complex neurological patients, what is the most effective leadership approach to foster their growth?",
+      "explanation": "A reflective practice model empowers the junior OT to develop their own critical thinking and problem-solving skills. This leads to sustainable professional growth and improved long-term competence, which is a key leadership responsibility.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using a reflective practice model, guiding them through case formulation with probing questions to help them connect theory with clinical observations.",
+          "is_correct": true,
+          "rationale": "This method actively develops independent critical thinking skills, leading to sustainable and long-term professional competence."
+        },
+        {
+          "key": "B",
+          "text": "Simply telling them the correct intervention plan for the patient to ensure immediate client safety without explaining the underlying clinical rationale.",
+          "is_correct": false,
+          "rationale": "This is directive and does not build the supervisee's own skills."
+        },
+        {
+          "key": "C",
+          "text": "Recommending they attend a generic training course that may not directly address their specific learning gaps or current caseload challenges.",
+          "is_correct": false,
+          "rationale": "This lacks specificity and may not be the most effective use of time."
+        },
+        {
+          "key": "D",
+          "text": "Taking over the management of their complex cases to reduce their stress and mitigate any potential risks to the patients involved.",
+          "is_correct": false,
+          "rationale": "This action removes a crucial learning opportunity and can ultimately undermine the junior therapist's professional confidence."
+        },
+        {
+          "key": "E",
+          "text": "Focusing solely on their documentation and time management skills, assuming that improving these will automatically enhance their clinical reasoning abilities.",
+          "is_correct": false,
+          "rationale": "This addresses administrative tasks, not the core issue of clinical reasoning."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Your team proposes implementing a new sensory integration therapy protocol. What is the most crucial first step to ensure this change is evidence-based and professionally responsible?",
+      "explanation": "Evidence-based practice requires OTs to critically appraise the best available research to inform clinical decisions. This ensures interventions are effective, safe, and justified rather than based on trends, anecdotes, or supplier marketing.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Conducting a critical appraisal of high-quality research literature, such as systematic reviews, to evaluate the protocol's effectiveness and applicability.",
+          "is_correct": true,
+          "rationale": "This process is the cornerstone of evidence-based practice, ensuring both clinical effectiveness and professional accountability."
+        },
+        {
+          "key": "B",
+          "text": "Immediately purchasing all the recommended equipment and training materials based on the supplier's promotional information and anecdotal success stories.",
+          "is_correct": false,
+          "rationale": "This is not objective and bypasses the need for critical appraisal of evidence."
+        },
+        {
+          "key": "C",
+          "text": "Polling the team to see who is most enthusiastic and allowing them to pilot it without any formal evaluation framework.",
+          "is_correct": false,
+          "rationale": "Enthusiasm is not a substitute for evidence; this lacks a structured approach."
+        },
+        {
+          "key": "D",
+          "text": "Implementing the protocol with a few 'easy' clients first to see how it works before consulting any external evidence or research.",
+          "is_correct": false,
+          "rationale": "This is unstructured and risks using non-evidenced interventions on clients."
+        },
+        {
+          "key": "E",
+          "text": "Assuming that because the protocol is popular in other regions, it is automatically suitable for your specific client population and service.",
+          "is_correct": false,
+          "rationale": "Popularity does not equal effectiveness or applicability to a local context."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "A new integrated care system policy emphasizes reducing hospital readmissions. How can a lead OT strategically contribute to this system-level goal most effectively?",
+      "explanation": "A discharge-to-assess model is a key strategic contribution. It aligns with policy by shifting assessment to the most relevant environment (home) and enabling rapid, targeted, occupation-focused interventions to prevent readmission.",
+      "options": [
+        {
+          "key": "A",
+          "text": "By developing and leading a robust discharge-to-assess pathway that ensures timely, occupation-focused home assessments and provision of essential support.",
+          "is_correct": true,
+          "rationale": "This directly addresses post-discharge risks which are a primary cause of readmission."
+        },
+        {
+          "key": "B",
+          "text": "Focusing exclusively on providing intensive inpatient rehabilitation without engaging with community partners or considering the patient's home environment challenges.",
+          "is_correct": false,
+          "rationale": "This approach creates a significant disconnect between the controlled hospital environment and the patient's actual community reality."
+        },
+        {
+          "key": "C",
+          "text": "Advocating for longer inpatient stays for all patients to ensure they are fully recovered before they are discharged into the community.",
+          "is_correct": false,
+          "rationale": "This is contrary to current health policy and can lead to deconditioning."
+        },
+        {
+          "key": "D",
+          "text": "Limiting OT involvement to only the provision of standard adaptive equipment, without addressing psychosocial factors or caregiver training needs.",
+          "is_correct": false,
+          "rationale": "This is a narrow, non-holistic approach that misses key readmission risks."
+        },
+        {
+          "key": "E",
+          "text": "Creating detailed educational pamphlets for patients about preventing falls, without implementing any practical, person-centered intervention strategies in their homes.",
+          "is_correct": false,
+          "rationale": "Passive information-giving is far less effective than active, practical intervention."
+        }
+      ]
+    }
+  ]
+}

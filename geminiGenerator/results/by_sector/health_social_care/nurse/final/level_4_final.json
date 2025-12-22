@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "A patient's National Early Warning Score (NEWS2) has acutely increased from 3 to 7. What is the most appropriate immediate nursing action?",
+      "explanation": "A NEWS2 score of 7 or more indicates a high level of clinical risk and requires an urgent response from a team with critical care competencies. The nurse's priority is to escalate immediately to ensure prompt medical assessment and intervention.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Continue with routine hourly observations and document the score in the patient's notes for the next shift to review.",
+          "is_correct": false,
+          "rationale": "This response fails to address the urgency of the situation and delays critical intervention."
+        },
+        {
+          "key": "B",
+          "text": "Immediately escalate to the senior nurse and request an urgent review by a doctor or critical care outreach team.",
+          "is_correct": true,
+          "rationale": "This follows the correct escalation protocol for a high NEWS2 score, ensuring patient safety."
+        },
+        {
+          "key": "C",
+          "text": "Administer a dose of paracetamol to see if this helps reduce the patient's temperature and overall discomfort.",
+          "is_correct": false,
+          "rationale": "This treats a single symptom without addressing the underlying cause of significant deterioration."
+        },
+        {
+          "key": "D",
+          "text": "Ask a healthcare assistant to re-check the vital signs in thirty minutes to confirm the reading is accurate.",
+          "is_correct": false,
+          "rationale": "This creates an unnecessary and potentially dangerous delay in a time-critical situation."
+        },
+        {
+          "key": "E",
+          "text": "Complete the patient's personal care tasks first to avoid falling behind with the ward's daily workload.",
+          "is_correct": false,
+          "rationale": "This demonstrates incorrect prioritisation, placing routine tasks above urgent patient safety needs."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "After administering medication, you realise you have given the patient the wrong dose. What is your immediate professional and legal responsibility?",
+      "explanation": "The primary duty is to patient safety. This involves immediate patient assessment for adverse effects, followed by transparent reporting to the nurse in charge and the prescriber. This ensures prompt management and adheres to professional and legal standards of care.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Document the error in the patient's notes but wait to see if any adverse effects develop before reporting it.",
+          "is_correct": false,
+          "rationale": "Reporting must be immediate to allow for timely intervention, not delayed pending patient reaction."
+        },
+        {
+          "key": "B",
+          "text": "Immediately assess the patient for adverse reactions and promptly report the incident to the nurse in charge and the prescriber.",
+          "is_correct": true,
+          "rationale": "This follows the correct procedure: prioritise patient safety through assessment, then report transparently."
+        },
+        {
+          "key": "C",
+          "text": "Ask a colleague to observe the patient for you while you complete your other medication rounds to save time.",
+          "is_correct": false,
+          "rationale": "This is an unsafe delegation of professional accountability for a medication error."
+        },
+        {
+          "key": "D",
+          "text": "Correct the error on the medication chart and hope that no one notices the mistake to avoid disciplinary action.",
+          "is_correct": false,
+          "rationale": "This is unprofessional, dishonest conduct that conceals risk and violates professional codes."
+        },
+        {
+          "key": "E",
+          "text": "Inform the patient's family about the error first to manage their expectations before telling any medical staff.",
+          "is_correct": false,
+          "rationale": "The clinical team must be informed first to ensure immediate medical action can be taken."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "You suspect a vulnerable adult patient is being financially exploited by a family member. What is the correct course of action according to safeguarding procedures?",
+      "explanation": "All healthcare professionals have a duty to report any suspicion of abuse. The correct procedure is to document concerns and immediately escalate them to the designated safeguarding lead and line manager, without attempting to investigate personally, which could increase risk.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Confront the family member directly with your suspicions to try and resolve the issue without any formal processes.",
+          "is_correct": false,
+          "rationale": "Direct confrontation is inappropriate, unprofessional, and could escalate the risk to the vulnerable adult."
+        },
+        {
+          "key": "B",
+          "text": "Document your concerns factually in the nursing notes and report them immediately to your line manager and the safeguarding lead.",
+          "is_correct": true,
+          "rationale": "This follows the correct and safe reporting protocol for any safeguarding concern."
+        },
+        {
+          "key": "C",
+          "text": "Advise the patient to be more careful with their finances and to not give the family member any more money.",
+          "is_correct": false,
+          "rationale": "This is unhelpful and inappropriately places the responsibility and blame on the vulnerable person."
+        },
+        {
+          "key": "D",
+          "text": "Discuss your concerns with other colleagues during a break to see if they have noticed anything similar happening.",
+          "is_correct": false,
+          "rationale": "This is a breach of patient confidentiality and not the correct reporting channel."
+        },
+        {
+          "key": "E",
+          "text": "Wait until you have gathered definitive proof of the financial exploitation before you decide to report the situation.",
+          "is_correct": false,
+          "rationale": "Reporting is based on reasonable suspicion, not definitive proof; delaying could cause further harm."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "A patient with a known multi-drug resistant organism (MDRO) requires wound care. Which infection control precaution is most critical to prevent transmission?",
+      "explanation": "MDROs are primarily spread through direct or indirect contact. Therefore, implementing contact precautions, which include the use of personal protective equipment (gloves, apron) and rigorous hand hygiene, is the most critical measure to prevent transmission to other patients and staff.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Wearing standard surgical masks for all interactions, regardless of the procedure being performed on the patient.",
+          "is_correct": false,
+          "rationale": "Masks are for droplet or airborne precautions, which are not standard for most MDROs."
+        },
+        {
+          "key": "B",
+          "text": "Ensuring the patient is placed in a negative pressure isolation room to prevent any airborne spread of the organism.",
+          "is_correct": false,
+          "rationale": "Negative pressure rooms are for airborne pathogens like tuberculosis, not contact-spread MDROs."
+        },
+        {
+          "key": "C",
+          "text": "Using contact precautions, including wearing gloves and an apron, and performing meticulous hand hygiene before and after contact.",
+          "is_correct": true,
+          "rationale": "This describes the standard, evidence-based practice for preventing the transmission of contact-spread MDROs."
+        },
+        {
+          "key": "D",
+          "text": "Restricting all visitors from entering the patient's room until the infection has completely cleared from their system.",
+          "is_correct": false,
+          "rationale": "Visitor restrictions may be in place, but a total ban is not always necessary or appropriate."
+        },
+        {
+          "key": "E",
+          "text": "Administering prophylactic antibiotics to all other patients who are currently sharing the same bay as the patient.",
+          "is_correct": false,
+          "rationale": "This is poor antibiotic stewardship and is not a recognised infection control practice."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "A patient with advanced dementia is refusing a necessary medical procedure but is assessed as lacking capacity. What is the appropriate next step?",
+      "explanation": "When a patient lacks capacity, decisions must be made in their best interests, following legal frameworks like the Mental Capacity Act. This involves checking for an advance directive or consulting a legally appointed attorney before a best-interest decision is made.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Proceed with the procedure against their wishes because it is clinically indicated and in their best medical interest.",
+          "is_correct": false,
+          "rationale": "This would be unlawful and constitutes battery, ignoring the patient's rights and legal frameworks."
+        },
+        {
+          "key": "B",
+          "text": "Document the refusal and postpone the procedure indefinitely until the patient changes their mind and agrees to it.",
+          "is_correct": false,
+          "rationale": "This could constitute neglect if the procedure is necessary to prevent significant harm."
+        },
+        {
+          "key": "C",
+          "text": "Consult the patient's advance directive or lasting power of attorney for health and welfare to guide the decision.",
+          "is_correct": true,
+          "rationale": "This respects the patient's previously expressed wishes and follows the correct legal process."
+        },
+        {
+          "key": "D",
+          "text": "Ask the patient's next of kin for their verbal permission to proceed with the medical procedure immediately.",
+          "is_correct": false,
+          "rationale": "Next of kin have no automatic legal right to give consent unless legally appointed."
+        },
+        {
+          "key": "E",
+          "text": "Administer a mild sedative to the patient to ensure they are calm and compliant during the required procedure.",
+          "is_correct": false,
+          "rationale": "This constitutes chemical restraint and is unethical and illegal without proper justification and process."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "You discover a medication error where a patient received the wrong dose. What is your immediate priority after ensuring the patient is stable?",
+      "explanation": "Patient safety is paramount. The correct protocol involves immediate notification to the chain of command and formal documentation through an incident report to prevent future errors and ensure proper patient monitoring.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately inform the charge nurse and the prescribing doctor, then complete an incident report as per hospital policy.",
+          "is_correct": true,
+          "rationale": "This follows correct procedure for patient safety and transparency."
+        },
+        {
+          "key": "B",
+          "text": "Wait until the end of your shift to report the error to avoid disrupting the ward's daily workflow.",
+          "is_correct": false,
+          "rationale": "Delaying the report puts the patient at risk."
+        },
+        {
+          "key": "C",
+          "text": "Ask a colleague for their opinion on whether the error is significant enough to require any formal reporting.",
+          "is_correct": false,
+          "rationale": "This bypasses the formal reporting structure and accountability."
+        },
+        {
+          "key": "D",
+          "text": "Document the correct dose in the patient's chart and hope that no adverse effects occur from the error.",
+          "is_correct": false,
+          "rationale": "This is falsification of records and is unethical."
+        },
+        {
+          "key": "E",
+          "text": "Administer a corrective dose without consulting the doctor to quickly fix the mistake you have just made.",
+          "is_correct": false,
+          "rationale": "This is an unsafe practice and could cause further harm."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "When evaluating a patient's care plan for a chronic condition like diabetes, what is the most crucial indicator of its effectiveness?",
+      "explanation": "The ultimate goal of a care plan for a chronic condition is patient empowerment and positive health outcomes. Demonstrable self-management and stable clinical markers are the best measures of success.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The number of educational pamphlets the patient has received from the nursing staff during their hospital stay.",
+          "is_correct": false,
+          "rationale": "Receiving materials does not guarantee understanding or application."
+        },
+        {
+          "key": "B",
+          "text": "The patient's verbal confirmation that they understand all the instructions given to them by the healthcare team.",
+          "is_correct": false,
+          "rationale": "Verbal agreement is not a reliable measure of comprehension."
+        },
+        {
+          "key": "C",
+          "text": "The patient's ability to demonstrate self-management skills and maintain stable blood glucose levels over a sustained period.",
+          "is_correct": true,
+          "rationale": "This measures actual behavioural change and clinical outcomes."
+        },
+        {
+          "key": "D",
+          "text": "How frequently the patient's family members have called the ward to ask questions about the ongoing treatment plan.",
+          "is_correct": false,
+          "rationale": "Frequent calls may indicate confusion, not effectiveness."
+        },
+        {
+          "key": "E",
+          "text": "The total amount of time the nursing staff has spent directly educating the patient about their chronic condition.",
+          "is_correct": false,
+          "rationale": "Time spent educating does not equal effective learning."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "You are caring for a patient with a suspected airborne infection. Which combination of personal protective equipment (PPE) is essential?",
+      "explanation": "Airborne precautions require protecting the respiratory system from small aerosolized particles. An N95 respirator is specifically designed for this, supplemented by standard contact and droplet protection like gowns, gloves, and eye protection.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A standard surgical mask, a disposable apron, and a single pair of non-sterile examination gloves are sufficient.",
+          "is_correct": false,
+          "rationale": "A surgical mask is insufficient for airborne pathogens."
+        },
+        {
+          "key": "B",
+          "text": "Double-gloving with a gown, but a surgical mask is sufficient as long as you maintain social distance.",
+          "is_correct": false,
+          "rationale": "A surgical mask is not adequate respiratory protection."
+        },
+        {
+          "key": "C",
+          "text": "An N95 respirator is the only piece of equipment that is absolutely required for this specific situation.",
+          "is_correct": false,
+          "rationale": "Other PPE is needed for contact and droplet protection."
+        },
+        {
+          "key": "D",
+          "text": "A fit-tested N95 respirator, gown, gloves, and eye protection such as goggles or a face shield.",
+          "is_correct": true,
+          "rationale": "This provides comprehensive airborne, contact, and droplet protection."
+        },
+        {
+          "key": "E",
+          "text": "A gown and gloves are always sufficient for all patients regardless of their suspected infectious diagnosis.",
+          "is_correct": false,
+          "rationale": "PPE must be tailored to the specific transmission route."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "As a registered nurse leading a team, which of these tasks is most appropriate to delegate to an experienced healthcare assistant (HCA)?",
+      "explanation": "Delegation must follow the principles of safety and scope of practice. Assisting with personal care for a stable patient falls within the HCA's role, while assessments, IV medication, and evaluation require a registered nurse.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Performing the initial admission assessment for a newly arrived patient directly from the emergency department.",
+          "is_correct": false,
+          "rationale": "Initial assessment requires a registered nurse's clinical judgement."
+        },
+        {
+          "key": "B",
+          "text": "Assisting a stable, post-operative patient with personal care and ambulation according to the established care plan.",
+          "is_correct": true,
+          "rationale": "This is a standard, appropriate task for an HCA."
+        },
+        {
+          "key": "C",
+          "text": "Administering a scheduled dose of intravenous antibiotics to a patient with a central venous catheter.",
+          "is_correct": false,
+          "rationale": "IV medication administration is outside the HCA scope."
+        },
+        {
+          "key": "D",
+          "text": "Educating a patient and their family about a new complex medication regimen before they are discharged home.",
+          "is_correct": false,
+          "rationale": "Patient education is a core nursing responsibility."
+        },
+        {
+          "key": "E",
+          "text": "Evaluating the effectiveness of a patient's pain medication one hour after it has been administered by you.",
+          "is_correct": false,
+          "rationale": "Evaluation of medication requires nursing assessment skills."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "A patient with decision-making capacity refuses a life-saving blood transfusion due to their religious beliefs. What is your primary ethical responsibility?",
+      "explanation": "The ethical principle of autonomy dictates that a competent adult has the right to make informed decisions about their own healthcare, including the right to refuse treatment, even if it results in harm or death.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Proceed with the transfusion against their wishes because it is medically necessary to preserve their life.",
+          "is_correct": false,
+          "rationale": "This violates patient autonomy and constitutes battery."
+        },
+        {
+          "key": "B",
+          "text": "Contact the patient's family members and ask them to convince the patient to change their mind about treatment.",
+          "is_correct": false,
+          "rationale": "This undermines the patient's autonomy and can be coercive."
+        },
+        {
+          "key": "C",
+          "text": "Document the refusal but take no further action, assuming the doctor will handle the entire situation alone.",
+          "is_correct": false,
+          "rationale": "The nurse has a duty to advocate and ensure understanding."
+        },
+        {
+          "key": "D",
+          "text": "Request a psychiatric evaluation to determine if the patient's religious beliefs are impairing their judgement.",
+          "is_correct": false,
+          "rationale": "Religious beliefs are not grounds for a psychiatric evaluation."
+        },
+        {
+          "key": "E",
+          "text": "Respect the patient's autonomy and advocate for their decision, while ensuring they are fully informed of the consequences.",
+          "is_correct": true,
+          "rationale": "This upholds the core ethical principle of patient autonomy."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "A patient with dementia discloses potential financial abuse by a family member. What is your most appropriate immediate action according to safeguarding protocols?",
+      "explanation": "The nurse's primary duty is to ensure patient safety and follow established safeguarding procedures. This involves immediate reporting to the designated lead, accurate documentation, and ensuring the vulnerable adult is not in immediate harm, which aligns with legal and ethical frameworks.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Document the disclosure verbatim, report it immediately to the designated safeguarding lead, and ensure the patient's immediate safety.",
+          "is_correct": true,
+          "rationale": "This follows the correct safeguarding pathway: ensure safety, document, and escalate to the appropriate authority immediately."
+        },
+        {
+          "key": "B",
+          "text": "Confront the family member directly about the allegation to gather more information before taking any further steps.",
+          "is_correct": false,
+          "rationale": "Confrontation can escalate risk to the patient and is not the nurse's role; investigation is for safeguarding teams."
+        },
+        {
+          "key": "C",
+          "text": "Advise the patient to contact their bank and social services themselves to maintain their autonomy and control.",
+          "is_correct": false,
+          "rationale": "The patient is vulnerable due to dementia; the nurse has a duty of care to initiate the safeguarding process."
+        },
+        {
+          "key": "D",
+          "text": "Wait for more concrete evidence to emerge before escalating the concern to avoid damaging family relationships unnecessarily.",
+          "is_correct": false,
+          "rationale": "Delaying a report can place the patient at further risk; all suspicions of abuse must be reported promptly."
+        },
+        {
+          "key": "E",
+          "text": "Discuss the situation with other ward staff during handover to get a consensus on how to proceed with the allegation.",
+          "is_correct": false,
+          "rationale": "While team discussion is useful, the primary action is immediate escalation to the safeguarding lead, not seeking consensus."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "You discover a colleague has administered an incorrect dose of a high-risk medication. What is your primary responsibility in this situation?",
+      "explanation": "Patient safety is the absolute priority. The first step must be to assess the patient for any harm, followed by informing the medical and senior nursing staff to manage the clinical risk. Reporting the incident formally is a subsequent, but essential, step.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately assess the patient for adverse effects, inform the doctor and nurse in charge, and then complete an incident report.",
+          "is_correct": true,
+          "rationale": "This prioritises patient safety first, followed by appropriate escalation and documentation according to professional standards."
+        },
+        {
+          "key": "B",
+          "text": "Report the colleague to the Nursing and Midwifery Council (NMC) immediately for professional misconduct without further investigation.",
+          "is_correct": false,
+          "rationale": "This bypasses local incident management processes which are necessary to manage patient safety and investigate the error."
+        },
+        {
+          "key": "C",
+          "text": "Ask the colleague to complete the incident report themselves to ensure they take full responsibility for their error.",
+          "is_correct": false,
+          "rationale": "While they should be involved, your responsibility is to ensure the report is made promptly, not delegate it."
+        },
+        {
+          "key": "D",
+          "text": "Document the error in the patient's notes but avoid formal reporting to protect your colleague from disciplinary action.",
+          "is_correct": false,
+          "rationale": "This is a breach of professional duty; all incidents must be formally reported to ensure learning and patient safety."
+        },
+        {
+          "key": "E",
+          "text": "Administer a corrective dose of medication without a doctor's order to quickly counteract the effects of the error.",
+          "is_correct": false,
+          "rationale": "Administering medication without a prescription is unsafe, outside a nurse's scope of practice, and could cause further harm."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "A terminally ill patient with a valid DNACPR order experiences a cardiac arrest. How should you respond to the family's distress?",
+      "explanation": "The correct response involves upholding the patient's documented wishes by not commencing resuscitation, while simultaneously providing empathetic support and clear communication to the grieving family. This balances legal and ethical obligations with compassionate care, which is central to nursing practice.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Respect the DNACPR, provide comfort care, and offer clear, compassionate communication to the family about what is happening.",
+          "is_correct": true,
+          "rationale": "This upholds the patient's legal wishes while providing essential emotional and psychological support to the family."
+        },
+        {
+          "key": "B",
+          "text": "Begin chest compressions immediately to show the family that everything possible is being done for the patient.",
+          "is_correct": false,
+          "rationale": "This violates a legally valid order and goes against the patient's expressed wishes, constituting assault."
+        },
+        {
+          "key": "C",
+          "text": "Ask the family to leave the room immediately to allow the clinical team to manage the situation without interference.",
+          "is_correct": false,
+          "rationale": "Removing the family can increase their distress; they should be supported to stay if they wish."
+        },
+        {
+          "key": "D",
+          "text": "Explain that the DNACPR order means no further medical intervention of any kind can be provided for the patient.",
+          "is_correct": false,
+          "rationale": "This is inaccurate; a DNACPR applies only to cardiopulmonary resuscitation, not other comfort measures or treatments."
+        },
+        {
+          "key": "E",
+          "text": "Immediately call the hospital's legal team for advice on how to proceed before taking any clinical action.",
+          "is_correct": false,
+          "rationale": "A valid DNACPR is a clear clinical instruction; delaying care to call legal is inappropriate and unnecessary."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Which activity best demonstrates a nurse's engagement with clinical governance principles to improve the quality of patient care on their ward?",
+      "explanation": "Clinical governance is a framework for continuous quality improvement. Actively participating in an audit cycle—from data collection to implementing changes—is a core component that directly measures and improves care standards, demonstrating a commitment to evidence-based practice and patient safety.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Actively participating in a clinical audit of pressure ulcer prevention and helping to implement the resulting action plan.",
+          "is_correct": true,
+          "rationale": "This demonstrates the full cycle of quality improvement, from data collection to implementing evidence-based change."
+        },
+        {
+          "key": "B",
+          "text": "Consistently completing all mandatory e-learning modules on time each year without applying them to daily practice.",
+          "is_correct": false,
+          "rationale": "This is a passive compliance activity and does not demonstrate active engagement in improving care quality."
+        },
+        {
+          "key": "C",
+          "text": "Attending staff meetings but refraining from offering suggestions for improvement to avoid conflict with senior colleagues.",
+          "is_correct": false,
+          "rationale": "This shows a lack of engagement and accountability, which are key principles of clinical governance."
+        },
+        {
+          "key": "D",
+          "text": "Focusing solely on completing assigned patient care tasks efficiently without considering wider service improvement initiatives.",
+          "is_correct": false,
+          "rationale": "Clinical governance requires a broader view of quality beyond individual task completion; this is task-focused, not quality-focused."
+        },
+        {
+          "key": "E",
+          "text": "Reading nursing journals occasionally but not sharing the findings or evidence with the rest of the clinical team.",
+          "is_correct": false,
+          "rationale": "Gaining knowledge is only the first step; clinical governance requires applying and disseminating that knowledge to improve practice."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "When coordinating a complex discharge for an elderly patient with multiple comorbidities, what is the most critical component for ensuring a safe transition?",
+      "explanation": "A safe discharge for a complex patient relies on coordinated input from all involved disciplines. A multidisciplinary team (MDT) meeting ensures a holistic plan is created, addressing medical, social, and rehabilitation needs, thereby minimising the risk of readmission and ensuring continuity of care.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A comprehensive multidisciplinary team meeting involving the patient, family, social care, and relevant allied health professionals.",
+          "is_correct": true,
+          "rationale": "This collaborative approach ensures all aspects of the patient's needs are considered for a holistic and safe plan."
+        },
+        {
+          "key": "B",
+          "text": "Ensuring all prescribed take-home medications are available on the ward at least one week before the planned discharge date.",
+          "is_correct": false,
+          "rationale": "While important, this is a logistical task and is secondary to having a comprehensive, agreed-upon discharge plan."
+        },
+        {
+          "key": "C",
+          "text": "Providing the patient with a detailed booklet of information about their conditions and local support services available.",
+          "is_correct": false,
+          "rationale": "Written information is a useful supplement but cannot replace a coordinated, person-centred plan developed by the MDT."
+        },
+        {
+          "key": "D",
+          "text": "Arranging for hospital transport to take the patient home on the day of discharge without confirming home support.",
+          "is_correct": false,
+          "rationale": "Transport is a logistical detail; discharging without confirmed support in place is fundamentally unsafe and poor practice."
+        },
+        {
+          "key": "E",
+          "text": "Completing all the necessary discharge paperwork and electronic summaries before the patient leaves the hospital premises.",
+          "is_correct": false,
+          "rationale": "Paperwork is an essential administrative task, but it documents the plan rather than creating the safe plan itself."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "A patient with a valid DNACPR order experiences a cardiac arrest. What is the most appropriate immediate nursing action in this situation?",
+      "explanation": "A valid DNACPR is a legally binding medical order. The nurse's professional and ethical duty is to respect the patient's wishes by withholding resuscitation and providing compassionate, dignified end-of-life care.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately initiate chest compressions and call the resuscitation team, as preserving life is always the top priority for any nurse.",
+          "is_correct": false,
+          "rationale": "This action directly violates a valid and legal DNACPR order."
+        },
+        {
+          "key": "B",
+          "text": "Contact the patient's next of kin to reconfirm the decision before deciding whether or not to proceed with resuscitation efforts.",
+          "is_correct": false,
+          "rationale": "The order is already legally valid; delaying action for reconfirmation is inappropriate."
+        },
+        {
+          "key": "C",
+          "text": "Respect the DNACPR order by withholding CPR and focusing on providing comfort, dignity, and palliative care measures to the patient.",
+          "is_correct": true,
+          "rationale": "This correctly follows the legal order and provides appropriate end-of-life care."
+        },
+        {
+          "key": "D",
+          "text": "Begin basic life support while simultaneously attempting to locate the on-call doctor to get a final decision on the matter.",
+          "is_correct": false,
+          "rationale": "Initiating BLS contradicts the DNACPR order; a final decision has already been made."
+        },
+        {
+          "key": "E",
+          "text": "Document the event in the patient's notes but take no clinical action until a senior physician arrives on the scene.",
+          "is_correct": false,
+          "rationale": "This is passive; the nurse should actively provide comfort and dignity measures."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "You discover a significant discrepancy in the controlled drug register during a routine check. What is the correct initial step to take?",
+      "explanation": "The priority is to secure the drugs and immediately escalate to the nurse in charge. A prompt recount with a second nurse is the standard procedure to verify and address the discrepancy, adhering to legal and safety protocols.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Make a note in the register to investigate the discrepancy later when you have more time at the end of your shift.",
+          "is_correct": false,
+          "rationale": "Delaying the investigation of a controlled drug discrepancy is a serious safety risk."
+        },
+        {
+          "key": "B",
+          "text": "Ask the previous shift's staff members if they recall any issues with the count before officially reporting the discrepancy.",
+          "is_correct": false,
+          "rationale": "This informal approach is not compliant with strict controlled drug regulations."
+        },
+        {
+          "key": "C",
+          "text": "Report the discrepancy directly to the hospital pharmacist without first informing the senior nurse on duty for the ward.",
+          "is_correct": false,
+          "rationale": "The ward's nurse in charge must be informed first as part of the chain of command."
+        },
+        {
+          "key": "D",
+          "text": "Secure the controlled drug cupboard, inform the nurse in charge immediately, and begin a systematic recount with another registered nurse.",
+          "is_correct": true,
+          "rationale": "This follows the correct procedure for security, escalation, and verification."
+        },
+        {
+          "key": "E",
+          "text": "Assume it is a simple counting error and adjust the register to match the current stock to save time during a busy shift.",
+          "is_correct": false,
+          "rationale": "Falsifying the register is illegal and a serious professional misconduct issue."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "You suspect an elderly patient with dementia is being financially exploited by a family member. What is your primary professional responsibility?",
+      "explanation": "The nurse's primary duty is to protect the patient by following established safeguarding procedures. This involves documenting concerns factually and reporting them to the designated safeguarding lead, who will initiate the appropriate investigation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Confront the family member directly with your suspicions to give them a chance to explain their actions before escalating the issue.",
+          "is_correct": false,
+          "rationale": "Confrontation can be unsafe and may compromise a formal investigation."
+        },
+        {
+          "key": "B",
+          "text": "Advise the patient to be more careful with their finances and to not give money to relatives without a valid reason.",
+          "is_correct": false,
+          "rationale": "A patient with dementia may lack the capacity to act on this advice."
+        },
+        {
+          "key": "C",
+          "text": "Discuss your concerns with other colleagues during a break to see if they have noticed similar issues with the family member.",
+          "is_correct": false,
+          "rationale": "This can breach confidentiality; a formal report is the correct channel."
+        },
+        {
+          "key": "D",
+          "text": "Contact the patient's bank to freeze their accounts until a full investigation into the potential financial abuse can be completed.",
+          "is_correct": false,
+          "rationale": "Nurses do not have the legal authority to take this action."
+        },
+        {
+          "key": "E",
+          "text": "Follow your organisation's safeguarding policy by documenting your concerns factually and reporting them immediately to the designated safeguarding lead.",
+          "is_correct": true,
+          "rationale": "This is the correct, professional, and legal procedure for safeguarding concerns."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "When participating in a root cause analysis (RCA) following a serious clinical incident, what is the main objective of the process?",
+      "explanation": "Root cause analysis is a non-punitive process focused on identifying system vulnerabilities, not blaming individuals. Its goal is to understand the 'why' behind an incident to implement effective, system-wide changes that improve patient safety.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To identify and assign blame to the specific individuals who were directly responsible for the error that occurred during patient care.",
+          "is_correct": false,
+          "rationale": "RCA is a non-punitive process focused on systems, not individual blame."
+        },
+        {
+          "key": "B",
+          "text": "To systematically investigate the incident to identify underlying system failures and contributing factors to prevent future recurrence of similar events.",
+          "is_correct": true,
+          "rationale": "The primary goal is learning from errors to improve system safety."
+        },
+        {
+          "key": "C",
+          "text": "To calculate the financial cost of the incident and determine the appropriate level of compensation for the affected patient or family.",
+          "is_correct": false,
+          "rationale": "Financial compensation is handled by other departments, not through an RCA."
+        },
+        {
+          "key": "D",
+          "text": "To complete the necessary paperwork for the hospital's legal department in case of potential litigation from the patient or their family.",
+          "is_correct": false,
+          "rationale": "While findings may be used, the primary purpose is safety improvement, not legal defence."
+        },
+        {
+          "key": "E",
+          "text": "To quickly close the investigation and reassure the public that immediate corrective actions have been taken to resolve the issue.",
+          "is_correct": false,
+          "rationale": "A thorough, not quick, investigation is required for meaningful change."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "As a registered nurse, when delegating a task to a healthcare assistant, what is your most important consideration for ensuring patient safety?",
+      "explanation": "The NMC code states that nurses must ensure anyone they delegate to has the necessary knowledge, skills, and competence. The delegating nurse remains accountable for the decision to delegate and for the patient's overall outcome.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Delegating only the most time-consuming and routine tasks so that you can focus on more complex clinical responsibilities yourself.",
+          "is_correct": false,
+          "rationale": "While practical, this is not the primary consideration for safety."
+        },
+        {
+          "key": "B",
+          "text": "Providing verbal instructions for the task but allowing the healthcare assistant to decide on the best method for its completion.",
+          "is_correct": false,
+          "rationale": "Clear, specific instructions are vital; ambiguity increases risk."
+        },
+        {
+          "key": "C",
+          "text": "Ensuring the healthcare assistant is competent and has received the appropriate training to perform the delegated task safely and effectively.",
+          "is_correct": true,
+          "rationale": "Competence is the cornerstone of safe delegation according to professional standards."
+        },
+        {
+          "key": "D",
+          "text": "Assuming that because the healthcare assistant has worked on the ward for a long time, they are competent in all tasks.",
+          "is_correct": false,
+          "rationale": "Competence must be verified for each task and not assumed based on experience."
+        },
+        {
+          "key": "E",
+          "text": "Making sure the task is delegated early in the shift to ensure it is completed before the handover to the next team.",
+          "is_correct": false,
+          "rationale": "Timing is a logistical concern, not the most critical safety factor."
+        }
+      ]
+    }
+  ]
+}

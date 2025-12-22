@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "A woman at 34 weeks gestation presents with new-onset severe hypertension and significant proteinuria. What is the most appropriate initial management action to prioritise?",
+      "explanation": "In severe pre-eclampsia, the priority is to prevent eclamptic seizures. Magnesium sulfate is the first-line anticonvulsant therapy recommended by national guidelines for seizure prophylaxis and should be commenced promptly.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Commence an intravenous infusion of magnesium sulfate to provide seizure prophylaxis while preparing for further assessment.",
+          "is_correct": true,
+          "rationale": "This is the primary intervention to prevent eclampsia."
+        },
+        {
+          "key": "B",
+          "text": "Immediately arrange for an emergency caesarean section without administering any prior medications to stabilise the patient.",
+          "is_correct": false,
+          "rationale": "Stabilisation is required before delivery is considered."
+        },
+        {
+          "key": "C",
+          "text": "Administer a rapid intravenous fluid bolus to improve renal perfusion and reduce blood pressure readings.",
+          "is_correct": false,
+          "rationale": "This can worsen pulmonary oedema in pre-eclampsia."
+        },
+        {
+          "key": "D",
+          "text": "Prescribe oral labetalol and discharge the patient with instructions for strict bed rest at home.",
+          "is_correct": false,
+          "rationale": "Severe pre-eclampsia requires immediate inpatient management."
+        },
+        {
+          "key": "E",
+          "text": "Advise the patient to reduce her salt intake and monitor her blood pressure twice daily at home.",
+          "is_correct": false,
+          "rationale": "This is insufficient for managing severe pre-eclampsia."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "You are managing a primary postpartum haemorrhage. After uterine massage and an oxytocin infusion, heavy bleeding continues. What is the next immediate clinical step?",
+      "explanation": "When first-line uterotonics fail to control a postpartum haemorrhage, the next step according to established protocols is to administer second-line agents like ergometrine or carboprost while continuing supportive measures.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Wait for an additional 15 minutes to allow the initial dose of oxytocin to take full effect.",
+          "is_correct": false,
+          "rationale": "Delaying treatment in an active PPH is dangerous."
+        },
+        {
+          "key": "B",
+          "text": "Administer a second-line uterotonic agent, such as ergometrine or carboprost, per local protocol.",
+          "is_correct": true,
+          "rationale": "This is the correct escalation of care for persistent PPH."
+        },
+        {
+          "key": "C",
+          "text": "Immediately prepare the patient for a surgical intervention such as a B-Lynch suture or hysterectomy.",
+          "is_correct": false,
+          "rationale": "Surgical options are considered after medical management fails."
+        },
+        {
+          "key": "D",
+          "text": "Encourage the mother to breastfeed the baby to stimulate natural oxytocin release from the pituitary gland.",
+          "is_correct": false,
+          "rationale": "This is not a primary or rapid intervention for PPH."
+        },
+        {
+          "key": "E",
+          "text": "Insert a urinary catheter to ensure the bladder is empty before reassessing the uterine tone again.",
+          "is_correct": false,
+          "rationale": "While helpful, administering further uterotonics is the priority."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "A newborn is delivered with poor muscle tone, minimal respiratory effort, and a heart rate of 80 bpm. What is the priority intervention?",
+      "explanation": "According to neonatal resuscitation guidelines, the most critical initial step for a newborn with inadequate respirations and a heart rate below 100 bpm is to provide effective positive pressure ventilation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately begin positive pressure ventilation with room air using an appropriately sized bag and mask.",
+          "is_correct": true,
+          "rationale": "This directly addresses inadequate breathing and circulation."
+        },
+        {
+          "key": "B",
+          "text": "Start chest compressions immediately because the heart rate is below the normal range of 120 bpm.",
+          "is_correct": false,
+          "rationale": "Compressions are initiated if HR is <60 bpm after ventilation."
+        },
+        {
+          "key": "C",
+          "text": "Provide vigorous tactile stimulation by rubbing the back and flicking the soles of the feet.",
+          "is_correct": false,
+          "rationale": "Stimulation is insufficient for this level of neonatal depression."
+        },
+        {
+          "key": "D",
+          "text": "Administer a dose of naloxone to counteract potential effects of maternal opioid administration during labour.",
+          "is_correct": false,
+          "rationale": "Ventilation is the priority, not medication administration."
+        },
+        {
+          "key": "E",
+          "text": "Place the infant under a radiant warmer and apply free-flow oxygen via a face mask.",
+          "is_correct": false,
+          "rationale": "Free-flow oxygen is ineffective without adequate respiratory effort."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "A competent patient in active labour is refusing the recommended continuous electronic fetal monitoring due to her personal beliefs. How should you professionally manage this situation?",
+      "explanation": "Respecting patient autonomy is paramount. The midwife's role is to ensure the patient makes an informed decision by explaining risks and benefits, then documenting the refusal and offering acceptable clinical alternatives like intermittent auscultation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Insist on the monitoring, stating that it is a non-negotiable hospital policy for ensuring fetal safety.",
+          "is_correct": false,
+          "rationale": "This violates the patient's right to autonomy and consent."
+        },
+        {
+          "key": "B",
+          "text": "Inform the patient that you cannot continue to care for her if she declines recommended medical advice.",
+          "is_correct": false,
+          "rationale": "This is coercive and constitutes patient abandonment."
+        },
+        {
+          "key": "C",
+          "text": "Document the refusal, clearly explain the risks and benefits, and offer intermittent auscultation as an alternative.",
+          "is_correct": true,
+          "rationale": "This respects autonomy while maintaining a duty of care."
+        },
+        {
+          "key": "D",
+          "text": "Contact the on-call obstetrician to persuade the patient to change her mind about the monitoring.",
+          "is_correct": false,
+          "rationale": "This undermines the midwife-patient relationship and autonomy."
+        },
+        {
+          "key": "E",
+          "text": "Ask a family member to convince the patient that continuous monitoring is in the baby's best interest.",
+          "is_correct": false,
+          "rationale": "This inappropriately involves third parties in a competent adult's decision."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "When planning intrapartum care for a woman with diet-controlled gestational diabetes mellitus (GDM), what is a key midwifery consideration to prevent neonatal complications?",
+      "explanation": "Maintaining maternal euglycaemia during labour is crucial to prevent neonatal hypoglycaemia after birth. Regular blood glucose monitoring allows for timely intervention, such as an insulin infusion, if glycaemic targets are not met.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Plan for hourly maternal blood glucose monitoring and consider a variable rate insulin infusion if levels are elevated.",
+          "is_correct": true,
+          "rationale": "This is standard practice to prevent neonatal hypoglycaemia."
+        },
+        {
+          "key": "B",
+          "text": "Recommend an elective induction of labour at 37 weeks gestation regardless of glycaemic control or fetal growth.",
+          "is_correct": false,
+          "rationale": "Induction timing is individualised, not a blanket rule."
+        },
+        {
+          "key": "C",
+          "text": "Advise the patient to fast completely throughout the entire duration of her active labour.",
+          "is_correct": false,
+          "rationale": "Fasting can cause maternal ketosis and hypoglycaemia."
+        },
+        {
+          "key": "D",
+          "text": "Discontinue all blood glucose monitoring once active labour is established as stress hormones will regulate levels.",
+          "is_correct": false,
+          "rationale": "Monitoring is essential as labour affects glucose levels."
+        },
+        {
+          "key": "E",
+          "text": "Administer a bolus of dextrose solution intravenously upon admission to prevent maternal hypoglycaemia during labour.",
+          "is_correct": false,
+          "rationale": "This can cause maternal hyperglycaemia and fetal distress."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "A woman at 36 weeks gestation presents with new-onset hypertension and significant proteinuria. What is the most definitive management plan for severe pre-eclampsia?",
+      "explanation": "The definitive treatment for severe pre-eclampsia is delivery of the fetus and placenta. This resolves the underlying pathophysiology of the condition and prevents further serious maternal and fetal complications from developing.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately commence an intravenous infusion of Labetalol to control her blood pressure while continuing the pregnancy.",
+          "is_correct": false,
+          "rationale": "Antihypertensives manage symptoms but do not cure the underlying condition."
+        },
+        {
+          "key": "B",
+          "text": "Administer a course of corticosteroids to promote fetal lung maturity before planning for delivery in several days.",
+          "is_correct": false,
+          "rationale": "This may be done, but delivery is the definitive and urgent step."
+        },
+        {
+          "key": "C",
+          "text": "Initiate an induction of labour or perform a caesarean section to deliver the baby and placenta promptly.",
+          "is_correct": true,
+          "rationale": "Delivery is the only definitive cure for pre-eclampsia."
+        },
+        {
+          "key": "D",
+          "text": "Prescribe oral antihypertensives and advise strict bed rest at home with daily community midwife follow-up visits.",
+          "is_correct": false,
+          "rationale": "Severe pre-eclampsia requires inpatient hospital care, not home management."
+        },
+        {
+          "key": "E",
+          "text": "Arrange for an urgent ultrasound scan to assess fetal wellbeing and placental function before making any decisions.",
+          "is_correct": false,
+          "rationale": "Assessment is important, but the diagnosis necessitates prompt delivery planning."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "You are reviewing a CTG trace showing a baseline of 140bpm, minimal variability, and recurrent late decelerations. What is the correct interpretation of this trace?",
+      "explanation": "The combination of minimal variability and recurrent late decelerations is a key feature of a pathological CTG trace, indicating fetal hypoxia. This situation requires immediate escalation for an urgent obstetric review and potential intervention.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The trace is reassuring and indicates normal fetal oxygenation, requiring only routine ongoing monitoring during labour.",
+          "is_correct": false,
+          "rationale": "Late decelerations and minimal variability are non-reassuring features."
+        },
+        {
+          "key": "B",
+          "text": "This is a suspicious trace that requires conservative measures like changing maternal position and offering hydration.",
+          "is_correct": false,
+          "rationale": "The combination of features makes it pathological, not just suspicious."
+        },
+        {
+          "key": "C",
+          "text": "This is a normal trace for the active phase of labour and does not warrant any specific intervention.",
+          "is_correct": false,
+          "rationale": "This pattern is abnormal and indicates potential fetal distress."
+        },
+        {
+          "key": "D",
+          "text": "The trace is pathological, suggesting significant fetal hypoxia, and requires urgent obstetric review and intervention.",
+          "is_correct": true,
+          "rationale": "This combination of features strongly indicates fetal hypoxia."
+        },
+        {
+          "key": "E",
+          "text": "The pattern indicates fetal sleep, so you should attempt to stimulate the fetus to see an improvement.",
+          "is_correct": false,
+          "rationale": "Late decelerations are not a feature of fetal sleep cycles."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "A woman calls the postnatal ward 10 days after a normal delivery, reporting heavy, fresh bleeding and feeling unwell. What is your most appropriate initial advice?",
+      "explanation": "Heavy, fresh bleeding with systemic symptoms 10 days postpartum is a red flag for secondary postpartum haemorrhage, often due to retained products or infection. This is a medical emergency requiring immediate hospital assessment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Advise her to take paracetamol and rest, as this is likely a normal part of postnatal recovery.",
+          "is_correct": false,
+          "rationale": "This advice dangerously downplays potentially serious symptoms."
+        },
+        {
+          "key": "B",
+          "text": "Recommend she contacts her GP for a routine appointment to discuss her postnatal bleeding pattern.",
+          "is_correct": false,
+          "rationale": "The situation is urgent and requires emergency, not routine, care."
+        },
+        {
+          "key": "C",
+          "text": "Instruct her to attend the hospital's emergency department immediately for an urgent medical assessment.",
+          "is_correct": true,
+          "rationale": "This ensures immediate assessment for a potential obstetric emergency."
+        },
+        {
+          "key": "D",
+          "text": "Ask her to monitor the bleeding for the next 24 hours and call back if it worsens.",
+          "is_correct": false,
+          "rationale": "Delaying assessment could lead to significant deterioration."
+        },
+        {
+          "key": "E",
+          "text": "Suggest she increases her fluid intake and schedules a non-urgent visit with the community midwife tomorrow.",
+          "is_correct": false,
+          "rationale": "This is inappropriate for a potentially life-threatening condition."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "When assessing a term newborn at 72 hours old, you note significant jaundice extending to the soles of the feet. What is your priority action?",
+      "explanation": "Significant jaundice extending to the soles of the feet suggests a high bilirubin level, which requires urgent quantification to rule out pathological jaundice and determine the need for treatment like phototherapy to prevent kernicterus.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reassure the parents that this is physiological jaundice and it will resolve on its own within a few days.",
+          "is_correct": false,
+          "rationale": "Visual assessment alone is insufficient; this level of jaundice needs investigation."
+        },
+        {
+          "key": "B",
+          "text": "Advise the parents to place the baby in direct sunlight to help break down the bilirubin levels.",
+          "is_correct": false,
+          "rationale": "This is outdated and unsafe advice due to the risk of sunburn."
+        },
+        {
+          "key": "C",
+          "text": "Document the findings in the notes and plan to re-assess the baby's condition at the next visit.",
+          "is_correct": false,
+          "rationale": "Delaying investigation of significant jaundice is unsafe practice."
+        },
+        {
+          "key": "D",
+          "text": "Perform an urgent transcutaneous or serum bilirubin measurement to quantify the level and assess the need for phototherapy.",
+          "is_correct": true,
+          "rationale": "Quantifying the bilirubin level is the essential next step."
+        },
+        {
+          "key": "E",
+          "text": "Recommend supplementing with formula milk as this is often a sign of inadequate hydration from breastfeeding.",
+          "is_correct": false,
+          "rationale": "While feeding is important, the priority is measuring the bilirubin level."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "During a postnatal home visit, you observe evidence of domestic abuse between the new parents. What is your primary professional responsibility in this situation?",
+      "explanation": "The primary responsibility is to ensure safety by following established safeguarding procedures. This involves confidential documentation, adherence to local protocols, and seeking guidance from the designated safeguarding lead to ensure a coordinated and appropriate response.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately confront the partner you suspect is the perpetrator and demand they leave the property at once.",
+          "is_correct": false,
+          "rationale": "This could escalate the situation and endanger everyone involved."
+        },
+        {
+          "key": "B",
+          "text": "Advise the mother to leave the relationship, providing her with contact details for local support shelters.",
+          "is_correct": false,
+          "rationale": "While well-intentioned, this oversteps professional boundaries and may not be safe."
+        },
+        {
+          "key": "C",
+          "text": "Document your concerns confidentially, follow local safeguarding protocols, and discuss with your named safeguarding lead.",
+          "is_correct": true,
+          "rationale": "This ensures a safe, professional, and structured response."
+        },
+        {
+          "key": "D",
+          "text": "Avoid discussing the issue to prevent escalating the conflict and potentially endangering the mother and baby.",
+          "is_correct": false,
+          "rationale": "Ignoring a safeguarding concern is a dereliction of duty."
+        },
+        {
+          "key": "E",
+          "text": "Report the incident directly to the police without first discussing it with the mother or your colleagues.",
+          "is_correct": false,
+          "rationale": "Following internal safeguarding procedures first is usually required."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "You are attending a birth where the neonate is born apnoeic, with poor tone and a heart rate of 80 bpm. What is your immediate priority?",
+      "explanation": "According to neonatal resuscitation guidelines, the most critical initial step for an apnoeic newborn with bradycardia is to establish effective ventilation with inflation breaths to aerate the lungs and improve heart rate.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately administer a bolus of intravenous fluid to improve circulation and perfusion before addressing the airway.",
+          "is_correct": false,
+          "rationale": "Airway and breathing are the absolute first priorities over circulation in this specific neonatal scenario."
+        },
+        {
+          "key": "B",
+          "text": "Begin chest compressions at a rate of 120 per minute combined with ventilations at a 3:1 ratio.",
+          "is_correct": false,
+          "rationale": "Chest compressions are only initiated if the heart rate remains below 60 bpm despite effective ventilation."
+        },
+        {
+          "key": "C",
+          "text": "Provide effective inflation breaths using a bag-valve-mask with room air for the first 30 seconds.",
+          "is_correct": true,
+          "rationale": "Establishing effective ventilation is the primary intervention to correct bradycardia in a newborn."
+        },
+        {
+          "key": "D",
+          "text": "Rub the neonate's back and feet vigorously to stimulate spontaneous breathing before any other intervention is attempted.",
+          "is_correct": false,
+          "rationale": "While stimulation is an early step, it should not delay ventilation for a non-breathing, bradycardic infant."
+        },
+        {
+          "key": "E",
+          "text": "Prepare and administer an emergency dose of adrenaline via the umbilical venous catheter to increase heart rate.",
+          "is_correct": false,
+          "rationale": "Adrenaline is a later consideration if the heart rate does not respond to effective ventilation and compressions."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "A woman experiences a major postpartum haemorrhage immediately following a vaginal delivery. What is the most critical initial pharmacological intervention to manage uterine atony?",
+      "explanation": "The first-line pharmacological treatment for PPH due to uterine atony is the administration of a uterotonic agent, with oxytocin being the recommended initial choice according to national and international guidelines.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Administering intravenous tranexamic acid as soon as possible to reduce bleeding by inhibiting fibrinolysis.",
+          "is_correct": false,
+          "rationale": "Tranexamic acid is an important adjunct but does not treat the underlying cause of atony."
+        },
+        {
+          "key": "B",
+          "text": "Giving an intramuscular or intravenous injection of oxytocin to stimulate strong uterine contractions and control bleeding.",
+          "is_correct": true,
+          "rationale": "Oxytocin is the first-line uterotonic drug for treating postpartum haemorrhage caused by uterine atony."
+        },
+        {
+          "key": "C",
+          "text": "Preparing for an infusion of ergometrine, being mindful of its contraindication in hypertensive women.",
+          "is_correct": false,
+          "rationale": "Ergometrine is a second-line uterotonic and is contraindicated in women with hypertension."
+        },
+        {
+          "key": "D",
+          "text": "Commencing a rapid intravenous fluid resuscitation with crystalloid solution to maintain hemodynamic stability.",
+          "is_correct": false,
+          "rationale": "Fluid resuscitation is vital but is a supportive measure, not a direct treatment for uterine atony."
+        },
+        {
+          "key": "E",
+          "text": "Administering misoprostol rectally, which is a prostaglandin analogue that causes powerful uterine contractions.",
+          "is_correct": false,
+          "rationale": "Misoprostol is typically used as a second-line agent or when IV access is not available."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "During a delivery, you diagnose shoulder dystocia. After initial manoeuvres like McRoberts' and suprapubic pressure fail, what is a recognised next step?",
+      "explanation": "When initial external manoeuvres for shoulder dystocia are unsuccessful, internal manoeuvres are the next logical step. Delivery of the posterior arm is a key technique to resolve the obstruction by reducing the shoulder diameter.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Applying fundal pressure forcefully to help expel the baby's shoulders from the pelvic outlet.",
+          "is_correct": false,
+          "rationale": "Fundal pressure is contraindicated as it can worsen the impaction of the anterior shoulder."
+        },
+        {
+          "key": "B",
+          "text": "Attempting to deliver the posterior arm, which can reduce the bisacromial diameter and facilitate delivery.",
+          "is_correct": true,
+          "rationale": "Delivery of the posterior arm is a standard and effective internal manoeuvre for resolving shoulder dystocia."
+        },
+        {
+          "key": "C",
+          "text": "Immediately proceeding to an emergency caesarean section without attempting any further internal manoeuvres.",
+          "is_correct": false,
+          "rationale": "A caesarean section is not feasible once the head is delivered; internal manoeuvres must be attempted."
+        },
+        {
+          "key": "D",
+          "text": "Performing an episiotomy to create more space, as this is the definitive solution for bony obstruction.",
+          "is_correct": false,
+          "rationale": "An episiotomy may provide more room for manoeuvres but does not resolve the underlying bony obstruction."
+        },
+        {
+          "key": "E",
+          "text": "Asking the mother to push with maximum effort while continuing with the McRoberts' position.",
+          "is_correct": false,
+          "rationale": "Maternal pushing alone is insufficient and can worsen the impaction without effective manoeuvres."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "A woman at 12 weeks gestation has a combined screening result indicating a high chance of Down's syndrome. What is your most appropriate next action?",
+      "explanation": "Following a high-chance screening result, the midwife's role is to provide sensitive, non-directive counselling, explaining the result and outlining the options for definitive diagnostic testing, enabling the woman to make an informed choice.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reassure her that the result is likely a false positive and schedule a routine 20-week scan.",
+          "is_correct": false,
+          "rationale": "This dismisses valid concerns and deviates from the established clinical pathway for high-chance results."
+        },
+        {
+          "key": "B",
+          "text": "Immediately refer her for a termination of pregnancy consultation without further discussion of available options.",
+          "is_correct": false,
+          "rationale": "This is unethical as it removes patient autonomy and does not offer all available choices."
+        },
+        {
+          "key": "C",
+          "text": "Provide clear, unbiased counselling on the result's meaning and discuss options for diagnostic testing like CVS or amniocentesis.",
+          "is_correct": true,
+          "rationale": "This supports informed decision-making, which is a core principle of antenatal screening and patient care."
+        },
+        {
+          "key": "D",
+          "text": "Advise her to wait for the quadruple test later in pregnancy for a more accurate screening result.",
+          "is_correct": false,
+          "rationale": "The next step after a high-chance screening result is to offer diagnostic testing, not another screening test."
+        },
+        {
+          "key": "E",
+          "text": "Tell her that diagnostic tests are too risky and she should accept the screening result as definitive.",
+          "is_correct": false,
+          "rationale": "This provides inaccurate information and removes the patient's right to choose diagnostic testing."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "You are on a postnatal home visit and observe signs of domestic abuse and neglect concerning the mother and newborn. What is your primary professional responsibility?",
+      "explanation": "The primary responsibility of a midwife who suspects safeguarding issues is to document concerns accurately and escalate them immediately to the designated safeguarding lead. This ensures a coordinated, expert-led response that prioritises safety.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Wait for the mother to disclose the abuse directly before taking any formal action to respect her autonomy.",
+          "is_correct": false,
+          "rationale": "The duty of care to the vulnerable infant overrides waiting for disclosure in cases of suspected neglect or abuse."
+        },
+        {
+          "key": "B",
+          "text": "Document your concerns meticulously in the patient's record and discuss them with your named safeguarding lead.",
+          "is_correct": true,
+          "rationale": "This follows established safeguarding procedures, ensuring a safe, confidential, and appropriate response."
+        },
+        {
+          "key": "C",
+          "text": "Confront the partner about your suspicions during the visit to de-escalate the situation immediately.",
+          "is_correct": false,
+          "rationale": "This is unsafe for the midwife and could significantly escalate the risk to the mother and baby."
+        },
+        {
+          "key": "D",
+          "text": "Contact the police immediately without first discussing the situation with any other healthcare professionals.",
+          "is_correct": false,
+          "rationale": "Unless there is immediate danger, internal safeguarding protocols should be followed first for a multi-agency approach."
+        },
+        {
+          "key": "E",
+          "text": "Advise the mother to leave her partner and provide her with contact details for a local shelter.",
+          "is_correct": false,
+          "rationale": "While helpful, your primary duty is to follow official safeguarding protocols to ensure a coordinated response."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "A woman presents to the maternity unit 10 days postpartum with heavy, fresh vaginal bleeding and uterine tenderness. What is the most likely diagnosis?",
+      "explanation": "The combination of late-onset heavy bleeding, fresh blood, and uterine tenderness strongly suggests retained products of conception, which can lead to infection and secondary postpartum haemorrhage. This requires urgent assessment and management.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Retained products of conception leading to a secondary postpartum haemorrhage, which requires immediate clinical attention.",
+          "is_correct": true,
+          "rationale": "This diagnosis aligns perfectly with the classic symptoms of late PPH and uterine tenderness."
+        },
+        {
+          "key": "B",
+          "text": "Normal lochia rubra which can sometimes appear heavier than expected but is not typically associated with tenderness.",
+          "is_correct": false,
+          "rationale": "Normal lochia should be decreasing, and uterine tenderness is a significant red flag."
+        },
+        {
+          "key": "C",
+          "text": "Endometritis, but this would usually present with more systemic signs of infection like fever and malaise.",
+          "is_correct": false,
+          "rationale": "While possible, the primary symptom described is haemorrhage, making retained products more likely."
+        },
+        {
+          "key": "D",
+          "text": "Uterine subinvolution, which can cause bleeding but is less commonly associated with acute, significant tenderness.",
+          "is_correct": false,
+          "rationale": "Subinvolution is a slower process and doesn't typically present with this acute picture."
+        },
+        {
+          "key": "E",
+          "text": "A cervical ectropion that has become irritated, which would typically cause much lighter bleeding than described.",
+          "is_correct": false,
+          "rationale": "Bleeding from a cervical ectropion is usually light spotting, not heavy fresh loss."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "You have a significant concern that a pregnant woman is a victim of domestic abuse, but she denies it. What is your most appropriate action?",
+      "explanation": "The priority is to maintain trust while ensuring safety. Documenting concerns meticulously and providing confidential information on support services empowers the woman and follows safeguarding protocols without breaking confidentiality prematurely, unless there is immediate, severe risk.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately report your suspicions to social services without her consent due to the potential risk to the unborn baby.",
+          "is_correct": false,
+          "rationale": "This breaks confidentiality and may alienate the woman, preventing future disclosures."
+        },
+        {
+          "key": "B",
+          "text": "Document your concerns meticulously and offer her information on support services in a private and confidential manner.",
+          "is_correct": true,
+          "rationale": "This respects autonomy, maintains trust, and provides vital resources while ensuring accurate records."
+        },
+        {
+          "key": "C",
+          "text": "Confront her partner about your concerns during the next joint appointment to observe his direct reaction.",
+          "is_correct": false,
+          "rationale": "This is highly inappropriate and could significantly escalate the danger for the woman."
+        },
+        {
+          "key": "D",
+          "text": "Inform her family members about your suspicions so they are able to intervene on her behalf.",
+          "is_correct": false,
+          "rationale": "This is a breach of confidentiality; family members could also be involved in the abuse."
+        },
+        {
+          "key": "E",
+          "text": "Decide to take no further action until she chooses to disclose the abuse to you directly.",
+          "is_correct": false,
+          "rationale": "This is a failure in the duty of care; proactive but sensitive support is required."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "A term newborn becomes cyanotic and develops grunting respirations shortly after birth. What is the most critical initial management step for the midwife?",
+      "explanation": "The immediate priority for a neonate with cyanosis and respiratory distress is establishing an effective airway and breathing. Positive pressure ventilation via a bag-and-mask is a critical first step while urgently calling for specialist neonatal support.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Administer an intramuscular dose of vitamin K to prevent haemorrhagic disease of the newborn as per guidelines.",
+          "is_correct": false,
+          "rationale": "While important, this is not the immediate priority for managing respiratory collapse."
+        },
+        {
+          "key": "B",
+          "text": "Immediately transfer the infant to the neonatal unit for a full septic workup and antibiotic administration.",
+          "is_correct": false,
+          "rationale": "Transfer is necessary, but immediate respiratory support must be initiated first."
+        },
+        {
+          "key": "C",
+          "text": "Attempt to feed the newborn with expressed colostrum to assess swallowing reflexes and provide calories.",
+          "is_correct": false,
+          "rationale": "Feeding is contraindicated in a baby with respiratory distress due to aspiration risk."
+        },
+        {
+          "key": "D",
+          "text": "Provide effective ventilation with a bag-and-mask device and call for immediate neonatal support and review.",
+          "is_correct": true,
+          "rationale": "This directly addresses the life-threatening issue of inadequate oxygenation and breathing (the ABCs)."
+        },
+        {
+          "key": "E",
+          "text": "Swaddle the infant tightly and place them under a radiant warmer to prevent any further hypothermia.",
+          "is_correct": false,
+          "rationale": "Thermoregulation is important, but it is secondary to establishing effective breathing and circulation."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "When counselling a woman about the combined screening test for aneuploidies, what is the most crucial information that must be clearly conveyed?",
+      "explanation": "It is vital for informed consent that the woman understands the limitations of screening. The combined test calculates a probability or risk, and a high-risk result necessitates offering further diagnostic testing for a definitive answer.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The test guarantees a definitive diagnosis of Down's syndrome and other major chromosomal conditions without any error.",
+          "is_correct": false,
+          "rationale": "This is incorrect; it is a screening test, not a diagnostic one."
+        },
+        {
+          "key": "B",
+          "text": "The test is a mandatory part of antenatal care for all pregnant women within the NHS.",
+          "is_correct": false,
+          "rationale": "All screening is optional and requires informed consent from the woman."
+        },
+        {
+          "key": "C",
+          "text": "It is a screening test that provides a risk score, not a definitive diagnosis of any condition.",
+          "is_correct": true,
+          "rationale": "This accurately describes the purpose and limitation of the test, ensuring informed choice."
+        },
+        {
+          "key": "D",
+          "text": "The blood test component can only be performed accurately after 20 weeks of gestation has been reached.",
+          "is_correct": false,
+          "rationale": "The combined test is performed in the first trimester, typically between 11 and 14 weeks."
+        },
+        {
+          "key": "E",
+          "text": "A low-risk result completely eliminates any possibility of the baby having any kind of genetic abnormality.",
+          "is_correct": false,
+          "rationale": "A low-risk result means it's unlikely, but it does not eliminate the possibility."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "During active labour, the cardiotocograph (CTG) shows persistent late decelerations with every contraction. What is the most appropriate immediate midwifery intervention?",
+      "explanation": "Late decelerations indicate potential uteroplacental insufficiency and fetal hypoxia. Immediate interventions aim to improve fetal oxygenation (e.g., maternal position change, stopping oxytocin) and require urgent escalation for a senior obstetric review and potential further action.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Encourage the woman to start pushing forcefully to expedite the second stage of labour as quickly as possible.",
+          "is_correct": false,
+          "rationale": "Pushing can worsen fetal distress and is inappropriate if the cervix is not fully dilated."
+        },
+        {
+          "key": "B",
+          "text": "Commence or increase an oxytocin infusion to strengthen contractions and shorten the overall duration of labour.",
+          "is_correct": false,
+          "rationale": "Oxytocin can increase uterine activity and worsen uteroplacental insufficiency, so it should be stopped."
+        },
+        {
+          "key": "C",
+          "text": "Advise the woman to begin ambulating around the room to encourage fetal descent and head rotation.",
+          "is_correct": false,
+          "rationale": "This is contraindicated as continuous monitoring is required and may worsen the fetal heart pattern."
+        },
+        {
+          "key": "D",
+          "text": "Change maternal position, stop any oxytocin infusion, and escalate immediately to the obstetric team for review.",
+          "is_correct": true,
+          "rationale": "These are the correct first-line conservative measures and essential escalation for a pathological CTG."
+        },
+        {
+          "key": "E",
+          "text": "Document the findings accurately in the notes and continue with routine fifteen-minute observations as planned.",
+          "is_correct": false,
+          "rationale": "This is a passive response to an acute situation that requires immediate intervention and escalation."
+        }
+      ]
+    }
+  ]
+}

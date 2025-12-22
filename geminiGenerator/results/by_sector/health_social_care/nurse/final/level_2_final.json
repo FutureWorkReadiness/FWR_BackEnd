@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "When assessing a patient's vital signs, which of the following parameters provides the most immediate indication of a potential circulatory problem?",
+      "explanation": "Blood pressure directly reflects the force of blood against arterial walls, and significant changes can rapidly indicate circulatory issues like hypovolemia or shock, requiring prompt nursing intervention.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Body temperature measurements reflect the patient's core heat regulation, important for infection status.",
+          "is_correct": false,
+          "rationale": "Temperature indicates infection or regulation issues, not primary circulatory problems."
+        },
+        {
+          "key": "B",
+          "text": "Respiratory rate indicates the efficiency of gas exchange but is not the primary circulatory indicator.",
+          "is_correct": false,
+          "rationale": "Respiratory rate reflects breathing, not primarily circulatory function."
+        },
+        {
+          "key": "C",
+          "text": "Blood pressure readings directly reflect the force of blood circulation and cardiac output, indicating circulatory status.",
+          "is_correct": true,
+          "rationale": "Blood pressure directly assesses circulatory health and cardiac output."
+        },
+        {
+          "key": "D",
+          "text": "Pulse oximetry measures oxygen saturation in the blood, reflecting respiratory and perfusion status.",
+          "is_correct": false,
+          "rationale": "Pulse oximetry measures oxygen, which is related but not the primary circulatory indicator."
+        },
+        {
+          "key": "E",
+          "text": "Pain level assessment helps manage discomfort but does not directly indicate a circulatory problem.",
+          "is_correct": false,
+          "rationale": "Pain assessment is subjective and not a direct circulatory indicator."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Which essential 'right' of medication administration ensures the nurse confirms the correct patient before drug delivery?",
+      "explanation": "The 'Right Patient' is a fundamental principle in medication safety, requiring nurses to verify patient identity using multiple identifiers to prevent serious administration errors.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Administering the medication at the correct time ensures optimal drug efficacy and therapeutic levels are maintained.",
+          "is_correct": false,
+          "rationale": "This refers to the 'Right Time' of medication administration."
+        },
+        {
+          "key": "B",
+          "text": "Ensuring the medication is the correct drug prevents adverse reactions and promotes the intended therapeutic effect.",
+          "is_correct": false,
+          "rationale": "This refers to the 'Right Drug' of medication administration."
+        },
+        {
+          "key": "C",
+          "text": "Verifying the correct patient using multiple identifiers safeguards against medication errors and ensures patient safety.",
+          "is_correct": true,
+          "rationale": "Verifying patient identity is crucial for the 'Right Patient' principle."
+        },
+        {
+          "key": "D",
+          "text": "Confirming the correct dose prevents underdosing or overdosing, which could lead to ineffective treatment or toxicity.",
+          "is_correct": false,
+          "rationale": "This refers to the 'Right Dose' of medication administration."
+        },
+        {
+          "key": "E",
+          "text": "Documenting the correct route ensures the medication is absorbed properly and achieves its intended systemic effect.",
+          "is_correct": false,
+          "rationale": "This refers to the 'Right Route' of medication administration."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What is the most effective single intervention a nurse can perform to prevent healthcare-associated infections?",
+      "explanation": "Hand hygiene, through washing or sanitizing, is consistently proven as the single most effective measure to prevent the spread of pathogens and reduce healthcare-associated infections.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Regularly cleaning and disinfecting patient care equipment helps reduce pathogen transmission on surfaces.",
+          "is_correct": false,
+          "rationale": "Equipment cleaning is important but less impactful than hand hygiene."
+        },
+        {
+          "key": "B",
+          "text": "Isolating patients with communicable diseases prevents direct and indirect spread to other vulnerable individuals.",
+          "is_correct": false,
+          "rationale": "Isolation is crucial but not the most frequent or effective single intervention."
+        },
+        {
+          "key": "C",
+          "text": "Performing thorough hand hygiene before and after all patient contact significantly reduces pathogen transmission.",
+          "is_correct": true,
+          "rationale": "Hand hygiene is the cornerstone of infection prevention in healthcare."
+        },
+        {
+          "key": "D",
+          "text": "Ensuring proper use of personal protective equipment (PPE) protects both healthcare workers and patients from exposure.",
+          "is_correct": false,
+          "rationale": "PPE is vital, but hand hygiene has broader and more frequent application."
+        },
+        {
+          "key": "E",
+          "text": "Administering prophylactic antibiotics to at-risk patients prevents bacterial growth but has limitations.",
+          "is_correct": false,
+          "rationale": "Antibiotics are not a primary infection control method due to resistance risks."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "When communicating with a patient who is experiencing significant anxiety about their diagnosis, what is the best initial nursing approach?",
+      "explanation": "Active listening and empathetic responses validate the patient's feelings and build trust, which is crucial before attempting to provide detailed information or solutions during high anxiety.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Providing a detailed explanation of their diagnosis and treatment plan helps them understand the medical facts.",
+          "is_correct": false,
+          "rationale": "Detailed information may overwhelm an anxious patient initially."
+        },
+        {
+          "key": "B",
+          "text": "Reassuring them that everything will be fine offers comfort, but might not address underlying fears effectively.",
+          "is_correct": false,
+          "rationale": "False reassurance can invalidate feelings and erode trust."
+        },
+        {
+          "key": "C",
+          "text": "Actively listening to their concerns and validating their feelings builds trust and reduces immediate distress.",
+          "is_correct": true,
+          "rationale": "Active listening and empathy are crucial for building rapport and reducing anxiety."
+        },
+        {
+          "key": "D",
+          "text": "Encouraging them to distract themselves with activities can temporarily alleviate anxiety but avoids the core issue.",
+          "is_correct": false,
+          "rationale": "Distraction is temporary and does not address the root cause of anxiety."
+        },
+        {
+          "key": "E",
+          "text": "Referring them immediately to a mental health specialist is important, but not the initial nursing approach.",
+          "is_correct": false,
+          "rationale": "Referral may be needed, but initial nursing support is paramount."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Why is accurate and timely documentation of patient care activities crucial for effective healthcare delivery?",
+      "explanation": "Accurate documentation ensures continuity of care, facilitates interdisciplinary communication, provides legal protection, and supports billing, making it fundamental for patient safety and operational efficiency.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It primarily serves as a legal record for billing purposes, ensuring accurate financial transactions are recorded.",
+          "is_correct": false,
+          "rationale": "Billing is a function, but not the primary or sole purpose of documentation."
+        },
+        {
+          "key": "B",
+          "text": "It guarantees perfect patient outcomes by meticulously tracking every intervention, which is an overstatement.",
+          "is_correct": false,
+          "rationale": "Documentation supports, but does not guarantee, perfect patient outcomes."
+        },
+        {
+          "key": "C",
+          "text": "It ensures continuity of care, enhances communication among healthcare team members, and provides legal protection.",
+          "is_correct": true,
+          "rationale": "Documentation is vital for care continuity, communication, and legal compliance."
+        },
+        {
+          "key": "D",
+          "text": "It is mainly used for research studies to gather data on treatment effectiveness and patient demographics.",
+          "is_correct": false,
+          "rationale": "Research is a secondary use; primary is patient care and legal record."
+        },
+        {
+          "key": "E",
+          "text": "It allows nurses to quickly review past shifts and identify personal performance areas for improvement.",
+          "is_correct": false,
+          "rationale": "While useful for reflection, this is not its primary crucial purpose."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Upon discovering a patient's sudden, significant drop in blood pressure and increased heart rate, what is the nurse's immediate priority?",
+      "explanation": "A sudden drop in blood pressure with an increased heart rate indicates potential hemodynamic instability requiring urgent medical attention. Rapidly reporting this to the medical team is crucial for timely intervention.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Document the findings thoroughly in the patient's electronic health record and continue close monitoring.",
+          "is_correct": false,
+          "rationale": "While documentation is vital, it is not the immediate priority for critical changes."
+        },
+        {
+          "key": "B",
+          "text": "Immediately report the critical findings to the supervising physician or charge nurse for further orders.",
+          "is_correct": true,
+          "rationale": "Critical vital sign changes require immediate reporting for rapid medical intervention."
+        },
+        {
+          "key": "C",
+          "text": "Administer an ordered PRN pain medication to alleviate any potential discomfort or anxiety.",
+          "is_correct": false,
+          "rationale": "Pain medication is not appropriate for addressing hemodynamic instability."
+        },
+        {
+          "key": "D",
+          "text": "Recheck the patient's vital signs in 30 minutes to confirm the accuracy of the initial readings.",
+          "is_correct": false,
+          "rationale": "Delaying action for critical changes can compromise patient safety."
+        },
+        {
+          "key": "E",
+          "text": "Elevate the patient's legs to improve venous return and potentially increase their blood pressure.",
+          "is_correct": false,
+          "rationale": "This might be an intervention, but reporting is the immediate priority."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Before administering any medication, which of the 'Five Rights' is paramount to verify after checking the medication order?",
+      "explanation": "Verifying the 'Right Patient' is a critical step in medication administration to prevent errors. Using two patient identifiers ensures the medication is given to the correct individual.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensure the medication is the 'Right Dose' by carefully calculating and measuring the prescribed quantity.",
+          "is_correct": false,
+          "rationale": "Right Dose is important, but Right Patient precedes administration."
+        },
+        {
+          "key": "B",
+          "text": "Confirm that it is the 'Right Time' for administration according to the physician's specific orders.",
+          "is_correct": false,
+          "rationale": "Right Time is important, but Right Patient precedes administration."
+        },
+        {
+          "key": "C",
+          "text": "Verify the patient's identity using at least two distinct identifiers before administering any medication.",
+          "is_correct": true,
+          "rationale": "Ensuring the correct patient receives the medication is a fundamental safety measure."
+        },
+        {
+          "key": "D",
+          "text": "Check that the medication is the 'Right Route' by confirming the prescribed method of delivery.",
+          "is_correct": false,
+          "rationale": "Right Route is important, but Right Patient precedes administration."
+        },
+        {
+          "key": "E",
+          "text": "Educate the patient about the 'Right Medication' including its purpose, side effects, and expected benefits.",
+          "is_correct": false,
+          "rationale": "Patient education is vital, but verifying the patient is a prior safety step."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What is considered the most effective single measure a nurse can take to prevent the spread of hospital-acquired infections?",
+      "explanation": "Consistent and thorough hand hygiene is the cornerstone of infection prevention. It effectively removes microorganisms, significantly reducing the transmission of pathogens in healthcare settings.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensuring all patient rooms are regularly disinfected with hospital-grade cleaning solutions.",
+          "is_correct": false,
+          "rationale": "Environmental cleaning is important, but hand hygiene is the most impactful single measure."
+        },
+        {
+          "key": "B",
+          "text": "Strictly adhering to isolation precautions for all patients diagnosed with infectious diseases.",
+          "is_correct": false,
+          "rationale": "Isolation is crucial for specific cases, but hand hygiene is universal."
+        },
+        {
+          "key": "C",
+          "text": "Performing thorough and consistent hand hygiene before and after all patient contact is paramount.",
+          "is_correct": true,
+          "rationale": "Hand hygiene is universally recognized as the single most effective infection control measure."
+        },
+        {
+          "key": "D",
+          "text": "Administering prophylactic antibiotics to certain high-risk patients in order to prevent potential future infections.",
+          "is_correct": false,
+          "rationale": "Prophylactic antibiotics have risks and are not a universal infection control measure."
+        },
+        {
+          "key": "E",
+          "text": "Always wearing personal protective equipment, including gloves, gowns, and masks, during direct patient care.",
+          "is_correct": false,
+          "rationale": "PPE is vital, but hand hygiene often precedes and follows PPE use, making it more fundamental."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Why is accurate, timely, and comprehensive documentation of patient care so crucial in nursing practice?",
+      "explanation": "Effective documentation ensures continuity of care, supports legal accountability, and facilitates clear communication among all members of the healthcare team, ultimately improving patient outcomes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Primarily for accurate billing purposes and to track the financial aspects of patient treatment plans.",
+          "is_correct": false,
+          "rationale": "While documentation aids billing, its primary purpose is clinical and legal."
+        },
+        {
+          "key": "B",
+          "text": "It serves as a legal record, facilitates communication, and ensures continuity of care among the healthcare team.",
+          "is_correct": true,
+          "rationale": "Documentation is essential for legal protection, team communication, and patient care continuity."
+        },
+        {
+          "key": "C",
+          "text": "To provide evidence for performance reviews and to justify staffing levels within the nursing unit.",
+          "is_correct": false,
+          "rationale": "These are secondary benefits, not the primary purpose of patient documentation."
+        },
+        {
+          "key": "D",
+          "text": "Mainly for research purposes, collecting data to improve future healthcare protocols and interventions.",
+          "is_correct": false,
+          "rationale": "Research can use documented data, but it's not the primary function."
+        },
+        {
+          "key": "E",
+          "text": "To demonstrate compliance with hospital policies and procedures during internal audits and inspections.",
+          "is_correct": false,
+          "rationale": "Compliance is a benefit, but the core reasons are patient care, communication, and legal."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "A patient expresses a desire to refuse a prescribed medication. What is the nurse's primary ethical responsibility in this situation?",
+      "explanation": "Nurses must respect patient autonomy. This involves ensuring the patient fully understands the implications of their decision before documenting their informed refusal and communicating it to the medical team.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Forcefully administer the medication, emphasizing its importance for their immediate health improvement.",
+          "is_correct": false,
+          "rationale": "Forcing medication violates patient autonomy and is unethical and illegal."
+        },
+        {
+          "key": "B",
+          "text": "Immediately document the refusal in the patient's chart without further discussion or intervention.",
+          "is_correct": false,
+          "rationale": "Documentation is needed, but only after ensuring informed refusal."
+        },
+        {
+          "key": "C",
+          "text": "Educate the patient clearly about the potential risks and consequences of refusing the prescribed medication.",
+          "is_correct": true,
+          "rationale": "Nurses must ensure patients make informed decisions, respecting their autonomy."
+        },
+        {
+          "key": "D",
+          "text": "Contact the patient's next of kin or emergency contact to inform them of the patient's decision.",
+          "is_correct": false,
+          "rationale": "Patient confidentiality must be maintained unless consent for disclosure is given."
+        },
+        {
+          "key": "E",
+          "text": "Persuade the patient aggressively to take the medication, highlighting all possible negative outcomes.",
+          "is_correct": false,
+          "rationale": "Aggressive persuasion undermines autonomy and can damage the nurse-patient relationship."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "A patient reports feeling dizzy and nauseous shortly after receiving their prescribed medication. What is the nurse's immediate priority action in this situation?",
+      "explanation": "The immediate priority is to assess the patient's condition and ensure their safety. This involves vital signs, symptoms, and potential adverse reactions. Reporting and documentation follow the initial patient assessment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Document the patient's reported symptoms thoroughly in their electronic health record for future reference.",
+          "is_correct": false,
+          "rationale": "Documentation is important, but patient assessment is the immediate priority."
+        },
+        {
+          "key": "B",
+          "text": "Immediately assess the patient's vital signs and current symptoms to determine the severity of their reaction.",
+          "is_correct": true,
+          "rationale": "Patient assessment is critical to understand the severity and manage the adverse reaction."
+        },
+        {
+          "key": "C",
+          "text": "Notify the prescribing physician about the patient's adverse reaction to the medication as soon as possible.",
+          "is_correct": false,
+          "rationale": "While important, assessment should precede notification to provide accurate details."
+        },
+        {
+          "key": "D",
+          "text": "Recheck the medication administration record to confirm the correct drug and dosage were given.",
+          "is_correct": false,
+          "rationale": "This is important for investigation, but patient safety comes first."
+        },
+        {
+          "key": "E",
+          "text": "Provide the patient with a glass of water and encourage them to rest comfortably in their bed.",
+          "is_correct": false,
+          "rationale": "Comfort measures are secondary to a thorough clinical assessment."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "During a shift change, a nurse is providing a handover to the incoming nurse. What information is most crucial to convey for continuity of patient care?",
+      "explanation": "Effective handover ensures patient safety and continuity of care. Critical information includes current patient status, recent changes, care plans, and any anticipated issues or concerns.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Details about the patient's family history and their preferred television programs in the room.",
+          "is_correct": false,
+          "rationale": "This information is generally not crucial for immediate continuity of clinical care."
+        },
+        {
+          "key": "B",
+          "text": "The patient's most recent vital signs, current medical status, and any pending diagnostic tests.",
+          "is_correct": true,
+          "rationale": "This provides essential clinical data for the incoming nurse to understand the patient's current condition."
+        },
+        {
+          "key": "C",
+          "text": "A comprehensive list of all medications administered during the entire previous shift.",
+          "is_correct": false,
+          "rationale": "While medication is important, focus should be on changes, not a full list already documented."
+        },
+        {
+          "key": "D",
+          "text": "Personal opinions regarding the patient's personality and their general level of cooperativeness.",
+          "is_correct": false,
+          "rationale": "Professional handover focuses on objective clinical facts, not subjective opinions."
+        },
+        {
+          "key": "E",
+          "text": "The full names and contact details of all visitors who saw the patient that day.",
+          "is_correct": false,
+          "rationale": "Visitor information is not typically part of a critical clinical handover."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "When performing routine patient care, which action best demonstrates adherence to standard infection control precautions to prevent pathogen transmission?",
+      "explanation": "Hand hygiene is the single most effective measure to prevent the spread of infection. It is a fundamental component of standard precautions applied to all patients.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Wearing a sterile gown and gloves for all patient interactions, regardless of the procedure.",
+          "is_correct": false,
+          "rationale": "Sterile gowns and gloves are for specific procedures, not all routine care."
+        },
+        {
+          "key": "B",
+          "text": "Administering prophylactic antibiotics to all patients upon admission to the hospital ward.",
+          "is_correct": false,
+          "rationale": "Prophylactic antibiotics are not a standard infection control precaution for all patients."
+        },
+        {
+          "key": "C",
+          "text": "Performing thorough hand hygiene with soap and water or alcohol-based rub before and after patient contact.",
+          "is_correct": true,
+          "rationale": "Hand hygiene is the cornerstone of standard precautions and crucial for preventing infection transmission."
+        },
+        {
+          "key": "D",
+          "text": "Isolating every patient diagnosed with a common cold in a private room to prevent widespread transmission.",
+          "is_correct": false,
+          "rationale": "Isolation is not required for every common cold; standard precautions are generally sufficient."
+        },
+        {
+          "key": "E",
+          "text": "Disinfecting all patient care equipment only once at the end of the entire nursing shift.",
+          "is_correct": false,
+          "rationale": "Equipment should be disinfected between patients or as per policy, not just at shift end."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Why is accurate and timely documentation of patient care interventions and observations critically important for a nurse?",
+      "explanation": "Accurate documentation ensures continuity of care, facilitates communication among healthcare team members, and provides a legal record of care provided, protecting both patient and nurse.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It helps to ensure legal protection for the nurse in case of any future patient complaints or litigation.",
+          "is_correct": false,
+          "rationale": "While a benefit, it's not the primary clinical reason for documentation."
+        },
+        {
+          "key": "B",
+          "text": "It allows for efficient billing and financial record-keeping within the healthcare facility's administrative department.",
+          "is_correct": false,
+          "rationale": "This is a secondary administrative benefit, not the primary clinical importance."
+        },
+        {
+          "key": "C",
+          "text": "It provides a comprehensive, real-time record of the patient's condition and the care provided, ensuring continuity.",
+          "is_correct": true,
+          "rationale": "This ensures all healthcare providers have current information, promoting safe and continuous care."
+        },
+        {
+          "key": "D",
+          "text": "It serves as a personal reminder for the nurse about tasks completed during their busy and demanding shift.",
+          "is_correct": false,
+          "rationale": "While it can serve this purpose, it's not the primary professional reason for documentation."
+        },
+        {
+          "key": "E",
+          "text": "It is primarily used for research purposes to collect data on various patient outcomes and treatment efficacy.",
+          "is_correct": false,
+          "rationale": "Research is a secondary use; the primary purpose is direct patient care and communication."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "A nurse overhears a colleague discussing a patient's medical history in a public area. What is the most appropriate action for the nurse to take?",
+      "explanation": "Patient confidentiality is a fundamental ethical and legal principle in nursing. Addressing breaches discreetly and professionally is crucial to protect patient information and uphold professional standards.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Join the conversation to offer additional insights about the patient's complex medical background.",
+          "is_correct": false,
+          "rationale": "This would exacerbate the breach of confidentiality and is unprofessional."
+        },
+        {
+          "key": "B",
+          "text": "Immediately report the colleague to the nurse manager without speaking to them directly first.",
+          "is_correct": false,
+          "rationale": "Addressing the colleague directly and discreetly is often the first and most professional step."
+        },
+        {
+          "key": "C",
+          "text": "Discreetly remind the colleague about patient confidentiality and the importance of private discussions.",
+          "is_correct": true,
+          "rationale": "This addresses the breach professionally and allows the colleague to correct their behavior immediately."
+        },
+        {
+          "key": "D",
+          "text": "Ignore the conversation, assuming it is not the nurse's responsibility to intervene in such matters.",
+          "is_correct": false,
+          "rationale": "Nurses have a professional and ethical responsibility to uphold patient confidentiality."
+        },
+        {
+          "key": "E",
+          "text": "Publicly confront the colleague, loudly pointing out their unprofessional behavior to everyone present.",
+          "is_correct": false,
+          "rationale": "A public confrontation is unprofessional and could cause further embarrassment or conflict."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What is the most crucial step a nurse must take to ensure patient safety before administering any medication?",
+      "explanation": "Confirming the patient's identity using two unique identifiers is a fundamental safety practice. It prevents critical medication administration errors and ensures the right patient receives the correct treatment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Confirming the patient's identity using two unique identifiers, such as name and birthdate, before administration.",
+          "is_correct": true,
+          "rationale": "Patient identification prevents critical medication administration errors."
+        },
+        {
+          "key": "B",
+          "text": "Explaining the medication's purpose, dosage, and potential side effects to the patient.",
+          "is_correct": false,
+          "rationale": "Patient education is important but secondary to identity verification for safety."
+        },
+        {
+          "key": "C",
+          "text": "Checking the medication's expiry date and appearance for any visible changes or damage.",
+          "is_correct": false,
+          "rationale": "Checking expiry is important, but patient identification is more critical first."
+        },
+        {
+          "key": "D",
+          "text": "Documenting the medication administration immediately after the patient takes the prescribed dose.",
+          "is_correct": false,
+          "rationale": "Documentation occurs after administration, not before for safety."
+        },
+        {
+          "key": "E",
+          "text": "Verifying the medication order against the patient's current treatment plan and allergies.",
+          "is_correct": false,
+          "rationale": "Order verification is crucial, but patient identification is the first safety step."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "During a shift handover, what information is most vital for a nurse to relay to the oncoming nursing staff?",
+      "explanation": "Effective handover prioritizes critical information such as changes in patient condition, unresolved issues, and pending tasks to ensure continuity of safe and effective patient care.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A detailed account of all patient meals consumed and their fluid intake during the shift.",
+          "is_correct": false,
+          "rationale": "While important, this is not the most critical information for handover."
+        },
+        {
+          "key": "B",
+          "text": "The patient's most recent vital signs and current medication administration schedule.",
+          "is_correct": false,
+          "rationale": "These are important but less critical than significant changes or pending tasks."
+        },
+        {
+          "key": "C",
+          "text": "Any significant changes in patient condition, critical incidents, or pending tasks.",
+          "is_correct": true,
+          "rationale": "Critical changes, incidents, and pending tasks ensure continuity of care."
+        },
+        {
+          "key": "D",
+          "text": "Sharing personal opinions regarding the patient's family members or their general level of cooperativeness.",
+          "is_correct": false,
+          "rationale": "Personal opinions are unprofessional and irrelevant to clinical handover."
+        },
+        {
+          "key": "E",
+          "text": "A comprehensive list of all visitors who entered the patient's room during the shift.",
+          "is_correct": false,
+          "rationale": "Visitor logs are important for security, but not primary for clinical handover."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Which action is the most effective measure a nurse can take to prevent healthcare-associated infections (HAIs)?",
+      "explanation": "Hand hygiene is consistently recognized as the single most effective method for preventing the spread of infections in healthcare settings. Adherence to this practice significantly reduces HAI rates.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Regularly sanitizing all patient care equipment and various high-touch surfaces within the room thoroughly.",
+          "is_correct": false,
+          "rationale": "Environmental cleaning is important but less impactful than hand hygiene."
+        },
+        {
+          "key": "B",
+          "text": "Ensuring proper waste disposal protocols are strictly followed for all clinical waste.",
+          "is_correct": false,
+          "rationale": "Waste disposal is crucial for safety but not the primary HAI prevention."
+        },
+        {
+          "key": "C",
+          "text": "Performing hand hygiene diligently before and after every patient contact and procedure.",
+          "is_correct": true,
+          "rationale": "Hand hygiene is the single most effective way to prevent infection spread."
+        },
+        {
+          "key": "D",
+          "text": "Administering prophylactic antibiotics to specific at-risk patients according to the strict orders from a physician.",
+          "is_correct": false,
+          "rationale": "Antibiotic use has risks and is not the primary universal prevention method."
+        },
+        {
+          "key": "E",
+          "text": "Educating patients and their families about the importance of good personal hygiene practices.",
+          "is_correct": false,
+          "rationale": "Patient education supports prevention but is not the nurse's primary action."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Why is accurate and timely documentation of patient care interventions critically important for a nurse?",
+      "explanation": "Accurate documentation is crucial for patient safety, legal compliance, and ensuring all healthcare team members have current, reliable information for continuity of care and informed decision-making.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It provides a comprehensive record for billing purposes and insurance claim processing.",
+          "is_correct": false,
+          "rationale": "Billing is a secondary benefit, not the primary clinical importance of documentation."
+        },
+        {
+          "key": "B",
+          "text": "It facilitates legal protection for the nurse and the healthcare facility in case of litigation.",
+          "is_correct": false,
+          "rationale": "Legal protection is a benefit, but not the primary reason for clinical documentation."
+        },
+        {
+          "key": "C",
+          "text": "It ensures continuity of care, supports clinical decision-making, and maintains legal records.",
+          "is_correct": true,
+          "rationale": "Documentation ensures continuity, supports decisions, and provides a legal record."
+        },
+        {
+          "key": "D",
+          "text": "It allows for efficient tracking of nursing workload and staff performance metrics.",
+          "is_correct": false,
+          "rationale": "Workload tracking is an administrative use, not the primary clinical purpose."
+        },
+        {
+          "key": "E",
+          "text": "It helps in identifying training needs for nursing staff based on observed care gaps.",
+          "is_correct": false,
+          "rationale": "Identifying training needs is a management function, not the primary purpose."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "A patient with full capacity refuses a necessary medical treatment. What is the nurse's primary ethical responsibility?",
+      "explanation": "Respecting patient autonomy means upholding their right to make informed decisions about their own care, even if those decisions go against medical advice, provided they have the capacity to decide.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Persuade the patient to accept the treatment by emphasizing the severe potential risks of refusal.",
+          "is_correct": false,
+          "rationale": "Persuasion can undermine autonomy if it becomes coercive."
+        },
+        {
+          "key": "B",
+          "text": "Inform the physician immediately and document the patient's refusal clearly in their medical record.",
+          "is_correct": false,
+          "rationale": "While important, this is a procedural step, not the primary ethical responsibility."
+        },
+        {
+          "key": "C",
+          "text": "Respect the patient's autonomy after ensuring they understand the implications of their decision.",
+          "is_correct": true,
+          "rationale": "Nurses must respect patient autonomy and ensure informed decision-making."
+        },
+        {
+          "key": "D",
+          "text": "Seek a second medical opinion to confirm the necessity of the treatment being refused.",
+          "is_correct": false,
+          "rationale": "Seeking a second opinion is for clinical confirmation, not the ethical duty."
+        },
+        {
+          "key": "E",
+          "text": "Involve the patient's family members to convince the patient to comply with the medical advice.",
+          "is_correct": false,
+          "rationale": "Involving family to convince can infringe on patient's right to decide."
+        }
+      ]
+    }
+  ]
+}

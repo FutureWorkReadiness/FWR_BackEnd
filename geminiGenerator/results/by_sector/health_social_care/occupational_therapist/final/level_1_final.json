@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "When beginning with a new client, what is the most crucial first step for an occupational therapist to take?",
+      "explanation": "The initial assessment is fundamental for understanding the client's needs, goals, and current abilities. It forms the basis for developing an effective, client-centered intervention plan.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately provide adaptive equipment to help them perform daily living activities more easily.",
+          "is_correct": false,
+          "rationale": "Providing equipment prematurely is not the first step."
+        },
+        {
+          "key": "B",
+          "text": "Conduct a comprehensive initial assessment to understand their needs, goals, and functional abilities.",
+          "is_correct": true,
+          "rationale": "An initial assessment is essential for client-centered care planning."
+        },
+        {
+          "key": "C",
+          "text": "Schedule a family meeting to discuss their medical history and potential support systems available.",
+          "is_correct": false,
+          "rationale": "While important, this comes after initial client engagement."
+        },
+        {
+          "key": "D",
+          "text": "Refer them directly to a physical therapist for strengthening exercises and mobility improvement.",
+          "is_correct": false,
+          "rationale": "The OT must first assess the client's specific needs."
+        },
+        {
+          "key": "E",
+          "text": "Develop a detailed long-term treatment plan focusing on their specific physical rehabilitation goals.",
+          "is_correct": false,
+          "rationale": "A treatment plan cannot be developed without prior assessment."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Why is a client-centered approach considered fundamental in occupational therapy practice and intervention planning?",
+      "explanation": "A client-centered approach ensures that interventions are tailored to the individual's unique needs, values, and goals, promoting engagement and better outcomes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It primarily ensures compliance with all regulatory body guidelines for professional healthcare practitioners.",
+          "is_correct": false,
+          "rationale": "Compliance is a byproduct, not the primary purpose."
+        },
+        {
+          "key": "B",
+          "text": "It empowers clients by involving them in decision-making, leading to more meaningful and effective outcomes.",
+          "is_correct": true,
+          "rationale": "Empowering clients leads to better engagement and results."
+        },
+        {
+          "key": "C",
+          "text": "It allows the therapist to complete documentation more efficiently by following standardized intervention protocols.",
+          "is_correct": false,
+          "rationale": "Focuses on administrative efficiency, not client benefit."
+        },
+        {
+          "key": "D",
+          "text": "It streamlines the referral process to other healthcare professionals, ensuring faster access to services.",
+          "is_correct": false,
+          "rationale": "This is not the main reason for client-centered practice."
+        },
+        {
+          "key": "E",
+          "text": "It reduces the overall cost of therapy by focusing on readily available and less expensive intervention methods.",
+          "is_correct": false,
+          "rationale": "Cost reduction is not the primary driver for this approach."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which of the following best describes the primary focus of an occupational therapist concerning Activities of Daily Living (ADLs)?",
+      "explanation": "Occupational therapists focus on helping individuals achieve independence in essential daily tasks like bathing, dressing, and eating, which are crucial for quality of life.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To teach clients advanced athletic skills for participation in competitive sports and physical activities.",
+          "is_correct": false,
+          "rationale": "ADLs focus on basic self-care, not advanced athletic skills."
+        },
+        {
+          "key": "B",
+          "text": "To improve clients' ability to perform essential self-care tasks, such as bathing, dressing, and eating, independently.",
+          "is_correct": true,
+          "rationale": "ADLs are fundamental self-care tasks for daily independence."
+        },
+        {
+          "key": "C",
+          "text": "To provide vocational training for clients seeking new employment opportunities after a significant injury.",
+          "is_correct": false,
+          "rationale": "This relates to instrumental ADLs or vocational rehabilitation."
+        },
+        {
+          "key": "D",
+          "text": "To administer medication and manage pain symptoms for clients experiencing chronic physical discomfort.",
+          "is_correct": false,
+          "rationale": "This falls outside the scope of occupational therapy practice."
+        },
+        {
+          "key": "E",
+          "text": "To conduct group therapy sessions aimed at improving social communication skills among various client populations.",
+          "is_correct": false,
+          "rationale": "This is a different area of intervention, not primary ADL focus."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "An occupational therapist might recommend home modifications for a client primarily to achieve what outcome?",
+      "explanation": "Home modifications are crucial for creating a safe and accessible environment, enabling clients to perform daily activities with greater independence and reduced risk of injury.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To increase the property value of the client's home through aesthetic improvements and modern upgrades.",
+          "is_correct": false,
+          "rationale": "The focus is on function and safety, not property value."
+        },
+        {
+          "key": "B",
+          "text": "To ensure the client can safely and independently perform daily tasks within their living environment.",
+          "is_correct": true,
+          "rationale": "Modifications aim to enhance safety and independence at home."
+        },
+        {
+          "key": "C",
+          "text": "To provide a comfortable space for family members to visit and offer support during recovery.",
+          "is_correct": false,
+          "rationale": "While beneficial, this is not the primary goal of modifications."
+        },
+        {
+          "key": "D",
+          "text": "To comply with local housing regulations regarding accessibility standards for individuals with disabilities.",
+          "is_correct": false,
+          "rationale": "Compliance is a secondary benefit, not the core purpose."
+        },
+        {
+          "key": "E",
+          "text": "To reduce the need for external care services by automating several household chores and routines.",
+          "is_correct": false,
+          "rationale": "Focus is on client function, not automating chores."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Why is accurate and timely documentation essential for an occupational therapist in health social care?",
+      "explanation": "Proper documentation ensures continuity of care, facilitates communication among the healthcare team, justifies services, and meets legal and ethical requirements.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It primarily serves as a marketing tool to attract new clients to the occupational therapy practice.",
+          "is_correct": false,
+          "rationale": "Documentation's main purpose is not marketing."
+        },
+        {
+          "key": "B",
+          "text": "It ensures continuity of care, justifies services, and facilitates communication among all healthcare team members.",
+          "is_correct": true,
+          "rationale": "Crucial for effective care, communication, and accountability."
+        },
+        {
+          "key": "C",
+          "text": "It helps in tracking the therapist's billable hours for payroll purposes and administrative record-keeping.",
+          "is_correct": false,
+          "rationale": "A secondary administrative benefit, not the core purpose."
+        },
+        {
+          "key": "D",
+          "text": "It is mainly used to report client progress directly to insurance companies for reimbursement approval.",
+          "is_correct": false,
+          "rationale": "While part of it, this is not the sole or primary reason."
+        },
+        {
+          "key": "E",
+          "text": "It provides a comprehensive record of client preferences for entertainment and leisure activities only.",
+          "is_correct": false,
+          "rationale": "Documentation covers all aspects of care, not just leisure."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What is the primary goal of an occupational therapist when working with individuals facing daily challenges?",
+      "explanation": "Occupational therapy focuses on enabling participation in daily life through therapeutic use of occupations. It helps clients overcome barriers to independence and improve their quality of life.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To help individuals achieve independence in meaningful daily activities and roles.",
+          "is_correct": true,
+          "rationale": "OT aims for independence in daily activities and meaningful roles."
+        },
+        {
+          "key": "B",
+          "text": "To prescribe appropriate medications for managing chronic pain conditions and symptoms.",
+          "is_correct": false,
+          "rationale": "Prescribing medication is outside the scope of occupational therapy practice."
+        },
+        {
+          "key": "C",
+          "text": "To perform complex surgical procedures to correct physical impairments and injuries.",
+          "is_correct": false,
+          "rationale": "Performing surgery is a role for medical doctors, not occupational therapists."
+        },
+        {
+          "key": "D",
+          "text": "To offer psychological counseling to address underlying mental health disorders.",
+          "is_correct": false,
+          "rationale": "While OTs support mental health, primary counseling is for psychologists."
+        },
+        {
+          "key": "E",
+          "text": "To conduct advanced medical research on new therapeutic interventions and treatments.",
+          "is_correct": false,
+          "rationale": "Research is a specialized field, not the primary goal of clinical OT."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Which common assessment tool helps an occupational therapist understand a client's functional abilities?",
+      "explanation": "The COPM is a client-centered tool used by OTs to identify and prioritize daily activities clients want or need to perform but are having difficulty with, assessing performance and satisfaction.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Canadian Occupational Performance Measure (COPM) is used to assess a client's self-perceived occupational performance.",
+          "is_correct": true,
+          "rationale": "COPM is a key OT assessment for understanding functional abilities."
+        },
+        {
+          "key": "B",
+          "text": "A blood test measures various physiological markers to detect underlying medical conditions.",
+          "is_correct": false,
+          "rationale": "Blood tests are medical diagnostic tools, not typical OT assessments."
+        },
+        {
+          "key": "C",
+          "text": "An X-ray imaging scan visualizes bone structures for identifying fractures or abnormalities.",
+          "is_correct": false,
+          "rationale": "X-rays are used for radiological diagnosis, not functional assessment by OTs."
+        },
+        {
+          "key": "D",
+          "text": "A psychiatric evaluation diagnoses mental health disorders and determines appropriate treatment plans.",
+          "is_correct": false,
+          "rationale": "Psychiatric evaluations are conducted by psychiatrists, not occupational therapists."
+        },
+        {
+          "key": "E",
+          "text": "An electrocardiogram (ECG) records the heart's electrical activity to detect cardiac issues.",
+          "is_correct": false,
+          "rationale": "An ECG is a cardiac diagnostic test, not an OT functional assessment."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What does a client-centered approach primarily mean in the context of occupational therapy practice?",
+      "explanation": "Client-centered care is fundamental to OT, emphasizing collaboration with the client to ensure interventions are meaningful and relevant to their individual needs, goals, and values, promoting active participation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Prioritizing the client's goals, values, and preferences throughout the entire therapy process.",
+          "is_correct": true,
+          "rationale": "Client-centered care prioritizes the client's goals and values."
+        },
+        {
+          "key": "B",
+          "text": "Ensuring that all therapy interventions strictly follow standardized protocols and guidelines.",
+          "is_correct": false,
+          "rationale": "While guidelines are important, strict adherence without client input is not client-centered."
+        },
+        {
+          "key": "C",
+          "text": "Focusing solely on the physical rehabilitation aspects of a client's recovery journey.",
+          "is_correct": false,
+          "rationale": "OT takes a holistic view, not solely focusing on physical aspects."
+        },
+        {
+          "key": "D",
+          "text": "Making all clinical decisions based exclusively on the therapist's professional judgment.",
+          "is_correct": false,
+          "rationale": "Client-centered care involves shared decision-making, not exclusive therapist judgment."
+        },
+        {
+          "key": "E",
+          "text": "Providing therapy services primarily in a clinical setting rather than in the client's home.",
+          "is_correct": false,
+          "rationale": "The setting doesn't define client-centeredness; it's about the approach."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "When conducting a home assessment, what is a crucial safety consideration for an occupational therapist?",
+      "explanation": "Home assessments aim to identify and mitigate environmental barriers that could compromise a client's safety and independence, with fall prevention being a primary concern to prevent injuries.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Identifying potential fall hazards like loose rugs, inadequate lighting, or cluttered pathways.",
+          "is_correct": true,
+          "rationale": "Identifying fall hazards is crucial for client safety in home environments."
+        },
+        {
+          "key": "B",
+          "text": "Suggesting highly advanced medical equipment that necessitates complex and professional installation procedures.",
+          "is_correct": false,
+          "rationale": "Recommendations should be practical and within the client's and home's capacity."
+        },
+        {
+          "key": "C",
+          "text": "Advising on structural renovations that significantly alter the home's original design.",
+          "is_correct": false,
+          "rationale": "Structural renovations are typically beyond the scope of an OT's home assessment."
+        },
+        {
+          "key": "D",
+          "text": "Assessing the client's financial stability to determine eligibility for expensive services.",
+          "is_correct": false,
+          "rationale": "Financial assessments are usually handled by social workers or case managers."
+        },
+        {
+          "key": "E",
+          "text": "Ensuring the home's interior design matches current aesthetic trends and preferences.",
+          "is_correct": false,
+          "rationale": "Aesthetic preferences are not a primary safety consideration during a home assessment."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Why is interdisciplinary collaboration essential for an occupational therapist working in health social care?",
+      "explanation": "Collaboration provides a comprehensive understanding of the client's needs, leading to more coordinated, effective, and client-centered interventions across all aspects of their care, optimizing outcomes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It ensures a holistic approach to client care by integrating diverse professional perspectives.",
+          "is_correct": true,
+          "rationale": "Interdisciplinary collaboration ensures holistic, integrated client care."
+        },
+        {
+          "key": "B",
+          "text": "It allows the occupational therapist to delegate all complex tasks to other team members.",
+          "is_correct": false,
+          "rationale": "Collaboration involves shared responsibility, not delegation of all complex tasks."
+        },
+        {
+          "key": "C",
+          "text": "It primarily reduces the overall workload on the occupational therapist specifically.",
+          "is_correct": false,
+          "rationale": "While efficiency may improve, the primary goal is client benefit, not workload reduction."
+        },
+        {
+          "key": "D",
+          "text": "It is mainly required for administrative purposes and documentation compliance.",
+          "is_correct": false,
+          "rationale": "Its main purpose is client care, not just administrative compliance."
+        },
+        {
+          "key": "E",
+          "text": "It limits the occupational therapist's direct involvement in the client's treatment plan.",
+          "is_correct": false,
+          "rationale": "Collaboration enhances, rather than limits, an OT's involvement in client care."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the primary purpose of conducting an initial occupational therapy assessment with a new patient?",
+      "explanation": "An initial assessment is crucial for gathering comprehensive information about a patient's abilities, challenges, and goals. This forms the foundation for developing a personalized and effective intervention plan tailored to their needs.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To gather comprehensive information about the patient's daily routines, functional abilities, and personal goals.",
+          "is_correct": true,
+          "rationale": "Initial assessment gathers crucial patient information for personalized intervention plans."
+        },
+        {
+          "key": "B",
+          "text": "To quickly introduce the patient to various therapeutic equipment available in the clinic immediately.",
+          "is_correct": false,
+          "rationale": "Immediate implementation without assessment is premature and unsafe for the patient."
+        },
+        {
+          "key": "C",
+          "text": "To determine the patient's eligibility for long-term care services and government funding programs.",
+          "is_correct": false,
+          "rationale": "Billing is secondary; assessment focuses on functional abilities, not just finances."
+        },
+        {
+          "key": "D",
+          "text": "To provide a detailed explanation of the occupational therapy profession to the patient and family.",
+          "is_correct": false,
+          "rationale": "Occupational therapists do not diagnose medical conditions or prescribe medication."
+        },
+        {
+          "key": "E",
+          "text": "To establish a rapport and discuss the patient's recreational interests for leisure activities.",
+          "is_correct": false,
+          "rationale": "This is not the primary purpose of an initial occupational therapy assessment."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "When developing an intervention plan for a patient, what is the most crucial factor to consider for successful outcomes?",
+      "explanation": "Patient-centered care emphasizes involving the patient in goal setting and intervention planning. Their active participation and motivation are vital for the success and sustainability of therapeutic outcomes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The patient's personal goals, values, and their active participation in the planning process.",
+          "is_correct": true,
+          "rationale": "Patient-centered care prioritizes the individual's goals and active participation."
+        },
+        {
+          "key": "B",
+          "text": "The latest advanced technological equipment and tools available in the therapy department.",
+          "is_correct": false,
+          "rationale": "Equipment is a tool, not the primary consideration for goal-setting and planning."
+        },
+        {
+          "key": "C",
+          "text": "The specific preferred intervention methods and techniques favored by the supervising occupational therapist.",
+          "is_correct": false,
+          "rationale": "The therapist's preference is secondary to the patient's needs and goals."
+        },
+        {
+          "key": "D",
+          "text": "The availability of various group therapy sessions offered on specific weekdays.",
+          "is_correct": false,
+          "rationale": "Group session availability is a logistical detail, not a primary planning factor."
+        },
+        {
+          "key": "E",
+          "text": "The patient's ability to pay for expensive private therapy sessions immediately.",
+          "is_correct": false,
+          "rationale": "Financial ability should not be the most crucial factor in intervention planning."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Why is it essential for an occupational therapist to strictly adhere to infection control protocols in a healthcare setting?",
+      "explanation": "Adhering to infection control protocols is paramount to prevent the spread of infections between patients, staff, and visitors. This ensures a safe environment and protects vulnerable individuals from harm.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To prevent the transmission of infectious diseases between patients, staff, and visitors effectively.",
+          "is_correct": true,
+          "rationale": "Infection control prevents disease transmission, ensuring patient and staff safety."
+        },
+        {
+          "key": "B",
+          "text": "To ensure that all therapy equipment is always kept perfectly clean and shiny for inspections.",
+          "is_correct": false,
+          "rationale": "Cleanliness is part of it, but preventing infection spread is the core reason."
+        },
+        {
+          "key": "C",
+          "text": "To comply with aesthetic standards for a neat and tidy therapy environment.",
+          "is_correct": false,
+          "rationale": "Aesthetics are not the primary reason for strict infection control protocols."
+        },
+        {
+          "key": "D",
+          "text": "To reduce the amount of time spent on cleaning tasks at the end of each workday.",
+          "is_correct": false,
+          "rationale": "Time reduction is not the main purpose; patient safety is paramount."
+        },
+        {
+          "key": "E",
+          "text": "To avoid potential legal liabilities related to equipment malfunction or damage.",
+          "is_correct": false,
+          "rationale": "Legal liabilities relate to safety, but direct infection prevention is the core."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "How should an occupational therapist effectively communicate a patient's progress and challenges to other healthcare team members?",
+      "explanation": "Clear and concise communication is vital in multidisciplinary teams. Regular updates, using standardized documentation, and participating in team meetings ensure everyone is informed and coordinated for optimal patient care.",
+      "options": [
+        {
+          "key": "A",
+          "text": "By providing concise, factual updates during team meetings and through appropriate documentation systems.",
+          "is_correct": true,
+          "rationale": "Formal updates and documentation ensure clear, consistent, and shared understanding."
+        },
+        {
+          "key": "B",
+          "text": "By only discussing progress with the patient's family members and close friends.",
+          "is_correct": false,
+          "rationale": "Communication should be with the entire healthcare team, not just family."
+        },
+        {
+          "key": "C",
+          "text": "By sending informal text messages to individual team members whenever convenient.",
+          "is_correct": false,
+          "rationale": "Informal communication methods are unprofessional and can lead to miscommunication."
+        },
+        {
+          "key": "D",
+          "text": "By waiting for other team members to specifically ask for patient updates first.",
+          "is_correct": false,
+          "rationale": "Proactive communication is essential for effective teamwork and patient care."
+        },
+        {
+          "key": "E",
+          "text": "By posting general patient information on a public notice board for everyone to see.",
+          "is_correct": false,
+          "rationale": "Patient information must remain confidential and should never be publicly posted."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "A patient struggles to perform a daily task due to unexpected pain; what is the most appropriate initial response?",
+      "explanation": "When a patient experiences new challenges, the OT must first reassess the situation to understand the root cause. Adjusting the intervention plan based on this new information is crucial for patient safety and continued progress.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately stop the activity, reassess the patient's condition, and adapt the intervention plan.",
+          "is_correct": true,
+          "rationale": "Reassessment and adaptation ensure patient safety and effective, responsive care."
+        },
+        {
+          "key": "B",
+          "text": "Encourage the patient to push through the pain to complete the intended activity.",
+          "is_correct": false,
+          "rationale": "Pushing through pain can cause injury or worsen the patient's condition."
+        },
+        {
+          "key": "C",
+          "text": "Refer the patient to a different therapist without attempting any modifications.",
+          "is_correct": false,
+          "rationale": "Referring without attempting modifications is not the initial appropriate response."
+        },
+        {
+          "key": "D",
+          "text": "Document the incident and continue with the session as originally planned.",
+          "is_correct": false,
+          "rationale": "Continuing as planned despite pain is unsafe and neglects the patient's needs."
+        },
+        {
+          "key": "E",
+          "text": "Tell the patient that pain is a normal part of the rehabilitation process.",
+          "is_correct": false,
+          "rationale": "Dismissing pain is unprofessional and can lead to patient harm or distrust."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "When beginning an initial assessment with a new client, what is the most important first step for an occupational therapist?",
+      "explanation": "Establishing rapport and understanding the client's perspective is fundamental. A client-centered approach ensures interventions align with their personal goals and values, making therapy more effective and meaningful.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately administer standardized physical function tests to gather objective baseline data quickly.",
+          "is_correct": false,
+          "rationale": "Objective tests come after building rapport and understanding client needs."
+        },
+        {
+          "key": "B",
+          "text": "Review the client's medical history thoroughly before any direct interaction to understand their diagnoses.",
+          "is_correct": false,
+          "rationale": "Medical history is important, but direct client interaction to build rapport is primary."
+        },
+        {
+          "key": "C",
+          "text": "Engage in active listening to understand the client's main concerns and their personal goals for therapy.",
+          "is_correct": true,
+          "rationale": "Understanding client goals and concerns is paramount for client-centered practice."
+        },
+        {
+          "key": "D",
+          "text": "Instruct the client to complete a comprehensive self-assessment questionnaire to identify their primary limitations.",
+          "is_correct": false,
+          "rationale": "Self-assessment is a tool, not the initial interactive step to build trust."
+        },
+        {
+          "key": "E",
+          "text": "Discuss potential therapy methods and expected outcomes to set realistic expectations from the beginning.",
+          "is_correct": false,
+          "rationale": "This discussion follows understanding the client's current situation and goals."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What is the primary purpose of setting client-centered, measurable goals in an occupational therapy intervention plan?",
+      "explanation": "Measurable goals provide clear targets, enabling both the client and therapist to track progress effectively. They ensure interventions are relevant to the client's life and promote accountability in the therapy process.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure all planned interventions strictly adhere to the standardized protocols for specific diagnoses.",
+          "is_correct": false,
+          "rationale": "Goals are client-specific, not solely about adhering to standardized protocols."
+        },
+        {
+          "key": "B",
+          "text": "To provide a clear framework for tracking client progress and demonstrating the effectiveness of the therapy.",
+          "is_correct": true,
+          "rationale": "Measurable goals allow for tracking progress and demonstrating the efficacy of intervention."
+        },
+        {
+          "key": "C",
+          "text": "To justify the duration and intensity of therapy sessions to insurance companies for reimbursement purposes.",
+          "is_correct": false,
+          "rationale": "While a factor, this is not the primary clinical purpose of goal setting."
+        },
+        {
+          "key": "D",
+          "text": "To allow the occupational therapist to delegate specific tasks to therapy assistants without supervision.",
+          "is_correct": false,
+          "rationale": "Delegation is separate from the primary purpose of setting client-centered goals."
+        },
+        {
+          "key": "E",
+          "text": "To compare the client's performance against national averages for various activities of daily living.",
+          "is_correct": false,
+          "rationale": "Comparison to averages is for benchmarking, not the primary goal-setting purpose."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "When conducting a home safety assessment for an elderly client, which area should an occupational therapist prioritize for immediate concern?",
+      "explanation": "Fall prevention is a critical aspect of home safety for elderly clients, directly impacting their independence and risk of injury. Identifying and mitigating fall hazards is often the most immediate concern.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensuring the kitchen is fully organized with all utensils easily accessible for meal preparation.",
+          "is_correct": false,
+          "rationale": "Organization is important, but not typically an immediate life-threatening safety concern."
+        },
+        {
+          "key": "B",
+          "text": "Checking for adequate lighting, clear pathways, and secure grab bars to prevent potential falls.",
+          "is_correct": true,
+          "rationale": "Fall prevention is a critical and immediate safety priority for elderly clients at home."
+        },
+        {
+          "key": "C",
+          "text": "Assessing the client's ability to operate complex smart home devices for improved convenience and security.",
+          "is_correct": false,
+          "rationale": "Smart devices are secondary to fundamental physical safety hazards in the home."
+        },
+        {
+          "key": "D",
+          "text": "Evaluating the ergonomic setup of their home office workstation to reduce strain during computer use.",
+          "is_correct": false,
+          "rationale": "Ergonomics is important, but not an immediate home safety priority for elderly individuals."
+        },
+        {
+          "key": "E",
+          "text": "Recommending advanced assistive technology for managing medication schedules and appointments efficiently.",
+          "is_correct": false,
+          "rationale": "Medication management is important, but physical fall hazards are often more immediate."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is the most effective way for an occupational therapist to communicate progress and concerns to a client's family?",
+      "explanation": "Open and regular communication ensures the family is informed, involved, and can support the client's therapy goals at home. It fosters a collaborative approach to care.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sending periodic written reports via email, detailing all clinical observations and intervention outcomes.",
+          "is_correct": false,
+          "rationale": "Written reports are formal but lack immediate interactive feedback and discussion."
+        },
+        {
+          "key": "B",
+          "text": "Having regular, scheduled face-to-face meetings or phone calls to discuss updates and answer questions.",
+          "is_correct": true,
+          "rationale": "Direct, interactive communication is most effective for family engagement and addressing concerns."
+        },
+        {
+          "key": "C",
+          "text": "Only communicating with the family if there is a significant change in the client's medical condition.",
+          "is_correct": false,
+          "rationale": "This approach is insufficient for comprehensive and ongoing family engagement in care."
+        },
+        {
+          "key": "D",
+          "text": "Relying solely on the client to relay information to their family members about their therapy sessions.",
+          "is_correct": false,
+          "rationale": "Clients may not accurately or fully convey all information, potentially causing misunderstandings."
+        },
+        {
+          "key": "E",
+          "text": "Providing a comprehensive brochure about occupational therapy services at the initial consultation only.",
+          "is_correct": false,
+          "rationale": "Brochures provide initial information, not ongoing progress updates or discussion points."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "A client expresses frustration with slow progress despite consistent effort. How should a Level 1 occupational therapist respond ethically?",
+      "explanation": "Acknowledging feelings and collaboratively reviewing the plan demonstrates empathy and client-centered practice. It maintains trust and ensures the intervention remains relevant and motivating for the client.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reassure the client that slow progress is normal and simply encourage them to try even harder next time.",
+          "is_correct": false,
+          "rationale": "This dismisses their feelings and doesn't address the underlying issue of frustration."
+        },
+        {
+          "key": "B",
+          "text": "Immediately refer the client to a more experienced occupational therapist, as this case might be too complex.",
+          "is_correct": false,
+          "rationale": "Premature referral without attempting to address the client's concerns is not ideal."
+        },
+        {
+          "key": "C",
+          "text": "Acknowledge their feelings, review the intervention plan together, and adjust goals collaboratively if necessary.",
+          "is_correct": true,
+          "rationale": "This demonstrates empathy, client-centered care, and a collaborative problem-solving approach."
+        },
+        {
+          "key": "D",
+          "text": "Explain that therapy outcomes are unpredictable and clients must accept their individual rate of improvement.",
+          "is_correct": false,
+          "rationale": "This response lacks empathy and does not offer a constructive solution to their frustration."
+        },
+        {
+          "key": "E",
+          "text": "Suggest that the client might not be fully committed to the therapy exercises outside of sessions.",
+          "is_correct": false,
+          "rationale": "This is accusatory and unhelpful for building or maintaining a therapeutic alliance."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "A client discloses a credible and specific plan to harm their former partner. What is your primary ethical and legal responsibility in this situation?",
+      "explanation": "When a client presents a serious, credible threat of violence against an identifiable victim, the counselor's duty to protect overrides confidentiality. This involves warning the potential victim and notifying the appropriate authorities.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Maintain strict client confidentiality above all else to preserve the therapeutic alliance and encourage future disclosures from the client.",
+          "is_correct": false,
+          "rationale": "Confidentiality is limited when there is a clear and imminent danger to others."
+        },
+        {
+          "key": "B",
+          "text": "Immediately contact the client's family members to ask them to intervene and de-escalate the potentially dangerous situation.",
+          "is_correct": false,
+          "rationale": "Contacting family is not the mandated procedure and breaches confidentiality unnecessarily."
+        },
+        {
+          "key": "C",
+          "text": "Take reasonable steps to warn the potential victim and notify law enforcement, as mandated by your duty to protect.",
+          "is_correct": true,
+          "rationale": "This follows the 'duty to warn/protect' principle established in landmark legal cases."
+        },
+        {
+          "key": "D",
+          "text": "Focus the session on exploring the client's anger without taking any external action unless the threat is repeated.",
+          "is_correct": false,
+          "rationale": "Inaction is not appropriate when a specific, credible threat has been made."
+        },
+        {
+          "key": "E",
+          "text": "Suggest the client voluntarily admit themselves to a hospital, documenting this suggestion as sufficient action on your part.",
+          "is_correct": false,
+          "rationale": "This suggestion does not fulfill the legal duty to warn the third party."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "When working with a client diagnosed with Obsessive-Compulsive Disorder (OCD), which therapeutic approach is most widely supported by empirical evidence?",
+      "explanation": "Exposure and Response Prevention (ERP) is the gold-standard, evidence-based treatment for OCD. It involves confronting obsessional fears and refraining from compulsive rituals, which helps break the cycle of OCD symptoms.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Psychoanalytic therapy, focusing on uncovering unconscious conflicts from childhood that are manifesting as compulsive behaviors in their life.",
+          "is_correct": false,
+          "rationale": "Psychoanalysis is not considered a first-line, evidence-based treatment for OCD symptoms."
+        },
+        {
+          "key": "B",
+          "text": "Exposure and Response Prevention (ERP), a specific type of cognitive-behavioral therapy that gradually exposes the client to their fears.",
+          "is_correct": true,
+          "rationale": "ERP is the most effective and well-researched psychotherapeutic treatment for Obsessive-Compulsive Disorder."
+        },
+        {
+          "key": "C",
+          "text": "Humanistic therapy, which emphasizes unconditional positive regard and self-actualization to help the client find their own solutions.",
+          "is_correct": false,
+          "rationale": "While beneficial for rapport, this lacks specific techniques to address OCD mechanisms."
+        },
+        {
+          "key": "D",
+          "text": "General supportive counseling, providing a safe space for the client to talk about their anxieties without a structured approach.",
+          "is_correct": false,
+          "rationale": "Supportive counseling is generally insufficient for the specific symptom patterns of OCD."
+        },
+        {
+          "key": "E",
+          "text": "Narrative therapy, which helps the client re-author their life story to separate their identity from the problem.",
+          "is_correct": false,
+          "rationale": "Narrative therapy is not the primary evidence-based approach for treating core OCD symptoms."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "You receive a call from a client who is actively suicidal and has the means available. What is your most immediate priority?",
+      "explanation": "In an acute suicidal crisis where the client has intent and means, the immediate priority is ensuring their safety. This involves staying engaged with the client while activating emergency services to prevent harm.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Schedule an emergency in-person session for the following day to discuss their feelings in a more controlled environment.",
+          "is_correct": false,
+          "rationale": "Delaying intervention is dangerous in an acute crisis situation with immediate risk."
+        },
+        {
+          "key": "B",
+          "text": "Immediately begin exploring the root causes of their suicidal ideation to develop a long-term treatment plan for them.",
+          "is_correct": false,
+          "rationale": "Long-term planning is inappropriate; the immediate focus must be on ensuring safety."
+        },
+        {
+          "key": "C",
+          "text": "Keep the client on the phone while assessing risk and mobilizing emergency services to their location for immediate intervention.",
+          "is_correct": true,
+          "rationale": "This action directly addresses the imminent risk of harm and is the standard of care."
+        },
+        {
+          "key": "D",
+          "text": "Advise the client to use coping skills discussed in previous sessions and to call back if they still feel unsafe.",
+          "is_correct": false,
+          "rationale": "This places the responsibility for safety back on the client who is in crisis."
+        },
+        {
+          "key": "E",
+          "text": "Contact a family member listed as their emergency contact and ask them to perform a welfare check on the client.",
+          "is_correct": false,
+          "rationale": "Relying on family is slower and less reliable than professional emergency services."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "A client from a collectivist culture expresses distress related to family obligations conflicting with personal goals. How should you approach this therapeutically?",
+      "explanation": "Cultural competence requires understanding and respecting the client's worldview. For a client from a collectivist culture, exploring the value of family alongside individual needs allows for a balanced, non-judgmental, and effective therapeutic approach.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Prioritize the client's individual autonomy, encouraging them to set firm boundaries with their family members to reduce conflict.",
+          "is_correct": false,
+          "rationale": "This imposes an individualistic value system that may not align with the client's culture."
+        },
+        {
+          "key": "B",
+          "text": "Explore the cultural meaning of family for the client, working collaboratively to find solutions that honor both values.",
+          "is_correct": true,
+          "rationale": "This approach is culturally sensitive, collaborative, and respects the client's complex identity."
+        },
+        {
+          "key": "C",
+          "text": "Assume the family's expectations are oppressive and focus therapy on strategies for the client to gain independence from them.",
+          "is_correct": false,
+          "rationale": "This makes a negative assumption about the client's culture and may alienate them."
+        },
+        {
+          "key": "D",
+          "text": "Refer the client to a therapist from their own cultural background, assuming you cannot provide effective, culturally sensitive care.",
+          "is_correct": false,
+          "rationale": "While sometimes appropriate, this is not the first step and abdicates professional responsibility."
+        },
+        {
+          "key": "E",
+          "text": "Use a standardized CBT model to challenge the client's cognitive distortions about their family obligations and duties.",
+          "is_correct": false,
+          "rationale": "A standard model may ignore the crucial cultural context of the client's distress."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "You are feeling overwhelmed by a client's trauma narrative and experiencing countertransference. What is the most professional and ethical course of action?",
+      "explanation": "Clinical supervision is essential for managing complex clinical issues like countertransference. It provides a confidential space to process reactions, ensure client care is not compromised, and receive guidance on maintaining professional boundaries.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Refer the client to another therapist immediately to avoid causing any potential harm due to your personal reactions.",
+          "is_correct": false,
+          "rationale": "Referral should be a last resort after supervision and other interventions have failed."
+        },
+        {
+          "key": "B",
+          "text": "Disclose your feelings of being overwhelmed directly to the client to model emotional vulnerability and build therapeutic rapport.",
+          "is_correct": false,
+          "rationale": "This is an inappropriate self-disclosure that burdens the client with the therapist's issues."
+        },
+        {
+          "key": "C",
+          "text": "Continue working with the client independently while increasing your own self-care practices to manage the emotional impact.",
+          "is_correct": false,
+          "rationale": "Self-care is important, but it does not replace the need for professional clinical supervision."
+        },
+        {
+          "key": "D",
+          "text": "Seek consultation with your clinical supervisor to process your countertransference and develop strategies for managing it effectively.",
+          "is_correct": true,
+          "rationale": "This is the standard ethical practice for managing countertransference and ensuring competent care."
+        },
+        {
+          "key": "E",
+          "text": "Reduce the frequency of sessions with the client to give yourself more time to recover between their appointments.",
+          "is_correct": false,
+          "rationale": "This alters the treatment plan based on the therapist's needs, not the client's."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "A client you have been seeing for six months invites you to their art exhibition. What is the most ethical first step?",
+      "explanation": "The most ethical initial action is to use the invitation as a therapeutic opportunity to explore the client's motivations and discuss the complexities and potential pitfalls of dual relationships, reinforcing professional boundaries collaboratively.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately accept the invitation to show support for the client's creative endeavors and strengthen the therapeutic alliance.",
+          "is_correct": false,
+          "rationale": "This action blurs professional boundaries and creates a dual relationship, which is ethically problematic."
+        },
+        {
+          "key": "B",
+          "text": "Decline the invitation without providing any reason in order to maintain a firm professional boundary with the client.",
+          "is_correct": false,
+          "rationale": "This could damage rapport; a therapeutic discussion is more appropriate than an unexplained refusal."
+        },
+        {
+          "key": "C",
+          "text": "Explore the client's motivation for the invitation and discuss the potential implications of a dual relationship in a therapeutic session.",
+          "is_correct": true,
+          "rationale": "This approach is therapeutic, collaborative, and directly addresses the ethical boundary issue with the client."
+        },
+        {
+          "key": "D",
+          "text": "Consult with your clinical supervisor about the request before making any decision or discussing it with the client.",
+          "is_correct": false,
+          "rationale": "While supervision is important, the initial therapeutic step involves engaging the client about the request first."
+        },
+        {
+          "key": "E",
+          "text": "Suggest that you can discuss their experience of the exhibition in your next session instead of attending in person.",
+          "is_correct": false,
+          "rationale": "This is a good alternative but misses the crucial step of exploring the meaning behind the invitation."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "When working with a client experiencing severe social anxiety, which therapeutic approach is most evidence-based for directly addressing avoidance behaviors?",
+      "explanation": "Cognitive Behavioral Therapy (CBT), particularly with exposure therapy, is widely recognized as the most effective, evidence-based treatment for social anxiety. It directly targets the cognitive distortions and avoidance behaviors that maintain the disorder.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Psychoanalytic therapy, which focuses on exploring unconscious conflicts and early childhood experiences that contribute to their current anxiety.",
+          "is_correct": false,
+          "rationale": "This approach is less focused on direct, structured behavioral change for specific anxiety disorders."
+        },
+        {
+          "key": "B",
+          "text": "Person-centered therapy, which provides unconditional positive regard to help the client achieve self-actualization and personal growth.",
+          "is_correct": false,
+          "rationale": "This modality lacks the specific techniques needed to target and reduce avoidance behaviors systematically."
+        },
+        {
+          "key": "C",
+          "text": "Cognitive Behavioral Therapy (CBT), specifically using exposure therapy techniques to gradually face feared social situations and challenge thoughts.",
+          "is_correct": true,
+          "rationale": "CBT with exposure is the gold standard, evidence-based treatment for social anxiety and avoidance."
+        },
+        {
+          "key": "D",
+          "text": "Gestalt therapy, which emphasizes personal responsibility and focuses on the client's experience in the present moment through role-playing.",
+          "is_correct": false,
+          "rationale": "While useful, it is not considered the primary evidence-based approach for treating social anxiety disorder."
+        },
+        {
+          "key": "E",
+          "text": "Narrative therapy, which helps the client re-author their life story and separate their identity from the problem of anxiety.",
+          "is_correct": false,
+          "rationale": "This is less focused on the specific behavioral components that maintain social anxiety."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "During a session, a client discloses vague suicidal ideation without a clear plan. What is your immediate professional and ethical responsibility?",
+      "explanation": "The standard of care requires the counselor to immediately conduct a comprehensive risk assessment. This involves asking direct questions about intent, plans, and means to determine the level of risk and inform subsequent safety planning.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately contact emergency services to ensure the client's safety without any further discussion to avoid escalating the situation.",
+          "is_correct": false,
+          "rationale": "This is a premature action without a full risk assessment to determine the imminent level of danger."
+        },
+        {
+          "key": "B",
+          "text": "Document the disclosure in the client's file and plan to create a safety plan in the next scheduled session.",
+          "is_correct": false,
+          "rationale": "Delaying risk assessment and safety planning is negligent and places the client at unnecessary risk."
+        },
+        {
+          "key": "C",
+          "text": "Conduct a thorough suicide risk assessment to determine the level of intent, planning, and access to means for self-harm.",
+          "is_correct": true,
+          "rationale": "This is the mandatory first step to evaluate the seriousness of the risk and guide intervention."
+        },
+        {
+          "key": "D",
+          "text": "Advise the client to go to the nearest hospital emergency room and end the session to avoid any liability.",
+          "is_correct": false,
+          "rationale": "This constitutes client abandonment and fails to meet the professional duty of care."
+        },
+        {
+          "key": "E",
+          "text": "Focus the session on positive coping skills, avoiding direct questions about suicide to prevent planting any ideas.",
+          "is_correct": false,
+          "rationale": "Avoiding the topic is dangerous; direct questioning is a best practice and does not increase risk."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "You are counseling a client from a collectivist culture who is struggling with family expectations. How should you best approach this situation?",
+      "explanation": "Cultural competence requires exploring and respecting the client's cultural framework. The best approach is to understand their collectivist values and work collaboratively to find solutions that honor both their individual needs and their cultural context.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Encourage the client to prioritize their individual needs and assert independence from their family's traditional expectations.",
+          "is_correct": false,
+          "rationale": "This imposes an individualistic cultural value that may not align with the client's worldview."
+        },
+        {
+          "key": "B",
+          "text": "Focus solely on Western therapeutic models that emphasize self-actualization, as these are the most established and effective.",
+          "is_correct": false,
+          "rationale": "This approach lacks cultural sensitivity and ignores the importance of the client's cultural context."
+        },
+        {
+          "key": "C",
+          "text": "Explore how the client's cultural values and family dynamics influence their distress and collaboratively find solutions within that context.",
+          "is_correct": true,
+          "rationale": "This is a culturally competent approach that respects the client's background and promotes collaboration."
+        },
+        {
+          "key": "D",
+          "text": "Refer the client to a counselor from the same cultural background, assuming you cannot be effective in this case.",
+          "is_correct": false,
+          "rationale": "This is a premature referral and an abdication of the responsibility to develop cultural competence."
+        },
+        {
+          "key": "E",
+          "text": "Educate the client on the benefits of an individualistic mindset to help them better adapt to the dominant culture.",
+          "is_correct": false,
+          "rationale": "This is culturally insensitive, invalidating, and can be perceived as an attempt at assimilation."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What is the primary clinical and legal purpose of maintaining accurate and timely progress notes in a client's health record?",
+      "explanation": "Progress notes serve as a legal document that records the treatment provided, the client's response, and the clinical reasoning behind decisions. This ensures continuity of care, demonstrates adherence to standards, and protects both client and practitioner.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide a detailed script of the entire session so other counselors can replicate the therapeutic process exactly.",
+          "is_correct": false,
+          "rationale": "Notes are professional summaries of key information, not verbatim transcripts of the entire session."
+        },
+        {
+          "key": "B",
+          "text": "To track billing codes and justify the services rendered to insurance companies for the purpose of reimbursement.",
+          "is_correct": false,
+          "rationale": "While notes are used for billing, their primary purpose is clinical and legal documentation."
+        },
+        {
+          "key": "C",
+          "text": "To document the client's progress, treatment plan, interventions used, and rationale for clinical decisions, ensuring continuity of care.",
+          "is_correct": true,
+          "rationale": "This option accurately summarizes the core clinical, legal, and ethical functions of progress notes."
+        },
+        {
+          "key": "D",
+          "text": "To serve as a personal memory aid for the counselor, containing subjective thoughts and feelings about the client's situation.",
+          "is_correct": false,
+          "rationale": "Progress notes must be objective and professional; personal reflections belong in separate process notes."
+        },
+        {
+          "key": "E",
+          "text": "To create a comprehensive biography of the client's life, including details not directly relevant to their presenting problem.",
+          "is_correct": false,
+          "rationale": "Notes should be concise and focused on information relevant to the client's diagnosis and treatment."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "A long-term client you have been seeing for over a year invites you to their graduation party. What is the most ethically sound response?",
+      "explanation": "Attending a client's personal event creates a dual relationship, which can compromise professional boundaries, therapeutic objectivity, and create potential for exploitation. The primary ethical duty is to maintain a clear therapeutic framework for the client's benefit.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Attend the event briefly to show support for your client's achievement but avoid interacting with their family and friends.",
+          "is_correct": false,
+          "rationale": "Attending at all crosses a professional boundary, regardless of the duration or level of interaction."
+        },
+        {
+          "key": "B",
+          "text": "Politely decline the invitation, explaining the importance of maintaining professional boundaries to ensure the therapeutic relationship remains effective and safe.",
+          "is_correct": true,
+          "rationale": "This response upholds ethical boundaries while providing a clear, therapeutic rationale to the client."
+        },
+        {
+          "key": "C",
+          "text": "Accept the invitation but only after discussing the potential implications with the client in a therapy session to get their consent.",
+          "is_correct": false,
+          "rationale": "This puts undue pressure on the client and still results in an inappropriate dual relationship."
+        },
+        {
+          "key": "D",
+          "text": "Consult with your clinical supervisor and follow their specific recommendation on whether or not you should attend the event.",
+          "is_correct": false,
+          "rationale": "While consultation is good, the ethical guideline against dual relationships is clear and should be followed."
+        },
+        {
+          "key": "E",
+          "text": "Send a congratulatory card and a small, appropriate gift to acknowledge their milestone without attending the party in person.",
+          "is_correct": false,
+          "rationale": "Gift-giving can also blur boundaries; the most professional response is to maintain the therapeutic frame."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "When applying Motivational Interviewing, what is the primary purpose of using reflective listening and summarizing with a client who is ambivalent about change?",
+      "explanation": "Motivational Interviewing aims to resolve ambivalence by eliciting the client's own motivations for change. Reflective listening and summarizing demonstrate empathy and understanding, helping the client hear their own arguments for change, which strengthens their commitment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To gently persuade the client that making a significant life change is the only logical and correct path forward for them.",
+          "is_correct": false,
+          "rationale": "Motivational Interviewing avoids persuasion and instead focuses on eliciting the client's own motivation."
+        },
+        {
+          "key": "B",
+          "text": "To demonstrate your expertise and knowledge, thereby increasing the client's confidence in your ability to direct their treatment plan.",
+          "is_correct": false,
+          "rationale": "The focus is on the client's autonomy and internal motivation, not the counselor's expertise."
+        },
+        {
+          "key": "C",
+          "text": "To identify and correct the client's cognitive distortions and irrational beliefs that are preventing them from making positive changes.",
+          "is_correct": false,
+          "rationale": "This describes a core technique of Cognitive Behavioral Therapy (CBT), not Motivational Interviewing."
+        },
+        {
+          "key": "D",
+          "text": "To build rapport and show empathy, helping the client explore their own ambivalence and articulate their personal reasons for change.",
+          "is_correct": true,
+          "rationale": "This correctly identifies the collaborative and client-centered spirit of Motivational Interviewing techniques."
+        },
+        {
+          "key": "E",
+          "text": "To gather sufficient data about the client's resistance so you can develop a more structured behavioral intervention plan for them.",
+          "is_correct": false,
+          "rationale": "This approach is more directive and behavioral, which is contrary to the collaborative nature of MI."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "A client discloses a clear and specific plan for suicide during a session. What is your immediate and primary professional responsibility?",
+      "explanation": "When a client presents with a specific, credible suicide plan, the counselor's primary duty shifts to ensuring immediate safety. This overrides confidentiality under the duty to protect principle, requiring direct intervention and a thorough risk assessment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately end the session and contact the client's emergency contact to inform them of the situation and imminent risk.",
+          "is_correct": false,
+          "rationale": "Ending the session abandons the client; assessment must happen first before contacting others."
+        },
+        {
+          "key": "B",
+          "text": "Explore the underlying feelings behind the suicidal plan to build a deeper therapeutic understanding of the client's emotional pain.",
+          "is_correct": false,
+          "rationale": "While important, exploring feelings is secondary to immediate safety assessment and intervention."
+        },
+        {
+          "key": "C",
+          "text": "Conduct a thorough suicide risk assessment, develop a safety plan, and take necessary steps to ensure the client's immediate safety.",
+          "is_correct": true,
+          "rationale": "This follows the standard of care: assess risk, create a safety plan, and intervene."
+        },
+        {
+          "key": "D",
+          "text": "Document the disclosure meticulously in the client's file and schedule an urgent follow-up session for the very next day.",
+          "is_correct": false,
+          "rationale": "Documentation and follow-up are crucial but do not address the immediate, in-the-moment danger."
+        },
+        {
+          "key": "E",
+          "text": "Ask the client to sign a no-harm contract and agree to call a crisis hotline if their urges intensify.",
+          "is_correct": false,
+          "rationale": "No-harm contracts are no longer considered best practice and are not a substitute for active safety planning."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "You are working with a client from a cultural background different from your own. What is the most important first step toward providing culturally competent care?",
+      "explanation": "Cultural competence begins with self-awareness. A counselor must first examine their own cultural biases, assumptions, and values to understand how these might influence the therapeutic relationship and their perception of the client's experiences.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Researching the client's specific cultural background extensively to become an expert on their traditions, values, and common communication styles.",
+          "is_correct": false,
+          "rationale": "This can lead to stereotyping; individual experience is more important than generalized cultural knowledge."
+        },
+        {
+          "key": "B",
+          "text": "Asking the client to educate you on their culture so you can better understand their worldview and personal life experiences.",
+          "is_correct": false,
+          "rationale": "This places an unfair burden on the client to teach the counselor and is not the first step."
+        },
+        {
+          "key": "C",
+          "text": "Engaging in self-reflection to examine your own cultural biases, assumptions, and values and how they might impact the therapeutic process.",
+          "is_correct": true,
+          "rationale": "Competence starts with self-awareness to prevent imposing one's own worldview onto the client."
+        },
+        {
+          "key": "D",
+          "text": "Immediately referring the client to another counselor who shares the same cultural background to ensure the best possible therapeutic match.",
+          "is_correct": false,
+          "rationale": "This is often not possible or necessary and avoids the counselor's responsibility to develop competence."
+        },
+        {
+          "key": "E",
+          "text": "Using only evidence-based practices that have been proven effective across a wide variety of different cultural and ethnic groups.",
+          "is_correct": false,
+          "rationale": "While important, this doesn't address the counselor's own biases, which is the foundational first step."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "A client's insurance company requests access to your session notes for a treatment authorization review. What is your primary ethical obligation in this situation?",
+      "explanation": "The primary obligation is to protect client confidentiality. This involves obtaining specific, written informed consent from the client before releasing any information and then sharing only the minimum necessary information required by the third-party payer.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Provide the full, detailed process notes to the insurance company immediately to ensure the client's treatment is not interrupted.",
+          "is_correct": false,
+          "rationale": "Sharing full process notes violates the principle of sharing only the minimum necessary information."
+        },
+        {
+          "key": "B",
+          "text": "Refuse the request entirely, citing client confidentiality and stating that session notes are privileged information that cannot be shared.",
+          "is_correct": false,
+          "rationale": "A blanket refusal may be contractually non-compliant and could harm the client by stopping coverage."
+        },
+        {
+          "key": "C",
+          "text": "Obtain written informed consent from the client and release only the minimum necessary information required for the authorization review.",
+          "is_correct": true,
+          "rationale": "This balances the need for authorization with the ethical duty to protect client confidentiality."
+        },
+        {
+          "key": "D",
+          "text": "Summarize the notes verbally over the phone to the insurance representative to avoid creating a permanent written record.",
+          "is_correct": false,
+          "rationale": "Verbal communication is not secure, lacks documentation, and still constitutes a breach without consent."
+        },
+        {
+          "key": "E",
+          "text": "Send a standardized treatment summary that omits any specific details from sessions but confirms the client's diagnosis and progress.",
+          "is_correct": false,
+          "rationale": "This must still be done with the client's explicit consent for this specific disclosure."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "A client you have been seeing for six months invites you to their wedding. What is the most ethically sound course of action?",
+      "explanation": "Maintaining professional boundaries is paramount to protect the therapeutic relationship. Attending a client's personal event like a wedding constitutes a dual relationship, which can compromise objectivity, confidentiality, and the client's trust in the therapeutic process.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Politely decline the invitation, explaining the importance of maintaining professional boundaries to ensure the therapeutic relationship remains effective and safe.",
+          "is_correct": true,
+          "rationale": "This upholds ethical standards by prioritizing the therapeutic frame and avoiding potentially harmful dual relationships."
+        },
+        {
+          "key": "B",
+          "text": "Accept the invitation but only attend the ceremony, leaving before the reception to minimize personal interaction with the client.",
+          "is_correct": false,
+          "rationale": "This still crosses the professional boundary and creates a dual relationship, regardless of the duration of attendance."
+        },
+        {
+          "key": "C",
+          "text": "Discuss the invitation with the client to explore their motivations for inviting you before making any final decision on attendance.",
+          "is_correct": false,
+          "rationale": "While exploring motivations is therapeutic, the boundary has already been proposed and should be maintained regardless of intent."
+        },
+        {
+          "key": "D",
+          "text": "Consult with your clinical supervisor about the invitation and follow their direct guidance without further discussion with the client.",
+          "is_correct": false,
+          "rationale": "Consultation is good, but the primary responsibility is to maintain the boundary and communicate that decision to the client."
+        },
+        {
+          "key": "E",
+          "text": "Attend the wedding but maintain a professional distance from the client and their family throughout the entire event.",
+          "is_correct": false,
+          "rationale": "Attending in any capacity blurs professional lines and can create confusion and potential harm for the client."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "During a session, a client discloses a specific plan for suicide and the means to carry it out. What is your immediate professional responsibility?",
+      "explanation": "When a client presents with a specific, credible suicide plan and means, the counselor's primary duty is to ensure the client's immediate safety. This overrides confidentiality and requires initiating established risk assessment and crisis intervention protocols.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Initiate suicide risk assessment protocols immediately, which may include contacting emergency services or a crisis team to ensure client safety.",
+          "is_correct": true,
+          "rationale": "This directly addresses the imminent risk of harm and follows the ethical duty to protect the client."
+        },
+        {
+          "key": "B",
+          "text": "Ask the client to sign a no-harm contract and schedule an emergency follow-up session for the very next day.",
+          "is_correct": false,
+          "rationale": "No-harm contracts are not considered an effective or sufficient intervention for clients with a specific, imminent plan."
+        },
+        {
+          "key": "C",
+          "text": "Explore the underlying feelings that are leading to these thoughts without taking any immediate action to prevent potential harm.",
+          "is_correct": false,
+          "rationale": "While exploring feelings is important, immediate safety concerns must be addressed first when a specific plan is disclosed."
+        },
+        {
+          "key": "D",
+          "text": "Immediately contact the client's family members to inform them of the situation and ask them to intervene directly.",
+          "is_correct": false,
+          "rationale": "This breaches confidentiality without a proper risk assessment and may not be the most effective safety intervention."
+        },
+        {
+          "key": "E",
+          "text": "Recommend voluntary hospitalization to the client and wait for them to make a decision before taking any further steps.",
+          "is_correct": false,
+          "rationale": "Waiting for the client's decision is too passive given the high level of immediate risk they have presented."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "When working with a client from a cultural background different from your own, what is the most important initial step in building rapport?",
+      "explanation": "Cultural humility involves a commitment to self-evaluation and critique, recognizing power imbalances, and developing partnerships with communities. It prioritizes the client's perspective as the expert on their own experience, which is foundational for a strong therapeutic alliance.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Adopt a stance of cultural humility, asking the client to share how their cultural identity influences their experiences and worldview.",
+          "is_correct": true,
+          "rationale": "This empowers the client as the expert on their own experience and avoids making potentially inaccurate cultural assumptions."
+        },
+        {
+          "key": "B",
+          "text": "Research the client's specific culture extensively beforehand to demonstrate your knowledge and understanding during the first session.",
+          "is_correct": false,
+          "rationale": "This can lead to stereotyping and may prevent the counselor from learning about the client's individual experience."
+        },
+        {
+          "key": "C",
+          "text": "Apply a universally accepted therapeutic model like CBT, as its core principles are designed to be culturally neutral.",
+          "is_correct": false,
+          "rationale": "No therapeutic model is truly culturally neutral; adaptation is almost always necessary to be effective and respectful."
+        },
+        {
+          "key": "D",
+          "text": "Immediately share your own cultural background and experiences to create a sense of equality and mutual understanding.",
+          "is_correct": false,
+          "rationale": "This shifts the focus away from the client's experience and can be an inappropriate use of self-disclosure."
+        },
+        {
+          "key": "E",
+          "text": "Avoid discussing cultural differences unless the client explicitly brings them up to prevent making them feel singled out.",
+          "is_correct": false,
+          "rationale": "Ignoring culture can invalidate a significant part of the client's identity and experience, hindering the therapeutic process."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "You receive a subpoena from a lawyer requesting all therapy notes for a client involved in a legal case. What is your first action?",
+      "explanation": "Subpoenas are legal demands that require a careful, structured response. The first step is to seek guidance to understand the legal requirements, your ethical obligations to the client, and the concept of privileged communication before taking any action.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Consult with your supervisor and legal counsel to understand your obligations while also attempting to obtain the client's informed consent.",
+          "is_correct": true,
+          "rationale": "This ensures you are acting legally and ethically, protecting both the client's rights and yourself professionally."
+        },
+        {
+          "key": "B",
+          "text": "Immediately comply with the subpoena and send all of the requested client records to the lawyer to avoid legal penalties.",
+          "is_correct": false,
+          "rationale": "This action violates client confidentiality without due process and may be an unnecessary disclosure of sensitive information."
+        },
+        {
+          "key": "C",
+          "text": "Contact the client directly to inform them of the subpoena and ask them if you should release the requested records.",
+          "is_correct": false,
+          "rationale": "While informing the client is important, you should not act solely on their direction without first seeking legal advice."
+        },
+        {
+          "key": "D",
+          "text": "Refuse to release any information, citing therapist-client privilege, without seeking any external legal or supervisory advice first.",
+          "is_correct": false,
+          "rationale": "Ignoring a legal document like a subpoena without consultation can have significant legal consequences for the counselor."
+        },
+        {
+          "key": "E",
+          "text": "Provide only a summarized version of the therapy notes, redacting what you believe to be the most sensitive information.",
+          "is_correct": false,
+          "rationale": "Altering or summarizing records in response to a subpoena without legal guidance is inappropriate and could be unlawful."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "How should a mental health counselor ensure their therapeutic interventions remain effective and aligned with current best practices in the field?",
+      "explanation": "The mental health field is constantly evolving. A commitment to lifelong learning through continuing education, staying current with empirical research, and engaging in supervision ensures that a counselor's skills remain sharp, relevant, and provide the highest standard of care.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Regularly engage in continuing professional development, review current research, and seek peer supervision to discuss and refine clinical skills.",
+          "is_correct": true,
+          "rationale": "This multifaceted approach ensures a commitment to evidence-based practice and continuous professional growth and accountability."
+        },
+        {
+          "key": "B",
+          "text": "Strictly adhere to the single therapeutic modality they were initially trained in, mastering its application for all client presentations.",
+          "is_correct": false,
+          "rationale": "This rigid approach ignores the development of new, effective treatments and the unique needs of diverse clients."
+        },
+        {
+          "key": "C",
+          "text": "Rely primarily on client feedback at the end of each session to determine the effectiveness of the interventions being used.",
+          "is_correct": false,
+          "rationale": "While client feedback is valuable, it is not a substitute for evidence-based practice and objective outcome measurement."
+        },
+        {
+          "key": "D",
+          "text": "Only adopt new therapeutic techniques that have gained significant popularity on social media platforms and in mainstream publications.",
+          "is_correct": false,
+          "rationale": "Popularity is not an indicator of clinical effectiveness; interventions must be supported by empirical research and evidence."
+        },
+        {
+          "key": "E",
+          "text": "Attend one large, national conference annually, as this is sufficient for staying current with all major industry developments.",
+          "is_correct": false,
+          "rationale": "While helpful, an annual conference is insufficient for the ongoing learning required to maintain competence in the field."
+        }
+      ]
+    }
+  ]
+}

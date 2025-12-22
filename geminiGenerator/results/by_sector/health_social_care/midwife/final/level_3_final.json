@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "A woman experiences a major postpartum haemorrhage immediately after delivery. What is the most critical initial midwifery action to take?",
+      "explanation": "The priority in a major PPH is to control the bleeding and prevent shock. This involves simultaneous actions of administering a uterotonic drug like Syntocinon to contract the uterus and immediately escalating to senior multidisciplinary staff for assistance.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately administer a bolus of Syntocinon as per protocol and call for senior help using the emergency call bell.",
+          "is_correct": true,
+          "rationale": "This combines immediate pharmacological intervention and essential escalation, which are the highest priorities."
+        },
+        {
+          "key": "B",
+          "text": "Begin meticulously documenting the estimated blood loss in the patient's electronic health record for accurate tracking.",
+          "is_correct": false,
+          "rationale": "Documentation is vital but secondary to taking immediate life-saving clinical actions."
+        },
+        {
+          "key": "C",
+          "text": "Offer the mother a warm drink and provide verbal reassurance to help reduce her anxiety during the event.",
+          "is_correct": false,
+          "rationale": "While emotional support is important, it does not address the urgent physiological crisis of a major haemorrhage."
+        },
+        {
+          "key": "D",
+          "text": "Start preparing the necessary paperwork for a potential blood transfusion in case it is needed later on.",
+          "is_correct": false,
+          "rationale": "This is an anticipatory action, but the immediate priority is to stop the bleeding at its source."
+        },
+        {
+          "key": "E",
+          "text": "Advise the birth partner to leave the room to allow the clinical team more space to work effectively.",
+          "is_correct": false,
+          "rationale": "This may become necessary, but it is not the primary clinical action required from the midwife."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "During the second stage of labour, you diagnose shoulder dystocia. What is the recommended first-line manoeuvre to resolve this obstetric emergency?",
+      "explanation": "The McRoberts manoeuvre is the universally recommended first-line intervention for shoulder dystocia. It is non-invasive, quick to perform, and effective in many cases by flattening the sacral promontory and increasing the pelvic outlet diameter.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Apply strong and continuous fundal pressure to help expel the baby more quickly from the birth canal.",
+          "is_correct": false,
+          "rationale": "Fundal pressure is contraindicated as it can worsen the impaction of the shoulder and cause uterine rupture."
+        },
+        {
+          "key": "B",
+          "text": "Immediately perform the McRoberts manoeuvre by hyperflexing the mother's legs up towards her abdomen.",
+          "is_correct": true,
+          "rationale": "This is the standard, evidence-based first-line manoeuvre for resolving shoulder dystocia."
+        },
+        {
+          "key": "C",
+          "text": "Proceed directly to performing a large episiotomy to create more space for the baby's shoulders to deliver.",
+          "is_correct": false,
+          "rationale": "An episiotomy may be required for internal manoeuvres but does not resolve the bony obstruction itself."
+        },
+        {
+          "key": "D",
+          "text": "Attempt to rotate the baby's anterior shoulder using the internal Woods' screw manoeuvre as the initial step.",
+          "is_correct": false,
+          "rationale": "Internal rotation manoeuvres are considered second-line interventions after external manoeuvres have been attempted."
+        },
+        {
+          "key": "E",
+          "text": "Encourage the mother to begin pushing with maximum force during the next available uterine contraction.",
+          "is_correct": false,
+          "rationale": "Pushing alone is ineffective and can worsen the impaction without first performing repositioning manoeuvres."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "A newborn is born apneic and limp with a heart rate of 80 bpm. What is your immediate priority action?",
+      "explanation": "According to neonatal resuscitation guidelines, the immediate priority for a non-breathing newborn with a low heart rate is to establish an open airway and provide effective inflation breaths. This is the most critical step to improve oxygenation and circulation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Quickly dry the baby, place them under a radiant warmer, and provide five initial inflation breaths.",
+          "is_correct": true,
+          "rationale": "This follows the correct resuscitation sequence: warmth, airway, breathing, and circulation."
+        },
+        {
+          "key": "B",
+          "text": "Administer naloxone immediately in case of maternal opioid use being the cause of the baby's condition.",
+          "is_correct": false,
+          "rationale": "Naloxone is not a first-line drug and is only used in specific circumstances after ventilation is established."
+        },
+        {
+          "key": "C",
+          "text": "Commence chest compressions immediately because the heart rate is below 100 beats per minute.",
+          "is_correct": false,
+          "rationale": "Chest compressions are only initiated if the heart rate remains below 60 bpm despite effective ventilation."
+        },
+        {
+          "key": "D",
+          "text": "Assign an Apgar score at one minute before deciding on the next course of clinical action.",
+          "is_correct": false,
+          "rationale": "Resuscitation should begin immediately based on clinical signs, not delayed while waiting to assign a score."
+        },
+        {
+          "key": "E",
+          "text": "Place the baby skin-to-skin with the mother to encourage spontaneous breathing and provide warmth.",
+          "is_correct": false,
+          "rationale": "Skin-to-skin is inappropriate for a baby requiring active resuscitation; effective intervention is the priority."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "A woman at her booking appointment expresses significant anxiety about antenatal screening tests. What is the most appropriate midwifery response?",
+      "explanation": "The midwife's role is to facilitate informed choice. This involves exploring the woman's specific concerns, providing balanced, evidence-based information about the benefits and limitations of screening, and respecting her autonomy in decision-making without pressure.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reassure her that the tests are completely routine and there is absolutely nothing to worry about.",
+          "is_correct": false,
+          "rationale": "This response is dismissive and invalidates the woman's genuine feelings and concerns."
+        },
+        {
+          "key": "B",
+          "text": "Provide the standardised leaflets and direct her to the official NHS website for more detailed information.",
+          "is_correct": false,
+          "rationale": "While helpful, this is impersonal and fails to address her specific anxieties through conversation."
+        },
+        {
+          "key": "C",
+          "text": "Explore her specific fears and provide clear, unbiased information about each test's purpose, limitations, and implications.",
+          "is_correct": true,
+          "rationale": "This is a patient-centred approach that promotes informed consent and addresses individual concerns."
+        },
+        {
+          "key": "D",
+          "text": "Advise her to decline all screening tests to avoid unnecessary stress throughout her pregnancy journey.",
+          "is_correct": false,
+          "rationale": "This is inappropriate advice that undermines the principle of informed choice and patient autonomy."
+        },
+        {
+          "key": "E",
+          "text": "Explain that undergoing screening is a mandatory part of antenatal care as per hospital policy.",
+          "is_correct": false,
+          "rationale": "This is factually incorrect and coercive; all antenatal screening is optional and requires consent."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "A woman at 34 weeks gestation who presents with hypertension, proteinuria, and a severe headache. What is your priority?",
+      "explanation": "The combination of hypertension, proteinuria, and severe headache is highly indicative of severe pre-eclampsia, a medical emergency. The priority is immediate escalation to the senior obstetric team for a comprehensive assessment and management plan, which often requires hospital admission.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Advise her to rest at home and monitor her own blood pressure twice daily for any improvement.",
+          "is_correct": false,
+          "rationale": "This constitutes unsafe management for a condition that can deteriorate rapidly and requires specialist care."
+        },
+        {
+          "key": "B",
+          "text": "Arrange an urgent review with the obstetric team for immediate assessment and potential hospital admission.",
+          "is_correct": true,
+          "rationale": "This is the correct action as it ensures timely escalation for a potentially life-threatening condition."
+        },
+        {
+          "key": "C",
+          "text": "Prescribe paracetamol for the headache and schedule a routine follow-up appointment in one week's time.",
+          "is_correct": false,
+          "rationale": "This response fails to recognise the headache as a symptom of severe pre-eclampsia, delaying urgent care."
+        },
+        {
+          "key": "D",
+          "text": "Recommend natural remedies such as lavender oil and relaxation techniques to help manage her headache.",
+          "is_correct": false,
+          "rationale": "This is an inappropriate and dangerous response to a symptom of a serious medical condition."
+        },
+        {
+          "key": "E",
+          "text": "Document the findings carefully and wait for the routine blood test results to come back the next day.",
+          "is_correct": false,
+          "rationale": "This delays urgent medical intervention based on clear clinical signs of severe disease."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "A woman in the second stage of labour experiences shoulder dystocia. What is the most appropriate initial manoeuvre to perform after calling for help?",
+      "explanation": "McRoberts' manoeuvre is the recommended first-line intervention for shoulder dystocia as it is non-invasive and often effective in releasing the impacted shoulder by widening the pelvic outlet.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Involve hyperflexing the mother's legs onto her abdomen to widen the pelvic outlet and flatten the sacrum.",
+          "is_correct": true,
+          "rationale": "This describes McRoberts' manoeuvre, the correct first-line action."
+        },
+        {
+          "key": "B",
+          "text": "Applying firm, continuous fundal pressure to the top of the uterus to try and push the baby out more quickly.",
+          "is_correct": false,
+          "rationale": "Fundal pressure is contraindicated as it can worsen the impaction."
+        },
+        {
+          "key": "C",
+          "text": "Making a surgical cut at the opening of the vagina to provide more room for subsequent internal manoeuvres.",
+          "is_correct": false,
+          "rationale": "An episiotomy creates space for internal manoeuvres but does not resolve the bony obstruction itself."
+        },
+        {
+          "key": "D",
+          "text": "Attempting an internal rotational manoeuvre, such as the Woods' screw, before trying any external options first.",
+          "is_correct": false,
+          "rationale": "Internal rotational manoeuvres are considered secondary interventions, not the initial step."
+        },
+        {
+          "key": "E",
+          "text": "Pushing the fetal head back into the uterus and proceeding immediately to an emergency caesarean section delivery.",
+          "is_correct": false,
+          "rationale": "This describes the Zavanelli manoeuvre, which is a last-resort, high-risk procedure."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "A woman experiences a primary postpartum haemorrhage due to uterine atony. Which uterotonic drug is typically administered first to manage this condition?",
+      "explanation": "Syntocinon (oxytocin) is the first-line uterotonic drug for managing PPH caused by uterine atony, as recommended by NICE guidelines due to its effectiveness and favourable safety profile.",
+      "options": [
+        {
+          "key": "A",
+          "text": "An intravenous infusion of Syntocinon (oxytocin) to stimulate strong and effective uterine contractions and control the bleeding.",
+          "is_correct": true,
+          "rationale": "Syntocinon is the standard first-line uterotonic for PPH management."
+        },
+        {
+          "key": "B",
+          "text": "An intramuscular injection of Ergometrine, which is often reserved as a second-line treatment due to its side effects.",
+          "is_correct": false,
+          "rationale": "Ergometrine is a second-line agent and is contraindicated in hypertension."
+        },
+        {
+          "key": "C",
+          "text": "An intramuscular injection of Carboprost, which is a potent prostaglandin used when other uterotonics have failed.",
+          "is_correct": false,
+          "rationale": "Carboprost is a second or third-line agent and is contraindicated in asthma."
+        },
+        {
+          "key": "D",
+          "text": "A sublingual or rectal administration of Misoprostol, typically used if IV access is difficult or other drugs are unavailable.",
+          "is_correct": false,
+          "rationale": "Misoprostol is effective but not typically the first choice when IV access is available."
+        },
+        {
+          "key": "E",
+          "text": "An intravenous dose of Tranexamic acid, which helps to stabilise clots but does not directly cause uterine contraction.",
+          "is_correct": false,
+          "rationale": "Tranexamic acid is an antifibrinolytic used adjunctively, not a first-line uterotonic."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "During neonatal resuscitation, if a newborn remains apnoeic and bradycardic despite effective inflation breaths, what is the next immediate step?",
+      "explanation": "According to Resuscitation Council UK guidelines, if the heart rate remains below 60 beats per minute despite effective inflation breaths, chest compressions should be commenced immediately, coordinated with ventilation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Commencing chest compressions coordinated with ventilation breaths at a specific ratio of 3 compressions to 1 breath.",
+          "is_correct": true,
+          "rationale": "This follows the standard neonatal resuscitation algorithm for persistent bradycardia."
+        },
+        {
+          "key": "B",
+          "text": "Administering a dose of intravenous adrenaline through an umbilical venous catheter without starting chest compressions first.",
+          "is_correct": false,
+          "rationale": "Adrenaline is considered only after effective compressions and ventilation fail to improve heart rate."
+        },
+        {
+          "key": "C",
+          "text": "Immediately intubating the newborn with an endotracheal tube before attempting any further ventilation or chest compressions.",
+          "is_correct": false,
+          "rationale": "Chest compressions are the priority if heart rate is below 60 bpm, not immediate intubation."
+        },
+        {
+          "key": "D",
+          "text": "Applying continuous positive airway pressure (CPAP) to support any potential spontaneous breathing efforts the infant might make.",
+          "is_correct": false,
+          "rationale": "CPAP is for infants who are breathing spontaneously but have respiratory distress."
+        },
+        {
+          "key": "E",
+          "text": "Vigorously drying and stimulating the newborn's back and soles again to encourage a spontaneous respiratory response.",
+          "is_correct": false,
+          "rationale": "Initial stimulation has already failed; escalation of care is required."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "When discussing combined screening for Down's, Edwards', and Patau's syndromes, what is the midwife's primary responsibility regarding the woman's decision?",
+      "explanation": "The midwife's core role is to facilitate informed choice. This involves providing clear, balanced information about the screening test, its purpose, limitations, and potential outcomes, without influencing the woman's decision.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide unbiased, evidence-based information, ensuring the woman understands the test and can make an informed choice.",
+          "is_correct": true,
+          "rationale": "This upholds the principles of patient autonomy and informed consent."
+        },
+        {
+          "key": "B",
+          "text": "To strongly recommend the screening to every pregnant woman to ensure the highest possible uptake rate for the trust.",
+          "is_correct": false,
+          "rationale": "This is coercive and undermines the principle of informed choice."
+        },
+        {
+          "key": "C",
+          "text": "To explain that the screening is a mandatory part of routine antenatal care that cannot be declined by the patient.",
+          "is_correct": false,
+          "rationale": "Antenatal screening is always optional and requires explicit consent."
+        },
+        {
+          "key": "D",
+          "text": "To focus primarily on the significant risks of invasive testing that may follow a high-chance screening result.",
+          "is_correct": false,
+          "rationale": "This presents a biased view; a balanced discussion of all aspects is required."
+        },
+        {
+          "key": "E",
+          "text": "To delegate the entire discussion to a specialist screening midwife to avoid potential miscommunication about complex results.",
+          "is_correct": false,
+          "rationale": "Providing this information is a core competency for all midwives."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "You identify potential safeguarding concerns for an unborn baby during an antenatal booking appointment. What is the most appropriate immediate action to take?",
+      "explanation": "The correct procedure involves meticulous documentation and immediate escalation through established local safeguarding channels, typically involving discussion with a named safeguarding midwife to ensure a coordinated and appropriate response.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Documenting concerns thoroughly and discussing them with the named midwife for safeguarding to initiate a multi-agency referral.",
+          "is_correct": true,
+          "rationale": "This follows correct procedure for documentation, escalation, and multi-agency working."
+        },
+        {
+          "key": "B",
+          "text": "Waiting for further evidence to accumulate over several appointments before taking any formal action on the matter.",
+          "is_correct": false,
+          "rationale": "Delaying action could place the unborn baby at significant risk of harm."
+        },
+        {
+          "key": "C",
+          "text": "Confronting the woman and her partner directly with your suspicions to gauge their immediate reaction to the concerns.",
+          "is_correct": false,
+          "rationale": "This approach is unprofessional, potentially unsafe, and could damage the therapeutic relationship."
+        },
+        {
+          "key": "D",
+          "text": "Contacting social services directly without first discussing the case with any senior colleagues within the maternity service.",
+          "is_correct": false,
+          "rationale": "Following internal trust policy and escalation pathways is the correct first step."
+        },
+        {
+          "key": "E",
+          "text": "Advising the woman to seek help from a local charity but taking no further action within the healthcare system.",
+          "is_correct": false,
+          "rationale": "This abdicates the midwife's professional and legal responsibility to safeguard."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "A woman at 28 weeks gestation is diagnosed with Gestational Diabetes Mellitus. What is the most appropriate initial management advice you would provide?",
+      "explanation": "Initial management for GDM focuses on conservative measures like diet, exercise, and blood glucose monitoring. This approach empowers the woman and often effectively controls glycaemia without immediate pharmacological intervention.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately recommend starting metformin therapy without first attempting lifestyle changes, which is contrary to established clinical guidelines.",
+          "is_correct": false,
+          "rationale": "Pharmacological intervention is not the first-line treatment."
+        },
+        {
+          "key": "B",
+          "text": "Advise dietary modifications and regular blood glucose monitoring, explaining the importance of controlling sugar levels for fetal wellbeing.",
+          "is_correct": true,
+          "rationale": "This aligns with NICE guidelines for initial GDM management."
+        },
+        {
+          "key": "C",
+          "text": "Suggest she significantly reduce all carbohydrate intake, which could potentially lead to ketosis and is not recommended.",
+          "is_correct": false,
+          "rationale": "Extreme carbohydrate restriction is harmful and not advised."
+        },
+        {
+          "key": "D",
+          "text": "Reassure her that the condition is very common and requires no specific changes until after 32 weeks gestation.",
+          "is_correct": false,
+          "rationale": "Delaying management poses significant risks to the mother and fetus."
+        },
+        {
+          "key": "E",
+          "text": "Refer her directly to an endocrinologist for insulin therapy, bypassing initial conservative management strategies like diet and exercise.",
+          "is_correct": false,
+          "rationale": "Insulin is typically reserved for when diet and metformin fail."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "You observe a prolonged deceleration on the cardiotocograph (CTG) for a woman in active labour. What is your immediate priority action?",
+      "explanation": "When a prolonged deceleration is observed, the immediate priority is to improve fetal oxygenation through intrauterine resuscitation measures. This can often resolve the non-reassuring pattern and prevent more invasive interventions.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately prepare the woman for an emergency caesarean section without performing any further assessments or interventions first.",
+          "is_correct": false,
+          "rationale": "This is too drastic without attempting conservative measures first."
+        },
+        {
+          "key": "B",
+          "text": "Continue to monitor the CTG for another 15 minutes to see if the pattern resolves on its own.",
+          "is_correct": false,
+          "rationale": "This delay could lead to significant fetal compromise."
+        },
+        {
+          "key": "C",
+          "text": "Increase the rate of the oxytocin infusion to accelerate labour and expedite the delivery of the baby.",
+          "is_correct": false,
+          "rationale": "This would worsen uterine hyperstimulation and fetal distress."
+        },
+        {
+          "key": "D",
+          "text": "Initiate intrauterine resuscitation measures, such as changing maternal position, administering oxygen, and stopping any oxytocin infusion.",
+          "is_correct": true,
+          "rationale": "These actions aim to correct the underlying cause of fetal distress."
+        },
+        {
+          "key": "E",
+          "text": "Ask a colleague for a second opinion before taking any action, which would cause an unnecessary and critical delay.",
+          "is_correct": false,
+          "rationale": "Immediate action is required; consultation can happen concurrently."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "A woman experiences a primary postpartum haemorrhage (PPH) immediately following a vaginal birth. What is the first-line pharmacological agent you should administer?",
+      "explanation": "According to NICE and RCOG guidelines, Syntocinon (oxytocin) is the first-line uterotonic drug for managing primary PPH. It effectively causes uterine contraction and has fewer side effects than combination agents like Syntometrine.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Administer an intravenous bolus of Syntometrine, which is often reserved due to its side effect profile, like hypertension.",
+          "is_correct": false,
+          "rationale": "Syntometrine is not the first-line agent due to side effects."
+        },
+        {
+          "key": "B",
+          "text": "Give a dose of Misoprostol rectally, which is typically used as a second-line or adjunctive treatment for PPH.",
+          "is_correct": false,
+          "rationale": "Misoprostol is a second-line agent, not the initial choice."
+        },
+        {
+          "key": "C",
+          "text": "Administer a bolus of intravenous or intramuscular Syntocinon (oxytocin) to stimulate uterine contractions and control bleeding.",
+          "is_correct": true,
+          "rationale": "Syntocinon is the recommended first-line uterotonic for PPH management."
+        },
+        {
+          "key": "D",
+          "text": "Immediately start a blood transfusion before administering any uterotonic drugs to manage the ongoing blood loss.",
+          "is_correct": false,
+          "rationale": "Uterotonics should be given first to stop the source of bleeding."
+        },
+        {
+          "key": "E",
+          "text": "Administer Carboprost (Hemabate), which is a prostaglandin analogue reserved for when initial oxytocics have failed to work.",
+          "is_correct": false,
+          "rationale": "Carboprost is a second or third-line treatment option."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "You need to communicate an unexpected adverse outcome, such as a stillbirth, to the parents. What is a crucial principle to follow?",
+      "explanation": "When breaking bad news, it is vital to be compassionate, clear, and direct. Providing a private, supportive environment and using simple language helps parents understand and begin to process the devastating information.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Avoid using direct terms like 'death' or 'died' to protect the parents from further emotional distress and confusion.",
+          "is_correct": false,
+          "rationale": "Euphemisms can cause confusion; clear language is essential."
+        },
+        {
+          "key": "B",
+          "text": "Provide all the complex medical details immediately to ensure the parents are fully informed about the clinical situation.",
+          "is_correct": false,
+          "rationale": "Information overload can be overwhelming; provide information in chunks."
+        },
+        {
+          "key": "C",
+          "text": "Use clear, simple, and direct language, offer emotional support, and provide a quiet, private space for the conversation.",
+          "is_correct": true,
+          "rationale": "This approach balances clarity with compassion and support."
+        },
+        {
+          "key": "D",
+          "text": "Ensure you are not alone when breaking the news and allow for periods of silence for them to process.",
+          "is_correct": false,
+          "rationale": "While good practice, the core principle is clarity and support."
+        },
+        {
+          "key": "E",
+          "text": "Focus entirely on the medical reasons for the outcome, avoiding any discussion of emotional support or follow-up care.",
+          "is_correct": false,
+          "rationale": "Holistic care requires addressing emotional and support needs."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "A newborn has an Apgar score of 5 at one minute post-birth. What is the most appropriate immediate action for the midwife?",
+      "explanation": "An Apgar score of 5 indicates the newborn is in moderate distress and requires immediate intervention. Basic resuscitation steps, such as stimulation and assisted ventilation, are crucial to improve the baby's condition.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Document the score and wait to reassess the baby at the five-minute mark without providing any active intervention.",
+          "is_correct": false,
+          "rationale": "A score of 5 requires immediate action, not passive observation."
+        },
+        {
+          "key": "B",
+          "text": "Immediately begin chest compressions, as this score indicates the baby is in full cardiac arrest, which is incorrect.",
+          "is_correct": false,
+          "rationale": "Chest compressions are for severe bradycardia or asystole, not a score of 5."
+        },
+        {
+          "key": "C",
+          "text": "Wrap the baby warmly and hand them to the mother for skin-to-skin contact to help improve the score.",
+          "is_correct": false,
+          "rationale": "Resuscitation takes priority over skin-to-skin contact at this stage."
+        },
+        {
+          "key": "D",
+          "text": "Administer a dose of naloxone, assuming the low score is due to maternal opioid use during labour.",
+          "is_correct": false,
+          "rationale": "Naloxone is rarely used and only in specific circumstances."
+        },
+        {
+          "key": "E",
+          "text": "Initiate basic neonatal resuscitation, including drying, stimulating the baby, and providing positive pressure ventilation if needed.",
+          "is_correct": true,
+          "rationale": "This follows standard neonatal resuscitation guidelines for a moderately depressed infant."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "A woman presents 10 days postpartum with heavy, fresh vaginal bleeding and uterine tenderness. What is the most appropriate initial management step?",
+      "explanation": "Secondary postpartum haemorrhage requires urgent assessment for haemodynamic instability and investigation for underlying causes like retained products or infection. Securing IV access and arranging an ultrasound are critical initial actions.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Assess for haemodynamic stability, secure intravenous access, and arrange for an urgent ultrasound to check for retained products of conception.",
+          "is_correct": true,
+          "rationale": "This covers immediate assessment, resuscitation, and investigation, which is the correct, safe approach for secondary PPH."
+        },
+        {
+          "key": "B",
+          "text": "Immediately administer a broad-spectrum antibiotic and advise bed rest, assuming it is likely endometritis without further investigation of the bleeding.",
+          "is_correct": false,
+          "rationale": "This incorrectly assumes a diagnosis and fails to address the immediate risk of significant haemorrhage."
+        },
+        {
+          "key": "C",
+          "text": "Advise the woman to monitor the bleeding at home and to return if it becomes significantly heavier or she feels unwell.",
+          "is_correct": false,
+          "rationale": "This response represents an unsafe delay in assessment and management for a potentially life-threatening condition."
+        },
+        {
+          "key": "D",
+          "text": "Perform a vaginal examination to remove any visible clots and then send her home with oral iron supplements for anaemia.",
+          "is_correct": false,
+          "rationale": "This is an insufficient intervention that fails to diagnose or treat the underlying cause of the bleeding."
+        },
+        {
+          "key": "E",
+          "text": "Prescribe oral uterotonics like ergometrine without a full clinical assessment to confirm the cause of the ongoing bleeding.",
+          "is_correct": false,
+          "rationale": "Administering uterotonics without a diagnosis is inappropriate and could be ineffective or harmful depending on the cause."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "A term baby, 72 hours old, appears visibly jaundiced. What is the most critical factor in determining the need for phototherapy treatment?",
+      "explanation": "The decision to commence phototherapy for neonatal jaundice is based on the total serum bilirubin level in relation to the baby's age in hours and gestation, plotted on a standardised treatment threshold graph.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The baby's feeding pattern and whether they are exclusively breastfed, as this can influence the type of jaundice present.",
+          "is_correct": false,
+          "rationale": "While relevant for context, feeding patterns are not the primary determinant for initiating phototherapy treatment."
+        },
+        {
+          "key": "B",
+          "text": "The total serum bilirubin (SBR) level plotted on a treatment threshold chart specific to the baby's gestational and postnatal age.",
+          "is_correct": true,
+          "rationale": "This is the evidence-based, gold standard method for making an objective decision about starting phototherapy."
+        },
+        {
+          "key": "C",
+          "text": "The presence of cephalohaematoma or significant bruising from birth, which can increase the risk of developing severe jaundice.",
+          "is_correct": false,
+          "rationale": "These are important risk factors to consider, but the SBR level is the definitive measure for treatment decisions."
+        },
+        {
+          "key": "D",
+          "text": "The parent's subjective assessment of the baby's skin colour and their level of concern about the developing jaundice.",
+          "is_correct": false,
+          "rationale": "Parental concern is important for holistic care, but clinical decisions must be based on objective measurements."
+        },
+        {
+          "key": "E",
+          "text": "The baby's weight loss percentage since birth, as significant weight loss can exacerbate the effects of hyperbilirubinaemia.",
+          "is_correct": false,
+          "rationale": "Weight loss is a contributing factor, but the bilirubin level itself is the direct indicator for treatment."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "During a postnatal visit, you notice a woman has unexplained bruising and seems withdrawn. What is your primary professional responsibility in this situation?",
+      "explanation": "The midwife's primary responsibility is to create a safe space to explore concerns, ask sensitive questions directly but gently, provide information, and empower the woman, following local safeguarding protocols.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately contact the police to report your suspicions without first discussing the matter further with the woman or her partner.",
+          "is_correct": false,
+          "rationale": "This action may escalate risk, breach trust, and disempower the woman, going against safeguarding principles."
+        },
+        {
+          "key": "B",
+          "text": "Document your observations meticulously in the notes but take no further action unless the woman discloses abuse directly to you.",
+          "is_correct": false,
+          "rationale": "This is a passive approach that fails the professional duty of care to explore safeguarding concerns proactively."
+        },
+        {
+          "key": "C",
+          "text": "Create a safe, private opportunity to speak with the woman alone, ask gentle, direct questions, and offer support service information.",
+          "is_correct": true,
+          "rationale": "This is the correct, sensitive, and empowering first step in line with best practice for safeguarding."
+        },
+        {
+          "key": "D",
+          "text": "Inform her partner that you are concerned about her wellbeing and ask him directly if there are any problems at home.",
+          "is_correct": false,
+          "rationale": "This is extremely dangerous as it could alert a potential perpetrator and escalate the risk of harm."
+        },
+        {
+          "key": "E",
+          "text": "Advise the woman that she should leave her partner immediately and offer to help her pack her belongings.",
+          "is_correct": false,
+          "rationale": "This oversteps professional boundaries and may not be what the woman wants or is safe for her."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "A woman receives a high-chance combined screening result for Down's syndrome. What is the most appropriate way to communicate this information to her?",
+      "explanation": "Communicating a high-chance screening result requires a sensitive, supportive, face-to-face discussion. The midwife must clearly explain the result, explore all further options, and support the woman's autonomous decision-making process.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Send her a letter with the result and a leaflet about diagnostic testing options, allowing her time to process it alone.",
+          "is_correct": false,
+          "rationale": "This method is impersonal and lacks the necessary support and opportunity for immediate questions and discussion."
+        },
+        {
+          "key": "B",
+          "text": "Inform her of the result over the phone and immediately book her for an amniocentesis without discussing other options.",
+          "is_correct": false,
+          "rationale": "This approach is directive, removes the woman's autonomy, and fails to provide comprehensive counselling on all options."
+        },
+        {
+          "key": "C",
+          "text": "Arrange a face-to-face appointment to explain the result clearly, discuss what it means, and explore all her available options.",
+          "is_correct": true,
+          "rationale": "This ensures sensitive communication, provides support, and facilitates informed choice, which is central to midwifery care."
+        },
+        {
+          "key": "D",
+          "text": "Tell her not to worry as it is just a screening test and most high-chance results lead to a healthy baby.",
+          "is_correct": false,
+          "rationale": "This is falsely reassuring, downplays the significance of the result, and undermines the screening process."
+        },
+        {
+          "key": "E",
+          "text": "Focus only on the statistical probability of the result without discussing the emotional impact or the conditions being screened for.",
+          "is_correct": false,
+          "rationale": "This approach is insensitive and fails to provide the holistic, person-centred care required in this situation."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "You are attending a birth and recognise the signs of shoulder dystocia. What is the immediate, first-line manoeuvre you should perform?",
+      "explanation": "The initial management of shoulder dystocia involves calling for help and performing the McRoberts' manoeuvre. This simple positional change can resolve the obstruction in a significant number of cases by flattening the sacral promontory.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Apply continuous fundal pressure to help expel the baby's shoulders from the maternal pelvis as quickly as possible.",
+          "is_correct": false,
+          "rationale": "Fundal pressure is contraindicated in shoulder dystocia as it can worsen impaction and cause uterine rupture."
+        },
+        {
+          "key": "B",
+          "text": "Immediately proceed to perform an episiotomy to create more space for the baby's shoulders to be delivered.",
+          "is_correct": false,
+          "rationale": "An episiotomy may be required for internal manoeuvres but does not resolve the bony obstruction itself."
+        },
+        {
+          "key": "C",
+          "text": "Ask the woman to lie flat on her back and encourage her to push as hard as she possibly can.",
+          "is_correct": false,
+          "rationale": "Lying flat can worsen the pelvic angle, and pushing can further impact the shoulder against the symphysis pubis."
+        },
+        {
+          "key": "D",
+          "text": "Call for help, stop the woman from pushing, and assist her into the McRoberts' manoeuvre by hyperflexing her thighs.",
+          "is_correct": true,
+          "rationale": "This is the correct, evidence-based first-line response that is simple, quick, and often effective."
+        },
+        {
+          "key": "E",
+          "text": "Attempt to rotate the baby's shoulders using the Woods' screw manoeuvre before trying any other positional changes.",
+          "is_correct": false,
+          "rationale": "This is a secondary, internal manoeuvre to be attempted only if first-line external manoeuvres are unsuccessful."
+        }
+      ]
+    }
+  ]
+}

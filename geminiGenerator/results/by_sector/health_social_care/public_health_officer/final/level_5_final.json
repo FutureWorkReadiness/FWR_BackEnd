@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "When managing a newly identified communicable disease outbreak with unknown transmission vectors, what is the most critical initial strategic action to implement?",
+      "explanation": "Establishing a multi-disciplinary incident management team is the foundational step. It ensures a coordinated, comprehensive response by integrating expertise from surveillance, labs, clinical care, and communications to manage the crisis effectively from the outset.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately implement widespread community quarantine measures to halt potential spread before gathering more specific data on transmission.",
+          "is_correct": false,
+          "rationale": "This action is premature and disproportionate without sufficient evidence, potentially causing unnecessary social and economic disruption."
+        },
+        {
+          "key": "B",
+          "text": "Focus all available resources on developing a specific vaccine, delaying other public health interventions until it is ready for deployment.",
+          "is_correct": false,
+          "rationale": "Vaccine development is a long-term strategy; immediate containment and mitigation measures are necessary to control an active outbreak."
+        },
+        {
+          "key": "C",
+          "text": "Establish a multi-disciplinary incident management team to coordinate surveillance, laboratory services, and public communication efforts.",
+          "is_correct": true,
+          "rationale": "This creates the necessary command structure for a coordinated, evidence-based response, which is the most critical first step."
+        },
+        {
+          "key": "D",
+          "text": "Launch a public awareness campaign primarily through social media channels to provide preliminary safety information to the population.",
+          "is_correct": false,
+          "rationale": "While important, communication must be coordinated by a central team to ensure accuracy and avoid panic; it is not the primary strategic action."
+        },
+        {
+          "key": "E",
+          "text": "Begin drafting long-term health policy recommendations based on initial case reports for future legislative sessions and review.",
+          "is_correct": false,
+          "rationale": "This focuses on future policy over the immediate need for operational crisis management and outbreak control."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "You are designing a health promotion program for a community with historically low engagement and significant health disparities. What is the most effective approach?",
+      "explanation": "Community-Based Participatory Research (CBPR) is the gold standard for working with marginalized communities. It fosters trust, ensures cultural appropriateness, and empowers residents by making them active partners in designing solutions that address their specific needs and context.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Implement a standardized health program that has been successful in more affluent, neighboring communities without any significant modification.",
+          "is_correct": false,
+          "rationale": "This one-size-fits-all approach ignores the unique cultural, social, and economic factors contributing to disparities in the target community."
+        },
+        {
+          "key": "B",
+          "text": "Conduct extensive community-based participatory research to co-design the intervention with community members and local leaders.",
+          "is_correct": true,
+          "rationale": "This collaborative approach ensures the program is relevant, trusted, and sustainable by empowering the community it serves."
+        },
+        {
+          "key": "C",
+          "text": "Focus on a top-down educational campaign using mass media to disseminate generic health information across the entire region.",
+          "is_correct": false,
+          "rationale": "Mass media campaigns often fail to reach or resonate with marginalized groups and do not address specific barriers to access."
+        },
+        {
+          "key": "D",
+          "text": "Primarily offer financial incentives for participation, assuming economic barriers are the only significant factor for low engagement.",
+          "is_correct": false,
+          "rationale": "This oversimplifies complex issues like mistrust, cultural barriers, and access, which are often more significant than financial constraints."
+        },
+        {
+          "key": "E",
+          "text": "Partner exclusively with large healthcare providers to deliver services, bypassing smaller, trusted local community organizations for efficiency.",
+          "is_correct": false,
+          "rationale": "This approach overlooks trusted local organizations that often have deeper community connections and are critical for successful engagement."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "When evaluating a large-scale public health intervention using longitudinal data, which statistical method is most appropriate for controlling for confounding variables over time?",
+      "explanation": "Generalized Estimating Equations (GEE) are specifically designed for analyzing longitudinal or clustered data. They appropriately model the correlation between repeated measurements on the same subject over time while allowing for the adjustment of time-varying confounders.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using simple chi-squared tests to compare the pre- and post-intervention prevalence rates without any further statistical adjustments.",
+          "is_correct": false,
+          "rationale": "This method is too simplistic as it fails to account for repeated measures and the influence of confounding variables."
+        },
+        {
+          "key": "B",
+          "text": "Relying solely on descriptive statistics like means and medians to show changes in the observed health outcomes over time.",
+          "is_correct": false,
+          "rationale": "Descriptive statistics cannot establish causality or control for confounders, making them insufficient for a robust program evaluation."
+        },
+        {
+          "key": "C",
+          "text": "Conducting a series of independent t-tests for each time point to assess statistical significance between groups separately.",
+          "is_correct": false,
+          "rationale": "This approach ignores the longitudinal nature of the data and increases the risk of Type I errors."
+        },
+        {
+          "key": "D",
+          "text": "Applying a generalized estimating equation (GEE) model to account for repeated measures and correlations within subjects over time.",
+          "is_correct": true,
+          "rationale": "GEE is an advanced statistical method ideal for longitudinal data, controlling for correlation and time-varying confounders effectively."
+        },
+        {
+          "key": "E",
+          "text": "Creating data visualizations and dashboards without any inferential statistical analysis to demonstrate the program's overall impact.",
+          "is_correct": false,
+          "rationale": "Visualizations are useful for communication but lack the statistical rigor needed to prove the intervention's effectiveness."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "A proposed public health regulation faces strong opposition from influential industry stakeholders. What is the most strategic first step for a public health officer?",
+      "explanation": "A data-driven approach is the most professional and effective starting point. An evidence brief grounds the discussion in facts, demonstrates due diligence, and provides a solid foundation for negotiation, advocacy, and countering misinformation from opposing stakeholders.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately escalate the issue to the media to publicly pressure the opposing stakeholders into immediate compliance with the regulation.",
+          "is_correct": false,
+          "rationale": "This confrontational tactic can backfire, create entrenched opposition, and undermine opportunities for constructive dialogue or negotiation."
+        },
+        {
+          "key": "B",
+          "text": "Compile and present a robust evidence brief detailing the regulation's public health benefits and its potential economic impact.",
+          "is_correct": true,
+          "rationale": "This evidence-based approach establishes credibility and provides a factual basis for all subsequent advocacy and stakeholder negotiations."
+        },
+        {
+          "key": "C",
+          "text": "Abandon the proposed regulation entirely to avoid conflict and maintain positive relationships with all industry partners in the region.",
+          "is_correct": false,
+          "rationale": "This abdicates the core responsibility of a public health officer to protect and promote the health of the population."
+        },
+        {
+          "key": "D",
+          "text": "Organize public protests and grassroots campaigns to demonstrate widespread community support for the new regulation.",
+          "is_correct": false,
+          "rationale": "While potentially useful later, this is not the most strategic *first* step, which should be based on evidence and direct engagement."
+        },
+        {
+          "key": "E",
+          "text": "Proceed with implementation without further consultation, assuming legal authority is sufficient to overcome any strong opposition.",
+          "is_correct": false,
+          "rationale": "This ignores the political and practical realities of policy implementation and can lead to legal challenges and failure."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "An investigation reveals a cluster of respiratory illnesses linked to industrial air pollution in a low-income neighborhood. What is the most comprehensive public health response?",
+      "explanation": "A comprehensive response must address the root cause (the pollution) through systemic change, not just the symptoms. Advocating for policy change and collaborating with other sectors like urban planning creates a sustainable, long-term solution that protects the community's health.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Focus solely on providing clinical treatment and respiratory therapies to the affected individuals in the local community.",
+          "is_correct": false,
+          "rationale": "This is a reactive, downstream approach that fails to address the underlying environmental cause of the illness."
+        },
+        {
+          "key": "B",
+          "text": "Launch a health education campaign advising residents to stay indoors and use personal air purifiers in their homes.",
+          "is_correct": false,
+          "rationale": "This places the burden of protection on the victims rather than addressing the source of the pollution."
+        },
+        {
+          "key": "C",
+          "text": "Recommend the immediate and permanent relocation of the entire affected community to a different, less polluted area.",
+          "is_correct": false,
+          "rationale": "This is often socially disruptive, economically unfeasible, and fails to hold the polluters accountable for their actions."
+        },
+        {
+          "key": "D",
+          "text": "Sue the industrial facilities directly on behalf of the public health department without involving environmental agencies.",
+          "is_correct": false,
+          "rationale": "This approach is siloed; effective action requires collaboration with agencies that have regulatory and enforcement authority."
+        },
+        {
+          "key": "E",
+          "text": "Advocate for stricter environmental regulations and collaborate with urban planning to create green buffer zones.",
+          "is_correct": true,
+          "rationale": "This upstream, multi-sectoral approach addresses the root cause of the problem for a sustainable, long-term solution."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "When conducting a Health Impact Assessment for a major urban redevelopment project, what is the most critical initial step for ensuring its effectiveness?",
+      "explanation": "The success of an HIA depends on early and meaningful engagement with all relevant stakeholders, especially the community. This ensures the assessment is comprehensive, relevant, and has buy-in for implementation of its recommendations.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately commissioning a detailed epidemiological study to gather baseline health data for the affected population before any other action is taken.",
+          "is_correct": false,
+          "rationale": "While important, this is a later step in the process (scoping/assessment) and not the most critical initial one."
+        },
+        {
+          "key": "B",
+          "text": "Establishing a multi-stakeholder steering group including community representatives, planners, and health experts to guide the entire HIA process.",
+          "is_correct": true,
+          "rationale": "Stakeholder engagement from the very beginning is foundational for a relevant and effective Health Impact Assessment."
+        },
+        {
+          "key": "C",
+          "text": "Focusing exclusively on mitigating negative environmental impacts like air and noise pollution, as these are the most direct health threats.",
+          "is_correct": false,
+          "rationale": "This is too narrow; HIAs must consider broader social and economic determinants of health, not just environmental ones."
+        },
+        {
+          "key": "D",
+          "text": "Developing a comprehensive list of health indicators based solely on national public health targets without any local community input.",
+          "is_correct": false,
+          "rationale": "Local context and community input are vital for selecting relevant indicators that reflect the community's priorities."
+        },
+        {
+          "key": "E",
+          "text": "Prioritizing the economic benefits of the project to secure funding for future health promotion initiatives within the new development.",
+          "is_correct": false,
+          "rationale": "Economic factors are considered, but they do not supersede the primary goal of assessing and protecting public health."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "You are leading the response to a multi-jurisdictional foodborne illness outbreak. What is the most crucial action after establishing a clear case definition?",
+      "explanation": "After defining the cases, the priority is to find the source to prevent further illness. Traceback investigations are the systematic method for achieving this, requiring inter-agency coordination to be effective and halt the outbreak.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately issuing a broad public warning about all potentially contaminated food categories to ensure maximum public awareness and safety.",
+          "is_correct": false,
+          "rationale": "This is premature and can cause unnecessary panic and significant economic damage without specific evidence."
+        },
+        {
+          "key": "B",
+          "text": "Focusing all resources on treating existing cases in hospitals rather than allocating personnel to preventative field investigation activities.",
+          "is_correct": false,
+          "rationale": "Treatment is vital, but prevention through investigation is a core public health duty to stop ongoing transmission."
+        },
+        {
+          "key": "C",
+          "text": "Waiting for laboratory confirmation from every suspected case before initiating any control measures to avoid causing unnecessary public alarm.",
+          "is_correct": false,
+          "rationale": "Waiting for all confirmations would dangerously delay necessary control measures and allow the outbreak to grow."
+        },
+        {
+          "key": "D",
+          "text": "Coordinating with environmental health officers and national agencies to conduct traceback investigations to identify the specific source of contamination.",
+          "is_correct": true,
+          "rationale": "Identifying the source through a coordinated traceback investigation is critical to stopping the outbreak at its origin."
+        },
+        {
+          "key": "E",
+          "text": "Requesting that all involved jurisdictions independently manage their own investigations to allow for faster, more localized responses to the outbreak.",
+          "is_correct": false,
+          "rationale": "A coordinated, centralized response is essential for multi-jurisdictional outbreaks to ensure consistency and effectiveness."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Which approach is most likely to create sustainable improvements in health outcomes for marginalized communities when developing a regional strategy to address health inequalities?",
+      "explanation": "The \"Health in All Policies\" approach acknowledges that health is determined by factors outside the healthcare sector. Embedding health equity into policies for housing, education, and employment addresses the root causes of inequality.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Implementing short-term, disease-specific screening programs targeted only at high-risk individuals within the marginalized communities.",
+          "is_correct": false,
+          "rationale": "This is a reactive, downstream approach that does not address the root causes of health inequalities."
+        },
+        {
+          "key": "B",
+          "text": "Focusing primarily on health education campaigns that promote individual behavior change without addressing underlying structural barriers.",
+          "is_correct": false,
+          "rationale": "This ignores the social determinants of health that constrain individual choices and limit the campaign's effectiveness."
+        },
+        {
+          "key": "C",
+          "text": "Advocating for and implementing \"Health in All Policies\" to embed health equity considerations across sectors like housing, education, and employment.",
+          "is_correct": true,
+          "rationale": "This upstream approach addresses the root social determinants of health, leading to sustainable and equitable outcomes."
+        },
+        {
+          "key": "D",
+          "text": "Allocating the majority of the budget to building new, state-of-the-art healthcare facilities within disadvantaged neighborhoods.",
+          "is_correct": false,
+          "rationale": "Access to facilities is important, but it does not address the underlying social determinants that create poor health."
+        },
+        {
+          "key": "E",
+          "text": "Creating a separate, specialized health service exclusively for marginalized groups, which operates independently from the main healthcare system.",
+          "is_correct": false,
+          "rationale": "This can lead to fragmented care and further stigmatization, rather than achieving true health equity."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "During a public health emergency, what ethical principle must be most carefully balanced when considering mandatory quarantine measures for a communicable disease?",
+      "explanation": "Proportionality is a key ethical and legal principle in public health. It requires that any infringement on individual rights, such as quarantine, must be necessary, reasonable, and the least restrictive option available to achieve the public health goal.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The principle of beneficence, which focuses solely on providing the maximum possible benefit to the largest number of people.",
+          "is_correct": false,
+          "rationale": "Beneficence is relevant but does not inherently address the critical balance with the restriction of individual liberty."
+        },
+        {
+          "key": "B",
+          "text": "The principle of proportionality, ensuring that the restriction of individual liberty is the least restrictive means necessary to protect public health.",
+          "is_correct": true,
+          "rationale": "Proportionality directly weighs individual liberty against the necessary public health action, making it the key balancing principle."
+        },
+        {
+          "key": "C",
+          "text": "The principle of non-maleficence, which would argue against any intervention that carries even a minimal risk of harm to an individual.",
+          "is_correct": false,
+          "rationale": "This is too absolute; public health actions often involve balancing different types of risks and harms."
+        },
+        {
+          "key": "D",
+          "text": "The principle of justice, ensuring that quarantine measures are applied without any form of discrimination across different population groups.",
+          "is_correct": false,
+          "rationale": "Justice is crucial for equitable application, but proportionality specifically addresses the liberty versus safety balance."
+        },
+        {
+          "key": "E",
+          "text": "The principle of utility, which prioritizes the overall economic stability of the community over the individual rights of those affected.",
+          "is_correct": false,
+          "rationale": "Utility is a consideration, but proportionality is the core ethical principle for balancing rights and public good."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Which evaluation framework is best for understanding the outcomes, context, and implementation process of a complex, community-wide health promotion program?",
+      "explanation": "Realist evaluation is ideal for complex interventions as it moves beyond \"did it work?\" to explore the underlying mechanisms, the influence of context, and how outcomes are generated, providing nuanced, actionable insights for future programs.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A simple pre-test/post-test design that only measures changes in participant knowledge immediately before and after the program intervention.",
+          "is_correct": false,
+          "rationale": "This is too simplistic and fails to capture long-term impact, context, or the implementation process."
+        },
+        {
+          "key": "B",
+          "text": "A realist evaluation approach that seeks to understand what works, for whom, in what circumstances, and why (context-mechanism-outcome).",
+          "is_correct": true,
+          "rationale": "This framework is specifically designed for evaluating complex, context-dependent interventions to provide deep, actionable insights."
+        },
+        {
+          "key": "C",
+          "text": "A randomized controlled trial (RCT) that withholds the intervention from a control group to establish definitive causality.",
+          "is_correct": false,
+          "rationale": "RCTs are often impractical or unethical for complex community-wide interventions and may lack external validity."
+        },
+        {
+          "key": "D",
+          "text": "A cost-benefit analysis focused exclusively on quantifying the financial return on investment for the public health program's funders.",
+          "is_correct": false,
+          "rationale": "This ignores crucial health outcomes, equity considerations, and the implementation process itself, focusing only on monetary value."
+        },
+        {
+          "key": "E",
+          "text": "A process evaluation that only documents program activities, such as the number of workshops held and materials distributed.",
+          "is_correct": false,
+          "rationale": "This only measures program outputs and fidelity, not the actual health outcomes or overall impact."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "When evaluating the long-term impact of a national smoking cessation program, which analytical method provides the most comprehensive insight for policy decisions?",
+      "explanation": "Cost-Utility Analysis is superior here because it incorporates quality of life by using Quality-Adjusted Life Years (QALYs), providing a more holistic view of a program's value beyond just extended lifespan or monetary savings.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A Cost-Benefit Analysis (CBA) that assigns a monetary value to every outcome, including lives saved and reduced healthcare usage.",
+          "is_correct": false,
+          "rationale": "CBA is useful but assigning a monetary value to life is ethically complex and can be less precise than other methods."
+        },
+        {
+          "key": "B",
+          "text": "A Cost-Effectiveness Analysis (CEA) comparing the program's cost to a single clinical outcome, such as the number of life-years gained.",
+          "is_correct": false,
+          "rationale": "CEA is limited because it focuses on a single outcome and does not account for changes in quality of life."
+        },
+        {
+          "key": "C",
+          "text": "A Cost-Utility Analysis (CUA) that measures outcomes in terms of Quality-Adjusted Life Years (QALYs) gained across the population.",
+          "is_correct": true,
+          "rationale": "CUA is the most comprehensive method, as it accounts for both the quantity and quality of life gained."
+        },
+        {
+          "key": "D",
+          "text": "A Budget Impact Analysis (BIA) that primarily forecasts the financial consequences of adopting the program on the healthcare budget.",
+          "is_correct": false,
+          "rationale": "BIA focuses solely on financial affordability and does not measure the actual health impact or value of the program."
+        },
+        {
+          "key": "E",
+          "text": "A simple Return on Investment (ROI) calculation focusing on the direct financial savings generated from reduced hospital admissions.",
+          "is_correct": false,
+          "rationale": "ROI is too simplistic for complex health interventions, ignoring non-monetary benefits and quality of life improvements."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "A longitudinal study reveals a strong link between urban food deserts and childhood obesity. What is the most strategic first step to translate this finding into policy?",
+      "explanation": "Developing a policy brief and engaging directly with local policymakers is the most strategic action. This step translates complex research into actionable recommendations for the individuals and groups who have the power to implement change.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately launch a city-wide public awareness campaign targeting parents with detailed nutritional information and healthy recipes.",
+          "is_correct": false,
+          "rationale": "An awareness campaign is useful but does not address the systemic issue of food access, which requires policy change."
+        },
+        {
+          "key": "B",
+          "text": "Publish the complete findings in a high-impact academic journal to ensure the research undergoes rigorous peer review.",
+          "is_correct": false,
+          "rationale": "While important for scientific validity, publication alone does not guarantee that the findings will reach or influence policymakers."
+        },
+        {
+          "key": "C",
+          "text": "Develop a concise policy brief with clear recommendations and engage directly with local government and urban planning committees.",
+          "is_correct": true,
+          "rationale": "This directly connects the research findings to the relevant policymakers who can enact structural changes like zoning laws or subsidies."
+        },
+        {
+          "key": "D",
+          "text": "Secure funding to pilot a small-scale community garden project in one affected neighborhood to gather more data.",
+          "is_correct": false,
+          "rationale": "A pilot project is a potential solution, but the strategic first step is to use existing data to advocate for broader policy."
+        },
+        {
+          "key": "E",
+          "text": "Directly lobby national legislators for federal funding to subsidize grocery stores in all underserved areas across the country.",
+          "is_correct": false,
+          "rationale": "This approach is too broad and premature; policy change is often most effective when initiated at the local level first."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "During a novel pathogen outbreak with a severely limited vaccine supply, which ethical framework should primarily guide the initial allocation strategy?",
+      "explanation": "A utilitarian framework, which aims to achieve the greatest good for the greatest number, is a cornerstone of public health ethics. In a pandemic, this often means prioritizing those essential for societal function to maximize overall benefit.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A utilitarian framework, prioritizing individuals most essential to societal functioning, like healthcare workers, to maximize overall public good.",
+          "is_correct": true,
+          "rationale": "This framework prioritizes societal stability and maximizes benefits, which is critical during a widespread public health crisis."
+        },
+        {
+          "key": "B",
+          "text": "A libertarian framework, allowing allocation based on an individual's ability to pay or secure the vaccine through private means.",
+          "is_correct": false,
+          "rationale": "This approach is widely considered unethical in public health as it exacerbates health inequities and fails to protect the vulnerable."
+        },
+        {
+          "key": "C",
+          "text": "A strict egalitarian framework, distributing the vaccine via a random lottery system to ensure every individual has an equal chance.",
+          "is_correct": false,
+          "rationale": "While seemingly fair, a lottery ignores factors like risk of exposure or severity, making it less effective at curbing an outbreak."
+        },
+        {
+          "key": "D",
+          "text": "A first-come, first-served framework, distributing the vaccine at public clinics to those who are able to arrive earliest.",
+          "is_correct": false,
+          "rationale": "This method disadvantages individuals with mobility, transportation, or work-related barriers, leading to inequitable distribution."
+        },
+        {
+          "key": "E",
+          "text": "A retributive framework that prioritizes individuals who have strictly adhered to all public health mandates and guidelines.",
+          "is_correct": false,
+          "rationale": "This punitive approach is ethically problematic, difficult to implement, and undermines the goal of universal public health protection."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "To address persistently high rates of maternal mortality in a marginalized community, which intervention best targets the underlying social determinants of health?",
+      "explanation": "This option is the most effective because it provides a multi-faceted, wraparound service that directly mitigates key social determinants of health—such as lack of social support, transportation barriers, and food insecurity—that contribute to poor maternal outcomes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Increasing the number of specialized obstetricians and high-tech equipment available within the local hospital's maternity ward.",
+          "is_correct": false,
+          "rationale": "This improves clinical care but does not address the socioeconomic barriers that prevent people from accessing that care consistently."
+        },
+        {
+          "key": "B",
+          "text": "Launching a targeted public health campaign about the critical importance of attending regular prenatal check-ups.",
+          "is_correct": false,
+          "rationale": "This raises awareness but fails to provide the resources needed to overcome barriers to attending those appointments."
+        },
+        {
+          "key": "C",
+          "text": "Implementing a program providing doula support, free transportation to appointments, and supplemental nutritional assistance for pregnant individuals.",
+          "is_correct": true,
+          "rationale": "This directly addresses multiple social barriers (support, transport, nutrition) that are root causes of health disparities."
+        },
+        {
+          "key": "D",
+          "text": "Mandating advanced life support and emergency obstetric training for all labor and delivery nurses in the region.",
+          "is_correct": false,
+          "rationale": "This is a valuable clinical improvement but it is reactive, addressing emergencies rather than preventing the conditions that cause them."
+        },
+        {
+          "key": "E",
+          "text": "Funding a new research study to identify the specific genetic markers associated with adverse birth outcomes in the population.",
+          "is_correct": false,
+          "rationale": "While potentially useful long-term, this is not an intervention and does not address the immediate, known social factors."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "When combating widespread public misinformation about a new vaccine, what is the most effective and evidence-based public health communication strategy?",
+      "explanation": "This strategy is most effective because it leverages trust, a critical component of public health communication. People are more likely to accept information from sources they already know and respect, such as local doctors or community leaders.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ignoring the misinformation entirely to avoid giving the false claims a larger platform and more public attention.",
+          "is_correct": false,
+          "rationale": "This is a passive approach that allows misinformation to spread unchecked and become entrenched in the community."
+        },
+        {
+          "key": "B",
+          "text": "Engaging in public debates with prominent anti-vaccine advocates to publicly discredit their specific claims with scientific facts.",
+          "is_correct": false,
+          "rationale": "This often backfires by amplifying the misinformation and giving the appearance of a legitimate scientific debate where none exists."
+        },
+        {
+          "key": "C",
+          "text": "Proactively disseminating clear, consistent, and empathetic messages through trusted community leaders and local healthcare providers.",
+          "is_correct": true,
+          "rationale": "This strategy builds trust and uses established, credible channels to deliver accurate information, which is highly effective."
+        },
+        {
+          "key": "D",
+          "text": "Focusing all communication efforts exclusively on presenting complex scientific data and peer-reviewed studies to the general public.",
+          "is_correct": false,
+          "rationale": "While data is important, it can be inaccessible or unpersuasive to a lay audience and may not build trust effectively."
+        },
+        {
+          "key": "E",
+          "text": "Advocating for strict legal penalties for individuals and media outlets that are caught spreading false health information.",
+          "is_correct": false,
+          "rationale": "This approach can be seen as censorship, may drive misinformation underground, and is often difficult to enforce effectively."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "When designing a national-level intervention to address health inequities, which approach is most critical for ensuring long-term, sustainable impact across diverse communities?",
+      "explanation": "A Health in All Policies (HiAP) approach is the most strategic option because it addresses the social determinants of health by integrating health considerations into policies across sectors like education, housing, and transport, leading to sustainable, systemic change.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Implementing a Health in All Policies (HiAP) framework that embeds health considerations into policymaking across non-health sectors like housing and education.",
+          "is_correct": true,
+          "rationale": "This addresses the root social determinants of health for sustainable impact."
+        },
+        {
+          "key": "B",
+          "text": "Launching a series of targeted, short-term public health campaigns focused on specific high-risk behaviors within marginalized populations.",
+          "is_correct": false,
+          "rationale": "This approach is often not sustainable and may not address underlying causes."
+        },
+        {
+          "key": "C",
+          "text": "Allocating the majority of funding to expanding clinical services and access to specialist medical care in underserved areas.",
+          "is_correct": false,
+          "rationale": "This is a downstream approach that treats illness rather than preventing it."
+        },
+        {
+          "key": "D",
+          "text": "Focusing primarily on collecting granular epidemiological data to better map the distribution of disease without immediate policy action.",
+          "is_correct": false,
+          "rationale": "Data collection is crucial but is not an intervention in itself."
+        },
+        {
+          "key": "E",
+          "text": "Partnering exclusively with large non-governmental organizations to deliver standardized health programs across all regions of the country.",
+          "is_correct": false,
+          "rationale": "Standardized programs may fail to address the specific needs of diverse communities."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "During a novel pathogen outbreak, what is the primary strategic advantage of integrating whole-genome sequencing (WGS) into the epidemiological investigation from the earliest stages?",
+      "explanation": "Whole-genome sequencing provides high-resolution data that allows epidemiologists to precisely map how a pathogen is spreading. This helps identify otherwise hidden transmission links and clusters, enabling more focused and efficient public health responses like targeted testing and quarantine.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It immediately determines the clinical severity and case fatality rate of the new pathogen for public communication purposes.",
+          "is_correct": false,
+          "rationale": "WGS provides genetic data, not direct clinical outcome metrics."
+        },
+        {
+          "key": "B",
+          "text": "It allows for the rapid development and mass production of a specific antiviral treatment for the novel pathogen.",
+          "is_correct": false,
+          "rationale": "WGS informs development but is not the development process itself."
+        },
+        {
+          "key": "C",
+          "text": "It enables precise tracking of transmission chains and the identification of cryptic clusters, informing more targeted and effective public health interventions.",
+          "is_correct": true,
+          "rationale": "WGS provides high-resolution data to understand and interrupt transmission pathways."
+        },
+        {
+          "key": "D",
+          "text": "It primarily serves to satisfy international reporting requirements under the International Health Regulations without direct operational use.",
+          "is_correct": false,
+          "rationale": "WGS has significant, direct operational value beyond reporting requirements."
+        },
+        {
+          "key": "E",
+          "text": "It replaces the need for traditional contact tracing methods by providing a complete picture of every single transmission event.",
+          "is_correct": false,
+          "rationale": "WGS is a powerful tool that complements, but does not replace, contact tracing."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "As a senior public health officer, what is the most effective strategy for building community resilience to the health impacts of climate change, such as heatwaves?",
+      "explanation": "A multi-sectoral heat action plan is the most comprehensive and effective strategy. It combines proactive measures like early warnings with infrastructure improvements like cooling centers and urban greening, addressing the issue systemically rather than relying on individual action or reactive healthcare responses.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Distributing informational pamphlets about hydration and sun safety to all households just before the summer season begins each year.",
+          "is_correct": false,
+          "rationale": "This is a low-impact, passive measure for a systemic problem."
+        },
+        {
+          "key": "B",
+          "text": "Focusing solely on strengthening hospital emergency department capacity to handle an increase in heat-related illnesses during extreme weather events.",
+          "is_correct": false,
+          "rationale": "This is a reactive strategy, not a preventative or resilience-building one."
+        },
+        {
+          "key": "C",
+          "text": "Advocating for individual behavior change, such as encouraging residents to purchase and install personal air conditioning units.",
+          "is_correct": false,
+          "rationale": "This is an inequitable solution that is not feasible for all residents."
+        },
+        {
+          "key": "D",
+          "text": "Developing and implementing a multi-sectoral heat action plan that includes early warning systems, cooling center networks, and urban greening initiatives.",
+          "is_correct": true,
+          "rationale": "This is a comprehensive, proactive, and systemic approach to building resilience."
+        },
+        {
+          "key": "E",
+          "text": "Conducting long-term research on the physiological effects of heat stress without implementing any immediate community-level protective measures.",
+          "is_correct": false,
+          "rationale": "Action is required to build resilience; research alone is insufficient."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "You are tasked with evaluating a large-scale, publicly funded smoking cessation program. Which economic evaluation method is most appropriate for informing future resource allocation decisions?",
+      "explanation": "Cost-utility analysis (CUA) is the most suitable method as it measures outcomes in a standardized metric, Quality-Adjusted Life Years (QALYs). This allows decision-makers to compare the program's value not only against other smoking cessation programs but also against different health interventions.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A cost-minimization analysis that assumes the outcomes of all potential cessation programs are identical and only compares their total costs.",
+          "is_correct": false,
+          "rationale": "This is inappropriate as different programs will likely have different outcomes."
+        },
+        {
+          "key": "B",
+          "text": "A cost-utility analysis (CUA) that measures outcomes in Quality-Adjusted Life Years (QALYs), allowing for comparison across different types of health interventions.",
+          "is_correct": true,
+          "rationale": "CUA with QALYs is the gold standard for comparing value across diverse health programs."
+        },
+        {
+          "key": "C",
+          "text": "A simple cost-benefit analysis (CBA) that assigns a monetary value to years of life saved, which can be ethically controversial.",
+          "is_correct": false,
+          "rationale": "Monetizing life is ethically complex and less preferred than CUA in health."
+        },
+        {
+          "key": "D",
+          "text": "A return on investment (ROI) calculation focused exclusively on the financial savings to the healthcare system from reduced hospital admissions.",
+          "is_correct": false,
+          "rationale": "This is too narrow and ignores broader quality of life benefits."
+        },
+        {
+          "key": "E",
+          "text": "A budget impact analysis that only projects the program's financial consequences for the health budget over the next fiscal year.",
+          "is_correct": false,
+          "rationale": "This assesses affordability, not the overall value or efficiency of the program."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "During a public health emergency characterized by widespread misinformation, what is the most effective communication strategy for a public health agency to maintain public trust?",
+      "explanation": "Maintaining trust requires a multi-faceted strategy. Proactive, transparent communication that acknowledges what is unknown, combined with direct debunking of falsehoods and leveraging trusted community leaders, creates a resilient information environment that is more effective than simply broadcasting messages or ignoring the problem.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ignoring all misinformation to avoid giving it more attention and focusing only on broadcasting official public health messages.",
+          "is_correct": false,
+          "rationale": "This allows misinformation to spread unchallenged in an information vacuum."
+        },
+        {
+          "key": "B",
+          "text": "Issuing authoritative statements that demand compliance and criticize those who question the official guidance from health authorities.",
+          "is_correct": false,
+          "rationale": "This approach can be perceived as arrogant and can erode public trust."
+        },
+        {
+          "key": "C",
+          "text": "Limiting communication to highly technical scientific reports to ensure accuracy, even if they are difficult for the general public to understand.",
+          "is_correct": false,
+          "rationale": "Communication that is not understood by the public is ineffective."
+        },
+        {
+          "key": "D",
+          "text": "Engaging in public debates on social media platforms with individuals who are actively spreading conspiracy theories about the emergency.",
+          "is_correct": false,
+          "rationale": "This often amplifies the misinformation and gives credibility to its proponents."
+        },
+        {
+          "key": "E",
+          "text": "Proactively establishing a consistent, transparent communication channel that acknowledges uncertainty, debunks falsehoods, and partners with trusted community leaders.",
+          "is_correct": true,
+          "rationale": "This comprehensive strategy builds trust through transparency, action, and community engagement."
+        }
+      ]
+    }
+  ]
+}

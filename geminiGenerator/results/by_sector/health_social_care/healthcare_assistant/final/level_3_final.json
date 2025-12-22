@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "A patient's relative, who is not listed as their next of kin, asks you for specific details about the patient's diagnosis. What is your correct response?",
+      "explanation": "Patient confidentiality is paramount. HCAs must not disclose clinical information to anyone without explicit consent, directing all such enquiries to the registered nurse who can verify permissions and handle communication appropriately.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Provide a brief, general update on the patient's condition to be helpful and avoid causing any family conflict.",
+          "is_correct": false,
+          "rationale": "This is a breach of patient confidentiality."
+        },
+        {
+          "key": "B",
+          "text": "Politely explain that you cannot share confidential information and must direct them to speak with the nurse in charge.",
+          "is_correct": true,
+          "rationale": "This correctly upholds confidentiality and follows proper communication protocol."
+        },
+        {
+          "key": "C",
+          "text": "Ask the patient directly in front of the relative if it is okay to share the information they are asking for.",
+          "is_correct": false,
+          "rationale": "This puts the patient under undue pressure to consent."
+        },
+        {
+          "key": "D",
+          "text": "Look up the information in the patient's notes to confirm the details before you speak to the relative.",
+          "is_correct": false,
+          "rationale": "Accessing notes for this purpose is inappropriate and a data breach."
+        },
+        {
+          "key": "E",
+          "text": "Tell the relative you are too busy to talk and suggest they try asking another member of staff later.",
+          "is_correct": false,
+          "rationale": "This is unprofessional and fails to direct the query correctly."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "When assisting a patient with personal care, such as washing or dressing, what is the most effective way to uphold their dignity and respect?",
+      "explanation": "Maintaining dignity involves promoting autonomy and privacy. Explaining actions, ensuring the patient is covered, and offering choices are key components of person-centred care, making the individual feel respected and in control.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Work as quickly as possible to minimise the duration of the personal care task for the patient's convenience.",
+          "is_correct": false,
+          "rationale": "Rushing can make a patient feel like a task, not a person."
+        },
+        {
+          "key": "B",
+          "text": "Talk with other colleagues in the room to create a light-hearted and distracting atmosphere during the procedure.",
+          "is_correct": false,
+          "rationale": "This excludes the patient and can feel disrespectful."
+        },
+        {
+          "key": "C",
+          "text": "Ensure the patient is kept covered, clearly explain each step you are taking, and offer them choices where possible.",
+          "is_correct": true,
+          "rationale": "This approach promotes privacy, communication, and patient autonomy."
+        },
+        {
+          "key": "D",
+          "text": "Ask a family member to remain present to provide comfort and reassurance to the patient during the care task.",
+          "is_correct": false,
+          "rationale": "This should only be done with the patient's explicit consent."
+        },
+        {
+          "key": "E",
+          "text": "Only provide the assistance that is explicitly listed on the patient's daily care plan without any deviation.",
+          "is_correct": false,
+          "rationale": "Care should be responsive to the patient's needs, not rigidly fixed."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "You observe that a patient has suddenly become confused, their breathing is rapid, and their skin feels cool and clammy. What is your immediate priority?",
+      "explanation": "These are 'red flag' signs of potential sepsis or acute deterioration. The HCA's primary responsibility is to recognise and immediately escalate such concerns to a registered nurse for urgent clinical assessment and intervention.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Make the patient comfortable and offer them a warm drink to help them feel better while you observe them.",
+          "is_correct": false,
+          "rationale": "This delays urgent medical assessment and is an inadequate response."
+        },
+        {
+          "key": "B",
+          "text": "Immediately alert the registered nurse or most senior clinician on duty, clearly stating your urgent concerns about the patient.",
+          "is_correct": true,
+          "rationale": "This is the correct escalation procedure for a deteriorating patient."
+        },
+        {
+          "key": "C",
+          "text": "Document your observations carefully in the patient's notes and plan to inform the nurse during the next handover.",
+          "is_correct": false,
+          "rationale": "Waiting for handover is a dangerous delay in an urgent situation."
+        },
+        {
+          "key": "D",
+          "text": "Check the patient's observation chart to see if their vital signs were similar during the last recorded check.",
+          "is_correct": false,
+          "rationale": "While useful information, alerting the nurse is the immediate priority."
+        },
+        {
+          "key": "E",
+          "text": "Ask the patient's family if this is a normal occurrence for them when they are feeling unwell or tired.",
+          "is_correct": false,
+          "rationale": "This wastes critical time that should be used for clinical escalation."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is universally considered the single most important practice for preventing the spread of healthcare-associated infections (HCAIs) within a care setting?",
+      "explanation": "Hand hygiene is the cornerstone of infection prevention and control. It is the most simple and effective measure to prevent the transmission of pathogens between patients and healthcare workers, as recommended by all health organisations.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensuring that all clinical waste bins are emptied at least twice during every single shift on the ward.",
+          "is_correct": false,
+          "rationale": "This is important for general hygiene but not the primary prevention method."
+        },
+        {
+          "key": "B",
+          "text": "Wearing a clean, freshly laundered uniform at the start of every shift to avoid cross-contamination from outside.",
+          "is_correct": false,
+          "rationale": "Good practice, but less impactful than direct hand hygiene."
+        },
+        {
+          "key": "C",
+          "text": "Performing effective and timely hand hygiene before and after every single episode of patient contact or care.",
+          "is_correct": true,
+          "rationale": "This is the most critical and effective infection control measure."
+        },
+        {
+          "key": "D",
+          "text": "Routinely cleaning and disinfecting frequently touched surfaces like door handles, bed rails, and over-bed tables.",
+          "is_correct": false,
+          "rationale": "Environmental cleaning is vital, but hand hygiene is more critical."
+        },
+        {
+          "key": "E",
+          "text": "Encouraging patients to use hand sanitiser before they eat any of their meals or handle food items.",
+          "is_correct": false,
+          "rationale": "This is a good patient-focused practice but not the primary staff responsibility."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Before using a mobile hoist to transfer a patient, what is the most critical pre-use safety check that must be completed by the care staff?",
+      "explanation": "A thorough pre-use check is vital for patient and staff safety. This includes ensuring the sling is correct, securely attached, and the hoist's brakes are engaged to prevent accidents during the transfer procedure.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Confirming that the patient has given their verbal consent and feels ready to be moved at that specific time.",
+          "is_correct": false,
+          "rationale": "Consent is essential, but it is not a mechanical safety check."
+        },
+        {
+          "key": "B",
+          "text": "Making sure the patient's destination, such as a chair or bed, is fully prepared and ready for their arrival.",
+          "is_correct": false,
+          "rationale": "This is part of planning but not the primary equipment safety check."
+        },
+        {
+          "key": "C",
+          "text": "Checking that the hoist's brakes are on, the correct sling is used, and it is securely attached to the spreader bar.",
+          "is_correct": true,
+          "rationale": "This covers the most critical equipment safety points before a lift."
+        },
+        {
+          "key": "D",
+          "text": "Ensuring that there is another member of staff present in the room to observe and assist with the transfer.",
+          "is_correct": false,
+          "rationale": "Having two staff is standard procedure, but not the equipment check itself."
+        },
+        {
+          "key": "E",
+          "text": "Verifying that the hoist has a valid LOLER inspection sticker and that the date is clearly visible on it.",
+          "is_correct": false,
+          "rationale": "This is an important periodic check, not the immediate pre-use check."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "You observe several unexplained bruises on an elderly resident who appears anxious when a specific family member visits. What is your immediate professional responsibility?",
+      "explanation": "The primary duty is to ensure resident safety by following established safeguarding procedures. This involves immediately reporting concerns to a senior colleague or manager to trigger a formal and appropriate investigation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Directly confront the family member about the bruises you have observed to see how they react to the accusation.",
+          "is_correct": false,
+          "rationale": "This is unsafe and could escalate the situation, putting the resident at further risk."
+        },
+        {
+          "key": "B",
+          "text": "Document your observations in the resident's notes but wait for more definitive proof before escalating the matter further.",
+          "is_correct": false,
+          "rationale": "Delaying a report can put the vulnerable adult in continued danger; immediate action is required."
+        },
+        {
+          "key": "C",
+          "text": "Immediately report your specific concerns to the nurse in charge or your line manager, following the facility's safeguarding policy.",
+          "is_correct": true,
+          "rationale": "This follows the correct escalation pathway for safeguarding concerns, ensuring a timely and proper response."
+        },
+        {
+          "key": "D",
+          "text": "Ask the resident about the cause of their bruises while the family member is still present in the room.",
+          "is_correct": false,
+          "rationale": "This places the resident under pressure and is unlikely to yield an honest or safe response."
+        },
+        {
+          "key": "E",
+          "text": "Call the local police or social services directly without first informing any of your senior colleagues on duty.",
+          "is_correct": false,
+          "rationale": "Internal escalation is the standard first step to ensure a coordinated response from the care provider."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "When providing personal care for a patient who is known to have MRSA, what is the most critical infection control practice to follow?",
+      "explanation": "Preventing cross-contamination is paramount. A combination of using appropriate Personal Protective Equipment (PPE) and performing meticulous hand hygiene before and after contact are the most effective measures to control MRSA spread.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Wear appropriate Personal Protective Equipment (PPE), such as gloves and an apron, and perform meticulous hand hygiene.",
+          "is_correct": true,
+          "rationale": "This comprehensive approach correctly combines barrier protection with hand hygiene to prevent transmission."
+        },
+        {
+          "key": "B",
+          "text": "Ensure the patient is kept in a shared bay with other patients to avoid the negative effects of isolation.",
+          "is_correct": false,
+          "rationale": "Patients with MRSA often require isolation in a side room to prevent cross-infection."
+        },
+        {
+          "key": "C",
+          "text": "Use only alcohol-based hand gel, as soap and water are not considered effective against this particular bacteria.",
+          "is_correct": false,
+          "rationale": "Soap and water are essential, especially if hands are visibly soiled, and are highly effective."
+        },
+        {
+          "key": "D",
+          "text": "Only wear gloves during patient contact, as an apron is not necessary for routine personal care tasks.",
+          "is_correct": false,
+          "rationale": "An apron is required to protect uniforms from contamination and prevent spreading the bacteria."
+        },
+        {
+          "key": "E",
+          "text": "Advise the patient's family members that they do not need to take any special precautions during their visits.",
+          "is_correct": false,
+          "rationale": "Visitors must also follow hand hygiene and may need to wear PPE as advised by staff."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "A patient with dementia becomes agitated and repeatedly refuses their meal. What is the most appropriate person-centred approach to take in this situation?",
+      "explanation": "A person-centred approach respects the patient's feelings and autonomy while still promoting their well-being. Gently re-offering the meal later acknowledges their current distress without abandoning the need for nutrition.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Insist that the patient must eat for their own health, and attempt to feed them despite their refusal.",
+          "is_correct": false,
+          "rationale": "This ignores the patient's autonomy and can increase their distress and agitation."
+        },
+        {
+          "key": "B",
+          "text": "Remove the meal, document the refusal, and calmly try again later, perhaps offering an alternative food choice.",
+          "is_correct": true,
+          "rationale": "This respects the patient's refusal while providing another opportunity and considering their preferences."
+        },
+        {
+          "key": "C",
+          "text": "Inform the patient that if they do not eat their meal, they will not be offered any snacks later.",
+          "is_correct": false,
+          "rationale": "This approach is punitive and unprofessional, and it is not appropriate for a person with dementia."
+        },
+        {
+          "key": "D",
+          "text": "Immediately ask the kitchen to prepare a completely different meal without checking for other causes of refusal.",
+          "is_correct": false,
+          "rationale": "While an alternative may be needed, this skips steps like checking for pain or discomfort."
+        },
+        {
+          "key": "E",
+          "text": "Leave the meal in front of the patient for an hour in case they change their mind on their own.",
+          "is_correct": false,
+          "rationale": "This is passive and may lead to the food becoming unsafe to eat; active engagement is better."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "You have just recorded a patient's vital signs and notice their oxygen saturation is 89% on room air. What is your immediate action?",
+      "explanation": "An oxygen saturation of 89% indicates hypoxia, a potentially life-threatening condition requiring urgent medical assessment. The HCA's role is to promptly report this critical finding to the registered nurse for immediate intervention.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Document the reading in the patient's chart and plan to re-check it again in about 30 minutes.",
+          "is_correct": false,
+          "rationale": "This represents a dangerous delay in care for a patient with a critical vital sign reading."
+        },
+        {
+          "key": "B",
+          "text": "Help the patient to sit upright in bed and offer them a glass of water to drink.",
+          "is_correct": false,
+          "rationale": "While sitting up may help slightly, it is not a substitute for immediate medical escalation."
+        },
+        {
+          "key": "C",
+          "text": "Find an oxygen mask from the store room and apply it to the patient before calling for help.",
+          "is_correct": false,
+          "rationale": "Applying oxygen is a prescription and is outside the HCA's scope of practice without direction."
+        },
+        {
+          "key": "D",
+          "text": "Immediately alert the registered nurse responsible for the patient's care about the low oxygen saturation reading.",
+          "is_correct": true,
+          "rationale": "This is the correct and safest action, ensuring timely assessment and treatment by a qualified clinician."
+        },
+        {
+          "key": "E",
+          "text": "Assume the pulse oximeter machine is faulty and try to find a different one to use for the reading.",
+          "is_correct": false,
+          "rationale": "While equipment can fail, the first assumption should be that the reading is accurate and requires action."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "A person telephones the ward claiming to be a patient's close relative and asks for an update on their condition. What is the correct procedure?",
+      "explanation": "Patient confidentiality is a legal and ethical duty. Information cannot be shared without confirming the caller's identity and the patient's consent, which often involves a pre-agreed password or checking documented permissions.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Provide a full and detailed update on the patient's condition to be helpful and maintain good family relations.",
+          "is_correct": false,
+          "rationale": "This is a serious breach of patient confidentiality and data protection regulations like GDPR."
+        },
+        {
+          "key": "B",
+          "text": "Explain that you cannot give information over the phone due to confidentiality, and check for documented consent or a password.",
+          "is_correct": true,
+          "rationale": "This correctly protects patient privacy while following established protocols for sharing information safely."
+        },
+        {
+          "key": "C",
+          "text": "Give them very general information, such as saying the patient is 'comfortable', to avoid causing them any worry.",
+          "is_correct": false,
+          "rationale": "Even general information is a breach of confidentiality if the caller is not verified."
+        },
+        {
+          "key": "D",
+          "text": "Ask the caller to provide the patient's date of birth as the sole method of verifying their identity.",
+          "is_correct": false,
+          "rationale": "A date of birth is not secure enough on its own and is insufficient for verification."
+        },
+        {
+          "key": "E",
+          "text": "Hand the phone to the patient so they can speak to the caller directly without asking any questions.",
+          "is_correct": false,
+          "rationale": "The patient may not wish to speak to the caller; you must check with the patient first."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "A patient with a known respiratory condition suddenly becomes confused and their breathing rate increases. What is the most appropriate immediate action?",
+      "explanation": "Recognizing and escalating signs of patient deterioration, such as confusion and increased respiratory rate, is a critical HCA responsibility. Promptly alerting the registered nurse ensures timely clinical intervention and patient safety.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately perform a full set of vital signs and document them in the patient's chart for the next ward round to review.",
+          "is_correct": false,
+          "rationale": "Documentation is important, but alerting the nurse is the immediate priority for a deteriorating patient."
+        },
+        {
+          "key": "B",
+          "text": "Alert the registered nurse in charge immediately, clearly stating your observations and concerns about the patient's sudden change in condition.",
+          "is_correct": true,
+          "rationale": "Immediate escalation to a registered nurse is the correct and safest action for patient deterioration."
+        },
+        {
+          "key": "C",
+          "text": "Offer the patient a glass of water and try to reassure them, assuming it might just be anxiety related to their condition.",
+          "is_correct": false,
+          "rationale": "This dismisses potentially serious clinical signs and delays necessary medical assessment and intervention."
+        },
+        {
+          "key": "D",
+          "text": "Find a colleague to discuss the situation with before deciding on the next course of action to take for the patient.",
+          "is_correct": false,
+          "rationale": "This causes an unnecessary delay in a time-critical situation where urgent clinical help is needed."
+        },
+        {
+          "key": "E",
+          "text": "Check the patient's care plan to see if this type of behaviour has been noted as normal for them in the past.",
+          "is_correct": false,
+          "rationale": "A sudden change like this should always be treated as an emergency, not assumed to be normal."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "When handling soiled linen from a patient with a known infectious disease, what is the correct procedure according to standard infection control precautions?",
+      "explanation": "Standard infection control guidelines require placing infectious linen into a red, water-soluble bag. This minimizes handling and aerosol generation, preventing the spread of pathogens to staff and the environment during the laundry process.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Shake the linen vigorously to remove any loose debris before placing it directly into the standard laundry bin for collection.",
+          "is_correct": false,
+          "rationale": "Shaking linen is strictly forbidden as it disperses infectious microorganisms into the air, creating a significant contamination risk."
+        },
+        {
+          "key": "B",
+          "text": "Place the soiled linen carefully into a red, water-soluble alginate bag before putting it into the main linen bag for laundering.",
+          "is_correct": true,
+          "rationale": "This is the correct procedure for safely containing infectious linen and minimizing handling risks."
+        },
+        {
+          "key": "C",
+          "text": "Leave the soiled linen on the floor in the patient's room for the domestic staff to collect at the end of their shift.",
+          "is_correct": false,
+          "rationale": "Leaving contaminated items on the floor is a major cross-contamination hazard and is against all infection control policies."
+        },
+        {
+          "key": "D",
+          "text": "Take the linen to the sluice room and rinse it thoroughly with cold water before placing it in the laundry bag.",
+          "is_correct": false,
+          "rationale": "Manually rinsing infectious linen is dangerous as it creates splashes and aerosols, increasing the risk of transmission."
+        },
+        {
+          "key": "E",
+          "text": "Wear standard gloves but no apron, as the risk of transmission from linen is considered relatively low compared to other tasks.",
+          "is_correct": false,
+          "rationale": "Full Personal Protective Equipment (PPE), including gloves and an apron, is mandatory when handling infectious materials."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "You are assisting a patient with dementia who is resisting personal care. What is the most appropriate approach to maintain their dignity and rights?",
+      "explanation": "When a patient with dementia resists care, it's crucial to respect their refusal as a form of communication. The best practice is to pause, de-escalate, and re-approach later, preserving their dignity and trust.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Continue with the personal care task quickly to get it over with, as it is essential for their hygiene and well-being.",
+          "is_correct": false,
+          "rationale": "This violates the patient's consent and dignity, potentially causing distress and escalating the situation."
+        },
+        {
+          "key": "B",
+          "text": "Stop the task, provide reassurance, and try again later, perhaps using a different communication technique or involving a familiar colleague.",
+          "is_correct": true,
+          "rationale": "This person-centred approach respects the patient's autonomy, reduces distress, and maintains a trusting relationship."
+        },
+        {
+          "key": "C",
+          "text": "Explain to the patient that they must have a wash, and if they continue to refuse, you will have to get the nurse.",
+          "is_correct": false,
+          "rationale": "This approach is coercive and threatening, which can damage the therapeutic relationship and increase patient anxiety."
+        },
+        {
+          "key": "D",
+          "text": "Document in the patient's notes that they have refused care and leave them until the next shift is scheduled to try again.",
+          "is_correct": false,
+          "rationale": "This constitutes a failure to provide care without attempting alternative strategies to meet the patient's needs."
+        },
+        {
+          "key": "E",
+          "text": "Ask a family member to come in and persuade the patient to cooperate with the necessary personal care routine.",
+          "is_correct": false,
+          "rationale": "This inappropriately shifts professional responsibility onto the family and may cause distress for both parties."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Why is it crucial to ensure all patient observations and care interventions are documented accurately, legibly, and contemporaneously in the patient's record?",
+      "explanation": "Accurate and timely documentation is a legal requirement and a cornerstone of safe patient care. It provides a clear record for legal purposes, ensures seamless communication between shifts, and informs the entire clinical team's decision-making process.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It primarily serves as a way for managers to track staff productivity and ensure that all assigned tasks have been completed.",
+          "is_correct": false,
+          "rationale": "While it can show work done, its primary purpose is clinical communication and patient safety, not performance management."
+        },
+        {
+          "key": "B",
+          "text": "It creates a legal record of care, ensures continuity for the next shift, and allows the multidisciplinary team to make informed decisions.",
+          "is_correct": true,
+          "rationale": "This correctly identifies the key legal, communication, and clinical reasons for diligent documentation."
+        },
+        {
+          "key": "C",
+          "text": "The main reason is to protect the healthcare assistant from any potential complaints that might be made by the patient or their family.",
+          "is_correct": false,
+          "rationale": "While good records offer protection, the primary purpose is always safe and effective patient care, not self-preservation."
+        },
+        {
+          "key": "D",
+          "text": "It is a traditional practice in healthcare settings but has little direct impact on the day-to-day clinical outcomes for most patients.",
+          "is_correct": false,
+          "rationale": "This is incorrect; documentation is fundamental to safe care and has a direct impact on clinical outcomes."
+        },
+        {
+          "key": "E",
+          "text": "Accurate documentation is only legally required for incidents or accidents, not for routine, everyday care tasks and patient observations.",
+          "is_correct": false,
+          "rationale": "All care provided, routine or otherwise, must be documented as it forms part of the legal patient record."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "You overhear a visitor speaking to an elderly patient in an aggressive and threatening manner. What is your professional responsibility in this situation?",
+      "explanation": "Your primary duty is to ensure patient safety. The correct procedure is to avoid confrontation, which could escalate risk, and immediately report the safeguarding concern to the nurse in charge, adhering to established protocols.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately confront the visitor in front of the patient and tell them that their behaviour is completely unacceptable and they must leave.",
+          "is_correct": false,
+          "rationale": "Direct confrontation can escalate the situation, potentially putting the patient and yourself at greater risk of harm."
+        },
+        {
+          "key": "B",
+          "text": "Discreetly withdraw and immediately report your concerns to the nurse in charge or your line manager, following local safeguarding procedures.",
+          "is_correct": true,
+          "rationale": "This is the correct and safe procedure for escalating a safeguarding concern without escalating the immediate risk."
+        },
+        {
+          "key": "C",
+          "text": "Ignore the conversation as it is a private family matter and you should not interfere unless the patient directly asks for help.",
+          "is_correct": false,
+          "rationale": "You have a professional duty of care to act on any safeguarding concerns, regardless of whether it is a family matter."
+        },
+        {
+          "key": "D",
+          "text": "Wait until the visitor has left and then ask the patient if they are alright and if they want you to report it.",
+          "is_correct": false,
+          "rationale": "The patient may be too intimidated or afraid to consent to a report, but you still have a duty to act."
+        },
+        {
+          "key": "E",
+          "text": "Make a note of the incident in your personal diary to discuss with a colleague at the end of your shift for advice.",
+          "is_correct": false,
+          "rationale": "This is not a formal report and causes an unacceptable delay in addressing a serious and immediate safeguarding issue."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "A patient receiving palliative care expresses a clear wish to refuse further nutritional support. What is the most appropriate initial action for the healthcare assistant?",
+      "explanation": "The HCA's role is to respect patient autonomy, accurately document their wishes, and escalate to the appropriate clinical staff (the registered nurse) who can manage the situation legally and ethically, ensuring the patient's rights are upheld.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Document the patient's statement accurately in their care plan and immediately report the conversation to the registered nurse in charge.",
+          "is_correct": true,
+          "rationale": "This respects autonomy and follows the correct escalation procedure."
+        },
+        {
+          "key": "B",
+          "text": "Attempt to persuade the patient to reconsider their decision, highlighting the importance of nutrition for their comfort and well-being.",
+          "is_correct": false,
+          "rationale": "This undermines patient autonomy and is outside the HCA's scope."
+        },
+        {
+          "key": "C",
+          "text": "Ask the patient's family for their opinion on the matter before taking any further action or documenting the request.",
+          "is_correct": false,
+          "rationale": "The patient's wishes are paramount, not the family's."
+        },
+        {
+          "key": "D",
+          "text": "Immediately stop providing any nutritional support as requested by the patient without consulting with the wider care team first.",
+          "is_correct": false,
+          "rationale": "Unilateral action without consulting the team is unsafe and unprofessional."
+        },
+        {
+          "key": "E",
+          "text": "Suggest alternative, more palatable food options to the patient, assuming their refusal is due to a dislike of the current menu.",
+          "is_correct": false,
+          "rationale": "This makes an assumption and ignores the patient's stated wish."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "You notice several residents on a ward are showing similar symptoms of vomiting and diarrhoea. What is your most critical immediate responsibility?",
+      "explanation": "The primary duty is to report suspected outbreaks to the nurse in charge. This allows for a coordinated, official response, including diagnosis, isolation, and implementation of infection control protocols, ensuring patient and staff safety.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately isolate the symptomatic residents in their rooms and implement barrier nursing precautions to prevent further cross-contamination.",
+          "is_correct": false,
+          "rationale": "This action requires instruction from a registered nurse."
+        },
+        {
+          "key": "B",
+          "text": "Report your observations and concerns immediately to the nurse in charge so that outbreak protocols can be officially initiated.",
+          "is_correct": true,
+          "rationale": "This is the correct first step for escalating a potential outbreak."
+        },
+        {
+          "key": "C",
+          "text": "Begin a deep clean of the communal areas yourself, using the strongest available disinfectant to eliminate the pathogen quickly.",
+          "is_correct": false,
+          "rationale": "Cleaning is important but reporting to initiate a full response is the priority."
+        },
+        {
+          "key": "D",
+          "text": "Advise the affected residents to drink plenty of fluids and monitor their condition without escalating the issue to senior staff.",
+          "is_correct": false,
+          "rationale": "Failing to escalate a potential outbreak is a serious safety risk."
+        },
+        {
+          "key": "E",
+          "text": "Discuss your concerns with other healthcare assistants to see if they have noticed the same pattern before reporting it.",
+          "is_correct": false,
+          "rationale": "This delays the urgent reporting needed to control the situation."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "A long-term patient offers you a significant cash gift as a thank you for your excellent care. What is the professionally correct response?",
+      "explanation": "Professional guidelines and organisational policies typically forbid accepting significant personal gifts to maintain professional boundaries and avoid conflicts of interest. The correct action is to politely refuse, explain the policy, and document the event.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Accept the gift graciously but do not tell any of your colleagues about it to avoid causing any workplace jealousy.",
+          "is_correct": false,
+          "rationale": "Accepting cash gifts is unprofessional and against policy."
+        },
+        {
+          "key": "B",
+          "text": "Suggest they donate the money to the healthcare facility or a relevant charity instead of giving it to you personally.",
+          "is_correct": false,
+          "rationale": "While better than accepting, the primary response is to decline."
+        },
+        {
+          "key": "C",
+          "text": "Politely decline the gift, explaining that your organisation's policy prohibits accepting personal gifts, and then document the interaction.",
+          "is_correct": true,
+          "rationale": "This maintains professional boundaries, follows policy, and ensures transparency."
+        },
+        {
+          "key": "D",
+          "text": "Accept the gift but immediately declare it to your line manager to ensure transparency and follow their specific guidance.",
+          "is_correct": false,
+          "rationale": "You should not accept the gift in the first place."
+        },
+        {
+          "key": "E",
+          "text": "Tell the patient you cannot accept it but suggest they could buy a gift for the entire team to share.",
+          "is_correct": false,
+          "rationale": "This can still create a conflict of interest; declining is best."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "A patient with advanced dementia becomes agitated and verbally aggressive during personal care. Which de-escalation technique should you prioritise first?",
+      "explanation": "The first step in de-escalation is to remove the immediate trigger (the personal care task) and create a calm environment. Speaking calmly and giving the person space reduces their sense of threat and agitation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Firmly tell the patient that their behaviour is unacceptable and that you will not continue care until they have calmed down.",
+          "is_correct": false,
+          "rationale": "This confrontational approach is likely to escalate the situation."
+        },
+        {
+          "key": "B",
+          "text": "Immediately restrain the patient to prevent them from causing harm to themselves or to you while you complete the task.",
+          "is_correct": false,
+          "rationale": "Restraint is a last resort and requires specific training and authority."
+        },
+        {
+          "key": "C",
+          "text": "Stop the task, take a step back to give them personal space, and speak in a calm, reassuring tone.",
+          "is_correct": true,
+          "rationale": "This removes the trigger and creates a safe, calm environment."
+        },
+        {
+          "key": "D",
+          "text": "Leave the room immediately to find a colleague for assistance without attempting to calm the patient down yourself first.",
+          "is_correct": false,
+          "rationale": "Abandoning the patient could increase their distress and is unsafe."
+        },
+        {
+          "key": "E",
+          "text": "Distract the patient by turning on the television or radio loudly to divert their attention from the current situation.",
+          "is_correct": false,
+          "rationale": "Loud noise can be overstimulating and may worsen agitation."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "While assisting a patient at home, you notice they have significant weight loss, poor hygiene, and an empty fridge. What is your primary safeguarding duty?",
+      "explanation": "Your primary duty is to follow the established safeguarding procedure, which involves reporting concerns to the designated person within your organisation. This ensures a formal, documented, and appropriate investigation is initiated to protect the vulnerable adult.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Buy some groceries for the patient yourself to provide an immediate solution to the lack of food in their home.",
+          "is_correct": false,
+          "rationale": "This does not address the root cause and is outside your role."
+        },
+        {
+          "key": "B",
+          "text": "Discuss the situation directly with the patient's family members and ask them why the patient is being neglected.",
+          "is_correct": false,
+          "rationale": "This is confrontational and could jeopardise a formal investigation."
+        },
+        {
+          "key": "C",
+          "text": "Document your observations in the patient's notes and plan to monitor the situation over the next few weeks.",
+          "is_correct": false,
+          "rationale": "Delaying a report puts the vulnerable adult at further risk."
+        },
+        {
+          "key": "D",
+          "text": "Immediately report your concerns to your line manager or the designated safeguarding lead according to your organisation's policy.",
+          "is_correct": true,
+          "rationale": "This follows correct procedure and ensures a timely, official response."
+        },
+        {
+          "key": "E",
+          "text": "Contact social services directly yourself without first reporting the issue through your organisation's established internal channels.",
+          "is_correct": false,
+          "rationale": "You must follow your employer's internal reporting procedures first."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "A sudden increase in gastroenteritis cases is reported in a specific community. What is the most appropriate initial action for a public health officer?",
+      "explanation": "The standard protocol for any suspected outbreak is to first conduct an epidemiological investigation. This process gathers essential data on the source, scale, and transmission method, which informs all subsequent control measures.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately implement a community-wide quarantine to prevent any further potential spread of the illness.",
+          "is_correct": false,
+          "rationale": "This is a disproportionate response without evidence of the cause or mode of transmission."
+        },
+        {
+          "key": "B",
+          "text": "Launch a broad public awareness campaign about general food safety and personal hygiene practices.",
+          "is_correct": false,
+          "rationale": "While helpful, this is not targeted and fails to address the specific, immediate outbreak source."
+        },
+        {
+          "key": "C",
+          "text": "Initiate an epidemiological investigation to identify the source, scope, and mode of transmission.",
+          "is_correct": true,
+          "rationale": "This is the correct first step to gather evidence and guide targeted public health actions."
+        },
+        {
+          "key": "D",
+          "text": "Distribute prophylactic antibiotics to all residents living within the affected postcode area.",
+          "is_correct": false,
+          "rationale": "This is inappropriate without knowing the causative agent, which may not be bacterial."
+        },
+        {
+          "key": "E",
+          "text": "Request additional funding from the local health authority to upgrade community water treatment facilities.",
+          "is_correct": false,
+          "rationale": "This is a premature action before the source of the outbreak has been identified."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "When designing a smoking cessation program for a low-income community, which principle is most critical for ensuring long-term engagement and success?",
+      "explanation": "Community-based participatory approaches are essential for health promotion. Involving community members ensures that programs are culturally appropriate, trusted, and relevant to their specific needs, which significantly increases engagement and effectiveness.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Focusing exclusively on digital outreach through social media and mobile applications to reduce costs.",
+          "is_correct": false,
+          "rationale": "This approach risks excluding individuals who may have limited access to or familiarity with technology."
+        },
+        {
+          "key": "B",
+          "text": "Involving community members and leaders in the planning and implementation process to ensure cultural relevance.",
+          "is_correct": true,
+          "rationale": "Community involvement builds trust and ensures the program meets the population's specific needs and context."
+        },
+        {
+          "key": "C",
+          "text": "Mandating participation for all individuals who are identified as smokers within the target area.",
+          "is_correct": false,
+          "rationale": "Mandatory participation is unethical, often ineffective, and can create significant community resentment."
+        },
+        {
+          "key": "D",
+          "text": "Providing only statistical information about the long-term health risks associated with tobacco use.",
+          "is_correct": false,
+          "rationale": "Information alone is rarely sufficient to drive behavior change without supportive and tailored interventions."
+        },
+        {
+          "key": "E",
+          "text": "Partnering with premium health clubs to offer free memberships as the primary incentive for quitting.",
+          "is_correct": false,
+          "rationale": "This incentive may not be accessible, practical, or appealing to the target demographic."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "A local restaurant is found to have multiple critical food safety violations. What is the public health officer's primary legal responsibility in this situation?",
+      "explanation": "The core function of a public health officer in this context is regulatory enforcement. Their duty is to apply the established health codes to protect the public, which includes actions like issuing fines or ordering closures.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To immediately and permanently revoke the restaurant's operating license without any prior warning or notice.",
+          "is_correct": false,
+          "rationale": "Permanent revocation is an extreme measure and typically follows a legal process with prior warnings."
+        },
+        {
+          "key": "B",
+          "text": "To enforce relevant health codes, which may include issuing fines or ordering a temporary closure.",
+          "is_correct": true,
+          "rationale": "This reflects the officer's duty to enforce regulations to mitigate immediate public health risks."
+        },
+        {
+          "key": "C",
+          "text": "To organize a public protest outside the establishment to warn potential customers about the risks.",
+          "is_correct": false,
+          "rationale": "This action is unprofessional and falls outside the legal and procedural duties of the role."
+        },
+        {
+          "key": "D",
+          "text": "To personally train the restaurant staff on correct food handling procedures during the inspection visit.",
+          "is_correct": false,
+          "rationale": "Providing training is the responsibility of the business owner, not the enforcing officer."
+        },
+        {
+          "key": "E",
+          "text": "To report the violations directly to local media outlets to ensure the public is fully informed.",
+          "is_correct": false,
+          "rationale": "Communication follows official protocols; leaking information to the media is unprofessional and may violate policy."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "You are investigating a cluster of respiratory illnesses in a neighborhood near an industrial facility. What is the most crucial first step in your environmental health assessment?",
+      "explanation": "An environmental health assessment must be evidence-based. The initial step is always to gather data to characterize the potential hazard and exposure pathways before considering interventions or attributing cause.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately ordering the industrial facility to cease all operations until the investigation is fully complete.",
+          "is_correct": false,
+          "rationale": "This is a significant action that requires substantial evidence of an imminent threat, not a first step."
+        },
+        {
+          "key": "B",
+          "text": "Collecting environmental samples and reviewing facility emissions data to identify potential exposures.",
+          "is_correct": true,
+          "rationale": "This is the foundational step for gathering objective evidence about potential environmental hazards."
+        },
+        {
+          "key": "C",
+          "text": "Conducting a door-to-door survey asking residents about their personal smoking and lifestyle habits.",
+          "is_correct": false,
+          "rationale": "While important for context, identifying the environmental hazard is the primary initial task."
+        },
+        {
+          "key": "D",
+          "text": "Recommending that all affected residents relocate to a different neighborhood at the government's expense.",
+          "is_correct": false,
+          "rationale": "This is an extreme and premature recommendation without confirmed evidence of a persistent local hazard."
+        },
+        {
+          "key": "E",
+          "text": "Prescribing medication to residents who are currently exhibiting any form of respiratory symptoms.",
+          "is_correct": false,
+          "rationale": "Prescribing medication is a clinical role and outside the scope of a public health officer's duties."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "During a public health emergency, such as a communicable disease outbreak, what is the most important principle for communicating with the public?",
+      "explanation": "Effective risk communication during a crisis hinges on building and maintaining public trust. This is achieved by being transparent and consistent, even with uncertainty, which empowers the public to take appropriate protective actions.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Withholding uncertain information until all facts are confirmed to avoid causing any unnecessary public panic.",
+          "is_correct": false,
+          "rationale": "This can create an information vacuum, leading to mistrust, rumors, and misinformation."
+        },
+        {
+          "key": "B",
+          "text": "Providing timely, transparent, and consistent information through multiple channels, even with some uncertainty.",
+          "is_correct": true,
+          "rationale": "This approach builds trust, manages expectations, and allows the public to make informed decisions."
+        },
+        {
+          "key": "C",
+          "text": "Using highly technical and scientific terminology to demonstrate the expertise of the health department.",
+          "is_correct": false,
+          "rationale": "Communication must be clear and accessible to a lay audience to be effective."
+        },
+        {
+          "key": "D",
+          "text": "Communicating only with elected officials and community leaders, who will then inform the public.",
+          "is_correct": false,
+          "rationale": "Direct, multi-channel communication is vital to ensure the message is accurate and reaches everyone."
+        },
+        {
+          "key": "E",
+          "text": "Focusing communication efforts primarily on downplaying the severity of the risk to maintain public order.",
+          "is_correct": false,
+          "rationale": "This is unethical, erodes trust, and can lead to complacency and greater harm."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "When conducting a community health needs assessment, which factor is most critical for prioritizing identified health issues for intervention?",
+      "explanation": "Prioritization should balance the problem's impact with the feasibility of intervention, which includes community readiness and capacity. This ensures resources are used effectively for maximum impact.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The total number of individuals affected by the health issue within the defined geographic area.",
+          "is_correct": false,
+          "rationale": "This only considers prevalence, ignoring severity and feasibility."
+        },
+        {
+          "key": "B",
+          "text": "The availability of existing national funding streams specifically designated for addressing the identified health problem.",
+          "is_correct": false,
+          "rationale": "Funding is a practical consideration, but not the primary determinant of need."
+        },
+        {
+          "key": "C",
+          "text": "The severity of the health issue combined with the community's readiness and capacity to address it effectively.",
+          "is_correct": true,
+          "rationale": "This comprehensive approach balances impact with feasibility."
+        },
+        {
+          "key": "D",
+          "text": "The media attention and political interest that the particular health concern has recently generated at a local level.",
+          "is_correct": false,
+          "rationale": "This is a reactive approach and may not reflect the greatest health need."
+        },
+        {
+          "key": "E",
+          "text": "The alignment of the health issue with the personal interests and expertise of the public health department staff.",
+          "is_correct": false,
+          "rationale": "This introduces bias and does not focus on community-defined needs."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "You are evaluating a smoking cessation program. Which outcome measure provides the strongest evidence of the program's long-term effectiveness?",
+      "explanation": "Biochemically verified abstinence, such as cotinine testing, is the gold standard for evaluating smoking cessation programs. It provides objective evidence of long-term behavior change, unlike self-reports which can be biased.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The number of participants who successfully completed all sessions of the educational program as scheduled.",
+          "is_correct": false,
+          "rationale": "This is a process measure (completion), not an outcome measure (effectiveness)."
+        },
+        {
+          "key": "B",
+          "text": "Self-reported quit rates collected from participants immediately upon completion of the program's final session.",
+          "is_correct": false,
+          "rationale": "This is short-term and subject to self-reporting bias."
+        },
+        {
+          "key": "C",
+          "text": "Biochemically verified smoking abstinence rates measured at a six-month or one-year follow-up point.",
+          "is_correct": true,
+          "rationale": "This provides objective, long-term evidence of behavior change."
+        },
+        {
+          "key": "D",
+          "text": "Positive feedback and testimonials gathered from participants about their satisfaction with the program's facilitators and materials.",
+          "is_correct": false,
+          "rationale": "This measures participant satisfaction, not actual health outcomes."
+        },
+        {
+          "key": "E",
+          "text": "An increase in community awareness about the health risks associated with smoking measured through local surveys.",
+          "is_correct": false,
+          "rationale": "This measures awareness, which does not equate to behavior change."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Upon receiving a laboratory report confirming a case of a highly contagious, notifiable disease, what is your most immediate priority?",
+      "explanation": "The immediate priority in infectious disease control is to break the chain of transmission. Contact tracing is the primary method for identifying exposed individuals quickly to implement control measures like quarantine or prophylaxis.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately begin drafting a press release to inform the general public and prevent widespread panic in the community.",
+          "is_correct": false,
+          "rationale": "Public communication is important but secondary to immediate containment."
+        },
+        {
+          "key": "B",
+          "text": "Initiate contact tracing to identify, assess, and advise individuals who may have been exposed to the index case.",
+          "is_correct": true,
+          "rationale": "This is the most critical first step to contain the spread."
+        },
+        {
+          "key": "C",
+          "text": "Conduct a detailed statistical analysis of historical data for this disease to predict the potential outbreak size.",
+          "is_correct": false,
+          "rationale": "Analysis is important for planning but is not the immediate action."
+        },
+        {
+          "key": "D",
+          "text": "Schedule a multi-agency meeting with local government and healthcare providers to discuss long-term response strategies.",
+          "is_correct": false,
+          "rationale": "Coordination is vital but contact tracing cannot be delayed."
+        },
+        {
+          "key": "E",
+          "text": "Order a large supply of personal protective equipment and vaccines in anticipation of a major outbreak event.",
+          "is_correct": false,
+          "rationale": "Logistics are important but must follow initial containment efforts."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "When designing a health promotion campaign for a low-literacy population, which communication strategy is generally considered most effective?",
+      "explanation": "For low-literacy audiences, communication must be accessible. Simple language, visual aids, and direct community engagement are proven methods to overcome literacy barriers and ensure the message is understood and retained.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Distributing detailed, text-heavy brochures and leaflets that provide comprehensive scientific information about the health topic.",
+          "is_correct": false,
+          "rationale": "This approach is inaccessible and ineffective for a low-literacy audience."
+        },
+        {
+          "key": "B",
+          "text": "Creating a campaign centered around a complex data dashboard published on the public health department's official website.",
+          "is_correct": false,
+          "rationale": "This requires high digital and data literacy, making it unsuitable."
+        },
+        {
+          "key": "C",
+          "text": "Relying primarily on social media influencers to share long-form written posts explaining the health recommendations.",
+          "is_correct": false,
+          "rationale": "Long-form written content is not appropriate for this audience."
+        },
+        {
+          "key": "D",
+          "text": "Using simple, clear language with strong visual aids like pictograms and short videos in community settings.",
+          "is_correct": true,
+          "rationale": "This method directly addresses literacy barriers with accessible formats."
+        },
+        {
+          "key": "E",
+          "text": "Hosting academic-style lectures with expert panels to discuss the epidemiological evidence behind the health recommendations.",
+          "is_correct": false,
+          "rationale": "This format is overly academic and not engaging for this audience."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "In a case-control study examining the link between a specific exposure and a disease, what does an odds ratio of 3.5 indicate?",
+      "explanation": "An odds ratio greater than 1 indicates a positive association. A value of 3.5 means the odds of the exposure are 3.5 times greater in the case group (those with the disease) compared to the control group.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Individuals with the disease are 3.5 times less likely to have had the exposure compared to those without the disease.",
+          "is_correct": false,
+          "rationale": "This describes an odds ratio less than 1 (e.g., 1/3.5)."
+        },
+        {
+          "key": "B",
+          "text": "The risk of developing the disease is 3.5% higher for individuals who have experienced the specific exposure.",
+          "is_correct": false,
+          "rationale": "This incorrectly interprets the odds ratio as a percentage risk."
+        },
+        {
+          "key": "C",
+          "text": "The odds of having been exposed are 3.5 times higher among individuals with the disease than among the controls.",
+          "is_correct": true,
+          "rationale": "This is the correct interpretation of an odds ratio in a case-control study."
+        },
+        {
+          "key": "D",
+          "text": "For every 3.5 people who are exposed, exactly one person will eventually develop the disease being studied.",
+          "is_correct": false,
+          "rationale": "This misinterprets the odds ratio as a direct causal count."
+        },
+        {
+          "key": "E",
+          "text": "The exposure directly causes the disease in approximately 3.5 out of every 100 cases identified in the population.",
+          "is_correct": false,
+          "rationale": "An odds ratio shows association, not direct causation or prevalence."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "When evaluating a community-based smoking cessation program, which framework is most appropriate for assessing its long-term impact and overall cost-effectiveness?",
+      "explanation": "RE-AIM is a comprehensive framework designed to evaluate public health interventions on five dimensions: Reach, Effectiveness, Adoption, Implementation, and Maintenance. This provides a robust assessment of real-world impact and sustainability, which is crucial for determining long-term value and cost-effectiveness.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The PRECEDE-PROCEED model, which is primarily used for planning and designing health promotion interventions rather than comprehensive evaluation.",
+          "is_correct": false,
+          "rationale": "This model is more for planning than for post-implementation evaluation."
+        },
+        {
+          "key": "B",
+          "text": "A simple pre-test and post-test design, which fails to account for external confounding factors or long-term sustainability of behavior change.",
+          "is_correct": false,
+          "rationale": "This design is too simplistic and lacks controls for external variables."
+        },
+        {
+          "key": "C",
+          "text": "The RE-AIM framework, as it comprehensively evaluates the reach, effectiveness, adoption, implementation, and maintenance of the program.",
+          "is_correct": true,
+          "rationale": "RE-AIM is the standard for evaluating public health program impact."
+        },
+        {
+          "key": "D",
+          "text": "Conducting only qualitative focus groups with participants, which provides rich data but lacks quantitative measures for broad impact.",
+          "is_correct": false,
+          "rationale": "Qualitative data alone is insufficient for a comprehensive evaluation."
+        },
+        {
+          "key": "E",
+          "text": "Using a Logic Model, which is excellent for mapping program components but is a tool within evaluation, not a complete framework itself.",
+          "is_correct": false,
+          "rationale": "A Logic Model is a planning and mapping tool, not an evaluation framework."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "During the initial phase of a suspected foodborne illness outbreak, what is the most critical immediate action for a public health officer?",
+      "explanation": "The immediate priority in an outbreak is to define the scope and identify who is affected. Establishing a clear case definition and actively finding cases allows for systematic data collection, which is fundamental to identifying the source, mode of transmission, and at-risk populations.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Launching a widespread public awareness campaign to warn everyone about potential risks before confirming the source of the outbreak.",
+          "is_correct": false,
+          "rationale": "Premature warnings can cause unnecessary panic and misdirect resources."
+        },
+        {
+          "key": "B",
+          "text": "Initiating case-finding and developing a case definition to systematically identify and interview affected individuals for epidemiological linkage.",
+          "is_correct": true,
+          "rationale": "This is the foundational step of any outbreak investigation."
+        },
+        {
+          "key": "C",
+          "text": "Closing all local food establishments until the specific source of the outbreak has been definitively identified and confirmed.",
+          "is_correct": false,
+          "rationale": "This action is too broad and economically damaging without specific evidence."
+        },
+        {
+          "key": "D",
+          "text": "Requesting national media coverage to ensure the information reaches the widest possible audience across the entire country.",
+          "is_correct": false,
+          "rationale": "National media is premature for a localized, unconfirmed outbreak."
+        },
+        {
+          "key": "E",
+          "text": "Focusing solely on laboratory testing of food samples without concurrently interviewing individuals who have become ill.",
+          "is_correct": false,
+          "rationale": "Lab data must be combined with epidemiological data from interviews."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "A health needs assessment reveals significant health disparities in a specific neighborhood. Which approach best addresses the underlying social determinants of health?",
+      "explanation": "Health disparities are often rooted in social determinants like housing, education, and economic stability. A multi-sectoral approach that addresses these root causes is far more effective and sustainable for improving community health equity than purely clinical or informational interventions.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Establishing a new, state-of-the-art specialist clinic within the neighborhood to treat the most prevalent chronic diseases.",
+          "is_correct": false,
+          "rationale": "This is a downstream approach that treats illness, not its root causes."
+        },
+        {
+          "key": "B",
+          "text": "Collaborating with local housing authorities, schools, and employment services to improve living conditions and economic opportunities.",
+          "is_correct": true,
+          "rationale": "This upstream approach addresses the root causes of health inequities."
+        },
+        {
+          "key": "C",
+          "text": "Implementing a short-term, free health screening event to identify undiagnosed conditions among the local population.",
+          "is_correct": false,
+          "rationale": "Screenings are useful but do not change the conditions causing poor health."
+        },
+        {
+          "key": "D",
+          "text": "Advocating for increased individual responsibility through a targeted social media campaign focused on personal health choices.",
+          "is_correct": false,
+          "rationale": "This ignores the systemic barriers that limit individual choices."
+        },
+        {
+          "key": "E",
+          "text": "Distributing informational pamphlets on healthy eating and exercise to every household in the affected community.",
+          "is_correct": false,
+          "rationale": "Information alone is often insufficient to overcome socioeconomic barriers."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "You are analyzing surveillance data showing a steady increase in Type 2 diabetes. What does calculating the age-standardized incidence rate allow you to do?",
+      "explanation": "Age-standardization is a statistical technique used to adjust disease rates to a standard population structure. This allows for fair comparisons between groups with different age distributions, ensuring that observed trends are not merely artifacts of a population aging over time.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Determine the exact number of new diabetes cases that will occur in the population over the next five years.",
+          "is_correct": false,
+          "rationale": "This describes forecasting or modeling, not age-standardization."
+        },
+        {
+          "key": "B",
+          "text": "Compare the trend over time or between different populations by removing the confounding effect of age structure differences.",
+          "is_correct": true,
+          "rationale": "This is the primary purpose of age-standardization in epidemiology."
+        },
+        {
+          "key": "C",
+          "text": "Conclude that the increase is solely due to lifestyle factors like diet and lack of physical activity.",
+          "is_correct": false,
+          "rationale": "Standardization doesn't determine causality, it only adjusts for age."
+        },
+        {
+          "key": "D",
+          "text": "Measure the average cost of treatment for each new patient diagnosed with Type 2 diabetes within the healthcare system.",
+          "is_correct": false,
+          "rationale": "This is a health economics calculation, not an epidemiological rate adjustment."
+        },
+        {
+          "key": "E",
+          "text": "Identify the specific genetic markers that are most commonly associated with the development of Type 2 diabetes.",
+          "is_correct": false,
+          "rationale": "This requires genetic research, not population-level rate calculation."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "When advocating for a new local policy to restrict the sale of sugary drinks, what is the most effective strategy for a public health officer?",
+      "explanation": "Effective policy advocacy relies on evidence-based arguments. A well-structured policy brief that combines local data, successful precedents, and clear, practical recommendations provides policymakers with the credible information they need to make informed decisions and justify their support for the proposed policy.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Relying solely on emotional anecdotes from individuals affected by diet-related diseases to persuade local policymakers.",
+          "is_correct": false,
+          "rationale": "Anecdotes can be powerful but are insufficient without supporting data."
+        },
+        {
+          "key": "B",
+          "text": "Presenting a policy brief with localized data, evidence from other jurisdictions, and clear, actionable recommendations for implementation.",
+          "is_correct": true,
+          "rationale": "This provides a comprehensive, evidence-based case for policymakers."
+        },
+        {
+          "key": "C",
+          "text": "Publishing a highly technical academic paper in a specialized journal that is unlikely to be read by policymakers.",
+          "is_correct": false,
+          "rationale": "This communication channel is not effective for reaching policymakers."
+        },
+        {
+          "key": "D",
+          "text": "Criticizing current policymakers publicly on social media for their inaction on important public health issues.",
+          "is_correct": false,
+          "rationale": "This adversarial approach can damage relationships and hinder progress."
+        },
+        {
+          "key": "E",
+          "text": "Organizing a large-scale public protest outside government buildings to demand immediate and sweeping legislative action.",
+          "is_correct": false,
+          "rationale": "While it raises awareness, it's less effective than direct, evidence-based advocacy."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "When designing a new health promotion program for a diverse urban community, which initial step is most crucial for ensuring health equity is addressed?",
+      "explanation": "A community health needs assessment focusing on social determinants of health is the foundational step for understanding and addressing the root causes of health inequities, ensuring interventions are targeted and effective.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Conduct a thorough community health needs assessment that specifically includes data collection on social determinants of health for different demographic groups.",
+          "is_correct": true,
+          "rationale": "This foundational step identifies root causes of inequity."
+        },
+        {
+          "key": "B",
+          "text": "Immediately launch a widespread media campaign using generic messaging to reach the largest possible audience within the community.",
+          "is_correct": false,
+          "rationale": "Generic messaging ignores the specific needs of diverse groups."
+        },
+        {
+          "key": "C",
+          "text": "Secure funding from private donors who have a predetermined focus on a single health issue, such as smoking cessation.",
+          "is_correct": false,
+          "rationale": "This can create bias and ignore other pressing community needs."
+        },
+        {
+          "key": "D",
+          "text": "Partner exclusively with large, established healthcare providers to deliver the program services across the entire city.",
+          "is_correct": false,
+          "rationale": "This may exclude smaller, trusted community-based organizations."
+        },
+        {
+          "key": "E",
+          "text": "Prioritize interventions that have shown success in affluent suburban areas and adapt them slightly for the urban setting.",
+          "is_correct": false,
+          "rationale": "This approach ignores the unique context of the target population."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "You receive several reports of gastrointestinal illness linked to a local community event. What is your most critical immediate action as a public health officer?",
+      "explanation": "The first priority in an outbreak investigation is to establish a case definition and begin active case-finding. This helps to understand the magnitude of the problem and guides subsequent investigation steps.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Issue a public press release immediately warning residents to avoid all local restaurants until the source is confirmed.",
+          "is_correct": false,
+          "rationale": "This is premature and could cause unnecessary panic and economic harm."
+        },
+        {
+          "key": "B",
+          "text": "Initiate case-finding and develop a preliminary case definition to identify the scope and scale of the potential outbreak.",
+          "is_correct": true,
+          "rationale": "This is the correct first epidemiological step to define the problem."
+        },
+        {
+          "key": "C",
+          "text": "Begin collecting environmental samples from every food vendor who was present at the community event for laboratory testing.",
+          "is_correct": false,
+          "rationale": "Sampling is important but comes after defining the outbreak's scope."
+        },
+        {
+          "key": "D",
+          "text": "Focus solely on interviewing the first few reported cases to gather detailed dietary histories from the past month.",
+          "is_correct": false,
+          "rationale": "The timeframe is too broad; focus should be on the event."
+        },
+        {
+          "key": "E",
+          "text": "Request that the local government temporarily close the venue where the community event was held for a deep cleaning.",
+          "is_correct": false,
+          "rationale": "This is a control measure, but investigation must come first."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "When evaluating a complex, multi-year community health initiative, which evaluation framework is best suited for understanding not just outcomes but also the implementation process?",
+      "explanation": "The RE-AIM framework is specifically designed for evaluating complex public health interventions. It provides a comprehensive view by assessing multiple dimensions, including the process of implementation and long-term sustainability.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A simple pre-test/post-test design that only measures changes in participant knowledge before and after the intervention.",
+          "is_correct": false,
+          "rationale": "This is too simplistic for a complex, multi-year initiative."
+        },
+        {
+          "key": "B",
+          "text": "A cost-benefit analysis focused exclusively on the financial return on investment for the program's primary funders.",
+          "is_correct": false,
+          "rationale": "This ignores crucial process and broader health impact data."
+        },
+        {
+          "key": "C",
+          "text": "The RE-AIM framework, which assesses Reach, Effectiveness, Adoption, Implementation, and Maintenance to provide a comprehensive evaluation.",
+          "is_correct": true,
+          "rationale": "RE-AIM is a comprehensive framework ideal for this scenario."
+        },
+        {
+          "key": "D",
+          "text": "A series of anecdotal case studies highlighting individual success stories to share with stakeholders and the media.",
+          "is_correct": false,
+          "rationale": "This lacks quantitative rigor and is not generalizable."
+        },
+        {
+          "key": "E",
+          "text": "An outcome-only evaluation that compares the final health statistics of the target community with national averages.",
+          "is_correct": false,
+          "rationale": "This fails to account for the implementation process or context."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "You must present sensitive data on rising adolescent mental health issues to local policymakers. What is the most effective communication strategy to advocate for new resources?",
+      "explanation": "Effective health communication for policy change involves translating complex data into an understandable format, using narratives to create an emotional connection, and offering clear, actionable solutions that policymakers can implement.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Present a highly technical statistical report filled with complex charts and academic jargon to demonstrate scientific rigor.",
+          "is_correct": false,
+          "rationale": "This is likely inaccessible to a non-technical policy audience."
+        },
+        {
+          "key": "B",
+          "text": "Focus the presentation entirely on emotional anecdotes from affected families without providing any supporting quantitative data.",
+          "is_correct": false,
+          "rationale": "This lacks the evidence base needed for policy decisions."
+        },
+        {
+          "key": "C",
+          "text": "Combine clear, compelling data visualizations with personal stories and provide specific, evidence-based policy recommendations with clear action steps.",
+          "is_correct": true,
+          "rationale": "This balances data, narrative, and actionable solutions effectively."
+        },
+        {
+          "key": "D",
+          "text": "Send a brief email with a link to a public health database and let the policymakers draw their own conclusions.",
+          "is_correct": false,
+          "rationale": "This passive approach is unlikely to drive meaningful action."
+        },
+        {
+          "key": "E",
+          "text": "Demand an immediate increase in funding during a public meeting without first providing context or supporting evidence.",
+          "is_correct": false,
+          "rationale": "This confrontational approach lacks a strategic, evidence-based foundation."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "A community group reports concerns about a potential cancer cluster near an industrial site. What is the most appropriate first step for a public health officer?",
+      "explanation": "The standard protocol for investigating a potential cancer cluster begins with verifying the diagnoses and calculating incidence rates. This initial data analysis determines if the number of cases is statistically significant and warrants further investigation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately reassure the community that their concerns are unfounded because such clusters are statistically very rare occurrences.",
+          "is_correct": false,
+          "rationale": "This dismisses valid community concerns and erodes public trust."
+        },
+        {
+          "key": "B",
+          "text": "Launch a full-scale, multi-year epidemiological study to definitively prove or disprove a causal link to the site.",
+          "is_correct": false,
+          "rationale": "This is a major undertaking and not the appropriate first step."
+        },
+        {
+          "key": "C",
+          "text": "Conduct a preliminary investigation by verifying the reported cases and comparing local cancer rates to expected state or national rates.",
+          "is_correct": true,
+          "rationale": "This is the standard, evidence-based first step in cluster investigation."
+        },
+        {
+          "key": "D",
+          "text": "Advise the community group to hire their own independent environmental testing agency to collect soil and water samples.",
+          "is_correct": false,
+          "rationale": "This improperly shifts the public health responsibility onto residents."
+        },
+        {
+          "key": "E",
+          "text": "Organize a town hall meeting with the industrial site's management to publicly mediate the dispute between them and residents.",
+          "is_correct": false,
+          "rationale": "This action is premature without any initial data analysis."
+        }
+      ]
+    }
+  ]
+}

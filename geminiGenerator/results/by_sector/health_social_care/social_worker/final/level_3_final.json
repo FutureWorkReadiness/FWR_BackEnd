@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "When conducting a Mental Capacity Act assessment, which of the five statutory principles must be your absolute starting point for every interaction?",
+      "explanation": "The first principle of the MCA is the presumption of capacity. This is the fundamental starting point for all assessments and interactions, ensuring the individual's rights are upheld unless it is established that they lack capacity.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Always begin with the assumption that the individual has the capacity to make their own decisions unless proven otherwise.",
+          "is_correct": true,
+          "rationale": "This correctly identifies the first and most fundamental principle of the MCA."
+        },
+        {
+          "key": "B",
+          "text": "Prioritise the individual's past wishes and feelings above all other considerations when making a best interests decision.",
+          "is_correct": false,
+          "rationale": "This is an important part of a best interests decision, not the starting principle."
+        },
+        {
+          "key": "C",
+          "text": "Ensure that all practicable steps have been taken to help the person make their own decision before intervening.",
+          "is_correct": false,
+          "rationale": "This is the second principle, which follows the initial presumption of capacity."
+        },
+        {
+          "key": "D",
+          "text": "An unwise or eccentric decision does not, in itself, prove that a person lacks the capacity to make it.",
+          "is_correct": false,
+          "rationale": "This is the third principle, which supports the presumption of capacity but is not the starting point."
+        },
+        {
+          "key": "E",
+          "text": "Any act done for a person who lacks capacity must be the least restrictive of their rights and freedom.",
+          "is_correct": false,
+          "rationale": "This is the fifth principle, applied only after capacity is determined to be lacking."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "You receive a disclosure from an older adult alleging financial abuse by a family member. What is your immediate professional responsibility?",
+      "explanation": "The immediate priority in a safeguarding situation is to ensure the person's safety and report the concern through the correct local authority channels. This initiates the formal safeguarding process and ensures a coordinated, multi-agency response.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately confront the family member accused of abuse to gather their side of the story and mediate a solution.",
+          "is_correct": false,
+          "rationale": "This is inappropriate and could escalate risk or compromise a formal investigation."
+        },
+        {
+          "key": "B",
+          "text": "Ensure the individual is safe and then follow your local authority's safeguarding procedures to formally report the concern immediately.",
+          "is_correct": true,
+          "rationale": "This correctly prioritises safety and adherence to established safeguarding protocols."
+        },
+        {
+          "key": "C",
+          "text": "Advise the older adult to contact the police directly, as financial abuse is a criminal matter for law enforcement.",
+          "is_correct": false,
+          "rationale": "While police may be involved, the social worker has a statutory duty to report through safeguarding channels."
+        },
+        {
+          "key": "D",
+          "text": "Document the disclosure in detail and wait for your next scheduled supervision session to discuss the appropriate next steps.",
+          "is_correct": false,
+          "rationale": "Delaying a report puts the vulnerable adult at continued risk and is a breach of professional duty."
+        },
+        {
+          "key": "E",
+          "text": "Arrange a family group conference to discuss the allegations openly and encourage the family to resolve the issue internally.",
+          "is_correct": false,
+          "rationale": "This is not the immediate response and could place the individual at further risk of harm or coercion."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What is the primary focus of a social worker when applying a strengths-based approach to assessment and care planning?",
+      "explanation": "A strengths-based approach shifts the focus from deficits and problems to identifying and mobilising an individual's inherent strengths, talents, and resources. This promotes empowerment, resilience, and self-determination in achieving their goals.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Concentrating primarily on diagnosing the service user's problems and deficits to determine eligibility for statutory services and support.",
+          "is_correct": false,
+          "rationale": "This describes a deficit-based model, which is the opposite of a strengths-based approach."
+        },
+        {
+          "key": "B",
+          "text": "Prioritising the views and recommendations of medical professionals over the service user's own stated goals and aspirations.",
+          "is_correct": false,
+          "rationale": "This undermines the collaborative and person-centred nature of the strengths-based approach."
+        },
+        {
+          "key": "C",
+          "text": "Identifying and mobilising the individual's personal talents, resources, and community connections to help them achieve their desired outcomes.",
+          "is_correct": true,
+          "rationale": "This accurately defines the core principle of focusing on assets and capabilities."
+        },
+        {
+          "key": "D",
+          "text": "Following a standardised assessment checklist rigidly to ensure that all organisational requirements for care provision are fully met.",
+          "is_correct": false,
+          "rationale": "This describes a bureaucratic process, not the flexible, person-centred strengths-based approach."
+        },
+        {
+          "key": "E",
+          "text": "Focusing on the risks present in the person's environment and creating a plan that primarily aims to mitigate all harm.",
+          "is_correct": false,
+          "rationale": "While risk is considered, the primary focus is on strengths, not just risk mitigation."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "A service user with fluctuating mental capacity is refusing a vital care package. How should you best balance their autonomy with your duty of care?",
+      "explanation": "The correct approach involves respecting the individual's right to choose while ensuring they are supported to make an informed decision. This requires ongoing assessment, providing accessible information, and exploring the reasons for refusal, rather than immediately overriding their decision.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately override their decision by implementing the care package under a best interests decision, prioritising their physical safety above all.",
+          "is_correct": false,
+          "rationale": "A best interests decision is only made after capacity is formally assessed as lacking for that specific decision."
+        },
+        {
+          "key": "B",
+          "text": "Accept their refusal at face value without further discussion to fully respect their right to make an autonomous decision.",
+          "is_correct": false,
+          "rationale": "This neglects the duty of care, especially when capacity is known to fluctuate."
+        },
+        {
+          "key": "C",
+          "text": "Inform their family of the refusal and ask them to persuade the service user to accept the necessary care package.",
+          "is_correct": false,
+          "rationale": "This undermines the professional relationship and places undue pressure on the family and service user."
+        },
+        {
+          "key": "D",
+          "text": "Work with the individual to understand their reasons for refusal, provide clear information, and reassess their capacity at that moment.",
+          "is_correct": true,
+          "rationale": "This respects autonomy while fulfilling the duty of care through supportive engagement and proper assessment."
+        },
+        {
+          "key": "E",
+          "text": "Discharge the service user from the service, documenting that they have refused all offers of support against professional advice.",
+          "is_correct": false,
+          "rationale": "This is an extreme step that abandons the duty of care without exploring all options."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "In a multi-disciplinary team meeting for a hospital discharge, what is the social worker's unique and primary contribution to the discussion?",
+      "explanation": "The social worker's unique role in an MDT is to provide a holistic, person-centred perspective. This includes advocating for the service user's wishes, assessing their social context, and ensuring the discharge plan is safe and sustainable.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide a detailed medical diagnosis and prescribe the necessary medications required for the patient's ongoing physical recovery.",
+          "is_correct": false,
+          "rationale": "This is the role of medical professionals like doctors or specialist nurses, not social workers."
+        },
+        {
+          "key": "B",
+          "text": "To focus exclusively on the financial aspects of the care package, ensuring it stays within the local authority's budget.",
+          "is_correct": false,
+          "rationale": "While budget is a factor, it is not the primary or unique contribution; the focus is holistic."
+        },
+        {
+          "key": "C",
+          "text": "To arrange the practical logistics of transport and equipment delivery without consulting the patient about their personal preferences.",
+          "is_correct": false,
+          "rationale": "This is a purely logistical task and ignores the person-centred advocacy central to the role."
+        },
+        {
+          "key": "D",
+          "text": "To advocate for the person's wishes and feelings, providing a holistic assessment of their social needs and support networks.",
+          "is_correct": true,
+          "rationale": "This accurately describes the social worker's core function in an MDT setting."
+        },
+        {
+          "key": "E",
+          "text": "To make the final decision on the discharge plan, overriding the opinions of other professionals involved in the patient's care.",
+          "is_correct": false,
+          "rationale": "Decisions in an MDT are collaborative; the social worker does not have unilateral authority."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "A service user with fluctuating mental capacity wishes to make a decision you consider unwise. What is your primary responsibility under the Mental Capacity Act 2005?",
+      "explanation": "The MCA's second principle requires practitioners to provide all appropriate help and support to enable a person to make their own decision. This must be attempted before any assessment of capacity is made.",
+      "options": [
+        {
+          "key": "A",
+          "text": "You must immediately override their decision to ensure their safety and prevent any potential harm from occurring to them.",
+          "is_correct": false,
+          "rationale": "This action contravenes the core principles of the Mental Capacity Act, which presumes capacity."
+        },
+        {
+          "key": "B",
+          "text": "You should assume they lack capacity because the decision is unwise and immediately proceed with a best interests decision.",
+          "is_correct": false,
+          "rationale": "An unwise decision does not, by itself, prove a lack of capacity according to the MCA."
+        },
+        {
+          "key": "C",
+          "text": "You must take all practicable steps to support the individual in making their own decision before assessing their capacity.",
+          "is_correct": true,
+          "rationale": "This aligns with Principle 2 of the MCA, focusing on empowerment and support first."
+        },
+        {
+          "key": "D",
+          "text": "The case should be immediately referred to a senior manager to make the final decision on the complex matter.",
+          "is_correct": false,
+          "rationale": "This abdicates the social worker's direct responsibility to support and assess the individual first."
+        },
+        {
+          "key": "E",
+          "text": "You should simply document the unwise decision and take no further action until a significant crisis arises.",
+          "is_correct": false,
+          "rationale": "This is a passive approach and fails the duty of care to support vulnerable individuals."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "You receive a safeguarding alert concerning an older adult exhibiting severe self-neglect. What is the most appropriate initial action within a multi-agency framework?",
+      "explanation": "For complex safeguarding issues like self-neglect, a multi-agency strategy discussion is crucial for information sharing, risk assessment, and developing a coordinated, effective intervention plan that draws on different professional expertise.",
+      "options": [
+        {
+          "key": "A",
+          "text": "You should visit the individual alone immediately to conduct a full assessment before involving any other professionals.",
+          "is_correct": false,
+          "rationale": "This represents siloed working and misses the benefits of early multi-agency collaboration on complex cases."
+        },
+        {
+          "key": "B",
+          "text": "You should initiate a multi-agency strategy discussion to share information and agree on a coordinated response plan.",
+          "is_correct": true,
+          "rationale": "This is best practice for complex safeguarding, ensuring a coordinated and comprehensive approach from the outset."
+        },
+        {
+          "key": "C",
+          "text": "You must report the concern directly to the police as they are always the lead agency for safeguarding.",
+          "is_correct": false,
+          "rationale": "The police are not automatically the lead agency; this depends on the nature of the concern."
+        },
+        {
+          "key": "D",
+          "text": "You should arrange for practical support like a cleaning service without investigating the underlying reasons for the neglect.",
+          "is_correct": false,
+          "rationale": "This approach only addresses the symptoms and fails to address the root causes of the safeguarding issue."
+        },
+        {
+          "key": "E",
+          "text": "You must close the case if the individual refuses help, as their autonomy is the most important factor.",
+          "is_correct": false,
+          "rationale": "Self-neglect is a safeguarding concern that requires further exploration, even if help is initially refused."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "When applying a strengths-based approach in care planning with a family, what should be your primary focus during initial engagement?",
+      "explanation": "A strengths-based approach shifts the focus from problems to possibilities. It involves actively identifying and mobilising a client's inherent strengths, talents, and resources as the primary building blocks for change and empowerment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Primarily identifying and documenting the family's deficits, problems, and past failures to inform a risk assessment.",
+          "is_correct": false,
+          "rationale": "This describes a deficit-based model, which is the opposite of a strengths-based approach."
+        },
+        {
+          "key": "B",
+          "text": "Collaboratively exploring the family's existing capabilities, resources, and goals to co-produce a plan for positive change.",
+          "is_correct": true,
+          "rationale": "This is the core principle of a strengths-based approach, focusing on assets and aspirations."
+        },
+        {
+          "key": "C",
+          "text": "Guiding the family towards a standardised service package that is typically offered for their presenting issues.",
+          "is_correct": false,
+          "rationale": "This is a service-led approach, not a person-centred or strengths-based one that values individuality."
+        },
+        {
+          "key": "D",
+          "text": "Ensuring all statutory forms and assessments are completed before building a rapport or discussing their personal goals.",
+          "is_correct": false,
+          "rationale": "This prioritises process over people, hindering the development of a collaborative therapeutic relationship."
+        },
+        {
+          "key": "E",
+          "text": "Clearly outlining all the service limitations and what your agency cannot provide for them at the outset.",
+          "is_correct": false,
+          "rationale": "This starts the relationship from a negative perspective, rather than one of possibility and strength."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "A service user you have supported for a long time asks for your personal mobile number. What is the most professionally appropriate response?",
+      "explanation": "This response upholds professional boundaries, which is essential for safety and ethical practice. It also empowers the service user by providing them with the correct procedure for seeking support, maintaining a respectful professional relationship.",
+      "options": [
+        {
+          "key": "A",
+          "text": "You should provide your personal number to demonstrate your commitment and help build a stronger working relationship.",
+          "is_correct": false,
+          "rationale": "This action creates poor professional boundaries, dependency, and potential risk for both parties involved."
+        },
+        {
+          "key": "B",
+          "text": "You should firmly refuse the request and immediately report the client for making an inappropriate personal request.",
+          "is_correct": false,
+          "rationale": "This response is overly punitive and could damage the therapeutic relationship with the service user."
+        },
+        {
+          "key": "C",
+          "text": "You should politely decline, explain professional boundaries, and provide them with the official out-of-hours contact information.",
+          "is_correct": true,
+          "rationale": "This maintains boundaries professionally while still being supportive and providing a safe alternative."
+        },
+        {
+          "key": "D",
+          "text": "You should offer them a dedicated work mobile number that you keep with you for any out-of-hours emergencies.",
+          "is_correct": false,
+          "rationale": "This still blurs work-life boundaries and creates an unhealthy expectation of constant availability."
+        },
+        {
+          "key": "E",
+          "text": "You should agree to give them the number but instruct them to only use it in a true emergency.",
+          "is_correct": false,
+          "rationale": "This is ambiguous, crosses a professional boundary, and what constitutes an 'emergency' is subjective."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Following a difficult case conference where your professional judgement was challenged, what is the most constructive approach to use in supervision?",
+      "explanation": "Reflective supervision is a space to safely explore the emotional impact of work and critically analyse one's own practice. Understanding your reactions is key to professional growth and improved decision-making in future complex situations.",
+      "options": [
+        {
+          "key": "A",
+          "text": "You should use the time to complain about other professionals and seek validation from your supervisor for your actions.",
+          "is_correct": false,
+          "rationale": "This approach is defensive and avoids self-reflection, which is the primary purpose of supervision."
+        },
+        {
+          "key": "B",
+          "text": "You should avoid discussing the difficult meeting and instead focus on the more straightforward cases on your workload.",
+          "is_correct": false,
+          "rationale": "This misses a crucial opportunity for learning and professional development from a challenging experience."
+        },
+        {
+          "key": "C",
+          "text": "You should explore your emotional reactions to the challenge and analyse how this experience can inform your future practice.",
+          "is_correct": true,
+          "rationale": "This demonstrates reflective practice, emotional intelligence, and a commitment to continuous professional development."
+        },
+        {
+          "key": "D",
+          "text": "You should ask your supervisor to reallocate the case to another social worker to avoid any future conflict.",
+          "is_correct": false,
+          "rationale": "This is an avoidant strategy that hinders professional growth and problem-solving skills development."
+        },
+        {
+          "key": "E",
+          "text": "You should focus entirely on the procedural mistakes made by others without reflecting on your own role in the meeting.",
+          "is_correct": false,
+          "rationale": "This externalises blame and fails to engage in the critical self-analysis necessary for professional growth."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "When managing a complex child protection case involving domestic abuse and substance misuse, what is the most effective initial step?",
+      "explanation": "A multi-agency strategy meeting is crucial for effective safeguarding. It ensures all relevant agencies share information, assess risk collaboratively, and develop a coordinated plan, which is fundamental to protecting the child and addressing the family's complex needs.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Convene a multi-agency strategy meeting with police, health, and education to share information and coordinate a joint protection plan.",
+          "is_correct": true,
+          "rationale": "This promotes collaborative risk assessment and planning, which is best practice."
+        },
+        {
+          "key": "B",
+          "text": "Immediately apply for an Emergency Protection Order to remove the child from the home without consulting other agencies first.",
+          "is_correct": false,
+          "rationale": "This is a drastic step that may not be necessary without a multi-agency assessment."
+        },
+        {
+          "key": "C",
+          "text": "Focus solely on providing therapeutic support to the parents to address their issues before assessing the child's immediate safety.",
+          "is_correct": false,
+          "rationale": "The child's immediate safety must always be the first priority in any intervention."
+        },
+        {
+          "key": "D",
+          "text": "Refer the family to a voluntary sector support service and close the case until a new referral is received.",
+          "is_correct": false,
+          "rationale": "This abdicates statutory responsibility in a high-risk situation requiring direct social work involvement."
+        },
+        {
+          "key": "E",
+          "text": "Advise the non-abusing parent to leave the family home with the child, offering only housing advice and support.",
+          "is_correct": false,
+          "rationale": "This places the burden of protection on the victim and fails to address the risk."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "A service user with dementia wishes to discharge themselves from a care home against medical advice. What is your priority action?",
+      "explanation": "Under the Mental Capacity Act 2005, the first step is to assess the person's capacity to make that specific decision at that time. All adults are presumed to have capacity unless it is established that they lack it.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately conduct a formal Mental Capacity Assessment to determine their ability to make this specific decision about their residence.",
+          "is_correct": true,
+          "rationale": "This correctly applies the principles of the Mental Capacity Act 2005."
+        },
+        {
+          "key": "B",
+          "text": "Respect their autonomy and allow them to leave immediately, as all adults have the right to make their own choices.",
+          "is_correct": false,
+          "rationale": "This ignores the duty of care if there are valid concerns about their capacity."
+        },
+        {
+          "key": "C",
+          "text": "Contact their next of kin and ask them to make the decision on the service user's behalf without an assessment.",
+          "is_correct": false,
+          "rationale": "Next of kin have no legal right to make decisions unless they hold Power of Attorney."
+        },
+        {
+          "key": "D",
+          "text": "Apply for a Deprivation of Liberty Safeguards (DoLS) authorisation to legally prevent them from leaving the care home.",
+          "is_correct": false,
+          "rationale": "A DoLS application is premature without first assessing the individual's mental capacity."
+        },
+        {
+          "key": "E",
+          "text": "Inform the service user that they cannot leave and restrain them if they attempt to exit the premises for safety.",
+          "is_correct": false,
+          "rationale": "Restraint without a legal basis could constitute assault and a breach of human rights."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "A long-term service user you have built a strong rapport with offers you an expensive gift. What is the most appropriate professional response?",
+      "explanation": "Professional codes of conduct require social workers to maintain clear boundaries. Politely declining and explaining the policy reinforces these boundaries, prevents conflicts of interest, and upholds the integrity of the professional relationship without causing unnecessary offence.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Politely decline the gift, explaining the professional code of conduct regarding gifts and the importance of maintaining professional boundaries.",
+          "is_correct": true,
+          "rationale": "This upholds professional integrity and clearly communicates ethical boundaries to the service user."
+        },
+        {
+          "key": "B",
+          "text": "Accept the gift to avoid offending the service user, but do not declare it to your manager or the organisation.",
+          "is_correct": false,
+          "rationale": "This is unethical, breaches professional codes of conduct, and lacks transparency."
+        },
+        {
+          "key": "C",
+          "text": "Suggest they donate the gift's value to a charity of your choice to redirect their kind gesture appropriately.",
+          "is_correct": false,
+          "rationale": "While well-intentioned, this can still blur boundaries and create a sense of obligation."
+        },
+        {
+          "key": "D",
+          "text": "Accept the gift and immediately declare it to your line manager in line with your organisation's official policy on gifts.",
+          "is_correct": false,
+          "rationale": "Most policies advise against accepting expensive gifts, so declining is the primary correct action."
+        },
+        {
+          "key": "E",
+          "text": "Tell the service user you can only accept it if they also provide a similar gift for the entire team.",
+          "is_correct": false,
+          "rationale": "This is inappropriate and does not address the core ethical issue of accepting gifts."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "When preparing a court report for care proceedings, what is the most critical element to ensure its effectiveness and credibility?",
+      "explanation": "Court reports must be grounded in factual, verifiable evidence. Clearly differentiating between observed facts, professional analysis, and information from others allows the court to properly weigh the evidence and make a sound, defensible judgment about the child's welfare.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensuring the report is evidence-based, clearly distinguishing between fact, professional opinion, and information gathered from third parties.",
+          "is_correct": true,
+          "rationale": "This provides a clear, analytical, and defensible basis for recommendations to the court."
+        },
+        {
+          "key": "B",
+          "text": "Writing the report using highly technical jargon and complex terminology to demonstrate your professional expertise to the court.",
+          "is_correct": false,
+          "rationale": "Reports should be clear, accessible, and easily understood by all parties, including parents."
+        },
+        {
+          "key": "C",
+          "text": "Focusing the report primarily on the parents' failings without including any information about their potential strengths or capacity.",
+          "is_correct": false,
+          "rationale": "A balanced, fair report must consider both strengths and weaknesses for a holistic assessment."
+        },
+        {
+          "key": "D",
+          "text": "Including personal emotional reflections about the case to persuade the judge of your viewpoint on the child's future.",
+          "is_correct": false,
+          "rationale": "The report must remain objective and professional; personal feelings are not evidence."
+        },
+        {
+          "key": "E",
+          "text": "Prioritising the wishes and feelings of the parents over the assessed needs and safety of the child involved.",
+          "is_correct": false,
+          "rationale": "The child's welfare is the paramount consideration in all care proceedings and reports."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "You are feeling overwhelmed and emotionally impacted by a particularly distressing safeguarding case. What is the most constructive professional action to take?",
+      "explanation": "Formal supervision provides a confidential, structured space to process complex cases and their emotional impact. It is a core component of safe and reflective practice, helping social workers manage stress, maintain objectivity, and ensure their practice remains effective.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Utilise formal supervision to discuss the case, reflect on your emotional response, and develop strategies for managing the impact.",
+          "is_correct": true,
+          "rationale": "This is the correct professional process for managing case-related stress and ensuring reflective practice."
+        },
+        {
+          "key": "B",
+          "text": "Avoid discussing the distressing details with anyone to maintain strict confidentiality and professional composure at all times.",
+          "is_correct": false,
+          "rationale": "This can lead to burnout and poor decision-making; supervision is a confidential space."
+        },
+        {
+          "key": "C",
+          "text": "Request an immediate transfer off the case without providing a detailed explanation to your manager about the personal impact.",
+          "is_correct": false,
+          "rationale": "This avoids addressing the underlying issue and may disrupt service continuity for the family."
+        },
+        {
+          "key": "D",
+          "text": "Share specific, identifiable details of the case with colleagues during an informal lunch break to seek their advice.",
+          "is_correct": false,
+          "rationale": "This is an unprofessional breach of confidentiality and not the appropriate forum for support."
+        },
+        {
+          "key": "E",
+          "text": "Take sick leave to manage your stress, returning only when you feel completely detached from the case's emotional impact.",
+          "is_correct": false,
+          "rationale": "While leave may be needed, it doesn't replace the need for professional reflective supervision."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "When managing a complex adult safeguarding case involving multiple agencies, what is the social worker's primary responsibility during a multi-agency strategy meeting?",
+      "explanation": "The social worker often leads safeguarding processes. Their key role is to facilitate collaboration, synthesise information, and ensure a robust, multi-agency protection plan is developed to mitigate identified risks and protect the adult.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To chair the meeting, ensuring all professionals contribute, risks are assessed, and a clear, coordinated protection plan is agreed upon.",
+          "is_correct": true,
+          "rationale": "This reflects the social worker's lead role in coordinating multi-agency safeguarding efforts and ensuring a clear outcome."
+        },
+        {
+          "key": "B",
+          "text": "To primarily focus on documenting detailed minutes and distributing them promptly to all attendees after the meeting has concluded.",
+          "is_correct": false,
+          "rationale": "While important, this is an administrative task, not the primary strategic responsibility of the social worker in the meeting."
+        },
+        {
+          "key": "C",
+          "text": "To represent only the local authority's financial interests and ensure any proposed plan is within the allocated budget.",
+          "is_correct": false,
+          "rationale": "The primary focus must be the adult's safety and wellbeing, not solely the financial implications for the authority."
+        },
+        {
+          "key": "D",
+          "text": "To advocate solely for the service user's expressed wishes, even if they conflict with professional assessments of significant risk.",
+          "is_correct": false,
+          "rationale": "Advocacy must be balanced with the professional duty to assess and manage risk, especially in safeguarding situations."
+        },
+        {
+          "key": "E",
+          "text": "To delegate the responsibility for creating the protection plan to the health professionals who are present at the meeting.",
+          "is_correct": false,
+          "rationale": "The social worker holds statutory responsibility for the safeguarding process and cannot delegate the core planning function."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "You assess an individual with significant needs who narrowly fails to meet the national eligibility criteria under the Care Act 2014. What is your most appropriate action?",
+      "explanation": "The Care Act 2014 places a statutory duty on local authorities to provide information and advice to all, including those not meeting eligibility criteria, to prevent, reduce, or delay needs from escalating.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide comprehensive information and advice about preventative services and community resources that can help meet their needs.",
+          "is_correct": true,
+          "rationale": "This aligns with the Care Act's duty to provide information and advice to prevent, reduce, or delay needs."
+        },
+        {
+          "key": "B",
+          "text": "To immediately close the case without offering any further advice, as the formal eligibility criteria have not been met.",
+          "is_correct": false,
+          "rationale": "This neglects the statutory duty to provide information and advice and constitutes poor professional practice."
+        },
+        {
+          "key": "C",
+          "text": "To manipulate the assessment findings slightly so that the individual meets the eligibility criteria for a formal care package.",
+          "is_correct": false,
+          "rationale": "This is unethical, fraudulent, and undermines the integrity of the assessment process and professional standards."
+        },
+        {
+          "key": "D",
+          "text": "To refer the individual directly to a private care agency without exploring any other community-based support options first.",
+          "is_correct": false,
+          "rationale": "This is not a holistic or empowering approach and ignores potentially more suitable, less restrictive community options."
+        },
+        {
+          "key": "E",
+          "text": "To inform the individual that they must appeal the decision through a formal complaints process as the only next step.",
+          "is_correct": false,
+          "rationale": "While an appeal is an option, the immediate duty is to provide information and advice on other support."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "When preparing a court report for care proceedings, what is the most critical principle a social worker must adhere to for the evidence to be considered credible?",
+      "explanation": "Court reports must be objective and analytical. Credibility rests on the ability to present a clear, evidence-based argument, transparently sourcing all information and separating fact from professional judgement to assist the court's decision-making.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The report must be evidence-based, clearly distinguishing between factual information, professional opinion, and information from third parties.",
+          "is_correct": true,
+          "rationale": "This transparency and analytical rigour are fundamental for the court to weigh the evidence presented effectively."
+        },
+        {
+          "key": "B",
+          "text": "The report should primarily focus on the positive aspects of the family to present a balanced view to the court.",
+          "is_correct": false,
+          "rationale": "Balance is important, but the primary duty is to present all relevant evidence, including risks and concerns."
+        },
+        {
+          "key": "C",
+          "text": "The report's conclusion should be written to strongly align with the local authority's desired legal outcome for the case.",
+          "is_correct": false,
+          "rationale": "The social worker is an expert witness for the court; the report must be impartial, not biased."
+        },
+        {
+          "key": "D",
+          "text": "The report should use complex social work jargon and terminology to demonstrate a high level of professional expertise.",
+          "is_correct": false,
+          "rationale": "Reports must be written in plain, accessible language for all parties, including the family, to understand."
+        },
+        {
+          "key": "E",
+          "text": "The report should only include information that has been personally witnessed by the social worker who is writing it.",
+          "is_correct": false,
+          "rationale": "This is impractical; reports must synthesise information from multiple sources, which should be clearly referenced."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is the primary purpose of professional supervision for a social worker within a health and social care setting, according to professional standards?",
+      "explanation": "Effective supervision encompasses four key functions: managerial (case oversight), developmental (learning), supportive (wellbeing), and mediative (engaging with the organisation). This holistic approach is a cornerstone of safe and effective professional practice.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide a formal space for reflective practice, case management oversight, professional development, and emotional support for the practitioner.",
+          "is_correct": true,
+          "rationale": "This answer correctly identifies the multi-faceted, established functions of professional social work supervision."
+        },
+        {
+          "key": "B",
+          "text": "To primarily function as a performance management tool where a manager can check that all assigned tasks are completed on time.",
+          "is_correct": false,
+          "rationale": "This is only the managerial aspect and misses the crucial supportive, developmental, and reflective functions of supervision."
+        },
+        {
+          "key": "C",
+          "text": "To allow the social worker to vent their frustrations about difficult cases without any requirement for structured reflection or learning.",
+          "is_correct": false,
+          "rationale": "While support is a function, the primary purpose is structured reflection leading to professional growth, not just venting."
+        },
+        {
+          "key": "D",
+          "text": "To focus exclusively on the administrative aspects of the role, such as signing off on expenses and approving annual leave.",
+          "is_correct": false,
+          "rationale": "This describes line management tasks, which are separate from the distinct process of professional case supervision."
+        },
+        {
+          "key": "E",
+          "text": "To receive direct instructions from a manager on exactly how to handle every aspect of their cases without independent thought.",
+          "is_correct": false,
+          "rationale": "Supervision should promote critical thinking and professional autonomy, not simply provide a list of instructions."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "You are assessing an older person's capacity to make a decision about moving into residential care. What is the most crucial first step in this process?",
+      "explanation": "The Mental Capacity Act 2005 is built on five key principles, the first and most fundamental of which is the presumption of capacity. All practice must start from this point, focusing on empowerment and support.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To assume the person has capacity unless it is established they lack it, and take all practical steps to support their decision-making.",
+          "is_correct": true,
+          "rationale": "This correctly states the first principle of the Mental Capacity Act 2005, which must underpin any assessment."
+        },
+        {
+          "key": "B",
+          "text": "To immediately ask a senior medical professional, such as a psychiatrist, to complete the full capacity assessment on your behalf.",
+          "is_correct": false,
+          "rationale": "Social workers are qualified to assess capacity; medical input is only sought in specific, complex situations."
+        },
+        {
+          "key": "C",
+          "text": "To base the assessment primarily on the views of the family members who are concerned about the person's ability to live alone.",
+          "is_correct": false,
+          "rationale": "Family views are relevant information, but the assessment must be based on the individual's own abilities."
+        },
+        {
+          "key": "D",
+          "text": "To make a decision based on the person's age and diagnosis, as these are strong indicators of their likely cognitive abilities.",
+          "is_correct": false,
+          "rationale": "This is discriminatory and directly contradicts the principles of the Mental Capacity Act, which forbids assumptions."
+        },
+        {
+          "key": "E",
+          "text": "To test their capacity by asking them complex financial questions that are unrelated to the specific decision about residential care.",
+          "is_correct": false,
+          "rationale": "The assessment of capacity must always be specific to the particular decision being made at that time."
+        }
+      ]
+    }
+  ]
+}

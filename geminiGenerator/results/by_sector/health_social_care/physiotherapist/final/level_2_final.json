@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "A patient presents with acute low back pain following a lifting injury. What is the most crucial initial step in your assessment?",
+      "explanation": "A thorough subjective history is fundamental for guiding the objective assessment and identifying any red flags that require immediate medical attention. It helps prioritize subsequent examination components.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately initiate manual therapy techniques to alleviate muscle spasm and improve range of motion.",
+          "is_correct": false,
+          "rationale": "Treatment should only begin after a comprehensive assessment."
+        },
+        {
+          "key": "B",
+          "text": "Conduct a comprehensive subjective history, including pain characteristics, mechanism of injury, and red flags.",
+          "is_correct": true,
+          "rationale": "A comprehensive subjective history is crucial for guiding the subsequent objective assessment and identifying red flags."
+        },
+        {
+          "key": "C",
+          "text": "Perform a detailed neurological examination to rule out any potential nerve root compression or cauda equina syndrome.",
+          "is_correct": false,
+          "rationale": "Neurological examination is part of the objective assessment, which follows the subjective history."
+        },
+        {
+          "key": "D",
+          "text": "Prescribe a home exercise program focusing on core strengthening exercises and gentle stretching to improve stability.",
+          "is_correct": false,
+          "rationale": "Prescribing exercises is an intervention, not the initial assessment step."
+        },
+        {
+          "key": "E",
+          "text": "Refer the patient directly for imaging studies, such as X-rays or MRI, to identify structural damage.",
+          "is_correct": false,
+          "rationale": "Imaging is typically not an initial step unless specific red flags are present after assessment."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "For a patient with chronic shoulder impingement syndrome, what is the most appropriate long-term physiotherapy intervention strategy?",
+      "explanation": "Chronic shoulder impingement benefits significantly from active rehabilitation. A progressive exercise program strengthens key muscles, improves biomechanics, and restores functional movement patterns effectively.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Focus solely on passive modalities like ultrasound and heat packs to reduce inflammation and pain symptoms.",
+          "is_correct": false,
+          "rationale": "Passive modalities alone are insufficient for long-term management of chronic conditions."
+        },
+        {
+          "key": "B",
+          "text": "Implement a progressive exercise program targeting rotator cuff strengthening and scapular stabilization.",
+          "is_correct": true,
+          "rationale": "Active, progressive exercise is key for long-term management of chronic impingement."
+        },
+        {
+          "key": "C",
+          "text": "Recommend complete immobilization of the shoulder joint to allow for tissue healing and recovery.",
+          "is_correct": false,
+          "rationale": "Immobilization can lead to stiffness and weakness, which is detrimental for chronic conditions."
+        },
+        {
+          "key": "D",
+          "text": "Advise immediate surgical consultation without attempting conservative physiotherapy management first.",
+          "is_correct": false,
+          "rationale": "Conservative physiotherapy is typically the first line of treatment before considering surgery."
+        },
+        {
+          "key": "E",
+          "text": "Provide only general advice on pain management and rest, avoiding any active rehabilitation exercises.",
+          "is_correct": false,
+          "rationale": "Rest alone is not effective for chronic conditions and active rehabilitation is crucial."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "You observe a colleague consistently neglecting to properly clean equipment between patients. What is your most appropriate initial action?",
+      "explanation": "Addressing concerns directly and respectfully with a colleague is the most professional and effective first step. It allows for a resolution before escalating, maintaining team cohesion and patient safety.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately report the colleague to senior management or the regulatory body without discussing it with them first.",
+          "is_correct": false,
+          "rationale": "Immediate escalation without prior discussion is often premature and can harm professional relationships."
+        },
+        {
+          "key": "B",
+          "text": "Privately and respectfully discuss your concerns with your colleague, reminding them of infection control protocols.",
+          "is_correct": true,
+          "rationale": "Direct, private communication is the professional first step to resolve workplace issues."
+        },
+        {
+          "key": "C",
+          "text": "Start cleaning the equipment yourself after they finish, without addressing the issue directly with your colleague.",
+          "is_correct": false,
+          "rationale": "This avoids addressing the root cause and does not ensure future compliance by the colleague."
+        },
+        {
+          "key": "D",
+          "text": "Ignore the behavior, assuming it is their responsibility and not yours to enforce cleaning standards.",
+          "is_correct": false,
+          "rationale": "Ignoring unsafe practices is unprofessional and compromises patient safety and team standards."
+        },
+        {
+          "key": "E",
+          "text": "Publicly confront the colleague during a team meeting to ensure everyone is aware of the safety breach.",
+          "is_correct": false,
+          "rationale": "Public confrontation is unprofessional and can create a hostile work environment."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "A stroke patient struggles with dysphagia, impacting their nutritional intake and medication adherence. Which healthcare professional should you primarily collaborate with?",
+      "explanation": "Speech and Language Therapists (SLTs) are the primary specialists in assessing and treating dysphagia. Their expertise is crucial for safe swallowing, preventing aspiration, and improving nutritional intake.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Occupational Therapist, to adapt daily living activities and improve swallowing techniques for the patient.",
+          "is_correct": false,
+          "rationale": "While OTs can assist with daily living, SLTs are the primary experts for dysphagia management."
+        },
+        {
+          "key": "B",
+          "text": "Speech and Language Therapist, who specializes in assessing and managing swallowing difficulties and communication.",
+          "is_correct": true,
+          "rationale": "Speech and Language Therapists are the primary specialists for assessing and managing dysphagia."
+        },
+        {
+          "key": "C",
+          "text": "Dietitian, to create a modified diet plan suitable for their specific swallowing challenges.",
+          "is_correct": false,
+          "rationale": "A dietitian is important for nutrition, but an SLT first assesses and manages the swallowing mechanics."
+        },
+        {
+          "key": "D",
+          "text": "Social Worker, to provide emotional support and connect the patient with community resources.",
+          "is_correct": false,
+          "rationale": "Social workers offer essential support but do not directly manage dysphagia."
+        },
+        {
+          "key": "E",
+          "text": "Consult the General Practitioner for the patient's overall medical management and necessary prescription adjustments.",
+          "is_correct": false,
+          "rationale": "The GP oversees care, but an SLT provides the specialist intervention for dysphagia."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "A competent adult patient refuses a recommended physiotherapy treatment plan, despite understanding the potential benefits. What is your ethical obligation?",
+      "explanation": "Respecting patient autonomy is paramount. Documenting their informed refusal, ensuring understanding of risks, and offering alternatives upholds ethical principles while maintaining professional responsibility.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Persuade the patient aggressively until they agree, emphasizing the serious negative consequences of refusal.",
+          "is_correct": false,
+          "rationale": "Aggressive persuasion violates patient autonomy and is unethical in healthcare practice."
+        },
+        {
+          "key": "B",
+          "text": "Document their refusal clearly and respectfully, ensuring they understand the risks, and offer alternative options.",
+          "is_correct": true,
+          "rationale": "Respecting patient autonomy means documenting informed refusal and offering alternatives."
+        },
+        {
+          "key": "C",
+          "text": "Proceed with the treatment anyway, believing it is in their best interest and will ultimately benefit them.",
+          "is_correct": false,
+          "rationale": "Treating a competent patient against their will is a violation of ethical principles and patient rights."
+        },
+        {
+          "key": "D",
+          "text": "Discharge the patient immediately from your service, as they are not compliant with the recommended care.",
+          "is_correct": false,
+          "rationale": "Immediate discharge is often too extreme; exploring alternatives and documenting refusal is key."
+        },
+        {
+          "key": "E",
+          "text": "Seek a second opinion from another physiotherapist to convince the patient to accept the original treatment plan.",
+          "is_correct": false,
+          "rationale": "While second opinions can be helpful, the patient's initial refusal must be respected first."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "When conducting an initial assessment for a patient presenting with new knee pain, which of the following is most crucial to gather first?",
+      "explanation": "A thorough subjective history provides essential context about the patient's condition, including onset, aggravating factors, and medical background, guiding the subsequent physical examination.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately performing a series of aggressive strengthening exercises to test muscle strength and endurance.",
+          "is_correct": false,
+          "rationale": "Aggressive exercises are inappropriate before a full assessment."
+        },
+        {
+          "key": "B",
+          "text": "Collecting a detailed subjective history, including the mechanism of injury and relevant medical background.",
+          "is_correct": true,
+          "rationale": "Subjective history is the foundational step for understanding the patient's condition."
+        },
+        {
+          "key": "C",
+          "text": "Referring the patient directly for an MRI scan without conducting any physical examination.",
+          "is_correct": false,
+          "rationale": "Imaging is typically considered after a clinical assessment, not before."
+        },
+        {
+          "key": "D",
+          "text": "Providing a comprehensive home exercise program based on generalized knee pain protocols.",
+          "is_correct": false,
+          "rationale": "Treatment plans must be individualized after a thorough assessment."
+        },
+        {
+          "key": "E",
+          "text": "Measuring the patient's body fat percentage and advising on a specific weight loss diet plan.",
+          "is_correct": false,
+          "rationale": "While relevant, this is not the most crucial initial step for knee pain assessment."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "A patient presents with acute low back pain following a recent lifting injury. Which initial therapeutic intervention is generally most appropriate?",
+      "explanation": "Educating the patient about pain management, gentle movements, and activity modification is crucial for acute low back pain, promoting recovery without exacerbating symptoms.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Prescribing strong opioid painkillers for immediate relief of severe discomfort and inflammation.",
+          "is_correct": false,
+          "rationale": "Prescribing medication is outside the scope of physiotherapy practice."
+        },
+        {
+          "key": "B",
+          "text": "Implementing a progressive resistance training program targeting deep core muscles immediately.",
+          "is_correct": false,
+          "rationale": "Aggressive strengthening is often too early for acute low back pain."
+        },
+        {
+          "key": "C",
+          "text": "Educating the patient on pain management strategies, gentle movement, and activity modification.",
+          "is_correct": true,
+          "rationale": "Education and gentle movement are key initial steps for acute low back pain."
+        },
+        {
+          "key": "D",
+          "text": "Recommending complete bed rest for an extended period to prevent any further injury or strain.",
+          "is_correct": false,
+          "rationale": "Prolonged bed rest is generally not recommended for acute low back pain."
+        },
+        {
+          "key": "E",
+          "text": "Performing high-velocity spinal manipulation without prior imaging or comprehensive assessment.",
+          "is_correct": false,
+          "rationale": "Manipulation requires careful assessment and may not be appropriate acutely."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Before initiating any manual therapy technique, what essential step must a physiotherapist always perform to ensure patient safety and ethical practice?",
+      "explanation": "Obtaining informed consent is paramount; it ensures the patient understands the proposed intervention, its risks, and benefits, and agrees to proceed voluntarily.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Confirming the patient's insurance details and payment method with administrative staff immediately.",
+          "is_correct": false,
+          "rationale": "This is an administrative task, not a direct patient safety or ethical step."
+        },
+        {
+          "key": "B",
+          "text": "Thoroughly explaining the procedure, potential risks, benefits, and obtaining informed consent from the patient.",
+          "is_correct": true,
+          "rationale": "Informed consent is a fundamental ethical and safety requirement before treatment."
+        },
+        {
+          "key": "C",
+          "text": "Immediately applying a hot pack to the affected area without conducting any prior objective assessment.",
+          "is_correct": false,
+          "rationale": "Applying modalities without assessment can be inappropriate or unsafe."
+        },
+        {
+          "key": "D",
+          "text": "Documenting the session's outcomes in the patient's electronic health record before the session begins.",
+          "is_correct": false,
+          "rationale": "Documentation of outcomes occurs after the intervention, not before it starts."
+        },
+        {
+          "key": "E",
+          "text": "Discussing the latest research papers on manual therapy with the patient for academic purposes.",
+          "is_correct": false,
+          "rationale": "While educational, this is not an essential safety step before treatment."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "When communicating complex rehabilitation instructions to an elderly patient with mild cognitive impairment, what is the most effective approach?",
+      "explanation": "Using simple language, visual aids, and involving family members enhances understanding and adherence for patients with cognitive impairment, promoting better rehabilitation outcomes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Providing a lengthy written document with all exercises and detailed anatomical explanations for independent study.",
+          "is_correct": false,
+          "rationale": "Lengthy or complex documents can be overwhelming for patients with cognitive impairment."
+        },
+        {
+          "key": "B",
+          "text": "Speaking very loudly and quickly to ensure all information is conveyed efficiently within the session.",
+          "is_correct": false,
+          "rationale": "Loud and fast speech can be distressing and hinder comprehension."
+        },
+        {
+          "key": "C",
+          "text": "Using simple language, visual aids, demonstrations, and encouraging family involvement for reinforcement.",
+          "is_correct": true,
+          "rationale": "This multi-modal approach improves comprehension and retention for impaired patients."
+        },
+        {
+          "key": "D",
+          "text": "Relying solely on verbal instructions, assuming the patient will remember everything discussed during the session.",
+          "is_correct": false,
+          "rationale": "Solely verbal instructions are often insufficient for memory retention in this population."
+        },
+        {
+          "key": "E",
+          "text": "Asking the patient to sign a waiver stating they fully understand all instructions without further explanation.",
+          "is_correct": false,
+          "rationale": "A waiver does not guarantee understanding and is not an effective communication strategy."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Why is accurate and timely documentation of patient progress and treatment plans critically important in physiotherapy practice?",
+      "explanation": "Documentation provides a legal record, ensures continuity of care, justifies clinical decisions, and supports interdisciplinary communication, all vital for effective and safe patient management.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Primarily for billing purposes to ensure all services are correctly charged to insurance providers and clients.",
+          "is_correct": false,
+          "rationale": "While a factor, billing is not the primary or sole critical reason for documentation."
+        },
+        {
+          "key": "B",
+          "text": "To provide a legal record, facilitate continuity of care, and justify clinical decision-making effectively.",
+          "is_correct": true,
+          "rationale": "Documentation is essential for legal, ethical, and clinical aspects of patient care."
+        },
+        {
+          "key": "C",
+          "text": "To allow for easy sharing of patient confidential information with external marketing agencies.",
+          "is_correct": false,
+          "rationale": "Sharing confidential information with marketing is unethical and illegal (HIPAA/GDPR violation)."
+        },
+        {
+          "key": "D",
+          "text": "Mainly to track the physiotherapist's personal performance metrics for annual appraisals.",
+          "is_correct": false,
+          "rationale": "Personal performance tracking is a secondary benefit, not the primary critical reason."
+        },
+        {
+          "key": "E",
+          "text": "To ensure all patients receive identical treatment protocols regardless of their individual needs.",
+          "is_correct": false,
+          "rationale": "Treatment should be individualized, not standardized, for effective patient care."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "When assessing a patient with acute low back pain, which initial action is most crucial for a physiotherapist to perform?",
+      "explanation": "A comprehensive subjective history is fundamental as it guides the objective assessment, helps identify red flags, and informs the provisional diagnosis and treatment plan effectively.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Conduct a thorough subjective history to understand pain onset, aggravating factors, and relevant medical history comprehensively.",
+          "is_correct": true,
+          "rationale": "Subjective history guides assessment and identifies red flags."
+        },
+        {
+          "key": "B",
+          "text": "Immediately perform deep tissue massage techniques to alleviate muscle spasms and improve the patient's immediate comfort.",
+          "is_correct": false,
+          "rationale": "Intervention without assessment risks harm or misdirection."
+        },
+        {
+          "key": "C",
+          "text": "Refer the patient directly for an MRI scan to rule out any serious underlying spinal pathologies quickly.",
+          "is_correct": false,
+          "rationale": "Imaging is not always indicated initially for acute LBP."
+        },
+        {
+          "key": "D",
+          "text": "Instruct the patient to begin vigorous core strengthening exercises immediately to improve spinal stability.",
+          "is_correct": false,
+          "rationale": "Vigorous exercises are usually inappropriate for acute pain."
+        },
+        {
+          "key": "E",
+          "text": "Prescribe strong analgesic medication to manage the pain effectively before any physical intervention begins.",
+          "is_correct": false,
+          "rationale": "Medication prescription is outside a physiotherapist's scope."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "A physiotherapist observes a colleague consistently using improper manual handling techniques with patients. What is the most appropriate initial course of action?",
+      "explanation": "Addressing concerns directly with the colleague in a private, constructive manner is the first step, promoting professional development and patient safety. Escalation follows if necessary.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Report the colleague immediately to the regulatory body for professional misconduct and unsafe practice.",
+          "is_correct": false,
+          "rationale": "Direct communication is usually the first step before escalation."
+        },
+        {
+          "key": "B",
+          "text": "Ignore the situation, assuming the colleague will eventually correct their own manual handling techniques.",
+          "is_correct": false,
+          "rationale": "Ignoring unsafe practice jeopardizes patient safety and ethics."
+        },
+        {
+          "key": "C",
+          "text": "Offer constructive feedback to the colleague privately, suggesting safer alternative manual handling methods.",
+          "is_correct": true,
+          "rationale": "Private, constructive feedback is the professional initial approach."
+        },
+        {
+          "key": "D",
+          "text": "Publicly correct the colleague's technique during a team meeting to ensure all staff learn from the incident.",
+          "is_correct": false,
+          "rationale": "Public correction is unprofessional and can cause embarrassment."
+        },
+        {
+          "key": "E",
+          "text": "Document the incidents meticulously for several weeks before taking any further action or intervention.",
+          "is_correct": false,
+          "rationale": "Prompt action is needed to address patient safety concerns."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "For a patient presenting with shoulder impingement syndrome, what is a primary goal of early-stage physiotherapy intervention?",
+      "explanation": "Reducing pain and inflammation and restoring pain-free range of motion are critical initial steps to enable subsequent strengthening and functional rehabilitation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately initiate high-load resistance training for the rotator cuff muscles to build strength quickly.",
+          "is_correct": false,
+          "rationale": "High-load training is inappropriate in early, painful stages."
+        },
+        {
+          "key": "B",
+          "text": "Focus on reducing pain and inflammation while restoring pain-free range of motion in the shoulder joint.",
+          "is_correct": true,
+          "rationale": "Early goals focus on pain reduction and restoring movement."
+        },
+        {
+          "key": "C",
+          "text": "Recommend immediate surgical consultation to decompress the subacromial space and alleviate impingement.",
+          "is_correct": false,
+          "rationale": "Surgery is typically considered after failed conservative management."
+        },
+        {
+          "key": "D",
+          "text": "Prescribe a comprehensive stretching program targeting all muscles of the cervical spine and thoracic region.",
+          "is_correct": false,
+          "rationale": "While related, this is not the primary, direct early goal for impingement."
+        },
+        {
+          "key": "E",
+          "text": "Instruct the patient to completely immobilize the affected shoulder for several weeks to promote healing.",
+          "is_correct": false,
+          "rationale": "Complete immobilization can lead to stiffness and deconditioning."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Why is maintaining accurate and comprehensive patient records essential for a physiotherapist in health social care?",
+      "explanation": "Detailed records ensure continuity of care, facilitate communication among healthcare professionals, support clinical decision-making, and are vital for legal and audit purposes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Primarily to comply with administrative requirements for billing and insurance claims processing efficiently.",
+          "is_correct": false,
+          "rationale": "While a benefit, this is not the primary clinical importance."
+        },
+        {
+          "key": "B",
+          "text": "To ensure continuity of care, support clinical reasoning, and provide legal documentation of all interventions.",
+          "is_correct": true,
+          "rationale": "Records ensure continuity, inform decisions, and serve legal needs."
+        },
+        {
+          "key": "C",
+          "text": "So that colleagues can easily critique treatment plans and suggest alternative approaches during team reviews.",
+          "is_correct": false,
+          "rationale": "Critique is secondary; primary is information sharing and care."
+        },
+        {
+          "key": "D",
+          "text": "As a means to track personal performance metrics and demonstrate individual productivity within the department.",
+          "is_correct": false,
+          "rationale": "Personal metrics are not the primary purpose of patient records."
+        },
+        {
+          "key": "E",
+          "text": "To gather data for research studies on treatment efficacy without needing patient consent for participation.",
+          "is_correct": false,
+          "rationale": "Patient consent is required for research data use, not for records."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "A patient expresses significant anxiety about performing prescribed exercises due to fear of re-injury. How should the physiotherapist respond?",
+      "explanation": "Acknowledging fears, educating on safe progression, and ensuring patient involvement in goal setting builds trust and promotes adherence to the rehabilitation plan.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Insist the patient perform the exercises as prescribed, emphasizing the importance of adherence for recovery.",
+          "is_correct": false,
+          "rationale": "Insistence without addressing fear can reduce trust and adherence."
+        },
+        {
+          "key": "B",
+          "text": "Disregard the patient's concerns, explaining that some discomfort is normal during the rehabilitation process.",
+          "is_correct": false,
+          "rationale": "Disregarding concerns is unprofessional and undermines patient trust."
+        },
+        {
+          "key": "C",
+          "text": "Acknowledge their fears, provide reassurance, educate on safe progression, and modify exercises if necessary.",
+          "is_correct": true,
+          "rationale": "Empathy, education, and adaptation foster trust and adherence."
+        },
+        {
+          "key": "D",
+          "text": "Immediately discharge the patient, as their lack of motivation will hinder successful rehabilitation outcomes.",
+          "is_correct": false,
+          "rationale": "Discharging due to anxiety is premature and lacks patient-centered care."
+        },
+        {
+          "key": "E",
+          "text": "Refer the patient for psychological counseling before continuing with any further physical therapy interventions.",
+          "is_correct": false,
+          "rationale": "While useful, it's not the immediate, sole response; PT can address fear."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "When conducting an initial assessment for a patient with knee pain, what is the most crucial first step to ensure comprehensive care?",
+      "explanation": "A thorough subjective history provides vital information about the patient's symptoms, medical background, and functional limitations. This guides the objective assessment and helps formulate an effective treatment plan.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately perform a series of advanced orthopedic special tests to pinpoint the exact structural damage.",
+          "is_correct": false,
+          "rationale": "Special tests are important but follow a thorough history and general observation."
+        },
+        {
+          "key": "B",
+          "text": "Ask open-ended questions about their pain, medical history, lifestyle, and functional goals to understand their perspective.",
+          "is_correct": true,
+          "rationale": "Gathering a detailed subjective history is the foundational first step."
+        },
+        {
+          "key": "C",
+          "text": "Directly proceed to palpating the knee joint and surrounding soft tissues to identify tender points.",
+          "is_correct": false,
+          "rationale": "Palpation is part of the objective assessment, which comes after the subjective history."
+        },
+        {
+          "key": "D",
+          "text": "Instruct the patient to perform a variety of dynamic movements to observe their range of motion and compensatory patterns.",
+          "is_correct": false,
+          "rationale": "Observing movement is part of the objective assessment, performed after history."
+        },
+        {
+          "key": "E",
+          "text": "Provide immediate pain relief modalities, such as ice or heat, before any further diagnostic procedures.",
+          "is_correct": false,
+          "rationale": "Immediate pain relief is supportive, but assessment comes first for targeted treatment."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "A patient presents with acute low back pain. Which intervention is generally considered best practice during the initial treatment phase?",
+      "explanation": "Encouraging early, gentle movement and activity modification helps prevent deconditioning and promotes recovery, contrasting with prolonged bed rest which can worsen outcomes for acute low back pain.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Recommend strict bed rest for several days to allow complete healing of the affected spinal structures.",
+          "is_correct": false,
+          "rationale": "Prolonged bed rest is generally discouraged for acute low back pain."
+        },
+        {
+          "key": "B",
+          "text": "Prescribe a rigorous core strengthening program immediately to stabilize the lumbar spine and prevent recurrence.",
+          "is_correct": false,
+          "rationale": "Rigorous exercise is usually not appropriate in the acute phase."
+        },
+        {
+          "key": "C",
+          "text": "Educate the patient on pain management strategies and encourage gentle movement within their pain-free range.",
+          "is_correct": true,
+          "rationale": "Education and gentle movement are key initial interventions for acute back pain."
+        },
+        {
+          "key": "D",
+          "text": "Refer the patient for immediate surgical consultation to address potential underlying structural pathologies.",
+          "is_correct": false,
+          "rationale": "Surgery is rarely the first intervention for acute low back pain without red flags."
+        },
+        {
+          "key": "E",
+          "text": "Apply advanced manual therapy techniques, such as high-velocity thrust manipulations, without prior assessment.",
+          "is_correct": false,
+          "rationale": "Advanced manual therapy requires thorough assessment and may not be suitable acutely."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "When prescribing therapeutic exercises for an elderly patient with osteoarthritis, what is the most important consideration for safety and efficacy?",
+      "explanation": "Ensuring exercises are tailored to the patient's current physical capacity and pain levels is crucial to prevent injury, promote adherence, and achieve therapeutic benefits effectively.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Focus solely on high-impact, weight-bearing exercises to improve bone density and joint stability.",
+          "is_correct": false,
+          "rationale": "High-impact exercises may exacerbate osteoarthritis symptoms and are not always appropriate."
+        },
+        {
+          "key": "B",
+          "text": "Prioritize exercises that challenge their balance and coordination to reduce fall risk, even if they cause discomfort.",
+          "is_correct": false,
+          "rationale": "Balance is important, but discomfort should guide exercise modification, especially in the elderly."
+        },
+        {
+          "key": "C",
+          "text": "Ensure the exercises are progressive and challenging, always pushing them to their maximum pain tolerance threshold.",
+          "is_correct": false,
+          "rationale": "Pushing to maximum pain tolerance is generally contraindicated for therapeutic exercise."
+        },
+        {
+          "key": "D",
+          "text": "Select low-impact activities that minimize joint stress and are appropriate for their current pain levels and functional capacity.",
+          "is_correct": true,
+          "rationale": "Low-impact, appropriate exercises are safest and most effective for osteoarthritis."
+        },
+        {
+          "key": "E",
+          "text": "Instruct them to perform all exercises independently at home without any direct supervision during the initial stages.",
+          "is_correct": false,
+          "rationale": "Initial supervision is often necessary, especially for elderly patients learning new exercises."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "A patient confides sensitive personal information unrelated to their physical condition during a treatment session. What is the most appropriate action?",
+      "explanation": "Maintaining patient confidentiality is a fundamental ethical principle. Physiotherapists must respect patient privacy and only disclose information with explicit consent or if legally mandated.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Document all details of the personal information in the patient's medical record for future reference.",
+          "is_correct": false,
+          "rationale": "Only relevant information should be documented, not unrelated sensitive personal details."
+        },
+        {
+          "key": "B",
+          "text": "Share the information with a colleague to seek their opinion on how to best support the patient emotionally.",
+          "is_correct": false,
+          "rationale": "Sharing without consent breaches confidentiality, even with a colleague."
+        },
+        {
+          "key": "C",
+          "text": "Politely redirect the conversation back to their physical treatment plan, maintaining professional boundaries and confidentiality.",
+          "is_correct": true,
+          "rationale": "Redirecting maintains professional boundaries and protects patient privacy."
+        },
+        {
+          "key": "D",
+          "text": "Advise the patient to discuss this sensitive information with their family members for emotional support.",
+          "is_correct": false,
+          "rationale": "Advising disclosure to family is outside the physiotherapist's scope and breaches privacy."
+        },
+        {
+          "key": "E",
+          "text": "Report the sensitive personal information to the patient's general practitioner immediately for further assessment.",
+          "is_correct": false,
+          "rationale": "Reporting without consent breaches confidentiality, unless there's a serious safeguarding concern."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "A patient receiving physiotherapy for a stroke shows signs of severe depression impacting their rehabilitation engagement. What is the most appropriate next step?",
+      "explanation": "Recognizing and acting upon signs of mental health issues is crucial. Referring to a mental health professional ensures the patient receives specialized support, which can significantly improve rehabilitation outcomes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Increase the intensity of physical exercises, believing that physical activity alone will improve their mood.",
+          "is_correct": false,
+          "rationale": "Increasing physical intensity without addressing depression may worsen engagement."
+        },
+        {
+          "key": "B",
+          "text": "Advise the patient to try relaxation techniques learned from online resources to manage their emotional state independently.",
+          "is_correct": false,
+          "rationale": "While relaxation helps, severe depression requires professional mental health intervention."
+        },
+        {
+          "key": "C",
+          "text": "Document the observations and discuss a referral to a mental health professional with the patient and their care team.",
+          "is_correct": true,
+          "rationale": "Collaboration and referral to a specialist are appropriate for severe depression."
+        },
+        {
+          "key": "D",
+          "text": "Tell the patient to simply \"think positively\" and focus on their physical recovery goals more diligently.",
+          "is_correct": false,
+          "rationale": "This dismisses the patient's feelings and is not a professional response to depression."
+        },
+        {
+          "key": "E",
+          "text": "Ignore the emotional signs and strictly focus on the prescribed physical therapy exercises to maintain focus.",
+          "is_correct": false,
+          "rationale": "Ignoring emotional signs is not holistic care and can hinder rehabilitation progress."
+        }
+      ]
+    }
+  ]
+}

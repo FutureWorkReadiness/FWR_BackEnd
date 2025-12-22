@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "A client reveals their new partner is your colleague's spouse, creating a complex dual relationship. What is the most ethical first step to take?",
+      "explanation": "Seeking supervision is the crucial first step in navigating complex ethical dilemmas. It allows for objective guidance and ensures the counselor's actions are well-considered, client-centered, and align with professional codes of conduct before any action is taken.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately seek supervision to discuss the ethical implications, confidentiality limits, and potential impact on therapeutic boundaries before taking any action.",
+          "is_correct": true,
+          "rationale": "Supervision provides essential guidance for complex ethical situations."
+        },
+        {
+          "key": "B",
+          "text": "Inform your colleague about the situation to maintain transparency and prevent future conflicts of interest within the workplace.",
+          "is_correct": false,
+          "rationale": "This would be a direct breach of client confidentiality."
+        },
+        {
+          "key": "C",
+          "text": "Refer the client to another counselor immediately to avoid any potential for a breach of professional boundaries or confidentiality.",
+          "is_correct": false,
+          "rationale": "This may be a premature action without exploring all options."
+        },
+        {
+          "key": "D",
+          "text": "Continue therapy but establish very strict boundaries, documenting every interaction meticulously to protect yourself from any potential liability.",
+          "is_correct": false,
+          "rationale": "This ignores the need for outside consultation on a serious issue."
+        },
+        {
+          "key": "E",
+          "text": "Advise the client that you cannot continue therapy due to a conflict of interest without disclosing the specific details.",
+          "is_correct": false,
+          "rationale": "This is a possible outcome, but not the correct first step."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "When treating a client with severe, treatment-resistant depression, which advanced modality would be most appropriate to integrate alongside traditional psychotherapy?",
+      "explanation": "For treatment-resistant depression, a multi-disciplinary approach is critical. Collaborating with medical professionals to consider advanced somatic treatments like TMS offers new, evidence-based pathways for clients who have not responded to standard therapies alone.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Suggesting basic mindfulness techniques which the client has likely already tried without achieving any significant long-term success.",
+          "is_correct": false,
+          "rationale": "This approach is insufficient for treatment-resistant conditions."
+        },
+        {
+          "key": "B",
+          "text": "Focusing solely on psychodynamic therapy to uncover deep-seated childhood conflicts that may be contributing to the depression.",
+          "is_correct": false,
+          "rationale": "A singular focus ignores other evidence-based interventions."
+        },
+        {
+          "key": "C",
+          "text": "Collaborating with a psychiatrist to explore adjunctive evidence-based treatments like Transcranial Magnetic Stimulation (TMS) or ketamine-assisted therapy.",
+          "is_correct": true,
+          "rationale": "Collaboration for advanced treatments is best practice."
+        },
+        {
+          "key": "D",
+          "text": "Recommending a group therapy setting immediately, which might overwhelm a client with severe, treatment-resistant symptoms and high acuity.",
+          "is_correct": false,
+          "rationale": "This may not be appropriate for the client's current state."
+        },
+        {
+          "key": "E",
+          "text": "Implementing a strict behavioral activation plan without first addressing the client's profound lack of motivation and energy.",
+          "is_correct": false,
+          "rationale": "This fails to account for the severity of symptoms."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "As a clinical supervisor, you notice a junior counselor exhibiting strong countertransference with a client. What is your primary responsibility in this situation?",
+      "explanation": "The primary role of a supervisor is educative and supportive. Facilitating a reflective session helps the supervisee develop self-awareness and clinical skills, which is essential for their professional growth and for ensuring client welfare without being punitive.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately reassign the client to a more experienced counselor to protect them from potential harm from the supervisee.",
+          "is_correct": false,
+          "rationale": "This is a last resort, not a first step in supervision."
+        },
+        {
+          "key": "B",
+          "text": "Report the junior counselor to the licensing board for unprofessional conduct before discussing the issue with them directly.",
+          "is_correct": false,
+          "rationale": "This is an extreme and punitive action, bypassing the supervisory process."
+        },
+        {
+          "key": "C",
+          "text": "Instruct the counselor to terminate the therapeutic relationship without providing them with any specific guidance or support.",
+          "is_correct": false,
+          "rationale": "This fails the supervisor's duty to educate and support."
+        },
+        {
+          "key": "D",
+          "text": "Facilitate a reflective supervision session to help the counselor gain insight into their countertransference and develop management strategies.",
+          "is_correct": true,
+          "rationale": "This fulfills the core educative function of clinical supervision."
+        },
+        {
+          "key": "E",
+          "text": "Ignore the issue, assuming the junior counselor will eventually resolve their personal feelings independently through their own efforts.",
+          "is_correct": false,
+          "rationale": "This is negligent and risks harm to both client and counselor."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "You are tasked with developing a new group therapy program for trauma survivors. What is the most critical initial step for ensuring its effectiveness?",
+      "explanation": "A needs assessment is the foundational step in program development. It ensures the program is relevant, targeted, and designed to meet the actual needs of the community it intends to serve, maximizing its potential for success and sustainability.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Begin advertising the new program immediately to generate interest and fill the group slots as quickly as possible.",
+          "is_correct": false,
+          "rationale": "Marketing is premature before the program is properly designed."
+        },
+        {
+          "key": "B",
+          "text": "Select a therapeutic modality based solely on your personal preference and expertise without considering the target population's needs.",
+          "is_correct": false,
+          "rationale": "Program design must be client-centered, not therapist-centered."
+        },
+        {
+          "key": "C",
+          "text": "Conduct a thorough needs assessment within the community to identify specific trauma types, client needs, and existing service gaps.",
+          "is_correct": true,
+          "rationale": "This data-driven approach ensures the program is relevant and needed."
+        },
+        {
+          "key": "D",
+          "text": "Design the entire curriculum before you have completed any research on the community's specific demographic characteristics.",
+          "is_correct": false,
+          "rationale": "Curriculum should be informed by the needs assessment data."
+        },
+        {
+          "key": "E",
+          "text": "Secure funding for the program by presenting a general proposal without any specific data on the target population.",
+          "is_correct": false,
+          "rationale": "Funders require evidence of need, which this approach lacks."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "A 17-year-old client discloses historical abuse by a family member who no longer has contact. What is the most appropriate course of action?",
+      "explanation": "Mandated reporting laws for child abuse often apply to historical disclosures if the victim is still a minor. The ethical approach involves transparently informing the client of your legal duty while providing therapeutic support throughout the reporting process.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Decide not to report because the client is nearly an adult and the abuser is no longer a present threat.",
+          "is_correct": false,
+          "rationale": "This violates legal reporting mandates for a minor."
+        },
+        {
+          "key": "B",
+          "text": "Immediately report the disclosure without first discussing the reporting process and its implications with the client.",
+          "is_correct": false,
+          "rationale": "This can damage the therapeutic alliance by being abrupt."
+        },
+        {
+          "key": "C",
+          "text": "Advise the client to confront the family member directly as a form of therapeutic empowerment before making any report.",
+          "is_correct": false,
+          "rationale": "This could be unsafe and is not the counselor's primary duty."
+        },
+        {
+          "key": "D",
+          "text": "Explain your mandated reporting obligations to the client, then make a report to child protective services while supporting the client.",
+          "is_correct": true,
+          "rationale": "This balances legal duty with therapeutic and ethical responsibility."
+        },
+        {
+          "key": "E",
+          "text": "Only make a report if the client explicitly gives you their full consent, disregarding your legal mandate as a reporter.",
+          "is_correct": false,
+          "rationale": "Mandated reporting is a legal requirement, not optional."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "A client with Borderline Personality Disorder and a co-occurring substance use disorder repeatedly misses sessions. What is the most appropriate initial strategic response?",
+      "explanation": "This approach is collaborative and non-punitive, seeking to understand the behavior's function within the client's dual diagnosis. It maintains the therapeutic alliance while addressing the core issues of emotional dysregulation and avoidance, which is central to treating BPD and addiction.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately refer the client to a specialized addiction service, as their substance use is clearly the most pressing clinical issue.",
+          "is_correct": false,
+          "rationale": "This ignores the integrated nature of the co-occurring disorders."
+        },
+        {
+          "key": "B",
+          "text": "Implement a strict attendance policy and discharge the client if they miss another session to maintain firm therapeutic boundaries.",
+          "is_correct": false,
+          "rationale": "This is overly punitive and fails to address the client's avoidance behavior."
+        },
+        {
+          "key": "C",
+          "text": "Explore the function of the missed sessions and substance use in the context of their BPD symptoms and emotional dysregulation.",
+          "is_correct": true,
+          "rationale": "This links the behavior to the core psychopathology, fostering insight."
+        },
+        {
+          "key": "D",
+          "text": "Focus therapy exclusively on cognitive-behavioral techniques for substance use, postponing any discussion of their personality disorder traits.",
+          "is_correct": false,
+          "rationale": "An integrated treatment approach is essential for co-morbidity."
+        },
+        {
+          "key": "E",
+          "text": "Contact the client's family members to discuss the attendance issues and request their help in ensuring the client attends.",
+          "is_correct": false,
+          "rationale": "This is a potential breach of confidentiality and undermines client autonomy."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "A client discloses a specific, credible threat against a former colleague but refuses to permit you to break confidentiality. What is your primary ethical obligation?",
+      "explanation": "Most legal and ethical frameworks mandate a 'duty to protect' or 'duty to warn' when a client presents a serious, specific, and imminent threat to an identifiable victim. This duty overrides the general principle of confidentiality.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Maintain strict client confidentiality above all else, as breaking it would irreparably damage the therapeutic relationship and trust.",
+          "is_correct": false,
+          "rationale": "Confidentiality is not absolute and is limited when there is a clear danger."
+        },
+        {
+          "key": "B",
+          "text": "Take reasonable steps to notify law enforcement and the potential victim of the specific threat disclosed by your client.",
+          "is_correct": true,
+          "rationale": "This fulfills the ethical and legal duty to protect potential victims."
+        },
+        {
+          "key": "C",
+          "text": "Attempt to de-escalate the client's anger during the session and create a safety plan without involving any third parties.",
+          "is_correct": false,
+          "rationale": "This is insufficient when a credible, specific threat has been made."
+        },
+        {
+          "key": "D",
+          "text": "Consult with your supervisor immediately but take no further action until you receive explicit direction from them to proceed.",
+          "is_correct": false,
+          "rationale": "Consultation is crucial, but delaying protective action is a risk."
+        },
+        {
+          "key": "E",
+          "text": "Document the threat thoroughly in the client's record and schedule an urgent follow-up session to reassess the ongoing risk.",
+          "is_correct": false,
+          "rationale": "Documentation is necessary but is not a protective action itself."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "When supervising a junior counselor struggling with a complex trauma case, what is the most effective approach to foster their professional development?",
+      "explanation": "Reflective supervision focuses on the supervisee's internal processes, including emotional reactions to the client's material. This builds self-awareness, resilience, and clinical judgment, which are essential for working effectively with complex trauma and preventing burnout.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Take over the case yourself to demonstrate the correct techniques and ensure the client receives the best possible care.",
+          "is_correct": false,
+          "rationale": "This disempowers the supervisee and prevents them from developing skills."
+        },
+        {
+          "key": "B",
+          "text": "Provide a list of required readings and training courses on trauma for the junior counselor to complete on their own.",
+          "is_correct": false,
+          "rationale": "This is a passive approach that lacks direct, supportive guidance."
+        },
+        {
+          "key": "C",
+          "text": "Use a reflective supervision model to explore the supervisee's countertransference and help them develop their own clinical judgment.",
+          "is_correct": true,
+          "rationale": "This builds the supervisee's capacity and long-term competence."
+        },
+        {
+          "key": "D",
+          "text": "Instruct the junior counselor to follow a specific, manualized treatment protocol without any deviation to minimize potential errors.",
+          "is_correct": false,
+          "rationale": "This is too rigid and stifles critical thinking and clinical flexibility."
+        },
+        {
+          "key": "E",
+          "text": "Focus the supervision sessions exclusively on administrative compliance and ensuring their case notes meet organizational standards.",
+          "is_correct": false,
+          "rationale": "This neglects the primary purpose of clinical supervision."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "You are tasked with evaluating the effectiveness of a new group therapy program for anxiety. Which method provides the most robust measure of clinical outcomes?",
+      "explanation": "Using standardized, validated assessment tools at multiple time points provides objective, quantifiable data on symptom change. This is the gold standard for measuring clinical efficacy and demonstrating the program's impact beyond participant satisfaction or attendance.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Collecting anecdotal feedback and testimonials from group participants during the final session to gauge their overall satisfaction.",
+          "is_correct": false,
+          "rationale": "This measures satisfaction, not clinical outcome, and is highly biased."
+        },
+        {
+          "key": "B",
+          "text": "Tracking the attendance rates for each session as the primary indicator of the program's engagement and overall success.",
+          "is_correct": false,
+          "rationale": "High attendance does not necessarily correlate with a reduction in symptoms."
+        },
+        {
+          "key": "C",
+          "text": "Administering a standardized, validated clinical assessment tool for anxiety at pre-treatment, post-treatment, and a three-month follow-up.",
+          "is_correct": true,
+          "rationale": "This method provides objective, reliable, and valid data on symptom change."
+        },
+        {
+          "key": "D",
+          "text": "Comparing the number of crisis interventions required for participants before and during their time in the group therapy program.",
+          "is_correct": false,
+          "rationale": "This is a useful but narrow metric that doesn't capture symptom improvement."
+        },
+        {
+          "key": "E",
+          "text": "Having the group facilitator write a summary report based on their professional observations of the participants' progress and engagement.",
+          "is_correct": false,
+          "rationale": "This relies on a single, subjective perspective and lacks objectivity."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "For a client with treatment-resistant complex PTSD, which approach is designed to process traumatic memories stored in a non-verbal, fragmented way?",
+      "explanation": "EMDR is an evidence-based psychotherapy for PTSD. Its use of bilateral stimulation is hypothesized to facilitate the connection between memory networks, allowing the brain to process and integrate traumatic memories that are 'stuck' and stored dysfunctionally.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Standard Cognitive Behavioral Therapy (CBT) focusing on identifying and challenging distorted cognitions related to the traumatic events.",
+          "is_correct": false,
+          "rationale": "Standard CBT can be less effective for non-verbal aspects of trauma."
+        },
+        {
+          "key": "B",
+          "text": "Eye Movement Desensitization and Reprocessing (EMDR), which uses bilateral stimulation to help the brain reprocess and integrate traumatic memories.",
+          "is_correct": true,
+          "rationale": "EMDR is designed to access traumatically stored, non-verbal memories."
+        },
+        {
+          "key": "C",
+          "text": "Person-centered therapy that provides unconditional positive regard to build self-esteem without directly addressing the traumatic memories.",
+          "is_correct": false,
+          "rationale": "This approach is not sufficient for processing core traumatic memories."
+        },
+        {
+          "key": "D",
+          "text": "Solution-Focused Brief Therapy (SFBT) that concentrates on building future solutions and avoids in-depth exploration of past trauma.",
+          "is_correct": false,
+          "rationale": "This modality is future-oriented and avoids deep trauma processing."
+        },
+        {
+          "key": "E",
+          "text": "Psychoanalytic therapy aimed at uncovering unconscious conflicts from early childhood that may be contributing to current symptoms.",
+          "is_correct": false,
+          "rationale": "This is less targeted for specific trauma reprocessing than EMDR."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "A long-term client with schizophrenia presents with a recent, severe relapse into substance abuse. What is the most appropriate initial strategic step?",
+      "explanation": "Integrated treatment for co-occurring disorders is the evidence-based standard. Addressing both psychosis and substance use concurrently within a coordinated team prevents fragmented care and leads to better long-term outcomes for the client.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Coordinate with a multidisciplinary team to develop an integrated treatment plan addressing both the psychosis and substance use concurrently.",
+          "is_correct": true,
+          "rationale": "This follows the best practice of integrated treatment for co-occurring disorders."
+        },
+        {
+          "key": "B",
+          "text": "Immediately refer the client to a specialized substance abuse facility without continuing your own therapeutic involvement for their schizophrenia.",
+          "is_correct": false,
+          "rationale": "This approach fragments care and can be detrimental to the client's stability."
+        },
+        {
+          "key": "C",
+          "text": "Focus solely on stabilizing their schizophrenic symptoms, assuming the substance abuse will resolve once psychosis is managed effectively.",
+          "is_correct": false,
+          "rationale": "This incorrectly assumes one disorder will resolve by treating the other."
+        },
+        {
+          "key": "D",
+          "text": "Mandate that the client achieves sobriety for at least thirty days before you will resume any counseling for their schizophrenia.",
+          "is_correct": false,
+          "rationale": "This creates an unrealistic barrier to care and is not client-centered."
+        },
+        {
+          "key": "E",
+          "text": "Increase the frequency of individual therapy sessions, focusing exclusively on cognitive-behavioral techniques for substance abuse triggers and behaviors.",
+          "is_correct": false,
+          "rationale": "This neglects the critical psychotic symptoms and need for integrated care."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Your client discloses a credible, specific threat to harm a named third party. What is your primary ethical and legal obligation in this situation?",
+      "explanation": "In situations involving a credible threat to an identifiable victim, often called a \"Tarasoff situation,\" the duty to protect supersedes general confidentiality. This requires notifying the potential victim and law enforcement to prevent harm.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Take reasonable steps to notify the potential victim and law enforcement, documenting every action taken to fulfill your duty to protect.",
+          "is_correct": true,
+          "rationale": "This fulfills the legal and ethical 'duty to protect' mandate."
+        },
+        {
+          "key": "B",
+          "text": "Maintain absolute client confidentiality under all circumstances, as breaking it would irreparably damage the therapeutic alliance with your client.",
+          "is_correct": false,
+          "rationale": "This violates the legal duty to protect, which overrides confidentiality here."
+        },
+        {
+          "key": "C",
+          "text": "Attempt to de-escalate the situation solely within the therapeutic session without involving any external parties to preserve client trust.",
+          "is_correct": false,
+          "rationale": "This is insufficient and risky when a credible, specific threat exists."
+        },
+        {
+          "key": "D",
+          "text": "Immediately terminate the therapeutic relationship with the client to remove yourself from any legal liability associated with their actions.",
+          "is_correct": false,
+          "rationale": "This constitutes client abandonment and fails to address the immediate danger."
+        },
+        {
+          "key": "E",
+          "text": "Consult with your supervisor but take no further action unless the client repeats the specific threat in a subsequent session.",
+          "is_correct": false,
+          "rationale": "This is a dangerous delay of a time-sensitive and critical duty."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "When applying Dialectical Behavior Therapy (DBT) for a client with Borderline Personality Disorder, which component is most crucial for addressing self-harm behaviors?",
+      "explanation": "DBT's skills training, particularly in distress tolerance and emotion regulation, is foundational for managing self-harm. These skills provide the client with concrete, adaptive alternatives to use when experiencing overwhelming emotions that previously led to self-injury.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Prioritizing skills training in distress tolerance and emotion regulation to provide alternatives to maladaptive coping mechanisms like self-harm.",
+          "is_correct": true,
+          "rationale": "These core DBT skills directly target the emotional dysregulation that fuels self-harm."
+        },
+        {
+          "key": "B",
+          "text": "Focusing primarily on mindfulness exercises to help the client achieve a state of non-judgmental awareness of their emotional state.",
+          "is_correct": false,
+          "rationale": "Mindfulness is a core skill but is insufficient alone to stop self-harm."
+        },
+        {
+          "key": "C",
+          "text": "Emphasizing interpersonal effectiveness skills to repair relationships that may have been damaged by the client's past behavioral patterns.",
+          "is_correct": false,
+          "rationale": "While important, this is secondary to ensuring the client's immediate safety."
+        },
+        {
+          "key": "D",
+          "text": "Conducting a thorough chain analysis of past self-harm incidents without immediately teaching any new coping or regulation skills.",
+          "is_correct": false,
+          "rationale": "Analysis is crucial, but it must be paired with teaching alternative skills."
+        },
+        {
+          "key": "E",
+          "text": "Utilizing contingency management by rewarding the client for periods of time where they successfully abstain from any self-harming actions.",
+          "is_correct": false,
+          "rationale": "This is a supplementary technique, not the primary mechanism for change in DBT."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "As a clinical supervisor, you notice a junior counselor is showing signs of burnout and vicarious trauma. What is your most effective initial intervention?",
+      "explanation": "A supportive, non-punitive supervisory approach is most effective. Opening a dialogue allows for collaborative problem-solving, reinforces self-care as a professional competency, and addresses caseload issues before they escalate, protecting both the counselor and their clients.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Schedule a private supervisory session to discuss their caseload, promote self-care strategies, and explore potential adjustments to their responsibilities.",
+          "is_correct": true,
+          "rationale": "This is a supportive, proactive, and appropriate first step in supervision."
+        },
+        {
+          "key": "B",
+          "text": "Recommend they take an immediate, mandatory leave of absence to prevent any potential harm to the clients they are seeing.",
+          "is_correct": false,
+          "rationale": "This is a drastic measure and may not be necessary as a first step."
+        },
+        {
+          "key": "C",
+          "text": "Assign them additional training modules on professional resilience and stress management to complete on their own time outside of work.",
+          "is_correct": false,
+          "rationale": "This adds more work to an already burnt-out employee and is unsupportive."
+        },
+        {
+          "key": "D",
+          "text": "Report your observations directly to human resources to initiate a formal performance improvement plan based on their decreased professional functioning.",
+          "is_correct": false,
+          "rationale": "This is a punitive action that bypasses the supportive role of supervision."
+        },
+        {
+          "key": "E",
+          "text": "Reassign their most challenging clients to more experienced counselors without discussing the reasons for the change with the junior counselor.",
+          "is_correct": false,
+          "rationale": "This is disempowering and fails to address the underlying issue of burnout."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "You are tasked with developing a new group therapy program for individuals experiencing complex grief. Which element is most critical for ensuring its success?",
+      "explanation": "A successful program requires a solid foundation. This includes clear criteria for participation, a structured, evidence-informed curriculum, and a system for measuring outcomes. These elements ensure consistency, demonstrate effectiveness, and support sustainability and funding.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Establishing clear inclusion criteria, a structured curriculum, and methods for measuring client outcomes to demonstrate the program's overall effectiveness.",
+          "is_correct": true,
+          "rationale": "This comprehensive approach ensures program integrity, efficacy, and sustainability."
+        },
+        {
+          "key": "B",
+          "text": "Securing a large, comfortable meeting space with amenities to ensure all participants feel physically relaxed and welcome during every session.",
+          "is_correct": false,
+          "rationale": "While helpful, the environment is secondary to the program's clinical structure."
+        },
+        {
+          "key": "C",
+          "text": "Focusing marketing efforts primarily on social media platforms to attract the highest possible number of participants for the initial cohort.",
+          "is_correct": false,
+          "rationale": "Recruitment is important, but program quality is more critical for success."
+        },
+        {
+          "key": "D",
+          "text": "Designing the program to be completely open-ended and unstructured, allowing participants to guide the direction of each session organically.",
+          "is_correct": false,
+          "rationale": "Complex grief often requires a structured approach, not an unstructured one."
+        },
+        {
+          "key": "E",
+          "text": "Ensuring the program is led by a therapist who has personally experienced a significant and complicated grieving process themselves.",
+          "is_correct": false,
+          "rationale": "Professional skill is more critical than personal experience for the facilitator."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "A senior counselor in a small town is asked to provide therapy to a former adult student. What is the most ethical first step?",
+      "explanation": "The most ethical action is to avoid potential dual relationships that could impair objectivity or exploit the client. Providing a direct referral to another qualified professional protects both parties from potential conflicts of interest.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Accept the client immediately, as significant time has passed, and document the prior relationship in the client's file.",
+          "is_correct": false,
+          "rationale": "This still creates a dual relationship, which poses an ethical risk."
+        },
+        {
+          "key": "B",
+          "text": "Politely decline to see the client and provide them with a referral to another qualified counselor to avoid any conflict.",
+          "is_correct": true,
+          "rationale": "This is the best course of action to avoid a dual relationship."
+        },
+        {
+          "key": "C",
+          "text": "Agree to see the client only after a formal consultation with a supervisor to manage any potential boundary issues.",
+          "is_correct": false,
+          "rationale": "The primary ethical guideline is to avoid such relationships whenever possible."
+        },
+        {
+          "key": "D",
+          "text": "Inform the client that therapy can only proceed if they sign a waiver acknowledging the previous non-therapeutic relationship.",
+          "is_correct": false,
+          "rationale": "A waiver does not negate the counselor's ethical responsibility."
+        },
+        {
+          "key": "E",
+          "text": "Begin a few initial sessions to assess the dynamic before deciding whether to continue the therapeutic relationship long-term.",
+          "is_correct": false,
+          "rationale": "This establishes the dual relationship before a decision is made."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "When developing a new mental health program for homeless youth, what is the most critical initial step for ensuring its long-term success and relevance?",
+      "explanation": "A comprehensive needs assessment is the foundational step. It ensures the program is tailored to the actual, expressed needs of the target population, which significantly increases engagement, effectiveness, and long-term viability.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Secure funding from multiple government and private sources before designing any specific program components or intervention strategies.",
+          "is_correct": false,
+          "rationale": "Funding is essential, but a needs assessment should inform the design first."
+        },
+        {
+          "key": "B",
+          "text": "Conduct a thorough needs assessment with the target population, involving youth directly to identify their specific challenges and preferences.",
+          "is_correct": true,
+          "rationale": "This client-centered approach ensures the program is relevant and effective."
+        },
+        {
+          "key": "C",
+          "text": "Recruit and hire a full team of experienced counselors and social workers who specialize in treating adolescent trauma.",
+          "is_correct": false,
+          "rationale": "Staffing is a later step; the program's design must be established first."
+        },
+        {
+          "key": "D",
+          "text": "Establish formal partnerships with local shelters, schools, and law enforcement agencies to create a robust referral network.",
+          "is_correct": false,
+          "rationale": "Partnerships should be guided by the findings of the needs assessment."
+        },
+        {
+          "key": "E",
+          "text": "Research existing evidence-based models for similar populations and select one to replicate exactly without any local modifications.",
+          "is_correct": false,
+          "rationale": "Evidence-based models must be adapted to the specific local population."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "You are managing a complex case of a client with co-occurring substance use disorder, severe anxiety, and unstable housing. What is the priority action?",
+      "explanation": "Best practice for co-occurring disorders emphasizes an integrated approach. Coordinating with multiple specialists to address mental health, substance use, and social determinants like housing simultaneously leads to better client outcomes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Focus exclusively on intensive psychotherapy for the severe anxiety before addressing the other co-occurring issues with the client.",
+          "is_correct": false,
+          "rationale": "A sequential approach is less effective than an integrated one."
+        },
+        {
+          "key": "B",
+          "text": "Immediately refer the client to a separate substance abuse treatment center and a housing agency without coordinating care.",
+          "is_correct": false,
+          "rationale": "Uncoordinated referrals often lead to fragmented care and poor outcomes."
+        },
+        {
+          "key": "C",
+          "text": "Develop an integrated treatment plan that addresses all issues concurrently through collaboration with housing, medical, and addiction specialists.",
+          "is_correct": true,
+          "rationale": "This holistic, coordinated approach is the evidence-based standard."
+        },
+        {
+          "key": "D",
+          "text": "Prioritize finding stable housing for the client above all else, postponing any direct mental health or substance use treatment.",
+          "is_correct": false,
+          "rationale": "Postponing treatment can worsen the other conditions."
+        },
+        {
+          "key": "E",
+          "text": "Mandate the client's attendance at a 12-step program as the primary intervention before offering any other therapeutic support.",
+          "is_correct": false,
+          "rationale": "This approach is too prescriptive and ignores interconnected needs."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Following a major natural disaster in your community, what is the most effective strategy for a lead counselor to organize a mental health response?",
+      "explanation": "A coordinated, multi-agency response centered on Psychological First Aid (PFA) and effective triage is the evidence-based standard for community-wide disasters. This approach maximizes reach and efficiently allocates resources to those most in need.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately begin offering individual trauma therapy sessions to any community member who requests an appointment at your agency.",
+          "is_correct": false,
+          "rationale": "This is not a scalable or strategic response to a large-scale crisis."
+        },
+        {
+          "key": "B",
+          "text": "Focus solely on training first responders in psychological first aid techniques, deferring direct client contact to them.",
+          "is_correct": false,
+          "rationale": "This should be part of a broader, more direct response."
+        },
+        {
+          "key": "C",
+          "text": "Establish a centralized crisis response center and coordinate with multiple agencies to offer psychological first aid and triage services.",
+          "is_correct": true,
+          "rationale": "This systemic, coordinated approach provides the most effective support."
+        },
+        {
+          "key": "D",
+          "text": "Distribute pamphlets and online resources about coping with trauma throughout the community as the primary intervention method.",
+          "is_correct": false,
+          "rationale": "This passive approach is insufficient for acute needs."
+        },
+        {
+          "key": "E",
+          "text": "Wait for several weeks for the initial shock to subside before implementing any formal mental health support programs.",
+          "is_correct": false,
+          "rationale": "Early intervention with Psychological First Aid is critical."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "A long-term client with complex PTSD and treatment-resistant depression shows limited progress with CBT. Which advanced modality is the most appropriate next consideration?",
+      "explanation": "For clients with complex trauma who do not respond to standard CBT, exploring advanced, evidence-based, trauma-focused modalities like EMDR is a clinically appropriate next step. These therapies directly target traumatic memories and physiological responses.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Suggesting the client try unguided mindfulness apps and journaling to see if self-help methods produce better results alone.",
+          "is_correct": false,
+          "rationale": "Self-help tools are adjuncts, not replacements for therapy."
+        },
+        {
+          "key": "B",
+          "text": "Recommending a long-term inpatient psychiatric hospitalization to provide a more structured and intensive therapeutic environment.",
+          "is_correct": false,
+          "rationale": "This is overly restrictive; exploring other outpatient modalities comes first."
+        },
+        {
+          "key": "C",
+          "text": "Referring the client for a medication review without exploring any alternative psychotherapeutic approaches to their ongoing treatment plan.",
+          "is_correct": false,
+          "rationale": "This ignores the need to find a more effective therapeutic modality."
+        },
+        {
+          "key": "D",
+          "text": "Exploring evidence-based, trauma-focused therapies such as Eye Movement Desensitization and Reprocessing (EMDR) or somatic experiencing.",
+          "is_correct": true,
+          "rationale": "These modalities are designed for complex trauma and are a logical next step."
+        },
+        {
+          "key": "E",
+          "text": "Increasing the frequency of the current CBT sessions from weekly to three times per week to intensify the treatment.",
+          "is_correct": false,
+          "rationale": "Increasing the frequency of an ineffective modality is unlikely to work."
+        }
+      ]
+    }
+  ]
+}

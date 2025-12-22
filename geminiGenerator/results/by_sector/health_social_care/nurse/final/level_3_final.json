@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "A patient with hypertension refuses their prescribed morning medication, stating they feel perfectly fine. What is your most appropriate initial action?",
+      "explanation": "The nurse's first responsibility is to provide education and respect patient autonomy. This involves explaining the rationale for the medication and the risks of non-adherence before documenting the outcome and informing the prescriber if the refusal persists.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Administer the medication against their will because it is a legally prescribed and necessary treatment.",
+          "is_correct": false,
+          "rationale": "This violates patient autonomy and constitutes battery."
+        },
+        {
+          "key": "B",
+          "text": "Educate the patient on the importance of the medication for long-term health, then re-offer it.",
+          "is_correct": true,
+          "rationale": "This respects autonomy while fulfilling the duty to educate."
+        },
+        {
+          "key": "C",
+          "text": "Immediately document the refusal in the patient's notes and inform the doctor during their next ward round.",
+          "is_correct": false,
+          "rationale": "This is a passive response that omits patient education."
+        },
+        {
+          "key": "D",
+          "text": "Ask a family member to try and persuade the patient to take the prescribed medication.",
+          "is_correct": false,
+          "rationale": "This undermines the patient's autonomy and direct communication."
+        },
+        {
+          "key": "E",
+          "text": "Withhold the dose and simply re-check the patient's blood pressure in one hour's time.",
+          "is_correct": false,
+          "rationale": "This delays necessary education and communication with the prescriber."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "You are caring for four patients. Which of the following patients requires your most immediate assessment and intervention?",
+      "explanation": "Prioritisation of care follows the ABC (Airway, Breathing, Circulation) principle. A patient with new-onset shortness of breath and a low oxygen saturation level indicates a critical issue with breathing, which takes precedence over other clinical problems.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A patient with a new diagnosis of diabetes who has a capillary blood glucose level of 14 mmol/L.",
+          "is_correct": false,
+          "rationale": "This is high but not as immediately life-threatening."
+        },
+        {
+          "key": "B",
+          "text": "A post-operative patient who is reporting their incisional pain as 7 out of 10 on the pain scale.",
+          "is_correct": false,
+          "rationale": "Pain is a priority but is secondary to breathing."
+        },
+        {
+          "key": "C",
+          "text": "A patient with pneumonia who has new-onset shortness of breath and an oxygen saturation of 88%.",
+          "is_correct": true,
+          "rationale": "This indicates acute respiratory compromise, a top priority."
+        },
+        {
+          "key": "D",
+          "text": "A patient who is awaiting discharge and needs education on their new anticoagulant medication.",
+          "is_correct": false,
+          "rationale": "This is important but can wait as it is not urgent."
+        },
+        {
+          "key": "E",
+          "text": "An elderly patient with mild confusion who is requesting assistance to use the bathroom.",
+          "is_correct": false,
+          "rationale": "This is a safety and comfort need but not critical."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "When providing care for a patient with a confirmed Clostridioides difficile (C. diff) infection, what is the most critical infection control practice?",
+      "explanation": "C. difficile produces spores that are resistant to alcohol-based hand sanitisers. Therefore, the most crucial infection control measure is to physically remove the spores by washing hands thoroughly with soap and water after any patient contact.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using an alcohol-based hand sanitiser before and after every contact with the patient or their environment.",
+          "is_correct": false,
+          "rationale": "Alcohol does not effectively kill C. difficile spores."
+        },
+        {
+          "key": "B",
+          "text": "Wearing a fit-tested N95 respirator mask whenever you are entering the patient's private room.",
+          "is_correct": false,
+          "rationale": "C. diff is spread by contact, not airborne transmission."
+        },
+        {
+          "key": "C",
+          "text": "Washing your hands thoroughly with soap and water after removing personal protective equipment.",
+          "is_correct": true,
+          "rationale": "Soap and water physically remove the resilient C. diff spores."
+        },
+        {
+          "key": "D",
+          "text": "Ensuring the patient is placed in a negative pressure isolation room to contain the infection.",
+          "is_correct": false,
+          "rationale": "Negative pressure rooms are for airborne precautions, not contact."
+        },
+        {
+          "key": "E",
+          "text": "Administering prophylactic antibiotics to other patients who are currently sharing the same ward bay.",
+          "is_correct": false,
+          "rationale": "This is inappropriate and can increase antibiotic resistance."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "You are assessing a patient with a known chest infection. Which combination of vital signs most strongly indicates a deterioration towards sepsis?",
+      "explanation": "Sepsis is a life-threatening response to infection. Key indicators of systemic inflammatory response and organ dysfunction include an elevated respiratory rate, tachycardia, and altered mental state (confusion), which require urgent escalation and treatment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A temperature of 38.5°C, a productive cough, and patient complaints of feeling generally unwell.",
+          "is_correct": false,
+          "rationale": "These are common signs of a localised chest infection."
+        },
+        {
+          "key": "B",
+          "text": "A respiratory rate of 26, a heart rate of 120 bpm, and new-onset confusion.",
+          "is_correct": true,
+          "rationale": "This combination strongly suggests systemic inflammatory response and sepsis."
+        },
+        {
+          "key": "C",
+          "text": "A blood pressure of 140/90 mmHg, a regular pulse, and an oxygen saturation of 96%.",
+          "is_correct": false,
+          "rationale": "These vital signs are within a relatively stable range."
+        },
+        {
+          "key": "D",
+          "text": "A low-grade fever of 37.6°C and the patient reporting increased lethargy and poor appetite.",
+          "is_correct": false,
+          "rationale": "These are non-specific symptoms and not strong sepsis indicators."
+        },
+        {
+          "key": "E",
+          "text": "Normal body temperature but the patient is complaining of a persistent headache and nausea.",
+          "is_correct": false,
+          "rationale": "These symptoms are not specific indicators of sepsis development."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "You witness a junior colleague failing to perform hand hygiene after assisting a patient. What is the most appropriate immediate action to take?",
+      "explanation": "Patient safety is paramount. The most appropriate action is to address the issue directly, privately, and constructively with the colleague. This provides immediate feedback, reinforces correct practice, and maintains a culture of safety without undue embarrassment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately report the incident in writing to the ward manager for formal disciplinary action to be taken.",
+          "is_correct": false,
+          "rationale": "This is overly punitive for a first step."
+        },
+        {
+          "key": "B",
+          "text": "Privately and politely remind the colleague of the hand hygiene policy and the importance of compliance.",
+          "is_correct": true,
+          "rationale": "This is a direct, educational, and professional approach."
+        },
+        {
+          "key": "C",
+          "text": "Ignore the single incident, as it is likely a one-time mistake and not worth creating conflict.",
+          "is_correct": false,
+          "rationale": "This fails to address a breach in patient safety."
+        },
+        {
+          "key": "D",
+          "text": "Announce loudly in the nursing station that everyone needs to remember to wash their hands.",
+          "is_correct": false,
+          "rationale": "This is an indirect and unprofessional way to address the issue."
+        },
+        {
+          "key": "E",
+          "text": "Wait until the end of the shift to mention it to them casually if you remember.",
+          "is_correct": false,
+          "rationale": "This delays important feedback and compromises safety in the interim."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "When managing a patient with suspected sepsis, which intervention from the Sepsis Six bundle is most time-critical for improving patient survival outcomes?",
+      "explanation": "While all elements of the Sepsis Six are vital, timely administration of broad-spectrum antibiotics has the most significant impact on reducing mortality from sepsis by directly targeting the underlying infection.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Measuring serum lactate levels to assess the severity of tissue hypoperfusion and guide resuscitation.",
+          "is_correct": false,
+          "rationale": "This is a key diagnostic and monitoring step, but not the most critical intervention."
+        },
+        {
+          "key": "B",
+          "text": "Administering intravenous broad-spectrum antibiotics within the first hour of recognition of the condition.",
+          "is_correct": true,
+          "rationale": "Early antibiotics directly treat the infection, which is the primary driver of mortality in sepsis."
+        },
+        {
+          "key": "C",
+          "text": "Accurately monitoring hourly urine output to evaluate kidney function and overall fluid status.",
+          "is_correct": false,
+          "rationale": "This is an important monitoring parameter but does not treat the root cause of sepsis."
+        },
+        {
+          "key": "D",
+          "text": "Obtaining blood cultures before antibiotic administration to identify the specific causative pathogen.",
+          "is_correct": false,
+          "rationale": "Crucial for diagnostics, but antibiotic administration should not be delayed waiting for this to be completed."
+        },
+        {
+          "key": "E",
+          "text": "Providing high-flow oxygen to correct hypoxia and support the patient's cellular metabolism.",
+          "is_correct": false,
+          "rationale": "This is a supportive measure; antibiotics are the definitive treatment for the infection itself."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "A patient with dementia is refusing a necessary medical procedure. How should the nurse proceed in accordance with the Mental Capacity Act 2005?",
+      "explanation": "The Mental Capacity Act requires a formal two-stage assessment for the specific decision at hand. A diagnosis of dementia does not automatically mean a person lacks capacity to make their own decisions.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately override the patient's refusal because the procedure is clearly in their best medical interests.",
+          "is_correct": false,
+          "rationale": "This violates the first principle of the MCA, which is to assume capacity."
+        },
+        {
+          "key": "B",
+          "text": "Document the refusal and inform the medical team, assuming the patient's decision is valid for now.",
+          "is_correct": false,
+          "rationale": "This is passive and fails to assess if the patient truly has capacity for this decision."
+        },
+        {
+          "key": "C",
+          "text": "Conduct a formal two-stage capacity assessment specific to the decision about this particular procedure.",
+          "is_correct": true,
+          "rationale": "This is the correct legal and ethical process to follow under the Mental Capacity Act."
+        },
+        {
+          "key": "D",
+          "text": "Ask the patient's next of kin to provide consent for the procedure on their behalf.",
+          "is_correct": false,
+          "rationale": "Next of kin cannot consent; they are consulted in a best interests meeting if capacity is absent."
+        },
+        {
+          "key": "E",
+          "text": "Administer a sedative to the patient to facilitate the procedure with minimal distress and conflict.",
+          "is_correct": false,
+          "rationale": "This constitutes chemical restraint and is unlawful without proper capacity and best interests assessment."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "After realising you administered an incorrect medication dose, what is your most critical immediate action once you have assessed the patient's stability?",
+      "explanation": "After ensuring patient stability, the immediate priority is to escalate the issue to the nurse in charge and the prescriber. This allows for prompt medical assessment, monitoring, and intervention if required.",
+      "options": [
+        {
+          "key": "A",
+          "text": "You should immediately complete a detailed incident report to document the event for governance.",
+          "is_correct": false,
+          "rationale": "Documentation is vital but comes after immediate patient safety and clinical escalation steps are taken."
+        },
+        {
+          "key": "B",
+          "text": "Your first step is to inform the patient and their family, upholding the duty of candour.",
+          "is_correct": false,
+          "rationale": "Duty of candour is mandatory, but clinical escalation to manage the situation must happen first."
+        },
+        {
+          "key": "C",
+          "text": "You must promptly inform the nurse in charge and the responsible medical prescriber about the error.",
+          "is_correct": true,
+          "rationale": "This ensures immediate clinical oversight and management of any potential adverse effects on the patient."
+        },
+        {
+          "key": "D",
+          "text": "It is essential to find the original prescription to double-check the details of the error.",
+          "is_correct": false,
+          "rationale": "While useful, this can be done after you have escalated the immediate risk to the patient."
+        },
+        {
+          "key": "E",
+          "text": "You should discreetly ask a trusted colleague for advice on how to handle the situation properly.",
+          "is_correct": false,
+          "rationale": "This delays the formal and necessary escalation process, potentially compromising patient safety."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "The family of a patient transitioning to palliative care is expressing distress and anger. What is the most therapeutic nursing approach in this situation?",
+      "explanation": "The most effective and compassionate approach is to engage the family in an open conversation. This allows the nurse to understand their perspective, address misconceptions, and build trust while aligning care with their values.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Firmly reiterate the medical team's decisions and the clinical reasons for stopping curative treatment.",
+          "is_correct": false,
+          "rationale": "This approach is confrontational and dismisses the family's valid emotional response to the situation."
+        },
+        {
+          "key": "B",
+          "text": "Provide the family with informational pamphlets about the palliative care process to review privately.",
+          "is_correct": false,
+          "rationale": "This is a passive approach and avoids direct therapeutic communication which is needed at this time."
+        },
+        {
+          "key": "C",
+          "text": "Acknowledge their emotions, listen actively to their concerns, and offer to facilitate a family meeting.",
+          "is_correct": true,
+          "rationale": "This validates their feelings, promotes open dialogue, and is a collaborative, patient-centred approach."
+        },
+        {
+          "key": "D",
+          "text": "Suggest that they might benefit from speaking with the hospital's complaints department or PALS.",
+          "is_correct": false,
+          "rationale": "This escalates the situation prematurely and avoids the nurse's responsibility to communicate effectively."
+        },
+        {
+          "key": "E",
+          "text": "Avoid discussing the topic directly until they have calmed down to prevent further potential conflict.",
+          "is_correct": false,
+          "rationale": "This avoids the issue and can make the family feel ignored and unsupported during a difficult time."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "As the registered nurse leading a team, which of the following tasks is inappropriate to delegate to a healthcare assistant without specialised training?",
+      "explanation": "The initial patient assessment, interpretation of findings, and formulation of a nursing care plan are core responsibilities of a registered nurse and cannot be delegated to unregistered staff like healthcare assistants.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Assisting a stable, post-operative patient with their personal care and mobilisation to a chair.",
+          "is_correct": false,
+          "rationale": "This is a fundamental care task that is appropriate to delegate to a healthcare assistant."
+        },
+        {
+          "key": "B",
+          "text": "Taking and recording the vital signs of a patient who is awaiting routine discharge home.",
+          "is_correct": false,
+          "rationale": "This is a routine task within the scope of practice for a healthcare assistant."
+        },
+        {
+          "key": "C",
+          "text": "Performing the initial admission assessment and care plan for a newly arrived patient.",
+          "is_correct": true,
+          "rationale": "Assessment and care planning require the clinical judgement of a registered nurse and cannot be delegated."
+        },
+        {
+          "key": "D",
+          "text": "Documenting a patient's food and fluid intake on their designated monitoring chart.",
+          "is_correct": false,
+          "rationale": "This is an important but standard monitoring task suitable for delegation to trained staff."
+        },
+        {
+          "key": "E",
+          "text": "Helping to feed a patient who has no swallowing difficulties or known aspiration risk.",
+          "is_correct": false,
+          "rationale": "Assisting with meals for a low-risk patient is a common and appropriate delegated task."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "You discover a colleague administered the wrong medication dose to a patient an hour ago. What is your immediate priority action?",
+      "explanation": "Patient safety is the absolute priority. The first step is always to assess the patient's clinical status to identify and manage any immediate harm caused by the medication error before any reporting or discussion occurs.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately assess the patient's vital signs and check for any adverse reactions or changes in their current condition.",
+          "is_correct": true,
+          "rationale": "Patient assessment is the immediate priority to ensure safety."
+        },
+        {
+          "key": "B",
+          "text": "Confront the colleague about the error and instruct them to document it in the patient's notes without delay.",
+          "is_correct": false,
+          "rationale": "Patient safety comes before confronting a colleague or documentation."
+        },
+        {
+          "key": "C",
+          "text": "Wait until the end of your shift to report the incident to the nurse in charge to avoid causing disruption.",
+          "is_correct": false,
+          "rationale": "Delaying the report puts the patient at significant risk."
+        },
+        {
+          "key": "D",
+          "text": "Document the error in the incident reporting system without first checking on the patient or speaking to anyone about it.",
+          "is_correct": false,
+          "rationale": "Assessment must precede documentation to provide immediate care."
+        },
+        {
+          "key": "E",
+          "text": "Ask the patient if they are feeling unwell before deciding whether any further action is necessary to take.",
+          "is_correct": false,
+          "rationale": "A full clinical assessment is required, not just subjective feedback."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "A terminally ill patient with full capacity has a valid advance decision to refuse treatment. What is your most appropriate action?",
+      "explanation": "A valid advance decision made by a patient with capacity is legally binding. The nurse's role is to respect this autonomy, advocate for the patient's wishes, and focus on providing high-quality palliative and supportive care.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Respect the patient's legally binding advance decision and provide comfort-focused palliative care according to their documented wishes.",
+          "is_correct": true,
+          "rationale": "Respecting a valid advance decision is a legal and ethical duty."
+        },
+        {
+          "key": "B",
+          "text": "Attempt to persuade the patient to reconsider their decision by highlighting the potential benefits of the proposed medical treatment.",
+          "is_correct": false,
+          "rationale": "This action undermines the patient's established autonomy."
+        },
+        {
+          "key": "C",
+          "text": "Consult with the patient's family to see if they agree with the decision before withholding any further medical treatment.",
+          "is_correct": false,
+          "rationale": "The patient's decision is paramount, not the family's opinion."
+        },
+        {
+          "key": "D",
+          "text": "Continue with the planned medical treatment because the primary duty of a nurse is always to preserve life.",
+          "is_correct": false,
+          "rationale": "This violates the patient's legal right to refuse treatment."
+        },
+        {
+          "key": "E",
+          "text": "Request a psychiatric evaluation to confirm the patient's capacity, as refusing treatment could be considered an irrational choice.",
+          "is_correct": false,
+          "rationale": "Refusing treatment is not inherently a sign of incapacity."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "When caring for a patient with a confirmed Clostridioides difficile infection, which hand hygiene method is most effective for preventing transmission?",
+      "explanation": "C. difficile forms spores that are resistant to alcohol-based hand sanitisers. The mechanical action of washing with soap and water is required to physically remove these spores from the hands and prevent transmission to other patients.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using an alcohol-based hand sanitiser thoroughly before and after every single patient contact is considered sufficient for routine care.",
+          "is_correct": false,
+          "rationale": "Alcohol-based gel is known to be ineffective against C. difficile spores."
+        },
+        {
+          "key": "B",
+          "text": "Washing hands vigorously with soap and water is essential as alcohol-based gels do not effectively kill C. difficile spores.",
+          "is_correct": true,
+          "rationale": "Soap and water physically removes the spores through friction."
+        },
+        {
+          "key": "C",
+          "text": "Wearing sterile gloves for all interactions and changing them frequently is the primary method to stop the organism's spread.",
+          "is_correct": false,
+          "rationale": "Gloves are an adjunct, not a replacement for hand washing."
+        },
+        {
+          "key": "D",
+          "text": "Applying a chlorhexidine-based scrub is the only recommended practice for completely eliminating C. difficile from the hands after contact.",
+          "is_correct": false,
+          "rationale": "While effective, soap and water is the standard recommendation."
+        },
+        {
+          "key": "E",
+          "text": "Double-gloving is the most critical precaution, with standard hand hygiene performed only at the end of the shift.",
+          "is_correct": false,
+          "rationale": "Hand hygiene is crucial between patients, not just at shift end."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "You observe clear signs of potential neglect in a vulnerable adult patient during a home visit. What is your mandatory first step?",
+      "explanation": "The primary responsibility is to follow established safeguarding procedures. This involves documenting observations objectively and immediately reporting concerns to the designated safeguarding lead or manager, who will then initiate the formal investigation process.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Discuss your concerns directly with the patient's family or primary caregiver to understand their perspective on the current situation.",
+          "is_correct": false,
+          "rationale": "This could alert a potential abuser and increase risk."
+        },
+        {
+          "key": "B",
+          "text": "Immediately document your specific observations and report your concerns to your designated safeguarding lead according to local policy.",
+          "is_correct": true,
+          "rationale": "Following local safeguarding policy is the mandatory first step."
+        },
+        {
+          "key": "C",
+          "text": "Wait to gather more evidence over several visits before escalating the issue to avoid making a false or premature accusation.",
+          "is_correct": false,
+          "rationale": "Delaying a report can put the vulnerable adult at further risk."
+        },
+        {
+          "key": "D",
+          "text": "Contact the police directly, as any form of potential neglect is considered a criminal matter requiring their immediate intervention.",
+          "is_correct": false,
+          "rationale": "The safeguarding team is the first contact, not the police."
+        },
+        {
+          "key": "E",
+          "text": "Advise the patient on how they can report the neglect themselves, empowering them to take control of their own situation.",
+          "is_correct": false,
+          "rationale": "The nurse has a professional duty to report concerns directly."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Which factors are the most critical components to assess when using the Waterlow score for pressure ulcer risk assessment?",
+      "explanation": "The Waterlow score is a composite tool evaluating multiple risk factors. The core components are mobility, continence, skin condition, and nutrition, which directly relate to the skin's ability to withstand pressure and shear forces effectively.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The patient's specific age and gender, as these are the primary determinants of skin integrity and their overall health status.",
+          "is_correct": false,
+          "rationale": "Age and gender are factors, but not the most critical ones."
+        },
+        {
+          "key": "B",
+          "text": "The patient's dietary preferences and fluid intake over the previous week, which indicates their level of nutritional compliance.",
+          "is_correct": false,
+          "rationale": "This is too specific and part of the broader nutritional assessment."
+        },
+        {
+          "key": "C",
+          "text": "The patient's mobility, continence, skin type, and nutritional status, as these are key indicators of tissue viability.",
+          "is_correct": true,
+          "rationale": "These are the core, multi-faceted components of the Waterlow score."
+        },
+        {
+          "key": "D",
+          "text": "The type of mattress the patient is currently using at home or in the care setting for their bed.",
+          "is_correct": false,
+          "rationale": "The mattress is a management strategy, not an assessment factor."
+        },
+        {
+          "key": "E",
+          "text": "The patient's complete history of previous surgeries, regardless of how long ago they occurred or their overall clinical relevance.",
+          "is_correct": false,
+          "rationale": "Only major, recent surgery is typically considered a significant factor."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "You strongly suspect a colleague is under the influence of alcohol while on duty. What is your most appropriate immediate action?",
+      "explanation": "The primary responsibility is patient safety. Reporting concerns to the nurse in charge or manager ensures the situation is handled formally and safely, protecting patients from potential harm and fulfilling your professional duty.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately and discreetly report your specific concerns to the nurse in charge or your line manager, following local trust policy.",
+          "is_correct": true,
+          "rationale": "This ensures patient safety and follows correct professional protocol for raising serious concerns about a colleague's fitness to practise."
+        },
+        {
+          "key": "B",
+          "text": "Directly confront the colleague in a private area to ask them if they have been drinking before starting their shift.",
+          "is_correct": false,
+          "rationale": "Confrontation can be unprofessional, unsafe, and may not lead to a resolution, while delaying proper escalation to management."
+        },
+        {
+          "key": "C",
+          "text": "Continue to observe the colleague's behaviour throughout the shift to gather more definitive evidence before you decide to report.",
+          "is_correct": false,
+          "rationale": "This action knowingly puts patients at risk of harm while you wait, which is a breach of your duty of care."
+        },
+        {
+          "key": "D",
+          "text": "Ask another trusted colleague for their opinion to see if they have also noticed any unusual behaviour from that person.",
+          "is_correct": false,
+          "rationale": "This constitutes gossip and delays the necessary formal reporting process, potentially compromising patient safety and confidentiality."
+        },
+        {
+          "key": "E",
+          "text": "Anonymously report the colleague to the Nursing and Midwifery Council (NMC) without first raising it internally within the organisation.",
+          "is_correct": false,
+          "rationale": "Internal escalation is the first step to allow the employer to manage the immediate risk; the NMC is for later stages."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "A patient's National Early Warning Score (NEWS2) has rapidly increased from 3 to 7. What is your most critical immediate action?",
+      "explanation": "A NEWS2 score of 7 indicates urgent clinical risk and likely deterioration. Immediate escalation to a clinician with prescribing authority is crucial to initiate time-sensitive interventions and ensure a rapid medical review.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately escalate to the appropriate medical practitioner or team as per your local policy for a high NEWS2 score.",
+          "is_correct": true,
+          "rationale": "This is the most critical action as it triggers a timely medical review and the necessary advanced interventions."
+        },
+        {
+          "key": "B",
+          "text": "Administer a fluid bolus as you suspect the patient is dehydrated, before waiting for a doctor's formal review.",
+          "is_correct": false,
+          "rationale": "Administering fluids without a prescription is outside the nursing scope of practice and could be harmful in some conditions."
+        },
+        {
+          "key": "C",
+          "text": "Document the score meticulously in the patient's chart and wait for the scheduled doctor's round to report the change.",
+          "is_correct": false,
+          "rationale": "Waiting for a routine review is unsafe and fails to address the urgency indicated by a high NEWS2 score."
+        },
+        {
+          "key": "D",
+          "text": "Re-check the patient's vital signs yourself to confirm the accuracy of the previous reading before taking any further action.",
+          "is_correct": false,
+          "rationale": "While accuracy is important, this delays the urgent escalation required for a critically unwell patient based on the current data."
+        },
+        {
+          "key": "E",
+          "text": "Begin completing the Sepsis Six pathway independently, including taking blood cultures before informing any medical staff about the situation.",
+          "is_correct": false,
+          "rationale": "While proactive, this pathway requires medical input and prescriptions; escalation must happen first to enable the full care bundle."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "You have just realised you administered a patient's morning medication to the wrong person. What is your first priority action?",
+      "explanation": "After a medication error, the first priority is always the patient's immediate safety. This involves assessing them for any adverse reactions or harm caused by the incorrect medication before any other action is taken.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately assess the patient who received the incorrect medication for any adverse effects or changes in their condition.",
+          "is_correct": true,
+          "rationale": "Patient safety is the absolute first priority; immediate assessment for harm is essential before any other step is taken."
+        },
+        {
+          "key": "B",
+          "text": "Find the correct patient and administer their medication immediately so that they do not miss their prescribed dose.",
+          "is_correct": false,
+          "rationale": "This ignores the immediate risk to the patient who received the wrong drug and could lead to another error."
+        },
+        {
+          "key": "C",
+          "text": "Complete an incident report form straight away to ensure the event is officially documented before you forget any details.",
+          "is_correct": false,
+          "rationale": "Documentation is vital but must come after ensuring the immediate safety and clinical stability of the affected patient."
+        },
+        {
+          "key": "D",
+          "text": "Inform your line manager or the nurse in charge of the ward about the error you have just made.",
+          "is_correct": false,
+          "rationale": "Informing a senior is a crucial second step, but it must happen immediately after you have assessed the patient."
+        },
+        {
+          "key": "E",
+          "text": "Look up the medication's side effects in the British National Formulary (BNF) to anticipate potential patient reactions.",
+          "is_correct": false,
+          "rationale": "This is a useful action, but a direct patient assessment must come first to identify any immediate adverse effects."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "At the start of your shift, which of these four patients requires your most immediate attention and assessment?",
+      "explanation": "The patient returning from surgery with low blood pressure is at the highest risk for immediate deterioration due to potential haemorrhage or anaesthetic complications. This requires urgent assessment and intervention to ensure stability.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A patient with stable diabetes who is requesting assistance with their morning wash and personal care before breakfast.",
+          "is_correct": false,
+          "rationale": "This patient's needs are important for their comfort and routine but are not clinically urgent compared to others."
+        },
+        {
+          "key": "B",
+          "text": "An elderly patient with dementia who is agitated and repeatedly trying to get out of their bed without assistance.",
+          "is_correct": false,
+          "rationale": "This patient is a high falls risk and needs attention, but the post-operative patient is at greater risk of physiological collapse."
+        },
+        {
+          "key": "C",
+          "text": "A patient who has just returned from theatre post-operatively with a blood pressure reading of 90/50 mmHg.",
+          "is_correct": true,
+          "rationale": "Hypotension in a post-operative patient is a red flag for serious complications like bleeding and requires immediate clinical assessment."
+        },
+        {
+          "key": "D",
+          "text": "A patient scheduled for discharge later today who has questions about their take-home medications and follow-up appointments.",
+          "is_correct": false,
+          "rationale": "Discharge education is important but can be planned for later in the shift as it is not time-critical."
+        },
+        {
+          "key": "E",
+          "text": "A patient complaining of moderate pain (5/10) who is due for their next dose of regular oral analgesia.",
+          "is_correct": false,
+          "rationale": "Managing this patient's pain is a priority, but it is less urgent than assessing the unstable post-operative patient."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "A student nurse you are mentoring expresses anxiety about performing a complex wound dressing. How should you best support them?",
+      "explanation": "The best approach is to build confidence through supervised practice. Performing the procedure together allows the student to learn actively in a safe, controlled environment, ask questions, and receive immediate feedback and support.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tell the student to read the procedure policy again and then attempt the dressing on their own to build confidence.",
+          "is_correct": false,
+          "rationale": "This approach is unsupportive and could compromise patient safety and increase the student's anxiety without proper supervision."
+        },
+        {
+          "key": "B",
+          "text": "Take over and complete the complex wound dressing yourself to ensure it is done correctly and efficiently for the patient.",
+          "is_correct": false,
+          "rationale": "This removes a valuable learning opportunity for the student and does not help them overcome their anxiety or develop skills."
+        },
+        {
+          "key": "C",
+          "text": "Offer to perform the dressing with the student, talking them through each step and allowing them to participate actively.",
+          "is_correct": true,
+          "rationale": "This collaborative approach fosters learning, builds confidence, and ensures patient safety through direct supervision and guidance."
+        },
+        {
+          "key": "D",
+          "text": "Assign the student a different, much simpler task to complete instead so they do not feel overwhelmed by the request.",
+          "is_correct": false,
+          "rationale": "This avoids the learning opportunity entirely and does not address the student's need to develop competence in more complex tasks."
+        },
+        {
+          "key": "E",
+          "text": "Reassure them that it is a common anxiety and suggest they observe you doing it several more times this week.",
+          "is_correct": false,
+          "rationale": "While observation is helpful, it is a passive form of learning; active, supervised participation is more effective for skill acquisition."
+        }
+      ]
+    }
+  ]
+}

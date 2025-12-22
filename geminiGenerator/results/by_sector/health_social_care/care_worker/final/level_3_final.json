@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "A service user confides in you about potential financial abuse by a family member. What is your immediate and most appropriate professional action?",
+      "explanation": "Your primary duty is to safeguard the individual. This requires following your organisation's established safeguarding procedures without delay, which always involves reporting concerns to the designated lead, not investigating or confronting anyone yourself.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Confront the family member directly to ask them about the allegation and try to resolve the situation by yourself.",
+          "is_correct": false,
+          "rationale": "This is inappropriate and could place the service user at greater risk. You should never investigate allegations yourself."
+        },
+        {
+          "key": "B",
+          "text": "Advise the service user to call the police, as it is their personal matter to handle with the authorities.",
+          "is_correct": false,
+          "rationale": "While the police may be involved later, your duty is to follow internal safeguarding protocols first and foremost."
+        },
+        {
+          "key": "C",
+          "text": "Follow your organisation's safeguarding procedures immediately, which involves reporting the concern to your designated safeguarding lead or manager.",
+          "is_correct": true,
+          "rationale": "This is the correct procedure, ensuring the concern is handled by trained staff and proper channels are followed."
+        },
+        {
+          "key": "D",
+          "text": "Wait for more evidence before reporting the concern, to ensure you have a strong case against the family member.",
+          "is_correct": false,
+          "rationale": "Delaying a report could leave the vulnerable person in a harmful situation. All suspicions must be reported promptly."
+        },
+        {
+          "key": "E",
+          "text": "Document the conversation in the daily notes but take no further action unless the service user mentions it again.",
+          "is_correct": false,
+          "rationale": "This is passive and negligent. Documentation alone is not sufficient; you have a duty to act on the information."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "You are scheduled to administer prescribed medication to a service user who has the capacity to refuse. What is the correct action?",
+      "explanation": "Individuals with capacity have the right to refuse medical treatment. Your professional duty is to respect their autonomy, accurately document the event, and escalate the information to ensure the clinical team is aware.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Respect their refusal, document it accurately in the MAR chart and care plan, and report the refusal to your manager.",
+          "is_correct": true,
+          "rationale": "This upholds the individual's rights while ensuring the situation is properly documented and escalated for clinical oversight."
+        },
+        {
+          "key": "B",
+          "text": "Hide the medication in their food or drink to ensure they receive the dose without any further confrontation.",
+          "is_correct": false,
+          "rationale": "This is covert administration, which is a serious safeguarding issue and a breach of trust and professional conduct."
+        },
+        {
+          "key": "C",
+          "text": "Leave the medication on their bedside table for them to take later when they feel ready to do so.",
+          "is_correct": false,
+          "rationale": "This is an unsafe practice that creates a risk of overdose, incorrect dosage, or another person taking the medication."
+        },
+        {
+          "key": "D",
+          "text": "Tell them you will not provide other care until they agree to take their prescribed medication as required.",
+          "is_correct": false,
+          "rationale": "Withholding care is coercive, unprofessional, and a form of abuse. It violates the service user's fundamental rights."
+        },
+        {
+          "key": "E",
+          "text": "Insist they take the medication because it has been prescribed by a doctor and is essential for their health.",
+          "is_correct": false,
+          "rationale": "Forcing or coercing an individual with capacity violates their right to autonomy and to refuse medical treatment."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "When contributing to a service user's care plan review, what is the most important principle of person-centred care to apply?",
+      "explanation": "Person-centred care is founded on the principle that the individual is the expert in their own life. Their active involvement, choices, and preferences must be at the core of all care planning and decision-making processes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Prioritise the family's wishes and preferences, as they often have a better understanding of what the person truly needs.",
+          "is_correct": false,
+          "rationale": "While family input is valuable, the service user's own voice and choices must be the primary focus."
+        },
+        {
+          "key": "B",
+          "text": "Focus primarily on the medical needs, creating a plan that is clinically efficient and easy for staff to follow.",
+          "is_correct": false,
+          "rationale": "This is a task-focused approach, not person-centred. It overlooks the individual's holistic needs and personal goals."
+        },
+        {
+          "key": "C",
+          "text": "Use a standardised care plan template for all service users to ensure consistency and fairness across the entire service.",
+          "is_correct": false,
+          "rationale": "Person-centred care requires individualised plans, not standardised templates that fail to capture unique needs and preferences."
+        },
+        {
+          "key": "D",
+          "text": "Ensure the service user is actively involved in decisions about their care, respecting their personal choices and preferences.",
+          "is_correct": true,
+          "rationale": "This is the core principle of person-centred care, placing the individual at the heart of their own support."
+        },
+        {
+          "key": "E",
+          "text": "Base the care plan on your professional observations of what the service user requires for their daily living activities.",
+          "is_correct": false,
+          "rationale": "Professional assessment is important, but it must be combined with, not replace, the service user's own input and desires."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "You need to assist a service user with limited mobility from their bed to a chair. What is the first critical step?",
+      "explanation": "Safety is paramount in any manual handling task. The first step must always be to assess the situation by consulting the individual's care plan for specific instructions and ensuring any required equipment is available and safe.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Proceed with the transfer quickly to minimise the amount of time the service user is feeling uncomfortable or exposed.",
+          "is_correct": false,
+          "rationale": "Rushing increases the risk of mistakes and injury. A safe and calm approach is always the correct method."
+        },
+        {
+          "key": "B",
+          "text": "Ask a nearby family member who looks strong enough to help you with the transfer to make it easier.",
+          "is_correct": false,
+          "rationale": "Using untrained individuals for manual handling is unsafe and against policy, posing a risk to everyone involved."
+        },
+        {
+          "key": "C",
+          "text": "Assess the situation by checking the care plan for handling instructions and ensuring the correct equipment is available and safe.",
+          "is_correct": true,
+          "rationale": "This is the correct first step, as it involves risk assessment and following established safe practices for that individual."
+        },
+        {
+          "key": "D",
+          "text": "Attempt the transfer by yourself using your own physical strength because you have done similar transfers many times before.",
+          "is_correct": false,
+          "rationale": "This ignores individual risk factors and correct manual handling techniques, creating a high risk of injury for both parties."
+        },
+        {
+          "key": "E",
+          "text": "Explain the procedure to the service user while you are already in the middle of performing the physical transfer.",
+          "is_correct": false,
+          "rationale": "Communication and consent should always happen before the manoeuvre begins, not during, to ensure cooperation and reduce anxiety."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "A service user with dementia becomes agitated, insisting they must leave to pick up their children from school. How should you respond?",
+      "explanation": "The best approach for dementia-related distress is validation therapy. Acknowledge the person's emotional reality without correcting them, then gently redirect their focus to something familiar and comforting. This de-escalates the situation without causing more anxiety.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Firmly tell them their children are grown up and that they are confused, which will help them understand reality.",
+          "is_correct": false,
+          "rationale": "This confrontational approach, known as 'reorienting to reality', often increases agitation and distress in people with dementia."
+        },
+        {
+          "key": "B",
+          "text": "Acknowledge their feelings, provide reassurance, and gently redirect the conversation to a familiar topic or a calming activity.",
+          "is_correct": true,
+          "rationale": "This response validates their emotion, offers comfort, and uses redirection, which are key techniques in effective dementia care."
+        },
+        {
+          "key": "C",
+          "text": "Agree to take them to the school but then deliberately lead them to a different area of the care home.",
+          "is_correct": false,
+          "rationale": "This is deceptive and can break trust, potentially leading to increased confusion and agitation when they realise the deception."
+        },
+        {
+          "key": "D",
+          "text": "Ignore their statements and try to distract them by immediately turning on the television to a loud, engaging programme.",
+          "is_correct": false,
+          "rationale": "Ignoring the person is dismissive of their feelings, and a loud TV can be over-stimulating and worsen their agitation."
+        },
+        {
+          "key": "E",
+          "text": "Immediately contact their family and ask them to come in to explain the situation to the service user directly.",
+          "is_correct": false,
+          "rationale": "This is not an immediate de-escalation technique and places an unnecessary burden on the family for a common situation."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "When you suspect a vulnerable adult is experiencing abuse, what is the most critical and immediate action you must take?",
+      "explanation": "The primary responsibility is to ensure the immediate safety of the individual and follow the established safeguarding policy, which involves reporting to the designated lead without delay to protect them from harm.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately ensure the person's safety and report your concerns to the designated safeguarding lead, following local procedures.",
+          "is_correct": true,
+          "rationale": "This follows correct safeguarding protocol, prioritising safety and formal reporting."
+        },
+        {
+          "key": "B",
+          "text": "Confront the individual you suspect of abuse to understand their side of the story before making any formal report.",
+          "is_correct": false,
+          "rationale": "This is dangerous, unprofessional, and could escalate the situation or destroy evidence."
+        },
+        {
+          "key": "C",
+          "text": "Wait for more definitive proof of abuse to accumulate before escalating the issue to management to avoid false alarms.",
+          "is_correct": false,
+          "rationale": "Delaying a report puts the vulnerable adult at continued risk of harm."
+        },
+        {
+          "key": "D",
+          "text": "Casually ask other care workers if they have also noticed anything unusual regarding the service user's well-being.",
+          "is_correct": false,
+          "rationale": "This breaches confidentiality and is not the correct reporting procedure."
+        },
+        {
+          "key": "E",
+          "text": "Advise the service user to report the issue themselves, as it is their personal matter to handle directly.",
+          "is_correct": false,
+          "rationale": "You have a duty of care to report suspected abuse, regardless of their action."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "You notice a significant discrepancy on a service user's Medication Administration Record (MAR) chart. What is the correct protocol?",
+      "explanation": "Patient safety is paramount. Never administer medication if there is a discrepancy. The correct procedure is to withhold, record, and immediately escalate the issue to a senior or pharmacist for guidance to prevent errors.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Administer the medication as you normally would and make a note to ask about the discrepancy at a later time.",
+          "is_correct": false,
+          "rationale": "This is unsafe and could lead to a serious medication error."
+        },
+        {
+          "key": "B",
+          "text": "Ask the service user what they believe the correct dosage should be and proceed based on their personal recollection.",
+          "is_correct": false,
+          "rationale": "Relying on a service user's memory is not a reliable or safe practice."
+        },
+        {
+          "key": "C",
+          "text": "Withhold the medication, document the issue clearly, and immediately report it to your line manager or the on-call pharmacist.",
+          "is_correct": true,
+          "rationale": "This is the safest action, ensuring clarification from an authorised person."
+        },
+        {
+          "key": "D",
+          "text": "Correct the MAR chart yourself based on what you assume is the correct information to avoid any further confusion.",
+          "is_correct": false,
+          "rationale": "You are not authorised to alter prescriptions or MAR charts without instruction."
+        },
+        {
+          "key": "E",
+          "text": "Give half of the prescribed dose as a precaution and wait for the next shift to resolve the issue.",
+          "is_correct": false,
+          "rationale": "Altering a prescribed dose without authorisation is a dangerous medication error."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What is the most important principle to follow when participating in the review of a service user's person-centred care plan?",
+      "explanation": "Person-centred care mandates that the individual is at the heart of all decisions. Their active involvement in reviewing and updating their care plan is essential for it to remain effective, respectful, and tailored to their needs.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The primary goal is to reduce the overall cost of care by identifying services that can be safely eliminated.",
+          "is_correct": false,
+          "rationale": "The focus must be on the individual's needs, not primarily on cost-cutting."
+        },
+        {
+          "key": "B",
+          "text": "The service user, and their family where appropriate, must be actively involved in discussing and agreeing to any changes.",
+          "is_correct": true,
+          "rationale": "This embodies the core principle of person-centred care and shared decision-making."
+        },
+        {
+          "key": "C",
+          "text": "Ensure the plan aligns perfectly with the organisation's standard procedures, regardless of the individual's specific personal preferences.",
+          "is_correct": false,
+          "rationale": "Person-centred care prioritises individual needs over rigid organisational templates, which may not be suitable for everyone."
+        },
+        {
+          "key": "D",
+          "text": "Reviews should be conducted solely by senior management to maintain objectivity and ensure regulatory compliance is met.",
+          "is_correct": false,
+          "rationale": "This excludes the service user and frontline staff from a collaborative process."
+        },
+        {
+          "key": "E",
+          "text": "Once a care plan is established, it should remain unchanged for at least one year to provide consistent care.",
+          "is_correct": false,
+          "rationale": "Care plans must be dynamic and reviewed regularly as needs change."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "A service user with dementia becomes agitated and verbally aggressive during personal care. What is the best initial response?",
+      "explanation": "The best practice is to de-escalate by remaining calm and trying to understand the root cause of the behaviour, as it is often a communication of an unmet need like pain, fear, or confusion.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Raise your voice to assert control over the situation and instruct them to calm down before you will continue.",
+          "is_correct": false,
+          "rationale": "This confrontational approach will likely increase the person's distress and agitation."
+        },
+        {
+          "key": "B",
+          "text": "Immediately stop the task and leave the room to give them space, returning in thirty minutes to try again.",
+          "is_correct": false,
+          "rationale": "This can be perceived as abandonment and does not address the underlying cause."
+        },
+        {
+          "key": "C",
+          "text": "Remain calm, speak reassuringly, and try to identify and address the potential trigger, such as pain or discomfort.",
+          "is_correct": true,
+          "rationale": "This is an empathetic, person-centred approach that seeks to understand and resolve."
+        },
+        {
+          "key": "D",
+          "text": "Continue with the personal care task as quickly as possible to get it over with before the agitation escalates.",
+          "is_correct": false,
+          "rationale": "This ignores the person's distress and can be traumatic for them."
+        },
+        {
+          "key": "E",
+          "text": "Document the refusal of care in their daily notes and move on to assist the next service user.",
+          "is_correct": false,
+          "rationale": "This is neglectful; the behaviour is a communication of need that must be explored."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Under the principles of confidentiality and GDPR, when is it appropriate to discuss specific details about a service user?",
+      "explanation": "Confidentiality is a legal and ethical requirement. Information should only be shared on a strict need-to-know basis with colleagues directly involved in the individual's care, within a professional and private context.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is acceptable to discuss cases with your own family members as long as you do not use any names.",
+          "is_correct": false,
+          "rationale": "This is a breach of confidentiality as details can still be identifying."
+        },
+        {
+          "key": "B",
+          "text": "You can share information with any other care worker in the organisation, even if they don't support that individual.",
+          "is_correct": false,
+          "rationale": "Information should only be shared with those directly involved in care."
+        },
+        {
+          "key": "C",
+          "text": "Only during formal handovers or in confidential professional settings with staff directly involved in that person's care.",
+          "is_correct": true,
+          "rationale": "This defines the correct professional context for sharing sensitive information."
+        },
+        {
+          "key": "D",
+          "text": "On a password-protected social media group for care workers to ask for advice from a wider professional community.",
+          "is_correct": false,
+          "rationale": "This is an insecure and inappropriate forum for sharing confidential data."
+        },
+        {
+          "key": "E",
+          "text": "When a friend who works in a different care home asks for examples of challenging situations you have faced.",
+          "is_correct": false,
+          "rationale": "Sharing specific examples breaches the privacy and dignity of service users."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "When you suspect a vulnerable adult is being abused, what is the most appropriate immediate action according to standard safeguarding procedures?",
+      "explanation": "The primary duty is to ensure the immediate safety of the individual and report concerns through official channels. This follows the organisation's safeguarding policy and legal requirements without delay.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately report your concerns to your line manager or the designated safeguarding lead within your organisation following established protocols.",
+          "is_correct": true,
+          "rationale": "Following organisational safeguarding policy is the correct and mandatory first step."
+        },
+        {
+          "key": "B",
+          "text": "Directly confront the person you suspect of committing the abuse to gather more evidence before you make a report.",
+          "is_correct": false,
+          "rationale": "Confrontation is dangerous, unprofessional, and not the care worker's role."
+        },
+        {
+          "key": "C",
+          "text": "Wait to see if you observe another incident before reporting to be absolutely certain that abuse is actually happening.",
+          "is_correct": false,
+          "rationale": "Delaying a report puts the vulnerable adult at further risk of harm."
+        },
+        {
+          "key": "D",
+          "text": "Discuss the situation with other colleagues during a break to see if they have noticed anything similar with the client.",
+          "is_correct": false,
+          "rationale": "This breaches confidentiality and delays the official reporting process, which puts the individual at further risk."
+        },
+        {
+          "key": "E",
+          "text": "Call the police directly without informing your manager, as it is a criminal matter that needs immediate police intervention.",
+          "is_correct": false,
+          "rationale": "Organisational procedures must be followed first unless there is immediate danger."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "According to the '6 Rights' of medication administration, what is a critical check a care worker must perform before assisting a client?",
+      "explanation": "The '6 Rights' (Right Patient, Right Drug, Right Dose, Right Route, Right Time, Right Documentation) are a fundamental safety standard to prevent medication errors and ensure client safety.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensure you are administering the correct medication to the correct individual at the prescribed time and by the correct route.",
+          "is_correct": true,
+          "rationale": "This correctly summarises several key rights of medication administration, which are essential for preventing dangerous errors."
+        },
+        {
+          "key": "B",
+          "text": "Ask the service user if they feel like taking their medication today, allowing them to refuse if they feel unwell.",
+          "is_correct": false,
+          "rationale": "While consent is important, this is not one of the core '6 Rights'."
+        },
+        {
+          "key": "C",
+          "text": "Check if a family member is present to witness you administering the medication to ensure there are no mistakes made.",
+          "is_correct": false,
+          "rationale": "A witness is not a requirement of the '6 Rights' protocol."
+        },
+        {
+          "key": "D",
+          "text": "Administer the medication quickly to ensure the client's schedule for the day is not disrupted by the process.",
+          "is_correct": false,
+          "rationale": "Rushing increases the risk of errors and violates safety principles."
+        },
+        {
+          "key": "E",
+          "text": "Prepare all of the client's medications for the entire day in the morning to save time for other tasks.",
+          "is_correct": false,
+          "rationale": "This is unsafe practice and increases the risk of medication errors."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is an effective method for communicating with a service user who is non-verbal and has difficulty with written communication?",
+      "explanation": "Using non-verbal cues, simple language, and assistive tools like picture boards respects the individual's abilities and promotes effective, person-centred communication, reducing frustration and ensuring needs are met.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Primarily rely on hand gestures, facial expressions, and communication aids like picture boards to understand their needs and choices.",
+          "is_correct": true,
+          "rationale": "This uses appropriate alternative and augmentative communication (AAC) methods to support understanding and expression."
+        },
+        {
+          "key": "B",
+          "text": "Speak loudly and slowly, assuming that the individual has a hearing impairment that is causing their communication difficulty.",
+          "is_correct": false,
+          "rationale": "Shouting is ineffective and disrespectful; the issue is not hearing."
+        },
+        {
+          "key": "C",
+          "text": "Only communicate with them through their family members, as they will understand the individual's needs better than anyone else.",
+          "is_correct": false,
+          "rationale": "This undermines the individual's autonomy and right to direct communication, even if it is non-verbal."
+        },
+        {
+          "key": "D",
+          "text": "Avoid complex interactions and only provide basic care, assuming they cannot express more detailed preferences or wishes.",
+          "is_correct": false,
+          "rationale": "This is a depersonalised approach and fails to meet holistic needs."
+        },
+        {
+          "key": "E",
+          "text": "Encourage them to try harder to speak, as consistent practice is the only way for them to improve their verbal skills.",
+          "is_correct": false,
+          "rationale": "This can cause distress and ignores the underlying reason for being non-verbal."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "A service user with dementia becomes agitated and verbally aggressive during personal care. What is the most appropriate initial response?",
+      "explanation": "The priority is to de-escalate the situation calmly. Acknowledging their distress and giving them space respects their feelings and reduces immediate risk, allowing for a reassessment of their needs.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Remain calm, step back to give them space, and try to understand the cause of their distress using a soothing tone.",
+          "is_correct": true,
+          "rationale": "This is a safe, person-centred de-escalation technique that prioritises the individual's emotional state and safety."
+        },
+        {
+          "key": "B",
+          "text": "Firmly tell them that their behaviour is unacceptable and that you will not continue until they have calmed down completely.",
+          "is_correct": false,
+          "rationale": "This confrontational approach is likely to escalate the situation further."
+        },
+        {
+          "key": "C",
+          "text": "Immediately restrain the individual to prevent them from causing any harm to themselves or to you during the outburst.",
+          "is_correct": false,
+          "rationale": "Restraint is a last resort and requires specific training and justification."
+        },
+        {
+          "key": "D",
+          "text": "Leave the room immediately without saying anything and report the incident, leaving the client alone and distressed.",
+          "is_correct": false,
+          "rationale": "Abandoning a distressed client is unsafe, not person-centred, and fails to address their immediate needs."
+        },
+        {
+          "key": "E",
+          "text": "Offer them a sedative medication that is prescribed for agitation to quickly manage the aggressive behaviour they are displaying.",
+          "is_correct": false,
+          "rationale": "Administering PRN medication requires assessment and shouldn't be the first response."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Which of the following actions by a care worker would be considered a significant breach of professional boundaries with a service user?",
+      "explanation": "Accepting significant personal gifts blurs the line between a professional and personal relationship. This can lead to exploitation, favouritism, and compromise the integrity of the care provided.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Accepting a large cash gift from a service user's family as a personal thank you for providing excellent care.",
+          "is_correct": true,
+          "rationale": "This creates a conflict of interest and breaches professional conduct policies."
+        },
+        {
+          "key": "B",
+          "text": "Sharing general, non-identifiable details about a challenging day at work with your partner or a close friend.",
+          "is_correct": false,
+          "rationale": "This is acceptable for debriefing if no confidential information is shared."
+        },
+        {
+          "key": "C",
+          "text": "Attending a service user's funeral service in your own time to pay your respects to them and their family.",
+          "is_correct": false,
+          "rationale": "This is often considered a respectful and appropriate professional gesture."
+        },
+        {
+          "key": "D",
+          "text": "Gently declining a service user's invitation to attend a private family celebration to maintain a professional relationship.",
+          "is_correct": false,
+          "rationale": "This demonstrates good boundary setting, which is a key part of maintaining a professional and ethical relationship."
+        },
+        {
+          "key": "E",
+          "text": "Assisting a service user with their weekly food shopping as outlined in their official, documented care plan.",
+          "is_correct": false,
+          "rationale": "This is a required task within professional boundaries as per the care plan."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "You witness a colleague speaking harshly and grabbing a resident's arm forcefully. What is your immediate and most appropriate professional action to take?",
+      "explanation": "The primary duty is to ensure resident safety and follow established safeguarding protocols, which involve immediate de-escalation if safe, reporting to management, and thorough documentation of the incident.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Wait until the end of your shift to discuss the incident privately with the colleague to avoid causing workplace conflict.",
+          "is_correct": false,
+          "rationale": "This delays reporting and fails to address the immediate safeguarding concern for the resident."
+        },
+        {
+          "key": "B",
+          "text": "Immediately intervene to de-escalate, ensure the resident is safe, then report the incident to your line manager and document it.",
+          "is_correct": true,
+          "rationale": "This follows correct safeguarding procedures by prioritising safety, reporting, and documenting."
+        },
+        {
+          "key": "C",
+          "text": "Inform other care workers about what you saw to gather their opinions before deciding on the next appropriate step.",
+          "is_correct": false,
+          "rationale": "This is gossip and breaches confidentiality; official reporting channels must be used."
+        },
+        {
+          "key": "D",
+          "text": "Directly confront the colleague in front of the resident, telling them their actions are abusive and completely unacceptable.",
+          "is_correct": false,
+          "rationale": "This could escalate the situation and cause further distress to the resident."
+        },
+        {
+          "key": "E",
+          "text": "Anonymously report the incident to an external body without first following your organisation's internal safeguarding procedures.",
+          "is_correct": false,
+          "rationale": "Internal procedures should typically be followed first unless there is a reason not to."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "When administering medication, you notice a discrepancy between the prescription label and the information recorded on the MAR sheet. What should you do?",
+      "explanation": "Medication errors can have severe consequences. The correct procedure when a discrepancy is found is to halt administration, document the issue, and escalate to a senior or qualified professional for resolution.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Administer the medication as stated on the prescription label because it is the most current instruction from the pharmacy.",
+          "is_correct": false,
+          "rationale": "This ignores the discrepancy and could lead to a medication error if the MAR is correct."
+        },
+        {
+          "key": "B",
+          "text": "Ask the service user if they remember what the correct dosage is supposed to be for this specific medication.",
+          "is_correct": false,
+          "rationale": "Relying on a service user's memory is unsafe and not a valid method of verification."
+        },
+        {
+          "key": "C",
+          "text": "Do not administer the medication, document the discrepancy, and immediately contact the senior staff member or nurse for clarification.",
+          "is_correct": true,
+          "rationale": "This is the safest action, preventing potential harm by seeking clarification before proceeding."
+        },
+        {
+          "key": "D",
+          "text": "Give a reduced dose of the medication as a precaution and make a note for the next shift to check it.",
+          "is_correct": false,
+          "rationale": "Administering an incorrect dose, even if reduced, is still a medication error."
+        },
+        {
+          "key": "E",
+          "text": "Correct the MAR sheet yourself to match the prescription label and then administer the medication as you have corrected it.",
+          "is_correct": false,
+          "rationale": "You should not alter official records without authorisation as it is outside your remit."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "When providing end-of-life care, what is the most crucial principle to uphold to ensure the service user's comfort and dignity?",
+      "explanation": "End-of-life care prioritises the individual's expressed wishes, comfort, and dignity. Following their advance care plan and providing holistic support are central to this person-centred approach.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Focusing primarily on completing all assigned physical care tasks efficiently to stay on schedule with other residents' needs.",
+          "is_correct": false,
+          "rationale": "This is task-focused rather than person-centred, neglecting emotional and psychological needs."
+        },
+        {
+          "key": "B",
+          "text": "Following the individual's advance care plan, respecting their wishes, and providing emotional as well as psychological support.",
+          "is_correct": true,
+          "rationale": "This approach is person-centred and respects the individual's autonomy and holistic needs."
+        },
+        {
+          "key": "C",
+          "text": "Limiting family visits to specific times to ensure the care environment remains quiet and orderly for all staff members.",
+          "is_correct": false,
+          "rationale": "Family presence is often crucial for comfort and should be supported flexibly."
+        },
+        {
+          "key": "D",
+          "text": "Encouraging the service user to communicate more, even when they are showing signs of withdrawal and prefer to be quiet.",
+          "is_correct": false,
+          "rationale": "Respecting a person's wish for quiet and withdrawal is part of dignified care."
+        },
+        {
+          "key": "E",
+          "text": "Discussing the service user's condition openly with other residents to help them understand what is happening in the home.",
+          "is_correct": false,
+          "rationale": "This is a serious breach of the service user's privacy and confidentiality."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "A service user who requires a hoist has refused it today, insisting they feel strong enough to walk with your help. What is your response?",
+      "explanation": "A care worker must adhere to the risk assessment and care plan. Overriding it, even at the service user's request, poses a significant risk to both parties. The correct action is to explain, not proceed, and escalate.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Agree to their request but make sure another colleague is present to help you support them if they stumble.",
+          "is_correct": false,
+          "rationale": "This ignores the official risk assessment and puts both you and the resident at risk."
+        },
+        {
+          "key": "B",
+          "text": "Gently explain the risks identified in their care plan, do not proceed with the transfer, and report their refusal.",
+          "is_correct": true,
+          "rationale": "This respects their decision while upholding safety protocols and ensuring proper reporting."
+        },
+        {
+          "key": "C",
+          "text": "Tell them that their refusal is noted, but you will have to use the hoist anyway for safety reasons.",
+          "is_correct": false,
+          "rationale": "Forcing a procedure against a person's will can be considered assault."
+        },
+        {
+          "key": "D",
+          "text": "Attempt the transfer without the hoist but document that the service user accepted full responsibility for any potential injuries.",
+          "is_correct": false,
+          "rationale": "You cannot transfer liability; you are still responsible for following safe practice."
+        },
+        {
+          "key": "E",
+          "text": "Let the service user attempt to walk on their own while you stand close by in case they need assistance.",
+          "is_correct": false,
+          "rationale": "This is negligent as it fails to follow the assessed needs in the care plan."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "You are supporting a service user with advanced dementia who is non-verbal and appears distressed. What is the best initial approach to understand their needs?",
+      "explanation": "Effective communication with non-verbal individuals involves observing non-verbal cues, maintaining a calm presence, and utilising alternative communication methods. Making assumptions or disengaging is not a person-centred approach.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Assume they are in pain and immediately go to find a nurse to request that pain relief medication is administered.",
+          "is_correct": false,
+          "rationale": "Making assumptions without assessment can lead to incorrect interventions and medication errors."
+        },
+        {
+          "key": "B",
+          "text": "Leave them alone in a quiet space for a while, as they may just be feeling overwhelmed by their surroundings.",
+          "is_correct": false,
+          "rationale": "Leaving a distressed person alone could be seen as neglect and fails to address their need."
+        },
+        {
+          "key": "C",
+          "text": "Use a calm tone, observe their body language for clues, and try using communication aids like picture cards or objects.",
+          "is_correct": true,
+          "rationale": "This is a person-centred approach that uses observation and tools to understand needs."
+        },
+        {
+          "key": "D",
+          "text": "Speak to them in a loud, clear voice, repeating simple questions until they provide some kind of verbal response.",
+          "is_correct": false,
+          "rationale": "A loud voice can increase distress, and the person may be unable to respond verbally."
+        },
+        {
+          "key": "E",
+          "text": "Ask other residents who are nearby if they have any idea what might be causing the person's current distress.",
+          "is_correct": false,
+          "rationale": "This breaches the individual's privacy and is not a reliable way to assess needs."
+        }
+      ]
+    }
+  ]
+}

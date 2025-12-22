@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "A client discloses a credible, specific threat of serious harm towards an identifiable third party. What is your primary ethical and legal obligation?",
+      "explanation": "The duty to warn, established in cases like Tarasoff v. Regents, overrides client confidentiality when there is a specific, credible threat to an identifiable person. The counselor's primary obligation is to take reasonable steps to protect the potential victim and notify authorities.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Maintain absolute client confidentiality under all circumstances in order to preserve the therapeutic alliance and client trust.",
+          "is_correct": false,
+          "rationale": "This neglects the legal and ethical duty to protect potential victims from serious harm, which is a key exception to confidentiality."
+        },
+        {
+          "key": "B",
+          "text": "Breach confidentiality by taking reasonable steps to warn the potential victim and notify the appropriate law enforcement agencies.",
+          "is_correct": true,
+          "rationale": "This fulfills the 'duty to warn' and 'duty to protect' mandate, which is a critical exception to standard confidentiality rules."
+        },
+        {
+          "key": "C",
+          "text": "Focus only on de-escalating the client's anger within the session without taking any external actions or notifications.",
+          "is_correct": false,
+          "rationale": "While de-escalation is important, it is insufficient on its own and fails to address the immediate danger to the third party."
+        },
+        {
+          "key": "D",
+          "text": "Immediately terminate the therapeutic relationship with the client to avoid any legal liability or personal risk to yourself.",
+          "is_correct": false,
+          "rationale": "This is client abandonment and fails to mitigate the risk of harm; the duty to protect still exists regardless of the therapeutic relationship."
+        },
+        {
+          "key": "E",
+          "text": "Advise the client to self-report their intentions to the authorities, placing the responsibility entirely on their shoulders.",
+          "is_correct": false,
+          "rationale": "This approach is passive and does not ensure the potential victim's safety, failing to meet the counselor's active duty to protect."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "When working with a client from a vastly different cultural background, what is the most effective initial approach to building rapport?",
+      "explanation": "Cultural humility involves maintaining a curious and learning-oriented stance, acknowledging one's own limitations in understanding another's experience. This collaborative approach is more effective than making assumptions based on research or ignoring culture altogether, fostering genuine rapport and trust.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Adopt a stance of cultural humility, expressing genuine curiosity about their worldview and experiences without making any assumptions.",
+          "is_correct": true,
+          "rationale": "This approach is client-centered, collaborative, and avoids stereotyping, which is fundamental to building trust across cultures."
+        },
+        {
+          "key": "B",
+          "text": "Immediately apply standard evidence-based therapeutic models, assuming they are universally effective across all cultural contexts and backgrounds.",
+          "is_correct": false,
+          "rationale": "Many standard models have cultural biases; this approach lacks the necessary cultural adaptation and can be ineffective or harmful."
+        },
+        {
+          "key": "C",
+          "text": "Extensively research their specific culture and apply generalized cultural traits to understand their presenting issues and concerns.",
+          "is_correct": false,
+          "rationale": "While well-intentioned, this can lead to stereotyping and fails to account for individual differences within a cultural group."
+        },
+        {
+          "key": "D",
+          "text": "Refer the client to another counselor who shares the same cultural background to ensure a better therapeutic fit.",
+          "is_correct": false,
+          "rationale": "This may not be possible or desired by the client and avoids the counselor's responsibility to develop their own cultural competence."
+        },
+        {
+          "key": "E",
+          "text": "Focus only on the individual's presenting problem, intentionally ignoring cultural factors to avoid stereotyping or causing potential offense.",
+          "is_correct": false,
+          "rationale": "Ignoring culture is a form of cultural blindness that invalidates a significant part of the client's identity and context."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "A long-term client begins exhibiting strong feelings of attachment towards you, consistent with positive transference. What is the most therapeutic response?",
+      "explanation": "Transference is a common and powerful tool in therapy. The most therapeutic approach is to use it as material for exploration, helping the client understand how past relationship patterns are appearing in the present. This deepens insight and promotes healing.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ignore the client's feelings of attachment, hoping they will naturally dissipate over time without any direct intervention.",
+          "is_correct": false,
+          "rationale": "Ignoring these feelings is a missed therapeutic opportunity and may make the client feel unheard or invalidated."
+        },
+        {
+          "key": "B",
+          "text": "Immediately refer the client to another therapist to avoid the complexities of managing the transference dynamic.",
+          "is_correct": false,
+          "rationale": "This avoids a key part of the therapeutic process; managing transference is a core counseling skill, and referral is usually unnecessary."
+        },
+        {
+          "key": "C",
+          "text": "Acknowledge and explore these feelings with the client non-judgmentally, using them as a tool for therapeutic insight.",
+          "is_correct": true,
+          "rationale": "This approach uses the transference therapeutically to help the client understand their relational patterns and deepen their self-awareness."
+        },
+        {
+          "key": "D",
+          "text": "Establish stricter professional boundaries without discussing the underlying feelings, which could make the client feel rejected.",
+          "is_correct": false,
+          "rationale": "While boundaries are important, applying them without discussion can be perceived as punitive and damage the therapeutic alliance."
+        },
+        {
+          "key": "E",
+          "text": "Interpret the feelings as a sign of a successful therapeutic alliance and encourage the client to rely on you more.",
+          "is_correct": false,
+          "rationale": "This can foster unhealthy dependence and fails to explore the underlying meaning of the transference for the client's growth."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "A client presents with social anxiety, including cognitive distortions and significant avoidance behaviors. Which therapeutic modality is most strongly indicated?",
+      "explanation": "Cognitive Behavioral Therapy (CBT) is a first-line, evidence-based treatment for social anxiety. It directly addresses the core components of the disorder: the distorted negative thoughts (cognitions) and the avoidance patterns (behaviors) through structured, goal-oriented techniques.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Psychoanalytic Therapy, which focuses on exploring unconscious conflicts and early childhood experiences that may underlie the anxiety.",
+          "is_correct": false,
+          "rationale": "While potentially insightful, this modality is less focused on the rapid, practical skill-building needed for managing acute social anxiety symptoms."
+        },
+        {
+          "key": "B",
+          "text": "Humanistic Therapy, which emphasizes self-actualization and providing unconditional positive regard without structured behavioral interventions.",
+          "is_correct": false,
+          "rationale": "This approach may build self-esteem but lacks the specific techniques for challenging cognitive distortions and managing avoidance behaviors."
+        },
+        {
+          "key": "C",
+          "text": "Gestalt Therapy, which concentrates on the client's present experience and awareness through various experiential exercises.",
+          "is_correct": false,
+          "rationale": "This can increase awareness but is less structured than CBT for targeting the specific thought and behavior patterns of social anxiety."
+        },
+        {
+          "key": "D",
+          "text": "Cognitive Behavioral Therapy (CBT), as it directly targets maladaptive thoughts and behaviors through cognitive restructuring and exposure.",
+          "is_correct": true,
+          "rationale": "CBT is the gold standard for social anxiety, providing concrete tools to challenge negative thoughts and reduce avoidance."
+        },
+        {
+          "key": "E",
+          "text": "Narrative Therapy, which helps clients to re-author their life stories and separate themselves from their problems.",
+          "is_correct": false,
+          "rationale": "This can be empowering but is generally less direct than CBT for addressing the specific, ingrained mechanisms of social anxiety."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "During a session, a client expresses vague suicidal ideation without a clear plan. What is the most critical immediate next step?",
+      "explanation": "Any mention of suicidal ideation, however vague, requires immediate and thorough assessment. The counselor must directly inquire about intent, plans, means, and history to determine the level of acute risk before developing a safety plan or considering other interventions.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately activate emergency services without further assessment, which could be premature and damage the therapeutic rapport.",
+          "is_correct": false,
+          "rationale": "This may be an overreaction to vague ideation and should be reserved for situations where acute, imminent risk is established."
+        },
+        {
+          "key": "B",
+          "text": "Develop a safety plan with the client without first assessing the acute level of risk they currently present.",
+          "is_correct": false,
+          "rationale": "A safety plan is crucial, but it must be informed by a thorough risk assessment to ensure it is appropriate."
+        },
+        {
+          "key": "C",
+          "text": "End the session and schedule a follow-up appointment for the next day to give the client some space.",
+          "is_correct": false,
+          "rationale": "This is negligent and constitutes client abandonment in a potential crisis situation; risk must be assessed immediately."
+        },
+        {
+          "key": "D",
+          "text": "Advise the client to go to the nearest hospital emergency room but take no further action yourself.",
+          "is_correct": false,
+          "rationale": "This shifts responsibility without assessing risk or ensuring the client's safety, which is an inadequate clinical response."
+        },
+        {
+          "key": "E",
+          "text": "Conduct a thorough suicide risk assessment, asking direct questions about intent, plans, and means to determine imminence.",
+          "is_correct": true,
+          "rationale": "This is the standard of care. A comprehensive assessment is the essential first step to determine the level of risk and inform all subsequent actions."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "A long-term client you have built strong rapport with invites you to their small, private wedding ceremony. What is the most ethically sound response?",
+      "explanation": "Attending a client's personal event like a wedding creates a dual relationship, which can compromise objectivity, exploit the client, and harm the therapeutic process. Declining while explaining the ethical reasoning respects the boundary and protects the client.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Attend the wedding briefly to show support for the client's milestone, which can strengthen the therapeutic alliance.",
+          "is_correct": false,
+          "rationale": "This action crosses professional boundaries and creates a problematic dual relationship."
+        },
+        {
+          "key": "B",
+          "text": "Politely decline the invitation, gently explaining the professional code of ethics regarding dual relationships and potential harm.",
+          "is_correct": true,
+          "rationale": "This maintains professional boundaries, protects the client, and upholds ethical standards."
+        },
+        {
+          "key": "C",
+          "text": "Accept the invitation but make sure to leave early to minimize any potential for an inappropriate interaction.",
+          "is_correct": false,
+          "rationale": "Even brief attendance constitutes a boundary crossing and is ethically inappropriate."
+        },
+        {
+          "key": "D",
+          "text": "Refer the client to another counselor to avoid a conflict of interest before you attend the wedding.",
+          "is_correct": false,
+          "rationale": "This is an extreme reaction that could be interpreted as client abandonment."
+        },
+        {
+          "key": "E",
+          "text": "Suggest meeting for a celebratory coffee instead, as this is a less formal and more acceptable alternative.",
+          "is_correct": false,
+          "rationale": "This still constitutes a dual relationship outside the therapeutic context."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "A client with a history of depression expresses vague suicidal ideation during a session but has no clear plan. What is your immediate priority?",
+      "explanation": "Vague suicidal ideation requires immediate and thorough assessment to determine the level of risk. This involves asking direct questions about intent, plans, and means before determining the necessary level of intervention, ensuring client safety is properly addressed.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately contact emergency services without further assessment to ensure the client's absolute safety is prioritized above all.",
+          "is_correct": false,
+          "rationale": "This may be premature and could damage rapport without a full risk assessment first."
+        },
+        {
+          "key": "B",
+          "text": "Conduct a comprehensive suicide risk assessment to determine the specific level of intent, planning, and access to means.",
+          "is_correct": true,
+          "rationale": "A thorough risk assessment is the standard of care to determine appropriate next steps."
+        },
+        {
+          "key": "C",
+          "text": "Encourage the client to use positive thinking exercises to shift their mindset away from these negative thoughts.",
+          "is_correct": false,
+          "rationale": "This approach is dismissive of the client's stated risk and is clinically inappropriate."
+        },
+        {
+          "key": "D",
+          "text": "Schedule an urgent follow-up appointment for the next day and create a basic safety plan with them.",
+          "is_correct": false,
+          "rationale": "While a safety plan is good, it must follow a full risk assessment."
+        },
+        {
+          "key": "E",
+          "text": "Carefully document the client's statements in their file and continue with the originally planned session topic.",
+          "is_correct": false,
+          "rationale": "Ignoring any mention of suicidal ideation is negligent and dangerous."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "When beginning therapy with a client from a vastly different cultural background, what is the most effective approach to building therapeutic rapport?",
+      "explanation": "Cultural humility is a lifelong process of self-reflection and learning, where the counselor acknowledges they are not the expert on the client's experience. This approach fosters trust and collaboration by empowering the client to be the expert on their own life.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Assume that core therapeutic principles are universal and will be effective regardless of the client's specific cultural context.",
+          "is_correct": false,
+          "rationale": "This ignores the significant impact of culture on a person's worldview and well-being."
+        },
+        {
+          "key": "B",
+          "text": "Thoroughly research the client's culture and apply that generalized knowledge to guide your therapeutic interventions and questions.",
+          "is_correct": false,
+          "rationale": "This can lead to stereotyping and making incorrect assumptions about the individual."
+        },
+        {
+          "key": "C",
+          "text": "Adopt a stance of cultural humility, openly asking the client to share their unique worldview and personal experiences.",
+          "is_correct": true,
+          "rationale": "This client-centered approach is respectful and avoids making cultural assumptions."
+        },
+        {
+          "key": "D",
+          "text": "Recommend referring the client to a counselor who shares their cultural background to ensure better therapeutic outcomes.",
+          "is_correct": false,
+          "rationale": "This may not be possible or desired by the client and avoids professional growth."
+        },
+        {
+          "key": "E",
+          "text": "Focus only on the presenting psychological symptoms and avoid discussing culture to prevent making the client uncomfortable.",
+          "is_correct": false,
+          "rationale": "This ignores a critical component of the client's identity and context."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "You receive a subpoena from a lawyer requesting all therapy notes for a client involved in a contentious child custody case. What is your first action?",
+      "explanation": "A subpoena is a legal demand, but it doesn't automatically override client confidentiality. The first, most prudent step is to seek guidance from a supervisor or legal counsel to understand your specific obligations and protect both yourself and your client.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately send all the requested records to the lawyer's office to comply with the legal document.",
+          "is_correct": false,
+          "rationale": "This violates client confidentiality without proper authorization or legal review."
+        },
+        {
+          "key": "B",
+          "text": "Contact your client to inform them of the subpoena and ask for their written consent to release records.",
+          "is_correct": false,
+          "rationale": "While necessary, this step should follow or be concurrent with seeking supervision/legal advice."
+        },
+        {
+          "key": "C",
+          "text": "Refuse to comply with the subpoena, asserting that all therapy notes are protected by absolute patient privilege.",
+          "is_correct": false,
+          "rationale": "Ignoring a legal document can have serious consequences; privilege is not always absolute."
+        },
+        {
+          "key": "D",
+          "text": "Consult with your clinical supervisor and/or legal counsel to clarify your legal and ethical obligations before responding.",
+          "is_correct": true,
+          "rationale": "This is the most critical first step to ensure an ethically and legally sound response."
+        },
+        {
+          "key": "E",
+          "text": "Provide only a brief summary of the client's progress, omitting any sensitive personal details from the notes.",
+          "is_correct": false,
+          "rationale": "Altering or summarizing records in response to a subpoena is not legally permissible."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "A client presents with symptoms of social anxiety, specifically an intense and persistent fear of public speaking. Which therapeutic approach is most evidence-based for this issue?",
+      "explanation": "Cognitive Behavioral Therapy (CBT) is widely recognized as the gold-standard treatment for specific phobias and social anxiety. Its focus on identifying and challenging irrational thoughts (cognitive restructuring) and gradual exposure to feared situations is highly effective in reducing anxiety.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Psychoanalytic therapy, which would focus on exploring unconscious conflicts from childhood that may be causing the anxiety.",
+          "is_correct": false,
+          "rationale": "This is not considered a first-line, evidence-based treatment for specific phobias."
+        },
+        {
+          "key": "B",
+          "text": "Cognitive Behavioral Therapy (CBT), using exposure therapy and cognitive restructuring to challenge the client's irrational fears.",
+          "is_correct": true,
+          "rationale": "CBT is the most established, evidence-based approach for treating social anxiety and phobias."
+        },
+        {
+          "key": "C",
+          "text": "Humanistic therapy, which provides unconditional positive regard to help the client achieve self-actualization and greater confidence.",
+          "is_correct": false,
+          "rationale": "While supportive, it lacks the targeted techniques of CBT for specific phobias."
+        },
+        {
+          "key": "D",
+          "text": "Gestalt therapy, utilizing techniques like the 'empty chair' to help the client integrate different parts of their personality.",
+          "is_correct": false,
+          "rationale": "This is not the primary evidence-based modality for treating social anxiety disorder."
+        },
+        {
+          "key": "E",
+          "text": "Narrative therapy, which would help the client to re-author their personal story to see themselves as confident.",
+          "is_correct": false,
+          "rationale": "While potentially helpful, it is not as robustly supported by research as CBT for this issue."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "An experienced counselor notices strong countertransference feelings towards a client. What is the most professionally responsible and ethical first step to take in this situation?",
+      "explanation": "Seeking supervision is the ethical standard for managing countertransference. It allows the counselor to gain insight and maintain professional boundaries without prematurely terminating a potentially effective therapeutic relationship, ensuring client care is not compromised.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately refer the client to another counselor to avoid any potential for biased treatment or emotional harm.",
+          "is_correct": false,
+          "rationale": "Referral may be necessary later, but it is not the appropriate first step without exploring the issue first."
+        },
+        {
+          "key": "B",
+          "text": "Increase the frequency of sessions with the client to work through the feelings more quickly and directly.",
+          "is_correct": false,
+          "rationale": "This could intensify the countertransference and is not a recognized management strategy for this clinical issue."
+        },
+        {
+          "key": "C",
+          "text": "Seek supervision or peer consultation to process the countertransference and ensure it does not impact the therapeutic relationship.",
+          "is_correct": true,
+          "rationale": "Supervision is the correct professional step to manage countertransference ethically and maintain objectivity in therapy."
+        },
+        {
+          "key": "D",
+          "text": "Disclose these personal feelings to the client to foster a more authentic and transparent therapeutic alliance.",
+          "is_correct": false,
+          "rationale": "This is a boundary violation that burdens the client with the therapist's issues and is professionally inappropriate."
+        },
+        {
+          "key": "E",
+          "text": "Ignore the feelings, trusting that professional training will be sufficient to prevent any negative impact on therapy.",
+          "is_correct": false,
+          "rationale": "Ignoring countertransference is negligent and can lead to unethical practice and harm to the client."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "You are counseling in a small community and a new client is the parent of your child's best friend. What is the most ethical course of action?",
+      "explanation": "The first ethical step is to transparently discuss the dual relationship with the client. This respects their autonomy, allows for informed consent, and helps collaboratively determine if a productive therapeutic relationship is possible.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Continue with counseling but establish very firm boundaries and avoid all non-essential contact outside of the therapy room.",
+          "is_correct": false,
+          "rationale": "This action precedes the essential step of discussing the conflict of interest with the client first."
+        },
+        {
+          "key": "B",
+          "text": "Immediately inform both parties that a therapeutic relationship is impossible due to the pre-existing dual relationship.",
+          "is_correct": false,
+          "rationale": "This is a premature decision; the client must be involved in the discussion about the potential conflict."
+        },
+        {
+          "key": "C",
+          "text": "Discuss the potential conflict of interest and dual relationship with the client, documenting the conversation and exploring their comfort.",
+          "is_correct": true,
+          "rationale": "This approach respects client autonomy and informed consent, which is the cornerstone of ethical practice."
+        },
+        {
+          "key": "D",
+          "text": "Ask your child to reduce contact with their friend to minimize the potential for awkward future social interactions.",
+          "is_correct": false,
+          "rationale": "This unfairly penalizes the children and does not address the core professional and ethical dilemma."
+        },
+        {
+          "key": "E",
+          "text": "Proceed with therapy without mentioning the connection, assuming professionalism will prevent any issues from arising during sessions.",
+          "is_correct": false,
+          "rationale": "Failing to disclose a known dual relationship is unethical and compromises the integrity of the therapy."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "A client presents with complex PTSD, dissociation, and a history of unstable relationships. Which therapeutic modality is most indicated for addressing these core issues effectively?",
+      "explanation": "Complex PTSD requires a structured, phase-oriented approach. Modalities like DBT or EMDR prioritize establishing safety, emotional regulation, and coping skills before directly processing traumatic memories, which is crucial for this population's stability.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Standard Cognitive Behavioral Therapy (CBT) focused solely on identifying and changing negative thought patterns about current events.",
+          "is_correct": false,
+          "rationale": "Standard CBT is often insufficient for the deep-seated trauma and dissociation found in complex PTSD cases."
+        },
+        {
+          "key": "B",
+          "text": "Solution-Focused Brief Therapy (SFBT) which concentrates on building solutions rather than exploring past trauma in depth.",
+          "is_correct": false,
+          "rationale": "SFBT is generally not recommended for complex trauma as it avoids the necessary trauma processing work."
+        },
+        {
+          "key": "C",
+          "text": "A phase-oriented trauma treatment model, such as DBT or EMDR, to build safety before processing trauma.",
+          "is_correct": true,
+          "rationale": "Phase-oriented models are the evidence-based standard of care for complex trauma and associated symptoms."
+        },
+        {
+          "key": "D",
+          "text": "Psychoanalytic therapy focused primarily on interpreting unconscious conflicts without structured safety-building skills for the client.",
+          "is_correct": false,
+          "rationale": "This approach can be destabilizing for clients with complex PTSD without a strong focus on safety."
+        },
+        {
+          "key": "E",
+          "text": "Person-centered therapy that relies exclusively on the client leading sessions without any directive psychoeducation or skills training.",
+          "is_correct": false,
+          "rationale": "While valuable, this lacks the structure and skills-building components necessary for managing C-PTSD symptoms."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "During a session, a client calmly discloses a detailed and feasible suicide plan for the upcoming weekend. What is your immediate professional and ethical priority?",
+      "explanation": "When a client presents with a clear, feasible suicide plan, the immediate priority shifts from exploration to crisis intervention. This involves assessing imminent risk and taking concrete steps to ensure their safety, which may include hospitalization.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Explore the underlying reasons for their suicidal ideation to better understand the root cause of their distress.",
+          "is_correct": false,
+          "rationale": "While important, exploration must wait until the immediate risk of harm to the client is fully addressed."
+        },
+        {
+          "key": "B",
+          "text": "Immediately initiate safety planning, assess access to means, and determine the need for emergency services or hospitalization.",
+          "is_correct": true,
+          "rationale": "This directly addresses the imminent risk and is the standard of care for suicide prevention protocols."
+        },
+        {
+          "key": "C",
+          "text": "Schedule an extra session for the next day to provide additional support and continue the therapeutic conversation.",
+          "is_correct": false,
+          "rationale": "This is an insufficient response to an immediate, high-risk situation and could result in client harm."
+        },
+        {
+          "key": "D",
+          "text": "Contact the client's emergency contact without the client's consent to inform them of the immediate risk.",
+          "is_correct": false,
+          "rationale": "This may be a necessary step, but it follows a direct risk assessment with the client first."
+        },
+        {
+          "key": "E",
+          "text": "Reassure the client that these feelings are temporary and encourage them to focus on positive aspects of life.",
+          "is_correct": false,
+          "rationale": "This response invalidates the client's distress and fails to address the serious and immediate safety concerns."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "A client from a collectivist culture expresses distress framed in terms of family obligation and community shame. How should a counselor best approach this therapeutically?",
+      "explanation": "Cultural competence requires the counselor to work within the client's worldview. Validating their collectivist perspective and exploring the role of family and community is essential for building rapport and developing culturally appropriate interventions.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reframe their distress in individualistic terms, focusing on personal autonomy and self-actualization as the primary goals.",
+          "is_correct": false,
+          "rationale": "This imposes a Western cultural framework and invalidates the client's lived experience and cultural values."
+        },
+        {
+          "key": "B",
+          "text": "Acknowledge and validate their cultural framework, exploring how family and community dynamics contribute to their well-being and distress.",
+          "is_correct": true,
+          "rationale": "This demonstrates cultural humility and allows for a more effective and respectful therapeutic alliance with the client."
+        },
+        {
+          "key": "C",
+          "text": "Suggest that the client distance themselves from family expectations that are causing them significant emotional pain.",
+          "is_correct": false,
+          "rationale": "This advice may conflict with deep-seated cultural values and could alienate the client from their support system."
+        },
+        {
+          "key": "D",
+          "text": "Focus only on behavioral symptoms like anxiety or depression, avoiding the complex cultural and family context altogether.",
+          "is_correct": false,
+          "rationale": "Ignoring the cultural context misses the root of the client's distress and leads to superficial treatment."
+        },
+        {
+          "key": "E",
+          "text": "Educate the client on Western psychological concepts, explaining how their cultural views are a source of their problems.",
+          "is_correct": false,
+          "rationale": "This pathologizes the client's culture and is an ethnocentric, unethical, and ineffective approach to counseling."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "As a senior counselor, you are asked to provide clinical supervision to a new junior colleague. What is your most important initial responsibility?",
+      "explanation": "A formal supervision contract is fundamental. It establishes a professional framework, clarifies roles, and sets the foundation for a productive and ethical supervisory relationship, ensuring both supervisor and supervisee understand their responsibilities.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately review all of their current client case files to identify any potential errors in their documentation or treatment planning.",
+          "is_correct": false,
+          "rationale": "This approach is overly evaluative and can undermine trust before the relationship is established."
+        },
+        {
+          "key": "B",
+          "text": "Establish a clear supervision contract outlining goals, expectations, confidentiality limits, and evaluation methods to create a structured learning environment.",
+          "is_correct": true,
+          "rationale": "A contract provides the essential ethical and professional framework for a successful supervisory relationship."
+        },
+        {
+          "key": "C",
+          "text": "Assign them a complex case from your own caseload to assess their practical skills under pressure from the very beginning.",
+          "is_correct": false,
+          "rationale": "This is inappropriate and potentially harmful to both the client and the new supervisee."
+        },
+        {
+          "key": "D",
+          "text": "Focus solely on teaching them advanced therapeutic techniques that you personally prefer to use in your own clinical practice.",
+          "is_correct": false,
+          "rationale": "Supervision should support the supervisee's growth, not just impose the supervisor's preferred methods."
+        },
+        {
+          "key": "E",
+          "text": "Advise them to observe your sessions with clients to learn directly from your approach before they start their own work.",
+          "is_correct": false,
+          "rationale": "While observation can be useful, establishing a formal contract is the critical first step."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "A client from a different cultural background states they feel you do not understand their unique experiences. What is the most culturally competent response?",
+      "explanation": "The best response involves validating the client's experience and demonstrating humility and a willingness to learn. This strengthens the therapeutic alliance by showing respect for their perspective rather than becoming defensive or dismissive.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reassure the client that you have received extensive multicultural training and are qualified to help people from all different backgrounds.",
+          "is_correct": false,
+          "rationale": "This response is defensive and invalidates the client's personal feelings and lived experience."
+        },
+        {
+          "key": "B",
+          "text": "Suggest referring them to a counselor who shares their specific cultural background to ensure they receive the best possible care.",
+          "is_correct": false,
+          "rationale": "This may be an option later, but the immediate priority is to try and bridge the gap yourself."
+        },
+        {
+          "key": "C",
+          "text": "Explain the universality of human emotions and suggest that cultural differences are less important than their core feelings of distress.",
+          "is_correct": false,
+          "rationale": "This minimizes the importance of the client's cultural identity and their unique personal experience."
+        },
+        {
+          "key": "D",
+          "text": "Validate their feeling, express genuine curiosity, and invite them to share more about their perspective so you can better understand.",
+          "is_correct": true,
+          "rationale": "This response is collaborative, validating, and demonstrates cultural humility, strengthening the therapeutic alliance."
+        },
+        {
+          "key": "E",
+          "text": "Provide the client with educational materials about your therapeutic approach so they can better understand your methods and intentions.",
+          "is_correct": false,
+          "rationale": "This places the burden on the client to understand you, rather than the other way around."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "A long-term client who has been making significant progress suddenly discloses a detailed and imminent plan for suicide. What is your immediate priority action?",
+      "explanation": "When there is clear and imminent risk of harm, the counselor's primary duty is to protect the client's life. This overrides confidentiality, and established safety protocols must be enacted immediately to mitigate the risk.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Initiate established crisis intervention and safety planning protocols, which may require breaking confidentiality to ensure the client's immediate safety.",
+          "is_correct": true,
+          "rationale": "Immediate risk to life requires prioritizing safety protocols over all other therapeutic considerations."
+        },
+        {
+          "key": "B",
+          "text": "Explore the underlying reasons for this sudden change in their mental state before taking any other specific safety-related actions.",
+          "is_correct": false,
+          "rationale": "While important, this exploration is secondary to immediate actions required to ensure client safety."
+        },
+        {
+          "key": "C",
+          "text": "Remind the client of all the progress they have made in therapy to try and persuade them to reconsider their decision.",
+          "is_correct": false,
+          "rationale": "This can invalidate their current distress and is not a substitute for a direct safety intervention."
+        },
+        {
+          "key": "D",
+          "text": "Immediately terminate the session and call emergency services without first informing the client of your intended actions.",
+          "is_correct": false,
+          "rationale": "Informing the client collaboratively is preferred, unless doing so would significantly increase immediate risk."
+        },
+        {
+          "key": "E",
+          "text": "Document the disclosure thoroughly in the client's file and schedule an urgent follow-up session for the very next day.",
+          "is_correct": false,
+          "rationale": "This is an insufficient response to an imminent threat and fails the duty to protect."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Your agency has tasked you with developing a new group therapy program for adults with generalized anxiety disorder. What is a critical initial step?",
+      "explanation": "A needs assessment is crucial for ensuring the program is relevant, effective, and tailored to the specific needs of the community it aims to serve. It provides the foundational data for all subsequent program design decisions.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select the therapeutic modality you are most skilled in and design the entire curriculum based on that single approach.",
+          "is_correct": false,
+          "rationale": "This approach is provider-centered; the modality should be chosen based on the population's needs."
+        },
+        {
+          "key": "B",
+          "text": "Immediately begin recruiting clients for the group to gauge interest levels before you have finalized the program's specific structure.",
+          "is_correct": false,
+          "rationale": "Recruitment is premature and unethical before the program has been properly designed and structured."
+        },
+        {
+          "key": "C",
+          "text": "Conduct a thorough needs assessment within the target population to identify specific challenges, goals, and barriers to treatment.",
+          "is_correct": true,
+          "rationale": "A needs assessment ensures the program is client-centered and addresses the actual needs of participants."
+        },
+        {
+          "key": "D",
+          "text": "Develop a detailed budget for materials, facilitator time, and room rental to present to management for their final approval.",
+          "is_correct": false,
+          "rationale": "Budgeting is important but should be informed by the program design, which follows the needs assessment."
+        },
+        {
+          "key": "E",
+          "text": "Research existing successful anxiety programs from other agencies and replicate their structure and content as closely as possible.",
+          "is_correct": false,
+          "rationale": "While informative, simple replication ignores the unique characteristics and needs of your specific local population."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "An adolescent client discloses they are engaging in non-suicidal self-injury but insists you not inform their parents. What is your primary ethical obligation?",
+      "explanation": "The counselor must balance the duty to protect a minor with the need to maintain a therapeutic alliance. A thorough risk assessment is the first step to determine the level of danger and inform the decision about parental involvement.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately inform the parents as any form of self-harm constitutes a significant risk that requires their direct intervention.",
+          "is_correct": false,
+          "rationale": "This can rupture the therapeutic alliance and may not be necessary depending on the risk level."
+        },
+        {
+          "key": "B",
+          "text": "Agree to the client's request for secrecy to maintain the therapeutic trust, as long as they promise to stop the behavior.",
+          "is_correct": false,
+          "rationale": "This is unethical as it colludes with secrecy and ignores the duty of care for a minor."
+        },
+        {
+          "key": "C",
+          "text": "Assess the severity and risk of the self-injury while exploring the client's reasons for secrecy before deciding on parental involvement.",
+          "is_correct": true,
+          "rationale": "This nuanced approach prioritizes risk assessment and collaboration before breaking confidentiality."
+        },
+        {
+          "key": "D",
+          "text": "Tell the client that you are legally required to inform their parents about any self-harming behaviors without any further discussion.",
+          "is_correct": false,
+          "rationale": "This may be an overstatement of the law and shuts down important therapeutic dialogue."
+        },
+        {
+          "key": "E",
+          "text": "Focus the session entirely on developing coping skills, avoiding the issue of parental notification for the time being.",
+          "is_correct": false,
+          "rationale": "Ignoring the duty of care and confidentiality dilemma is a dereliction of professional responsibility."
+        }
+      ]
+    }
+  ]
+}

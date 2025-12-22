@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "A junior colleague confides in you about a medication error they made but did not report. What is your most appropriate initial action?",
+      "explanation": "This approach supports a just culture, encourages transparency, and prioritizes patient safety by ensuring the incident is properly documented and investigated, while also supporting the colleague involved in the process.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Advise the colleague to report the incident immediately through official channels and offer to support them through the process.",
+          "is_correct": true,
+          "rationale": "This promotes accountability, patient safety, and a supportive, just culture."
+        },
+        {
+          "key": "B",
+          "text": "Report the incident yourself without informing the colleague to ensure it is handled correctly and promptly by management.",
+          "is_correct": false,
+          "rationale": "This undermines trust and the colleague's professional responsibility to self-report."
+        },
+        {
+          "key": "C",
+          "text": "Suggest monitoring the patient for adverse effects and only reporting if the patient's condition significantly deteriorates over time.",
+          "is_correct": false,
+          "rationale": "This delays necessary action, compromises patient safety, and violates reporting policies."
+        },
+        {
+          "key": "D",
+          "text": "Document the conversation in your personal notes and discuss it with management during your next scheduled supervision meeting.",
+          "is_correct": false,
+          "rationale": "This is not a timely response to a potentially serious patient safety incident."
+        },
+        {
+          "key": "E",
+          "text": "Reassure the colleague that minor errors happen and advise them to be more careful without any formal reporting.",
+          "is_correct": false,
+          "rationale": "This encourages a culture of hiding errors and prevents organisational learning."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "You are leading care for a patient who lacks capacity and has no advance directive. What is the most critical step in making a best-interest decision?",
+      "explanation": "The Mental Capacity Act (2005) mandates a collaborative approach for best-interest decisions, involving relevant healthcare professionals, family, and advocates to ensure a holistic and legally sound outcome for the patient.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Convening a multi-disciplinary team meeting that includes family or an Independent Mental Capacity Advocate to reach a consensus.",
+          "is_correct": true,
+          "rationale": "This follows legal requirements and ensures a holistic, collaborative decision-making process."
+        },
+        {
+          "key": "B",
+          "text": "Deferring the decision entirely to the primary consultant, as they hold the ultimate medical responsibility for the patient.",
+          "is_correct": false,
+          "rationale": "Best-interest decisions are a collaborative responsibility, not solely a medical one."
+        },
+        {
+          "key": "C",
+          "text": "Making the decision based solely on your own extensive clinical experience and professional judgement of the current situation.",
+          "is_correct": false,
+          "rationale": "This unilateral approach is not compliant with the Mental Capacity Act."
+        },
+        {
+          "key": "D",
+          "text": "Prioritizing the family's wishes above all other clinical considerations, even if they directly conflict with medical advice.",
+          "is_correct": false,
+          "rationale": "Family views are important but do not override the overall best-interest assessment."
+        },
+        {
+          "key": "E",
+          "text": "Following the care pathway that is most resource-efficient for the trust while ensuring basic safety is maintained.",
+          "is_correct": false,
+          "rationale": "Resource allocation cannot be the primary determinant in a best-interest decision."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "You identify a patient with a rapidly increasing NEWS2 score indicating acute deterioration. What is your immediate priority after ensuring the patient's airway is clear?",
+      "explanation": "After an initial ABCDE assessment, the priority is to communicate the urgent situation clearly and effectively using a structured tool like SBAR to trigger a rapid response from the appropriate medical team.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Initiating a structured SBAR communication to escalate the situation to the medical team for an urgent clinical review.",
+          "is_correct": true,
+          "rationale": "Structured communication ensures a clear, concise, and urgent escalation for patient safety."
+        },
+        {
+          "key": "B",
+          "text": "Administering a broad-spectrum antibiotic based on your suspicion of sepsis without waiting for a doctor's formal order.",
+          "is_correct": false,
+          "rationale": "This is outside the nursing scope of practice without a prescription or PGD."
+        },
+        {
+          "key": "C",
+          "text": "Re-checking the vital signs every thirty minutes to see if the score naturally improves before escalating the issue.",
+          "is_correct": false,
+          "rationale": "A rapidly increasing score requires immediate escalation, not passive observation."
+        },
+        {
+          "key": "D",
+          "text": "Asking a healthcare assistant to inform the doctor that the patient seems unwell when they have a free moment.",
+          "is_correct": false,
+          "rationale": "This lacks the urgency and structured information required for a deteriorating patient."
+        },
+        {
+          "key": "E",
+          "text": "Completing all the patient's routine documentation for the shift before focusing on this single escalating clinical issue.",
+          "is_correct": false,
+          "rationale": "The deteriorating patient is the absolute clinical priority over routine tasks."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "As a senior nurse, you observe persistent conflict between two staff members that is affecting team morale. What is the most effective initial management strategy?",
+      "explanation": "A mediated conversation is the most constructive first step. It promotes open communication, addresses the root cause of the conflict, and empowers individuals to find a mutually agreeable solution, fostering a better team dynamic.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Facilitating a private, mediated conversation with both individuals to understand their perspectives and find a professional resolution.",
+          "is_correct": true,
+          "rationale": "This is a constructive, professional approach to conflict resolution and team management."
+        },
+        {
+          "key": "B",
+          "text": "Immediately changing their shift patterns so they no longer have to work together on the same clinical team.",
+          "is_correct": false,
+          "rationale": "This avoids the root problem rather than resolving it professionally."
+        },
+        {
+          "key": "C",
+          "text": "Publicly addressing the conflict during a team meeting to make an example of their unprofessional behaviour to others.",
+          "is_correct": false,
+          "rationale": "Public confrontation is unprofessional and likely to worsen team morale."
+        },
+        {
+          "key": "D",
+          "text": "Ignoring the conflict and assuming that the two professionals will eventually resolve their personal differences on their own.",
+          "is_correct": false,
+          "rationale": "Ignoring conflict allows it to escalate and negatively impact patient care."
+        },
+        {
+          "key": "E",
+          "text": "Reporting both individuals to human resources for disciplinary action without attempting any form of local resolution first.",
+          "is_correct": false,
+          "rationale": "This is an overly punitive step that bypasses informal resolution processes."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "You are tasked with leading a clinical audit on falls prevention on your ward. What is the most crucial first step in the audit cycle?",
+      "explanation": "The audit cycle begins with setting a standard. Establishing clear, evidence-based criteria is essential to measure current practice against, which then allows for meaningful data collection, analysis, and subsequent quality improvement.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Establishing clear criteria and standards for falls prevention practice based on current evidence-based guidelines from NICE.",
+          "is_correct": true,
+          "rationale": "The first step of the audit cycle is always to define the standard."
+        },
+        {
+          "key": "B",
+          "text": "Immediately implementing a new falls prevention strategy that you believe will be more effective than the current one.",
+          "is_correct": false,
+          "rationale": "Action should be based on audit findings, not implemented before data collection."
+        },
+        {
+          "key": "C",
+          "text": "Collecting data on recent falls incidents without first defining what constitutes best practice for your clinical area.",
+          "is_correct": false,
+          "rationale": "Data collection is meaningless without a standard to compare it against."
+        },
+        {
+          "key": "D",
+          "text": "Presenting the final audit results to the management team before you have actually collected or analysed any data.",
+          "is_correct": false,
+          "rationale": "This is illogical and inverts the entire clinical audit process."
+        },
+        {
+          "key": "E",
+          "text": "Assigning blame to individual staff members whose patients have recently experienced a number of falls on the ward.",
+          "is_correct": false,
+          "rationale": "Clinical audit is a tool for quality improvement, not for blaming individuals."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "A post-operative patient on your ward suddenly develops severe hypotension, tachycardia, and oliguria. What is the most critical initial nursing intervention?",
+      "explanation": "The patient's symptoms are indicative of hypovolemic shock. The immediate priority is to restore circulating fluid volume to maintain vital organ perfusion, making rapid fluid administration the most critical first step.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Administer a rapid intravenous fluid bolus as prescribed by standing orders or the physician to restore circulating volume.",
+          "is_correct": true,
+          "rationale": "This directly addresses the likely cause of hypovolemic shock by restoring circulating volume."
+        },
+        {
+          "key": "B",
+          "text": "Immediately place the patient in the Trendelenburg position to improve cerebral blood flow while preparing other interventions.",
+          "is_correct": false,
+          "rationale": "This is a supportive measure, but fluid resuscitation is the primary and most critical intervention."
+        },
+        {
+          "key": "C",
+          "text": "Obtain a full set of blood cultures to investigate for a potential septic source before starting any treatment.",
+          "is_correct": false,
+          "rationale": "While important for diagnosis, this is not the immediate life-saving intervention required for shock."
+        },
+        {
+          "key": "D",
+          "text": "Contact the rapid response team and the attending physician to report the patient's deterioration before acting.",
+          "is_correct": false,
+          "rationale": "Notification is crucial, but an immediate intervention like starting fluids should not be delayed."
+        },
+        {
+          "key": "E",
+          "text": "Prepare to administer a vasopressor medication to increase the patient's blood pressure immediately without giving fluids first.",
+          "is_correct": false,
+          "rationale": "Vasopressors are typically used after initial fluid resuscitation has failed to restore adequate perfusion."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "A patient with full decision-making capacity is refusing a life-saving blood transfusion due to their religious beliefs. What is your primary professional responsibility?",
+      "explanation": "The ethical principle of autonomy dictates that a competent patient has the right to refuse treatment, even if it results in harm. The nurse's role is to advocate for and respect the patient's wishes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Attempt to persuade the patient by detailing the severe medical consequences of refusing the life-saving blood transfusion.",
+          "is_correct": false,
+          "rationale": "This can be seen as coercion and undermines the patient's right to autonomous decision-making."
+        },
+        {
+          "key": "B",
+          "text": "Respect the patient's autonomous decision and ensure their refusal is clearly documented and communicated to the team.",
+          "is_correct": true,
+          "rationale": "This upholds the core ethical principle of patient autonomy and ensures legal and professional standards are met."
+        },
+        {
+          "key": "C",
+          "text": "Contact the hospital's ethics committee immediately to seek an override for the patient's important medical decision.",
+          "is_correct": false,
+          "rationale": "An ethics committee cannot override the decision of a competent adult patient; they can only offer guidance."
+        },
+        {
+          "key": "D",
+          "text": "Involve the patient's family members to help convince the patient to accept the necessary medical treatment.",
+          "is_correct": false,
+          "rationale": "This violates patient confidentiality and autonomy by using family pressure to influence a medical decision."
+        },
+        {
+          "key": "E",
+          "text": "Administer the transfusion against their will because it is a life-saving medical necessity for their current condition.",
+          "is_correct": false,
+          "rationale": "This would constitute medical battery and is a serious breach of legal and ethical standards."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "You discover a colleague has administered an incorrect dose of a high-risk medication like insulin. What is your immediate priority action?",
+      "explanation": "Patient safety is the absolute priority in any medication error. The first and most critical step is to assess the patient for any adverse effects to determine if immediate clinical intervention is required.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately assess the patient's condition, including vital signs and specific signs of adverse effects from the medication.",
+          "is_correct": true,
+          "rationale": "Patient assessment is the first step to ensure safety and determine the need for urgent intervention."
+        },
+        {
+          "key": "B",
+          "text": "Confront the colleague who made the error and instruct them to report the incident immediately to the manager.",
+          "is_correct": false,
+          "rationale": "Addressing the colleague is secondary; the patient's immediate clinical status is the top priority."
+        },
+        {
+          "key": "C",
+          "text": "Complete an incident report detailing the error before informing the nurse in charge of the clinical unit.",
+          "is_correct": false,
+          "rationale": "Documentation is essential but must not delay the immediate clinical assessment and care of the patient."
+        },
+        {
+          "key": "D",
+          "text": "Notify the attending physician and charge nurse about the medication error that has just occurred on the ward.",
+          "is_correct": false,
+          "rationale": "While this is a crucial step, it should be done after you have assessed the patient's condition."
+        },
+        {
+          "key": "E",
+          "text": "Find the medication's protocol to prepare a potential antidote in case it is needed later for the patient.",
+          "is_correct": false,
+          "rationale": "Preparing an antidote is proactive but must follow an initial assessment to confirm the patient's status."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "When delegating care tasks to a healthcare assistant, which of the following responsibilities remains solely with the registered nurse?",
+      "explanation": "According to nursing standards, while tasks can be delegated, the professional accountability for the nursing process—including assessment, planning, and evaluation of care—cannot be delegated. The RN remains ultimately responsible for the patient's outcome.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Assisting the patient with their activities of daily living, such as bathing and providing their personal hygiene.",
+          "is_correct": false,
+          "rationale": "This is a standard and appropriate task to delegate to a trained healthcare assistant."
+        },
+        {
+          "key": "B",
+          "text": "Recording the patient's vital signs and reporting any abnormal findings back to the registered nurse for review.",
+          "is_correct": false,
+          "rationale": "Taking and recording vital signs is a common task delegated to healthcare assistants."
+        },
+        {
+          "key": "C",
+          "text": "The evaluation of the patient's response to the delegated care and the overall nursing plan.",
+          "is_correct": true,
+          "rationale": "Evaluation requires clinical judgment and is a core part of the nursing process that cannot be delegated."
+        },
+        {
+          "key": "D",
+          "text": "Documenting the patient's food and fluid intake on the appropriate monitoring chart during their scheduled meals.",
+          "is_correct": false,
+          "rationale": "This is a routine data collection task that can be safely delegated to other team members."
+        },
+        {
+          "key": "E",
+          "text": "Transporting the patient to another department within the hospital for a scheduled diagnostic imaging test.",
+          "is_correct": false,
+          "rationale": "Patient transport for stable patients is a task that is frequently and appropriately delegated."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "A terminally ill patient with a valid 'Do Not Resuscitate' (DNR) order experiences a respiratory arrest. What is the most appropriate action?",
+      "explanation": "A valid DNR order is a legal directive to withhold cardiopulmonary resuscitation. The nurse's duty is to respect this wish and shift the focus of care to palliation, ensuring comfort and dignity at the end of life.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Initiate cardiopulmonary resuscitation because respiratory arrest may be a reversible event for this particular patient.",
+          "is_correct": false,
+          "rationale": "This action directly violates the patient's legally documented wishes and the DNR order."
+        },
+        {
+          "key": "B",
+          "text": "Immediately call a code blue and allow the resuscitation team to make the final decision at the bedside.",
+          "is_correct": false,
+          "rationale": "Calling a code blue is inappropriate as it initiates a resuscitation effort against the patient's directive."
+        },
+        {
+          "key": "C",
+          "text": "Contact the on-call physician to ask for permission to override the existing and valid DNR order.",
+          "is_correct": false,
+          "rationale": "A valid DNR order cannot be unilaterally overridden by a physician without reassessing the patient's capacity."
+        },
+        {
+          "key": "D",
+          "text": "Provide comfort measures, manage symptoms, and support the patient's dignity per their end-of-life care plan.",
+          "is_correct": true,
+          "rationale": "This respects the DNR order and aligns with the principles of palliative and end-of-life care."
+        },
+        {
+          "key": "E",
+          "text": "Notify the patient's family of the change in condition before taking any other clinical action for them.",
+          "is_correct": false,
+          "rationale": "While family should be notified, providing immediate comfort care to the patient is the priority."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "A patient with a valid advance directive refusing life-sustaining treatment develops a new, reversible condition. What is the most appropriate initial nursing action?",
+      "explanation": "A valid advance directive is a legally binding document outlining a patient's wishes. The primary ethical and legal responsibility is to respect patient autonomy, even if the condition is reversible, by adhering to their documented refusal of specific treatments.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately override the advance directive because the current medical condition is considered easily reversible and treatable by the team.",
+          "is_correct": false,
+          "rationale": "Overriding a valid directive is legally and ethically problematic."
+        },
+        {
+          "key": "B",
+          "text": "Consult with the hospital's legal team before taking any action to ensure full legal protection for all involved staff.",
+          "is_correct": false,
+          "rationale": "Legal consultation is secondary to the immediate patient-centred ethical duty."
+        },
+        {
+          "key": "C",
+          "text": "Respect the patient's documented wishes by providing comfort care and withholding the specific life-sustaining treatment as directed.",
+          "is_correct": true,
+          "rationale": "Respecting patient autonomy via a valid advance directive is paramount."
+        },
+        {
+          "key": "D",
+          "text": "Contact the patient's next of kin to ask them to make the final decision regarding the current treatment plan.",
+          "is_correct": false,
+          "rationale": "The patient's directive legally supersedes the family's opinion."
+        },
+        {
+          "key": "E",
+          "text": "Administer the treatment under the doctrine of necessity, documenting that it was in the patient's immediate best interest.",
+          "is_correct": false,
+          "rationale": "Doctrine of necessity doesn't apply when a valid refusal exists."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "You are the nurse in charge when a patient suddenly deteriorates, showing clear signs of septic shock. What is your priority leadership action?",
+      "explanation": "In a critical situation like septic shock, a lead nurse's priority is effective delegation and coordination. Using a structured approach like the Sepsis Six pathway and ensuring prompt medical escalation are key leadership actions that improve patient outcomes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately begin documenting the event in detail to ensure an accurate record for any future clinical reviews or investigations.",
+          "is_correct": false,
+          "rationale": "Documentation is important but secondary to immediate life-saving interventions."
+        },
+        {
+          "key": "B",
+          "text": "Delegate specific Sepsis Six pathway tasks to team members while maintaining oversight and calling for senior medical review.",
+          "is_correct": true,
+          "rationale": "Effective delegation and escalation are crucial leadership actions in emergencies."
+        },
+        {
+          "key": "C",
+          "text": "Ask a junior nurse to inform the patient's family about the sudden and serious change in their overall condition.",
+          "is_correct": false,
+          "rationale": "Family communication is important but not the immediate clinical priority."
+        },
+        {
+          "key": "D",
+          "text": "Personally administer all prescribed intravenous antibiotics to ensure they are given correctly and without any possible delay.",
+          "is_correct": false,
+          "rationale": "Delegating tasks is more efficient than performing them all yourself."
+        },
+        {
+          "key": "E",
+          "text": "Focus solely on comforting the patient and providing emotional support while waiting for the medical team to arrive.",
+          "is_correct": false,
+          "rationale": "While important, clinical interventions must take priority over comfort alone."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "You observe two junior nurses publicly disagreeing over the correct wound care protocol for a patient. What is the best initial approach?",
+      "explanation": "This approach addresses the immediate patient safety risk by clarifying the protocol, resolves the conflict professionally, and provides a learning opportunity for the junior staff without undermining them publicly. It balances assertiveness with supportive leadership and de-escalation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Intervene immediately at the patient's bedside to state the correct protocol and end the public disagreement between the nurses.",
+          "is_correct": false,
+          "rationale": "Public correction can undermine staff morale and patient confidence."
+        },
+        {
+          "key": "B",
+          "text": "Report both nurses to the ward manager for unprofessional conduct without discussing the matter with them directly first.",
+          "is_correct": false,
+          "rationale": "Escalating without attempting to resolve it first is poor leadership."
+        },
+        {
+          "key": "C",
+          "text": "Allow them to resolve the conflict on their own to encourage their professional development and sense of autonomy.",
+          "is_correct": false,
+          "rationale": "This ignores the immediate patient safety risk and unprofessional conduct."
+        },
+        {
+          "key": "D",
+          "text": "Privately speak with both nurses away from the patient area to mediate, clarify the protocol, and address their conduct.",
+          "is_correct": true,
+          "rationale": "This resolves the issue professionally, safely, and constructively."
+        },
+        {
+          "key": "E",
+          "text": "Take over the patient's wound care yourself to ensure it is done correctly and to avoid any further conflict.",
+          "is_correct": false,
+          "rationale": "This fails to address the underlying staff conflict and knowledge gap."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Your unit is implementing a new evidence-based guideline for pressure ulcer prevention. Which strategy is most effective for ensuring successful adoption by staff?",
+      "explanation": "Successful practice change relies on staff engagement and buy-in. A collaborative approach involving education, seeking feedback, and using peer champions is proven to be more effective for embedding new guidelines into routine practice than a purely top-down, punitive mandate.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mandate the new guideline through an email and state that non-compliance will result in immediate disciplinary action for those involved.",
+          "is_correct": false,
+          "rationale": "A punitive approach creates resistance and hinders genuine adoption."
+        },
+        {
+          "key": "B",
+          "text": "Involve staff in the implementation process through education, feedback sessions, and appointing champions for the new guideline.",
+          "is_correct": true,
+          "rationale": "This collaborative strategy fosters ownership and improves compliance."
+        },
+        {
+          "key": "C",
+          "text": "Replace all old documentation and equipment overnight without providing any prior training or explanation to the nursing team.",
+          "is_correct": false,
+          "rationale": "This approach is disruptive and unsafe, leading to potential errors."
+        },
+        {
+          "key": "D",
+          "text": "Only provide training to senior nurses, assuming they will cascade the new information down to their junior colleagues.",
+          "is_correct": false,
+          "rationale": "This 'cascade' method is unreliable and leads to inconsistent practice."
+        },
+        {
+          "key": "E",
+          "text": "Post the new guideline on the staff notice board and expect everyone to read and implement it independently.",
+          "is_correct": false,
+          "rationale": "Passive communication is ineffective for significant practice changes."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "You suspect a non-verbal, adult patient with learning disabilities is being financially exploited by a family member. What is your immediate priority action?",
+      "explanation": "The priority in any safeguarding concern is to follow established local and national policies. This involves documenting concerns factually and immediately escalating to the designated safeguarding lead, who can then coordinate the appropriate multi-agency response. Direct confrontation or delay increases risk.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Confront the family member directly with your suspicions and demand an explanation for their recent financial transactions.",
+          "is_correct": false,
+          "rationale": "Direct confrontation can escalate the situation and endanger the patient."
+        },
+        {
+          "key": "B",
+          "text": "Immediately document your concerns in the patient's notes and report them to your designated safeguarding lead as per policy.",
+          "is_correct": true,
+          "rationale": "This follows correct procedure, ensuring a safe and coordinated response."
+        },
+        {
+          "key": "C",
+          "text": "Wait to gather more definitive proof of the financial exploitation before you decide to take any official action.",
+          "is_correct": false,
+          "rationale": "Delaying a report can place the vulnerable adult at further risk."
+        },
+        {
+          "key": "D",
+          "text": "Discuss your concerns with other colleagues during a break to see if they have noticed anything similar happening.",
+          "is_correct": false,
+          "rationale": "This breaches confidentiality and is not the formal reporting channel."
+        },
+        {
+          "key": "E",
+          "text": "Contact the police directly to report a crime without first following internal safeguarding procedures and established protocols.",
+          "is_correct": false,
+          "rationale": "Internal procedures must be followed first unless there is immediate danger."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "As a senior nurse leading a root cause analysis for a medication error, what is the most critical initial step to ensure a just culture?",
+      "explanation": "A just culture in healthcare safety focuses on understanding systemic vulnerabilities that lead to errors, rather than blaming individuals. Creating a safe, blame-free environment is foundational for an effective root cause analysis and preventing future incidents.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately suspend the staff member involved in the error to prevent any further potential patient harm from occurring.",
+          "is_correct": false,
+          "rationale": "Suspending staff is punitive and discourages reporting."
+        },
+        {
+          "key": "B",
+          "text": "Focus the investigation primarily on identifying the individual responsible for the error to assign clear accountability for it.",
+          "is_correct": false,
+          "rationale": "Focusing on individual blame undermines a just culture."
+        },
+        {
+          "key": "C",
+          "text": "Establish a blame-free environment that encourages open reporting and focuses on systemic failures rather than individual culpability.",
+          "is_correct": true,
+          "rationale": "This promotes psychological safety and systemic analysis."
+        },
+        {
+          "key": "D",
+          "text": "Report the incident to the regulatory body before conducting any internal investigation to ensure full external transparency.",
+          "is_correct": false,
+          "rationale": "Internal investigation should precede external reporting to gather facts."
+        },
+        {
+          "key": "E",
+          "text": "Redesign the entire medication administration process immediately based on initial assumptions about what went wrong with it.",
+          "is_correct": false,
+          "rationale": "Changes should be evidence-based after the RCA is complete."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "You are caring for a patient with capacity refusing a life-saving transfusion due to religious beliefs, while their family demands intervention. What is your primary responsibility?",
+      "explanation": "The principle of patient autonomy is paramount. A competent adult has the legal and ethical right to refuse medical treatment, even if it results in death, provided they have been fully informed of the implications of their decision.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Follow the family's wishes as they are acting in the patient's best interests to preserve their life.",
+          "is_correct": false,
+          "rationale": "A competent patient's decision is paramount and legally overrides the wishes of the family, even with good intentions."
+        },
+        {
+          "key": "B",
+          "text": "Seek a court order to override the patient's decision, given the life-threatening nature of their condition.",
+          "is_correct": false,
+          "rationale": "Courts will not override the decision of a competent adult, as this would violate their fundamental right to autonomy."
+        },
+        {
+          "key": "C",
+          "text": "Administer the transfusion discreetly while the patient is sedated to avoid direct conflict with their stated wishes.",
+          "is_correct": false,
+          "rationale": "Administering treatment against a competent patient's will constitutes medical battery and is a severe breach of professional ethics."
+        },
+        {
+          "key": "D",
+          "text": "Respect the patient's autonomous decision after ensuring they are fully informed of all risks and consequences.",
+          "is_correct": true,
+          "rationale": "This action correctly upholds the fundamental ethical and legal principle of respecting a competent patient's autonomous choices."
+        },
+        {
+          "key": "E",
+          "text": "Arrange a meeting with a hospital chaplain to persuade the patient to reconsider their refusal of treatment.",
+          "is_correct": false,
+          "rationale": "While supportive, using a chaplain to persuade can be coercive and does not change the patient's right to refuse."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "When implementing a new evidence-based protocol for sepsis management on your unit, what is the most effective strategy to ensure successful adoption and sustained compliance?",
+      "explanation": "Successful change management in healthcare relies on staff engagement, peer leadership (champions), and a continuous quality improvement cycle of education, implementation, audit, and feedback. This fosters ownership and ensures the change is embedded in practice.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mandate the new protocol with strict disciplinary action for any staff members who fail to comply immediately.",
+          "is_correct": false,
+          "rationale": "Using threats of discipline creates a culture of fear and resistance, which is counterproductive to genuine practice improvement."
+        },
+        {
+          "key": "B",
+          "text": "Distribute a memo outlining the new protocol and expect staff to read and implement it independently.",
+          "is_correct": false,
+          "rationale": "Simply distributing a memo is a passive method that is highly ineffective for implementing complex clinical practice changes."
+        },
+        {
+          "key": "C",
+          "text": "Engage staff through education, identify clinical champions, and provide ongoing feedback and audit results to the team.",
+          "is_correct": true,
+          "rationale": "This collaborative approach fosters staff buy-in and ownership, which is essential for successful and sustained practice change."
+        },
+        {
+          "key": "D",
+          "text": "Only implement the protocol for a small group of select patients to minimize disruption to existing workflows.",
+          "is_correct": false,
+          "rationale": "Applying a new standard to only some patients creates inconsistent care and limits the potential safety benefits."
+        },
+        {
+          "key": "E",
+          "text": "Wait for other hospital units to successfully implement the protocol first before attempting it on your own.",
+          "is_correct": false,
+          "rationale": "Waiting for others to act first demonstrates a reactive, not proactive, approach to leadership and quality improvement."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "A post-operative patient suddenly develops hypotension, tachycardia, and a decreased level of consciousness. What is the most critical immediate nursing action to take?",
+      "explanation": "The patient's symptoms are indicative of shock (e.g., hypovolemic, septic), a life-threatening emergency. The priority is to activate emergency medical support immediately while starting initial interventions like ensuring a patent airway and assessing circulation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Complete a full head-to-toe assessment before calling for any assistance to gather all possible data first.",
+          "is_correct": false,
+          "rationale": "In a critical deterioration, delaying the call for expert help to perform a lengthy assessment is extremely dangerous."
+        },
+        {
+          "key": "B",
+          "text": "Immediately call for the rapid response team or medical emergency team while initiating basic life support measures.",
+          "is_correct": true,
+          "rationale": "Activating the emergency team is the fastest way to bring expert help to the bedside for a deteriorating patient."
+        },
+        {
+          "key": "C",
+          "text": "Administer a prescribed PRN analgesic, as post-operative pain can often cause significant changes in vital signs.",
+          "is_correct": false,
+          "rationale": "Analgesics, especially opioids, can worsen hypotension and are not the correct intervention for treating signs of shock."
+        },
+        {
+          "key": "D",
+          "text": "Document the changes in the patient's electronic health record and wait for the next scheduled physician rounds.",
+          "is_correct": false,
+          "rationale": "Waiting for routine rounds constitutes a critical and unacceptable delay in care for a patient in an emergency situation."
+        },
+        {
+          "key": "E",
+          "text": "Reassure the patient that these symptoms are normal after surgery and encourage them to take deep breaths.",
+          "is_correct": false,
+          "rationale": "Providing false reassurance is inappropriate for these critical symptoms and dangerously delays the necessary emergency medical response."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "You are mentoring a newly qualified nurse who consistently demonstrates poor time management and fails to complete tasks. What is the most appropriate initial supportive action?",
+      "explanation": "A supportive leadership approach involves identifying the root cause of the issue through open communication. Collaboratively creating an action plan empowers the junior nurse, fosters professional growth, and addresses performance issues constructively before escalating to formal disciplinary measures.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Report their poor performance directly to the unit manager to initiate a formal disciplinary process immediately.",
+          "is_correct": false,
+          "rationale": "Escalating immediately is punitive and bypasses crucial supportive steps that are necessary for professional development and growth."
+        },
+        {
+          "key": "B",
+          "text": "Take over their most difficult tasks to ensure patient care is not compromised by their inefficiency.",
+          "is_correct": false,
+          "rationale": "Doing the work for them is a disservice that prevents them from learning and developing essential core competencies."
+        },
+        {
+          "key": "C",
+          "text": "Arrange a private meeting to discuss their challenges, collaboratively develop a structured action plan, and offer support.",
+          "is_correct": true,
+          "rationale": "This collaborative and supportive approach is the most professional and effective way to manage performance and foster growth."
+        },
+        {
+          "key": "D",
+          "text": "Advise them to observe more experienced nurses and hope they learn better habits through simple passive observation.",
+          "is_correct": false,
+          "rationale": "Simple observation is a passive learning method and is insufficient for correcting specific, complex performance deficits like time management."
+        },
+        {
+          "key": "E",
+          "text": "Publicly correct their mistakes during handovers to make them aware of the team's expectations for performance.",
+          "is_correct": false,
+          "rationale": "Publicly correcting a colleague is highly unprofessional, damages morale, and severely undermines their professional confidence and trust."
+        }
+      ]
+    }
+  ]
+}

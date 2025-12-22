@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "A pregnant woman at 10 weeks gestation reports persistent nausea and vomiting. What initial advice should the midwife provide?",
+      "explanation": "Initial management for mild to moderate nausea and vomiting in early pregnancy often involves dietary and lifestyle adjustments, such as small, frequent meals. This approach helps manage symptoms effectively and is a common first-line recommendation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Advise her to try small, frequent meals and avoid trigger foods to manage symptoms effectively.",
+          "is_correct": true,
+          "rationale": "Small, frequent meals and avoiding triggers are first-line advice."
+        },
+        {
+          "key": "B",
+          "text": "Recommend immediate admission to the hospital for intravenous fluid administration and observation.",
+          "is_correct": false,
+          "rationale": "This is for severe cases, not initial advice for persistent symptoms."
+        },
+        {
+          "key": "C",
+          "text": "Suggest she completely fast for 24 hours to allow her digestive system to rest and recover.",
+          "is_correct": false,
+          "rationale": "Fasting is not recommended and can worsen symptoms or cause dehydration."
+        },
+        {
+          "key": "D",
+          "text": "Instruct her to take over-the-counter antiemetic medication without consulting a general practitioner.",
+          "is_correct": false,
+          "rationale": "Self-medication without professional advice is generally not recommended."
+        },
+        {
+          "key": "E",
+          "text": "Tell her that this is a normal part of pregnancy and no specific intervention is usually required.",
+          "is_correct": false,
+          "rationale": "While common, supportive advice is still required for persistent symptoms."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "During active labor, a primigravida's contractions become irregular and less intense. What is the most appropriate initial action for the midwife?",
+      "explanation": "Irregular contractions might indicate a need for comfort measures and position changes. Encouraging ambulation and offering support are non-pharmacological interventions that can help optimize labor progression before considering medical augmentation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Administer oxytocin immediately to augment labor without further assessment or discussion.",
+          "is_correct": false,
+          "rationale": "Oxytocin is a medical intervention and not the first step for irregular contractions."
+        },
+        {
+          "key": "B",
+          "text": "Encourage ambulation, repositioning, and offer emotional support to promote labor progression.",
+          "is_correct": true,
+          "rationale": "Non-pharmacological methods like ambulation and repositioning are often tried first."
+        },
+        {
+          "key": "C",
+          "text": "Prepare for an immediate emergency C-section due to suspected labor dystocia and fetal distress.",
+          "is_correct": false,
+          "rationale": "This is an extreme measure without initial assessment for irregular contractions."
+        },
+        {
+          "key": "D",
+          "text": "Advise the woman to rest completely in bed and avoid any movement to conserve her energy.",
+          "is_correct": false,
+          "rationale": "Resting completely may hinder labor progression; movement is often beneficial."
+        },
+        {
+          "key": "E",
+          "text": "Perform an urgent vaginal examination to check for cervical dilatation and fetal station changes.",
+          "is_correct": false,
+          "rationale": "While part of assessment, other non-invasive actions come first."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "A newborn infant, 30 minutes old, exhibits central cyanosis. What is the midwife's most immediate and appropriate response?",
+      "explanation": "Central cyanosis in a newborn indicates hypoxemia requiring immediate intervention. Administering supplemental oxygen and assessing respiratory effort is the appropriate first step to improve oxygenation and prevent further compromise.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Document the observation and continue routine monitoring, as this is often a transient finding.",
+          "is_correct": false,
+          "rationale": "Central cyanosis is not transient and requires immediate intervention."
+        },
+        {
+          "key": "B",
+          "text": "Initiate bag-mask ventilation with room air and prepare for potential further resuscitation.",
+          "is_correct": false,
+          "rationale": "Bag-mask ventilation is for apnoea or ineffective breathing, not initial central cyanosis."
+        },
+        {
+          "key": "C",
+          "text": "Administer supplemental oxygen via a face mask and assess the infant's respiratory effort.",
+          "is_correct": true,
+          "rationale": "Central cyanosis requires immediate oxygenation and assessment of respiratory effort."
+        },
+        {
+          "key": "D",
+          "text": "Immediately transfer the infant to the neonatal intensive care unit without any initial intervention.",
+          "is_correct": false,
+          "rationale": "Initial stabilization should occur before transfer, if feasible."
+        },
+        {
+          "key": "E",
+          "text": "Vigorously rub the infant's back and soles of the feet to stimulate crying and improve oxygenation.",
+          "is_correct": false,
+          "rationale": "Stimulation is for mild respiratory depression, not central cyanosis."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "A new mother is struggling with breastfeeding and expresses feelings of inadequacy. How should the midwife best support her?",
+      "explanation": "Providing empathetic reassurance and practical, hands-on support is crucial for new mothers struggling with breastfeeding. This approach validates her feelings while offering concrete help and building her confidence.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Provide detailed instructions on formula feeding options to alleviate her immediate stress and concern.",
+          "is_correct": false,
+          "rationale": "While an option, the initial step should be to support breastfeeding efforts."
+        },
+        {
+          "key": "B",
+          "text": "Reassure her that many women struggle initially and offer practical, non-judgmental breastfeeding support.",
+          "is_correct": true,
+          "rationale": "Empathetic support and practical guidance are key for new mothers struggling with breastfeeding."
+        },
+        {
+          "key": "C",
+          "text": "Advise her that she must continue trying, as breastfeeding is undeniably the only healthy option for her baby.",
+          "is_correct": false,
+          "rationale": "This approach is judgmental and unsupportive, potentially increasing distress."
+        },
+        {
+          "key": "D",
+          "text": "Suggest that her partner take over all feeding responsibilities to reduce the mother's current burden.",
+          "is_correct": false,
+          "rationale": "Partners can support, but direct feeding support for the mother is often needed."
+        },
+        {
+          "key": "E",
+          "text": "Refer her immediately to a specialist lactation consultant without attempting any initial support or guidance.",
+          "is_correct": false,
+          "rationale": "Midwives should offer initial support before immediate referral, if appropriate."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What is the primary reason for strictly adhering to hand hygiene protocols before and after every patient contact?",
+      "explanation": "Hand hygiene is the single most effective measure to prevent the spread of infections in healthcare settings. Adherence protects both patients from acquiring infections and staff from becoming carriers or infected themselves.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To comply with hospital administrative policies, which often mandate these specific hygiene practices.",
+          "is_correct": false,
+          "rationale": "Compliance is a reason, but not the primary underlying purpose of the protocol."
+        },
+        {
+          "key": "B",
+          "text": "To reduce the risk of healthcare-associated infections for both patients and healthcare professionals.",
+          "is_correct": true,
+          "rationale": "Hand hygiene is crucial for preventing healthcare-associated infections in all clinical settings."
+        },
+        {
+          "key": "C",
+          "text": "To maintain a professional appearance and demonstrate commitment to high standards of care delivery.",
+          "is_correct": false,
+          "rationale": "Professionalism is a secondary benefit, not the core reason for infection control."
+        },
+        {
+          "key": "D",
+          "text": "To prevent cross-contamination of medical equipment and ensure its prolonged functional lifespan.",
+          "is_correct": false,
+          "rationale": "While related, the primary focus is patient and staff safety from infection."
+        },
+        {
+          "key": "E",
+          "text": "To quickly remove visible dirt and debris from hands, ensuring a clean and sterile working environment.",
+          "is_correct": false,
+          "rationale": "Hand hygiene targets microorganisms, not just visible dirt, for a safe environment."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "During a woman's initial antenatal appointment, which key piece of information is most crucial for the midwife to gather first?",
+      "explanation": "Understanding a woman's previous obstetric history is fundamental for identifying potential risks, planning appropriate care, and establishing a baseline for the current pregnancy. It informs early risk assessment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The woman's detailed preferences for her birth plan and pain management choices.",
+          "is_correct": false,
+          "rationale": "Birth preferences are important but not the immediate priority for initial risk assessment."
+        },
+        {
+          "key": "B",
+          "text": "A comprehensive family history of any known genetic conditions and various hereditary diseases.",
+          "is_correct": false,
+          "rationale": "Family history is important but secondary to immediate obstetric risk factors."
+        },
+        {
+          "key": "C",
+          "text": "Her current medication list, known allergies, and any recent immunizations received.",
+          "is_correct": false,
+          "rationale": "Medication and allergy information is vital but often gathered after obstetric history."
+        },
+        {
+          "key": "D",
+          "text": "Her previous obstetric history, including any complications or previous pregnancies.",
+          "is_correct": true,
+          "rationale": "Previous obstetric history is crucial for early risk assessment and care planning."
+        },
+        {
+          "key": "E",
+          "text": "Details about her current social support network and home living situation.",
+          "is_correct": false,
+          "rationale": "Social support is important for holistic care but not the first clinical priority."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "A pregnant woman in her second trimester reports experiencing frequent heartburn. What initial advice should the midwife offer?",
+      "explanation": "Heartburn in pregnancy is common due to hormonal changes and uterine pressure. Lifestyle modifications, such as dietary adjustments and eating patterns, are typically the first-line recommendations to alleviate symptoms.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Recommend the immediate use of over-the-counter antacids without any further clinical assessment of her symptoms.",
+          "is_correct": false,
+          "rationale": "Pharmacological interventions are usually considered after lifestyle changes."
+        },
+        {
+          "key": "B",
+          "text": "Suggest eating smaller, more frequent meals and avoiding spicy or fatty foods.",
+          "is_correct": true,
+          "rationale": "Dietary changes are the safest and most effective initial advice for heartburn."
+        },
+        {
+          "key": "C",
+          "text": "Advise her to lie down immediately after eating to aid digestion.",
+          "is_correct": false,
+          "rationale": "Lying down after eating can worsen heartburn symptoms by allowing reflux."
+        },
+        {
+          "key": "D",
+          "text": "Instruct her to drink large amounts of water during her meals.",
+          "is_correct": false,
+          "rationale": "Drinking large amounts with meals can distend the stomach and worsen reflux."
+        },
+        {
+          "key": "E",
+          "text": "Recommend a prompt referral to a gastroenterologist for detailed investigation.",
+          "is_correct": false,
+          "rationale": "Referral is usually not the initial step for common pregnancy heartburn."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "During active labour, a midwife observes the fetal heart rate is consistently below 110 beats per minute. What is the most appropriate immediate action?",
+      "explanation": "A sustained fetal heart rate below 110 bpm (bradycardia) can indicate fetal distress and requires urgent medical attention. Prompt escalation ensures timely intervention and safeguards fetal well-being.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Encourage the labouring woman to change positions frequently to improve comfort.",
+          "is_correct": false,
+          "rationale": "Position changes are helpful but not sufficient for sustained fetal bradycardia."
+        },
+        {
+          "key": "B",
+          "text": "Immediately call for senior medical assistance and prepare for potential intervention.",
+          "is_correct": true,
+          "rationale": "Sustained fetal bradycardia indicates distress requiring urgent medical review."
+        },
+        {
+          "key": "C",
+          "text": "Administer supplemental oxygen to the mother via a face mask.",
+          "is_correct": false,
+          "rationale": "Oxygen may be part of intervention but not the sole immediate action without escalation."
+        },
+        {
+          "key": "D",
+          "text": "Document the finding thoroughly and continue routine monitoring for 30 minutes.",
+          "is_correct": false,
+          "rationale": "Delaying escalation for sustained bradycardia could compromise fetal safety."
+        },
+        {
+          "key": "E",
+          "text": "Immediately increase the intravenous fluid rate in an attempt to improve overall placental perfusion.",
+          "is_correct": false,
+          "rationale": "Increasing fluids might be a measure, but escalation is the priority for severe bradycardia."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Following a vaginal birth, what is the midwife's primary focus during the immediate postpartum period for the mother?",
+      "explanation": "The immediate postpartum period carries a significant risk of postpartum haemorrhage. Close monitoring of uterine tone, lochia, and vital signs is paramount to detect and manage this life-threatening complication promptly.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Providing extensive breastfeeding education and support to the new mother.",
+          "is_correct": false,
+          "rationale": "Breastfeeding support is important, but maternal safety is the immediate priority."
+        },
+        {
+          "key": "B",
+          "text": "Monitoring for signs of postpartum haemorrhage and assessing uterine involution.",
+          "is_correct": true,
+          "rationale": "Preventing and detecting postpartum haemorrhage is the most critical immediate task."
+        },
+        {
+          "key": "C",
+          "text": "Assisting with the newborn's first bath and initial skin-to-skin contact.",
+          "is_correct": false,
+          "rationale": "Newborn care is important, but maternal stability takes precedence immediately post-birth."
+        },
+        {
+          "key": "D",
+          "text": "Begin discussing future contraception options and various family planning methods with the mother.",
+          "is_correct": false,
+          "rationale": "Contraception discussions are for later, after the mother's immediate recovery."
+        },
+        {
+          "key": "E",
+          "text": "Focus on arranging a comprehensive social care assessment for the new family unit.",
+          "is_correct": false,
+          "rationale": "Social care assessments are important but not the primary immediate postpartum focus."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "A new mother expresses significant anxiety about caring for her newborn at home. How should the midwife best support her concerns?",
+      "explanation": "Empowering new mothers with practical skills and confidence is crucial. Demonstrating basic care and offering hands-on guidance helps alleviate anxiety and prepares them for independent care at home.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Provide a detailed list of local support groups and online resources for new parents.",
+          "is_correct": false,
+          "rationale": "Resources are helpful, but direct practical support is often more effective initially."
+        },
+        {
+          "key": "B",
+          "text": "Reassure her that all new mothers feel this way initially and it will pass soon.",
+          "is_correct": false,
+          "rationale": "Reassurance alone may not address the underlying anxiety or lack of skills."
+        },
+        {
+          "key": "C",
+          "text": "Demonstrate basic newborn care techniques and offer practical, hands-on guidance.",
+          "is_correct": true,
+          "rationale": "Practical demonstration and guidance build confidence and reduce anxiety effectively."
+        },
+        {
+          "key": "D",
+          "text": "Encourage her partner or family members to take on more responsibilities.",
+          "is_correct": false,
+          "rationale": "While helpful, this doesn't directly empower the mother with her own skills."
+        },
+        {
+          "key": "E",
+          "text": "Carefully document her expressed feelings and then schedule a routine follow-up appointment soon.",
+          "is_correct": false,
+          "rationale": "Documentation and follow-up are important, but immediate practical support is needed."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is a crucial initial step when conducting a woman's first antenatal assessment during her pregnancy journey?",
+      "explanation": "A comprehensive health history and risk assessment are foundational for tailoring individualised antenatal care, identifying potential complications early, and ensuring the best outcomes for mother and baby.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately schedule an induction of labor for week 38 without further clinical assessment.",
+          "is_correct": false,
+          "rationale": "Scheduling induction is premature and not an initial assessment step."
+        },
+        {
+          "key": "B",
+          "text": "Conduct a comprehensive health history, lifestyle review, and initial risk assessment.",
+          "is_correct": true,
+          "rationale": "This is essential for individualised care and identifying risks early."
+        },
+        {
+          "key": "C",
+          "text": "Advise immediate cessation of all physical activity, even if previously active and healthy.",
+          "is_correct": false,
+          "rationale": "Cessation of all activity is generally not advised without specific indication."
+        },
+        {
+          "key": "D",
+          "text": "Prescribe a broad-spectrum antibiotic without any specific indication or investigation.",
+          "is_correct": false,
+          "rationale": "Antibiotics are inappropriate without a clear medical indication."
+        },
+        {
+          "key": "E",
+          "text": "Focus solely on measuring fundal height and estimating gestational age at this first visit.",
+          "is_correct": false,
+          "rationale": "Fundal height is important, but too narrow a focus for an initial assessment."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "How should a midwife best advise a pregnant woman experiencing persistent heartburn and indigestion during her second trimester?",
+      "explanation": "Lifestyle modifications like eating smaller, frequent meals and avoiding trigger foods are the safest and most effective first-line interventions for heartburn in pregnancy, minimising medication use.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Recommend taking over-the-counter antacids immediately after every single meal without trying lifestyle changes first.",
+          "is_correct": false,
+          "rationale": "Lifestyle changes should be tried before frequent medication use."
+        },
+        {
+          "key": "B",
+          "text": "Suggest eating smaller, more frequent meals and avoiding spicy, fatty, or acidic foods.",
+          "is_correct": true,
+          "rationale": "Dietary and lifestyle changes are key first-line management strategies."
+        },
+        {
+          "key": "C",
+          "text": "Advise her to lie down immediately after eating to aid digestion and comfort.",
+          "is_correct": false,
+          "rationale": "Lying down after eating can worsen heartburn symptoms."
+        },
+        {
+          "key": "D",
+          "text": "Instruct her to consume large quantities of fizzy drinks to help settle her stomach.",
+          "is_correct": false,
+          "rationale": "Fizzy drinks can exacerbate heartburn symptoms due to gas."
+        },
+        {
+          "key": "E",
+          "text": "Refer her directly to a gastroenterologist for immediate specialist consultation.",
+          "is_correct": false,
+          "rationale": "Specialist referral is usually not necessary for typical pregnancy heartburn."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Which combination of signs and symptoms should most alert a midwife to potential pre-eclampsia in a pregnant woman?",
+      "explanation": "Elevated blood pressure, proteinuria, and new-onset headaches or visual disturbances are the classic diagnostic criteria and warning signs for pre-eclampsia, requiring urgent assessment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mild ankle swelling, occasional backache, and a slight increase in appetite.",
+          "is_correct": false,
+          "rationale": "These are common, non-specific pregnancy discomforts."
+        },
+        {
+          "key": "B",
+          "text": "Elevated blood pressure, proteinuria, and new onset headaches or visual disturbances.",
+          "is_correct": true,
+          "rationale": "These are the key indicators for diagnosing and monitoring pre-eclampsia."
+        },
+        {
+          "key": "C",
+          "text": "Frequent urination, mild nausea, and slight breast tenderness in the third trimester.",
+          "is_correct": false,
+          "rationale": "These are common symptoms throughout pregnancy, not specific to pre-eclampsia."
+        },
+        {
+          "key": "D",
+          "text": "Decreased fetal movements, severe abdominal pain, and any amount of vaginal bleeding.",
+          "is_correct": false,
+          "rationale": "These indicate other serious obstetric emergencies, not pre-eclampsia."
+        },
+        {
+          "key": "E",
+          "text": "Persistent fatigue, mild dizziness upon standing, and occasional leg cramps.",
+          "is_correct": false,
+          "rationale": "These are common pregnancy discomforts, not specific to pre-eclampsia."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What is the most critical immediate action a midwife should take following the birth of a healthy term newborn?",
+      "explanation": "Ensuring a clear airway and maintaining the newborn's warmth, often through skin-to-skin contact, are paramount for successful adaptation to extrauterine life and preventing hypothermia.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Administer a vitamin K injection and conduct a full physical examination of the baby.",
+          "is_correct": false,
+          "rationale": "These are important, but not the absolute first critical steps."
+        },
+        {
+          "key": "B",
+          "text": "Ensure airway clearance and maintain warmth through immediate skin-to-skin contact.",
+          "is_correct": true,
+          "rationale": "Maintaining airway and warmth are crucial for newborn transition."
+        },
+        {
+          "key": "C",
+          "text": "Weigh the baby accurately and record all anthropometric measurements precisely.",
+          "is_correct": false,
+          "rationale": "Measurements are important, but not the most immediate life-sustaining action."
+        },
+        {
+          "key": "D",
+          "text": "Immediately begin explaining newborn feeding schedules and techniques to the parents.",
+          "is_correct": false,
+          "rationale": "Parent education is vital, but secondary to immediate physiological needs."
+        },
+        {
+          "key": "E",
+          "text": "Document the precise time of birth and assign the initial Apgar score.",
+          "is_correct": false,
+          "rationale": "Documentation and scoring are important, but follow immediate care actions."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "How can a midwife best support and communicate effectively with new parents experiencing significant anxiety about their newborn's health?",
+      "explanation": "Active listening, providing clear and factual information, and validating parental feelings demonstrate empathy and build trust, which are essential for effective support during anxious times.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Provide minimal information, assuming they are too overwhelmed to understand complex details.",
+          "is_correct": false,
+          "rationale": "Minimal information can increase anxiety and distrust."
+        },
+        {
+          "key": "B",
+          "text": "Reassure them with general statements, avoiding specific details about the baby's condition.",
+          "is_correct": false,
+          "rationale": "General reassurance without details can be dismissive and unhelpful."
+        },
+        {
+          "key": "C",
+          "text": "Listen actively, offer clear, factual information, and validate their feelings and concerns.",
+          "is_correct": true,
+          "rationale": "This approach builds trust and empowers parents with understanding."
+        },
+        {
+          "key": "D",
+          "text": "Refer them immediately to a mental health specialist without further discussion.",
+          "is_correct": false,
+          "rationale": "Immediate referral without discussion may feel dismissive and is often not the first step."
+        },
+        {
+          "key": "E",
+          "text": "Instruct them to research their concerns online to find answers independently.",
+          "is_correct": false,
+          "rationale": "Directing parents to potentially unreliable online sources is unprofessional."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "When a woman in early labour presents with regular contractions, what is the most appropriate initial assessment a midwife should perform?",
+      "explanation": "A comprehensive initial assessment is crucial to establish baseline health, identify risk factors, and determine the progress of labour, guiding subsequent care decisions effectively.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately administer pain relief medication to ensure the woman's comfort and relaxation during this early stage.",
+          "is_correct": false,
+          "rationale": "Pain relief is considered after a thorough assessment, not immediately."
+        },
+        {
+          "key": "B",
+          "text": "Conduct a full maternal and fetal assessment, including vital signs, abdominal palpation, and fetal heart rate monitoring.",
+          "is_correct": true,
+          "rationale": "Full assessment establishes baseline and identifies potential risks."
+        },
+        {
+          "key": "C",
+          "text": "Advise the woman to return home and rest until her contractions become significantly more intense and frequent.",
+          "is_correct": false,
+          "rationale": "Returning home without assessment could delay necessary care."
+        },
+        {
+          "key": "D",
+          "text": "Focus solely on documenting her medical history without performing any physical examinations at this point.",
+          "is_correct": false,
+          "rationale": "Documentation is important, but physical assessment is also vital."
+        },
+        {
+          "key": "E",
+          "text": "Prepare the delivery room immediately, assuming rapid progression due to the presence of regular contractions.",
+          "is_correct": false,
+          "rationale": "Early labour does not always indicate rapid progression; assessment is key."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "A primigravida client expresses significant anxiety about childbirth during an antenatal appointment. How should the midwife best respond?",
+      "explanation": "Active listening and empathetic communication are fundamental to building trust and addressing a woman's emotional needs, enabling effective support and education.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reassure her that all women experience anxiety and it is a normal part of the pregnancy journey.",
+          "is_correct": false,
+          "rationale": "While true, this dismisses her specific feelings without addressing them."
+        },
+        {
+          "key": "B",
+          "text": "Provide her with a comprehensive list of all potential complications that could arise during labour.",
+          "is_correct": false,
+          "rationale": "This would likely increase anxiety, not alleviate it."
+        },
+        {
+          "key": "C",
+          "text": "Actively listen to her specific fears, validate her feelings, and offer evidence-based information and coping strategies.",
+          "is_correct": true,
+          "rationale": "Listening, validating, and educating empowers the woman to cope."
+        },
+        {
+          "key": "D",
+          "text": "Suggest she speaks to her partner about her worries, as emotional support is primarily a family responsibility.",
+          "is_correct": false,
+          "rationale": "Midwives have a professional responsibility to provide emotional support."
+        },
+        {
+          "key": "E",
+          "text": "Change the subject to a more positive aspect of pregnancy to distract her from her current worries.",
+          "is_correct": false,
+          "rationale": "Ignoring her fears can make her feel unheard and unsupported."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is a key indicator of potential pre-eclampsia during a routine antenatal check-up that requires immediate attention?",
+      "explanation": "Pre-eclampsia is a serious pregnancy complication. Identifying high blood pressure combined with proteinuria is crucial for early diagnosis and management to prevent adverse outcomes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reports of occasional mild headaches and slight swelling in the ankles, which are common pregnancy discomforts.",
+          "is_correct": false,
+          "rationale": "These symptoms alone are common and not definitive for pre-eclampsia."
+        },
+        {
+          "key": "B",
+          "text": "Consistent low blood pressure readings throughout the pregnancy, which is generally considered healthy.",
+          "is_correct": false,
+          "rationale": "Low blood pressure is not indicative of pre-eclampsia; high blood pressure is."
+        },
+        {
+          "key": "C",
+          "text": "Elevated blood pressure (e.g., 140/90 mmHg or higher) combined with new onset proteinuria in the urine.",
+          "is_correct": true,
+          "rationale": "High blood pressure and proteinuria are classic signs of pre-eclampsia."
+        },
+        {
+          "key": "D",
+          "text": "Experiencing frequent Braxton Hicks contractions, which are normal physiological occurrences in late pregnancy.",
+          "is_correct": false,
+          "rationale": "Braxton Hicks contractions are normal and not a sign of pre-eclampsia."
+        },
+        {
+          "key": "E",
+          "text": "Significant weight gain exceeding the recommended guidelines for the specific gestational age.",
+          "is_correct": false,
+          "rationale": "While concerning, weight gain alone is not a definitive indicator of pre-eclampsia."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Following a normal vaginal birth, what is a crucial piece of postpartum education a midwife should provide to the new mother?",
+      "explanation": "Educating new mothers on recognizing signs of postpartum complications, such as infection or hemorrhage, is vital for their health and safety after discharge.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Detailed instructions on preparing complex gourmet meals to ensure adequate nutritional intake for recovery.",
+          "is_correct": false,
+          "rationale": "While nutrition is important, complex meal prep is not a priority postpartum education."
+        },
+        {
+          "key": "B",
+          "text": "Information about the normal process of uterine involution and recognition of signs of postpartum hemorrhage or infection.",
+          "is_correct": true,
+          "rationale": "Understanding normal recovery and red flags is critical for postpartum safety."
+        },
+        {
+          "key": "C",
+          "text": "A comprehensive list of local gyms and fitness classes to encourage immediate return to pre-pregnancy weight.",
+          "is_correct": false,
+          "rationale": "Immediate strenuous exercise is not recommended; recovery is the priority."
+        },
+        {
+          "key": "D",
+          "text": "Strict guidelines on limiting all social interaction for the first six weeks to prevent exposure to germs.",
+          "is_correct": false,
+          "rationale": "Social isolation can negatively impact mental health; balance is key."
+        },
+        {
+          "key": "E",
+          "text": "Recommendations for purchasing expensive baby gadgets to simplify newborn care tasks and routines.",
+          "is_correct": false,
+          "rationale": "Focus should be on essential care and recovery, not consumer products."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "A midwife observes a colleague consistently failing to complete patient documentation accurately and on time. What is the most professional course of action?",
+      "explanation": "Maintaining accurate and timely documentation is a professional responsibility. Addressing concerns directly and then escalating if needed upholds professional standards and patient safety.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ignore the issue, assuming the colleague will eventually improve their documentation practices independently.",
+          "is_correct": false,
+          "rationale": "Ignoring the issue could compromise patient safety and professional standards."
+        },
+        {
+          "key": "B",
+          "text": "Complete the missing documentation for the colleague to ensure all records are up-to-date and accurate.",
+          "is_correct": false,
+          "rationale": "Completing records for others is unethical and could lead to inaccuracies."
+        },
+        {
+          "key": "C",
+          "text": "Discuss the concerns directly and privately with the colleague, offering support and reminding them of professional standards.",
+          "is_correct": true,
+          "rationale": "Direct, private discussion is the initial, professional step to resolve issues."
+        },
+        {
+          "key": "D",
+          "text": "Report the colleague immediately to the professional regulatory body without any prior internal discussion.",
+          "is_correct": false,
+          "rationale": "Immediate external reporting is usually an escalation, not a first step."
+        },
+        {
+          "key": "E",
+          "text": "Publicly confront the colleague during a team meeting to highlight the importance of proper documentation.",
+          "is_correct": false,
+          "rationale": "Public confrontation is unprofessional and can damage team dynamics."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "When investigating a sudden outbreak of a rare foodborne illness, which epidemiological study design is most efficient for identifying the source quickly?",
+      "explanation": "A case-control study is ideal for rare diseases or outbreaks because it starts with known cases and works backward to identify common exposures, making it faster and more efficient than following a large cohort forward in time.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A case-control study comparing exposures between ill individuals and a comparable group of well individuals.",
+          "is_correct": true,
+          "rationale": "This design is efficient for rare diseases and outbreaks."
+        },
+        {
+          "key": "B",
+          "text": "A prospective cohort study that follows a large, diverse population over a period of several years.",
+          "is_correct": false,
+          "rationale": "This is too slow and inefficient for an acute outbreak investigation."
+        },
+        {
+          "key": "C",
+          "text": "A randomized controlled trial to test the effectiveness of a new preventative treatment among volunteers.",
+          "is_correct": false,
+          "rationale": "This is an interventional study, not one for identifying an outbreak's source."
+        },
+        {
+          "key": "D",
+          "text": "A cross-sectional survey measuring the current prevalence of various dietary habits across the entire community.",
+          "is_correct": false,
+          "rationale": "This provides a snapshot in time but is weak at establishing a causal link."
+        },
+        {
+          "key": "E",
+          "text": "A descriptive analysis of hospital admission records for similar illnesses over the past five years.",
+          "is_correct": false,
+          "rationale": "This provides historical context but does not identify the specific current source."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "A community has significantly low uptake of a new adult vaccine. What is the most effective initial public health strategy to address this issue?",
+      "explanation": "Effective health promotion begins with understanding the target audience. Identifying specific barriers, concerns, and trusted information channels through direct engagement allows for the development of a tailored and impactful intervention strategy.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately launching a large-scale, generic media campaign using posters and television advertisements to raise awareness.",
+          "is_correct": false,
+          "rationale": "A generic campaign may not address the specific local barriers or concerns."
+        },
+        {
+          "key": "B",
+          "text": "Conducting focus groups and surveys with community members to understand their specific barriers and concerns.",
+          "is_correct": true,
+          "rationale": "This approach gathers essential data to create a targeted and effective strategy."
+        },
+        {
+          "key": "C",
+          "text": "Recommending that local government officials mandate the vaccine for all eligible adults to ensure compliance.",
+          "is_correct": false,
+          "rationale": "Mandates are an escalatory step and can create significant community backlash."
+        },
+        {
+          "key": "D",
+          "text": "Distributing dense informational pamphlets written by national health experts to every household in the area.",
+          "is_correct": false,
+          "rationale": "This passive approach is often ineffective and may not be trusted or understood."
+        },
+        {
+          "key": "E",
+          "text": "Offering small financial incentives to the first one hundred people who receive the vaccination.",
+          "is_correct": false,
+          "rationale": "Incentives may not address underlying mistrust and are often not a sustainable solution."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What is the primary role of a public health officer when contributing to the development of new local health and social care policies?",
+      "explanation": "The core function of a public health officer in policy development is to be an evidence broker. They analyze data and research to provide objective, evidence-based recommendations that inform effective and equitable policy decisions made by elected officials.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To personally draft the final legislative text for the new policy and present it for a vote.",
+          "is_correct": false,
+          "rationale": "This is the role of legislators or legal counsel, not a public health officer."
+        },
+        {
+          "key": "B",
+          "text": "To secure the necessary funding for the policy's implementation primarily from private sector corporate donors.",
+          "is_correct": false,
+          "rationale": "Securing funding is a separate function, often handled by senior management or finance departments."
+        },
+        {
+          "key": "C",
+          "text": "To provide robust, evidence-based recommendations by analysing local health data, research, and community needs.",
+          "is_correct": true,
+          "rationale": "This is the core function, ensuring policy is informed by sound public health science."
+        },
+        {
+          "key": "D",
+          "text": "To lead the enforcement division that will be responsible for ensuring public compliance with the new policy.",
+          "is_correct": false,
+          "rationale": "Policy development and enforcement are typically separate roles within public administration."
+        },
+        {
+          "key": "E",
+          "text": "To act as the sole public spokesperson for the policy, regardless of the scientific evidence supporting it.",
+          "is_correct": false,
+          "rationale": "The role is to advocate for evidence-based policy, not to be a political spokesperson."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "You receive a large surveillance dataset on influenza cases. What is the most critical first step before conducting any statistical analysis or drawing conclusions?",
+      "explanation": "Data quality is paramount in public health analysis. Before any interpretation, the dataset must be cleaned and validated to handle errors, duplicates, and missing values. This ensures that any subsequent analysis is accurate and reliable.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately creating complex data visualizations and charts to present preliminary findings to key stakeholders.",
+          "is_correct": false,
+          "rationale": "Visualizing uncleaned data can be misleading and lead to incorrect conclusions."
+        },
+        {
+          "key": "B",
+          "text": "Applying advanced predictive modeling algorithms to the raw data to forecast future outbreak trends.",
+          "is_correct": false,
+          "rationale": "Models are only as good as the data they are trained on; raw data is unreliable."
+        },
+        {
+          "key": "C",
+          "text": "Publishing the unverified dataset on a public portal to promote transparency and open data principles.",
+          "is_correct": false,
+          "rationale": "Publishing raw data is irresponsible as it may contain errors and be misinterpreted."
+        },
+        {
+          "key": "D",
+          "text": "Performing thorough data cleaning and validation to identify errors, handle missing values, and ensure consistency.",
+          "is_correct": true,
+          "rationale": "This foundational step ensures the integrity and reliability of all subsequent analyses."
+        },
+        {
+          "key": "E",
+          "text": "Beginning to write the final report summary while the data is being processed by another team.",
+          "is_correct": false,
+          "rationale": "Conclusions cannot be drawn before the data has been properly cleaned and analyzed."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "During a health campaign, influential community leaders advocate for a traditional practice that contradicts current scientific evidence. How should you respond professionally?",
+      "explanation": "Effective public health practice requires building trust and collaboration. This involves respecting cultural perspectives while clearly communicating scientific evidence. The goal is to find common ground and develop solutions that are both culturally acceptable and protect community health.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately dismiss their views as unscientific and proceed with the original campaign plan without any adjustments.",
+          "is_correct": false,
+          "rationale": "This approach is confrontational and likely to alienate key community partners."
+        },
+        {
+          "key": "B",
+          "text": "Abandon the evidence-based approach entirely to gain the community leaders' full support and cooperation.",
+          "is_correct": false,
+          "rationale": "This compromises professional ethics and the health of the community."
+        },
+        {
+          "key": "C",
+          "text": "Acknowledge their perspective, present the scientific evidence clearly, and seek a collaborative solution integrating cultural values.",
+          "is_correct": true,
+          "rationale": "This fosters partnership and seeks a solution that is both effective and respectful."
+        },
+        {
+          "key": "D",
+          "text": "Formally report the community leaders to a higher authority for spreading potentially harmful misinformation.",
+          "is_correct": false,
+          "rationale": "This is an overly aggressive step that would damage community relationships."
+        },
+        {
+          "key": "E",
+          "text": "Halt the entire health campaign indefinitely until the community leaders publicly change their stated position.",
+          "is_correct": false,
+          "rationale": "This leads to inaction and fails the duty to protect public health."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "When evaluating a community-wide smoking cessation program, which study design is most effective for determining its direct impact on quitting rates while controlling for confounding variables?",
+      "explanation": "A quasi-experimental design with a control group is superior because it helps isolate the program's effect from other external factors that could influence smoking rates, providing stronger evidence of causality than other listed methods.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A cross-sectional survey administered to residents before and after the program's implementation to measure smoking prevalence.",
+          "is_correct": false,
+          "rationale": "Lacks a control group, making it difficult to attribute changes solely to the program."
+        },
+        {
+          "key": "B",
+          "text": "A series of qualitative focus groups with program participants to gather anecdotal evidence about their experiences.",
+          "is_correct": false,
+          "rationale": "Provides qualitative insights but cannot quantitatively measure program impact or establish causality."
+        },
+        {
+          "key": "C",
+          "text": "A quasi-experimental design comparing smoking rates in the intervention community with a similar, non-participating control community.",
+          "is_correct": true,
+          "rationale": "This design effectively isolates the program's impact by comparing it to a control group."
+        },
+        {
+          "key": "D",
+          "text": "A retrospective cohort study analysing historical hospital admission data for smoking-related illnesses in the area.",
+          "is_correct": false,
+          "rationale": "This measures long-term outcomes but doesn't directly evaluate the cessation program's immediate impact."
+        },
+        {
+          "key": "E",
+          "text": "A simple pre-test/post-test design measuring participants' knowledge about smoking risks before and after the program.",
+          "is_correct": false,
+          "rationale": "Measures knowledge change, not the primary outcome of behaviour change, which is quitting smoking."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "During the initial phase of a foodborne illness outbreak, what is the most critical immediate communication objective for a public health officer?",
+      "explanation": "The immediate priority in an outbreak is to prevent further illness. Providing clear, actionable advice on prevention and symptom recognition empowers the public to protect their health while the investigation continues.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reassuring the public that the situation is fully under control to prevent widespread panic and anxiety.",
+          "is_correct": false,
+          "rationale": "Premature reassurance can damage credibility if the situation worsens; it is not the primary goal."
+        },
+        {
+          "key": "B",
+          "text": "Providing clear, actionable guidance to the public on how to avoid exposure and identify symptoms.",
+          "is_correct": true,
+          "rationale": "This is the most critical action to prevent further cases and protect public health."
+        },
+        {
+          "key": "C",
+          "text": "Identifying and publicly naming the specific source of the outbreak to assign accountability immediately.",
+          "is_correct": false,
+          "rationale": "Naming a source before confirmation is irresponsible and can cause significant economic and reputational harm."
+        },
+        {
+          "key": "D",
+          "text": "Detailing the complex epidemiological methods being used to investigate the source of the contamination.",
+          "is_correct": false,
+          "rationale": "Technical details are not useful for the general public and can cause confusion during a crisis."
+        },
+        {
+          "key": "E",
+          "text": "Releasing a comprehensive list of all individuals who have been affected by the illness.",
+          "is_correct": false,
+          "rationale": "This would be a major breach of patient confidentiality and is unethical and illegal."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "To address higher rates of type 2 diabetes in a low-income neighbourhood, which intervention best reflects a social determinants of health approach?",
+      "explanation": "A social determinants approach targets the underlying conditions that shape health. Improving access to affordable, healthy food addresses an environmental and economic barrier to good health, rather than focusing solely on individual behaviour or clinical treatment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Launching a media campaign that focuses on individual responsibility for diet and exercise choices.",
+          "is_correct": false,
+          "rationale": "This focuses on individual behaviour without addressing the environmental factors that influence those choices."
+        },
+        {
+          "key": "B",
+          "text": "Increasing the number of diabetes screening clinics available within the local community health centre.",
+          "is_correct": false,
+          "rationale": "This is a secondary prevention (screening) strategy, not a primary prevention or upstream approach."
+        },
+        {
+          "key": "C",
+          "text": "Partnering with local stores to improve the availability and affordability of fresh fruits and vegetables.",
+          "is_correct": true,
+          "rationale": "This directly addresses an environmental determinant of health (food access), which is a core principle."
+        },
+        {
+          "key": "D",
+          "text": "Distributing informational pamphlets about diabetes symptoms and management door-to-door throughout the neighbourhood.",
+          "is_correct": false,
+          "rationale": "This is a health education tactic but doesn't change the underlying environmental or economic conditions."
+        },
+        {
+          "key": "E",
+          "text": "Prescribing advanced medications to all residents who are currently diagnosed with pre-diabetes conditions.",
+          "is_correct": false,
+          "rationale": "This is a clinical, downstream intervention, not a population-level social determinants approach."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "A case-control study on a new respiratory virus finds an odds ratio of 3.5 for exposure to crowded indoor events. How is this result correctly interpreted?",
+      "explanation": "In a case-control study, the odds ratio represents the odds of exposure in the case group divided by the odds of exposure in the control group. It does not directly measure relative risk, but rather the strength of association.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Individuals who attended crowded indoor events are 3.5 times more likely to develop the illness.",
+          "is_correct": false,
+          "rationale": "This statement describes relative risk, which is calculated from a cohort study, not a case-control study."
+        },
+        {
+          "key": "B",
+          "text": "The odds of having been exposed to a crowded indoor event are 3.5 times higher among cases than controls.",
+          "is_correct": true,
+          "rationale": "This is the precise definition of an odds ratio in the context of a case-control study."
+        },
+        {
+          "key": "C",
+          "text": "Attending a crowded indoor event causes a 350% increase in the absolute risk of contracting the virus.",
+          "is_correct": false,
+          "rationale": "The odds ratio does not directly translate to absolute risk increase without knowing baseline risk."
+        },
+        {
+          "key": "D",
+          "text": "For every 3.5 people who get sick, only one person attended a crowded indoor event.",
+          "is_correct": false,
+          "rationale": "This is an incorrect and nonsensical interpretation of the statistical measure of an odds ratio."
+        },
+        {
+          "key": "E",
+          "text": "The virus is 3.5 times more prevalent in the population that attends crowded indoor events.",
+          "is_correct": false,
+          "rationale": "Prevalence is a measure of existing disease, not a measure of association from this study design."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "When proposing a new local public health ordinance, such as mandatory restaurant menu labelling, what is the most crucial initial step in the policy development process?",
+      "explanation": "A stakeholder analysis is the foundational first step. Understanding the political landscape, identifying allies and opponents, and anticipating arguments are essential for building a coalition and navigating the policy-making process successfully.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately drafting the full legal text of the proposed ordinance for a vote by the city council.",
+          "is_correct": false,
+          "rationale": "Drafting legislation without prior engagement is premature and likely to fail due to unforeseen opposition."
+        },
+        {
+          "key": "B",
+          "text": "Conducting a thorough stakeholder analysis to identify key supporters, opponents, and their respective interests.",
+          "is_correct": true,
+          "rationale": "Understanding the political and social landscape is critical before taking any other policy action."
+        },
+        {
+          "key": "C",
+          "text": "Launching a large-scale public awareness campaign to promote the benefits of the proposed new ordinance.",
+          "is_correct": false,
+          "rationale": "A campaign is more effective after a strategy has been developed based on stakeholder analysis."
+        },
+        {
+          "key": "D",
+          "text": "Securing funding for the enforcement and monitoring of the ordinance before it has been formally proposed.",
+          "is_correct": false,
+          "rationale": "Securing funding is important but typically happens after the policy has gained some initial traction."
+        },
+        {
+          "key": "E",
+          "text": "Designing the specific format and content for the menu labels that all restaurants will be required to use.",
+          "is_correct": false,
+          "rationale": "This is a later implementation detail; the initial focus should be on policy feasibility and support."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "When evaluating a community-based smoking cessation program, which metric provides the most robust evidence of its long-term effectiveness and impact?",
+      "explanation": "Long-term quit rates, especially when biochemically verified, offer the most reliable evidence of a program's true impact, moving beyond self-reported, short-term changes in behavior or simple participation metrics.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The total number of participants who successfully completed the entire program curriculum from start to finish.",
+          "is_correct": false,
+          "rationale": "Completion rate measures engagement but does not confirm actual behavior change or health outcomes."
+        },
+        {
+          "key": "B",
+          "text": "Self-reported reductions in daily cigarette consumption among participants at the program's conclusion.",
+          "is_correct": false,
+          "rationale": "Self-reports can be subject to bias and do not confirm complete cessation."
+        },
+        {
+          "key": "C",
+          "text": "Biochemically verified smoking abstinence rates measured at a twelve-month follow-up point after program completion.",
+          "is_correct": true,
+          "rationale": "This provides objective, long-term evidence of sustained behavior change, which is the ultimate goal."
+        },
+        {
+          "key": "D",
+          "text": "Positive feedback and testimonials collected from participants immediately after the program ends.",
+          "is_correct": false,
+          "rationale": "Qualitative feedback is valuable for improvement but is not a robust metric for effectiveness."
+        },
+        {
+          "key": "E",
+          "text": "The number of educational pamphlets and resources distributed throughout the community during the campaign.",
+          "is_correct": false,
+          "rationale": "This metric measures program reach and effort, not the actual impact on health behaviors."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "A public health officer identifies significantly higher rates of type 2 diabetes in a low-income neighborhood. What is the most effective initial approach?",
+      "explanation": "Addressing social determinants of health, like access to healthy food, is a fundamental, upstream approach that tackles root causes of health disparities rather than just treating symptoms or providing information.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Launching a public awareness campaign focused solely on the importance of diet and exercise.",
+          "is_correct": false,
+          "rationale": "Awareness alone is often insufficient without addressing the systemic barriers to healthy choices."
+        },
+        {
+          "key": "B",
+          "text": "Collaborating with local stores and community gardens to improve access to affordable fresh produce.",
+          "is_correct": true,
+          "rationale": "This addresses a key social determinant of health (food access) directly in the environment."
+        },
+        {
+          "key": "C",
+          "text": "Recommending that local clinics increase the prescription rates for diabetes management medications.",
+          "is_correct": false,
+          "rationale": "This is a downstream, clinical response, not a primary public health prevention strategy."
+        },
+        {
+          "key": "D",
+          "text": "Organizing a series of one-time health screening events within the affected community.",
+          "is_correct": false,
+          "rationale": "Screening identifies existing cases but does not address the underlying causes of high prevalence."
+        },
+        {
+          "key": "E",
+          "text": "Distributing informational brochures detailing the complications associated with unmanaged type 2 diabetes.",
+          "is_correct": false,
+          "rationale": "Information dissemination is a passive strategy that often ignores crucial environmental factors."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "During a localized infectious disease outbreak, what is the most critical principle for effective public risk communication to maintain community trust?",
+      "explanation": "Transparency and timeliness are paramount in risk communication. Providing honest, clear, and prompt information, even amidst uncertainty, builds credibility and encourages public adherence to health recommendations and directives.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Withholding uncertain information until absolute scientific consensus is reached to avoid causing any public panic.",
+          "is_correct": false,
+          "rationale": "This can create an information vacuum, fuel rumors, and ultimately erode public trust."
+        },
+        {
+          "key": "B",
+          "text": "Communicating information transparently and promptly, including what is known and what is still unknown.",
+          "is_correct": true,
+          "rationale": "Honesty about uncertainty builds credibility and fosters a partnership with the public."
+        },
+        {
+          "key": "C",
+          "text": "Focusing all communication efforts exclusively on high-risk individuals to avoid alarming the general population.",
+          "is_correct": false,
+          "rationale": "The entire community needs information for collective action, awareness, and preventing further spread."
+        },
+        {
+          "key": "D",
+          "text": "Using highly technical and scientific language to demonstrate the expertise of the public health agency.",
+          "is_correct": false,
+          "rationale": "This can alienate and confuse the public, hindering comprehension and compliance with guidance."
+        },
+        {
+          "key": "E",
+          "text": "Emphasizing only the most severe potential outcomes to ensure the public takes the threat seriously.",
+          "is_correct": false,
+          "rationale": "Exaggerated fear-based messaging can lead to anxiety, fatalism, and message fatigue over time."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "You are tasked with advocating for a new local policy to create more smoke-free public spaces. What is the most effective initial step?",
+      "explanation": "Building a broad coalition is a crucial first step in policy advocacy. It demonstrates widespread community support, pools resources, and strengthens the political influence needed to enact meaningful and sustainable change.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately drafting the full legal text of the proposed policy for the city council's review.",
+          "is_correct": false,
+          "rationale": "This is premature without first building the necessary political and community support for the idea."
+        },
+        {
+          "key": "B",
+          "text": "Launching a high-profile media campaign criticizing local politicians for their inaction on the issue.",
+          "is_correct": false,
+          "rationale": "An adversarial approach can be counterproductive and alienate potential allies needed for policy passage."
+        },
+        {
+          "key": "C",
+          "text": "Building a coalition of community organizations, healthcare providers, and businesses to show broad support.",
+          "is_correct": true,
+          "rationale": "A strong, diverse coalition demonstrates widespread support and significantly increases advocacy power and influence."
+        },
+        {
+          "key": "D",
+          "text": "Conducting a comprehensive academic research study on the long-term economic impacts of the policy.",
+          "is_correct": false,
+          "rationale": "While useful later, this is too time-consuming for an initial step in a political process."
+        },
+        {
+          "key": "E",
+          "text": "Organizing a large public protest outside city hall to demand immediate legislative action from officials.",
+          "is_correct": false,
+          "rationale": "While a valid tactic, building a foundational coalition is a more strategic first step."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Surveillance data reveals a sharp increase in emergency department visits for asthma attacks among children in a specific district. What is the most appropriate programmatic response?",
+      "explanation": "The data points towards a potential environmental or localized trigger. A targeted assessment is the logical next step to identify the root cause (e.g., air quality, housing conditions) before implementing a specific intervention.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately launch a city-wide media campaign about the general importance of using asthma inhalers correctly.",
+          "is_correct": false,
+          "rationale": "This response is too broad and not targeted to the specific district or root cause."
+        },
+        {
+          "key": "B",
+          "text": "Initiate a targeted environmental health assessment in that district to identify potential triggers like air pollution.",
+          "is_correct": true,
+          "rationale": "This evidence-based approach seeks to identify and address the root cause of the problem."
+        },
+        {
+          "key": "C",
+          "text": "Recommend that local schools in the district cancel all outdoor recess and physical education classes.",
+          "is_correct": false,
+          "rationale": "This is a reactive, temporary measure that fails to solve the underlying public health problem."
+        },
+        {
+          "key": "D",
+          "text": "Distribute free HEPA air purifiers to every household in the entire city, regardless of location.",
+          "is_correct": false,
+          "rationale": "This is an expensive, untargeted intervention without evidence of the specific cause or need."
+        },
+        {
+          "key": "E",
+          "text": "Lobby for increased funding for hospital emergency departments to handle the higher patient volume.",
+          "is_correct": false,
+          "rationale": "This addresses the symptom (overburdened EDs) but not the upstream public health cause."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "When designing a health promotion program for a low-income community, which approach best addresses the social determinants of health?",
+      "explanation": "Effective programs must address underlying social and economic factors like access to healthy food, safe housing, and education, not just individual behaviours. This holistic approach creates sustainable change and promotes health equity.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Creating a series of educational workshops focused solely on individual dietary choices and personal exercise habits.",
+          "is_correct": false,
+          "rationale": "This approach ignores the systemic barriers and social determinants that influence individual health choices."
+        },
+        {
+          "key": "B",
+          "text": "Distributing informational pamphlets about chronic diseases at community centres without providing any follow-up support or resources.",
+          "is_correct": false,
+          "rationale": "Passive information dissemination is generally ineffective on its own and fails to address underlying barriers."
+        },
+        {
+          "key": "C",
+          "text": "Implementing a short-term screening event for a single health condition without a plan for ongoing care or referral.",
+          "is_correct": false,
+          "rationale": "This fails to provide a sustainable or comprehensive solution for the community's long-term health needs."
+        },
+        {
+          "key": "D",
+          "text": "Collaborating with local housing authorities and food banks to integrate health services and resources directly into their systems.",
+          "is_correct": true,
+          "rationale": "This directly addresses root causes like housing and food security, which are key social determinants."
+        },
+        {
+          "key": "E",
+          "text": "Advocating for national policy changes without implementing any immediate, locally-focused community-level interventions.",
+          "is_correct": false,
+          "rationale": "While important, this ignores the immediate needs of the target community that require local action."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "A public health officer identifies a local zoning law that restricts access to fresh food retailers. What is the most effective initial advocacy step?",
+      "explanation": "Presenting data-driven evidence to policymakers is the most effective first step in advocacy. This builds a credible case for change by linking the zoning law directly to documented health disparities in the community.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Organizing a large-scale public protest outside the city council building to demand immediate and unspecified changes to the law.",
+          "is_correct": false,
+          "rationale": "Protests can be effective but are often not the best initial step before presenting evidence."
+        },
+        {
+          "key": "B",
+          "text": "Compiling a policy brief with local health data and GIS maps to present to city council members and planning commissions.",
+          "is_correct": true,
+          "rationale": "Data-driven evidence is crucial for effective and credible policy advocacy with government bodies."
+        },
+        {
+          "key": "C",
+          "text": "Launching a social media campaign that personally targets individual council members who originally supported the restrictive zoning law.",
+          "is_correct": false,
+          "rationale": "Personal attacks are unprofessional, can alienate potential allies, and undermine the advocacy effort."
+        },
+        {
+          "key": "D",
+          "text": "Filing a lawsuit against the municipality without first attempting to engage in any form of policy dialogue or negotiation.",
+          "is_correct": false,
+          "rationale": "Litigation is typically a last resort and not an appropriate or effective initial advocacy step."
+        },
+        {
+          "key": "E",
+          "text": "Publishing an anonymous op-ed in a local newspaper criticizing the city council members for their lack of action.",
+          "is_correct": false,
+          "rationale": "Anonymous criticism lacks credibility and is less effective than direct, evidence-based engagement with policymakers."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "During a communicable disease outbreak, what is the primary goal of your public health communication strategy with the affected community?",
+      "explanation": "The primary goal is to provide clear, accurate, and actionable information to the public. This builds trust, reduces panic, and empowers individuals to take protective measures, which is crucial for outbreak containment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To control the narrative by limiting the amount of information released to the media to avoid causing public alarm.",
+          "is_correct": false,
+          "rationale": "Withholding information erodes public trust and can lead to the rapid spread of dangerous misinformation."
+        },
+        {
+          "key": "B",
+          "text": "To provide timely, transparent, and actionable information to build public trust and encourage adherence to control measures.",
+          "is_correct": true,
+          "rationale": "This approach builds trust and promotes compliance with essential public health guidance for containment."
+        },
+        {
+          "key": "C",
+          "text": "To focus communications exclusively on the most severe outcomes to ensure the community takes the threat seriously.",
+          "is_correct": false,
+          "rationale": "This can cause unnecessary panic and fear-mongering, which may lead to irrational public behaviour."
+        },
+        {
+          "key": "D",
+          "text": "To wait until the outbreak is fully contained before releasing any official statements to ensure complete accuracy.",
+          "is_correct": false,
+          "rationale": "Waiting too long allows misinformation and rumours to spread widely, hindering control efforts."
+        },
+        {
+          "key": "E",
+          "text": "To assign blame to specific groups or individuals to simplify the source of the outbreak for the public.",
+          "is_correct": false,
+          "rationale": "Assigning blame is unethical, counterproductive, and often leads to harmful stigmatization within the community."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "When evaluating the long-term impact of a community-based smoking cessation program, which metric is most indicative of sustainable success?",
+      "explanation": "A sustained reduction in the smoking prevalence rate within the target population is the most robust indicator of long-term success, as it reflects lasting behavioural change across the entire community, not just among program participants.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The total number of participants who successfully completed the initial multi-week educational course offered by the program.",
+          "is_correct": false,
+          "rationale": "Completion rates are a process measure and do not guarantee long-term behaviour change or abstinence."
+        },
+        {
+          "key": "B",
+          "text": "Positive feedback and high satisfaction scores collected from program participants immediately after the program's conclusion.",
+          "is_correct": false,
+          "rationale": "Participant satisfaction is important for program delivery but does not measure actual long-term health outcomes."
+        },
+        {
+          "key": "C",
+          "text": "A statistically significant decrease in the smoking prevalence rate within the target community measured two years post-program.",
+          "is_correct": true,
+          "rationale": "This directly measures sustained, community-level health impact, which is the ultimate goal of the program."
+        },
+        {
+          "key": "D",
+          "text": "The amount of grant funding secured for the program's continuation into the following fiscal year.",
+          "is_correct": false,
+          "rationale": "Securing funding is an operational success, not a direct measure of the program's health impact."
+        },
+        {
+          "key": "E",
+          "text": "The number of partnerships formed with local healthcare providers to help promote the program to their patients.",
+          "is_correct": false,
+          "rationale": "Partnerships are a valuable process measure but do not directly indicate the program's long-term effectiveness."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "A community reports concerns about potential water contamination from a nearby industrial site. What is your most appropriate initial action?",
+      "explanation": "The first step must be to gather objective evidence. Collaborating with environmental health specialists to collect and test water samples is necessary to confirm or deny the contamination before taking further action.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Coordinate with environmental health agencies to conduct systematic water sampling and testing in the affected residential areas.",
+          "is_correct": true,
+          "rationale": "This is the essential first step to gather evidence and objectively assess the potential public health risk."
+        },
+        {
+          "key": "B",
+          "text": "Immediately issue a public press release advising all residents to boil their water without any preliminary scientific evidence.",
+          "is_correct": false,
+          "rationale": "This could cause unnecessary public panic and erode trust if the concerns are later found baseless."
+        },
+        {
+          "key": "C",
+          "text": "Dismiss the community's concerns as anecdotal until a formal, large-scale epidemiological study has been fully completed.",
+          "is_correct": false,
+          "rationale": "Dismissing public concerns erodes trust and can delay a timely investigation into a legitimate threat."
+        },
+        {
+          "key": "D",
+          "text": "Advise the industrial site's management team to conduct their own internal investigation and report back on their findings.",
+          "is_correct": false,
+          "rationale": "This creates a clear conflict of interest and lacks the impartiality required for a public health investigation."
+        },
+        {
+          "key": "E",
+          "text": "Organize community meetings to discuss residents' fears without having a concrete plan for investigating the potential contamination source.",
+          "is_correct": false,
+          "rationale": "Meetings without a clear action plan for investigation are unproductive and can increase community frustration."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "A 70-year-old patient with severe COPD and knee osteoarthritis presents with acute low back pain. What is your primary treatment consideration?",
+      "explanation": "The patient's significant comorbidities, particularly severe COPD, must be prioritized. Any intervention must consider its impact on their respiratory function, making gentle, low-exertion techniques and education the safest initial approach.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately begin a high-intensity core strengthening program to provide long-term stability and prevent future pain episodes.",
+          "is_correct": false,
+          "rationale": "This is too aggressive for an acute presentation and may exacerbate the patient's respiratory condition."
+        },
+        {
+          "key": "B",
+          "text": "Prioritise gentle mobilisation, positional advice, and pain education, carefully monitoring their respiratory status throughout the session.",
+          "is_correct": true,
+          "rationale": "This approach is safest, addressing acute pain while respecting the patient's significant medical comorbidities."
+        },
+        {
+          "key": "C",
+          "text": "Advise two days of complete bed rest to allow the acute inflammation to subside before initiating any active therapy.",
+          "is_correct": false,
+          "rationale": "Bed rest is generally contraindicated and can lead to deconditioning, especially in elderly patients with COPD."
+        },
+        {
+          "key": "D",
+          "text": "Apply heat packs and TENS directly to the lumbar spine as the primary modality for managing their acute pain.",
+          "is_correct": false,
+          "rationale": "While passive modalities can be adjuncts, they should not be the primary consideration over active management and education."
+        },
+        {
+          "key": "E",
+          "text": "Refer the patient for an urgent MRI scan to rule out any serious pathology before starting physiotherapy treatment.",
+          "is_correct": false,
+          "rationale": "An urgent scan is only necessary if specific red flags are present, which are not indicated here."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "A patient is non-compliant with their home exercise program, stating they see no improvement. What is the most appropriate initial action?",
+      "explanation": "The most effective strategy is to engage the patient in a collaborative discussion. Understanding their perspective, beliefs, and potential barriers is crucial for re-evaluating goals and modifying the plan to improve adherence and outcomes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Discharge the patient from your service, documenting their non-compliance as the primary reason for the lack of progress.",
+          "is_correct": false,
+          "rationale": "This is a punitive action that fails to address the underlying reasons for the patient's non-compliance."
+        },
+        {
+          "key": "B",
+          "text": "Explore the patient's beliefs about their condition and collaboratively review the goals and exercises to better align with their expectations.",
+          "is_correct": true,
+          "rationale": "This patient-centred approach fosters collaboration and addresses the root cause of non-adherence."
+        },
+        {
+          "key": "C",
+          "text": "Inform the patient that continued non-compliance will result in a negative report being sent to their referring GP.",
+          "is_correct": false,
+          "rationale": "This approach is threatening and unprofessional, damaging the therapeutic alliance between the patient and therapist."
+        },
+        {
+          "key": "D",
+          "text": "Continue with the same treatment plan but increase the frequency of their appointments to supervise their exercises more closely.",
+          "is_correct": false,
+          "rationale": "This does not address the patient's stated reason for non-compliance and may increase their frustration."
+        },
+        {
+          "key": "E",
+          "text": "Provide the patient with research articles proving the effectiveness of the prescribed exercises to convince them to comply.",
+          "is_correct": false,
+          "rationale": "While education is useful, this approach ignores the patient's personal experience and may come across as dismissive."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "When evaluating a new therapeutic modality for clinical use, what represents the highest level of evidence for its effectiveness?",
+      "explanation": "According to the principles of evidence-based practice, a systematic review or meta-analysis of multiple high-quality randomised controlled trials (RCTs) provides the most robust and reliable evidence by synthesising findings and reducing bias.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A well-designed randomised controlled trial (RCT) published in a peer-reviewed journal showing statistically significant positive results.",
+          "is_correct": false,
+          "rationale": "While an RCT is a high level of evidence, it is not the highest available."
+        },
+        {
+          "key": "B",
+          "text": "An expert opinion piece written by a nationally recognised physiotherapist who has extensive experience using the modality.",
+          "is_correct": false,
+          "rationale": "Expert opinion is considered a low level of evidence as it is subjective and not based on rigorous testing."
+        },
+        {
+          "key": "C",
+          "text": "A systematic review or meta-analysis of multiple high-quality randomised controlled trials comparing the modality against a placebo.",
+          "is_correct": true,
+          "rationale": "This represents the pinnacle of the evidence hierarchy, synthesising data from multiple high-quality studies."
+        },
+        {
+          "key": "D",
+          "text": "A series of case studies presented at a national conference that detail successful outcomes in a diverse patient population.",
+          "is_correct": false,
+          "rationale": "Case studies are anecdotal and lack a control group, placing them low on the evidence hierarchy."
+        },
+        {
+          "key": "E",
+          "text": "The manufacturer's promotional literature which includes testimonials from clinicians and patients who have used the new modality.",
+          "is_correct": false,
+          "rationale": "This is marketing material and is subject to significant bias, representing the lowest form of evidence."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "A patient with low back pain reports recent onset of bilateral leg paraesthesia and urinary incontinence. What is your immediate priority?",
+      "explanation": "The combination of bilateral neurological symptoms and changes in bladder function are classic red flags for Cauda Equina Syndrome, a medical emergency requiring immediate surgical assessment to prevent permanent neurological damage.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Complete a thorough neurological examination of the lower limbs and schedule a review appointment for the following day.",
+          "is_correct": false,
+          "rationale": "This delays urgent medical intervention for a condition that is a neurological emergency."
+        },
+        {
+          "key": "B",
+          "text": "Cease the assessment immediately and advise the patient to go to the nearest hospital emergency department for urgent evaluation.",
+          "is_correct": true,
+          "rationale": "These symptoms strongly suggest Cauda Equina Syndrome, requiring an immediate emergency medical referral."
+        },
+        {
+          "key": "C",
+          "text": "Apply gentle lumbar traction to decompress the spinal nerves and provide immediate symptomatic relief for the patient.",
+          "is_correct": false,
+          "rationale": "Applying any manual therapy is contraindicated and potentially dangerous in the presence of these red flags."
+        },
+        {
+          "key": "D",
+          "text": "Reassure the patient that these symptoms can occur with severe back pain and prescribe gentle stretching exercises.",
+          "is_correct": false,
+          "rationale": "Providing false reassurance is dangerous and ignores the seriousness of the potential underlying pathology."
+        },
+        {
+          "key": "E",
+          "text": "Contact the patient's GP to request an urgent prescription for nerve pain medication and muscle relaxants.",
+          "is_correct": false,
+          "rationale": "While medication may be needed, it is not the priority; an urgent surgical opinion is required."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "You disagree with the mobility plan an occupational therapist has set for a post-stroke patient. What is the most professional action?",
+      "explanation": "Effective interdisciplinary practice requires open communication and collaboration. Directly discussing concerns with the relevant colleague allows for shared clinical reasoning and the development of a unified, patient-centred plan that ensures safety and optimal outcomes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Document your disagreement in the patient's medical notes and proceed with your own preferred mobility plan.",
+          "is_correct": false,
+          "rationale": "This is unprofessional, undermines the team, and creates conflicting plans which is unsafe for the patient."
+        },
+        {
+          "key": "B",
+          "text": "Ask the patient's family which professional's plan they would feel more comfortable with following for the patient.",
+          "is_correct": false,
+          "rationale": "This inappropriately places the burden of clinical decision-making on the family and avoids professional responsibility."
+        },
+        {
+          "key": "C",
+          "text": "Arrange a face-to-face meeting with the occupational therapist to discuss your clinical reasoning and agree on a joint plan.",
+          "is_correct": true,
+          "rationale": "This promotes collaborative, patient-centred care and is the most professional way to resolve clinical disagreements."
+        },
+        {
+          "key": "D",
+          "text": "Escalate your concerns immediately to the ward manager or a senior clinician before speaking with the occupational therapist.",
+          "is_correct": false,
+          "rationale": "Escalation should not be the first step; direct communication between professionals should be attempted first."
+        },
+        {
+          "key": "E",
+          "text": "Advise the nursing staff to follow your mobility recommendations as you have more expertise in that specific area.",
+          "is_correct": false,
+          "rationale": "This creates conflict within the multidisciplinary team and disrespects the professional scope of the occupational therapist."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "A patient presents with sciatica-like symptoms. Which clinical finding most strongly suggests lumbar radiculopathy over piriformis syndrome as the primary diagnosis?",
+      "explanation": "A diminished patellar reflex (L4) and associated quadriceps weakness are hard neurological signs directly indicating nerve root compression at a specific spinal level, which is characteristic of lumbar radiculopathy.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pain is consistently reproduced during a passive FAIR test, involving flexion, adduction, and internal rotation of the hip.",
+          "is_correct": false,
+          "rationale": "The FAIR test specifically tensions the piriformis muscle, making it a strong indicator for piriformis syndrome."
+        },
+        {
+          "key": "B",
+          "text": "Tenderness is localized specifically over the greater sciatic notch and piriformis muscle belly during deep palpation.",
+          "is_correct": false,
+          "rationale": "Localized tenderness over the muscle belly is a classic sign of muscular involvement, suggesting piriformis syndrome."
+        },
+        {
+          "key": "C",
+          "text": "The neurological examination reveals a diminished patellar reflex and associated weakness in the quadriceps muscle group.",
+          "is_correct": true,
+          "rationale": "These hard neurological signs directly correlate to a specific spinal nerve root, the hallmark of lumbar radiculopathy."
+        },
+        {
+          "key": "D",
+          "text": "The patient reports that symptoms are significantly aggravated by prolonged periods of sitting on hard surfaces.",
+          "is_correct": false,
+          "rationale": "While common in piriformis syndrome, this can also occur with discogenic pain."
+        },
+        {
+          "key": "E",
+          "text": "A positive straight leg raise test is only elicited when the ankle is maximally dorsiflexed by the examiner.",
+          "is_correct": false,
+          "rationale": "This indicates general neural tension but lacks specificity to differentiate between a lumbar root issue and peripheral irritation."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "When evaluating the effectiveness of a new manual therapy technique for chronic low back pain, which type of research study provides the highest level of evidence?",
+      "explanation": "Systematic reviews and meta-analyses of multiple randomized controlled trials are at the pinnacle of the evidence hierarchy. They synthesize findings from several high-quality studies, providing the most robust conclusion on treatment effectiveness.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A large-scale cross-sectional study that compares patient outcomes across many different physiotherapy clinics at a single time point.",
+          "is_correct": false,
+          "rationale": "Cross-sectional studies show association, not causation, and are a lower evidence level."
+        },
+        {
+          "key": "B",
+          "text": "A detailed case series report that documents the successful treatment outcomes of five individual patients using the technique.",
+          "is_correct": false,
+          "rationale": "Case series are anecdotal, lack a control group for comparison, and therefore have a very high risk of bias."
+        },
+        {
+          "key": "C",
+          "text": "A systematic review of multiple high-quality randomized controlled trials (RCTs) that have investigated the specific intervention.",
+          "is_correct": true,
+          "rationale": "This represents the highest level of evidence by synthesizing multiple robust studies."
+        },
+        {
+          "key": "D",
+          "text": "An expert opinion piece published in a reputable physiotherapy journal written by a leading clinician in the field.",
+          "is_correct": false,
+          "rationale": "Expert opinion is subjective and not based on rigorous scientific testing, placing it at the bottom of the evidence hierarchy."
+        },
+        {
+          "key": "E",
+          "text": "A prospective cohort study that tracks patients who choose the new technique versus those who receive standard care.",
+          "is_correct": false,
+          "rationale": "Cohort studies are good but are more prone to selection bias than RCTs."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "You observe a junior colleague consistently using a therapeutic modality in a way that contradicts current safety guidelines. What is your most appropriate initial action?",
+      "explanation": "The most professional and effective initial step is to address the concern directly and privately with the colleague. This approach is supportive, educational, and resolves the issue at the lowest possible level while upholding patient safety.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately report the colleague's actions in writing directly to the clinical manager without speaking to them first.",
+          "is_correct": false,
+          "rationale": "This escalates the situation prematurely without attempting direct resolution, which can damage professional team dynamics."
+        },
+        {
+          "key": "B",
+          "text": "Anonymously post a general warning about the technique on a shared staff notice board or internal forum.",
+          "is_correct": false,
+          "rationale": "This approach is unprofessional and indirect, failing to address the specific colleague's practice and causing wider confusion."
+        },
+        {
+          "key": "C",
+          "text": "Privately and constructively discuss your concerns with the colleague, referencing the relevant safety guidelines and evidence.",
+          "is_correct": true,
+          "rationale": "This is a professional, supportive, and direct way to address patient safety."
+        },
+        {
+          "key": "D",
+          "text": "Ignore the situation entirely as it is not your direct responsibility to supervise or manage junior staff members.",
+          "is_correct": false,
+          "rationale": "All clinicians have a professional duty of care to ensure patient safety."
+        },
+        {
+          "key": "E",
+          "text": "Advise patients who are scheduled with that colleague to refuse that specific treatment modality for their own safety.",
+          "is_correct": false,
+          "rationale": "This undermines a colleague and inappropriately involves patients in staffing issues."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "You are treating a patient with chronic pain whose progress has stalled due to significant psychosocial barriers, including anxiety and fear-avoidance beliefs. What is the best strategy?",
+      "explanation": "For patients with significant psychosocial barriers, a multidisciplinary approach is crucial. Referring for psychological input addresses the root cause of the stalled progress, aligning with the biopsychosocial model of care and providing holistic support.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Discharge the patient from physiotherapy services, documenting that they are not making any further physical progress.",
+          "is_correct": false,
+          "rationale": "This is an inappropriate discharge and fails to address the patient's complex needs."
+        },
+        {
+          "key": "B",
+          "text": "Focus solely on aggressive physical modalities and exercises to try and break through the pain cycle.",
+          "is_correct": false,
+          "rationale": "This approach ignores the identified psychosocial barriers and is very likely to worsen the patient's fear-avoidance beliefs."
+        },
+        {
+          "key": "C",
+          "text": "Continue with the exact same treatment plan but increase the frequency of sessions to three times per week.",
+          "is_correct": false,
+          "rationale": "Increasing the frequency of an ineffective plan is unlikely to yield results."
+        },
+        {
+          "key": "D",
+          "text": "Refer the patient to the multidisciplinary team for a case conference, suggesting input from a clinical psychologist.",
+          "is_correct": true,
+          "rationale": "This correctly utilizes the MDT to address the biopsychosocial nature of chronic pain."
+        },
+        {
+          "key": "E",
+          "text": "Instruct the patient that they must push through the pain, explaining this is the only way to recover.",
+          "is_correct": false,
+          "rationale": "This advice can be harmful, increase anxiety, and reinforce maladaptive pain beliefs."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Your department manager asks for proposals to reduce the waiting list for musculoskeletal outpatient appointments. Which suggestion demonstrates the best clinical and operational judgement?",
+      "explanation": "Implementing a triage service is a recognized and effective strategy for managing waiting lists. It allows for prioritization of urgent cases and directs others to appropriate care pathways, optimizing resource use without compromising quality.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Suggesting that all new patient assessment appointments should be reduced from forty-five to only fifteen minutes in duration.",
+          "is_correct": false,
+          "rationale": "This approach severely compromises the quality and safety of the initial clinical assessment, increasing the risk of misdiagnosis."
+        },
+        {
+          "key": "B",
+          "text": "Proposing the implementation of a robust telephone or virtual triage service to stratify patients by clinical urgency.",
+          "is_correct": true,
+          "rationale": "This is an evidence-based service model for managing demand and prioritizing care."
+        },
+        {
+          "key": "C",
+          "text": "Recommending that only patients who have private health insurance should be seen within the next month.",
+          "is_correct": false,
+          "rationale": "This is unethical and creates inequitable access to care based on ability to pay."
+        },
+        {
+          "key": "D",
+          "text": "Insisting that the department must immediately hire five new physiotherapists without providing a supporting business case.",
+          "is_correct": false,
+          "rationale": "This is unrealistic and fails to provide the necessary justification for resources."
+        },
+        {
+          "key": "E",
+          "text": "Suggesting the immediate and temporary closure of the waiting list to all new non-urgent patient referrals.",
+          "is_correct": false,
+          "rationale": "This fails to meet service obligations and simply displaces the problem."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "A patient with chronic low back pain reports significant fear-avoidance beliefs. What is the most appropriate initial management strategy for this patient?",
+      "explanation": "This approach addresses both the physical and psychological components of chronic pain, which is crucial for patients with high fear-avoidance. It promotes self-efficacy and functional improvement by challenging unhelpful beliefs.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Advise complete rest and avoidance of all activities that provoke any amount of pain to prevent further tissue damage.",
+          "is_correct": false,
+          "rationale": "This advice directly reinforces the patient's fear-avoidance behaviours and will lead to significant physical deconditioning."
+        },
+        {
+          "key": "B",
+          "text": "Implement graded exposure to feared movements combined with pain neuroscience education to address their unhelpful beliefs and behaviours.",
+          "is_correct": true,
+          "rationale": "This is an evidence-based, biopsychosocial approach that directly targets the mechanisms maintaining chronic pain and disability."
+        },
+        {
+          "key": "C",
+          "text": "Primarily use passive modalities like ultrasound and heat packs to provide temporary symptomatic relief without active participation.",
+          "is_correct": false,
+          "rationale": "Passive treatments create patient dependency and fail to address the underlying psychological beliefs driving the problem."
+        },
+        {
+          "key": "D",
+          "text": "Focus solely on an aggressive core strengthening exercise program, ignoring the patient's reported psychosocial barriers to recovery.",
+          "is_correct": false,
+          "rationale": "Ignoring the significant psychosocial factors that are present is a recipe for failure and will likely result in poor outcomes."
+        },
+        {
+          "key": "E",
+          "text": "Immediately refer the patient for a spinal surgery consultation as conservative management is unlikely to be successful.",
+          "is_correct": false,
+          "rationale": "Surgery is not an appropriate first-line treatment for non-specific chronic pain, especially when psychosocial factors are present."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "A 50-year-old office worker presents with right-sided shoulder pain. Which clinical finding most strongly suggests a cervical spine origin for their symptoms?",
+      "explanation": "Reproduction or alteration of the patient's familiar shoulder symptoms with cervical spine movements, especially with a positive neurodynamic or compression test like Spurling's, strongly indicates cervical spine involvement.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The patient reports a specific mechanism of injury, such as a fall directly onto the point of the shoulder.",
+          "is_correct": false,
+          "rationale": "A direct mechanism of injury strongly suggests a local shoulder pathology rather than pain referred from the cervical spine."
+        },
+        {
+          "key": "B",
+          "text": "Pain is consistently reproduced with active shoulder abduction and external rotation but not with any neck movements.",
+          "is_correct": false,
+          "rationale": "This specific pattern of pain provocation points directly towards a local rotator cuff or other intrinsic shoulder joint issue."
+        },
+        {
+          "key": "C",
+          "text": "An ultrasound scan of the shoulder reveals significant rotator cuff tendinopathy and a large subacromial bursitis.",
+          "is_correct": false,
+          "rationale": "Imaging findings can be incidental and don't rule out referred pain."
+        },
+        {
+          "key": "D",
+          "text": "Symptoms are reproduced with cervical spine movements, and a positive Spurling's test is present on the affected side.",
+          "is_correct": true,
+          "rationale": "These findings directly implicate the cervical spine as the source of the symptoms by reproducing the patient's familiar pain."
+        },
+        {
+          "key": "E",
+          "text": "The patient experiences significant night pain that wakes them from sleep, regardless of their sleeping position or posture.",
+          "is_correct": false,
+          "rationale": "While this is a potential red flag, it is not a specific indicator that differentiates between cervical or shoulder origin."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "You are tasked with leading a service improvement project for managing knee osteoarthritis. Which intervention has the strongest evidence base according to NICE guidelines?",
+      "explanation": "Major clinical guidelines strongly recommend a multi-faceted, active approach combining education, exercise, and weight management as the core, evidence-based treatment for knee osteoarthritis before considering more invasive options.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A combination of patient education, structured strengthening exercises for the lower limbs, and weight management advice.",
+          "is_correct": true,
+          "rationale": "This multi-faceted approach is explicitly recommended by NICE guidelines as the core first-line conservative management for knee osteoarthritis."
+        },
+        {
+          "key": "B",
+          "text": "A program primarily consisting of passive electrotherapy modalities to manage pain without including any active patient participation.",
+          "is_correct": false,
+          "rationale": "Passive modalities generally have a very weak evidence base for providing any meaningful long-term outcomes in chronic conditions."
+        },
+        {
+          "key": "C",
+          "text": "Focusing exclusively on manual therapy techniques like joint mobilisations without prescribing any form of therapeutic home exercise.",
+          "is_correct": false,
+          "rationale": "Manual therapy should be an adjunct to exercise, not a standalone treatment."
+        },
+        {
+          "key": "D",
+          "text": "Recommending long-term use of rigid knee braces for all patients to completely unload the joint during daily activities.",
+          "is_correct": false,
+          "rationale": "Bracing is considered an adjunct therapy for specific cases and is not a core, first-line treatment for all patients."
+        },
+        {
+          "key": "E",
+          "text": "Routinely referring all patients for intra-articular corticosteroid injections as the first and only line of treatment.",
+          "is_correct": false,
+          "rationale": "Injections are for short-term relief and not a core management strategy."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "When treating a post-operative patient at high risk of developing a chest infection, what is the primary goal of early mobilisation?",
+      "explanation": "Early mobilisation, especially getting upright, uses gravity to improve the matching of ventilation and perfusion, increase lung volumes, and facilitate the clearance of secretions, thereby preventing atelectasis and pneumonia.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To primarily focus on strengthening the patient's lower limb muscles to prepare them for an earlier discharge from hospital.",
+          "is_correct": false,
+          "rationale": "While strengthening is a secondary benefit, the primary clinical goal is to prevent serious respiratory complications post-surgery."
+        },
+        {
+          "key": "B",
+          "text": "To improve ventilation and perfusion matching, facilitate secretion clearance, and prevent atelectasis by getting the patient upright.",
+          "is_correct": true,
+          "rationale": "This accurately describes the key physiological respiratory benefits that are the primary reason for mobilizing high-risk post-operative patients."
+        },
+        {
+          "key": "C",
+          "text": "To assess the patient's cardiovascular fitness levels using a standardised test before they are allowed to leave the ward.",
+          "is_correct": false,
+          "rationale": "Formal fitness testing is not the primary goal in this acute phase."
+        },
+        {
+          "key": "D",
+          "text": "To provide psychological reassurance to the patient that they are making good progress in their overall physical recovery.",
+          "is_correct": false,
+          "rationale": "While this is a very positive and important side effect, it is not the primary clinical objective for this intervention."
+        },
+        {
+          "key": "E",
+          "text": "To ensure the patient's surgical wound is healing correctly by observing it during various functional movement patterns.",
+          "is_correct": false,
+          "rationale": "Wound observation is typically the primary responsibility of the nursing staff, not the physiotherapist during mobilisation."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "A patient expresses significant dissatisfaction with their progress after several sessions, stating they feel no better. What is your most appropriate professional response?",
+      "explanation": "This response demonstrates patient-centred care, empathy, and reflective practice. It validates the patient's feelings and involves them in shared decision-making, which is essential for maintaining the therapeutic alliance and professional conduct.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately discharge the patient from your care, suggesting they seek treatment from another physiotherapist in the clinic.",
+          "is_correct": false,
+          "rationale": "This is an unprofessional response that avoids clinical responsibility for the patient's care and fails to address their concerns."
+        },
+        {
+          "key": "B",
+          "text": "Defend your chosen treatment plan, explaining that the patient is likely not adhering to their home exercise program.",
+          "is_correct": false,
+          "rationale": "This defensive and accusatory response is unprofessional and will almost certainly damage the crucial therapeutic relationship."
+        },
+        {
+          "key": "C",
+          "text": "Inform the patient that recovery takes a very long time and they simply need to be more patient with the process.",
+          "is_correct": false,
+          "rationale": "This response is dismissive and invalidates the patient's legitimate concerns, showing a lack of empathy and patient-centred care."
+        },
+        {
+          "key": "D",
+          "text": "Suggest they purchase expensive supplementary equipment that you believe will accelerate their overall recovery process significantly.",
+          "is_correct": false,
+          "rationale": "This ignores the patient's core concerns and may create a potential conflict of interest if there is financial gain."
+        },
+        {
+          "key": "E",
+          "text": "Actively listen to their concerns, re-evaluate their condition and goals, and collaboratively discuss modifying the treatment plan.",
+          "is_correct": true,
+          "rationale": "This is a patient-centred, professional, and constructive approach that validates the patient's experience and promotes shared decision-making."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "When treating an elderly patient with severe COPD and painful knee osteoarthritis, what is the most critical initial consideration for their plan?",
+      "explanation": "Patient safety is paramount. The plan must balance musculoskeletal rehabilitation with the severe limitations imposed by COPD. Therefore, monitoring respiratory function and oxygen saturation is the top priority during any activity.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Focusing exclusively on aggressive quadriceps strengthening exercises to rapidly improve the patient's knee stability and overall function.",
+          "is_correct": false,
+          "rationale": "This approach completely neglects the significant cardiorespiratory risks associated with the patient's severe COPD, making it unsafe."
+        },
+        {
+          "key": "B",
+          "text": "Prioritising exercises that improve respiratory function without exacerbating joint pain, while carefully monitoring their oxygen saturation levels.",
+          "is_correct": true,
+          "rationale": "This approach correctly balances both conditions by prioritising cardiorespiratory safety while still addressing musculoskeletal needs."
+        },
+        {
+          "key": "C",
+          "text": "Advising the patient to remain completely sedentary to avoid any potential for breathlessness or cardiorespiratory distress.",
+          "is_correct": false,
+          "rationale": "This advice would lead to significant deconditioning, which would ultimately worsen the symptoms of both their conditions."
+        },
+        {
+          "key": "D",
+          "text": "Recommending immediate joint replacement surgery as the only viable long-term solution for their significant mobility issues.",
+          "is_correct": false,
+          "rationale": "This is outside the physiotherapy scope of practice and ignores the significant surgical risks for this patient."
+        },
+        {
+          "key": "E",
+          "text": "Implementing high-intensity interval training to maximise cardiovascular benefits despite the patient's known respiratory limitations.",
+          "is_correct": false,
+          "rationale": "This type of training is strongly contraindicated and would be extremely dangerous for a patient with severe respiratory compromise."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "How should a physiotherapist critically appraise a new research paper on a novel treatment technique before considering its clinical application?",
+      "explanation": "Evidence-based practice requires a thorough critique of research literature. This involves assessing the study's validity, reliability, and applicability to ensure patient safety and treatment efficacy before changing clinical practice.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Accept the findings immediately if the paper is published in a well-known, peer-reviewed physiotherapy journal without further question.",
+          "is_correct": false,
+          "rationale": "Peer-reviewed publication does not automatically guarantee high quality, validity, or direct applicability to your specific patient population."
+        },
+        {
+          "key": "B",
+          "text": "Only consider implementing the new technique if it is endorsed by a popular social media influencer in the physiotherapy field.",
+          "is_correct": false,
+          "rationale": "Social media endorsements are an unreliable and unprofessional source for making important evidence-based clinical decisions for patient care."
+        },
+        {
+          "key": "C",
+          "text": "Evaluate the study's methodology, sample size, statistical significance, and potential for bias before assessing its relevance to their patients.",
+          "is_correct": true,
+          "rationale": "This systematic process describes the core principles of critical appraisal, which is fundamental to responsible evidence-based practice."
+        },
+        {
+          "key": "D",
+          "text": "Implement the new technique with a few patients on a trial basis without fully understanding the underlying research methodology.",
+          "is_correct": false,
+          "rationale": "This approach is unethical and potentially unsafe, as it exposes patients to an unvetted treatment without informed consent."
+        },
+        {
+          "key": "E",
+          "text": "Search for online summaries or blog posts about the paper instead of reading the full original research article itself.",
+          "is_correct": false,
+          "rationale": "This relies on a secondary interpretation of the evidence, which may be inaccurate, incomplete, or significantly biased."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "A long-term patient offers you a significant personal cash gift as thanks for their successful rehabilitation. What is the most appropriate response?",
+      "explanation": "Professional guidelines from bodies like the HCPC require maintaining clear boundaries. Politely declining significant gifts and explaining the professional policy is essential to uphold professionalism and prevent potential conflicts of interest.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Accept the gift graciously to avoid offending the patient and to maintain a positive therapeutic relationship with them.",
+          "is_correct": false,
+          "rationale": "Accepting a significant gift blurs professional boundaries, violates codes of conduct, and can create a future conflict of interest."
+        },
+        {
+          "key": "B",
+          "text": "Politely decline the gift, clearly explaining the professional code of conduct regarding gifts to maintain clear therapeutic boundaries.",
+          "is_correct": true,
+          "rationale": "This response upholds professional standards, maintains clear boundaries, and respectfully educates the patient on the relevant ethical guidelines."
+        },
+        {
+          "key": "C",
+          "text": "Accept the gift but immediately donate the full amount to a charity of your choice without telling the patient.",
+          "is_correct": false,
+          "rationale": "This action still constitutes accepting the gift and lacks the necessary transparency required by professional codes of conduct."
+        },
+        {
+          "key": "D",
+          "text": "Accept the gift but do not inform your manager or colleagues to avoid any potential workplace complications or jealousy.",
+          "is_correct": false,
+          "rationale": "This action is unethical, violates professional transparency, and could lead to serious disciplinary action if it is discovered."
+        },
+        {
+          "key": "E",
+          "text": "Suggest the patient use the money to purchase specific rehabilitation equipment for their continued use at their home.",
+          "is_correct": false,
+          "rationale": "While this may seem helpful, the primary professional responsibility is to politely and firmly decline the personal gift first."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "A patient presents with lateral hip pain, but also reports paraesthesia into their foot. What action should you prioritise during your assessment?",
+      "explanation": "The presence of paraesthesia is a red flag for potential neural involvement, such as lumbar radiculopathy. A comprehensive neurological screen is crucial to establish an accurate differential diagnosis before initiating any treatment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately begin a targeted strengthening program for the gluteus medius based on the location of the hip pain.",
+          "is_correct": false,
+          "rationale": "This approach completely ignores the significant neurological signs, which must be investigated as a priority before any treatment begins."
+        },
+        {
+          "key": "B",
+          "text": "Assume the paraesthesia is an unrelated issue and focus solely on treating the hip with manual therapy techniques.",
+          "is_correct": false,
+          "rationale": "Dismissing potential red flags like paraesthesia is poor and potentially unsafe clinical practice that could lead to misdiagnosis."
+        },
+        {
+          "key": "C",
+          "text": "Conduct a thorough neurological assessment to rule out lumbar spine radiculopathy before confirming a peripheral diagnosis.",
+          "is_correct": true,
+          "rationale": "This correctly prioritises screening for potentially serious spinal pathology before considering a more benign peripheral diagnosis for treatment."
+        },
+        {
+          "key": "D",
+          "text": "Advise the patient that nerve symptoms are common and they should simply monitor the situation for any changes.",
+          "is_correct": false,
+          "rationale": "This is a passive approach that fails to properly investigate a key clinical symptom that could indicate serious pathology."
+        },
+        {
+          "key": "E",
+          "text": "Recommend an immediate MRI scan of the hip joint to confirm the presence of any tendinopathic changes.",
+          "is_correct": false,
+          "rationale": "This investigation is inappropriate as it does not address the neurological component, which is the most concerning clinical finding."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "You are tasked with leading a quality improvement project to reduce patient waiting times. What is the most effective first step to take?",
+      "explanation": "Effective quality improvement begins with a thorough understanding of the current process. Mapping the patient journey and analysing data are essential first steps to accurately identify the root causes of delays before implementing solutions.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately hire more administrative staff to handle the booking and scheduling of all patient appointments more quickly.",
+          "is_correct": false,
+          "rationale": "This is a solution proposed without any prior analysis of the problem."
+        },
+        {
+          "key": "B",
+          "text": "Implement a new policy that strictly limits the duration of every physiotherapy appointment to exactly thirty minutes.",
+          "is_correct": false,
+          "rationale": "This approach may compromise the quality of patient care and does not address the actual root cause of the delays."
+        },
+        {
+          "key": "C",
+          "text": "Conduct a process mapping exercise and data analysis to identify the specific bottlenecks causing delays in the patient journey.",
+          "is_correct": true,
+          "rationale": "This analytical approach is the correct foundational step of any quality improvement project, ensuring solutions target the actual problem."
+        },
+        {
+          "key": "D",
+          "text": "Complain to senior management about the lack of resources and demand a significantly larger budget for the department.",
+          "is_correct": false,
+          "rationale": "This is not a constructive or evidence-based first step and fails to demonstrate a professional approach to problem-solving."
+        },
+        {
+          "key": "E",
+          "text": "Survey patients to ask for their suggestions on how the department could potentially reduce the current waiting times.",
+          "is_correct": false,
+          "rationale": "While patient feedback is useful later, a thorough understanding of the internal process and its bottlenecks must come first."
+        }
+      ]
+    }
+  ]
+}

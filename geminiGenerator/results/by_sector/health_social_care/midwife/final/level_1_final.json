@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "What is the most important primary responsibility of a midwife when caring for an expectant mother throughout her pregnancy journey?",
+      "explanation": "A midwife's core role encompasses providing continuous support, education, and clinical care to ensure the well-being of both the mother and baby. This holistic approach is fundamental to their practice.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Providing continuous emotional support, education, and clinical care to the woman and her family during pregnancy, birth, and postpartum.",
+          "is_correct": true,
+          "rationale": "Midwives offer comprehensive support throughout the entire perinatal period."
+        },
+        {
+          "key": "B",
+          "text": "Primarily focusing on administering medications and performing surgical procedures during complex deliveries in a hospital setting.",
+          "is_correct": false,
+          "rationale": "This is typically the role of an obstetrician, not a midwife."
+        },
+        {
+          "key": "C",
+          "text": "Exclusively conducting research on new childbirth techniques and publishing findings in medical journals for professional development.",
+          "is_correct": false,
+          "rationale": "Research is part of professional development, not the primary responsibility."
+        },
+        {
+          "key": "D",
+          "text": "Managing hospital administrative tasks and scheduling appointments for all pregnant women without direct patient interaction.",
+          "is_correct": false,
+          "rationale": "Administrative tasks are not a midwife's primary clinical role."
+        },
+        {
+          "key": "E",
+          "text": "Directly advising on financial planning and maternity leave benefits for expectant parents, separate from clinical care.",
+          "is_correct": false,
+          "rationale": "This falls outside the scope of midwifery clinical practice."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Why is effective communication with expectant parents crucial for a midwife during antenatal appointments and birth preparation?",
+      "explanation": "Effective communication builds trust, ensures informed decision-making, and empowers parents. It helps them feel heard, understood, and confident in their care, leading to better outcomes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To establish trust, ensure informed consent, and empower parents to actively participate in their pregnancy and birth decisions.",
+          "is_correct": true,
+          "rationale": "Communication builds trust and facilitates informed decision-making."
+        },
+        {
+          "key": "B",
+          "text": "To strictly follow a rigid checklist of medical procedures without allowing for any parental input or personal preferences.",
+          "is_correct": false,
+          "rationale": "This approach disregards patient autonomy and shared decision-making."
+        },
+        {
+          "key": "C",
+          "text": "To solely provide medical instructions and technical information, avoiding any discussion of emotional or personal concerns.",
+          "is_correct": false,
+          "rationale": "Midwifery care is holistic, encompassing emotional support alongside medical information."
+        },
+        {
+          "key": "D",
+          "text": "To minimize the time spent with each patient, ensuring quick turnover and increased efficiency in a busy clinic schedule.",
+          "is_correct": false,
+          "rationale": "Prioritizing speed over quality of interaction is not best practice."
+        },
+        {
+          "key": "E",
+          "text": "To primarily document all conversations for legal purposes, rather than fostering a supportive and open dialogue with families.",
+          "is_correct": false,
+          "rationale": "While documentation is important, it's not the primary goal of communication."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "A woman in her first trimester reports persistent nausea and vomiting. What is the most appropriate initial advice a midwife should provide?",
+      "explanation": "Nausea and vomiting are common in early pregnancy. Suggesting dietary and lifestyle adjustments is a safe and appropriate first step, while also advising when to seek further medical attention.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Suggest trying small, frequent meals, avoiding trigger foods, and staying well-hydrated throughout the day.",
+          "is_correct": true,
+          "rationale": "Dietary and hydration changes are first-line management for morning sickness."
+        },
+        {
+          "key": "B",
+          "text": "Immediately prescribe antiemetic medication without further assessment or exploring non-pharmacological interventions first.",
+          "is_correct": false,
+          "rationale": "Medication is typically considered after conservative measures fail."
+        },
+        {
+          "key": "C",
+          "text": "Recommend ignoring the symptoms entirely, as they are a normal and unavoidable part of every pregnancy experience.",
+          "is_correct": false,
+          "rationale": "While common, symptoms should be managed, not ignored."
+        },
+        {
+          "key": "D",
+          "text": "Advise her to consume only liquids for several days to cleanse her system, which could lead to dehydration.",
+          "is_correct": false,
+          "rationale": "This advice could lead to dehydration and nutritional deficiencies."
+        },
+        {
+          "key": "E",
+          "text": "Refer her directly to a specialist for immediate surgical intervention, as this indicates a severe underlying condition.",
+          "is_correct": false,
+          "rationale": "Surgical intervention is not indicated for typical pregnancy nausea."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is the fundamental reason for a midwife to adhere strictly to hand hygiene protocols before and after every patient contact?",
+      "explanation": "Strict hand hygiene is the single most effective measure to prevent the spread of infections, protecting both the patient and healthcare provider from potential harm.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To prevent the transmission of harmful microorganisms, thereby protecting both the patient and the healthcare professional from infection.",
+          "is_correct": true,
+          "rationale": "Hand hygiene is crucial for infection control and patient safety."
+        },
+        {
+          "key": "B",
+          "text": "To meet arbitrary hospital policy requirements, without a significant impact on actual patient safety or health outcomes.",
+          "is_correct": false,
+          "rationale": "Hand hygiene is a critical, evidence-based safety measure."
+        },
+        {
+          "key": "C",
+          "text": "To maintain the aesthetic appearance of hands, ensuring they look clean and professional during all patient interactions.",
+          "is_correct": false,
+          "rationale": "Appearance is not the primary purpose of hand hygiene protocols."
+        },
+        {
+          "key": "D",
+          "text": "To prolong the lifespan of personal protective equipment, reducing the need for frequent replacement of gloves and masks.",
+          "is_correct": false,
+          "rationale": "Hand hygiene is a distinct measure, separate from extending PPE lifespan."
+        },
+        {
+          "key": "E",
+          "text": "To demonstrate compliance during audits, rather than genuinely contributing to a safer environment for mothers and babies.",
+          "is_correct": false,
+          "rationale": "Compliance is a result, not the fundamental reason for the practice."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "During active labor, a woman expresses she is feeling overwhelmed and tired. What is the most appropriate supportive action for the midwife?",
+      "explanation": "Providing continuous emotional and physical support, reassurance, and practical comfort measures helps women cope with labor. Encouragement empowers them during this intense experience.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Offer gentle encouragement, suggest position changes, provide back rubs, and ensure she has adequate hydration and rest opportunities.",
+          "is_correct": true,
+          "rationale": "Holistic support, comfort, and encouragement are vital during labor."
+        },
+        {
+          "key": "B",
+          "text": "Immediately administer strong pain relief medication without first exploring non-pharmacological comfort measures or discussing options.",
+          "is_correct": false,
+          "rationale": "Non-pharmacological methods should be explored first, and options discussed."
+        },
+        {
+          "key": "C",
+          "text": "Tell her to simply \"push through\" the discomfort, minimizing her feelings and offering no additional practical support.",
+          "is_correct": false,
+          "rationale": "Dismissing feelings undermines trust and is not supportive care."
+        },
+        {
+          "key": "D",
+          "text": "Leave her alone to rest completely, assuming she does not want any interaction or further assistance during this time.",
+          "is_correct": false,
+          "rationale": "Continuous presence and supportive interaction are crucial for women in labor."
+        },
+        {
+          "key": "E",
+          "text": "Focus solely on monitoring fetal heart rate, neglecting the mother's emotional state and comfort needs during labor.",
+          "is_correct": false,
+          "rationale": "Midwifery care is holistic, addressing both mother and baby's needs."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "A pregnant woman attends her first antenatal appointment; what is a crucial initial step for the midwife to perform?",
+      "explanation": "A comprehensive health assessment is fundamental at the first antenatal appointment to gather essential baseline information, identify potential risks, and plan individualized care throughout pregnancy. This forms the basis of all subsequent care.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately discuss her preferred birth plan in detail to establish expectations early on in the pregnancy journey.",
+          "is_correct": false,
+          "rationale": "Birth plans are discussed later, after initial assessment and education."
+        },
+        {
+          "key": "B",
+          "text": "Conduct a comprehensive health assessment, including medical history and vital signs, to establish important baseline data.",
+          "is_correct": true,
+          "rationale": "Baseline health assessment is crucial for safe, individualized antenatal care planning."
+        },
+        {
+          "key": "C",
+          "text": "Provide a full tour of the labour ward facilities to familiarize her with the hospital or birthing center environment.",
+          "is_correct": false,
+          "rationale": "Tours are usually offered later in pregnancy, not at the first booking."
+        },
+        {
+          "key": "D",
+          "text": "Prescribe routine iron supplements and vitamins without first obtaining the results from any prior blood tests.",
+          "is_correct": false,
+          "rationale": "Supplements are given based on assessment and blood test results."
+        },
+        {
+          "key": "E",
+          "text": "Schedule an immediate ultrasound scan to determine the baby's gender for parental planning and preparation purposes.",
+          "is_correct": false,
+          "rationale": "Ultrasound scans are for medical purposes and not primarily for gender determination."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "How should a midwife best communicate with a woman who expresses anxiety about her upcoming labour and birth?",
+      "explanation": "Providing accurate, evidence-based information empowers women, addresses their concerns, and helps them feel more prepared and in control. This is a key aspect of person-centred midwifery care.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reassure her by stating that all women experience anxiety and it is a normal part of the pregnancy experience.",
+          "is_correct": false,
+          "rationale": "While true, this dismisses her feelings without offering support."
+        },
+        {
+          "key": "B",
+          "text": "Provide evidence-based information about the birthing process and available pain relief options to empower her decision-making.",
+          "is_correct": true,
+          "rationale": "Empowering women with information helps reduce anxiety and prepares them for birth."
+        },
+        {
+          "key": "C",
+          "text": "Advise her to avoid thinking about labour until it actually begins to reduce her current levels of stress.",
+          "is_correct": false,
+          "rationale": "Avoiding thoughts is unhelpful and does not address the underlying anxiety."
+        },
+        {
+          "key": "D",
+          "text": "Suggest she discusses her anxieties with her partner or family members instead of the professional midwifery team.",
+          "is_correct": false,
+          "rationale": "The midwifery team is responsible for addressing pregnancy-related concerns."
+        },
+        {
+          "key": "E",
+          "text": "Recommend immediate referral to a mental health specialist without any further discussion or initial assessment.",
+          "is_correct": false,
+          "rationale": "Referral might be needed, but initial discussion and assessment by the midwife is first."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "A woman at 38 weeks gestation reports feeling reduced fetal movements; what is the midwife's most appropriate initial action?",
+      "explanation": "Reduced fetal movements can indicate fetal compromise and require urgent assessment. Directing the woman to the maternity unit for immediate monitoring is the safest and most appropriate initial action.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Advise her to lie down on her left side and count the baby's movements for a specified period of time.",
+          "is_correct": false,
+          "rationale": "While sometimes suggested, immediate hospital assessment is preferred for reduced movements."
+        },
+        {
+          "key": "B",
+          "text": "Reassure her that reduced movements are common in late pregnancy as the baby has much less available space.",
+          "is_correct": false,
+          "rationale": "Reduced movements are never considered normal and always require assessment."
+        },
+        {
+          "key": "C",
+          "text": "Instruct her to immediately attend the maternity unit for a comprehensive fetal assessment and continuous electronic monitoring.",
+          "is_correct": true,
+          "rationale": "Reduced fetal movements require immediate assessment to ensure fetal well-being."
+        },
+        {
+          "key": "D",
+          "text": "Schedule a routine follow-up appointment for the following week to reassess the situation at that time.",
+          "is_correct": false,
+          "rationale": "Reduced fetal movements are an urgent concern, not suitable for delayed follow-up."
+        },
+        {
+          "key": "E",
+          "text": "Recommend drinking a cold sugary drink to stimulate fetal activity before seeking any further professional medical advice.",
+          "is_correct": false,
+          "rationale": "This method is unreliable and delays necessary medical assessment for potential issues."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is a key aspect of postpartum care that a midwife provides to a new mother in the first few days?",
+      "explanation": "Postpartum care involves crucial monitoring of the mother for complications like haemorrhage or infection, alongside supporting her physical and emotional recovery. This ensures her well-being after childbirth.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Encouraging an immediate return to pre-pregnancy exercise routines to aid her overall physical recovery process.",
+          "is_correct": false,
+          "rationale": "Immediate strenuous exercise is not recommended; gradual recovery is key."
+        },
+        {
+          "key": "B",
+          "text": "Monitoring for signs of postpartum haemorrhage and infection, providing essential physical recovery support and advice.",
+          "is_correct": true,
+          "rationale": "Monitoring for postpartum complications and supporting recovery is vital for maternal health."
+        },
+        {
+          "key": "C",
+          "text": "Focusing solely on newborn care, delegating all maternal checks to other available healthcare professionals in the unit.",
+          "is_correct": false,
+          "rationale": "Midwives provide holistic care for both mother and baby postpartum."
+        },
+        {
+          "key": "D",
+          "text": "Providing comprehensive advice on contraception options without first assessing the mother's readiness for this discussion.",
+          "is_correct": false,
+          "rationale": "Contraception advice is important but should be tailored to the individual's readiness and needs."
+        },
+        {
+          "key": "E",
+          "text": "Arranging a full social gathering for the family to celebrate the new baby's arrival in the hospital.",
+          "is_correct": false,
+          "rationale": "While lovely, this is not a primary clinical responsibility of a midwife."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "When advising new parents on safe sleep practices for their newborn, what is the midwife's most important recommendation?",
+      "explanation": "Placing babies on their back to sleep in a clear, safe sleeping environment, in the same room as parents, significantly reduces the risk of Sudden Infant Death Syndrome (SIDS).",
+      "options": [
+        {
+          "key": "A",
+          "text": "Always place the baby to sleep on their tummy to prevent choking and encourage early muscle development.",
+          "is_correct": false,
+          "rationale": "Tummy sleeping significantly increases the risk of Sudden Infant Death Syndrome (SIDS)."
+        },
+        {
+          "key": "B",
+          "text": "Ensure the baby sleeps in a separate room from the parents to promote early independence and quiet sleep.",
+          "is_correct": false,
+          "rationale": "Room-sharing with parents for the first 6 months reduces SIDS risk."
+        },
+        {
+          "key": "C",
+          "text": "Place the baby on their back to sleep in a clear cot or bassinet in the same room as the parents.",
+          "is_correct": true,
+          "rationale": "Back sleeping in a safe environment reduces SIDS risk significantly for newborns."
+        },
+        {
+          "key": "D",
+          "text": "Use soft bedding, pillows, and cot bumpers to create a comfortable and secure sleeping environment for the baby.",
+          "is_correct": false,
+          "rationale": "Soft bedding, pillows, and bumpers increase the risk of suffocation and SIDS."
+        },
+        {
+          "key": "E",
+          "text": "Allow the baby to sleep with parents in the adult bed to facilitate bonding and easy night time feeds.",
+          "is_correct": false,
+          "rationale": "Co-sleeping in an adult bed increases the risk of SIDS and accidental suffocation."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "A pregnant woman presents for her first antenatal appointment. What is the most important initial step for the midwife to take?",
+      "explanation": "Gathering a detailed medical history is fundamental for assessing risks, planning care, and ensuring the safety of both mother and baby from the very first antenatal contact. This forms the basis of individualized care.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately schedule her for a detailed ultrasound scan to check fetal development and confirm the baby's viability.",
+          "is_correct": false,
+          "rationale": "Ultrasounds are important diagnostic tools but are typically scheduled after the initial comprehensive history taking."
+        },
+        {
+          "key": "B",
+          "text": "Provide comprehensive written information about all stages of pregnancy and the various birth options that are available.",
+          "is_correct": false,
+          "rationale": "Providing information is crucial, but a detailed medical history must precede it for personalized guidance."
+        },
+        {
+          "key": "C",
+          "text": "Complete a thorough medical history, including previous pregnancies and important family health background information.",
+          "is_correct": true,
+          "rationale": "A comprehensive medical history is essential for identifying risks and planning safe, individualized care for the woman."
+        },
+        {
+          "key": "D",
+          "text": "Advise her to start taking specific prenatal vitamins without further assessment or discussion of her current diet.",
+          "is_correct": false,
+          "rationale": "Nutritional advice follows a thorough assessment of the woman's current health and dietary needs."
+        },
+        {
+          "key": "E",
+          "text": "Discuss potential names for the baby and offer a wide range of parenting books and other helpful resources.",
+          "is_correct": false,
+          "rationale": "Discussing baby names and parenting books is not a primary clinical task during the initial assessment."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "What is a fundamental infection control measure a midwife must always adhere to when providing direct patient care?",
+      "explanation": "Hand hygiene is the single most effective measure to prevent the spread of infections in healthcare settings. Adhering to this practice protects both patients and healthcare professionals from pathogens.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensuring all clinical equipment is sterilized using an autoclave after every single patient interaction and examination.",
+          "is_correct": false,
+          "rationale": "Sterilization is for specific equipment; hand hygiene is a universal and fundamental infection control measure."
+        },
+        {
+          "key": "B",
+          "text": "Consistently wearing a clean uniform and comfortable, closed-toe shoes throughout every single shift in the hospital.",
+          "is_correct": false,
+          "rationale": "While important for professionalism, wearing a clean uniform is not a direct, fundamental infection control measure."
+        },
+        {
+          "key": "C",
+          "text": "Performing thorough hand hygiene with soap and water or alcohol gel before and after every patient contact.",
+          "is_correct": true,
+          "rationale": "Hand hygiene is universally recognized as the most critical infection prevention practice in healthcare settings."
+        },
+        {
+          "key": "D",
+          "text": "Advising all patients to wear face masks during appointments, regardless of their current health status or symptoms.",
+          "is_correct": false,
+          "rationale": "Masking depends on risk assessment and current guidelines, not a universal rule for all patients at all times."
+        },
+        {
+          "key": "E",
+          "text": "Limiting direct physical contact with patients to only essential procedures to minimize the potential for germ spread.",
+          "is_correct": false,
+          "rationale": "Essential physical contact is often necessary for care; proper hygiene during contact is the key."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "A woman in her second trimester reports mild, infrequent Braxton Hicks contractions. What is the most appropriate initial advice a midwife should offer?",
+      "explanation": "Braxton Hicks contractions are normal physiological occurrences during pregnancy. Increasing fluid intake and rest often helps alleviate discomfort, and reassurance is important. However, persistent or painful contractions warrant further assessment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Recommend immediate admission to the hospital for continuous fetal monitoring and a more detailed medical assessment.",
+          "is_correct": false,
+          "rationale": "Immediate admission is unnecessary for mild, infrequent Braxton Hicks contractions, which are usually normal."
+        },
+        {
+          "key": "B",
+          "text": "Advise her to increase fluid intake and rest, explaining these contractions are usually a normal part of pregnancy.",
+          "is_correct": true,
+          "rationale": "Reassurance, rest, and hydration are standard, appropriate advice for normal physiological Braxton Hicks contractions."
+        },
+        {
+          "key": "C",
+          "text": "Instruct her to perform vigorous exercise to strengthen her uterine muscles for the upcoming labor and delivery.",
+          "is_correct": false,
+          "rationale": "Vigorous exercise is generally not recommended and could be harmful in this specific context."
+        },
+        {
+          "key": "D",
+          "text": "Suggest she immediately take over-the-counter pain medication to alleviate any discomfort she feels from the contractions.",
+          "is_correct": false,
+          "rationale": "Pain medication is not the first line of advice for normal physiological contractions during pregnancy."
+        },
+        {
+          "key": "E",
+          "text": "Tell her to ignore the contractions completely, as they are never a cause for any concern during pregnancy.",
+          "is_correct": false,
+          "rationale": "While often normal, it's important to differentiate from true labor; ignoring them completely is not best practice."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "How should a midwife effectively communicate sensitive information, such as a difficult diagnosis, to a pregnant woman and her family?",
+      "explanation": "Effective communication of sensitive information requires empathy, clarity, and providing a safe space for the woman and family to ask questions and process emotions, supporting their understanding and coping.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Deliver the information quickly and concisely to avoid prolonged emotional distress for the woman and her family members.",
+          "is_correct": false,
+          "rationale": "Rushing can hinder understanding and processing; empathy and sufficient time for discussion are crucial."
+        },
+        {
+          "key": "B",
+          "text": "Use complex medical terminology to ensure accuracy and demonstrate professional expertise during the important medical discussion.",
+          "is_correct": false,
+          "rationale": "Using jargon can confuse and alienate; clear, simple language accessible to the family is preferred."
+        },
+        {
+          "key": "C",
+          "text": "Provide information clearly and empathetically, allowing sufficient time for questions and emotional processing from the family.",
+          "is_correct": true,
+          "rationale": "Empathy, clarity, and time for questions are vital for supporting families through difficult news effectively."
+        },
+        {
+          "key": "D",
+          "text": "Delegate the conversation to a junior staff member to maintain emotional distance and professional objectivity.",
+          "is_correct": false,
+          "rationale": "Midwives are responsible for this communication; delegating sensitive news is generally inappropriate."
+        },
+        {
+          "key": "E",
+          "text": "Share the news in a busy public area to ensure privacy and allow for quick access to support staff.",
+          "is_correct": false,
+          "rationale": "A private, quiet setting is essential for sensitive conversations, not a busy public area, to ensure dignity."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "After a normal vaginal birth, what is the midwife's primary responsibility regarding the newborn in the first hour of life?",
+      "explanation": "Facilitating skin-to-skin contact immediately after birth is crucial for promoting maternal-infant bonding, regulating the newborn's temperature, and initiating breastfeeding, supporting vital early physiological adjustments.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately administer all routine vaccinations and prophylactic medications to the infant as per hospital protocol.",
+          "is_correct": false,
+          "rationale": "Vaccinations and prophylactic medications are important but not the immediate primary priority in the first hour."
+        },
+        {
+          "key": "B",
+          "text": "Perform a comprehensive physical examination, including measuring head circumference and the baby's total body length.",
+          "is_correct": false,
+          "rationale": "Comprehensive physical examinations typically occur later; immediate priorities are bonding and stabilization."
+        },
+        {
+          "key": "C",
+          "text": "Facilitate immediate skin-to-skin contact between the mother and baby to promote bonding and maintain body warmth.",
+          "is_correct": true,
+          "rationale": "Skin-to-skin contact is vital for bonding, temperature regulation, and initiating feeding in the first hour."
+        },
+        {
+          "key": "D",
+          "text": "Transport the newborn to the nursery for a detailed assessment by a dedicated pediatric specialist on duty.",
+          "is_correct": false,
+          "rationale": "Unless complications arise, the newborn stays with the mother for initial care and bonding, not the nursery."
+        },
+        {
+          "key": "E",
+          "text": "Document every minute detail of the birth process, prioritizing paperwork over direct patient care and interaction.",
+          "is_correct": false,
+          "rationale": "Documentation is important, but direct patient care and facilitating bonding are the immediate priorities."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What is a key component of the initial booking appointment for a pregnant woman in the health social care sector?",
+      "explanation": "The booking appointment is crucial for gathering comprehensive medical, social, and obstetric history. This information allows the midwife to identify potential risks, tailor care plans, and ensure appropriate referrals are made from the outset of pregnancy.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Discussing her medical history and previous pregnancies to identify potential risks and any individual care needs.",
+          "is_correct": true,
+          "rationale": "Gathering history is fundamental for risk assessment and personalised care planning."
+        },
+        {
+          "key": "B",
+          "text": "Performing a detailed ultrasound scan to confirm fetal viability and accurately determine the baby's gestational age.",
+          "is_correct": false,
+          "rationale": "Ultrasound scans are typically arranged separately, not the primary focus of booking."
+        },
+        {
+          "key": "C",
+          "text": "Administering a comprehensive range of vaccinations to protect both mother and baby from many common diseases.",
+          "is_correct": false,
+          "rationale": "Vaccinations are discussed and offered, but not typically administered at the booking appointment."
+        },
+        {
+          "key": "D",
+          "text": "Arranging immediate consultation with a paediatrician to plan the baby's postnatal care pathway in advance.",
+          "is_correct": false,
+          "rationale": "Paediatric consultations are usually much later in pregnancy or post-delivery."
+        },
+        {
+          "key": "E",
+          "text": "Providing detailed instruction on infant feeding techniques and newborn bathing routines well before the delivery date.",
+          "is_correct": false,
+          "rationale": "This education is provided later in pregnancy or postnatally, not at booking."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "A pregnant woman in her second trimester reports experiencing frequent heartburn; what initial advice would you offer?",
+      "explanation": "Heartburn is common in pregnancy due to hormonal changes and uterine pressure. Lifestyle modifications like smaller meals and avoiding trigger foods are safe and effective first-line interventions for managing symptoms.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Recommend consuming smaller, more frequent meals and avoiding spicy or fatty foods throughout the entire day.",
+          "is_correct": true,
+          "rationale": "Lifestyle adjustments are the initial and safest approach for managing heartburn in pregnancy."
+        },
+        {
+          "key": "B",
+          "text": "Advise her to immediately seek specialist medical consultation for a comprehensive diagnostic endoscopy procedure to investigate.",
+          "is_correct": false,
+          "rationale": "An endoscopy is an invasive procedure and not an initial response to common heartburn."
+        },
+        {
+          "key": "C",
+          "text": "Suggest taking a strong antacid medication several times daily without consulting a healthcare professional for advice first.",
+          "is_correct": false,
+          "rationale": "Self-medicating with strong antacids without advice is not recommended in pregnancy."
+        },
+        {
+          "key": "D",
+          "text": "Encourage her to lie down immediately after eating to help digestion and reduce painful reflux symptoms effectively.",
+          "is_correct": false,
+          "rationale": "Lying down after eating can worsen heartburn symptoms by allowing stomach acid to reflux."
+        },
+        {
+          "key": "E",
+          "text": "Instruct her to completely eliminate all dairy products from her diet, as this often causes significant heartburn.",
+          "is_correct": false,
+          "rationale": "Eliminating dairy is not a universal solution for heartburn and could lead to nutritional deficiencies."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Which symptom during pregnancy should always prompt an urgent assessment by a healthcare professional immediately?",
+      "explanation": "Persistent, severe headache accompanied by visual disturbances and sudden swelling are classic signs of pre-eclampsia, a serious and potentially life-threatening condition for both mother and baby that requires immediate medical attention.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mild swelling in the ankles and feet at the end of a long day, especially during warmer weather.",
+          "is_correct": false,
+          "rationale": "Mild ankle swelling is common and usually benign in late pregnancy."
+        },
+        {
+          "key": "B",
+          "text": "Occasional nausea and vomiting that improves with dietary changes and rest throughout the early morning hours.",
+          "is_correct": false,
+          "rationale": "Morning sickness is very common, especially in the first trimester, and usually not urgent."
+        },
+        {
+          "key": "C",
+          "text": "Persistent, severe headache accompanied by visual disturbances and sudden facial swelling that appeared recently.",
+          "is_correct": true,
+          "rationale": "These symptoms are indicative of pre-eclampsia, requiring urgent medical assessment."
+        },
+        {
+          "key": "D",
+          "text": "Intermittent Braxton Hicks contractions that are irregular, painless, and resolve with adequate hydration and rest.",
+          "is_correct": false,
+          "rationale": "Braxton Hicks contractions are normal physiological occurrences and not usually urgent."
+        },
+        {
+          "key": "E",
+          "text": "Feeling generally tired and experiencing increased need for sleep during the first trimester of the pregnancy.",
+          "is_correct": false,
+          "rationale": "Fatigue is a very common and normal symptom of early pregnancy."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is the immediate priority for a midwife caring for a healthy newborn baby delivered at term?",
+      "explanation": "Ensuring the baby is warm and dry, establishing effective breathing, and promoting early skin-to-skin contact are fundamental steps in immediate newborn care, crucial for adaptation to extrauterine life and bonding.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensuring the baby is warm and dry, establishing effective breathing, and promoting skin-to-skin contact with the mother.",
+          "is_correct": true,
+          "rationale": "Maintaining warmth, ensuring respiration, and promoting bonding are immediate priorities for newborns."
+        },
+        {
+          "key": "B",
+          "text": "Administering the first routine immunizations and conducting a comprehensive hearing screening test immediately after the birth.",
+          "is_correct": false,
+          "rationale": "Immunizations and hearing screens are done later, not immediately post-delivery."
+        },
+        {
+          "key": "C",
+          "text": "Performing a detailed neurological examination to assess all reflexes and developmental milestones thoroughly and accurately.",
+          "is_correct": false,
+          "rationale": "A full neurological exam is not the immediate priority; initial assessment is sufficient."
+        },
+        {
+          "key": "D",
+          "text": "Collecting a blood sample for extensive genetic testing to identify any potential hereditary conditions very early.",
+          "is_correct": false,
+          "rationale": "Newborn screening (heel prick test) is done after 24 hours, not immediately after birth."
+        },
+        {
+          "key": "E",
+          "text": "Providing the parents with a detailed schedule for future paediatric appointments and all necessary feeding plans.",
+          "is_correct": false,
+          "rationale": "This information is important but not the absolute immediate priority over the baby's physiological stability."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "When discussing birth options with expectant parents, what is the most appropriate approach for a midwife?",
+      "explanation": "Midwives empower parents by providing balanced, evidence-based information on all available birth options, including benefits and risks. This approach respects their autonomy and facilitates informed decision-making, central to person-centred care.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Presenting all available options objectively, discussing benefits and risks, and respecting their informed choices fully.",
+          "is_correct": true,
+          "rationale": "Facilitating informed choice and respecting autonomy are core principles of midwifery care."
+        },
+        {
+          "key": "B",
+          "text": "Strongly recommending the option that aligns best with the midwife's personal experience and preferred clinical practice.",
+          "is_correct": false,
+          "rationale": "Midwives should avoid imposing personal preferences and maintain objectivity."
+        },
+        {
+          "key": "C",
+          "text": "Providing only the most common birth option to avoid overwhelming the parents with too much complex information.",
+          "is_correct": false,
+          "rationale": "Limiting information restricts informed choice and parental autonomy."
+        },
+        {
+          "key": "D",
+          "text": "Making decisions on behalf of the parents, as the midwife possesses the expert medical knowledge and experience.",
+          "is_correct": false,
+          "rationale": "Decision-making should always involve the parents, respecting their preferences."
+        },
+        {
+          "key": "E",
+          "text": "Focusing solely on potential complications of each option to ensure parents are fully aware of all risks involved.",
+          "is_correct": false,
+          "rationale": "Focusing only on risks can cause undue anxiety and does not present a balanced view."
+        }
+      ]
+    }
+  ]
+}

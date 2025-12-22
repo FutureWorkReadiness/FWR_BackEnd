@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "A service user with dementia discloses a historical allegation of abuse by a family member who is their main visitor. What is the most appropriate initial action?",
+      "explanation": "The primary duty is to safeguard the vulnerable adult. Following the organisation's safeguarding policy by immediately reporting to the designated lead ensures a correct, confidential, and expert-led response, protecting both the service user and the care worker.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately confront the family member with the allegation to understand their perspective and assess their reaction.",
+          "is_correct": false,
+          "rationale": "This is confrontational, unsafe, and not the care worker's role to investigate."
+        },
+        {
+          "key": "B",
+          "text": "Document the disclosure in the care plan and closely monitor future interactions between the family member and resident.",
+          "is_correct": false,
+          "rationale": "This is too passive and fails the immediate duty of care to report a safeguarding concern."
+        },
+        {
+          "key": "C",
+          "text": "Follow the organisation's safeguarding procedures by reporting the disclosure to the designated safeguarding lead without delay.",
+          "is_correct": true,
+          "rationale": "This adheres to legal and procedural duties, ensuring a proper investigation is initiated."
+        },
+        {
+          "key": "D",
+          "text": "Ask the service user for more detailed information to determine if the allegation is credible before taking further action.",
+          "is_correct": false,
+          "rationale": "This could be distressing for the user; investigation is a specialist role."
+        },
+        {
+          "key": "E",
+          "text": "Advise the service user that they should report the matter to the police to maintain their own autonomy.",
+          "is_correct": false,
+          "rationale": "The service user may lack capacity or be too vulnerable to take this action alone."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "You discover a significant medication administration error made by a junior colleague on a previous shift. What is your immediate priority in this situation?",
+      "explanation": "The absolute priority in any clinical error is the immediate safety and well-being of the service user. Assessing their health status and informing medical professionals is the first step before any administrative or disciplinary actions are taken.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Correct the medication administration record immediately to ensure the documentation is accurate for the next shift's staff.",
+          "is_correct": false,
+          "rationale": "Documentation is important but secondary to the resident's immediate health and safety."
+        },
+        {
+          "key": "B",
+          "text": "Privately inform the junior colleague of their mistake so they can learn from the experience and not repeat it.",
+          "is_correct": false,
+          "rationale": "While important for training, this is not the first priority over resident safety."
+        },
+        {
+          "key": "C",
+          "text": "Assess the service user's health and well-being, then report the incident to the manager and relevant medical professionals.",
+          "is_correct": true,
+          "rationale": "This correctly prioritises the resident's immediate safety and ensures necessary medical intervention."
+        },
+        {
+          "key": "D",
+          "text": "Complete a detailed incident report form as required by CQC regulations before taking any other specific action.",
+          "is_correct": false,
+          "rationale": "Reporting is vital, but a direct assessment of the service user must come first."
+        },
+        {
+          "key": "E",
+          "text": "Administer the correct medication dose as soon as possible to counteract the effects of the previous error.",
+          "is_correct": false,
+          "rationale": "This could be dangerous without a full assessment and explicit medical advice first."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "A service user with assessed mental capacity wishes to refuse nutrition, which their concerned family insists is essential for survival. What principle must guide your actions?",
+      "explanation": "The Mental Capacity Act 2005 establishes that an adult with capacity has the absolute right to make their own decisions, including those that may seem unwise or could lead to harm. This principle of autonomy overrides the wishes of family or medical opinion.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The family's wishes should be prioritised as they likely have the service user's best interests at heart.",
+          "is_correct": false,
+          "rationale": "This violates the individual's autonomy and legal rights, regardless of family intentions."
+        },
+        {
+          "key": "B",
+          "text": "The principle of beneficence, meaning you must provide the nutrition because it is medically beneficial for them.",
+          "is_correct": false,
+          "rationale": "Beneficence cannot be used to override a capacitous individual's right to refuse treatment."
+        },
+        {
+          "key": "C",
+          "text": "The service user's right to refuse treatment, as they have been assessed as having the mental capacity to decide.",
+          "is_correct": true,
+          "rationale": "This correctly upholds the individual's autonomy as protected by the Mental Capacity Act."
+        },
+        {
+          "key": "D",
+          "text": "A multi-disciplinary team meeting must be held to make a collective decision on the best course of action.",
+          "is_correct": false,
+          "rationale": "While good practice, the team cannot overrule a decision made by a person with capacity."
+        },
+        {
+          "key": "E",
+          "text": "The care home's internal policy on nutrition and hydration, which must be followed to avoid any legal liability.",
+          "is_correct": false,
+          "rationale": "Organisational policy cannot legally override an individual's statutory right to refuse treatment."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "As the shift leader, a resident with known challenging behaviour becomes highly agitated and aggressive towards another resident. What is your first priority?",
+      "explanation": "The immediate priority is the safety of everyone involved. This involves separating the individuals to prevent harm and then using the least restrictive intervention, which is verbal de-escalation, to calm the situation before considering other measures.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately apply physical restraint to the agitated resident to prevent them from causing any physical harm to others.",
+          "is_correct": false,
+          "rationale": "Restraint is a last resort and requires specific training and justification."
+        },
+        {
+          "key": "B",
+          "text": "Attempt verbal de-escalation while simultaneously ensuring the safety and removal of the other resident from the immediate area.",
+          "is_correct": true,
+          "rationale": "This prioritises safety for all and uses the least restrictive intervention first."
+        },
+        {
+          "key": "C",
+          "text": "Call the police immediately to handle the situation as it has now become a potential criminal assault.",
+          "is_correct": false,
+          "rationale": "This is a disproportionate initial response unless severe violence or a weapon is involved."
+        },
+        {
+          "key": "D",
+          "text": "Instruct other staff members to begin documenting the incident in detail for accurate reporting and record-keeping.",
+          "is_correct": false,
+          "rationale": "Documentation is crucial but is not the first priority over ensuring immediate physical safety."
+        },
+        {
+          "key": "E",
+          "text": "Quickly prepare and administer prescribed PRN (as required) sedative medication to calm the agitated resident.",
+          "is_correct": false,
+          "rationale": "Medication is not a first-line response and requires careful assessment before being administered."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "The family of a service user offers you a significant cash gift as thanks for your excellent care. What is the most appropriate professional response?",
+      "explanation": "Accepting gifts, especially cash, can create a conflict of interest, compromise professional boundaries, and may be seen as coercive. The correct response is to politely decline and explain that it is against company policy, thereby upholding professional integrity.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Accept the gift graciously but do not tell your manager to avoid causing any unnecessary administrative issues.",
+          "is_correct": false,
+          "rationale": "This is a serious breach of professional conduct and organisational policy."
+        },
+        {
+          "key": "B",
+          "text": "Suggest that they could instead donate the money to the care home's general fund for resident activities.",
+          "is_correct": false,
+          "rationale": "This can still create a conflict of interest and blurs professional boundaries."
+        },
+        {
+          "key": "C",
+          "text": "Politely and firmly decline the gift, explaining that your organisation's policy prohibits you from accepting cash gifts.",
+          "is_correct": true,
+          "rationale": "This maintains professional boundaries, adheres to policy, and avoids any conflict of interest."
+        },
+        {
+          "key": "D",
+          "text": "Accept the gift on the condition that you can share it equally among all the care staff.",
+          "is_correct": false,
+          "rationale": "This is still a breach of policy, regardless of whether the gift is shared."
+        },
+        {
+          "key": "E",
+          "text": "Tell them you cannot accept it but suggest they buy a specific item for the resident's personal use.",
+          "is_correct": false,
+          "rationale": "This is an indirect acceptance of a gift and still compromises professional boundaries."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "When reviewing a care plan for a service user with rapidly progressing dementia, what is the most critical immediate action to take?",
+      "explanation": "For a client with rapidly changing, complex needs, a multi-disciplinary team (MDT) approach is essential. This ensures a holistic reassessment of risks, needs, and support strategies, involving all key stakeholders for the best possible outcome.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Focus only on updating the medication administration record to reflect the latest prescriptions from the general practitioner.",
+          "is_correct": false,
+          "rationale": "This action is too narrow and fails to address the client's holistic needs."
+        },
+        {
+          "key": "B",
+          "text": "Immediately schedule a multi-disciplinary team meeting with family, GP, and specialist nurses to reassess all risks and needs.",
+          "is_correct": true,
+          "rationale": "This collaborative approach is vital for complex, changing conditions."
+        },
+        {
+          "key": "C",
+          "text": "Continue with the existing care plan but simply increase the frequency of visits to monitor the client's condition.",
+          "is_correct": false,
+          "rationale": "This is a reactive measure that doesn't proactively adapt the care plan itself."
+        },
+        {
+          "key": "D",
+          "text": "Document the observed changes in the daily log and wait for the next scheduled formal review in three months.",
+          "is_correct": false,
+          "rationale": "This is dangerously passive and fails to respond to urgent changes."
+        },
+        {
+          "key": "E",
+          "text": "Advise the family to consider residential care without a full reassessment of the current support options available.",
+          "is_correct": false,
+          "rationale": "This is a premature suggestion that bypasses proper assessment and client choice."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "You suspect a colleague is financially exploiting a vulnerable service user. What is your primary professional and legal responsibility in this situation?",
+      "explanation": "Safeguarding procedures require any suspicion of abuse to be reported immediately to the designated safeguarding lead. This ensures a formal, confidential, and correct investigation is initiated, protecting both the service user and the integrity of the process.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Confront the colleague directly to give them a chance to explain their actions before escalating the matter further.",
+          "is_correct": false,
+          "rationale": "This can lead to intimidation or tampering with evidence and is not the correct procedure."
+        },
+        {
+          "key": "B",
+          "text": "Immediately and confidentially report your specific concerns to your designated safeguarding lead, following organisational policy precisely.",
+          "is_correct": true,
+          "rationale": "This follows correct safeguarding protocol, ensuring a proper investigation."
+        },
+        {
+          "key": "C",
+          "text": "Discuss your suspicions with other team members to see if they have noticed anything similar before taking formal action.",
+          "is_correct": false,
+          "rationale": "This constitutes gossip, breaches confidentiality, and is unprofessional."
+        },
+        {
+          "key": "D",
+          "text": "Advise the service user's family of your concerns so they can take action to protect their relative's finances.",
+          "is_correct": false,
+          "rationale": "This bypasses official channels and could cause undue distress without a formal investigation."
+        },
+        {
+          "key": "E",
+          "text": "Begin gathering your own evidence by monitoring the colleague's activities before you make an official report.",
+          "is_correct": false,
+          "rationale": "This is not your role and could compromise an official investigation."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "When supporting a service user to create an Advance Care Plan for their end-of-life care, what is the most important principle to uphold?",
+      "explanation": "The foundation of person-centred care, especially in end-of-life planning, is ensuring the individual's own wishes, values, and preferences are paramount. The Advance Care Plan is their voice, and all support should be geared towards documenting it accurately.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensuring the plan strictly adheres to the organisation's standard templates and procedural guidelines for all documentation.",
+          "is_correct": false,
+          "rationale": "Process is secondary to the individual's personal wishes and values."
+        },
+        {
+          "key": "B",
+          "text": "Prioritising the family's wishes and opinions to ensure they are comfortable with the decisions being made for the client.",
+          "is_correct": false,
+          "rationale": "The service user's wishes are paramount, not the family's."
+        },
+        {
+          "key": "C",
+          "text": "Making certain the service user's personal values, preferences, and wishes are central to every decision documented in the plan.",
+          "is_correct": true,
+          "rationale": "This is the core principle of person-centred end-of-life care planning."
+        },
+        {
+          "key": "D",
+          "text": "Focusing primarily on the medical and clinical aspects of care to ensure the plan is practical for healthcare professionals.",
+          "is_correct": false,
+          "rationale": "This ignores the holistic and personal nature of end-of-life choices."
+        },
+        {
+          "key": "E",
+          "text": "Guiding the service user towards choices that are most easily facilitated by the care provider's available resources.",
+          "is_correct": false,
+          "rationale": "This is resource-led care, not person-centred care."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "After discovering you administered the wrong dosage of a prescribed medication, what is the correct sequence of actions you must immediately undertake?",
+      "explanation": "The immediate priority in a medication error is the service user's safety. This involves assessing for harm, immediately informing senior staff and medical professionals for guidance, and then completing thorough documentation as per policy. This sequence prioritises safety and accountability.",
+      "options": [
+        {
+          "key": "A",
+          "text": "First, document the error in the client's file, then inform your manager at the end of your shift.",
+          "is_correct": false,
+          "rationale": "This delays urgent medical assessment and reporting, putting the client at risk."
+        },
+        {
+          "key": "B",
+          "text": "Immediately assess the client for adverse effects, report to the manager and relevant medical professional, and then document everything.",
+          "is_correct": true,
+          "rationale": "This sequence correctly prioritises client safety, escalation, and then documentation."
+        },
+        {
+          "key": "C",
+          "text": "Wait to see if the client shows any adverse symptoms before deciding whether it is necessary to report the error.",
+          "is_correct": false,
+          "rationale": "This is a dangerous and unprofessional delay; all errors must be reported immediately."
+        },
+        {
+          "key": "D",
+          "text": "Ask a more senior colleague for advice on how to proceed before taking any official steps to report the incident.",
+          "is_correct": false,
+          "rationale": "This abdicates responsibility and delays the critical reporting process."
+        },
+        {
+          "key": "E",
+          "text": "Correct the error by administering the right dose as soon as possible and then report the initial mistake later.",
+          "is_correct": false,
+          "rationale": "This could lead to a dangerous overdose and is clinically unsafe."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "A service user with dementia refuses a bath, despite clear hygiene risks. How should you apply the principles of the Mental Capacity Act?",
+      "explanation": "The Mental Capacity Act 2005 requires you to assume capacity unless proven otherwise. For a specific decision, you must assess their ability to understand, retain, weigh, and communicate their choice, providing all necessary support to help them decide.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Assume they lack capacity because their decision seems unwise and proceed with the bath to ensure their well-being.",
+          "is_correct": false,
+          "rationale": "The MCA states that an unwise decision does not prove a lack of capacity."
+        },
+        {
+          "key": "B",
+          "text": "Document their refusal and respect it as a capacitous decision, taking no further action until the next scheduled visit.",
+          "is_correct": false,
+          "rationale": "This ignores the duty of care to manage the significant hygiene risks."
+        },
+        {
+          "key": "C",
+          "text": "Assess their capacity for this specific decision at this time, providing all relevant information in an understandable way.",
+          "is_correct": true,
+          "rationale": "This correctly follows the MCA's principles of assessment and supported decision-making."
+        },
+        {
+          "key": "D",
+          "text": "Immediately contact their next of kin and ask them to make the decision on the service user's behalf.",
+          "is_correct": false,
+          "rationale": "Next of kin do not have automatic legal authority to make decisions."
+        },
+        {
+          "key": "E",
+          "text": "Explain that a bath is non-negotiable for health reasons and use gentle persuasion until they eventually agree.",
+          "is_correct": false,
+          "rationale": "This can be coercive and fails to respect the individual's right to refuse."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "A service user with a valid Advance Decision to Refuse Treatment (ADRT) experiences a life-threatening event specified in the document. What is your correct action?",
+      "explanation": "An ADRT is a legally binding document. The care worker's duty is to respect the individual's documented wishes, providing comfort and palliative care rather than overriding their decision with life-sustaining treatment. Proper documentation is crucial.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Respect the ADRT by providing palliative care to ensure comfort and dignity, while meticulously documenting all actions and observations.",
+          "is_correct": true,
+          "rationale": "This upholds the service user's legal right to refuse treatment."
+        },
+        {
+          "key": "B",
+          "text": "Immediately call emergency services to provide life-sustaining treatment, as the primary duty of a carer is to preserve life.",
+          "is_correct": false,
+          "rationale": "This illegally ignores the service user's legally binding decision."
+        },
+        {
+          "key": "C",
+          "text": "Attempt to persuade the family to override the ADRT because the person's condition might actually be reversible with treatment.",
+          "is_correct": false,
+          "rationale": "This is unethical, illegal, and disrespects the user's autonomy."
+        },
+        {
+          "key": "D",
+          "text": "Contact the service user's GP for permission to ignore the ADRT before you take any further action in this situation.",
+          "is_correct": false,
+          "rationale": "A GP cannot override a valid and applicable ADRT."
+        },
+        {
+          "key": "E",
+          "text": "Wait for a senior manager to arrive on-site before making any decisions regarding the service user's immediate care needs.",
+          "is_correct": false,
+          "rationale": "Delaying palliative care would cause unnecessary suffering."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "You discover a colleague has been administering the wrong dosage of a controlled drug to a service user for several days. What is your immediate priority?",
+      "explanation": "The immediate priority is the service user's safety. This involves assessing for harm and ensuring medical professionals are alerted. Reporting through official channels ensures the error is managed correctly and safeguarding procedures are followed.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Confront the colleague directly and privately to understand why the error occurred before you decide to report it to management.",
+          "is_correct": false,
+          "rationale": "This delays critical action and risks collusion or concealment."
+        },
+        {
+          "key": "B",
+          "text": "Immediately assess the service user for any adverse effects and report the error to your manager and the relevant healthcare professional.",
+          "is_correct": true,
+          "rationale": "This prioritises resident safety and follows correct reporting protocol."
+        },
+        {
+          "key": "C",
+          "text": "Correct the medication administration record discreetly and start giving the right dose, hoping that no serious harm has been done.",
+          "is_correct": false,
+          "rationale": "This is falsification of records and a serious safeguarding issue."
+        },
+        {
+          "key": "D",
+          "text": "Report the incident anonymously to the Care Quality Commission (CQC) to avoid any internal conflict with your colleague or manager.",
+          "is_correct": false,
+          "rationale": "Internal procedures must be followed first for immediate safety."
+        },
+        {
+          "key": "E",
+          "text": "Document the error in the service user's file but wait until the end of your shift to report it verbally.",
+          "is_correct": false,
+          "rationale": "This is an unacceptable delay for a serious medication error."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "A service user with cognitive decline insists on giving their new, overly-friendly neighbour large sums of money. What is the most appropriate initial action?",
+      "explanation": "This situation has clear indicators of potential financial abuse. The correct procedure is to follow the organisation's safeguarding policy by documenting specific concerns and reporting them immediately to the designated safeguarding lead for investigation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Respect the service user's autonomy and their fundamental right to spend their own money as they wish without intervention.",
+          "is_correct": false,
+          "rationale": "This ignores the duty of care and safeguarding responsibilities."
+        },
+        {
+          "key": "B",
+          "text": "Directly confront the neighbour about their intentions and warn them to stay away from the vulnerable service user.",
+          "is_correct": false,
+          "rationale": "This is unprofessional and could escalate the situation."
+        },
+        {
+          "key": "C",
+          "text": "Document the concerns with specific examples and immediately report them to your designated safeguarding lead following organisational policy.",
+          "is_correct": true,
+          "rationale": "This follows correct safeguarding procedure for suspected financial abuse."
+        },
+        {
+          "key": "D",
+          "text": "Advise the service user's family about the situation and suggest they should take control of the person's finances.",
+          "is_correct": false,
+          "rationale": "This bypasses formal safeguarding processes and legal channels."
+        },
+        {
+          "key": "E",
+          "text": "Try to persuade the service user that their neighbour is untrustworthy, which might damage your therapeutic relationship with them.",
+          "is_correct": false,
+          "rationale": "This is an opinion-based intervention, not a procedural one."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "During a group activity, a service user with dementia becomes highly agitated and aggressive, causing distress to others. What is your primary responsibility?",
+      "explanation": "In a situation with escalating behaviour, the primary duty is to ensure the safety of everyone involved. This means calmly removing others from potential harm while simultaneously attempting to de-escalate the agitated individual using approved techniques.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately use an approved physical restraint technique to control the individual and prevent any potential harm to other people.",
+          "is_correct": false,
+          "rationale": "Restraint is always a last resort, not a primary response."
+        },
+        {
+          "key": "B",
+          "text": "Prioritise the safety of all service users by calmly guiding others away while using de-escalation techniques with the agitated individual.",
+          "is_correct": true,
+          "rationale": "This correctly prioritises safety for all and uses de-escalation."
+        },
+        {
+          "key": "C",
+          "text": "Announce that the group activity is now cancelled and instruct everyone to return to their rooms until the situation resolves.",
+          "is_correct": false,
+          "rationale": "This can be distressing and punitive for other residents."
+        },
+        {
+          "key": "D",
+          "text": "Isolate the agitated service user in their room without supervision to allow them the time to calm down on their own.",
+          "is_correct": false,
+          "rationale": "This is unsafe, neglectful, and potentially an unlawful deprivation."
+        },
+        {
+          "key": "E",
+          "text": "Focus solely on comforting the other service users who are distressed, leaving the agitated individual to another staff member.",
+          "is_correct": false,
+          "rationale": "The immediate risk from the agitated person must be managed first."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "A grateful family member offers you a significant personal cash gift and insists you accept it for your excellent care. What is the most professional response?",
+      "explanation": "Accepting personal gifts, especially cash, crosses professional boundaries and is almost always against company policy. The correct response is to politely decline while upholding the policy, and redirecting their gratitude towards a formal, non-monetary compliment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Accept the gift graciously but do not tell your manager to avoid causing any administrative issues for the family.",
+          "is_correct": false,
+          "rationale": "This is a serious breach of professional conduct and policy."
+        },
+        {
+          "key": "B",
+          "text": "Suggest they instead use the money to buy a gift for the entire care team to share amongst themselves later.",
+          "is_correct": false,
+          "rationale": "This is still accepting a gift, which is usually against policy."
+        },
+        {
+          "key": "C",
+          "text": "Politely decline the gift, explaining that your organisation's policy prohibits accepting cash, but suggest they could make a formal compliment.",
+          "is_correct": true,
+          "rationale": "This maintains professional boundaries and upholds organisational policy."
+        },
+        {
+          "key": "D",
+          "text": "Accept the money but immediately donate it to a registered charity of your choice to avoid any personal financial gain.",
+          "is_correct": false,
+          "rationale": "This still violates the policy of not accepting the gift."
+        },
+        {
+          "key": "E",
+          "text": "Tell them you cannot accept it personally but recommend they donate the cash directly to the care home's resident fund.",
+          "is_correct": false,
+          "rationale": "This can create complex financial and ethical accountability issues."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "A service user reports feeling dizzy and nauseous shortly after you administered their new heart medication. What is the most appropriate immediate course of action?",
+      "explanation": "This situation requires an immediate, protocol-driven response. The priority is the service user's safety, which involves assessing them, reassuring them, and escalating to the appropriate healthcare professional without delay as per established procedures for adverse drug reactions.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately follow the established protocol for adverse drug reactions, which includes checking vital signs, reassuring the user, and contacting the designated healthcare professional.",
+          "is_correct": true,
+          "rationale": "This follows safety protocols and ensures immediate professional oversight."
+        },
+        {
+          "key": "B",
+          "text": "Advise the service user to simply lie down and wait for an hour to see if the symptoms will subside on their own.",
+          "is_correct": false,
+          "rationale": "This delays necessary medical assessment and intervention."
+        },
+        {
+          "key": "C",
+          "text": "Document the symptoms in the daily log and plan to mention it during the next scheduled GP visit for the service user.",
+          "is_correct": false,
+          "rationale": "This response is not urgent enough for a potential adverse reaction."
+        },
+        {
+          "key": "D",
+          "text": "Offer the service user a glass of water and suggest it might be an unrelated issue not connected to the medication.",
+          "is_correct": false,
+          "rationale": "This involves making an unqualified medical assumption."
+        },
+        {
+          "key": "E",
+          "text": "Search online for common side effects of the medication to confirm if dizziness and nausea are expected reactions before taking any action.",
+          "is_correct": false,
+          "rationale": "This delays the proper response and is not a substitute for professional medical advice."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "You suspect a vulnerable adult is being financially exploited by a family member. What is the correct procedure according to safeguarding policies?",
+      "explanation": "Safeguarding procedures require any suspicion of abuse, including financial exploitation, to be reported internally to the designated safeguarding lead. This ensures the concern is handled correctly, confidentially, and through the proper multi-agency channels without compromising the investigation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Confront the family member directly about your suspicions to try and resolve the issue without any formal reporting to protect family relationships.",
+          "is_correct": false,
+          "rationale": "Confrontation can escalate risk and is against safeguarding protocols."
+        },
+        {
+          "key": "B",
+          "text": "Discuss your concerns with other care workers to see if they have noticed similar issues before deciding whether to escalate the matter.",
+          "is_correct": false,
+          "rationale": "This can breach confidentiality and delay the official reporting process."
+        },
+        {
+          "key": "C",
+          "text": "Document your specific concerns with factual evidence, report them immediately to your designated safeguarding lead, and follow their professional guidance.",
+          "is_correct": true,
+          "rationale": "This is the correct procedure for reporting safeguarding concerns."
+        },
+        {
+          "key": "D",
+          "text": "Advise the vulnerable adult to be more careful with their finances and to set stricter boundaries with their family members.",
+          "is_correct": false,
+          "rationale": "This places the burden on the victim and is not a formal safeguarding action."
+        },
+        {
+          "key": "E",
+          "text": "Wait to gather more definitive proof of exploitation over several weeks before making any official report to avoid false accusations.",
+          "is_correct": false,
+          "rationale": "Delaying a report of suspected abuse puts the individual at further risk."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "When supporting a client with a terminal illness who has an Advance Decision to Refuse Treatment (ADRT), what is your primary professional responsibility?",
+      "explanation": "An Advance Decision to Refuse Treatment (ADRT) is a legally binding document under the Mental Capacity Act. A care worker's primary duty is to respect the individual's autonomy and ensure their documented wishes are known and followed by the entire care team.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To respect the client's legally binding decision as documented, ensuring their wishes are communicated and upheld by all care providers involved.",
+          "is_correct": true,
+          "rationale": "This respects the client's legal rights and autonomy."
+        },
+        {
+          "key": "B",
+          "text": "To attempt to persuade the client to reconsider their decision, especially if their condition appears to be temporarily improving at the moment.",
+          "is_correct": false,
+          "rationale": "This undermines the client's autonomy and the legal validity of the ADRT."
+        },
+        {
+          "key": "C",
+          "text": "To consult with the client's family to determine if they agree with the ADRT before following its instructions during a medical event.",
+          "is_correct": false,
+          "rationale": "The client's decision is paramount; family agreement is not required."
+        },
+        {
+          "key": "D",
+          "text": "To prioritize life-sustaining measures regardless of the ADRT, as the primary duty of a care worker is always to preserve life.",
+          "is_correct": false,
+          "rationale": "This ignores the legal right of an individual to refuse treatment."
+        },
+        {
+          "key": "E",
+          "text": "To only follow the ADRT if a medical doctor is physically present to give direct confirmation and approval at that specific time.",
+          "is_correct": false,
+          "rationale": "An ADRT is valid and should be followed without needing a doctor's immediate re-approval."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "A service user with advanced dementia becomes highly agitated and verbally aggressive during personal care. What is the best person-centred approach to de-escalate this situation?",
+      "explanation": "Person-centred dementia care recognizes that challenging behaviour is often a form of communication for an unmet need or distress. The correct approach is to stop the triggering activity, provide reassurance, and investigate the cause rather than forcing the task.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Continue with the personal care task as quickly as possible to get it over with, ignoring the verbal aggression to avoid reinforcing it.",
+          "is_correct": false,
+          "rationale": "This can increase distress and ignores the underlying cause."
+        },
+        {
+          "key": "B",
+          "text": "Firmly tell the service user that their behaviour is unacceptable and that personal care must be completed for their own hygiene.",
+          "is_correct": false,
+          "rationale": "This confrontational approach is likely to escalate agitation."
+        },
+        {
+          "key": "C",
+          "text": "Immediately leave the room and report the incident, leaving the service user alone until they have calmed down completely on their own.",
+          "is_correct": false,
+          "rationale": "Abandoning the person may increase their fear and anxiety."
+        },
+        {
+          "key": "D",
+          "text": "Stop the task, give the person space, use a calm tone to validate their feelings, and try to identify the underlying trigger.",
+          "is_correct": true,
+          "rationale": "This is a person-centred, non-confrontational de-escalation technique."
+        },
+        {
+          "key": "E",
+          "text": "Offer the service user a sedative that is prescribed for PRN use without first attempting any other de-escalation techniques at all.",
+          "is_correct": false,
+          "rationale": "Medication should be a last resort after non-pharmacological methods fail."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "A service user's family offers you a significant cash gift as a thank you for your excellent care. What is the most ethical and professional response?",
+      "explanation": "Accepting cash gifts compromises professional boundaries and can create a conflict of interest or perceived favoritism. The correct professional conduct is to politely decline, referencing organisational policy, while still acknowledging and appreciating the family's sentiment of gratitude.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Accept the cash gift but do not tell your manager or colleagues about it to avoid causing any workplace issues or jealousy.",
+          "is_correct": false,
+          "rationale": "This is dishonest and a clear breach of professional conduct."
+        },
+        {
+          "key": "B",
+          "text": "Politely and graciously decline the gift, explaining that your organisation's policy prohibits accepting cash gifts, but that you appreciate their kind gesture.",
+          "is_correct": true,
+          "rationale": "This maintains professional boundaries and adheres to policy."
+        },
+        {
+          "key": "C",
+          "text": "Suggest that they instead donate the money to a charity of your choice to avoid a direct conflict of interest for you.",
+          "is_correct": false,
+          "rationale": "While better than accepting it, this still oversteps professional boundaries."
+        },
+        {
+          "key": "D",
+          "text": "Accept the gift but immediately share it equally among all the care staff who have supported the service user over time.",
+          "is_correct": false,
+          "rationale": "This still violates the policy against accepting cash gifts."
+        },
+        {
+          "key": "E",
+          "text": "Tell them you cannot accept it personally but suggest they use the money to buy equipment for the care home instead.",
+          "is_correct": false,
+          "rationale": "This is inappropriate and outside the scope of your role."
+        }
+      ]
+    }
+  ]
+}

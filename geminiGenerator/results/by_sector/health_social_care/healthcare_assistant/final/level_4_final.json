@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "A patient you are monitoring suddenly becomes pale, complains of severe chest pain, and has difficulty breathing. What is your most immediate and appropriate action?",
+      "explanation": "The priority is immediate medical intervention for a potential medical emergency. Using the emergency call bell is the fastest way to summon a qualified team while ensuring the patient is not left alone.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately press the emergency call bell and stay with the patient, clearly stating the observed symptoms to the responding medical staff.",
+          "is_correct": true,
+          "rationale": "This ensures the fastest response from medical staff while not leaving the patient unattended."
+        },
+        {
+          "key": "B",
+          "text": "Go and find the registered nurse on the ward yourself to explain the situation in person before taking any other action.",
+          "is_correct": false,
+          "rationale": "Leaving the patient alone wastes critical time and delays the emergency response."
+        },
+        {
+          "key": "C",
+          "text": "Offer the patient a glass of water and help them sit up more comfortably to see if their symptoms improve on their own.",
+          "is_correct": false,
+          "rationale": "These actions are inappropriate for potential cardiac emergencies and delay necessary medical assessment."
+        },
+        {
+          "key": "D",
+          "text": "Document the patient's new symptoms in their chart and plan to report them during the next scheduled staff handover.",
+          "is_correct": false,
+          "rationale": "This is a critical failure to recognise and act upon an emergency situation."
+        },
+        {
+          "key": "E",
+          "text": "Ask a nearby patient if they have noticed anything unusual, to gather more information before escalating the situation to the nurse.",
+          "is_correct": false,
+          "rationale": "This breaches confidentiality and delays the urgent medical response required for the patient."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "You overhear a colleague discussing a patient's confidential diagnosis in a public cafeteria. What is the most professional way to handle this breach of confidentiality?",
+      "explanation": "Addressing the issue directly but discreetly is the most professional first step. It corrects the immediate breach while maintaining a professional relationship and giving the colleague a chance to rectify their behaviour.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ignore the conversation as it is not your direct responsibility and you do not want to create conflict with your colleague.",
+          "is_correct": false,
+          "rationale": "Ignoring a breach of confidentiality is unprofessional and fails to protect patient privacy."
+        },
+        {
+          "key": "B",
+          "text": "Discreetly interrupt and gently remind your colleague that patient information should only be discussed in private, secure settings.",
+          "is_correct": true,
+          "rationale": "This is a professional, immediate, and respectful way to address the confidentiality breach."
+        },
+        {
+          "key": "C",
+          "text": "Immediately report the colleague to the ward manager without speaking to them first, to ensure a formal record is made.",
+          "is_correct": false,
+          "rationale": "This may be necessary if the behaviour persists, but it is not the best initial step."
+        },
+        {
+          "key": "D",
+          "text": "Join the conversation to correct any inaccurate information you hear being shared about the patient's current condition.",
+          "is_correct": false,
+          "rationale": "Participating in the conversation, even to correct it, compounds the confidentiality breach."
+        },
+        {
+          "key": "E",
+          "text": "Wait until later and then anonymously post a reminder about patient confidentiality on the staff notice board for everyone.",
+          "is_correct": false,
+          "rationale": "This is an indirect approach that fails to address the specific, immediate breach of conduct."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "When assisting a patient with a known infectious condition like C. difficile, what is the most critical infection control practice to follow after leaving their room?",
+      "explanation": "C. difficile spores are resistant to alcohol-based sanitisers. The most effective method to physically remove them and prevent transmission is vigorous hand washing with soap and water, following established infection control protocols.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use an alcohol-based hand sanitiser multiple times to ensure all potential pathogens have been fully eliminated from your hands.",
+          "is_correct": false,
+          "rationale": "Alcohol hand gel is ineffective against C. difficile spores and should not be used."
+        },
+        {
+          "key": "B",
+          "text": "Only remove your gloves after you have left the patient's room and are back at the nurses' station to contain germs.",
+          "is_correct": false,
+          "rationale": "This spreads contamination from the patient's room to other clinical and non-clinical areas."
+        },
+        {
+          "key": "C",
+          "text": "Thoroughly wash your hands with soap and water, as alcohol-based hand sanitisers are not effective against C. difficile spores.",
+          "is_correct": true,
+          "rationale": "Washing with soap and water is the only effective hand hygiene method for C. difficile."
+        },
+        {
+          "key": "D",
+          "text": "Ensure you wipe down your uniform with a disinfectant wipe before you proceed to care for your next assigned patient.",
+          "is_correct": false,
+          "rationale": "While good practice, this is secondary to proper hand hygiene, which is the most critical step."
+        },
+        {
+          "key": "E",
+          "text": "Simply remove your personal protective equipment (PPE) and assume that this is sufficient protection against any form of cross-contamination.",
+          "is_correct": false,
+          "rationale": "Hand hygiene after removing PPE is a mandatory and critical step in infection control."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "A patient's family member is very distressed and repeatedly asks you for detailed information about the patient's prognosis. What is your best response?",
+      "explanation": "Healthcare assistants must operate within their scope of practice. Providing a prognosis is a nurse's or doctor's role. The correct action is to show empathy and facilitate communication with the appropriate medical professional.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Provide your own general opinion on the patient's condition based on the vital signs you have recently taken from them.",
+          "is_correct": false,
+          "rationale": "This is outside the scope of practice for a healthcare assistant and is inappropriate."
+        },
+        {
+          "key": "B",
+          "text": "Tell them you are too busy to talk right now and suggest they come back later during official visiting hours.",
+          "is_correct": false,
+          "rationale": "This response is dismissive, lacks empathy, and fails to address the family's valid concerns."
+        },
+        {
+          "key": "C",
+          "text": "Advise them to look up the patient's condition online to get a better understanding of what to expect from the illness.",
+          "is_correct": false,
+          "rationale": "This is unhelpful and could lead to misinformation and increased anxiety for the family."
+        },
+        {
+          "key": "D",
+          "text": "Acknowledge their distress, explain that you cannot provide that information, and offer to find the registered nurse to speak with them.",
+          "is_correct": true,
+          "rationale": "This response is empathetic, maintains professional boundaries, and directs them to the correct person."
+        },
+        {
+          "key": "E",
+          "text": "Reassure them that everything is going to be fine, even if you are not certain about the patient's actual prognosis.",
+          "is_correct": false,
+          "rationale": "Providing false reassurance is unethical and can damage trust between the family and care team."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "You have four patient call bells ringing simultaneously on a busy ward. How do you best determine which patient to attend to first?",
+      "explanation": "Clinical prioritisation is a key skill for patient safety. It requires a rapid assessment of the urgency of each request, based on known patient conditions, rather than simply responding in order of activation or convenience.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Respond to the patients in the order that their call bells were activated, following a strict first-come, first-served policy.",
+          "is_correct": false,
+          "rationale": "This method fails to account for clinical urgency and potential patient risk."
+        },
+        {
+          "key": "B",
+          "text": "Go to the patient who is located closest to the nurses' station first to save time walking down the corridor.",
+          "is_correct": false,
+          "rationale": "Prioritisation must be based on clinical need, not on geographical convenience or location."
+        },
+        {
+          "key": "C",
+          "text": "Quickly assess the known needs and risks of each patient, prioritising those with urgent needs like breathing difficulties or fall risks.",
+          "is_correct": true,
+          "rationale": "This demonstrates correct clinical judgement by triaging based on the highest risk to patient safety."
+        },
+        {
+          "key": "D",
+          "text": "Ask a nearby colleague to handle two of the calls while you handle the other two, without any initial triage.",
+          "is_correct": false,
+          "rationale": "While teamwork is good, delegating without first triaging risks delaying care for the most urgent patient."
+        },
+        {
+          "key": "E",
+          "text": "Attend to the patient who tends to ring their call bell most frequently, assuming their need is the most persistent one.",
+          "is_correct": false,
+          "rationale": "Frequent calling does not necessarily correlate with the most urgent clinical need at that moment."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "A patient with limited mobility is assessed as being at high risk for developing pressure ulcers. What is the most crucial initial intervention?",
+      "explanation": "Regular repositioning is the cornerstone of pressure ulcer prevention as it relieves pressure from vulnerable areas, promoting blood flow and preventing tissue damage. Documentation ensures consistency of care.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Implement a regular repositioning schedule, turning the patient at least every two hours, and document each position change meticulously.",
+          "is_correct": true,
+          "rationale": "Regular, documented repositioning is the primary method to prevent pressure ulcers by relieving constant pressure on bony prominences."
+        },
+        {
+          "key": "B",
+          "text": "Apply a thick barrier cream to all bony prominences once daily to protect the skin from moisture damage.",
+          "is_correct": false,
+          "rationale": "Barrier creams help with moisture but do not relieve the primary cause of pressure ulcers, which is unrelieved pressure."
+        },
+        {
+          "key": "C",
+          "text": "Encourage the patient to consume a high-protein diet and increase fluid intake to improve overall skin integrity.",
+          "is_correct": false,
+          "rationale": "Nutrition is important for skin health but is a supportive measure, not the most crucial initial intervention for pressure relief."
+        },
+        {
+          "key": "D",
+          "text": "Provide the patient with a standard foam mattress to offer some basic comfort and support during periods of rest.",
+          "is_correct": false,
+          "rationale": "A standard mattress is insufficient; a pressure-relieving mattress is needed, but repositioning remains the most critical active intervention."
+        },
+        {
+          "key": "E",
+          "text": "Only check the patient's skin for redness during their morning personal care routine to avoid disturbing them unnecessarily.",
+          "is_correct": false,
+          "rationale": "Skin checks must be frequent and systematic, not limited to once a day, to catch early signs of damage."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "You overhear a colleague discussing a patient's confidential medical details in a public cafeteria. What is the most appropriate professional response?",
+      "explanation": "Patient confidentiality is a legal and ethical duty. The most appropriate action is to address the breach directly and discreetly to stop it immediately while maintaining professional respect and guiding the colleague.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately join the conversation to add your own knowledge about the patient's condition to show your expertise.",
+          "is_correct": false,
+          "rationale": "This action would worsen the confidentiality breach and is highly unprofessional, violating patient privacy and trust."
+        },
+        {
+          "key": "B",
+          "text": "Quietly and discreetly interrupt your colleague, suggesting they continue the necessary conversation in a private, appropriate setting.",
+          "is_correct": true,
+          "rationale": "This response corrects the immediate breach of confidentiality respectfully and professionally without causing a public scene."
+        },
+        {
+          "key": "C",
+          "text": "Ignore the conversation entirely, as it is not your direct responsibility to manage how other staff members behave.",
+          "is_correct": false,
+          "rationale": "All healthcare professionals have a duty to uphold patient confidentiality and should not ignore such clear breaches."
+        },
+        {
+          "key": "D",
+          "text": "Report the colleague to the hospital's general information desk so they can pass the message to the right person.",
+          "is_correct": false,
+          "rationale": "This is an indirect approach; a direct, discreet intervention is more effective and immediate in stopping the breach."
+        },
+        {
+          "key": "E",
+          "text": "Wait until your next team meeting to bring up the general topic of patient confidentiality without naming the individual.",
+          "is_correct": false,
+          "rationale": "This fails to address the immediate risk of the ongoing breach and may not prevent it from happening again."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "While taking routine observations, you notice a patient's respiratory rate has increased significantly and they seem confused. What is your immediate priority?",
+      "explanation": "A significant change in respiratory rate and new confusion are key signs of patient deterioration. Promptly escalating these concerns to the registered nurse is critical for timely medical intervention and patient safety.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Finish taking the rest of the patient's vital signs before deciding on the next course of action.",
+          "is_correct": false,
+          "rationale": "Delaying the alert could be detrimental; these specific signs require immediate escalation rather than completing a full set of observations."
+        },
+        {
+          "key": "B",
+          "text": "Document the changes in the patient's chart and plan to mention it to the nurse during the next handover.",
+          "is_correct": false,
+          "rationale": "Waiting for handover is an unsafe delay; signs of deterioration require immediate communication, not just documentation for later."
+        },
+        {
+          "key": "C",
+          "text": "Immediately alert the registered nurse responsible for the patient's care, clearly stating your specific observations and concerns.",
+          "is_correct": true,
+          "rationale": "This is the correct action as it ensures a qualified professional can assess and intervene promptly, which is vital."
+        },
+        {
+          "key": "D",
+          "text": "Offer the patient a glass of water and try to reassure them that everything will be okay shortly.",
+          "is_correct": false,
+          "rationale": "While reassurance is good, it does not address the potential underlying medical emergency indicated by the vital signs."
+        },
+        {
+          "key": "E",
+          "text": "Ask a nearby family member if this change in breathing and confusion is normal for the patient.",
+          "is_correct": false,
+          "rationale": "While family input can be useful, the priority is to escalate to a clinical professional who can make an assessment."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "When preparing to assist a patient with personal care who has a known C. difficile infection, what is the most essential infection control practice?",
+      "explanation": "C. difficile spores are resistant to alcohol gel. The correct protocol involves using appropriate PPE (gloves, apron) and performing thorough handwashing with soap and water to physically remove the spores from hands.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Wearing sterile gloves is sufficient as long as you dispose of them in the clinical waste bin afterwards.",
+          "is_correct": false,
+          "rationale": "Gloves are necessary but not sufficient; handwashing with soap and water is critical as spores can contaminate skin."
+        },
+        {
+          "key": "B",
+          "text": "Using alcohol-based hand gel before and after contact is the standard procedure for all patient interactions.",
+          "is_correct": false,
+          "rationale": "Alcohol gel is ineffective against C. difficile spores; soap and water must be used for effective hand hygiene."
+        },
+        {
+          "key": "C",
+          "text": "You must wear appropriate personal protective equipment (PPE) and wash your hands thoroughly with soap and water afterwards.",
+          "is_correct": true,
+          "rationale": "This combines the essential elements: using PPE to prevent contamination and washing with soap and water to remove spores."
+        },
+        {
+          "key": "D",
+          "text": "Ensure the room is well-ventilated by opening a window to disperse any airborne particles during the care activity.",
+          "is_correct": false,
+          "rationale": "C. difficile is primarily spread by contact with contaminated surfaces, not through the air, so ventilation is not the priority."
+        },
+        {
+          "key": "E",
+          "text": "Ask the patient to wash their own hands before you begin providing any assistance with their personal care.",
+          "is_correct": false,
+          "rationale": "While good practice, the primary responsibility for preventing cross-contamination lies with the healthcare assistant's own infection control measures."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "You need to help a patient with dementia with their personal care, but they are verbally refusing assistance. What is the correct approach?",
+      "explanation": "Even with dementia, a person's refusal should be respected initially. A person-centred approach involves de-escalation, understanding the cause of distress, and re-approaching later, rather than forcing care which can be distressing.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Proceed with the care task anyway because you know it is in the patient's best interest for their hygiene.",
+          "is_correct": false,
+          "rationale": "Forcing care on a person who is refusing constitutes a violation of their rights and can cause significant distress."
+        },
+        {
+          "key": "B",
+          "text": "Document the refusal in the care plan and immediately leave the patient alone until the next scheduled care time.",
+          "is_correct": false,
+          "rationale": "Simply leaving without attempting to understand or re-approach later may lead to neglected care needs for the patient."
+        },
+        {
+          "key": "C",
+          "text": "Respect their refusal for the moment, try to understand the reason, and attempt to approach them again a short while later.",
+          "is_correct": true,
+          "rationale": "This person-centred approach respects the individual's autonomy while still aiming to meet their care needs in a sensitive manner."
+        },
+        {
+          "key": "D",
+          "text": "Explain to the patient that if they do not cooperate, you will have to get a senior nurse to force them.",
+          "is_correct": false,
+          "rationale": "This is a threatening and inappropriate communication strategy that will likely increase the patient's anxiety and agitation."
+        },
+        {
+          "key": "E",
+          "text": "Ask a family member to give you permission to override the patient's refusal and continue with the required care.",
+          "is_correct": false,
+          "rationale": "Family members cannot give consent to override a capable person's refusal, and this undermines the patient's autonomy."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "A patient receiving palliative care expresses a clear wish to refuse further nutritional support. What is the most appropriate initial action?",
+      "explanation": "This respects the patient's right to self-determination, a core principle in palliative care. It ensures the decision is communicated to the appropriate clinical staff for review and action, upholding professional and legal duties.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Respect the patient's autonomy, document their wishes clearly, and immediately inform the registered nurse and multidisciplinary team.",
+          "is_correct": true,
+          "rationale": "This upholds patient autonomy and ensures proper communication."
+        },
+        {
+          "key": "B",
+          "text": "Attempt to persuade the patient to reconsider their decision, highlighting the importance of nutrition for their overall comfort.",
+          "is_correct": false,
+          "rationale": "This undermines patient autonomy and their right to refuse treatment."
+        },
+        {
+          "key": "C",
+          "text": "Immediately contact the patient's family to discuss the situation and seek their input before taking any further action.",
+          "is_correct": false,
+          "rationale": "The patient's decision is paramount, not the family's."
+        },
+        {
+          "key": "D",
+          "text": "Continue providing nutritional support as per the original care plan until a doctor formally changes the written orders.",
+          "is_correct": false,
+          "rationale": "This ignores the patient's expressed wishes and is unethical."
+        },
+        {
+          "key": "E",
+          "text": "Explain to the patient that refusing nutrition is not permitted under the facility's standard care protocols for safety.",
+          "is_correct": false,
+          "rationale": "Patients with capacity have the right to refuse treatment."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "You are assigned to a patient with a confirmed MRSA infection in a wound. Which set of precautions is most critical to prevent transmission?",
+      "explanation": "MRSA is primarily spread by direct contact. Therefore, contact precautions, including personal protective equipment (PPE) like gloves and gowns, and rigorous hand hygiene are the most effective measures to prevent its transmission.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Implementing contact precautions, including wearing gloves and a gown for all patient contact, and practicing meticulous hand hygiene.",
+          "is_correct": true,
+          "rationale": "Contact precautions and hand hygiene are standard for MRSA."
+        },
+        {
+          "key": "B",
+          "text": "Wearing a standard surgical mask at all times when you are inside the patient's designated room for protection.",
+          "is_correct": false,
+          "rationale": "MRSA is not typically airborne; masks are not required."
+        },
+        {
+          "key": "C",
+          "text": "Ensuring the patient is placed in a negative pressure room to prevent the airborne spread of the bacteria.",
+          "is_correct": false,
+          "rationale": "Negative pressure rooms are for airborne pathogens like tuberculosis."
+        },
+        {
+          "key": "D",
+          "text": "Using alcohol-based hand sanitiser exclusively, as soap and water are less effective against the MRSA bacteria.",
+          "is_correct": false,
+          "rationale": "Soap and water are also effective and necessary for soiled hands."
+        },
+        {
+          "key": "E",
+          "text": "Restricting all visitors from entering the patient's room until the infection has completely cleared from their system.",
+          "is_correct": false,
+          "rationale": "Visitors are usually permitted if they follow proper precautions."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "You notice a colleague looking up the medical records of a celebrity patient who is not under their direct care. What is your professional responsibility?",
+      "explanation": "Patient confidentiality is paramount. Accessing records without a legitimate clinical reason is a serious breach. The correct procedure is to report it through official channels to protect the patient and uphold professional standards.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Report the breach of confidentiality to your line manager or the designated data protection officer immediately and privately.",
+          "is_correct": true,
+          "rationale": "This follows correct procedure for reporting a confidentiality breach."
+        },
+        {
+          "key": "B",
+          "text": "Confront your colleague directly in the moment and tell them to stop what they are doing immediately.",
+          "is_correct": false,
+          "rationale": "Direct confrontation can be ineffective and escalate the situation."
+        },
+        {
+          "key": "C",
+          "text": "Make a note of the incident but wait to see if it happens again before deciding to report it.",
+          "is_correct": false,
+          "rationale": "Delaying a report allows the breach to go unaddressed."
+        },
+        {
+          "key": "D",
+          "text": "Assume the colleague has a valid professional reason for accessing the records and choose not to intervene.",
+          "is_correct": false,
+          "rationale": "Making assumptions can enable unethical and illegal behaviour."
+        },
+        {
+          "key": "E",
+          "text": "Discuss the situation with other colleagues to see if they think it is a serious enough issue to report.",
+          "is_correct": false,
+          "rationale": "This spreads confidential information and delays proper reporting."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "A patient with advanced dementia becomes agitated and verbally aggressive during personal care. What is the best de-escalation technique to use initially?",
+      "explanation": "The primary goal is to reduce the patient's distress. Pausing the activity, using a calm voice, and attempting to understand the trigger (e.g., pain, fear) is the most person-centred and effective initial approach.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Stop the task, speak in a calm and reassuring tone, and try to identify and address the underlying cause of their distress.",
+          "is_correct": true,
+          "rationale": "This is a person-centred approach focusing on the cause."
+        },
+        {
+          "key": "B",
+          "text": "Firmly tell the patient that their behaviour is unacceptable and that you must complete the required personal care tasks.",
+          "is_correct": false,
+          "rationale": "This approach is confrontational and likely to increase agitation."
+        },
+        {
+          "key": "C",
+          "text": "Leave the room immediately to give the patient space and return in thirty minutes to try the task again.",
+          "is_correct": false,
+          "rationale": "Abandoning care may increase distress and leaves needs unmet."
+        },
+        {
+          "key": "D",
+          "text": "Ask another healthcare assistant to help you physically restrain the patient so that you can complete the care quickly.",
+          "is_correct": false,
+          "rationale": "Restraint should be a last resort, not an initial technique."
+        },
+        {
+          "key": "E",
+          "text": "Offer the patient a sedative medication that has been prescribed for use as needed for severe agitation.",
+          "is_correct": false,
+          "rationale": "Medication is not an initial de-escalation step for an HCA."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "You are monitoring a patient with a urinary tract infection. Which combination of vital signs would most strongly indicate potential sepsis?",
+      "explanation": "Sepsis is a life-threatening response to infection. The combination of fever, tachycardia, hypotension, tachypnoea, and altered mental status (confusion) are classic signs requiring immediate escalation to a registered nurse or doctor.",
+      "options": [
+        {
+          "key": "A",
+          "text": "High temperature, rapid heart rate, low blood pressure, and an increased respiratory rate, along with new confusion.",
+          "is_correct": true,
+          "rationale": "This combination of signs is a classic presentation of sepsis."
+        },
+        {
+          "key": "B",
+          "text": "A very low body temperature, a slow and steady heart rate, and slightly elevated blood pressure readings.",
+          "is_correct": false,
+          "rationale": "These signs are not typical for sepsis; bradycardia is uncommon."
+        },
+        {
+          "key": "C",
+          "text": "Normal temperature and heart rate, but the patient is complaining of significant pain at the infection site.",
+          "is_correct": false,
+          "rationale": "This indicates a localized infection, not systemic sepsis."
+        },
+        {
+          "key": "D",
+          "text": "A slight increase in temperature and blood pressure, but the patient remains alert and fully oriented.",
+          "is_correct": false,
+          "rationale": "This suggests a simple fever response, not systemic shock."
+        },
+        {
+          "key": "E",
+          "text": "A fluctuating temperature that goes from high to normal, with a regular pulse and normal breathing patterns.",
+          "is_correct": false,
+          "rationale": "This lacks the key indicators like tachycardia and hypotension."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "A patient with a clearly documented and valid DNAR order in their care plan suddenly goes into cardiac arrest. What is your most appropriate immediate action?",
+      "explanation": "Respecting a valid Do Not Attempt Resuscitation (DNAR) order is a legal and ethical requirement. The HCA's role is to ensure the patient's comfort and dignity while immediately informing the senior nursing staff.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Commence cardiopulmonary resuscitation (CPR) immediately while another staff member calls for the emergency response team.",
+          "is_correct": false,
+          "rationale": "This action directly violates the patient's legally binding DNAR order."
+        },
+        {
+          "key": "B",
+          "text": "Immediately alert the registered nurse and provide comfort measures, respecting the patient's wishes and ensuring their dignity is maintained.",
+          "is_correct": true,
+          "rationale": "This respects the DNAR, prioritises dignity, and involves the correct personnel."
+        },
+        {
+          "key": "C",
+          "text": "Ask a family member who is present what they would like you to do before taking any further action.",
+          "is_correct": false,
+          "rationale": "The patient's advance directive takes precedence over a family member's immediate wishes."
+        },
+        {
+          "key": "D",
+          "text": "Withhold all care and leave the room to allow the patient and family privacy during this difficult time.",
+          "is_correct": false,
+          "rationale": "Abandoning the patient is unprofessional; comfort care should still be provided."
+        },
+        {
+          "key": "E",
+          "text": "Check the patient's vital signs again to confirm the cardiac arrest before deciding on the next steps.",
+          "is_correct": false,
+          "rationale": "While confirming is important, the primary action is dictated by the DNAR."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "You are providing personal care to a resident with advanced dementia who suddenly becomes verbally aggressive and physically resistant. What is the best initial approach?",
+      "explanation": "The priority is to de-escalate the situation and ensure safety for both the resident and the carer. Stopping the task and using a calm, person-centred approach addresses the immediate distress and seeks to understand the cause.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Continue with the personal care task quickly to finish it before the resident's agitation gets any worse.",
+          "is_correct": false,
+          "rationale": "This can escalate the situation and cause further distress or injury."
+        },
+        {
+          "key": "B",
+          "text": "Firmly tell the resident that their behaviour is unacceptable and that you must complete the required care tasks.",
+          "is_correct": false,
+          "rationale": "This confrontational approach is likely to increase agitation and is not person-centred."
+        },
+        {
+          "key": "C",
+          "text": "Immediately leave the room to find a colleague to help you restrain the resident so care can be completed.",
+          "is_correct": false,
+          "rationale": "Restraint is a last resort and this action skips de-escalation attempts."
+        },
+        {
+          "key": "D",
+          "text": "Stop the task, step back to a safe distance, and use a calm, reassuring tone to understand the cause of distress.",
+          "is_correct": true,
+          "rationale": "This de-escalates the situation, ensures safety, and follows best practice in dementia care."
+        },
+        {
+          "key": "E",
+          "text": "Offer the resident a sedative medication that has been prescribed for them on an 'as needed' basis for agitation.",
+          "is_correct": false,
+          "rationale": "Administering medication is outside the HCA scope of practice and not an initial response."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "While assisting a non-verbal patient, you notice several unexplained bruises on their upper arms that were not present yesterday. What is your mandatory professional responsibility?",
+      "explanation": "Any suspicion of non-accidental injury in a vulnerable person must be reported immediately to the appropriate senior staff member as per safeguarding policies. This ensures a timely, formal, and correct investigation is initiated.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask the patient's family members if they are aware of the cause of the bruising when they next visit.",
+          "is_correct": false,
+          "rationale": "This could alert a potential abuser and is not the correct reporting channel."
+        },
+        {
+          "key": "B",
+          "text": "Document the bruises in the patient's daily notes and monitor them over the next few days for changes.",
+          "is_correct": false,
+          "rationale": "This delays the reporting of a potentially serious safeguarding issue."
+        },
+        {
+          "key": "C",
+          "text": "Discuss your concerns with other healthcare assistants to see if they have noticed anything similar before reporting it.",
+          "is_correct": false,
+          "rationale": "This can lead to gossip and delays the official reporting process."
+        },
+        {
+          "key": "D",
+          "text": "Take photographs of the bruises on your personal phone to have as evidence in case it is needed later.",
+          "is_correct": false,
+          "rationale": "Using a personal device breaches patient confidentiality and data protection regulations."
+        },
+        {
+          "key": "E",
+          "text": "Immediately report your observations to the nurse in charge and document the findings factually in the patient's record.",
+          "is_correct": true,
+          "rationale": "This follows the correct safeguarding procedure for immediate reporting and documentation."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "A patient is on contact precautions for a Clostridioides difficile (C. diff) infection. Which infection control action is most crucial when leaving their room?",
+      "explanation": "C. difficile spores are resistant to alcohol-based sanitisers. The only effective method for removing them from hands is thorough washing with soap and water, which is a critical infection prevention and control measure.",
+      "options": [
+        {
+          "key": "A",
+          "text": "You must perform thorough hand washing with soap and water as alcohol gel is ineffective against C. diff spores.",
+          "is_correct": true,
+          "rationale": "Soap and water physically remove C. diff spores, unlike alcohol gel."
+        },
+        {
+          "key": "B",
+          "text": "Using an alcohol-based hand sanitiser is sufficient for hand hygiene after removing your personal protective equipment (PPE).",
+          "is_correct": false,
+          "rationale": "Alcohol gel does not kill C. diff spores and can spread the infection."
+        },
+        {
+          "key": "C",
+          "text": "Ensure you remove your gloves and apron just outside the patient's room to prevent contaminating the hallway.",
+          "is_correct": false,
+          "rationale": "PPE should always be removed inside the patient's room before exiting."
+        },
+        {
+          "key": "D",
+          "text": "Leave the door to the patient's room open to allow for better air circulation and reduce pathogen concentration.",
+          "is_correct": false,
+          "rationale": "The door to an isolation room should be kept closed to contain pathogens."
+        },
+        {
+          "key": "E",
+          "text": "Only wear gloves when providing direct patient care, but an apron is not necessary for brief interactions.",
+          "is_correct": false,
+          "rationale": "Full contact precautions, including gloves and apron, are required upon entering the room."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "A patient's relative asks you for specific details about their loved one's medical diagnosis and long-term prognosis. What is the most professional and appropriate response?",
+      "explanation": "It is outside the HCA's scope of practice to discuss diagnoses or prognoses. The correct action is to maintain professional boundaries and facilitate communication with the appropriate clinical staff, such as the registered nurse.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Provide a general and reassuring summary of the patient's condition based on what you have overheard from doctors.",
+          "is_correct": false,
+          "rationale": "This is a breach of confidentiality and outside the HCA's scope of practice."
+        },
+        {
+          "key": "B",
+          "text": "Explain that you are not the right person to discuss this, but you will find the registered nurse to speak with them.",
+          "is_correct": true,
+          "rationale": "This maintains professional boundaries and directs the query to the correct person."
+        },
+        {
+          "key": "C",
+          "text": "Tell the relative that you are not allowed to discuss the patient's condition and then walk away from them.",
+          "is_correct": false,
+          "rationale": "This response is unhelpful, unprofessional, and dismissive to the family member."
+        },
+        {
+          "key": "D",
+          "text": "Look up the information in the patient's medical notes and relay the key details accurately to the family member.",
+          "is_correct": false,
+          "rationale": "Accessing and sharing this information is a serious breach of patient confidentiality."
+        },
+        {
+          "key": "E",
+          "text": "Advise the family member to schedule a formal appointment with the consultant as that is the only appropriate time.",
+          "is_correct": false,
+          "rationale": "While true, the immediate step is to direct them to the nurse on duty."
+        }
+      ]
+    }
+  ]
+}

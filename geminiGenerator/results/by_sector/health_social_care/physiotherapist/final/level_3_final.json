@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "A 55-year-old patient presents with persistent low back pain, night pain, and unexplained weight loss. What is the most appropriate initial action?",
+      "explanation": "This combination of symptoms constitutes 'red flags', requiring urgent medical investigation to exclude serious underlying conditions before commencing physiotherapy. Patient safety is the absolute priority in this scenario.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Begin a standard core strengthening and flexibility program immediately to address the presenting musculoskeletal symptoms.",
+          "is_correct": false,
+          "rationale": "This ignores potential red flags, which is unsafe."
+        },
+        {
+          "key": "B",
+          "text": "Refer the patient for an urgent medical review to rule out potential sinister pathology such as a malignancy.",
+          "is_correct": true,
+          "rationale": "This correctly identifies red flags and prioritizes safety."
+        },
+        {
+          "key": "C",
+          "text": "Apply heat therapy and advise gentle stretching exercises, scheduling a follow-up appointment in two weeks' time.",
+          "is_correct": false,
+          "rationale": "This response is insufficient for the severity of the signs."
+        },
+        {
+          "key": "D",
+          "text": "Advise the patient to take over-the-counter anti-inflammatory medication and rest completely for at least one week.",
+          "is_correct": false,
+          "rationale": "This provides inappropriate advice and ignores red flags."
+        },
+        {
+          "key": "E",
+          "text": "Perform spinal manipulations to provide immediate pain relief before conducting any further detailed assessments.",
+          "is_correct": false,
+          "rationale": "Manipulation is contraindicated with suspected sinister pathology."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "When creating a rehabilitation plan for a patient 6 weeks post-total knee replacement, what is the most critical component to include?",
+      "explanation": "A successful rehabilitation plan is multifaceted and patient-centered. It must progressively address all key physical components—flexibility, strength, balance, and function—while aligning with the individual's personal recovery goals.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Focusing exclusively on high-intensity plyometric exercises to rapidly build explosive power in the affected leg.",
+          "is_correct": false,
+          "rationale": "This is too advanced and unsafe at this stage."
+        },
+        {
+          "key": "B",
+          "text": "Prioritizing passive range of motion exercises only, avoiding any active muscle engagement to prevent surgical site strain.",
+          "is_correct": false,
+          "rationale": "This is insufficient for achieving functional recovery."
+        },
+        {
+          "key": "C",
+          "text": "A progressive plan incorporating range of motion, strengthening, proprioception, and functional tasks based on patient-specific goals.",
+          "is_correct": true,
+          "rationale": "This is a comprehensive, progressive, and patient-centered approach."
+        },
+        {
+          "key": "D",
+          "text": "Recommending complete rest and immobilization for another four weeks to ensure the surgical site is fully healed.",
+          "is_correct": false,
+          "rationale": "This is detrimental, leading to stiffness and muscle atrophy."
+        },
+        {
+          "key": "E",
+          "text": "Using only electrotherapy modalities like TENS for pain management without including any active therapeutic exercises.",
+          "is_correct": false,
+          "rationale": "This is a passive treatment and not a holistic plan."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "A patient insists on receiving a specific treatment that your clinical assessment indicates is not appropriate. What is your best professional response?",
+      "explanation": "This approach respects patient autonomy while upholding professional standards. It involves clear communication, patient education, and shared decision-making to build trust and ensure the delivery of effective, evidence-based care.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Agree to provide the requested treatment to maintain a good therapeutic relationship and ensure patient satisfaction.",
+          "is_correct": false,
+          "rationale": "This is unethical if not clinically indicated."
+        },
+        {
+          "key": "B",
+          "text": "Refuse the treatment outright without providing any explanation, stating it is against your professional judgement.",
+          "is_correct": false,
+          "rationale": "This demonstrates poor communication and rapport building."
+        },
+        {
+          "key": "C",
+          "text": "Explain your clinical reasoning, discuss evidence-based alternatives, and collaboratively develop an appropriate treatment plan with the patient.",
+          "is_correct": true,
+          "rationale": "This is professional, educational, and collaborative."
+        },
+        {
+          "key": "D",
+          "text": "Refer the patient to another physiotherapist who you know is more willing to provide the requested treatment.",
+          "is_correct": false,
+          "rationale": "This avoids professional responsibility for patient education."
+        },
+        {
+          "key": "E",
+          "text": "Document the patient's request but proceed with your own treatment plan without any further discussion.",
+          "is_correct": false,
+          "rationale": "This is dismissive and not patient-centered care."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "During a session, your elderly patient with a known cardiac history reports sudden dizziness and chest tightness. What is your immediate priority?",
+      "explanation": "The patient is exhibiting signs of a potential cardiac event, which is a medical emergency. The physiotherapist's primary responsibility is to cease activity, ensure patient safety, and activate emergency medical services immediately.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Continue with a less strenuous version of the exercise to see if the symptoms will subside on their own.",
+          "is_correct": false,
+          "rationale": "This is dangerous and ignores potentially serious symptoms."
+        },
+        {
+          "key": "B",
+          "text": "Help the patient to a comfortable resting position, monitor vital signs, and call for immediate medical assistance.",
+          "is_correct": true,
+          "rationale": "This prioritizes patient safety and follows emergency protocols."
+        },
+        {
+          "key": "C",
+          "text": "Offer the patient a glass of water and encourage them to take deep breaths before resuming the session.",
+          "is_correct": false,
+          "rationale": "This is an inadequate response to a medical emergency."
+        },
+        {
+          "key": "D",
+          "text": "Immediately document the incident in the patient's notes and ask them to book an appointment with their GP.",
+          "is_correct": false,
+          "rationale": "Documentation is secondary to providing immediate medical care."
+        },
+        {
+          "key": "E",
+          "text": "Ask the patient to walk around slowly to prevent fainting before deciding on the next course of action.",
+          "is_correct": false,
+          "rationale": "This could potentially exacerbate a serious cardiac condition."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "When treating a patient with subacromial pain syndrome, which outcome measure is most appropriate for tracking functional improvement over time?",
+      "explanation": "The SPADI is a validated, condition-specific outcome measure for the shoulder. It effectively captures both pain and functional disability from the patient's perspective, making it ideal for tracking progress for this diagnosis.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Berg Balance Scale, which is primarily designed to assess static and dynamic balance abilities in older adults.",
+          "is_correct": false,
+          "rationale": "This is irrelevant to shoulder-specific function."
+        },
+        {
+          "key": "B",
+          "text": "The Visual Analogue Scale (VAS) for pain, as it is the only measure needed to assess treatment success.",
+          "is_correct": false,
+          "rationale": "This only measures a single domain (pain), not function."
+        },
+        {
+          "key": "C",
+          "text": "The Shoulder Pain and Disability Index (SPADI), a self-reported questionnaire specifically designed for shoulder pathology.",
+          "is_correct": true,
+          "rationale": "This is a validated, condition-specific outcome measure."
+        },
+        {
+          "key": "D",
+          "text": "A manual muscle test using the Oxford scale to exclusively measure the strength of the rotator cuff muscles.",
+          "is_correct": false,
+          "rationale": "This measures only one component, not overall function."
+        },
+        {
+          "key": "E",
+          "text": "The Timed Up and Go (TUG) test, which is used to assess a person's mobility and risk of falling.",
+          "is_correct": false,
+          "rationale": "This measures general mobility, not shoulder function."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "A patient recovering from a stroke presents with significant spasticity in their upper limb. What is the most appropriate initial physiotherapy management strategy?",
+      "explanation": "The initial focus should be on managing tone and maintaining range of motion to prevent contractures and facilitate functional recovery. Passive movements and proper positioning are foundational before progressing to more active therapies.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately begin aggressive strengthening exercises to counteract the effects of muscle weakness and disuse atrophy.",
+          "is_correct": false,
+          "rationale": "This could potentially increase spasticity and is not the primary initial goal."
+        },
+        {
+          "key": "B",
+          "text": "Prioritise passive range of motion exercises, proper positioning, and splinting to manage tone and prevent contractures.",
+          "is_correct": true,
+          "rationale": "This approach correctly addresses the primary issues of high tone and contracture risk."
+        },
+        {
+          "key": "C",
+          "text": "Focus exclusively on task-specific training for fine motor skills, ignoring the underlying high muscle tone.",
+          "is_correct": false,
+          "rationale": "High tone will significantly impede the effectiveness of fine motor skill training."
+        },
+        {
+          "key": "D",
+          "text": "Advise the patient to avoid all movement of the affected limb to allow the nervous system to rest.",
+          "is_correct": false,
+          "rationale": "This would lead to contractures, learned non-use, and further functional decline."
+        },
+        {
+          "key": "E",
+          "text": "Recommend immediate referral for botulinum toxin injections as the sole intervention without any physical therapy.",
+          "is_correct": false,
+          "rationale": "Injections are an adjunct to therapy, not a standalone replacement for it."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "You are treating a patient who consistently fails to perform their prescribed home exercise program. What is the most effective first step to address this non-compliance?",
+      "explanation": "Understanding the patient's perspective is key. Non-compliance often stems from barriers like pain, lack of understanding, or conflicting beliefs. A collaborative discussion is the first step to identifying and overcoming these issues.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Discharge the patient from your care due to their consistent non-adherence to the agreed-upon treatment plan.",
+          "is_correct": false,
+          "rationale": "This is unprofessional and abandons the duty of care to the patient."
+        },
+        {
+          "key": "B",
+          "text": "Emphasise the negative consequences of not doing the exercises and instruct them more forcefully on their importance.",
+          "is_correct": false,
+          "rationale": "This approach can damage rapport and is often counterproductive to motivating a patient."
+        },
+        {
+          "key": "C",
+          "text": "Collaboratively explore the patient's barriers, beliefs, and goals to understand their reasons for not completing the exercises.",
+          "is_correct": true,
+          "rationale": "This patient-centred approach identifies the root cause and facilitates a shared solution."
+        },
+        {
+          "key": "D",
+          "text": "Simplify the program by removing most exercises without discussing the reasons for their non-compliance first.",
+          "is_correct": false,
+          "rationale": "This is a guess that doesn't address the actual underlying barrier to adherence."
+        },
+        {
+          "key": "E",
+          "text": "Refer the patient to another physiotherapist immediately, assuming a personality conflict is the primary issue.",
+          "is_correct": false,
+          "rationale": "This avoids professional responsibility to problem-solve and manage the therapeutic relationship."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "When considering a new electrotherapy modality for your clinic, what is the most critical factor to evaluate according to evidence-based practice principles?",
+      "explanation": "Evidence-based practice prioritises high-quality clinical research. Evaluating systematic reviews and randomised controlled trials provides the strongest evidence for a modality's efficacy and safety, guiding informed clinical decision-making and ensuring patient benefit.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The overall popularity of the modality among other physiotherapists and clinics in the local geographical area.",
+          "is_correct": false,
+          "rationale": "Popularity does not equate to clinical effectiveness or evidence of patient benefit."
+        },
+        {
+          "key": "B",
+          "text": "The cost of the equipment and the potential for it to generate significant revenue for the clinic.",
+          "is_correct": false,
+          "rationale": "Financial considerations are secondary to the primary goal of clinical efficacy and patient safety."
+        },
+        {
+          "key": "C",
+          "text": "Anecdotal reports and patient testimonials shared on social media platforms and professional forums online.",
+          "is_correct": false,
+          "rationale": "This constitutes low-level evidence and is highly susceptible to bias and misinformation."
+        },
+        {
+          "key": "D",
+          "text": "The availability of high-quality systematic reviews and randomised controlled trials supporting its clinical effectiveness and safety.",
+          "is_correct": true,
+          "rationale": "This represents the highest level of evidence for making an informed clinical decision."
+        },
+        {
+          "key": "E",
+          "text": "The marketing materials and persuasive claims provided by the manufacturer of the electrotherapy device.",
+          "is_correct": false,
+          "rationale": "Manufacturer claims are inherently biased and not a substitute for independent scientific research."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "A 55-year-old patient presents with new-onset low back pain, reporting unexplained weight loss and constant pain that is worse at night. What is your immediate priority?",
+      "explanation": "These symptoms are 'red flags' that may indicate serious underlying pathology, such as a malignancy or infection. The immediate priority is to recognise these signs and ensure the patient receives an urgent medical evaluation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Begin a standard program of core strengthening exercises and manual therapy to address the patient's back pain.",
+          "is_correct": false,
+          "rationale": "Initiating treatment without clearing red flags is unsafe and could delay critical diagnosis."
+        },
+        {
+          "key": "B",
+          "text": "Reassure the patient that night pain and weight loss are common symptoms associated with mechanical back problems.",
+          "is_correct": false,
+          "rationale": "This provides false reassurance and ignores significant indicators of serious pathology."
+        },
+        {
+          "key": "C",
+          "text": "Document the red flag symptoms and refer the patient for an urgent medical assessment by their GP or A&E.",
+          "is_correct": true,
+          "rationale": "This is the safest and most professionally responsible action to rule out serious conditions."
+        },
+        {
+          "key": "D",
+          "text": "Advise the patient to try over-the-counter pain medication for two weeks and then return for a follow-up appointment.",
+          "is_correct": false,
+          "rationale": "This approach dangerously delays a necessary and potentially urgent medical investigation."
+        },
+        {
+          "key": "E",
+          "text": "Apply heat packs and gentle massage to the lumbar spine to provide immediate symptomatic relief from the pain.",
+          "is_correct": false,
+          "rationale": "Palliative treatment is inappropriate until serious underlying pathology has been properly excluded."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "You are part of a multidisciplinary team planning the discharge of a patient with complex mobility and self-care needs. What is your primary contribution?",
+      "explanation": "The physiotherapist's core role in discharge planning is to assess and advise on safe mobility. This includes recommending appropriate equipment and ensuring the patient and carers are competent in its use to prevent falls and promote independence.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To exclusively assess the patient's cognitive state and their ability to manage their own medication schedule.",
+          "is_correct": false,
+          "rationale": "This is primarily the role of an occupational therapist, pharmacist, or nurse."
+        },
+        {
+          "key": "B",
+          "text": "To arrange the social care package and financial support needed for the patient to live at home.",
+          "is_correct": false,
+          "rationale": "This is the primary responsibility of a social worker or case manager."
+        },
+        {
+          "key": "C",
+          "text": "To assess safe mobility, prescribe appropriate walking aids, and train the patient and family in their correct use.",
+          "is_correct": true,
+          "rationale": "This directly addresses the physiotherapist's expertise in mobility, function, and safety."
+        },
+        {
+          "key": "D",
+          "text": "To focus solely on providing a long-term exercise plan without considering the immediate home environment safety.",
+          "is_correct": false,
+          "rationale": "Discharge planning requires a holistic view, prioritising immediate safety over long-term goals."
+        },
+        {
+          "key": "E",
+          "text": "To make the final decision on the discharge date without consulting other members of the multidisciplinary team.",
+          "is_correct": false,
+          "rationale": "Discharge planning is a collaborative decision made by the entire multidisciplinary team."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "A 75-year-old patient with severe COPD has undergone a total hip replacement. What is the most critical initial physiotherapy consideration post-operatively?",
+      "explanation": "Early, monitored mobilisation is vital for patients with significant co-morbidities like COPD. It helps prevent serious post-operative complications such as chest infections and DVT, balancing surgical recovery with management of the pre-existing respiratory condition.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Prioritising early mobilisation with careful monitoring of oxygen saturation and respiratory effort to prevent pulmonary complications and DVT.",
+          "is_correct": true,
+          "rationale": "Balances surgical recovery with managing respiratory co-morbidity."
+        },
+        {
+          "key": "B",
+          "text": "Focusing exclusively on aggressive hip range-of-motion exercises to prevent joint stiffness without considering the patient's respiratory status.",
+          "is_correct": false,
+          "rationale": "This approach dangerously ignores the patient's severe COPD."
+        },
+        {
+          "key": "C",
+          "text": "Delaying all mobilisation for at least three days to allow the patient's respiratory condition to fully stabilise post-anaesthesia.",
+          "is_correct": false,
+          "rationale": "Delaying mobilisation significantly increases the risk of DVT and pneumonia."
+        },
+        {
+          "key": "D",
+          "text": "Implementing only deep breathing and coughing exercises, postponing any form of lower limb mobility work for the first week.",
+          "is_correct": false,
+          "rationale": "While breathing exercises are important, omitting mobility is unsafe."
+        },
+        {
+          "key": "E",
+          "text": "Recommending immediate discharge to a community setting to reduce the risk of hospital-acquired infections for the compromised patient.",
+          "is_correct": false,
+          "rationale": "This would be an unsafe discharge for a high-risk patient."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "An adult patient with full capacity, recovering from a stroke, consistently refuses to participate in recommended physiotherapy. What is the most appropriate initial action?",
+      "explanation": "Respecting patient autonomy is a core ethical principle. The first step is to understand their perspective, provide clear information, and document the informed refusal. This upholds their rights while ensuring professional accountability and leaving the door open for future engagement.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Exploring the patient's reasons for refusal, providing education on the benefits and risks, and documenting the conversation thoroughly.",
+          "is_correct": true,
+          "rationale": "This respects patient autonomy and follows ethical guidelines."
+        },
+        {
+          "key": "B",
+          "text": "Immediately discharging the patient from the physiotherapy service due to non-compliance with the prescribed treatment plan.",
+          "is_correct": false,
+          "rationale": "This is a punitive action and abandons patient care."
+        },
+        {
+          "key": "C",
+          "text": "Continuing to attempt the treatment against their expressed wishes, assuming they will eventually see the benefits of the therapy.",
+          "is_correct": false,
+          "rationale": "This violates the patient's right to refuse treatment."
+        },
+        {
+          "key": "D",
+          "text": "Consulting with the patient's family to persuade them to participate, bypassing the patient's direct refusal of the treatment.",
+          "is_correct": false,
+          "rationale": "This undermines the patient's capacity and autonomy."
+        },
+        {
+          "key": "E",
+          "text": "Referring the patient to a psychiatrist immediately, assuming the refusal is a sign of a new psychological disorder.",
+          "is_correct": false,
+          "rationale": "This is an inappropriate assumption without further exploration."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "When considering the integration of virtual reality for a patient with Parkinson's disease, what is the primary evidence-based rationale for its use?",
+      "explanation": "Evidence supports VR for neuro-rehabilitation by facilitating motor learning principles like high repetition and task-specificity in a motivating context. It targets functional improvements in balance and gait, which are key goals for patients with Parkinson's disease.",
+      "options": [
+        {
+          "key": "A",
+          "text": "VR provides engaging, repetitive, and task-specific training in a safe environment, which can improve balance, gait, and motor function.",
+          "is_correct": true,
+          "rationale": "Reflects evidence-based principles of motor learning for neuro-rehab."
+        },
+        {
+          "key": "B",
+          "text": "It is primarily used as a distraction technique to reduce the patient's perception of pain during difficult therapy sessions.",
+          "is_correct": false,
+          "rationale": "While it can distract, this is not its primary purpose."
+        },
+        {
+          "key": "C",
+          "text": "The main benefit is that it completely replaces the need for a supervising physiotherapist, making the rehabilitation process more cost-effective.",
+          "is_correct": false,
+          "rationale": "VR is an adjunct to therapy, not a replacement for a therapist."
+        },
+        {
+          "key": "D",
+          "text": "Its primary purpose is to assess cognitive function, with any physical benefits being a secondary and unintended positive outcome.",
+          "is_correct": false,
+          "rationale": "The primary goal in this context is physical rehabilitation."
+        },
+        {
+          "key": "E",
+          "text": "VR is only effective for upper limb rehabilitation and has no proven clinical application for gait or balance deficits in Parkinson's.",
+          "is_correct": false,
+          "rationale": "This is incorrect; there is growing evidence for lower limb rehab."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "You are asked to lead a quality improvement project to reduce waiting times for outpatient musculoskeletal physiotherapy. Which initial step is most crucial?",
+      "explanation": "Effective quality improvement begins with a data-driven approach. Auditing the current process is essential to accurately identify the root causes of delays before implementing any changes. This ensures that solutions are targeted, evidence-based, and likely to be successful.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Conducting a thorough audit of the current referral-to-treatment pathway to identify specific bottlenecks and areas of inefficiency.",
+          "is_correct": true,
+          "rationale": "This data-driven approach identifies the root cause of the problem."
+        },
+        {
+          "key": "B",
+          "text": "Immediately hiring more physiotherapists without first analysing the existing workflow or demand patterns within the department.",
+          "is_correct": false,
+          "rationale": "This solution is not evidence-based and may be unnecessary."
+        },
+        {
+          "key": "C",
+          "text": "Implementing a new policy that automatically discharges any patient who misses a single scheduled appointment without any follow-up.",
+          "is_correct": false,
+          "rationale": "This is a punitive measure and doesn't address system inefficiencies."
+        },
+        {
+          "key": "D",
+          "text": "Purchasing expensive new treatment equipment in the hope that it will make the existing therapy sessions much shorter.",
+          "is_correct": false,
+          "rationale": "This assumes equipment is the problem without any evidence."
+        },
+        {
+          "key": "E",
+          "text": "Focusing solely on reducing the duration of each individual appointment slot to fit more patients into the daily schedule.",
+          "is_correct": false,
+          "rationale": "This could compromise the quality and effectiveness of care."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "A patient presents with lateral elbow pain, but cervical spine screening reproduces their symptoms with specific movements. What does this finding primarily suggest?",
+      "explanation": "Reproduction of distal symptoms with proximal joint testing is a classic sign of referred pain. In this case, it strongly suggests a cervical spine origin for the elbow pain, guiding the therapist to treat the neck as the primary source.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The patient's symptoms are likely referred from a cervical radiculopathy, requiring treatment directed at the neck rather than the elbow.",
+          "is_correct": true,
+          "rationale": "This reflects correct clinical reasoning for referred pain."
+        },
+        {
+          "key": "B",
+          "text": "This indicates a co-existing but entirely separate cervical issue that should be ignored to focus on the lateral epicondylalgia.",
+          "is_correct": false,
+          "rationale": "Ignoring a potential source of symptoms is poor practice."
+        },
+        {
+          "key": "C",
+          "text": "The patient is likely magnifying their symptoms, as pain cannot be referred from the neck to the lateral elbow region.",
+          "is_correct": false,
+          "rationale": "This is an incorrect anatomical assumption; C6/C7 dermatomes refer here."
+        },
+        {
+          "key": "D",
+          "text": "It confirms that the primary diagnosis is tennis elbow, with the neck movements causing an unrelated secondary muscle spasm.",
+          "is_correct": false,
+          "rationale": "Symptom reproduction from the neck points away from a local diagnosis."
+        },
+        {
+          "key": "E",
+          "text": "This finding necessitates an immediate referral for an MRI of the elbow joint to rule out a significant local pathology.",
+          "is_correct": false,
+          "rationale": "Imaging is not indicated when the source appears to be cervical."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "How should you best integrate a new systematic review that contradicts your current treatment approach for chronic low back pain?",
+      "explanation": "This demonstrates a commitment to evidence-based practice. The correct approach involves critical appraisal, collaboration with peers, and a cautious, phased implementation with appropriate patients, rather than immediate, unsupported changes or ignoring new evidence.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately change your entire clinical practice based on the conclusions presented in the new systematic review.",
+          "is_correct": false,
+          "rationale": "This is too hasty and lacks critical appraisal or discussion with colleagues."
+        },
+        {
+          "key": "B",
+          "text": "Critically appraise the review, discuss findings with senior colleagues, and pilot the new approach with suitable patients.",
+          "is_correct": true,
+          "rationale": "This is a balanced, safe, and collaborative approach to evidence-based practice."
+        },
+        {
+          "key": "C",
+          "text": "Disregard the new evidence because your current treatment methods have consistently produced positive outcomes for your patients.",
+          "is_correct": false,
+          "rationale": "This ignores the core principle of evolving practice with new evidence."
+        },
+        {
+          "key": "D",
+          "text": "Wait until the new approach is officially adopted into national clinical guidelines before considering any practice changes.",
+          "is_correct": false,
+          "rationale": "This is too passive and can significantly delay the adoption of best practices."
+        },
+        {
+          "key": "E",
+          "text": "Inform patients about the new research but continue with your established methods until more studies are published.",
+          "is_correct": false,
+          "rationale": "This creates patient uncertainty without a clear plan for practice evolution."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "When planning rehabilitation for an elderly patient with osteoarthritis, COPD, and diabetes, what is the most crucial initial consideration?",
+      "explanation": "Managing patients with multiple comorbidities requires a holistic, safety-first approach. Collaborating with the wider multidisciplinary team ensures all health conditions are considered, creating an integrated and safe rehabilitation plan that minimizes risk.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Focusing the treatment plan exclusively on the primary musculoskeletal complaint of knee osteoarthritis to achieve rapid pain relief.",
+          "is_correct": false,
+          "rationale": "This approach dangerously ignores the significant impact of the patient's comorbidities."
+        },
+        {
+          "key": "B",
+          "text": "Prioritising high-intensity aerobic exercises to maximise cardiovascular benefits despite the patient's known respiratory limitations from COPD.",
+          "is_correct": false,
+          "rationale": "This is unsafe and fails to consider the patient's respiratory contraindications."
+        },
+        {
+          "key": "C",
+          "text": "Conducting a risk assessment and collaborating with the multidisciplinary team to create an integrated, safe exercise plan.",
+          "is_correct": true,
+          "rationale": "This holistic, collaborative, and safety-focused approach is essential for complex cases."
+        },
+        {
+          "key": "D",
+          "text": "Advising the patient that physiotherapy has limited benefit and they should primarily focus on medication and diet.",
+          "is_correct": false,
+          "rationale": "This undermines the role of physiotherapy in managing complex chronic conditions."
+        },
+        {
+          "key": "E",
+          "text": "Using only passive modalities like heat and TENS to avoid exacerbating any of the patient's multiple conditions.",
+          "is_correct": false,
+          "rationale": "A purely passive approach is not evidence-based for long-term functional improvement."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "You have noticed a high rate of non-attendance for follow-up appointments in your clinic. What is the most proactive first step?",
+      "explanation": "This evaluates a candidate's approach to service improvement. The most effective first step is to investigate the root cause of the problem by gathering data directly from the source, which allows for targeted and effective solutions.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Implement a strict policy to immediately discharge any patient who misses a single appointment without providing prior notice.",
+          "is_correct": false,
+          "rationale": "This is a punitive measure that fails to address the underlying reasons."
+        },
+        {
+          "key": "B",
+          "text": "Report the issue to your line manager and wait for them to develop a department-wide strategy to solve it.",
+          "is_correct": false,
+          "rationale": "This approach is passive and does not demonstrate professional initiative or ownership."
+        },
+        {
+          "key": "C",
+          "text": "Conduct a small-scale audit or patient survey to understand the common reasons and barriers for non-attendance.",
+          "is_correct": true,
+          "rationale": "This data-driven approach seeks to understand the problem before implementing a solution."
+        },
+        {
+          "key": "D",
+          "text": "Ask the administrative team to start sending multiple text and email reminders to all patients before their appointments.",
+          "is_correct": false,
+          "rationale": "This implements a solution without first understanding the specific problem."
+        },
+        {
+          "key": "E",
+          "text": "Assume patients are not motivated and focus your clinical efforts only on those who consistently attend their sessions.",
+          "is_correct": false,
+          "rationale": "This reflects a poor professional attitude and neglects patient care."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "A patient's family insists on an aggressive manual therapy technique they researched online, which you believe is contraindicated. How do you respond?",
+      "explanation": "This scenario tests professional integrity, communication, and patient safety. The correct action is to educate the family, explaining the clinical reasoning behind your decision, thereby upholding professional standards while maintaining a therapeutic alliance.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Perform the requested technique against your clinical judgement to satisfy the family and avoid a potential formal complaint.",
+          "is_correct": false,
+          "rationale": "This compromises patient safety and professional ethics to avoid conflict."
+        },
+        {
+          "key": "B",
+          "text": "Politely explain your clinical reasoning for the contraindication and propose a safer, more appropriate alternative treatment plan.",
+          "is_correct": true,
+          "rationale": "This respects the family's input while prioritizing patient safety through education."
+        },
+        {
+          "key": "C",
+          "text": "Refuse to perform the treatment without any detailed explanation, stating that it is simply against your professional policy.",
+          "is_correct": false,
+          "rationale": "This is poor communication and can damage the therapeutic relationship."
+        },
+        {
+          "key": "D",
+          "text": "Suggest that the family should seek a second opinion from another physiotherapist who might be willing to try it.",
+          "is_correct": false,
+          "rationale": "This avoids professional responsibility and potentially puts the patient at risk."
+        },
+        {
+          "key": "E",
+          "text": "Document the family's request in the clinical notes but proceed with your own planned treatment without further discussion.",
+          "is_correct": false,
+          "rationale": "This is dismissive and fails to address the family's concerns directly."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "A patient presents with new thoracic pain that is constant, unrelated to movement, and worse at night. What is your most appropriate action?",
+      "explanation": "This presentation includes significant red flags suggesting a non-musculoskeletal or sinister pathology. The physiotherapist's primary duty of care is to recognize these signs and ensure the patient receives an urgent medical assessment, not to initiate physiotherapy treatment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Initiate a standard treatment protocol for mechanical back pain, including mobilization and strengthening exercises to see if it helps.",
+          "is_correct": false,
+          "rationale": "This is unsafe as it ignores clear red flags for serious pathology."
+        },
+        {
+          "key": "B",
+          "text": "Reassure the patient that this type of pain is very common and will likely resolve on its own soon.",
+          "is_correct": false,
+          "rationale": "Providing false reassurance in the presence of red flags is negligent."
+        },
+        {
+          "key": "C",
+          "text": "Document the red flag symptoms and urgently refer the patient back to their General Practitioner for further medical investigation.",
+          "is_correct": true,
+          "rationale": "This is the only safe and appropriate action, prioritizing patient safety."
+        },
+        {
+          "key": "D",
+          "text": "Provide the patient with a TENS machine and heat packs for symptom management and schedule a review in one week.",
+          "is_correct": false,
+          "rationale": "This delays a necessary and urgent medical assessment for a serious condition."
+        },
+        {
+          "key": "E",
+          "text": "Advise the patient to take over-the-counter pain medication and to try some gentle stretching exercises at home.",
+          "is_correct": false,
+          "rationale": "Self-management advice is inappropriate when serious pathology is suspected."
+        }
+      ]
+    }
+  ]
+}
