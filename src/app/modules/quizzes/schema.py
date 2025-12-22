@@ -1,118 +1,230 @@
 """
 Quiz, Question, and Attempt schemas.
 Pydantic models for the quiz system.
+
+New format (v2):
+- Questions have question_text, question_type, points, explanation
+- Options have key (A-E), text, is_correct, rationale
+- 5 options per question (A, B, C, D, E)
 """
 
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from typing import List, Optional, Dict, Any
 from datetime import datetime
 from uuid import UUID
 
 
-# Answer Option schemas
-class AnswerOptionBase(BaseModel):
-    """Base schema for answer options."""
-
-    option_text: str
+# ============================================================
+# OPTION SCHEMAS
+# ============================================================
 
 
-class AnswerOption(AnswerOptionBase):
-    """Schema for answer option response."""
+class OptionBase(BaseModel):
+    """Base schema for question options."""
+
+    key: str = Field(..., description="Option key: A, B, C, D, or E")
+    text: str = Field(..., description="The option text (10-24 words)")
+    is_correct: bool = Field(
+        default=False, description="Whether this is the correct answer"
+    )
+    rationale: Optional[str] = Field(
+        None, description="Why this option is correct/incorrect"
+    )
+
+
+class OptionCreate(OptionBase):
+    """Schema for creating a new option."""
+
+    pass
+
+
+class OptionResponse(OptionBase):
+    """Schema for option in API responses."""
 
     option_id: UUID
-    question_id: UUID
 
     class Config:
         from_attributes = True
 
 
-# Question schemas
+class OptionInQuiz(BaseModel):
+    """Option as shown during quiz (without revealing correct answer)."""
+
+    key: str
+    text: str
+
+    class Config:
+        from_attributes = True
+
+
+class OptionWithAnswer(OptionInQuiz):
+    """Option with answer revealed (after submission)."""
+
+    is_correct: bool
+    rationale: Optional[str] = None
+
+    class Config:
+        from_attributes = True
+
+
+# ============================================================
+# QUESTION SCHEMAS
+# ============================================================
+
+
 class QuestionBase(BaseModel):
     """Base schema for questions."""
 
-    question_text: str
-    correct_answer: str
-    order: int
+    question_text: str = Field(..., description="The question text (12-28 words)")
+    question_type: str = Field(default="multiple_choice", description="Question type")
+    points: int = Field(default=1, description="Points for this question")
+    explanation: Optional[str] = Field(
+        None, description="Explanation shown after answer (15-50 words)"
+    )
 
 
-class Question(QuestionBase):
-    """Schema for question response."""
+class QuestionCreate(QuestionBase):
+    """Schema for creating a question."""
+
+    options: List[OptionCreate] = Field(..., min_length=5, max_length=5)
+
+
+class QuestionResponse(QuestionBase):
+    """Schema for question in API responses."""
 
     question_id: UUID
     quiz_id: UUID
-    answer_options: List[AnswerOption] = []
+    order_index: int
+    options: List[OptionResponse] = []
+
+    class Config:
+        from_attributes = True
+
+
+class QuestionInQuiz(BaseModel):
+    """Question as shown during quiz (options without answers revealed)."""
+
+    question_id: str
+    question_text: str
+    question_type: str
+    points: int
+    order_index: int
+    options: List[OptionInQuiz]
+
+    class Config:
+        from_attributes = True
+
+
+class QuestionWithAnswer(BaseModel):
+    """Question with answers revealed (after submission)."""
+
+    question_id: str
+    question_text: str
+    question_type: str
+    points: int
+    explanation: Optional[str] = None
+    options: List[OptionWithAnswer]
+    correct_key: str  # The correct answer key (A, B, C, D, or E)
 
     class Config:
         from_attributes = True
 
 
 class QuestionResult(BaseModel):
-    """Schema for individual question results."""
+    """Result for a single question after quiz submission."""
 
-    question_id: UUID
+    question_id: str
     question_text: str
-    user_answer: str
-    correct_answer: Optional[str]
+    user_answer: str  # The key user selected (A, B, C, D, E)
+    correct_answer: str  # The correct key
     is_correct: bool
     points: int
     earned_points: int
-    explanation: Optional[str]
-    options: Dict[str, Any]
+    explanation: Optional[str] = None
+    options: List[OptionWithAnswer]
 
 
-# Quiz schemas
+# ============================================================
+# QUIZ SCHEMAS
+# ============================================================
+
+
 class QuizBase(BaseModel):
     """Base schema for Quiz data."""
 
     title: str
     description: Optional[str] = None
-    duration: int
-    difficulty: str
+    difficulty_level: int = Field(..., ge=1, le=5, description="Difficulty 1-5")
+    time_limit_minutes: int = Field(default=30)
+    passing_score: float = Field(default=70.0)
+
+
+class QuizCreate(QuizBase):
+    """Schema for creating a quiz."""
+
     specialization_id: UUID
-
-
-class Quiz(QuizBase):
-    """Schema for Quiz response with questions."""
-
-    quiz_id: UUID
-    questions: List[Question] = []
-
-    class Config:
-        from_attributes = True
+    questions: List[QuestionCreate]
 
 
 class QuizSummary(BaseModel):
     """Schema for Quiz listing (without questions)."""
 
-    quiz_id: UUID
+    quiz_id: str
     title: str
     description: Optional[str] = None
-    duration: int
-    difficulty: int  # Difficulty level as integer
+    difficulty_level: int
+    time_limit_minutes: int
+    passing_score: float
     question_count: int
-    specialization_id: Optional[UUID] = None
+    specialization_id: str
     specialization_name: Optional[str] = None
 
     class Config:
         from_attributes = True
 
 
-class QuizzesResponse(BaseModel):
-    """Response schema for list of quizzes."""
+class QuizDetail(BaseModel):
+    """Schema for quiz detail (with questions, for taking quiz)."""
 
-    quizzes: List[QuizSummary]
+    quiz_id: str
+    title: str
+    description: Optional[str] = None
+    difficulty_level: int
+    time_limit_minutes: int
+    passing_score: float
+    question_count: int
+    specialization_id: str
+    questions: List[QuestionInQuiz]
+
+    class Config:
+        from_attributes = True
 
 
-# Quiz Answer/Submission schemas
+class QuizWithAnswers(BaseModel):
+    """Schema for quiz with answers revealed (after submission)."""
+
+    quiz_id: str
+    title: str
+    description: Optional[str] = None
+    difficulty_level: int
+    questions: List[QuestionWithAnswer]
+
+    class Config:
+        from_attributes = True
+
+
+# ============================================================
+# QUIZ SUBMISSION SCHEMAS
+# ============================================================
+
+
 class QuizAnswer(BaseModel):
     """Schema for a single quiz answer."""
 
     question_id: UUID
-    selected_answer: str
-
-
-# Alias for backward compatibility
-AnswerSubmit = QuizAnswer
+    selected_key: str = Field(
+        ..., pattern="^[A-E]$", description="Selected option key (A-E)"
+    )
 
 
 class QuizSubmission(BaseModel):
@@ -121,7 +233,11 @@ class QuizSubmission(BaseModel):
     answers: List[QuizAnswer]
 
 
-# Quiz Attempt schemas
+# ============================================================
+# QUIZ ATTEMPT SCHEMAS
+# ============================================================
+
+
 class QuizAttemptBase(BaseModel):
     """Base schema for quiz attempt."""
 
@@ -129,14 +245,19 @@ class QuizAttemptBase(BaseModel):
     quiz_id: UUID
 
 
-class QuizAttempt(QuizAttemptBase):
+class QuizAttemptResponse(BaseModel):
     """Schema for quiz attempt response."""
 
-    attempt_id: UUID
+    attempt_id: str
+    quiz_id: str
+    user_id: str
+    score: Optional[float] = None
+    max_score: Optional[float] = None
+    percentage: Optional[float] = None
+    time_taken_minutes: Optional[int] = None
+    is_passed: Optional[bool] = None
     started_at: datetime
     completed_at: Optional[datetime] = None
-    score: Optional[float] = None
-    is_completed: bool = False
 
     class Config:
         from_attributes = True
@@ -147,10 +268,15 @@ class QuizStartResponse(BaseModel):
 
     attempt_id: str
     quiz_id: str
+    quiz: QuizDetail
     message: str
 
 
-# Quiz Result schemas
+# ============================================================
+# QUIZ RESULT SCHEMAS
+# ============================================================
+
+
 class ReadinessSnapshot(BaseModel):
     """Snapshot of user's readiness scores."""
 
@@ -178,14 +304,19 @@ class ScoreImpact(BaseModel):
 
 
 class QuizResult(BaseModel):
-    """Schema for basic quiz result."""
+    """Schema for quiz result after submission."""
 
     success: bool
     score: float
-    correct: int
-    total: int
+    max_score: float
+    percentage: float
+    correct_count: int
+    total_count: int
     passed: bool
     message: str
+    quiz_title: str
+    passing_score: float
+    time_taken_minutes: Optional[int] = None
 
 
 class QuizResultExtended(QuizResult):
@@ -193,66 +324,8 @@ class QuizResultExtended(QuizResult):
 
     readiness: ReadinessSnapshot
     feedback: Optional[FeedbackDetail] = None
-    question_results: Optional[List[QuestionResult]] = None
+    question_results: List[QuestionResult] = []
     score_impact: Optional[ScoreImpact] = None
-    quiz_title: Optional[str] = None
-    passing_score: Optional[float] = None
-    raw_score: Optional[float] = None
-    max_score: Optional[float] = None
-
-
-# ============================================================
-# RESPONSE SCHEMAS FOR ENDPOINTS
-# ============================================================
-
-
-class QuizListItem(BaseModel):
-    """Individual quiz item in list responses."""
-
-    quiz_id: str
-    title: str
-    description: Optional[str] = None
-    specialization_id: str
-    specialization_name: Optional[str] = None
-    duration: Optional[int] = None
-    question_count: int
-    difficulty: Optional[int] = None
-
-
-class QuizListResponse(BaseModel):
-    """Response schema for GET /quizzes/."""
-
-    quizzes: List[QuizListItem]
-
-
-class QuestionOptionResponse(BaseModel):
-    """Option in a quiz question."""
-
-    text: str
-    is_correct: bool
-
-
-class QuizQuestionResponse(BaseModel):
-    """Question in quiz detail response."""
-
-    question_id: str
-    question: str
-    options: List[QuestionOptionResponse]
-    correct_index: Optional[int] = None
-    explanation: Optional[str] = None
-
-
-class QuizDetailResponse(BaseModel):
-    """Response schema for GET /quizzes/{quiz_id}."""
-
-    quiz_id: str
-    title: str
-    description: Optional[str] = None
-    duration: Optional[int] = None
-    question_count: int
-    difficulty: Optional[int] = None
-    specialization_id: str
-    questions: List[QuizQuestionResponse]
 
 
 class UpdatedGoalItem(BaseModel):
@@ -265,24 +338,22 @@ class UpdatedGoalItem(BaseModel):
     is_completed: bool
 
 
-class QuizSubmitResponse(BaseModel):
+class QuizSubmitResponse(QuizResultExtended):
     """Response schema for POST /quizzes/attempts/{attempt_id}/submit."""
 
-    success: bool
-    score: float
-    correct: int
-    total: int
-    passed: bool
-    message: str
-    readiness: ReadinessSnapshot
-    feedback: Optional[FeedbackDetail] = None
-    question_results: Optional[List[Dict[str, Any]]] = None
-    score_impact: Optional[Dict[str, Any]] = None
-    quiz_title: Optional[str] = None
-    passing_score: Optional[float] = None
-    raw_score: Optional[float] = None
-    max_score: Optional[float] = None
     updated_goals: List[UpdatedGoalItem] = []
+
+
+# ============================================================
+# LIST RESPONSE SCHEMAS
+# ============================================================
+
+
+class QuizListResponse(BaseModel):
+    """Response schema for GET /quizzes/."""
+
+    quizzes: List[QuizSummary]
+    total: int
 
 
 class AttemptInfo(BaseModel):
@@ -291,6 +362,7 @@ class AttemptInfo(BaseModel):
     attempt_id: str
     quiz_id: str
     score: Optional[float] = None
+    percentage: Optional[float] = None
     passed: Optional[bool] = None
     completed_at: Optional[str] = None
 
@@ -301,6 +373,8 @@ class QuizInfo(BaseModel):
     quiz_id: str
     title: str
     description: Optional[str] = None
+    difficulty_level: int
+    passing_score: float
 
 
 class AttemptResultResponse(BaseModel):
@@ -308,4 +382,5 @@ class AttemptResultResponse(BaseModel):
 
     attempt: AttemptInfo
     quiz: QuizInfo
+    question_results: List[QuestionResult]
     readiness: ReadinessSnapshot

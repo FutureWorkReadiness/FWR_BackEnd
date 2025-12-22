@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "According to OSHA standards for construction, at what specific height is fall protection generally required for workers on a walking or working surface?",
+      "explanation": "OSHA's construction standard (29 CFR 1926.501) mandates fall protection for any worker on a walking/working surface with an unprotected side or edge that is 6 feet or more above a lower level.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fall protection is mandated when working at a height of 4 feet or more on any general industry walking surface.",
+          "is_correct": false,
+          "rationale": "This is the standard for general industry, not construction."
+        },
+        {
+          "key": "B",
+          "text": "It is required when working at 5 feet or higher, but only when operating near any type of heavy machinery.",
+          "is_correct": false,
+          "rationale": "This is an incorrect height and condition; the rule is broader."
+        },
+        {
+          "key": "C",
+          "text": "Protection is necessary when a worker is exposed to a potential fall of 6 feet or more above a lower level.",
+          "is_correct": true,
+          "rationale": "This correctly states the standard 6-foot rule for construction."
+        },
+        {
+          "key": "D",
+          "text": "Workers on scaffolding must use fall protection systems when they are working at a height of 10 feet or more.",
+          "is_correct": false,
+          "rationale": "This is a specific rule for scaffolding, not the general rule."
+        },
+        {
+          "key": "E",
+          "text": "It is only required when performing tasks directly on an unfinished roof structure, regardless of the specific fall distance.",
+          "is_correct": false,
+          "rationale": "The rule applies to all walking/working surfaces, not just roofs."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the correct technique for using an internal concrete vibrator to consolidate a pour without causing material segregation?",
+      "explanation": "Proper technique involves inserting the vibrator vertically and withdrawing it slowly, at about one inch per second. This allows trapped air to escape and ensures the concrete flows back into the void, preventing segregation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "You should leave the vibrator in one spot for at least a full minute to guarantee all air has been removed.",
+          "is_correct": false,
+          "rationale": "Over-vibrating causes segregation of the aggregate and cement paste."
+        },
+        {
+          "key": "B",
+          "text": "Move the vibrator head quickly in and out of the concrete to cover the largest possible area in the shortest time.",
+          "is_correct": false,
+          "rationale": "Rapid movement is ineffective and can trap air bubbles."
+        },
+        {
+          "key": "C",
+          "text": "Insert the vibrator vertically and withdraw it slowly, allowing the concrete to properly close the space left by the tool.",
+          "is_correct": true,
+          "rationale": "This method properly removes air and prevents voids and honeycombing."
+        },
+        {
+          "key": "D",
+          "text": "The vibrator should only be inserted about halfway into the fresh concrete lift to prevent disturbing the lower layers.",
+          "is_correct": false,
+          "rationale": "It must penetrate the previous lift to bond the layers."
+        },
+        {
+          "key": "E",
+          "text": "Always hold the vibrator at an angle against the rebar cage to help consolidate the concrete around the steel.",
+          "is_correct": false,
+          "rationale": "The vibrator should not touch rebar, as it can create voids."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "On a set of framing blueprints, what is the correct interpretation of the instruction '16-inch O.C.' for wall stud placement?",
+      "explanation": "\"O.C.\" stands for \"On Center.\" This is a standard construction measurement indicating that the spacing between the centerlines of repeating members, like studs or joists, should be exactly 16 inches.",
+      "options": [
+        {
+          "key": "A",
+          "text": "This means that every single stud used in the wall assembly must be precisely 16 inches in total length.",
+          "is_correct": false,
+          "rationale": "This misinterprets a spacing measurement as a length requirement."
+        },
+        {
+          "key": "B",
+          "text": "It specifies that the center of each stud must be positioned exactly 16 inches from the center of the next one.",
+          "is_correct": true,
+          "rationale": "This correctly defines the term \"On Center\" spacing."
+        },
+        {
+          "key": "C",
+          "text": "The instruction calls for using 16 individual studs for every 10 feet of wall to ensure adequate structural support.",
+          "is_correct": false,
+          "rationale": "This describes a stud density, not the standard spacing method."
+        },
+        {
+          "key": "D",
+          "text": "This indicates that the wall must be constructed using 16-gauge steel studs rather than traditional wooden framing members.",
+          "is_correct": false,
+          "rationale": "This confuses a measurement with a material specification (gauge)."
+        },
+        {
+          "key": "E",
+          "text": "It requires leaving a 16-inch open space at the top of the wall for the installation of plumbing and wiring.",
+          "is_correct": false,
+          "rationale": "This describes a chase or soffit, not stud placement."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "You see a coworker using a circular saw with a visibly frayed power cord. What is the most appropriate and safest action to take?",
+      "explanation": "Every worker has a responsibility for site safety. The immediate danger of electrocution from a damaged cord requires stopping the unsafe act, explaining the hazard, and ensuring the faulty equipment is removed from service immediately.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ignore the situation and continue with your assigned tasks, as it is not your direct responsibility to manage their tools.",
+          "is_correct": false,
+          "rationale": "Site safety is a shared responsibility; ignoring hazards is negligent."
+        },
+        {
+          "key": "B",
+          "text": "Immediately and politely stop the coworker, explain the electrocution hazard, and have the tool removed from service for proper repair.",
+          "is_correct": true,
+          "rationale": "This action prioritizes immediate safety for everyone on site."
+        },
+        {
+          "key": "C",
+          "text": "Make a mental note to inform the site foreman about the damaged equipment during the next scheduled safety meeting.",
+          "is_correct": false,
+          "rationale": "This delays action on an immediate and serious hazard."
+        },
+        {
+          "key": "D",
+          "text": "Offer to wrap the frayed section of the cord with duct tape as a temporary fix to keep the project moving.",
+          "is_correct": false,
+          "rationale": "This is an improper repair that creates a false sense of safety."
+        },
+        {
+          "key": "E",
+          "text": "Warn the coworker that their tool is unsafe but ultimately let them decide whether to continue using it or not.",
+          "is_correct": false,
+          "rationale": "This fails to ensure the hazard is actually eliminated."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "While acting as a signal person for a crane, what specific instruction are you giving the operator by tapping your elbow with one hand?",
+      "explanation": "In standardized crane hand signals (ASME B30.5), tapping the elbow with one hand is the specific signal to use the auxiliary hoist, also known as the whip line, which is used for lighter loads.",
+      "options": [
+        {
+          "key": "A",
+          "text": "You are signaling for an emergency stop of all crane functions because of an immediate and unforeseen hazard on the site.",
+          "is_correct": false,
+          "rationale": "An emergency stop is signaled with both arms outstretched."
+        },
+        {
+          "key": "B",
+          "text": "This gesture tells the operator to retract the boom, which pulls the load closer to the base of the crane.",
+          "is_correct": false,
+          "rationale": "Retracting the boom is signaled with thumbs pointing inwards."
+        },
+        {
+          "key": "C",
+          "text": "It is the standard signal that instructs the crane operator to raise the main hoist line and lift the load.",
+          "is_correct": false,
+          "rationale": "Using the main hoist is signaled by pointing a finger up."
+        },
+        {
+          "key": "D",
+          "text": "This signal specifically instructs the operator to use the auxiliary hoist, also known as the whip line, for the lift.",
+          "is_correct": true,
+          "rationale": "This correctly identifies the signal for the auxiliary hoist."
+        },
+        {
+          "key": "E",
+          "text": "You are telling the operator to lower the boom while simultaneously paying out the main hoist line to extend the reach.",
+          "is_correct": false,
+          "rationale": "This describes two separate signals, not the one specified."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "When pouring a large concrete slab in hot, windy weather, what is the most critical step to ensure its long-term strength and durability?",
+      "explanation": "Proper curing is vital in adverse weather to prevent surface cracking and ensure the concrete reaches its designed compressive strength by managing the rate of hydration and moisture loss.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Adding excessive water to the concrete mix on-site to improve its workability and flow into the forms more easily.",
+          "is_correct": false,
+          "rationale": "This action severely compromises the water-cement ratio, which significantly weakens the concrete's final compressive strength."
+        },
+        {
+          "key": "B",
+          "text": "Applying a curing compound or covering the surface with wet burlap to control moisture evaporation and prevent rapid drying.",
+          "is_correct": true,
+          "rationale": "This method properly controls the rate of hydration by retaining moisture, which is essential for preventing surface cracks."
+        },
+        {
+          "key": "C",
+          "text": "Using high-frequency vibrators for an extended period to remove every possible air pocket from within the concrete mix.",
+          "is_correct": false,
+          "rationale": "Excessive vibration causes the heavier aggregates to sink, leading to a weak, non-homogenous mix known as segregation."
+        },
+        {
+          "key": "D",
+          "text": "Finishing the concrete surface immediately after pouring to achieve a smooth texture before it has a chance to set.",
+          "is_correct": false,
+          "rationale": "Finishing the surface before bleed water has evaporated traps moisture, which significantly weakens the top layer of the slab."
+        },
+        {
+          "key": "E",
+          "text": "Increasing the amount of cement in the mix design to significantly accelerate the initial setting time of the concrete.",
+          "is_correct": false,
+          "rationale": "This alters the mix design and is not a curing technique."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "You are tasked with working in a trench that is 6 feet deep. What is the mandatory OSHA requirement before any work can begin inside?",
+      "explanation": "OSHA regulations at 29 CFR 1926.652 strictly mandate that any trench 5 feet or deeper must have a protective system to safeguard workers from the serious hazard of soil collapse.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Workers must wear high-visibility vests and hard hats, but no other specific protective system is required by the regulation.",
+          "is_correct": false,
+          "rationale": "Standard PPE is required but not sufficient for trench safety."
+        },
+        {
+          "key": "B",
+          "text": "A designated supervisor must remain at the edge of the trench to monitor the work being performed at all times.",
+          "is_correct": false,
+          "rationale": "A competent person must inspect, but constant monitoring isn't the primary protection."
+        },
+        {
+          "key": "C",
+          "text": "The trench must have a protective system, such as shoring, sloping, or a trench box, to prevent potential cave-ins.",
+          "is_correct": true,
+          "rationale": "This is the primary OSHA requirement for trenches over 5 feet deep."
+        },
+        {
+          "key": "D",
+          "text": "The soil must be tested for moisture content by a certified lab to determine if it is stable enough for excavation.",
+          "is_correct": false,
+          "rationale": "A competent person assesses soil, but a lab test is not mandatory."
+        },
+        {
+          "key": "E",
+          "text": "A temporary ladder must be placed every 50 feet along the length of the entire trench for safe access.",
+          "is_correct": false,
+          "rationale": "Ladders are required every 25 feet of lateral travel, not 50."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "On a set of construction blueprints, what does a solid, thick line typically represent when viewing a floor plan or elevation drawing?",
+      "explanation": "In architectural drawings, line weight conveys importance. Thick, solid lines are used to give visual prominence to major structural elements like walls, foundations, and columns, distinguishing them from other features.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It usually indicates a structural wall, a load-bearing element, or the primary outline of the building's main components.",
+          "is_correct": true,
+          "rationale": "Line weight is used to create visual hierarchy; thick lines represent the most significant structural or profile elements."
+        },
+        {
+          "key": "B",
+          "text": "This line type is used exclusively for showing the location of underground utilities like water and sewer pipes.",
+          "is_correct": false,
+          "rationale": "Utility lines have their own specific line types and symbols."
+        },
+        {
+          "key": "C",
+          "text": "It represents a non-structural partition wall that can be moved or removed without affecting the building's structural integrity.",
+          "is_correct": false,
+          "rationale": "Non-structural elements like partition walls are less critical and are therefore represented by much thinner lines on drawings."
+        },
+        {
+          "key": "D",
+          "text": "A thick, solid line is the standard symbol for denoting property lines and setback requirements on a site plan.",
+          "is_correct": false,
+          "rationale": "Property lines are usually shown with a specific dash-dot pattern."
+        },
+        {
+          "key": "E",
+          "text": "It signifies a hidden object or a feature that is located above or below the current cutting plane view.",
+          "is_correct": false,
+          "rationale": "Hidden objects are almost always represented by dashed lines."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "How should bags of cement or mortar be properly stored on a job site to maintain their quality and prevent premature hardening?",
+      "explanation": "Cement is hygroscopic and will absorb moisture from the air and ground, causing it to hydrate, harden, and become unusable. Proper storage on pallets under cover is essential to protect the material.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The bags should be stored directly on a concrete slab inside the building footprint for maximum stability and easy access.",
+          "is_correct": false,
+          "rationale": "Concrete slabs can still transmit ground moisture, which is enough to spoil the cement bags over time."
+        },
+        {
+          "key": "B",
+          "text": "They must be stacked on pallets or raised platforms and covered with a waterproof tarp to protect from ground moisture.",
+          "is_correct": true,
+          "rationale": "This method provides complete protection by isolating the bags from both ground moisture and direct precipitation."
+        },
+        {
+          "key": "C",
+          "text": "They can be left on the delivery truck until the moment they are needed to minimize any handling on the site.",
+          "is_correct": false,
+          "rationale": "Leaving materials on a delivery truck is highly impractical and would severely disrupt the flow of site logistics."
+        },
+        {
+          "key": "D",
+          "text": "Stacking the bags in a tight pyramid shape directly on the ground helps shed rainwater and keeps the pile stable.",
+          "is_correct": false,
+          "rationale": "Ground contact will lead to moisture absorption from below."
+        },
+        {
+          "key": "E",
+          "text": "The bags should be opened slightly upon arrival to allow air circulation, which prevents moisture from building up inside.",
+          "is_correct": false,
+          "rationale": "This would expose the cement to ambient humidity, causing it to spoil."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "While using a power tool, you notice it starts making an unusual noise and vibrating excessively. What is the correct immediate course of action?",
+      "explanation": "Continuing to use a malfunctioning tool poses a significant safety risk to the operator and others. The correct procedure is to take it out of service immediately and report it for professional inspection or repair.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately stop work, unplug the tool from its power source, and report the issue to your supervisor for inspection.",
+          "is_correct": true,
+          "rationale": "This is the safest procedure, preventing injury or tool failure."
+        },
+        {
+          "key": "B",
+          "text": "Continue using the tool but at a much slower pace to see if the noise and vibration eventually stop on their own.",
+          "is_correct": false,
+          "rationale": "Continuing to operate a faulty tool is extremely dangerous and risks catastrophic failure, which could cause serious injury."
+        },
+        {
+          "key": "C",
+          "text": "Attempt to tighten any visible screws or bolts on the tool's housing while it is still plugged in to fix it.",
+          "is_correct": false,
+          "rationale": "Attempting repairs on a powered tool is extremely hazardous."
+        },
+        {
+          "key": "D",
+          "text": "Ask a nearby coworker to listen to the tool to get a second opinion on whether it is still safe to use.",
+          "is_correct": false,
+          "rationale": "This delays proper action and puts another person at risk."
+        },
+        {
+          "key": "E",
+          "text": "Switch to a different electrical outlet, as the problem is most likely related to an inconsistent power supply source.",
+          "is_correct": false,
+          "rationale": "Unusual noise and vibration typically indicate a mechanical issue."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "When setting up a mobile scaffold tower on a construction site, what is the most critical safety check you must perform before anyone uses it?",
+      "explanation": "Before use, a mobile scaffold must be verified for stability and fall protection. This includes ensuring it cannot move unexpectedly and that all required safety barriers like guardrails are properly installed to prevent falls.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensure all wheels are locked, outriggers are correctly deployed, and the platform is fully planked with guardrails in place.",
+          "is_correct": true,
+          "rationale": "This comprehensive check addresses both stability and essential fall protection, which are the most critical safety elements."
+        },
+        {
+          "key": "B",
+          "text": "Check that the scaffold has been tagged with the company logo and the current date for inventory tracking purposes.",
+          "is_correct": false,
+          "rationale": "This is an administrative task, not a direct safety check."
+        },
+        {
+          "key": "C",
+          "text": "Make sure the color of the scaffold matches the building's exterior to maintain aesthetic standards on the work site.",
+          "is_correct": false,
+          "rationale": "Aesthetics are irrelevant to the functional safety of the scaffold."
+        },
+        {
+          "key": "D",
+          "text": "Confirm that there are enough power outlets available on the platform for all the required power tools.",
+          "is_correct": false,
+          "rationale": "This is a logistical concern, not the most critical safety check."
+        },
+        {
+          "key": "E",
+          "text": "Verify the scaffold's rental agreement is up to date and filed correctly with the site office administration.",
+          "is_correct": false,
+          "rationale": "This is a paperwork issue, not a pre-use physical safety inspection."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "You notice a concrete mix arriving on site appears excessively wet and soupy. What is the most appropriate immediate action to take?",
+      "explanation": "An overly wet concrete mix has a compromised water-to-cement ratio, which severely weakens its final strength. The correct protocol is to halt the pour and escalate to a supervisor for official testing and approval.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Proceed with the pour but work faster than usual to compensate for the potentially quicker curing time of the mix.",
+          "is_correct": false,
+          "rationale": "This is a dangerous assumption and ignores the quality issue."
+        },
+        {
+          "key": "B",
+          "text": "Immediately notify the site supervisor or foreman and refuse to pour the concrete until its slump is tested and approved.",
+          "is_correct": true,
+          "rationale": "This follows proper procedure for quality control and safety."
+        },
+        {
+          "key": "C",
+          "text": "Add a bag of dry cement mix directly into the truck's chute to try and thicken the concrete yourself.",
+          "is_correct": false,
+          "rationale": "This improperly alters the engineered mix design and is unsafe."
+        },
+        {
+          "key": "D",
+          "text": "Ask the truck driver to add even more water to the mix, assuming it will even out the consistency.",
+          "is_correct": false,
+          "rationale": "Adding more water would worsen the problem and weaken the concrete."
+        },
+        {
+          "key": "E",
+          "text": "Ignore the issue as the supplier is responsible for quality and it will likely be fine once it fully sets.",
+          "is_correct": false,
+          "rationale": "This is negligent and could lead to a serious structural failure."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "On a set of blueprints, you encounter a specific symbol you do not recognize in a critical structural area. What is your first action?",
+      "explanation": "Misinterpreting blueprints can lead to significant structural errors, rework, and safety hazards. The only safe and professional action is to stop and seek official clarification from the plans themselves or a supervisor.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Make an educated guess based on the surrounding context and continue working to avoid any project delays.",
+          "is_correct": false,
+          "rationale": "Making assumptions about structural details is extremely risky and can lead to catastrophic failures or costly rework."
+        },
+        {
+          "key": "B",
+          "text": "Search for the symbol online using your phone to find a general meaning from various construction websites.",
+          "is_correct": false,
+          "rationale": "Online sources may not be accurate for project-specific plans."
+        },
+        {
+          "key": "C",
+          "text": "Ask a nearby coworker from a different trade if they have ever seen the symbol before on their projects.",
+          "is_correct": false,
+          "rationale": "Another trade's interpretation might not be correct for your scope."
+        },
+        {
+          "key": "D",
+          "text": "Stop work in that specific area and consult the drawing's legend or ask your foreman for immediate clarification.",
+          "is_correct": true,
+          "rationale": "This is the correct procedure to ensure accuracy and safety."
+        },
+        {
+          "key": "E",
+          "text": "Ignore the symbol for now and plan to come back to it later, focusing on other parts of the job.",
+          "is_correct": false,
+          "rationale": "This can lead to incorrect work being built upon."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Before using a power tool like a circular saw at the start of your shift, what is the most important safety inspection to perform?",
+      "explanation": "A pre-use inspection is vital for power tool safety. Checking the cord for damage prevents electrocution, and verifying the blade guard's function is critical for preventing severe lacerations during operation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensure the tool's brand name is clearly visible and matches the list of approved equipment for the job site.",
+          "is_correct": false,
+          "rationale": "This is a compliance check, not a direct operational safety check."
+        },
+        {
+          "key": "B",
+          "text": "Wipe down the tool with a clean cloth to make sure it looks presentable for any potential site inspections.",
+          "is_correct": false,
+          "rationale": "Cleanliness is good practice but secondary to functional safety checks."
+        },
+        {
+          "key": "C",
+          "text": "Check that the power cord is free from frays, the blade guard is functioning correctly, and all safety features are intact.",
+          "is_correct": true,
+          "rationale": "This inspection directly addresses the primary risks of injury."
+        },
+        {
+          "key": "D",
+          "text": "Confirm the tool's battery is fully charged to ensure you can complete the task without any work interruptions.",
+          "is_correct": false,
+          "rationale": "This is an operational concern, not a primary safety inspection."
+        },
+        {
+          "key": "E",
+          "text": "Make sure you have the original purchase receipt for the tool in case it malfunctions and needs to be returned.",
+          "is_correct": false,
+          "rationale": "This is an administrative detail irrelevant to pre-use safety."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "You see a worker from another crew in a deep trench without proper shoring, and you notice the soil looks unstable. What is your responsibility?",
+      "explanation": "Every person on a construction site shares responsibility for safety. Identifying an imminent life-threatening hazard like a potential trench collapse requires immediate intervention to warn the individual and prompt escalation to a supervisor.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mind your own business as they work for a different subcontractor and it is not your direct responsibility to supervise.",
+          "is_correct": false,
+          "rationale": "Site safety is a collective responsibility for everyone present."
+        },
+        {
+          "key": "B",
+          "text": "Take a photo of the violation with your phone to report to the main office at the end of the day.",
+          "is_correct": false,
+          "rationale": "This action is too slow to prevent an immediate danger."
+        },
+        {
+          "key": "C",
+          "text": "Yell at the worker from a distance to get out of the trench, which could cause panic or be ignored.",
+          "is_correct": false,
+          "rationale": "This is an unprofessional and potentially ineffective way to communicate."
+        },
+        {
+          "key": "D",
+          "text": "Assume that their supervisor has approved this specific method and that they must know what they are doing.",
+          "is_correct": false,
+          "rationale": "This is a dangerous assumption that ignores a clear hazard."
+        },
+        {
+          "key": "E",
+          "text": "Immediately and calmly alert the worker to the danger and simultaneously inform your foreman or the site safety officer.",
+          "is_correct": true,
+          "rationale": "This addresses the immediate danger and follows proper reporting protocol."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "When reviewing a set of construction blueprints, what is the primary purpose of the legend or key section included on the drawings?",
+      "explanation": "The legend is a critical component of any blueprint, acting as a dictionary to decode the various symbols and notations, ensuring accurate interpretation and execution of the plans.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It lists the contact information for all subcontractors and the primary architect involved in the project's development phase.",
+          "is_correct": false,
+          "rationale": "This information is typically found in a separate project directory or title block, not the drawing legend."
+        },
+        {
+          "key": "B",
+          "text": "It provides a detailed schedule of the project timeline, including key milestones and expected completion dates for various stages.",
+          "is_correct": false,
+          "rationale": "This information is part of the project management documentation, like a Gantt chart, not the blueprint legend."
+        },
+        {
+          "key": "C",
+          "text": "It explains the meaning of all the symbols, abbreviations, and line types used throughout the entire set of drawings.",
+          "is_correct": true,
+          "rationale": "The legend's sole purpose is to act as a dictionary, defining all symbols and abbreviations used on the drawings."
+        },
+        {
+          "key": "D",
+          "text": "It contains the specific building code regulations and local ordinances that are applicable to the construction site location.",
+          "is_correct": false,
+          "rationale": "This information is typically found in the general notes."
+        },
+        {
+          "key": "E",
+          "text": "It details the specific budget allocations for different materials and labor costs associated with the construction project.",
+          "is_correct": false,
+          "rationale": "Budgetary information is found in separate financial documents, such as a cost estimate, not on the blueprints."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "You are tasked with storing a pallet of cement bags on-site for several days. What is the most critical environmental consideration to prevent spoilage?",
+      "explanation": "Cement reacts with water (hydration), which causes it to harden. Protecting bags from any source of moisture, including ground dampness and rain, is essential to keep the powder usable.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The bags must be stored in direct sunlight to keep them dry and prevent any clumping from occurring inside.",
+          "is_correct": false,
+          "rationale": "Sunlight is not the primary concern; the main goal is to protect the bags from all forms of moisture."
+        },
+        {
+          "key": "B",
+          "text": "You should stack the bags directly on the ground to ensure they remain stable and do not tip over easily.",
+          "is_correct": false,
+          "rationale": "Placing bags directly on the ground is a critical mistake as it allows moisture to wick up and spoil them."
+        },
+        {
+          "key": "C",
+          "text": "The cement bags must be kept completely dry and elevated off the ground to protect them from moisture and humidity.",
+          "is_correct": true,
+          "rationale": "Elevation prevents ground moisture absorption, while a cover protects from rain, ensuring the cement remains usable."
+        },
+        {
+          "key": "D",
+          "text": "It is best to open the bags slightly to allow for proper air circulation and prevent pressure from building up.",
+          "is_correct": false,
+          "rationale": "Opening the bags is counterproductive as it directly exposes the hygroscopic cement powder to damaging ambient humidity."
+        },
+        {
+          "key": "E",
+          "text": "You should store them next to a water source for easy access when it is time to mix the concrete.",
+          "is_correct": false,
+          "rationale": "Storing near water increases the risk of accidental moisture exposure."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Before beginning work on a newly erected scaffold, what is the most important initial safety check you must perform personally?",
+      "explanation": "The tag system (green for safe, yellow for caution, red for unsafe) is a standardized communication tool indicating the scaffold's inspection status. A green tag confirms a competent person has approved it.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately start loading all your necessary tools and materials onto the platform to ensure you are ready to work.",
+          "is_correct": false,
+          "rationale": "Loading a scaffold before verifying its safety is a major violation and puts the worker at immediate risk."
+        },
+        {
+          "key": "B",
+          "text": "Ask a coworker standing on the ground below to give a quick visual assessment of the scaffold's overall stability.",
+          "is_correct": false,
+          "rationale": "This informal check is not a valid substitute for the required inspection and tagging by a competent person."
+        },
+        {
+          "key": "C",
+          "text": "Verify the scaffold has a green tag, indicating it has been inspected by a competent person and is safe for use.",
+          "is_correct": true,
+          "rationale": "The green tag system is the standard for verifying scaffold inspection and safety."
+        },
+        {
+          "key": "D",
+          "text": "Test the stability of the platform by jumping up and down on it a few times to check for movement.",
+          "is_correct": false,
+          "rationale": "This is an extremely dangerous and completely unreliable method for testing the structural integrity of a scaffold."
+        },
+        {
+          "key": "E",
+          "text": "Check that the color of the scaffold matches the equipment specifications listed in the project safety manual.",
+          "is_correct": false,
+          "rationale": "The color of the scaffold is irrelevant to its immediate safety status."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "After a concrete slab has been poured and finished, what is the primary purpose of the curing process that follows?",
+      "explanation": "Curing is not about drying; it's about retaining sufficient moisture for the chemical reaction (hydration) to continue, which is how concrete gains its long-term strength and reduces shrinkage cracking.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To rapidly dry out the concrete slab, making it reach its maximum hardness in the shortest possible time frame.",
+          "is_correct": false,
+          "rationale": "Rapid drying stops the hydration process prematurely, which significantly weakens the final concrete strength."
+        },
+        {
+          "key": "B",
+          "text": "To maintain adequate moisture and a favorable temperature, allowing the concrete to achieve its designed strength and durability.",
+          "is_correct": true,
+          "rationale": "Curing controls moisture and temperature for proper strength development."
+        },
+        {
+          "key": "C",
+          "text": "To apply a decorative finish to the surface of the concrete, giving it a polished and aesthetically pleasing appearance.",
+          "is_correct": false,
+          "rationale": "Applying a finish is part of the placement process, which occurs before the separate and critical curing stage."
+        },
+        {
+          "key": "D",
+          "text": "To check for any surface-level cracks or imperfections that may have formed during the initial pouring and finishing stages.",
+          "is_correct": false,
+          "rationale": "This describes a quality control inspection, which is a separate activity from the actual process of curing the concrete."
+        },
+        {
+          "key": "E",
+          "text": "To cool the concrete as quickly as possible using large fans to prevent any heat-related stress fractures from forming.",
+          "is_correct": false,
+          "rationale": "Rapid cooling induces thermal shock, which creates internal stresses that lead to significant cracking and reduced durability."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "While taking measurements for formwork, you discover a significant discrepancy between the blueprints and the actual on-site conditions. What is your immediate course of action?",
+      "explanation": "When a conflict arises between plans and reality, work must stop to prevent costly errors. The issue must be escalated through the proper chain of command for an official decision.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Proceed with the installation based on the blueprint dimensions, assuming the site conditions will be corrected later on.",
+          "is_correct": false,
+          "rationale": "This assumption can lead to significant rework and error."
+        },
+        {
+          "key": "B",
+          "text": "Make an independent decision to adjust the formwork to fit the site conditions without consulting anyone for guidance.",
+          "is_correct": false,
+          "rationale": "Making unauthorized changes can severely compromise the building's structural integrity and create significant liability issues."
+        },
+        {
+          "key": "C",
+          "text": "Immediately stop work on that section and report the discrepancy to your direct supervisor or foreman for clarification.",
+          "is_correct": true,
+          "rationale": "Stopping work and reporting to a supervisor is the correct protocol for discrepancies."
+        },
+        {
+          "key": "D",
+          "text": "Ask a nearby coworker from a different trade for their opinion on how you should proceed with the installation.",
+          "is_correct": false,
+          "rationale": "Coworkers may not have the authority or correct information."
+        },
+        {
+          "key": "E",
+          "text": "Ignore the discrepancy and continue working on a different task, hoping someone else will eventually notice the issue.",
+          "is_correct": false,
+          "rationale": "Ignoring a known discrepancy is highly irresponsible and can lead to compounded errors and significant safety hazards."
+        }
+      ]
+    }
+  ]
+}

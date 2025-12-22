@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "In seismic design, what is the primary reason for designing structural elements to behave in a ductile manner under severe earthquake loading?",
+      "explanation": "Ductility allows a structure to undergo large inelastic deformations without a significant loss of strength. This behavior dissipates the immense energy from an earthquake, preventing a brittle and catastrophic collapse, which is crucial for life safety.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To dissipate seismic energy through controlled inelastic deformation, preventing a sudden and brittle failure of the structure.",
+          "is_correct": true,
+          "rationale": "This correctly identifies energy dissipation as the core purpose of ductile design in seismic regions."
+        },
+        {
+          "key": "B",
+          "text": "To significantly increase the overall stiffness of the building, thereby reducing the lateral drift during a seismic event.",
+          "is_correct": false,
+          "rationale": "Ductility is about deformation capacity, not stiffness. Increased stiffness can sometimes attract higher seismic forces."
+        },
+        {
+          "key": "C",
+          "text": "To ensure the structure remains entirely within its elastic range, avoiding any permanent damage to primary framing members.",
+          "is_correct": false,
+          "rationale": "Ductile design anticipates and controls inelastic (post-elastic) behavior, not avoids it entirely."
+        },
+        {
+          "key": "D",
+          "text": "To simplify the structural analysis by allowing the use of linear static procedures for all types of building configurations.",
+          "is_correct": false,
+          "rationale": "Designing for ductility often requires more complex, non-linear analysis, not simpler methods."
+        },
+        {
+          "key": "E",
+          "text": "To reduce the initial construction cost by allowing the use of lower-grade steel and concrete materials throughout the project.",
+          "is_correct": false,
+          "rationale": "Ductile detailing often requires specific material grades and more complex reinforcement, potentially increasing costs."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the most significant structural advantage of using a post-tensioned concrete slab for a long-span parking garage floor?",
+      "explanation": "Post-tensioning introduces active compressive forces into the concrete, which counteract the tensile stresses from dead and live loads. This allows for thinner slabs over longer spans, reducing material usage, self-weight, and overall building height.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It allows for longer, column-free spans with a reduced slab thickness, minimizing material usage and structural self-weight.",
+          "is_correct": true,
+          "rationale": "This correctly states the primary benefit: longer spans with thinner, more efficient sections."
+        },
+        {
+          "key": "B",
+          "text": "It significantly improves the fire resistance rating of the concrete slab compared to conventionally reinforced concrete options.",
+          "is_correct": false,
+          "rationale": "While fire resistance is important, it is not the primary structural advantage over conventional reinforcement."
+        },
+        {
+          "key": "C",
+          "text": "The construction process for post-tensioned slabs requires less skilled labor and is generally much faster than other methods.",
+          "is_correct": false,
+          "rationale": "Post-tensioning is a specialized trade that requires highly skilled labor for stressing and grouting."
+        },
+        {
+          "key": "D",
+          "text": "It completely eliminates the potential for long-term creep and shrinkage cracking that affects all other concrete structures.",
+          "is_correct": false,
+          "rationale": "Post-tensioning helps control cracking but does not eliminate the inherent material properties of creep and shrinkage."
+        },
+        {
+          "key": "E",
+          "text": "This method makes future modifications, such as creating new large openings in the slab, much easier to execute.",
+          "is_correct": false,
+          "rationale": "Cutting through stressed tendons is dangerous and complex, making future modifications very difficult."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "When analyzing a tall, slender building, which factor is most critical for determining the dynamic effects of wind loading?",
+      "explanation": "The building's natural frequency is paramount because if it is close to the frequency of wind vortex shedding, resonance can occur. This dynamic amplification dramatically increases the building's response, leading to higher loads and accelerations than a static analysis would predict.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The building's fundamental natural frequency of vibration, which determines its susceptibility to dynamic amplification and resonance.",
+          "is_correct": true,
+          "rationale": "Natural frequency is the key parameter for assessing dynamic wind effects like resonance."
+        },
+        {
+          "key": "B",
+          "text": "The surface roughness and color of the exterior cladding material, which primarily affects the local pressure coefficients.",
+          "is_correct": false,
+          "rationale": "Surface roughness has a minor effect on local pressures but not on the overall dynamic response."
+        },
+        {
+          "key": "C",
+          "text": "The total dead load of the non-structural components, such as interior walls and mechanical, electrical, and plumbing systems.",
+          "is_correct": false,
+          "rationale": "This mass is part of the calculation but the frequency itself is the most critical dynamic factor."
+        },
+        {
+          "key": "D",
+          "text": "The soil bearing capacity beneath the foundation, which governs foundation design but not the superstructure's wind response.",
+          "is_correct": false,
+          "rationale": "Soil capacity is a geotechnical constraint, not a primary driver of dynamic wind effects on the structure."
+        },
+        {
+          "key": "E",
+          "text": "The average daily temperature fluctuation at the project site, which is more relevant for thermal expansion analysis.",
+          "is_correct": false,
+          "rationale": "Temperature is critical for thermal movement and stress analysis, not for dynamic wind loading."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is the primary objective of the 'strong column-weak beam' design philosophy for moment-resisting frames in seismic regions?",
+      "explanation": "This philosophy ensures that in a severe earthquake, plastic hinges form in the beams rather than the columns. Beam failure is localized, whereas column failure can lead to the collapse of an entire story (a soft-story mechanism) and catastrophic failure of the building.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure plastic hinges form in the beams before the columns, preventing a catastrophic soft-story collapse mechanism.",
+          "is_correct": true,
+          "rationale": "This correctly describes the goal of forcing failure into beams to protect the more critical columns."
+        },
+        {
+          "key": "B",
+          "text": "To minimize the total amount of steel required for the structure by using smaller beam sections throughout the frame.",
+          "is_correct": false,
+          "rationale": "This philosophy is about performance and safety, not primarily about material reduction."
+        },
+        {
+          "key": "C",
+          "text": "To simplify the connection design by making all beam-to-column connections identical, regardless of their location in the building.",
+          "is_correct": false,
+          "rationale": "Connection design is often more complex to ensure this behavior, not simpler."
+        },
+        {
+          "key": "D",
+          "text": "To increase the overall lateral stiffness of the building to better control drift under frequent, low-level wind loads.",
+          "is_correct": false,
+          "rationale": "This is a seismic design philosophy for ultimate strength, not a serviceability requirement for wind."
+        },
+        {
+          "key": "E",
+          "text": "To concentrate the lateral force resistance in the columns, allowing the beams to be designed only for gravity loads.",
+          "is_correct": false,
+          "rationale": "This is incorrect; in a moment frame, beams are integral to the lateral force resisting system."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "When designing a large mat foundation on a deep layer of soft clay, what is the most critical long-term serviceability consideration?",
+      "explanation": "Soft clays are highly susceptible to consolidation, a time-dependent process where water is squeezed out from the soil under sustained load. This can lead to large and, more importantly, differential settlements over many years, which can cause significant damage to the superstructure.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The potential for long-term consolidation settlement, which can cause excessive and differential movement of the structure.",
+          "is_correct": true,
+          "rationale": "Consolidation is the primary long-term settlement mechanism in soft clays, governing serviceability."
+        },
+        {
+          "key": "B",
+          "text": "The immediate elastic settlement that occurs as soon as the construction loads are applied to the foundation.",
+          "is_correct": false,
+          "rationale": "Immediate settlement occurs, but the time-dependent consolidation settlement is typically much larger and more critical in soft clays."
+        },
+        {
+          "key": "C",
+          "text": "The ultimate bearing capacity of the clay soil, which is a strength consideration rather than a long-term serviceability issue.",
+          "is_correct": false,
+          "rationale": "Bearing capacity is an ultimate limit state check, while settlement is a serviceability limit state concern."
+        },
+        {
+          "key": "D",
+          "text": "The risk of soil liquefaction during a seismic event, as this can cause a complete loss of foundation support.",
+          "is_correct": false,
+          "rationale": "Liquefaction is a phenomenon associated with loose, saturated sandy soils, not cohesive soft clays."
+        },
+        {
+          "key": "E",
+          "text": "The sliding resistance at the base of the mat foundation under high lateral loads from wind or seismic forces.",
+          "is_correct": false,
+          "rationale": "Sliding is a strength check, and typically not the governing design consideration for large mats on clay."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "When designing a reinforced concrete shear wall for a multi-story building in a high seismic zone, what is a critical consideration?",
+      "explanation": "In high seismic zones, ductility is paramount. Boundary elements in shear walls confine the concrete and prevent buckling of vertical reinforcement, ensuring the wall can deform without a sudden, brittle failure during an earthquake.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Focusing primarily on the wall's compressive strength to handle the building's vertical gravity loads is the main priority.",
+          "is_correct": false,
+          "rationale": "Seismic design prioritizes lateral load resistance and ductility, not just gravity loads."
+        },
+        {
+          "key": "B",
+          "text": "Ensuring adequate boundary element detailing is provided to prevent brittle failure and ensure sufficient ductility under cyclic loading.",
+          "is_correct": true,
+          "rationale": "Boundary elements are crucial for ductile performance in seismic regions."
+        },
+        {
+          "key": "C",
+          "text": "Maximizing the number of openings for windows and doors to reduce the overall material costs of the project.",
+          "is_correct": false,
+          "rationale": "Openings weaken the shear wall and must be carefully designed and reinforced."
+        },
+        {
+          "key": "D",
+          "text": "Using the lowest possible concrete strength specified in the code to minimize the project's overall construction budget.",
+          "is_correct": false,
+          "rationale": "Concrete strength must meet the specific design demands, not just minimums."
+        },
+        {
+          "key": "E",
+          "text": "Assuming the shear wall acts independently from the rest of the structure to simplify the analytical model.",
+          "is_correct": false,
+          "rationale": "Interaction with the building frame is a critical aspect of the analysis."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "In a high-strength bolted connection designed as slip-critical, what is the primary mechanism for transferring shear forces between the connected plates?",
+      "explanation": "Slip-critical connections rely on the high clamping force from pretensioned bolts to create significant friction between the steel plates. This friction resists the shear load, preventing the connection from slipping into bearing under service loads.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The shear strength of the bolt material itself directly resisting the applied load across its cross-section.",
+          "is_correct": false,
+          "rationale": "This describes a bearing-type connection, not a slip-critical one."
+        },
+        {
+          "key": "B",
+          "text": "The static friction developed between the faying surfaces of the connected steel members due to bolt pretension.",
+          "is_correct": true,
+          "rationale": "Friction between plates is the defining mechanism of slip-critical connections."
+        },
+        {
+          "key": "C",
+          "text": "The bearing capacity of the steel plate material where it comes into contact with the bolt shank.",
+          "is_correct": false,
+          "rationale": "Bearing is the failure mode after slip occurs, not the primary mechanism."
+        },
+        {
+          "key": "D",
+          "text": "The adhesive bond strength of the primer or paint applied to the faying surfaces of the steel plates.",
+          "is_correct": false,
+          "rationale": "Coatings affect the slip coefficient but are not the load transfer mechanism."
+        },
+        {
+          "key": "E",
+          "text": "The prying action that develops near the bolt head as the connected elements begin to deform.",
+          "is_correct": false,
+          "rationale": "Prying action is a consideration for bolts in tension, not shear transfer."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What is the primary advantage of using post-tensioned concrete slabs for long-span applications compared to conventionally reinforced concrete slabs?",
+      "explanation": "Post-tensioning introduces compressive forces that counteract the tensile stresses from applied loads. This allows for longer spans with thinner, lighter slabs, which reduces material usage, foundation loads, and increases vertical clearance.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Post-tensioning significantly increases the overall weight of the structure, which improves its stability against wind uplift forces.",
+          "is_correct": false,
+          "rationale": "Post-tensioning allows for lighter structures, which is an advantage."
+        },
+        {
+          "key": "B",
+          "text": "It allows for thinner slab sections, which reduces the building's dead load and can increase clear ceiling heights.",
+          "is_correct": true,
+          "rationale": "Thinner sections for long spans is a key benefit of post-tensioning."
+        },
+        {
+          "key": "C",
+          "text": "The construction process for post-tensioned slabs is typically much simpler and requires significantly less specialized labor and equipment.",
+          "is_correct": false,
+          "rationale": "Post-tensioning is a specialized process requiring skilled labor and equipment."
+        },
+        {
+          "key": "D",
+          "text": "It completely eliminates the possibility of concrete cracking under any service load condition throughout the building's life.",
+          "is_correct": false,
+          "rationale": "It controls and minimizes cracking but does not completely eliminate it."
+        },
+        {
+          "key": "E",
+          "text": "The high-strength steel tendons used in post-tensioning systems are inherently immune to corrosion without any special protection.",
+          "is_correct": false,
+          "rationale": "PT tendons are highly susceptible to corrosion and require robust protection."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "According to ASCE 7, when calculating wind loads on a building, which factor specifically accounts for the increased wind speed with height?",
+      "explanation": "The velocity pressure exposure coefficient, Kz, is a key component in the wind pressure calculation that directly modifies the pressure based on the height (z) above ground level, reflecting the atmospheric boundary layer effect.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The gust-effect factor (G), which is primarily used to account for the dynamic response of the structure.",
+          "is_correct": false,
+          "rationale": "The gust-effect factor accounts for wind dynamics, not the height profile."
+        },
+        {
+          "key": "B",
+          "text": "The velocity pressure exposure coefficient (Kz), which varies directly with height above ground and the exposure category.",
+          "is_correct": true,
+          "rationale": "Kz is the factor that directly relates wind pressure to height."
+        },
+        {
+          "key": "C",
+          "text": "The topographic factor (Kzt), which considers the effects of wind speed-up over hills, ridges, and escarpments.",
+          "is_correct": false,
+          "rationale": "The topographic factor is for ground elevation changes, not building height."
+        },
+        {
+          "key": "D",
+          "text": "The directionality factor (Kd), which reduces design loads based on the statistical probability of maximum wind direction.",
+          "is_correct": false,
+          "rationale": "The directionality factor relates to wind direction probability, not speed vs. height."
+        },
+        {
+          "key": "E",
+          "text": "The importance factor (Iw), which increases the design loads for essential facilities like hospitals and fire stations.",
+          "is_correct": false,
+          "rationale": "The importance factor is based on building occupancy and risk, not height."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "When a geotechnical report indicates a high potential for soil liquefaction, what is a common foundation strategy for a mid-rise building?",
+      "explanation": "Deep foundations, such as driven piles or drilled shafts, are used to transfer the building's loads through weak or liquefiable soil layers down to a competent, stable stratum below, ensuring support during a seismic event.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using a shallow spread footing foundation to minimize the overall construction cost and project schedule.",
+          "is_correct": false,
+          "rationale": "Shallow foundations are highly vulnerable to failure in liquefiable soils."
+        },
+        {
+          "key": "B",
+          "text": "Increasing the bearing pressure on the soil to pre-compact the underlying potentially liquefiable sand layers.",
+          "is_correct": false,
+          "rationale": "This is not a reliable ground improvement method and could worsen settlement."
+        },
+        {
+          "key": "C",
+          "text": "Implementing a deep foundation system, such as piles, to bypass the liquefiable soil and bear on a competent stratum.",
+          "is_correct": true,
+          "rationale": "Deep foundations transfer loads below the weak, liquefiable soil layers."
+        },
+        {
+          "key": "D",
+          "text": "Ignoring the liquefaction potential if the building has a very robust and ductile concrete moment frame.",
+          "is_correct": false,
+          "rationale": "A strong superstructure cannot compensate for a foundation failure."
+        },
+        {
+          "key": "E",
+          "text": "Specifying a thick mat foundation to distribute the load more widely across the liquefiable soil layer.",
+          "is_correct": false,
+          "rationale": "A mat foundation would still undergo excessive settlement if the soil liquefies."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "When designing a reinforced concrete moment frame in a high seismic zone, what is the primary purpose of ensuring ductile behavior?",
+      "explanation": "Ductility in seismic design is crucial for energy dissipation. It allows the structure to deform inelastically, absorbing earthquake energy and preventing a brittle, catastrophic collapse, which saves lives and property.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To allow the structure to undergo large inelastic deformations without significant loss of strength, dissipating seismic energy effectively.",
+          "is_correct": true,
+          "rationale": "Ductility allows for energy dissipation through inelastic deformation."
+        },
+        {
+          "key": "B",
+          "text": "To increase the overall stiffness of the structure, thereby minimizing lateral drift and preventing non-structural damage.",
+          "is_correct": false,
+          "rationale": "Increasing stiffness can attract more seismic force, which is often undesirable."
+        },
+        {
+          "key": "C",
+          "text": "To maximize the compressive strength of the concrete, ensuring that columns will not fail before the beams.",
+          "is_correct": false,
+          "rationale": "This describes a capacity design principle, but not the primary purpose of ductility."
+        },
+        {
+          "key": "D",
+          "text": "To reduce the total amount of steel reinforcement required, which provides significant cost savings on the project.",
+          "is_correct": false,
+          "rationale": "Ductile detailing often requires more complex and costly reinforcement."
+        },
+        {
+          "key": "E",
+          "text": "To ensure the structure remains entirely within its elastic range during a major earthquake event, preventing any damage.",
+          "is_correct": false,
+          "rationale": "Designing for elastic behavior in a major earthquake is typically uneconomical."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "A multi-story building is planned on a site with a high water table and liquefiable sandy soils. What foundation system is most appropriate?",
+      "explanation": "For liquefiable soils, deep foundations are necessary to bypass the unstable upper layers and transfer the building loads to a stable, non-liquefiable stratum deep underground, ensuring structural safety during a seismic event.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A shallow raft foundation designed to distribute the building loads evenly across the entire footprint of the structure.",
+          "is_correct": false,
+          "rationale": "A raft foundation would be subject to settlement if the underlying soil liquefies."
+        },
+        {
+          "key": "B",
+          "text": "Compacted aggregate piers installed to densify the loose soils and increase the bearing capacity for a shallow foundation.",
+          "is_correct": false,
+          "rationale": "While this improves soil, it may not be sufficient for high liquefaction potential."
+        },
+        {
+          "key": "C",
+          "text": "Deep foundations, such as driven piles or drilled shafts, extending through the weak soil layers to a competent bearing stratum.",
+          "is_correct": true,
+          "rationale": "Deep foundations bypass the liquefiable layer to transfer loads safely."
+        },
+        {
+          "key": "D",
+          "text": "A simple spread footing system, assuming the liquefiable soil can be dewatered during the construction phase.",
+          "is_correct": false,
+          "rationale": "Dewatering is temporary and does not solve the underlying liquefaction risk."
+        },
+        {
+          "key": "E",
+          "text": "A post-tensioned slab-on-grade foundation, which is primarily used to control cracking due to soil shrinkage and swelling.",
+          "is_correct": false,
+          "rationale": "This foundation type does not address the deep instability caused by liquefaction."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "During a structural assessment of an older unreinforced masonry building, what is the most critical vulnerability to address for seismic retrofitting?",
+      "explanation": "The most common and dangerous failure mode for unreinforced masonry buildings in an earthquake is the separation of walls from floors and roofs, causing catastrophic out-of-plane collapse and posing a significant life-safety risk.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The insufficient compressive strength of the individual masonry units, which often requires complete replacement of the walls.",
+          "is_correct": false,
+          "rationale": "Compressive strength is rarely the primary failure mode in seismic events."
+        },
+        {
+          "key": "B",
+          "text": "The poor connection between the walls and the roof/floor diaphragms, leading to out-of-plane wall failure during an earthquake.",
+          "is_correct": true,
+          "rationale": "Out-of-plane wall failure due to poor connections is the most critical hazard."
+        },
+        {
+          "key": "C",
+          "text": "The excessive weight of the masonry walls, which can be reduced by applying a lightweight stucco finish to the exterior.",
+          "is_correct": false,
+          "rationale": "Stucco adds negligible weight and doesn't solve the primary structural issue."
+        },
+        {
+          "key": "D",
+          "text": "The lack of a proper damp-proof course at the base of the walls, leading to moisture ingress and material degradation.",
+          "is_correct": false,
+          "rationale": "This is a durability issue, not the most critical seismic vulnerability."
+        },
+        {
+          "key": "E",
+          "text": "The aesthetic appearance of the old brickwork, which may not meet modern architectural standards for commercial buildings.",
+          "is_correct": false,
+          "rationale": "Aesthetics are non-structural and irrelevant to seismic safety assessment."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What is the primary advantage of using post-tensioned concrete slabs for long-span applications like parking garages compared to conventional reinforced concrete?",
+      "explanation": "Post-tensioning introduces compressive forces that counteract service load deflections. This allows for thinner, lighter slabs that can span longer distances, which is highly advantageous in structures like parking garages for creating open spaces.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Post-tensioning significantly reduces the initial cost of formwork and shoring required during the concrete curing process.",
+          "is_correct": false,
+          "rationale": "Formwork and shoring requirements are often similar or more complex."
+        },
+        {
+          "key": "B",
+          "text": "The construction process for post-tensioned slabs is much faster and requires less skilled labor than traditional methods.",
+          "is_correct": false,
+          "rationale": "Post-tensioning is a specialized trade that requires highly skilled labor."
+        },
+        {
+          "key": "C",
+          "text": "It allows for thinner slabs and longer spans with better deflection control, reducing the overall building height and weight.",
+          "is_correct": true,
+          "rationale": "Thinner sections and longer spans are the key benefits of post-tensioning."
+        },
+        {
+          "key": "D",
+          "text": "Post-tensioned concrete has a much higher fire resistance rating without the need for any additional protective coatings.",
+          "is_correct": false,
+          "rationale": "Fire resistance is determined by concrete cover, which can be a concern for PT."
+        },
+        {
+          "key": "E",
+          "text": "The use of unbonded tendons completely eliminates the possibility of long-term corrosion issues affecting the structure's durability.",
+          "is_correct": false,
+          "rationale": "Corrosion is still a major concern if the tendon sheathing is damaged."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "You discover a significant discrepancy between your structural drawings and the architect's plans regarding a major load-bearing wall location. What is your immediate professional responsibility?",
+      "explanation": "The correct professional action is to formally document the conflict via a Request for Information (RFI). This creates a clear communication trail and ensures the discrepancy is resolved by the lead designer before further work proceeds.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Proceed with your structural design as planned, assuming the architectural drawings will be updated to match your specifications later.",
+          "is_correct": false,
+          "rationale": "Making assumptions leads to costly rework and coordination failures."
+        },
+        {
+          "key": "B",
+          "text": "Immediately issue a formal Request for Information (RFI) to the architect to clarify the conflict and halt related design work.",
+          "is_correct": true,
+          "rationale": "An RFI is the formal process for resolving design discrepancies."
+        },
+        {
+          "key": "C",
+          "text": "Modify the structural system to accommodate the architect's layout without formally documenting the change to save time.",
+          "is_correct": false,
+          "rationale": "Undocumented changes create liability and coordination problems."
+        },
+        {
+          "key": "D",
+          "text": "Contact the contractor directly to ask for their opinion on which location for the wall would be easier to build.",
+          "is_correct": false,
+          "rationale": "The contractor does not have design authority; the architect must be consulted."
+        },
+        {
+          "key": "E",
+          "text": "Wait until the pre-construction meeting to bring up the issue, allowing other disciplines to weigh in on the discrepancy.",
+          "is_correct": false,
+          "rationale": "Delaying resolution of a major issue is unprofessional and wastes time."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "When designing a post-tensioned concrete slab, what is the primary reason for specifying unbonded tendons over bonded tendons in certain building applications?",
+      "explanation": "Unbonded tendons are preferred for their design flexibility and maintainability. They can be stressed after the concrete has cured and can be de-stressed or replaced if necessary, which is a significant advantage in many building structures.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Unbonded tendons offer greater flexibility in slab geometry and allow for easier inspection and replacement if a tendon fails during its service life.",
+          "is_correct": true,
+          "rationale": "This highlights the key advantages of design flexibility and long-term maintainability."
+        },
+        {
+          "key": "B",
+          "text": "Unbonded tendons are significantly cheaper to procure and install, making them the default choice for all post-tensioning projects regardless of scale.",
+          "is_correct": false,
+          "rationale": "Cost is a factor, but they are not always cheaper or the default choice."
+        },
+        {
+          "key": "C",
+          "text": "They provide superior fire resistance because the grease-filled sheathing acts as a natural insulator against extreme heat during a structural fire.",
+          "is_correct": false,
+          "rationale": "This is incorrect; fire resistance is complex and bonded systems can perform better."
+        },
+        {
+          "key": "D",
+          "text": "Unbonded systems create a stronger chemical bond with the surrounding concrete, leading to a much higher ultimate load capacity for the slab.",
+          "is_correct": false,
+          "rationale": "This describes the mechanism of bonded tendons, not unbonded ones."
+        },
+        {
+          "key": "E",
+          "text": "The use of unbonded tendons completely eliminates the possibility of long-term creep and shrinkage effects within the concrete slab structure.",
+          "is_correct": false,
+          "rationale": "Post-tensioning mitigates these effects but does not eliminate them entirely."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "During the seismic retrofitting of an existing reinforced concrete building, what is the principal advantage of using fiber-reinforced polymer (FRP) wraps on columns?",
+      "explanation": "FRP wrapping is a popular seismic retrofitting technique because it enhances column confinement. This confinement increases both shear strength and the ability of the column to deform ductilely under earthquake loading, preventing brittle failure.",
+      "options": [
+        {
+          "key": "A",
+          "text": "FRP wraps significantly increase the column's ductility and shear strength without adding substantial mass, which would otherwise increase seismic forces.",
+          "is_correct": true,
+          "rationale": "The main benefits are enhanced ductility and shear strength with minimal mass addition."
+        },
+        {
+          "key": "B",
+          "text": "The primary function of FRP wraps is to provide a durable, waterproof barrier that protects the concrete column from environmental degradation.",
+          "is_correct": false,
+          "rationale": "This is a secondary benefit, not the primary reason for seismic retrofitting."
+        },
+        {
+          "key": "C",
+          "text": "They are mainly used to increase the axial load-carrying capacity of the columns, allowing for additional floors to be added to the building.",
+          "is_correct": false,
+          "rationale": "The primary goal is ductility and shear for seismic events, not increased axial capacity."
+        },
+        {
+          "key": "D",
+          "text": "Using FRP wraps is the most cost-effective method for improving the fire rating of existing concrete columns to meet modern code requirements.",
+          "is_correct": false,
+          "rationale": "FRP composites generally have poor performance in fires unless specially protected."
+        },
+        {
+          "key": "E",
+          "text": "FRP wraps are applied to cosmetically repair surface cracks and spalling, improving the building's aesthetic appearance without altering structural behavior.",
+          "is_correct": false,
+          "rationale": "This is a structural strengthening method, not a cosmetic repair."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "You discover a significant discrepancy between the architectural drawings and your structural model for a complex steel connection. What is your most appropriate immediate action?",
+      "explanation": "The Request for Information (RFI) process is the standard, professional, and documented method for resolving discrepancies between design disciplines. It ensures all parties are aware of the conflict and that the resolution is formally recorded.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately issue a formal Request for Information (RFI) to the architect to clarify the design intent before proceeding with detailing the connection.",
+          "is_correct": true,
+          "rationale": "An RFI is the correct, documented procedure for resolving interdisciplinary design conflicts."
+        },
+        {
+          "key": "B",
+          "text": "Proceed with detailing the connection based on your structural model's requirements, assuming the structural design takes precedence over architectural aesthetics.",
+          "is_correct": false,
+          "rationale": "Making assumptions and proceeding without clarification is unprofessional and creates risk."
+        },
+        {
+          "key": "C",
+          "text": "Halt all work on the project entirely and wait for the next scheduled coordination meeting to bring up the issue with the entire team.",
+          "is_correct": false,
+          "rationale": "Halting the entire project is an overreaction for a localized issue."
+        },
+        {
+          "key": "D",
+          "text": "Contact the steel fabricator directly to ask for their opinion on how to best resolve the conflicting information from the drawings.",
+          "is_correct": false,
+          "rationale": "The design conflict must be resolved between the designers, not by the fabricator."
+        },
+        {
+          "key": "E",
+          "text": "Modify the architectural model yourself to match the structural requirements and then send the revised file back to the architect for their records.",
+          "is_correct": false,
+          "rationale": "Altering another discipline's drawings is a breach of professional protocol."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "When performing a non-linear time-history analysis for a tall building, what is the primary purpose of selecting multiple ground motion records for the simulation?",
+      "explanation": "Seismic events are highly variable. Using a suite of ground motion records that match the site's seismicity ensures the design is not just optimized for one specific earthquake but is robust enough to handle a range of potential seismic demands.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using multiple records accounts for the inherent uncertainty and variability in earthquake ground motions, providing a more robust assessment of the building's response.",
+          "is_correct": true,
+          "rationale": "This correctly identifies the need to account for seismic uncertainty."
+        },
+        {
+          "key": "B",
+          "text": "The primary purpose is to test the computational limits of the analysis software and ensure the hardware is sufficient for the project's demands.",
+          "is_correct": false,
+          "rationale": "This is not a valid engineering reason for the analysis method."
+        },
+        {
+          "key": "C",
+          "text": "It is a code requirement solely intended to increase the total number of billable engineering hours for the structural analysis phase of the project.",
+          "is_correct": false,
+          "rationale": "This is unprofessional; the code requirement is for safety and reliability."
+        },
+        {
+          "key": "D",
+          "text": "Each ground motion record is specifically chosen to test one individual structural component, such as a single beam or a specific column.",
+          "is_correct": false,
+          "rationale": "The entire structure is analyzed for each ground motion record."
+        },
+        {
+          "key": "E",
+          "text": "Multiple records are required to calibrate the software's damping parameters before the final, single-record analysis is performed for the official submission.",
+          "is_correct": false,
+          "rationale": "This misrepresents the purpose of using a suite of ground motions."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "As the structural engineer of record, what is your primary responsibility regarding the contractor's design for temporary shoring of a deep excavation?",
+      "explanation": "The engineer of record sets performance criteria and reviews the contractor's specialized design to ensure it meets project requirements and protects existing structures. The contractor is responsible for the means and methods, but the EOR has an oversight role.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Review the contractor's shoring design submittal to ensure it meets the performance requirements specified in your documents and won't compromise adjacent structures.",
+          "is_correct": true,
+          "rationale": "This defines the standard review and oversight role of the Engineer of Record."
+        },
+        {
+          "key": "B",
+          "text": "You must personally design the entire temporary shoring system and provide the contractor with fully detailed construction drawings for them to follow exactly.",
+          "is_correct": false,
+          "rationale": "Temporary works are typically designed by the contractor's specialty engineer."
+        },
+        {
+          "key": "C",
+          "text": "Your only responsibility is to visit the site after installation to visually confirm that the shoring system appears to be stable and safe.",
+          "is_correct": false,
+          "rationale": "A design review is required; a simple visual check is insufficient."
+        },
+        {
+          "key": "D",
+          "text": "You have no responsibility for temporary works, as the means and methods of construction are solely the contractor's liability under all circumstances.",
+          "is_correct": false,
+          "rationale": "The EOR retains a duty of care, especially when public safety is concerned."
+        },
+        {
+          "key": "E",
+          "text": "You must approve the contractor's choice of shoring subcontractor and verify their insurance coverage before any work is allowed to begin on site.",
+          "is_correct": false,
+          "rationale": "This is a contractual or project management task, not the EOR's technical duty."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "What is the primary difference between dead loads and live loads in structural design calculations?",
+      "explanation": "Dead loads are constant, permanent weights of a structure and its fixed components. Live loads are transient, variable forces from occupants, furniture, or environmental factors, which structural engineers must account for.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dead loads are permanent, while live loads are temporary and variable, like occupants or furniture in a building.",
+          "is_correct": true,
+          "rationale": "Dead loads are static; live loads are dynamic and variable."
+        },
+        {
+          "key": "B",
+          "text": "Dead loads include wind and seismic forces, whereas live loads are only from fixed building components like walls.",
+          "is_correct": false,
+          "rationale": "Wind and seismic are environmental loads, not dead loads."
+        },
+        {
+          "key": "C",
+          "text": "Live loads are always greater than dead loads in residential buildings, requiring different calculation methods for safety.",
+          "is_correct": false,
+          "rationale": "Relative magnitudes vary by structure type and design."
+        },
+        {
+          "key": "D",
+          "text": "Dead loads are applied vertically, while live loads are exclusively horizontal forces acting on a building structure.",
+          "is_correct": false,
+          "rationale": "Both can have vertical and horizontal components."
+        },
+        {
+          "key": "E",
+          "text": "Live loads are calculated based on material density, but dead loads depend on the building's usage category.",
+          "is_correct": false,
+          "rationale": "Dead loads are from material density; live loads from usage."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Which construction material is generally known for its high compressive strength but relatively low tensile strength?",
+      "explanation": "Unreinforced concrete is excellent at resisting compression but performs poorly in tension. This is why steel reinforcement is added to form reinforced concrete, enhancing its tensile capacity.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Structural steel offers excellent strength in both tension and compression, making it versatile for many applications.",
+          "is_correct": false,
+          "rationale": "Steel has high strength in both tension and compression."
+        },
+        {
+          "key": "B",
+          "text": "Reinforced concrete combines steel's tension resistance with concrete's superior compressive capabilities effectively.",
+          "is_correct": false,
+          "rationale": "Reinforced concrete has good tensile strength due to steel."
+        },
+        {
+          "key": "C",
+          "text": "Timber is a natural material with good strength-to-weight ratio, but its properties vary significantly with grain direction.",
+          "is_correct": false,
+          "rationale": "Timber has different properties, not specifically high compression/low tension."
+        },
+        {
+          "key": "D",
+          "text": "Unreinforced concrete exhibits superior compressive strength but is quite weak when subjected to significant tensile forces.",
+          "is_correct": true,
+          "rationale": "Unreinforced concrete is strong in compression, weak in tension."
+        },
+        {
+          "key": "E",
+          "text": "Aluminum alloys are lightweight and corrosion-resistant, often used where weight is a critical design consideration.",
+          "is_correct": false,
+          "rationale": "Aluminum has different properties, not specifically high compression/low tension."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What is the primary function of a structural beam in a typical building frame system?",
+      "explanation": "Beams are horizontal structural elements designed to carry vertical loads, transferring them through shear and bending to columns or other vertical supports. This is a fundamental concept in structural engineering.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Beams primarily transfer vertical loads from slabs or other elements horizontally to supporting columns or walls.",
+          "is_correct": true,
+          "rationale": "Beams carry vertical loads and transfer them to supports."
+        },
+        {
+          "key": "B",
+          "text": "Columns are designed to resist bending moments and shear forces, distributing them to the foundation system.",
+          "is_correct": false,
+          "rationale": "Columns primarily carry axial compressive loads."
+        },
+        {
+          "key": "C",
+          "text": "Slabs provide a flat surface for floors and roofs, directly transferring all applied loads to the foundation.",
+          "is_correct": false,
+          "rationale": "Slabs transfer loads to beams or walls, not directly to foundation."
+        },
+        {
+          "key": "D",
+          "text": "Foundations distribute the entire building's weight over a large area of soil, preventing excessive settlement.",
+          "is_correct": false,
+          "rationale": "This describes the function of a foundation element."
+        },
+        {
+          "key": "E",
+          "text": "Walls primarily resist horizontal wind loads and transfer them directly down to the building's basement structure.",
+          "is_correct": false,
+          "rationale": "Walls can resist lateral loads, but beams have a different primary function."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Why are building codes and standards critically important for structural engineers in the construction sector?",
+      "explanation": "Building codes and standards are crucial as they provide the minimum acceptable requirements for structural design, construction, and safety, protecting the public and ensuring structural integrity.",
+      "options": [
+        {
+          "key": "A",
+          "text": "They primarily ensure aesthetic consistency across different construction projects within a specific geographical region.",
+          "is_correct": false,
+          "rationale": "Aesthetics are not the primary focus of building codes."
+        },
+        {
+          "key": "B",
+          "text": "Building codes establish minimum requirements for safety, public health, and welfare in constructed facilities.",
+          "is_correct": true,
+          "rationale": "Codes ensure safety and welfare by setting minimum standards."
+        },
+        {
+          "key": "C",
+          "text": "These codes mainly dictate material procurement processes to optimize construction costs and project timelines.",
+          "is_correct": false,
+          "rationale": "Codes focus on safety, not procurement optimization directly."
+        },
+        {
+          "key": "D",
+          "text": "They exclusively regulate the contractual agreements between clients, contractors, and design professionals.",
+          "is_correct": false,
+          "rationale": "Contractual agreements are separate from building codes."
+        },
+        {
+          "key": "E",
+          "text": "Building standards primarily serve as guidelines for architectural finishes and interior design specifications.",
+          "is_correct": false,
+          "rationale": "Architectural finishes are not the core purpose of structural codes."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which task is a core responsibility for a structural engineer during the design phase of a new building project?",
+      "explanation": "A structural engineer's core responsibility is to design and analyze the structural framework, ensuring it safely supports all loads and remains stable throughout its intended lifespan. This is fundamental to their role.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Creating detailed architectural floor plans and elevations, including interior finishes and landscaping elements.",
+          "is_correct": false,
+          "rationale": "This is primarily an architect's responsibility, not structural."
+        },
+        {
+          "key": "B",
+          "text": "Designing and analyzing structural systems to ensure the building can safely withstand all anticipated loads.",
+          "is_correct": true,
+          "rationale": "Core role of a structural engineer is structural design and analysis."
+        },
+        {
+          "key": "C",
+          "text": "Managing the construction site daily operations, including scheduling subcontractors and material deliveries.",
+          "is_correct": false,
+          "rationale": "This is a construction manager's or site supervisor's role."
+        },
+        {
+          "key": "D",
+          "text": "Developing the project's overall budget and financial projections for client approval and investment purposes.",
+          "is_correct": false,
+          "rationale": "This is typically handled by project managers or financial teams."
+        },
+        {
+          "key": "E",
+          "text": "Specifying the heating, ventilation, and air conditioning (HVAC) systems and plumbing layouts for the building.",
+          "is_correct": false,
+          "rationale": "This is the responsibility of mechanical and plumbing engineers."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What is the primary difference between dead loads and live loads in structural engineering analysis?",
+      "explanation": "Dead loads are permanent, fixed weights like the structure itself, while live loads are variable, temporary forces such as occupants or furniture. Understanding this distinction is fundamental for accurate structural design.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dead loads are temporary and movable, whereas live loads are permanent and fixed components of the building structure.",
+          "is_correct": false,
+          "rationale": "Incorrectly defines dead and live loads."
+        },
+        {
+          "key": "B",
+          "text": "Dead loads are the permanent, static weights of the structure, while live loads represent variable, transient forces acting upon it.",
+          "is_correct": true,
+          "rationale": "Accurately distinguishes permanent dead loads from variable live loads."
+        },
+        {
+          "key": "C",
+          "text": "Dead loads refer to environmental factors like wind and snow, while live loads are solely the weight of the building materials.",
+          "is_correct": false,
+          "rationale": "Misinterprets environmental loads and live load definitions."
+        },
+        {
+          "key": "D",
+          "text": "Live loads are always greater in magnitude than dead loads, which are typically negligible for design purposes.",
+          "is_correct": false,
+          "rationale": "Live loads are not always greater and dead loads are never negligible."
+        },
+        {
+          "key": "E",
+          "text": "The distinction between dead and live loads is primarily relevant for dynamic analysis, not static structural calculations.",
+          "is_correct": false,
+          "rationale": "The distinction is crucial for both static and dynamic analysis."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Which of the following materials is generally known for its high compressive strength but relatively low tensile strength?",
+      "explanation": "Unreinforced concrete excels under compression but is weak in tension, which is why it is often reinforced with steel bars. Other materials have different strength characteristics.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Structural steel, which offers excellent strength in both tension and compression, making it highly versatile.",
+          "is_correct": false,
+          "rationale": "Steel is strong in both tension and compression."
+        },
+        {
+          "key": "B",
+          "text": "Reinforced concrete, primarily due to the integrated steel bars providing significant tensile resistance.",
+          "is_correct": false,
+          "rationale": "Reinforced concrete improves tensile strength, but pure concrete is weak in tension."
+        },
+        {
+          "key": "C",
+          "text": "Timber, which provides a good strength-to-weight ratio but exhibits more isotropic properties across different stresses.",
+          "is_correct": false,
+          "rationale": "Timber has good tensile strength along the grain."
+        },
+        {
+          "key": "D",
+          "text": "Unreinforced concrete, as it performs exceptionally well under crushing forces but cracks easily when pulled apart.",
+          "is_correct": true,
+          "rationale": "Unreinforced concrete is strong in compression, weak in tension."
+        },
+        {
+          "key": "E",
+          "text": "Aluminum alloys, known for their lightweight nature and moderate strength in both tensile and compressive applications.",
+          "is_correct": false,
+          "rationale": "Aluminum has moderate strength in both tension and compression."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Why are building codes and standards essential for structural engineers in the construction industry?",
+      "explanation": "Building codes and standards ensure public safety, structural integrity, and consistency in design and construction practices. Adherence is mandatory for legal compliance and project success.",
+      "options": [
+        {
+          "key": "A",
+          "text": "They primarily serve as guidelines for aesthetic design choices, ensuring buildings look visually appealing and modern.",
+          "is_correct": false,
+          "rationale": "Codes focus on safety and performance, not aesthetics."
+        },
+        {
+          "key": "B",
+          "text": "They provide minimum requirements for structural design, ensuring public safety and the overall integrity of constructed buildings.",
+          "is_correct": true,
+          "rationale": "Codes ensure public safety and structural integrity."
+        },
+        {
+          "key": "C",
+          "text": "Their main purpose is to reduce construction costs by recommending the cheapest available materials and methods.",
+          "is_correct": false,
+          "rationale": "Codes prioritize safety and performance over cost reduction."
+        },
+        {
+          "key": "D",
+          "text": "They are optional recommendations that engineers can choose to follow based on their personal design preferences.",
+          "is_correct": false,
+          "rationale": "Building codes are mandatory, not optional."
+        },
+        {
+          "key": "E",
+          "text": "They dictate the specific contractors and construction companies that must be hired for a particular project.",
+          "is_correct": false,
+          "rationale": "Codes do not dictate contractor selection."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is the primary function of a beam in a structural system, and how does it typically resist loads?",
+      "explanation": "Beams are horizontal structural elements designed to carry vertical loads primarily through bending. They transfer these loads to columns or other supports.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Beams primarily resist axial compressive forces, transferring vertical loads directly to the foundation below.",
+          "is_correct": false,
+          "rationale": "Beams primarily resist bending, not axial compression."
+        },
+        {
+          "key": "B",
+          "text": "Beams are designed to carry vertical loads primarily through bending, transferring forces horizontally to supporting columns or walls.",
+          "is_correct": true,
+          "rationale": "Beams resist vertical loads through bending and transfer forces horizontally."
+        },
+        {
+          "key": "C",
+          "text": "Beams function to resist uplift forces from wind, ensuring the roof remains securely attached to the building frame.",
+          "is_correct": false,
+          "rationale": "While beams contribute, their primary role is not resisting uplift."
+        },
+        {
+          "key": "D",
+          "text": "Beams provide lateral stability against seismic forces, preventing the building from swaying excessively during an earthquake.",
+          "is_correct": false,
+          "rationale": "Shear walls or bracing provide lateral stability, not primarily beams."
+        },
+        {
+          "key": "E",
+          "text": "Beams are decorative elements that conceal electrical wiring and plumbing, contributing minimally to the structural integrity.",
+          "is_correct": false,
+          "rationale": "Beams are critical structural elements, not decorative."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "When working on a construction site, what is the most important personal protective equipment (PPE) for a structural engineer?",
+      "explanation": "Hard hats are crucial on construction sites to protect against falling objects and impacts, which are common hazards. Other PPE is also important but hard hats are fundamental for head protection.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Safety goggles, to protect eyes from dust, debris, and chemical splashes during various construction activities.",
+          "is_correct": false,
+          "rationale": "Safety goggles are important but head protection is paramount."
+        },
+        {
+          "key": "B",
+          "text": "A hard hat, which provides essential head protection from falling objects, impacts, and potential electrical hazards.",
+          "is_correct": true,
+          "rationale": "Hard hats are fundamental for head protection against common site hazards."
+        },
+        {
+          "key": "C",
+          "text": "High-visibility vest, ensuring the engineer is easily seen by heavy machinery operators and other personnel on site.",
+          "is_correct": false,
+          "rationale": "High-visibility vests aid visibility but don't offer direct physical protection from impacts."
+        },
+        {
+          "key": "D",
+          "text": "Steel-toe boots, safeguarding feet from heavy falling objects and punctures from sharp materials on the ground.",
+          "is_correct": false,
+          "rationale": "Steel-toe boots protect feet but head protection is often prioritized."
+        },
+        {
+          "key": "E",
+          "text": "Hearing protection, such as earplugs or earmuffs, to prevent noise-induced hearing loss from loud machinery and tools.",
+          "is_correct": false,
+          "rationale": "Hearing protection is vital but head protection is generally considered more critical for immediate safety."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Which type of load primarily represents the weight of the building's permanent components, such as walls, floors, and the roof?",
+      "explanation": "Dead loads are the constant, stationary forces from the structure's own weight and permanently attached components. Understanding them is fundamental for structural design, as they are always present and must be accounted for in all calculations.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Live loads represent the variable and temporary forces applied to a structure by its occupants and movable contents.",
+          "is_correct": false,
+          "rationale": "Live loads are variable and temporary, unlike permanent building components."
+        },
+        {
+          "key": "B",
+          "text": "Dead loads are the constant and stationary forces acting on a structure due to its self-weight and fixed attachments.",
+          "is_correct": true,
+          "rationale": "Dead loads are the constant weight of permanent building elements."
+        },
+        {
+          "key": "C",
+          "text": "Wind loads are dynamic forces exerted by air movement, significantly impacting tall buildings and exposed structures.",
+          "is_correct": false,
+          "rationale": "Wind loads are environmental forces, not inherent weight of components."
+        },
+        {
+          "key": "D",
+          "text": "Seismic loads refer to the inertial forces generated within a structure during an earthquake, causing significant lateral movement.",
+          "is_correct": false,
+          "rationale": "Seismic loads are dynamic forces from earthquakes, not permanent weight."
+        },
+        {
+          "key": "E",
+          "text": "Snow loads are environmental forces resulting from accumulated snow on roofs, varying based on geographical location and climate.",
+          "is_correct": false,
+          "rationale": "Snow loads are environmental and variable, not permanent structural weight."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "What is a primary advantage of using reinforced concrete in structural engineering projects for various building types?",
+      "explanation": "Reinforced concrete leverages the high compressive strength of concrete and the high tensile strength of steel. This combination creates a robust material capable of resisting both compression and tension effectively, making it widely used in construction.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It offers exceptional tensile strength, making it ideal for long-span beams without requiring additional reinforcement.",
+          "is_correct": false,
+          "rationale": "Concrete alone has poor tensile strength; steel provides the tensile resistance."
+        },
+        {
+          "key": "B",
+          "text": "Reinforced concrete combines concrete's compressive strength with steel's tensile strength, creating a durable and versatile material.",
+          "is_correct": true,
+          "rationale": "Reinforced concrete combines concrete's compression with steel's tension for strength."
+        },
+        {
+          "key": "C",
+          "text": "Its lightweight nature significantly reduces the overall dead load of the structure, simplifying foundation design requirements.",
+          "is_correct": false,
+          "rationale": "Concrete is relatively heavy, not lightweight, contributing to dead loads."
+        },
+        {
+          "key": "D",
+          "text": "It provides superior thermal insulation properties, greatly reducing energy consumption for heating and cooling systems.",
+          "is_correct": false,
+          "rationale": "Concrete is not primarily known for superior thermal insulation properties."
+        },
+        {
+          "key": "E",
+          "text": "Reinforced concrete is highly resistant to chemical corrosion, making it suitable for aggressive industrial environments.",
+          "is_correct": false,
+          "rationale": "While durable, concrete's resistance to corrosion depends on specific treatments."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Why are building codes and standards critically important for structural engineers during the design and construction phases?",
+      "explanation": "Building codes are legal documents that set minimum standards for structural design, construction, and materials. Their primary purpose is to protect public safety, health, and welfare by ensuring structures are safe and resilient against potential failures.",
+      "options": [
+        {
+          "key": "A",
+          "text": "They primarily serve as a guideline for aesthetic design choices, ensuring visual appeal of the finished structure.",
+          "is_correct": false,
+          "rationale": "Building codes focus on safety and performance, not aesthetic design guidance."
+        },
+        {
+          "key": "B",
+          "text": "Building codes establish minimum requirements for safety, health, and welfare, ensuring structures can withstand various loads and hazards.",
+          "is_correct": true,
+          "rationale": "Building codes ensure public safety by setting minimum structural design and construction standards."
+        },
+        {
+          "key": "C",
+          "text": "These codes dictate the maximum allowable construction budget for a project, controlling overall financial expenditures.",
+          "is_correct": false,
+          "rationale": "Building codes do not dictate project budgets, only minimum safety standards."
+        },
+        {
+          "key": "D",
+          "text": "They provide recommendations for optimal construction speed, helping to accelerate project timelines and delivery schedules.",
+          "is_correct": false,
+          "rationale": "Building codes do not provide recommendations for construction speed."
+        },
+        {
+          "key": "E",
+          "text": "Building codes mainly focus on outlining preferred material suppliers, standardizing procurement processes for efficiency.",
+          "is_correct": false,
+          "rationale": "Building codes specify material quality, not preferred suppliers for procurement."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What is the primary function of a beam in a typical building structure, supporting the floor or roof system?",
+      "explanation": "Beams are horizontal structural elements designed to primarily resist bending moments and shear forces. They transfer vertical loads from slabs or other elements to columns, which then carry the loads down to the foundation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Beams are designed to primarily resist axial compressive forces, transferring vertical loads directly to the foundations below.",
+          "is_correct": false,
+          "rationale": "Columns primarily resist axial compressive forces, not beams."
+        },
+        {
+          "key": "B",
+          "text": "The main function of a beam is to resist bending moments and shear forces, transferring loads horizontally to columns.",
+          "is_correct": true,
+          "rationale": "Beams resist bending and shear, transferring loads horizontally to columns."
+        },
+        {
+          "key": "C",
+          "text": "Beams are crucial for providing lateral stability against wind and seismic forces, acting as bracing elements.",
+          "is_correct": false,
+          "rationale": "While contributing, beams are not the primary elements for lateral stability."
+        },
+        {
+          "key": "D",
+          "text": "They are primarily used to enclose space and support non-structural elements like windows and doors within a building.",
+          "is_correct": false,
+          "rationale": "Walls and frames enclose space; beams are for load transfer."
+        },
+        {
+          "key": "E",
+          "text": "Beams serve as decorative architectural features, enhancing the aesthetic appeal of interior and exterior spaces.",
+          "is_correct": false,
+          "rationale": "Beams are structural elements; aesthetics are a secondary consideration."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Why is a thorough geotechnical investigation crucial before designing the foundation system for any new structure?",
+      "explanation": "Geotechnical investigations provide critical information about the subsurface soil conditions. This data, including soil bearing capacity, settlement potential, and groundwater levels, is fundamental for designing a safe, stable, and economical foundation system that can support the structure's loads.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It helps determine the most aesthetically pleasing foundation type to complement the architectural design of the building.",
+          "is_correct": false,
+          "rationale": "Geotechnical investigations focus on soil mechanics, not aesthetic considerations."
+        },
+        {
+          "key": "B",
+          "text": "A geotechnical investigation assesses soil properties, bearing capacity, and groundwater conditions, essential for safe foundation design.",
+          "is_correct": true,
+          "rationale": "Geotechnical investigation informs foundation design by assessing soil properties and bearing capacity."
+        },
+        {
+          "key": "C",
+          "text": "It primarily focuses on identifying potential underground utilities to avoid conflicts during the initial excavation phase.",
+          "is_correct": false,
+          "rationale": "Utility detection is part of site planning, but not the primary focus of geotechnical reports."
+        },
+        {
+          "key": "D",
+          "text": "This investigation determines the optimal construction schedule and logistics for delivering materials to the site efficiently.",
+          "is_correct": false,
+          "rationale": "Construction scheduling and logistics are separate from geotechnical analysis."
+        },
+        {
+          "key": "E",
+          "text": "It provides data for selecting the most cost-effective construction methods for the superstructure, minimizing overall project expenses.",
+          "is_correct": false,
+          "rationale": "Geotechnical data primarily impacts foundation costs, not superstructure methods directly."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What type of load acts vertically downwards due to the weight of the structure itself?",
+      "explanation": "Dead loads are the constant, stationary forces due to the self-weight of the structural elements and permanent fixtures. Understanding this fundamental load type is crucial for structural analysis and design.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Live load, which accounts for the variable and transient forces from occupants, furniture, and equipment within the structure.",
+          "is_correct": false,
+          "rationale": "Live loads are variable and transient forces, not permanent self-weight."
+        },
+        {
+          "key": "B",
+          "text": "Dead load, which represents the permanent and stationary weight of the building components, including walls, floors, and roof.",
+          "is_correct": true,
+          "rationale": "Dead load is the permanent weight of structural and non-structural components."
+        },
+        {
+          "key": "C",
+          "text": "Wind load, which describes the horizontal forces exerted by air movement against the exterior surfaces of the building.",
+          "is_correct": false,
+          "rationale": "Wind loads are horizontal and dynamic, caused by air movement."
+        },
+        {
+          "key": "D",
+          "text": "Seismic load, which refers to the dynamic forces generated by ground motion during an earthquake event.",
+          "is_correct": false,
+          "rationale": "Seismic loads are dynamic forces from ground motion during an earthquake."
+        },
+        {
+          "key": "E",
+          "text": "Snow load, which is the weight of accumulated snow on the roof, varying with geographical location and weather conditions.",
+          "is_correct": false,
+          "rationale": "Snow load is a variable environmental load, not the structure's self-weight."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Which property of concrete is most critical for resisting compressive forces in structural elements?",
+      "explanation": "Compressive strength is the most important property for concrete, as it is primarily designed to perform well under compression. This resistance is fundamental to its use in columns and foundations.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tensile strength, indicating the material's ability to resist pulling forces before fracturing under stress.",
+          "is_correct": false,
+          "rationale": "Concrete has low tensile strength and is not primarily used for resisting tension."
+        },
+        {
+          "key": "B",
+          "text": "Ductility, which describes the material's capacity to deform significantly under tensile stress before rupture occurs.",
+          "is_correct": false,
+          "rationale": "Ductility is important for seismic performance but not the primary resistance to compression."
+        },
+        {
+          "key": "C",
+          "text": "Compressive strength, representing the maximum stress a material can withstand under compression before failure.",
+          "is_correct": true,
+          "rationale": "Concrete excels in compression, so compressive strength is paramount."
+        },
+        {
+          "key": "D",
+          "text": "Modulus of elasticity, which measures the material's stiffness and resistance to elastic deformation under applied load.",
+          "is_correct": false,
+          "rationale": "Modulus of elasticity relates to stiffness, not primary compressive resistance."
+        },
+        {
+          "key": "E",
+          "text": "Shear strength, indicating the material's ability to resist forces that cause internal sliding or tearing parallel to the force.",
+          "is_correct": false,
+          "rationale": "Shear strength is important but not the primary property for resisting direct compression."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is the primary function of a beam in a structural system, supporting loads over a span?",
+      "explanation": "Beams are horizontal structural elements designed to carry vertical loads primarily by bending, transferring these forces to supporting columns or walls. This load transfer mechanism is fundamental.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To transfer vertical loads from floors and roofs to columns and walls through bending action.",
+          "is_correct": true,
+          "rationale": "Beams primarily resist vertical loads by bending and transfer them to supports."
+        },
+        {
+          "key": "B",
+          "text": "To resist horizontal forces such as wind or seismic activity, ensuring overall building stability.",
+          "is_correct": false,
+          "rationale": "Horizontal forces are typically resisted by shear walls or bracing, not primarily beams."
+        },
+        {
+          "key": "C",
+          "text": "To provide a stable foundation, distributing building weight evenly into the underlying soil layers.",
+          "is_correct": false,
+          "rationale": "Foundations provide stability and distribute weight to the soil, not beams."
+        },
+        {
+          "key": "D",
+          "text": "To enclose spaces and separate different areas within a building, offering privacy and environmental control.",
+          "is_correct": false,
+          "rationale": "This describes the function of walls or partitions, not structural beams."
+        },
+        {
+          "key": "E",
+          "text": "To support tensile forces, acting as a tie member to prevent outward spreading of structural elements.",
+          "is_correct": false,
+          "rationale": "While beams can have tensile forces, their primary function is to resist bending from vertical loads."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Why is adherence to building codes and structural design standards absolutely essential for structural engineers?",
+      "explanation": "Building codes and design standards exist primarily to protect public safety and welfare. They establish minimum requirements for structural integrity, fire safety, and overall building performance, preventing catastrophic failures.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To minimize construction costs and ensure projects remain within the allocated budget constraints for clients.",
+          "is_correct": false,
+          "rationale": "While cost-effective design is important, it is not the primary reason for codes."
+        },
+        {
+          "key": "B",
+          "text": "To ensure the safety and welfare of the public by preventing structural failures and ensuring adequate performance.",
+          "is_correct": true,
+          "rationale": "Codes ensure public safety and structural integrity, preventing failures."
+        },
+        {
+          "key": "C",
+          "text": "To accelerate the project timeline, allowing for quicker completion and handover to the building occupants.",
+          "is_correct": false,
+          "rationale": "Codes prioritize safety and quality over speed, potentially adding time to design and construction."
+        },
+        {
+          "key": "D",
+          "text": "To enhance the aesthetic appeal of the structure, making it more visually pleasing for future users.",
+          "is_correct": false,
+          "rationale": "Aesthetics are typically addressed by architects, not the primary focus of structural codes."
+        },
+        {
+          "key": "E",
+          "text": "To streamline the material procurement process, ensuring timely delivery of components to the construction site.",
+          "is_correct": false,
+          "rationale": "Material procurement is a logistical task, not the core purpose of structural codes."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Which common software type is primarily used by structural engineers for creating detailed 2D and 3D drawings?",
+      "explanation": "CAD software is fundamental for structural engineers to produce accurate 2D plans, sections, and detailed 3D models of structural components, essential for documentation and construction.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Project management software, which helps track tasks, schedules, and resources for construction projects.",
+          "is_correct": false,
+          "rationale": "Project management software focuses on planning and tracking, not drawing creation."
+        },
+        {
+          "key": "B",
+          "text": "Finite Element Analysis (FEA) software, used for complex structural simulations and predicting element behavior under various loads.",
+          "is_correct": false,
+          "rationale": "FEA software is for analysis and simulation, not primarily for detailed drafting."
+        },
+        {
+          "key": "C",
+          "text": "Computer-Aided Design (CAD) software, enabling the creation and modification of precise geometric models and technical drawings.",
+          "is_correct": true,
+          "rationale": "CAD software is used for creating precise 2D and 3D technical drawings."
+        },
+        {
+          "key": "D",
+          "text": "Building Information Modeling (BIM) software, which creates intelligent 3D models for collaborative design and construction management.",
+          "is_correct": false,
+          "rationale": "BIM is broader than just drawing; it integrates information for the entire project lifecycle."
+        },
+        {
+          "key": "E",
+          "text": "Spreadsheet software, commonly used for calculations, data organization, and basic financial analysis in engineering tasks.",
+          "is_correct": false,
+          "rationale": "Spreadsheets are for calculations and data, not for creating detailed graphical drawings."
+        }
+      ]
+    }
+  ]
+}

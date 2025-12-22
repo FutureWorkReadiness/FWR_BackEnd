@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "What is a primary responsibility of a Quantity Surveyor on a construction project team?",
+      "explanation": "A Quantity Surveyor's core function involves cost management, from initial estimates to final accounts, and administering contracts. They ensure financial control and value for money throughout the project lifecycle.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Managing all financial aspects and contractual agreements to ensure the project remains within budget.",
+          "is_correct": true,
+          "rationale": "Correctly identifies the core financial and contractual role."
+        },
+        {
+          "key": "B",
+          "text": "Designing the structural integrity and architectural aesthetics of the building elements for construction.",
+          "is_correct": false,
+          "rationale": "This is the role of an architect or structural engineer."
+        },
+        {
+          "key": "C",
+          "text": "Supervising daily onsite construction activities and managing the labor force directly on the project.",
+          "is_correct": false,
+          "rationale": "This is typically a site manager's or supervisor's role."
+        },
+        {
+          "key": "D",
+          "text": "Developing detailed marketing strategies to attract potential clients for future construction projects.",
+          "is_correct": false,
+          "rationale": "This is a business development or marketing role."
+        },
+        {
+          "key": "E",
+          "text": "Operating heavy machinery and equipment safely during various stages of site development and construction.",
+          "is_correct": false,
+          "rationale": "This describes the role of a plant operator or general laborer."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "When preparing a cost estimate for a new building project, what is a crucial initial step?",
+      "explanation": "A Quantity Surveyor must first understand the project's physical scope and quality requirements from drawings and specifications before accurately estimating costs. This forms the basis of all measurements.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reviewing architectural drawings and specifications thoroughly to understand the project scope and requirements.",
+          "is_correct": true,
+          "rationale": "Essential for understanding quantities and quality for accurate costing."
+        },
+        {
+          "key": "B",
+          "text": "Ordering all necessary construction materials from suppliers before the design is even finalized.",
+          "is_correct": false,
+          "rationale": "Materials are ordered much later, after detailed planning and procurement."
+        },
+        {
+          "key": "C",
+          "text": "Recruiting and hiring the entire skilled labor force for the upcoming construction phase.",
+          "is_correct": false,
+          "rationale": "Labor hiring is a human resources and site management task, later in the process."
+        },
+        {
+          "key": "D",
+          "text": "Finalizing the project's marketing plan and public relations strategy for immediate release.",
+          "is_correct": false,
+          "rationale": "This is a marketing function, not related to cost estimation directly."
+        },
+        {
+          "key": "E",
+          "text": "Conducting a detailed geological survey of the entire site to assess soil conditions.",
+          "is_correct": false,
+          "rationale": "A geological survey is typically done by specialists before detailed design."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What is the primary purpose of a 'Bill of Quantities' (BoQ) in construction procurement?",
+      "explanation": "The BoQ standardizes the tendering process by providing a common basis for pricing, allowing contractors to submit comparable bids and aiding in contract administration and cost control.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Providing a detailed list of work items and quantities for tendering and contract administration purposes.",
+          "is_correct": true,
+          "rationale": "The BoQ is fundamental for fair tendering and cost control."
+        },
+        {
+          "key": "B",
+          "text": "Serving as the official legal document for transferring land ownership to the client.",
+          "is_correct": false,
+          "rationale": "Land ownership transfer is handled by legal conveyancing."
+        },
+        {
+          "key": "C",
+          "text": "Outlining the health and safety procedures for all personnel working on the construction site.",
+          "is_correct": false,
+          "rationale": "Health and safety procedures are in a separate H&S plan."
+        },
+        {
+          "key": "D",
+          "text": "Detailing the project's environmental impact assessment and sustainability targets for official approval.",
+          "is_correct": false,
+          "rationale": "Environmental assessments are separate documents, usually by specialists."
+        },
+        {
+          "key": "E",
+          "text": "Documenting the daily progress of construction work and site attendance records for payroll.",
+          "is_correct": false,
+          "rationale": "Daily progress and attendance are part of site management records."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Which document is typically used by a Quantity Surveyor to measure and value variations on a construction project?",
+      "explanation": "Variations are changes to the contract scope. Site or architect's instructions formally document these changes, allowing the QS to measure, value, and adjust the contract sum accordingly.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Site instructions or architect's instructions detailing changes to the original scope of work.",
+          "is_correct": true,
+          "rationale": "These instructions are the formal basis for valuing changes to the contract."
+        },
+        {
+          "key": "B",
+          "text": "The initial planning permission application submitted to the local government authority for approval.",
+          "is_correct": false,
+          "rationale": "Planning permission is an early regulatory step, not for valuing variations."
+        },
+        {
+          "key": "C",
+          "text": "The marketing brochures that showcase the completed project's features and overall benefits.",
+          "is_correct": false,
+          "rationale": "Marketing materials are for promotion, not project administration."
+        },
+        {
+          "key": "D",
+          "text": "Employee training manuals for operating specific types of heavy construction machinery on site.",
+          "is_correct": false,
+          "rationale": "Training manuals are for operational safety and skill development."
+        },
+        {
+          "key": "E",
+          "text": "Financial statements and annual reports of the main contractor's parent company for review.",
+          "is_correct": false,
+          "rationale": "Company financial statements are for corporate analysis, not project variations."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Why is accurate record-keeping essential for a Quantity Surveyor throughout a construction project?",
+      "explanation": "Meticulous record-keeping is vital for a QS to maintain financial control, validate costs, process payments, and resolve potential disputes with clear, documented evidence and audit trails.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To support claims, justify payments, and provide evidence for dispute resolution and final accounts.",
+          "is_correct": true,
+          "rationale": "Accurate records are critical for financial management and contractual obligations."
+        },
+        {
+          "key": "B",
+          "text": "To determine the optimal color scheme for interior finishes and exterior building facades.",
+          "is_correct": false,
+          "rationale": "Color schemes are design decisions, not a QS's primary record-keeping task."
+        },
+        {
+          "key": "C",
+          "text": "To manage social media presence and online reputation of the construction company.",
+          "is_correct": false,
+          "rationale": "Social media management is a marketing/PR function."
+        },
+        {
+          "key": "D",
+          "text": "To schedule the delivery of catering services for all daily onsite worker lunch breaks.",
+          "is_correct": false,
+          "rationale": "Catering services are typically handled by site welfare or facilities management."
+        },
+        {
+          "key": "E",
+          "text": "To track the number of daily visitors to the construction site viewing platform.",
+          "is_correct": false,
+          "rationale": "Visitor tracking is a site management or security task, not core QS."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What is the primary purpose of a Bill of Quantities (BoQ) in a construction project?",
+      "explanation": "A Bill of Quantities provides a detailed breakdown of work items, quantities, and specifications. It forms the basis for tendering and cost control, ensuring transparency and accuracy in pricing.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide a detailed list of all materials and labor required for the entire construction work.",
+          "is_correct": true,
+          "rationale": "BoQ details materials and labor for accurate tendering and cost management."
+        },
+        {
+          "key": "B",
+          "text": "To serve as a comprehensive schedule for all construction activities and project milestones.",
+          "is_correct": false,
+          "rationale": "This describes a project schedule, not a Bill of Quantities."
+        },
+        {
+          "key": "C",
+          "text": "To outline the legal terms and conditions of the contract between the client and contractor.",
+          "is_correct": false,
+          "rationale": "This describes the contract document, not the BoQ."
+        },
+        {
+          "key": "D",
+          "text": "To document all safety procedures and risk assessments for the construction site operations.",
+          "is_correct": false,
+          "rationale": "This describes health and safety plans, not the BoQ."
+        },
+        {
+          "key": "E",
+          "text": "To specify the architectural design details and structural engineering calculations for the building.",
+          "is_correct": false,
+          "rationale": "This describes design drawings and specifications, not the BoQ."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Which of the following activities is a core responsibility of a Quantity Surveyor regarding project cost control?",
+      "explanation": "Quantity Surveyors are responsible for financial management, including preparing valuations and progress claims. This ensures contractors are paid correctly for work completed, maintaining project cash flow and cost control.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Managing the day-to-day operations and supervision of all on-site construction workers.",
+          "is_correct": false,
+          "rationale": "This is typically the role of a site manager or project manager."
+        },
+        {
+          "key": "B",
+          "text": "Preparing and submitting regular progress claims and valuations to ensure timely payments.",
+          "is_correct": true,
+          "rationale": "QS prepares progress claims and valuations for cost control and payment."
+        },
+        {
+          "key": "C",
+          "text": "Designing the structural elements and architectural finishes for the proposed building project.",
+          "is_correct": false,
+          "rationale": "This is the role of architects and structural engineers."
+        },
+        {
+          "key": "D",
+          "text": "Overseeing the procurement of all raw materials and equipment directly from suppliers.",
+          "is_correct": false,
+          "rationale": "Procurement is often managed by a dedicated procurement team or project manager."
+        },
+        {
+          "key": "E",
+          "text": "Developing marketing strategies to attract potential clients for future construction projects.",
+          "is_correct": false,
+          "rationale": "This is a business development or marketing function."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Why are regular site visits crucial for a Quantity Surveyor during the construction phase of a project?",
+      "explanation": "Site visits allow Quantity Surveyors to verify work progress, measure completed quantities, and assess variations. This direct observation is vital for accurate valuations, cost reporting, and managing financial aspects effectively.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To personally supervise the quality of workmanship and ensure compliance with design specifications.",
+          "is_correct": false,
+          "rationale": "Quality control and supervision are typically handled by site management or quality inspectors."
+        },
+        {
+          "key": "B",
+          "text": "To verify the actual progress of work and accurately measure completed quantities for valuations.",
+          "is_correct": true,
+          "rationale": "Site visits verify work progress and quantities for accurate valuations."
+        },
+        {
+          "key": "C",
+          "text": "To conduct detailed soil tests and geological surveys of the construction site conditions.",
+          "is_correct": false,
+          "rationale": "This is the responsibility of geotechnical engineers and surveyors."
+        },
+        {
+          "key": "D",
+          "text": "To negotiate directly with subcontractors regarding their individual payment terms and conditions.",
+          "is_correct": false,
+          "rationale": "While involved in contracts, direct negotiation for terms is not the primary reason for site visits."
+        },
+        {
+          "key": "E",
+          "text": "To update the project's architectural drawings based on any client-requested design changes.",
+          "is_correct": false,
+          "rationale": "Architects are responsible for updating design drawings."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is a 'variation' in the context of a construction contract, from a Quantity Surveyor's perspective?",
+      "explanation": "A variation refers to a formal change to the original contract scope, design, or specifications. Quantity Surveyors assess the cost implications of these changes, ensuring fair adjustment to the contract sum.",
+      "options": [
+        {
+          "key": "A",
+          "text": "An unexpected delay in the project schedule caused by adverse weather conditions or material shortages.",
+          "is_correct": false,
+          "rationale": "Delays are a separate issue, though they can result from variations."
+        },
+        {
+          "key": "B",
+          "text": "A formal change or alteration to the original scope of work, design, or specifications.",
+          "is_correct": true,
+          "rationale": "A variation is a formal change to the original contract scope or design."
+        },
+        {
+          "key": "C",
+          "text": "A disagreement between the client and contractor regarding the quality of completed work.",
+          "is_correct": false,
+          "rationale": "This describes a dispute over quality, not a variation."
+        },
+        {
+          "key": "D",
+          "text": "The difference between the estimated project cost and the final actual expenditure incurred.",
+          "is_correct": false,
+          "rationale": "This describes a cost overrun or underrun, not a variation itself."
+        },
+        {
+          "key": "E",
+          "text": "A temporary suspension of construction activities due to safety concerns or regulatory issues.",
+          "is_correct": false,
+          "rationale": "This describes a site stoppage or suspension, not a variation."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Which document is typically used by a Quantity Surveyor to prepare an initial cost estimate for a new construction project?",
+      "explanation": "Initial cost estimates are prepared using preliminary information like concept drawings, the client brief, and historical data. This provides a high-level cost indication before detailed design is complete.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The final detailed architectural drawings and structural engineering calculations which are produced later.",
+          "is_correct": false,
+          "rationale": "These are used for more detailed estimates, not initial ones."
+        },
+        {
+          "key": "B",
+          "text": "A comprehensive project schedule outlining all tasks, durations, and resource allocations.",
+          "is_correct": false,
+          "rationale": "This is a planning tool, not primarily for initial cost estimation."
+        },
+        {
+          "key": "C",
+          "text": "Preliminary design drawings, client brief, and possibly historical cost data from similar projects.",
+          "is_correct": true,
+          "rationale": "Initial estimates use preliminary designs, client briefs, and historical cost data."
+        },
+        {
+          "key": "D",
+          "text": "The complete set of health and safety plans and environmental impact assessment reports.",
+          "is_correct": false,
+          "rationale": "These documents are for regulatory and safety compliance, not initial cost estimation."
+        },
+        {
+          "key": "E",
+          "text": "Detailed subcontractor quotations and supplier price lists for all required materials.",
+          "is_correct": false,
+          "rationale": "These are used for tendering and procurement, not initial high-level estimates."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the fundamental responsibility of a Quantity Surveyor on a construction project?",
+      "explanation": "The core role of a Quantity Surveyor involves managing and controlling project costs from inception to completion. This ensures financial viability and adherence to budget, which is crucial for project success.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Effectively managing and controlling all financial aspects and costs throughout the entire project lifecycle.",
+          "is_correct": true,
+          "rationale": "The primary role is effective cost management and financial control."
+        },
+        {
+          "key": "B",
+          "text": "Creating detailed architectural designs and structural plans for various building components.",
+          "is_correct": false,
+          "rationale": "This is typically the role of an architect or structural engineer."
+        },
+        {
+          "key": "C",
+          "text": "Overseeing daily on-site construction activities and managing the project workforce effectively.",
+          "is_correct": false,
+          "rationale": "This is typically the role of a site manager or project manager."
+        },
+        {
+          "key": "D",
+          "text": "Developing marketing strategies and promoting the construction company's services to potential clients.",
+          "is_correct": false,
+          "rationale": "This is typically handled by business development or marketing teams."
+        },
+        {
+          "key": "E",
+          "text": "Providing expert legal counsel and resolving contractual disputes between project parties.",
+          "is_correct": false,
+          "rationale": "This is typically the role of a legal professional or contract administrator."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Which document is primarily used by a Quantity Surveyor to measure and price construction works?",
+      "explanation": "Bills of Quantities (BoQ) are fundamental documents in quantity surveying. They provide a comprehensive list of items with detailed measurements, allowing contractors to price the work accurately and consistently.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bills of Quantities (BoQ) provides a detailed breakdown of all work items for tender and pricing.",
+          "is_correct": true,
+          "rationale": "Bills of Quantities are essential for detailed measurement and accurate pricing of construction works."
+        },
+        {
+          "key": "B",
+          "text": "Architectural drawings illustrate the visual design and structural layout of the building elements.",
+          "is_correct": false,
+          "rationale": "Drawings provide information but are not the primary measurement document."
+        },
+        {
+          "key": "C",
+          "text": "The project schedule outlines the timeline for various construction activities and key milestones.",
+          "is_correct": false,
+          "rationale": "A project schedule manages time, not directly measurement and pricing."
+        },
+        {
+          "key": "D",
+          "text": "A health and safety plan details procedures to ensure a safe working environment on site.",
+          "is_correct": false,
+          "rationale": "A health and safety plan addresses site safety, not cost measurement."
+        },
+        {
+          "key": "E",
+          "text": "An environmental impact assessment evaluates potential effects of the project on the surrounding environment.",
+          "is_correct": false,
+          "rationale": "An environmental impact assessment focuses on environmental effects, not cost measurement."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What does the term 'variation' typically refer to within the context of a construction contract?",
+      "explanation": "A variation in construction refers to an alteration or addition to the original scope of work agreed upon in the contract. Quantity Surveyors manage these changes, assessing their cost implications and impact on the project.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A formal change or alteration to the original scope of work specified in the contract documents.",
+          "is_correct": true,
+          "rationale": "Variations are formal changes to the contract's original scope of work."
+        },
+        {
+          "key": "B",
+          "text": "An unexpected delay in the project timeline caused by unforeseen site conditions or weather.",
+          "is_correct": false,
+          "rationale": "This describes a delay, which can be related to, but is not a variation itself."
+        },
+        {
+          "key": "C",
+          "text": "An increase in the cost of raw materials or labor rates impacting the project budget.",
+          "is_correct": false,
+          "rationale": "This describes cost escalation, not a variation in scope."
+        },
+        {
+          "key": "D",
+          "text": "A modification to the client's initial requirements that does not affect the overall project scope.",
+          "is_correct": false,
+          "rationale": "Even minor changes to client requirements affecting work are variations."
+        },
+        {
+          "key": "E",
+          "text": "A disagreement or dispute arising between the client and the contractor regarding contract terms.",
+          "is_correct": false,
+          "rationale": "This describes a dispute, which is distinct from a variation."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "At the initial stages of a construction project, what is a key task for a Quantity Surveyor?",
+      "explanation": "Early in a project, Quantity Surveyors are crucial for developing accurate cost estimates and budgets. This initial financial planning provides a baseline for project viability and helps secure funding.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Preparing comprehensive cost estimates and budgets based on preliminary designs and specifications.",
+          "is_correct": true,
+          "rationale": "Initial cost estimates are vital for project budgeting and financial planning."
+        },
+        {
+          "key": "B",
+          "text": "Placing orders for bulk construction materials and ensuring timely delivery to the site.",
+          "is_correct": false,
+          "rationale": "This task typically occurs later, during the procurement and construction phases."
+        },
+        {
+          "key": "C",
+          "text": "Directly supervising the daily activities of construction workers and subcontractors on site.",
+          "is_correct": false,
+          "rationale": "This is a site management role, not a primary QS task at early stages."
+        },
+        {
+          "key": "D",
+          "text": "Conducting the final inspection of completed works to ensure compliance with quality standards.",
+          "is_correct": false,
+          "rationale": "Final inspections occur at the project's completion, not initial stages."
+        },
+        {
+          "key": "E",
+          "text": "Developing marketing materials and presentations to attract potential investors for the project.",
+          "is_correct": false,
+          "rationale": "This is a business development or project finance task, not a QS role."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Which standard method of measurement is commonly used in the UK construction industry for preparing Bills of Quantities?",
+      "explanation": "The New Rules of Measurement (NRM) are the standard for preparing Bills of Quantities in the UK. They ensure consistency, transparency, and accuracy in cost planning and procurement across the industry.",
+      "options": [
+        {
+          "key": "A",
+          "text": "New Rules of Measurement (NRM) provides a standardized framework for consistent cost estimating and procurement.",
+          "is_correct": true,
+          "rationale": "NRM is the recognized standard for measurement in the UK construction industry."
+        },
+        {
+          "key": "B",
+          "text": "The American Society for Testing and Materials (ASTM) sets technical standards for materials and testing.",
+          "is_correct": false,
+          "rationale": "ASTM is primarily a US-based standard for materials, not a method of measurement."
+        },
+        {
+          "key": "C",
+          "text": "The International Building Code (IBC) provides minimum requirements for building design and construction.",
+          "is_correct": false,
+          "rationale": "IBC is a building code, not a standard method for measuring quantities."
+        },
+        {
+          "key": "D",
+          "text": "Australian Standard (AS) specifies requirements for various products, services, and management systems.",
+          "is_correct": false,
+          "rationale": "Australian Standards are specific to Australia, not the UK measurement method."
+        },
+        {
+          "key": "E",
+          "text": "The German Institute for Standardization (DIN) publishes technical standards for various industries.",
+          "is_correct": false,
+          "rationale": "DIN standards are German, not the UK standard for measurement."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What is the primary responsibility of a Quantity Surveyor on a construction project team?",
+      "explanation": "A Quantity Surveyor's core function is to manage and control construction costs throughout a project's lifecycle. This includes initial budgeting, cost planning, procurement, and final account settlement, ensuring financial viability.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Managing the overall construction schedule and ensuring timely project completion for all stakeholders.",
+          "is_correct": false,
+          "rationale": "This is typically the role of a Project Manager or Planner."
+        },
+        {
+          "key": "B",
+          "text": "Overseeing the quality of work performed by contractors and ensuring compliance with specifications.",
+          "is_correct": false,
+          "rationale": "This is primarily the responsibility of a Quality Manager or Site Manager."
+        },
+        {
+          "key": "C",
+          "text": "Managing all project costs, from initial estimates to final accounts, ensuring financial control.",
+          "is_correct": true,
+          "rationale": "Quantity Surveyors primarily manage and control all construction project costs."
+        },
+        {
+          "key": "D",
+          "text": "Designing the structural elements and architectural layouts according to client requirements and regulations.",
+          "is_correct": false,
+          "rationale": "This is the role of Architects and Structural Engineers."
+        },
+        {
+          "key": "E",
+          "text": "Handling all on-site safety procedures and ensuring adherence to health and safety regulations.",
+          "is_correct": false,
+          "rationale": "This is the responsibility of a Health and Safety Officer or Site Manager."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Which document is primarily used by a Quantity Surveyor to prepare a Bill of Quantities for tendering?",
+      "explanation": "Architectural and structural drawings, along with detailed specifications, provide the necessary information for a Quantity Surveyor to accurately measure and prepare a Bill of Quantities, detailing all work items.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The project risk assessment report outlining potential hazards and mitigation strategies for site operations.",
+          "is_correct": false,
+          "rationale": "Risk assessments address project risks, not direct quantity measurement."
+        },
+        {
+          "key": "B",
+          "text": "The architectural drawings, structural drawings, and detailed specifications provided by the design team.",
+          "is_correct": true,
+          "rationale": "Drawings and specifications are fundamental for accurate measurement and BoQ preparation."
+        },
+        {
+          "key": "C",
+          "text": "The environmental impact assessment study detailing the project's effects on local ecosystems.",
+          "is_correct": false,
+          "rationale": "Environmental impact studies are for regulatory compliance, not BoQ preparation."
+        },
+        {
+          "key": "D",
+          "text": "The health and safety file containing all safety plans, records, and incident reports for the site.",
+          "is_correct": false,
+          "rationale": "The health and safety file is for site safety management."
+        },
+        {
+          "key": "E",
+          "text": "The construction program schedule indicating key milestones and the critical path for project delivery.",
+          "is_correct": false,
+          "rationale": "The construction program is for scheduling, not quantity measurement."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "When preparing an initial cost estimate for a building project, what is typically included in 'Preliminaries'?",
+      "explanation": "Preliminaries cover the general costs of running a construction site and managing the project, which are not directly attributable to specific measured work items. These include site setup, insurance, and supervision.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The cost of all major building materials like concrete, steel, and timber used in the main structure.",
+          "is_correct": false,
+          "rationale": "These are direct material costs, not preliminaries."
+        },
+        {
+          "key": "B",
+          "text": "Expenses for site management, temporary facilities, insurance, and general project overheads.",
+          "is_correct": true,
+          "rationale": "Preliminaries cover general site and project overheads not tied to specific measured works."
+        },
+        {
+          "key": "C",
+          "text": "The labor costs associated with direct tradespeople performing specific construction tasks on site.",
+          "is_correct": false,
+          "rationale": "These are direct labor costs, not preliminaries."
+        },
+        {
+          "key": "D",
+          "text": "Fees paid to specialist subcontractors for mechanical, electrical, and plumbing installations.",
+          "is_correct": false,
+          "rationale": "These are costs for specific trade packages, not preliminaries."
+        },
+        {
+          "key": "E",
+          "text": "The profit margin added by the main contractor to cover their business operating costs and desired return.",
+          "is_correct": false,
+          "rationale": "Profit is a separate component, not part of preliminaries."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Which type of construction contract involves the contractor being paid a fixed price for the entire scope of work?",
+      "explanation": "A lump-sum contract provides cost certainty for the client as the contractor agrees to complete the entire project for a predetermined fixed price, assuming the scope remains unchanged.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A cost-plus contract, where the client pays for actual costs incurred plus an agreed fee or percentage.",
+          "is_correct": false,
+          "rationale": "Cost-plus contracts involve reimbursement of actual costs, not a fixed price."
+        },
+        {
+          "key": "B",
+          "text": "A lump-sum contract, providing a single fixed price for completing the project as defined in the contract.",
+          "is_correct": true,
+          "rationale": "Lump-sum contracts involve a fixed price for the entire project scope."
+        },
+        {
+          "key": "C",
+          "text": "A design-and-build contract, where a single entity handles both the design and construction phases.",
+          "is_correct": false,
+          "rationale": "Design-and-build refers to project delivery method, not necessarily fixed price."
+        },
+        {
+          "key": "D",
+          "text": "A management contract, where the client engages a contractor to manage and coordinate various trade packages.",
+          "is_correct": false,
+          "rationale": "Management contracts focus on coordination, often with a fee-based structure."
+        },
+        {
+          "key": "E",
+          "text": "A target cost contract, where both parties agree on an estimated cost with pain/gain share mechanisms.",
+          "is_correct": false,
+          "rationale": "Target cost contracts have a flexible cost with risk/reward sharing."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What is the primary purpose of taking off quantities from drawings during the pre-contract stage?",
+      "explanation": "Taking off quantities involves measuring items from drawings to determine the precise quantities of work. This is crucial for preparing accurate cost estimates, bills of quantities, and procurement schedules.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To identify potential health and safety risks on site and develop appropriate mitigation strategies.",
+          "is_correct": false,
+          "rationale": "Risk identification is part of safety planning, not quantity take-off."
+        },
+        {
+          "key": "B",
+          "text": "To calculate the exact amounts of materials and labor required for accurate cost estimation.",
+          "is_correct": true,
+          "rationale": "Taking off quantities directly supports accurate material and labor cost calculations."
+        },
+        {
+          "key": "C",
+          "text": "To prepare the project timeline and critical path analysis for effective construction scheduling.",
+          "is_correct": false,
+          "rationale": "Scheduling is a separate activity, though quantities inform resource loading."
+        },
+        {
+          "key": "D",
+          "text": "To assess the environmental impact of proposed construction methods and material choices.",
+          "is_correct": false,
+          "rationale": "Environmental assessment is a specialized study, not quantity take-off."
+        },
+        {
+          "key": "E",
+          "text": "To determine the legal compliance of the proposed design with local building codes and regulations.",
+          "is_correct": false,
+          "rationale": "Building code compliance is typically checked by architects and engineers."
+        }
+      ]
+    }
+  ]
+}

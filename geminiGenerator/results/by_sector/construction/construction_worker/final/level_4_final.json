@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "When setting up a personal fall arrest system (PFAS), what is the most critical calculation to perform before any work begins at height?",
+      "explanation": "Calculating the total fall distance is paramount because it ensures the system will arrest the fall before the worker impacts the ground or any obstruction below, preventing serious injury or death. This includes lanyard length, deceleration distance, and body stretch.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Determining the maximum weight capacity of the harness being used to ensure it supports the worker's body weight.",
+          "is_correct": false,
+          "rationale": "While important, the harness capacity is a given spec, not the primary calculation."
+        },
+        {
+          "key": "B",
+          "text": "Calculating the total fall distance to ensure the worker cannot make contact with a lower level or obstruction.",
+          "is_correct": true,
+          "rationale": "This calculation is the most critical step to prevent impact."
+        },
+        {
+          "key": "C",
+          "text": "Checking the weather forecast to confirm that wind speeds are below the site's maximum allowable limit for safety.",
+          "is_correct": false,
+          "rationale": "Weather is a crucial safety factor, but not a PFAS calculation."
+        },
+        {
+          "key": "D",
+          "text": "Ensuring the color of the safety harness and lanyard is highly visible to equipment operators and other personnel.",
+          "is_correct": false,
+          "rationale": "Visibility is a good safety practice but not a critical calculation."
+        },
+        {
+          "key": "E",
+          "text": "Verifying that the anchor point is located directly above the work area to minimize potential swing fall hazards.",
+          "is_correct": false,
+          "rationale": "Minimizing swing fall is important, but total fall distance is the primary concern."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "You are pouring a large concrete slab in hot, windy conditions. Which curing method is most effective for preventing surface cracking and ensuring proper hydration?",
+      "explanation": "In hot, windy conditions, moisture evaporates rapidly. A curing compound forms a barrier that seals in moisture, ensuring the concrete hydrates properly and develops its full strength without surface defects like plastic shrinkage cracking.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Applying a liquid membrane-forming curing compound immediately after the finishing process has been completed on the surface.",
+          "is_correct": true,
+          "rationale": "This method effectively seals moisture in adverse conditions."
+        },
+        {
+          "key": "B",
+          "text": "Simply spraying the concrete surface with a light mist of water once every few hours during the day.",
+          "is_correct": false,
+          "rationale": "Ineffective, as water would evaporate too quickly in hot, windy weather."
+        },
+        {
+          "key": "C",
+          "text": "Covering the slab with dark-colored plastic sheeting to absorb heat and accelerate the overall curing process.",
+          "is_correct": false,
+          "rationale": "Incorrect, dark sheeting increases heat, potentially causing thermal cracking."
+        },
+        {
+          "key": "D",
+          "text": "Leaving the concrete slab exposed to the open air to allow it to dry naturally and as quickly as possible.",
+          "is_correct": false,
+          "rationale": "Incorrect, this leads to rapid moisture loss and severe cracking."
+        },
+        {
+          "key": "E",
+          "text": "Using large industrial fans to blow air across the surface to speed up the initial surface drying time.",
+          "is_correct": false,
+          "rationale": "Incorrect, fans would accelerate evaporation and worsen the problem."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "While excavating for a foundation, your machine operator uncovers what appears to be an unmarked utility line. What is the immediate and most appropriate action?",
+      "explanation": "Striking an unmarked utility line can cause catastrophic failure, injury, or death. The \"Stop, Notify, and Wait\" protocol is the universal safety standard. All work must cease until the line is identified and deemed safe by qualified personnel.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Carefully continue digging around the line by hand to identify what type of utility it might be.",
+          "is_correct": false,
+          "rationale": "Incorrect, digging around it is still risky without proper identification."
+        },
+        {
+          "key": "B",
+          "text": "Immediately stop all excavation work in the area and notify your site supervisor or foreman about the discovery.",
+          "is_correct": true,
+          "rationale": "This follows the essential \"Stop, Notify, Wait\" safety protocol."
+        },
+        {
+          "key": "C",
+          "text": "Attempt to gently move the line out of the way so that the excavation can continue without delay.",
+          "is_correct": false,
+          "rationale": "Incorrect, moving an unknown line is extremely dangerous."
+        },
+        {
+          "key": "D",
+          "text": "Mark the location with a warning flag and make a note to report it at the end of the day.",
+          "is_correct": false,
+          "rationale": "Incorrect, delaying the report creates an ongoing hazard for everyone."
+        },
+        {
+          "key": "E",
+          "text": "Use the excavator bucket to gently test the line's material to see if it is currently active.",
+          "is_correct": false,
+          "rationale": "Incorrect, this is reckless and could cause a fatal accident."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "When preparing a complex lift with a crane on a windy day, what is the primary reason for using tag lines on the load?",
+      "explanation": "A tag line is a non-load-bearing rope attached to the load. It allows ground personnel to safely control the load's orientation and prevent it from swinging due to wind or movement, protecting both the load and nearby personnel.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide an additional attachment point in case the primary rigging fails during the lifting operation.",
+          "is_correct": false,
+          "rationale": "Tag lines are not rated for load-bearing and are not backup rigging."
+        },
+        {
+          "key": "B",
+          "text": "To help guide and control the load, preventing it from swinging or spinning uncontrollably due to external forces.",
+          "is_correct": true,
+          "rationale": "Its sole purpose is to control movement and prevent rotation."
+        },
+        {
+          "key": "C",
+          "text": "To accurately measure the total weight of the load before the crane operator begins the initial lift.",
+          "is_correct": false,
+          "rationale": "Load weight is determined by other means, like load cells or calculations."
+        },
+        {
+          "key": "D",
+          "text": "To secure loose materials on top of the load to prevent them from falling during the movement.",
+          "is_correct": false,
+          "rationale": "Netting or strapping is used for securing loose materials."
+        },
+        {
+          "key": "E",
+          "text": "To signal the crane operator when the load has reached its final destination and is ready to be set.",
+          "is_correct": false,
+          "rationale": "Hand signals or radio communication are used for signaling."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "You are reviewing a blueprint and notice a discrepancy between the written specifications and the drawing details. What is your most professional and responsible action?",
+      "explanation": "Building from incorrect or conflicting plans can lead to costly rework and safety issues. The correct procedure is to stop and seek official clarification through a Request for Information (RFI) process, which is initiated by notifying the supervisor.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Choose the option that seems easiest or fastest to build to avoid causing any delays on the project schedule.",
+          "is_correct": false,
+          "rationale": "This prioritizes speed over accuracy and quality, which is incorrect."
+        },
+        {
+          "key": "B",
+          "text": "Ask a more junior worker for their opinion on how to proceed with the conflicting information presented.",
+          "is_correct": false,
+          "rationale": "A junior worker is not the authority for plan clarification."
+        },
+        {
+          "key": "C",
+          "text": "Proceed with the drawing's details, as visual plans usually take precedence over any written text specifications.",
+          "is_correct": false,
+          "rationale": "This is an assumption; written specs can often override drawings."
+        },
+        {
+          "key": "D",
+          "text": "Stop work on that section and immediately bring the discrepancy to the attention of your supervisor for clarification.",
+          "is_correct": true,
+          "rationale": "This is the proper procedure for resolving plan conflicts."
+        },
+        {
+          "key": "E",
+          "text": "Make an educated guess based on your past experience with similar construction projects and continue working.",
+          "is_correct": false,
+          "rationale": "Guessing can lead to significant errors, safety issues, and rework."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "When directing a crane operator to lift a complex load near overhead power lines, what is the most critical initial action to ensure site safety?",
+      "explanation": "Safety protocols, especially around high-voltage power lines, mandate de-energization and establishing safe zones before any lifting operations commence. This is the absolute first priority over rigging or movement to prevent electrocution.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately signal the operator to begin the lift very slowly to test the load balance and stability.",
+          "is_correct": false,
+          "rationale": "This is unsafe; no movement should occur until the primary hazard is addressed."
+        },
+        {
+          "key": "B",
+          "text": "Confirm the power lines are de-energized and establish a clear exclusion zone before any movement begins.",
+          "is_correct": true,
+          "rationale": "De-energizing power lines and setting an exclusion zone is the paramount safety step."
+        },
+        {
+          "key": "C",
+          "text": "Attach extra tag lines to the load to ensure better manual control during the entire lifting process.",
+          "is_correct": false,
+          "rationale": "Tag lines are important for control but secondary to eliminating the electrocution hazard."
+        },
+        {
+          "key": "D",
+          "text": "Ask the crane operator to visually estimate the distance to the power lines from their cab vantage point.",
+          "is_correct": false,
+          "rationale": "Visual estimation is unreliable and dangerous; a spotter and defined clearances are required."
+        },
+        {
+          "key": "E",
+          "text": "Check the load's rigging one final time to make sure all of the shackles are properly tightened.",
+          "is_correct": false,
+          "rationale": "A rigging check is vital, but mitigating the overhead electrical hazard must come first."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "You find a clear discrepancy between the structural blueprint and architectural drawings for a load-bearing wall's location. What is your immediate course of action?",
+      "explanation": "When blueprints conflict, work must stop to prevent costly and dangerous errors. The correct procedure is to escalate the issue to a supervisor who can issue a Request for Information (RFI) to the design team for clarification.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Proceed with the structural blueprint's dimensions as it typically governs the building's core structural integrity.",
+          "is_correct": false,
+          "rationale": "Making an assumption can lead to major rework and safety issues; clarification is required."
+        },
+        {
+          "key": "B",
+          "text": "Split the difference between the two measurements to create a compromise that might work for both plans.",
+          "is_correct": false,
+          "rationale": "This creates a new, undocumented error and is not a valid construction practice."
+        },
+        {
+          "key": "C",
+          "text": "Stop work on that section and immediately report the conflict to the site foreman for an official clarification.",
+          "is_correct": true,
+          "rationale": "Reporting discrepancies to a supervisor is the correct protocol to prevent errors."
+        },
+        {
+          "key": "D",
+          "text": "Ask a more experienced coworker for their opinion on which set of plans is most likely correct.",
+          "is_correct": false,
+          "rationale": "While experienced opinions are valuable, an official clarification from a supervisor is necessary."
+        },
+        {
+          "key": "E",
+          "text": "Continue working on other unrelated sections of the project and ignore the discrepancy for the time being.",
+          "is_correct": false,
+          "rationale": "Ignoring a known issue is irresponsible and can cause significant delays and problems later."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "During a large concrete pour on a hot, windy day, what is the primary concern that requires immediate preventative measures to protect the slab?",
+      "explanation": "Hot and windy conditions accelerate surface moisture evaporation from fresh concrete. This rapid drying causes the surface to shrink and crack while the underlying concrete is still plastic, a phenomenon known as plastic shrinkage cracking.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The concrete setting too slowly, which will significantly delay the finishing work and subsequent construction phases.",
+          "is_correct": false,
+          "rationale": "Heat and wind accelerate curing, they do not slow it down."
+        },
+        {
+          "key": "B",
+          "text": "Excessive surface moisture evaporation leading to plastic shrinkage cracking before the concrete has properly cured.",
+          "is_correct": true,
+          "rationale": "Hot, windy weather causes rapid evaporation and plastic shrinkage cracking, which must be prevented."
+        },
+        {
+          "key": "C",
+          "text": "A potential for the concrete mix to become too strong once it has fully cured due to the heat.",
+          "is_correct": false,
+          "rationale": "Rapid curing due to heat can actually weaken the concrete's ultimate strength."
+        },
+        {
+          "key": "D",
+          "text": "The formwork absorbing too much water from the mix, compromising the structural integrity of the forms.",
+          "is_correct": false,
+          "rationale": "Evaporation into the air is the primary concern, not absorption by standard formwork."
+        },
+        {
+          "key": "E",
+          "text": "The rebar inside the formwork becoming too hot, causing it to expand and damage the forms.",
+          "is_correct": false,
+          "rationale": "Rebar temperature is a lesser concern compared to the concrete's surface integrity."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "According to OSHA standards, when an excavation reaches a depth of 5 feet or more, what is generally required before any workers can enter?",
+      "explanation": "OSHA regulations are very clear that trenches 5 feet deep or greater require a protective system, such as shoring or sloping, unless the excavation is made entirely in stable rock. This prevents cave-ins, a major construction hazard.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A certified engineer must be present on-site to personally supervise all work performed within the trench.",
+          "is_correct": false,
+          "rationale": "An engineer's design may be needed for the system, but their constant presence is not required."
+        },
+        {
+          "key": "B",
+          "text": "The excavation walls must be protected against collapse by shoring, sloping, or using a trench box.",
+          "is_correct": true,
+          "rationale": "OSHA requires protective systems like shoring or sloping for trenches deeper than 5 feet."
+        },
+        {
+          "key": "C",
+          "text": "Workers must wear a full-body harness attached to a lifeline anchored outside of the excavation area.",
+          "is_correct": false,
+          "rationale": "This describes fall protection, which is not the primary safeguard against a trench collapse."
+        },
+        {
+          "key": "D",
+          "text": "The soil must be tested for contaminants every hour to ensure the air quality remains safe for workers.",
+          "is_correct": false,
+          "rationale": "Atmospheric testing is for confined space hazards, not a universal trench requirement."
+        },
+        {
+          "key": "E",
+          "text": "All heavy machinery must be shut down and kept at least 25 feet away from the trench edge.",
+          "is_correct": false,
+          "rationale": "A safe distance is required, but a protective system is the primary mandated safety measure."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Your team is running low on a specific type of structural fastener needed to complete a critical task by day's end. What is the best action?",
+      "explanation": "Using incorrect or fewer structural components is a major safety violation that compromises integrity. The correct professional action is to halt the specific task and immediately notify the supervisor to arrange for the correct materials.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Substitute a similar, but not identical, fastener you found elsewhere on the site to keep the project moving.",
+          "is_correct": false,
+          "rationale": "Unauthorized substitution of structural components is extremely dangerous and violates building codes."
+        },
+        {
+          "key": "B",
+          "text": "Stop work and inform the supervisor immediately about the shortage and its potential impact on the schedule.",
+          "is_correct": true,
+          "rationale": "Notifying the supervisor about material shortages is crucial for safety and project management."
+        },
+        {
+          "key": "C",
+          "text": "Use fewer fasteners than specified in the plan to make the current supply last until more arrive.",
+          "is_correct": false,
+          "rationale": "Intentionally using fewer fasteners than specified compromises the structure's integrity and is a major violation."
+        },
+        {
+          "key": "D",
+          "text": "Send a junior worker to the nearest hardware store to buy whatever looks closest to the required fastener.",
+          "is_correct": false,
+          "rationale": "This risks using non-spec, unapproved materials which could lead to structural failure."
+        },
+        {
+          "key": "E",
+          "text": "Try to finish the task without the fasteners and plan to add them in the next day.",
+          "is_correct": false,
+          "rationale": "This is unsafe, violates proper construction sequencing, and could make installation impossible later."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "While excavating a trench with a mini-excavator, you uncover what appears to be an unmarked utility line. What is your immediate required action?",
+      "explanation": "The correct procedure is to stop work immediately and report the finding. Disturbing an unknown utility can lead to severe injury, property damage, or death. Safety protocols mandate an immediate halt and notification.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately stop all excavation work, secure the area to prevent access, and notify your site supervisor about the discovery.",
+          "is_correct": true,
+          "rationale": "This follows the 'Stop, Secure, Report' protocol for unidentified utilities, which is the safest and correct procedure."
+        },
+        {
+          "key": "B",
+          "text": "Attempt to carefully dig around the line by hand to identify what type of utility it is before reporting it.",
+          "is_correct": false,
+          "rationale": "Any disturbance, even by hand, is dangerous. You are not qualified to identify potentially live lines."
+        },
+        {
+          "key": "C",
+          "text": "Use the excavator bucket to gently nudge the line to see if it is still active or an abandoned pipe.",
+          "is_correct": false,
+          "rationale": "Contacting an unknown line with machinery is extremely hazardous and could cause a rupture or electrocution."
+        },
+        {
+          "key": "D",
+          "text": "Continue digging carefully a few feet away from the line, assuming it is not in the direct path of the trench.",
+          "is_correct": false,
+          "rationale": "The exact path of the utility is unknown, and continuing work nearby risks causing a major incident."
+        },
+        {
+          "key": "E",
+          "text": "Mark the location with a flag and continue your work, planning to inform the supervisor at the end of the day.",
+          "is_correct": false,
+          "rationale": "Delaying the report is a serious safety violation; the supervisor must be notified immediately to assess the situation."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "You are reviewing a structural blueprint and notice a detail marked 'N.T.S.' next to a specific connection. What does this abbreviation signify for your work?",
+      "explanation": "'N.T.S.' is a standard abbreviation on blueprints for 'Not To Scale.' This instructs workers to ignore the visual proportions of the drawing and strictly follow the specified numerical dimensions for all measurements and cuts.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It means the drawing is 'Not To Scale,' and you must rely on the written dimensions provided for accurate measurements.",
+          "is_correct": true,
+          "rationale": "This is the correct and standard definition of N.T.S. on construction drawings, prioritizing written dimensions."
+        },
+        {
+          "key": "B",
+          "text": "This indicates a 'New Temporary Support' is required at that location until the permanent structure is fully secured.",
+          "is_correct": false,
+          "rationale": "Temporary supports are typically indicated with different symbols or explicit notes, not this abbreviation."
+        },
+        {
+          "key": "C",
+          "text": "It stands for 'Note To Self,' meaning it is a non-critical reminder left by the architect for their own reference.",
+          "is_correct": false,
+          "rationale": "Personal notes are not included on official construction blueprints; all markings are instructions for the build."
+        },
+        {
+          "key": "D",
+          "text": "The abbreviation means 'No Torsional Stress' is allowed on this connection, requiring special bracing during assembly.",
+          "is_correct": false,
+          "rationale": "Engineering constraints like stress limits are specified with detailed notes and symbols, not the N.T.S. abbreviation."
+        },
+        {
+          "key": "E",
+          "text": "This signifies 'Needs Thorough Surveying,' indicating that the area requires a professional land surveyor's inspection before proceeding.",
+          "is_correct": false,
+          "rationale": "Surveying requirements are specified in the site plan section of the documents, not with this abbreviation on a detail drawing."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "When erecting a multi-level scaffold on slightly sloped ground, what is the most critical first step to ensure its stability and safety?",
+      "explanation": "The foundation is paramount for scaffold safety. On uneven ground, using adjustable bases and mudsills is the essential first step to create a level, stable starting point, preventing instability as height is added.",
+      "options": [
+        {
+          "key": "A",
+          "text": "You must use adjustable screw jacks and mudsills or base plates to create a perfectly level and stable foundation.",
+          "is_correct": true,
+          "rationale": "A level and solid foundation is the most critical element for scaffold stability, especially on uneven surfaces."
+        },
+        {
+          "key": "B",
+          "text": "Start by tying the first level of the scaffold securely to the building structure before adding any additional levels.",
+          "is_correct": false,
+          "rationale": "Tying in is important, but it is not the first step; a level base must be established first."
+        },
+        {
+          "key": "C",
+          "text": "Place extra counterweights on the lowest part of the slope to prevent the entire structure from tipping over.",
+          "is_correct": false,
+          "rationale": "Counterweights are for specific scaffold types, not a primary solution for leveling on sloped ground for standard frames."
+        },
+        {
+          "key": "D",
+          "text": "Double the number of cross braces on the side of the scaffold that is located on the lower ground.",
+          "is_correct": false,
+          "rationale": "While bracing is vital for rigidity, it cannot compensate for an unlevel foundation, which is the root problem."
+        },
+        {
+          "key": "E",
+          "text": "Ensure that all planking is overlapped by at least eighteen inches to create a more rigid and stable work platform.",
+          "is_correct": false,
+          "rationale": "Proper planking is a safety requirement for the work platform, but it does not address the foundational stability of the scaffold."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Your team receives a shipment of specialized, moisture-sensitive insulation panels. What is the correct procedure for storing these materials on an active construction site?",
+      "explanation": "Moisture-sensitive materials require protection from ground moisture and precipitation. Storing them on elevated pallets and under a waterproof cover is the industry standard to maintain material integrity and performance, preventing costly damage.",
+      "options": [
+        {
+          "key": "A",
+          "text": "They must be stored indoors or under a waterproof cover, elevated off the ground on pallets to prevent moisture absorption.",
+          "is_correct": true,
+          "rationale": "This method protects from both ground moisture and precipitation, which is essential for sensitive materials."
+        },
+        {
+          "key": "B",
+          "text": "Stack the panels directly on a clean concrete slab and cover them with a standard canvas tarp at day's end.",
+          "is_correct": false,
+          "rationale": "Concrete can transfer moisture, and a standard tarp may not be fully waterproof, risking damage to the panels."
+        },
+        {
+          "key": "C",
+          "text": "Lean the panels against an exterior wall of the building, ensuring they are positioned to shed any rainwater effectively.",
+          "is_correct": false,
+          "rationale": "This exposes the materials to the elements and ground moisture, which will certainly cause damage over time."
+        },
+        {
+          "key": "D",
+          "text": "Leave the panels in their original plastic wrapping and stack them in any available dry space, regardless of the surface.",
+          "is_correct": false,
+          "rationale": "The manufacturer's wrapping is for shipping, not long-term site storage, and ground contact can still introduce moisture."
+        },
+        {
+          "key": "E",
+          "text": "Store them in an open-sided container to allow for maximum air circulation, which will help to keep them dry.",
+          "is_correct": false,
+          "rationale": "An open-sided container exposes materials to rain, humidity, and other weather, which is unsuitable for sensitive insulation."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "An electrician insists on running conduit through a wall you are about to frame. How should you handle this sequencing conflict to maintain project flow?",
+      "explanation": "Inter-trade conflicts should be resolved by management. The site supervisor has the authority and overall project view to interpret plans and dictate the correct work sequence, ensuring safety and efficiency for all parties.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Consult the site supervisor or foreman immediately to clarify the blueprints and coordinate the proper sequence of work between trades.",
+          "is_correct": true,
+          "rationale": "This is the correct chain of command. The supervisor is responsible for resolving inter-trade coordination and sequencing issues."
+        },
+        {
+          "key": "B",
+          "text": "Allow the electrician to proceed first, as electrical work is generally considered more critical than basic framing tasks.",
+          "is_correct": false,
+          "rationale": "Making assumptions about trade priority can lead to errors and rework; this decision is not yours to make."
+        },
+        {
+          "key": "C",
+          "text": "Tell the electrician to wait until your framing is complete, as structural work must always take precedence over other trades.",
+          "is_correct": false,
+          "rationale": "While often true, asserting authority over another trade can cause conflict and may contradict the project plan."
+        },
+        {
+          "key": "D",
+          "text": "Find a compromise by framing part of the wall and leaving a large opening for the electrician to work through later.",
+          "is_correct": false,
+          "rationale": "This improvisational approach can lead to structural issues or non-compliance with the plans. It must be approved first."
+        },
+        {
+          "key": "E",
+          "text": "Check the project schedule yourself and make a decision based on which task has the earliest completion date listed.",
+          "is_correct": false,
+          "rationale": "The schedule provides deadlines but may not detail the minute-by-minute sequencing required, which the supervisor manages."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "When preparing for a non-routine lift using a crane, what is the most critical initial step to ensure operational safety and compliance?",
+      "explanation": "A lift plan is a formal document that details every aspect of the lift, including equipment, personnel, and environmental factors. It's the foundational safety document for any non-standard lift, ensuring all risks are assessed and mitigated before work begins.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Develop a comprehensive lift plan that is reviewed and approved by a competent person before any work begins on site.",
+          "is_correct": true,
+          "rationale": "A formal, approved lift plan is the mandatory first step for ensuring the safety and compliance of any non-routine lift."
+        },
+        {
+          "key": "B",
+          "text": "Immediately cordon off the entire area with caution tape to prevent unauthorized personnel from entering the lifting zone.",
+          "is_correct": false,
+          "rationale": "Securing the area is important, but it follows the creation of a lift plan which defines the required exclusion zone."
+        },
+        {
+          "key": "C",
+          "text": "Check the weather forecast for the day to ensure there are no high winds or other adverse conditions predicted.",
+          "is_correct": false,
+          "rationale": "Weather checks are a crucial part of the lift plan, but not the first step in the overall planning process."
+        },
+        {
+          "key": "D",
+          "text": "Visually inspect the crane's cables and hooks for any signs of wear and tear before you attach the load.",
+          "is_correct": false,
+          "rationale": "Pre-use inspection is a vital safety check, but the comprehensive lift plan must be established first to guide all actions."
+        },
+        {
+          "key": "E",
+          "text": "Ensure all workers involved in the lift have their basic personal protective equipment, such as hard hats and boots.",
+          "is_correct": false,
+          "rationale": "PPE is always required, but the lift plan dictates specific requirements and is the primary planning document for the operation."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "You discover a pallet of concrete admixture has been stored improperly, exposed to freezing temperatures against manufacturer specifications. What is your immediate priority?",
+      "explanation": "The first step is to prevent the potentially compromised material from being used. Isolating and clearly marking it ensures it doesn't enter the workflow, preventing potential structural integrity issues in the final concrete product.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Move the admixture to a warmer location immediately to try and reverse any potential damage from the cold weather.",
+          "is_correct": false,
+          "rationale": "This could further damage the product; its viability must be assessed by a supervisor or manufacturer first."
+        },
+        {
+          "key": "B",
+          "text": "Inform your supervisor about the improper storage and wait for their specific instructions on how to proceed with it.",
+          "is_correct": false,
+          "rationale": "Informing the supervisor is correct, but leaving the material unmarked in the meantime creates a risk of it being used accidentally."
+        },
+        {
+          "key": "C",
+          "text": "Isolate the material and clearly mark it as \"Do Not Use\" pending further inspection and instruction from a supervisor.",
+          "is_correct": true,
+          "rationale": "This action safely quarantines the questionable material and prevents its accidental use while awaiting official disposition."
+        },
+        {
+          "key": "D",
+          "text": "Use a small amount of the material in a test batch to see if it still performs as expected by you.",
+          "is_correct": false,
+          "rationale": "Field testing by a worker is not a valid quality control measure and could lead to incorrect conclusions."
+        },
+        {
+          "key": "E",
+          "text": "Check the manufacturer's safety data sheet to find the recommended procedure for handling materials exposed to freezing temperatures.",
+          "is_correct": false,
+          "rationale": "While useful, the immediate priority is to secure the material to prevent use. The SDS is a secondary reference."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "While reviewing blueprints for formwork assembly, you notice a significant discrepancy between the architectural drawings and the structural plans. What action should you take?",
+      "explanation": "Discrepancies between plans can lead to serious structural errors. The correct procedure is to stop work and formally request clarification through an RFI to ensure the issue is resolved by the design team before proceeding.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Proceed with the structural plans as they typically take precedence over architectural details in matters of structural integrity.",
+          "is_correct": false,
+          "rationale": "This is a common assumption but can be incorrect; an official clarification is always required to resolve a discrepancy."
+        },
+        {
+          "key": "B",
+          "text": "Make your best judgment call based on your experience to resolve the conflict and keep the project on schedule.",
+          "is_correct": false,
+          "rationale": "Making an assumption, even with experience, introduces significant risk and liability. The issue must be formally clarified."
+        },
+        {
+          "key": "C",
+          "text": "Ask a more experienced coworker on your team for their opinion on how to interpret the conflicting information.",
+          "is_correct": false,
+          "rationale": "While helpful, a coworker's opinion is not an official instruction and does not resolve the formal plan discrepancy."
+        },
+        {
+          "key": "D",
+          "text": "Stop work on that section and immediately notify your supervisor to initiate a Request for Information (RFI).",
+          "is_correct": true,
+          "rationale": "This is the correct formal process to resolve design conflicts, ensuring the correct information is provided by the engineers."
+        },
+        {
+          "key": "E",
+          "text": "Use the architectural drawings for dimensions and the structural plans for rebar placement, splitting the difference between them.",
+          "is_correct": false,
+          "rationale": "Attempting to merge conflicting plans is dangerous and will likely result in non-compliant work that must be redone."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "During a concrete pour for a suspended slab, the concrete pump hose bursts, causing a significant spill. What is the most critical immediate action?",
+      "explanation": "The priority is to stop the source of the hazard. Signaling for an emergency stop of the pump prevents more concrete from spilling, which contains the problem and allows for a safer and more controlled response.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately begin shoveling the spilled concrete into wheelbarrows to clear the area before it starts to set.",
+          "is_correct": false,
+          "rationale": "Cleanup is secondary to stopping the source of the spill; this action does not address the ongoing hazard."
+        },
+        {
+          "key": "B",
+          "text": "Use hand signals or radio to call for an emergency stop of the concrete pump to prevent further spillage.",
+          "is_correct": true,
+          "rationale": "Stopping the source of the spill is the most critical first step to control the hazard and prevent it from worsening."
+        },
+        {
+          "key": "C",
+          "text": "Quickly set up temporary barriers around the spill to prevent other workers from accidentally walking into the wet concrete.",
+          "is_correct": false,
+          "rationale": "Containing the area is important, but it is not the first priority. The pump must be stopped first."
+        },
+        {
+          "key": "D",
+          "text": "Find the site foreman to report the incident and ask for instructions on how to manage the cleanup process.",
+          "is_correct": false,
+          "rationale": "Reporting is vital, but stopping the active hazard (the pump) must happen first, often before a supervisor can be located."
+        },
+        {
+          "key": "E",
+          "text": "Spray the area with water to slow the curing process of the spilled concrete, making it easier to clean up.",
+          "is_correct": false,
+          "rationale": "This addresses the cleanup, not the immediate safety hazard of the active spill from the burst hose."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "After stripping formwork from a new concrete wall, you identify significant honeycombing in a critical structural area. What is the correct protocol to follow?",
+      "explanation": "Identifying a potential structural defect requires immediate notification to a supervisor. They are responsible for assessing the severity, consulting engineers, and determining the approved method for repair, ensuring structural integrity is not compromised.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately mix a batch of grout or non-shrink mortar and patch the honeycombed area to maintain the project schedule.",
+          "is_correct": false,
+          "rationale": "Unauthorized repairs can mask a serious structural issue and may not be the correct engineering solution for the problem."
+        },
+        {
+          "key": "B",
+          "text": "Document the defect with photographs and report it to your direct supervisor for a structural assessment before proceeding further.",
+          "is_correct": true,
+          "rationale": "This ensures the defect is properly evaluated by qualified personnel and that any repair follows an approved engineering procedure."
+        },
+        {
+          "key": "C",
+          "text": "Ignore the honeycombing as it is a common cosmetic issue that will be covered by finishes later in the project.",
+          "is_correct": false,
+          "rationale": "In a critical structural area, honeycombing is never just a cosmetic issue and must be professionally assessed."
+        },
+        {
+          "key": "D",
+          "text": "Use a chipping hammer to remove the loose aggregate and then wait for the next concrete pour to fill the void.",
+          "is_correct": false,
+          "rationale": "This is an improper repair method that can cause further damage and does not guarantee a proper structural bond."
+        },
+        {
+          "key": "E",
+          "text": "Consult the project specifications to see what level of surface imperfection is considered acceptable for this type of wall finish.",
+          "is_correct": false,
+          "rationale": "While specs define tolerances, significant honeycombing in a structural area is a defect, not an imperfection, requiring a supervisor's review."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "A key subcontractor is consistently failing to meet specified quality standards and project deadlines. What is your most appropriate initial course of action?",
+      "explanation": "The correct approach is to follow the formal contractual process. Documenting issues and issuing a notice to cure provides a legal basis for further action and gives the subcontractor a chance to rectify the situation before more drastic measures are taken.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately terminate their contract and start the process of finding a replacement to avoid any further project delays.",
+          "is_correct": false,
+          "rationale": "This is an extreme measure and not an appropriate initial step, potentially leading to legal disputes."
+        },
+        {
+          "key": "B",
+          "text": "Formally document all instances of poor performance and issue a written 'notice to cure' referencing the subcontract agreement.",
+          "is_correct": true,
+          "rationale": "This follows correct contractual procedure, creating a formal record and giving the subcontractor a chance to improve."
+        },
+        {
+          "key": "C",
+          "text": "Withhold all payments from the subcontractor until their on-site performance improves to the required contractual standard.",
+          "is_correct": false,
+          "rationale": "Withholding payment without following proper contractual notices can be a breach of contract by your own company."
+        },
+        {
+          "key": "D",
+          "text": "Utilize your own direct labor force to take over the subcontractor's work scope to get the project back on schedule.",
+          "is_correct": false,
+          "rationale": "This action, known as supplementation, can only be taken after formal notices have been correctly issued."
+        },
+        {
+          "key": "E",
+          "text": "Arrange an informal meeting with their site foreman to discuss the issues without escalating it to their management.",
+          "is_correct": false,
+          "rationale": "For consistent failure, an informal approach is insufficient and lacks the necessary contractual weight."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "After a serious but non-fatal accident occurs on site, what is your immediate priority once medical attention has been provided to the injured party?",
+      "explanation": "The immediate priority after ensuring medical care is to secure the scene to prevent further incidents and preserve evidence for investigation. Notifying key stakeholders, including authorities like the HSE, is a critical and legally required next step.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Restart work in all unaffected areas of the construction site to minimise overall disruption to the project schedule.",
+          "is_correct": false,
+          "rationale": "The focus must remain on the incident; restarting work prematurely is unsafe and unprofessional."
+        },
+        {
+          "key": "B",
+          "text": "Secure the incident area to prevent further harm, and then notify senior management and the relevant statutory authorities.",
+          "is_correct": true,
+          "rationale": "This follows correct safety protocol by securing the scene first, then fulfilling reporting obligations."
+        },
+        {
+          "key": "C",
+          "text": "Immediately begin interviewing all witnesses to get their accounts before they have a chance to confer with each other.",
+          "is_correct": false,
+          "rationale": "While important, witness interviews come after securing the scene and making it safe for investigators."
+        },
+        {
+          "key": "D",
+          "text": "Focus on completing the company's internal accident report form before contacting any external regulatory bodies or agencies.",
+          "is_correct": false,
+          "rationale": "Reporting to statutory bodies for serious incidents is time-critical and should not be delayed by internal paperwork."
+        },
+        {
+          "key": "E",
+          "text": "Contact the company's legal department to prepare for any potential liability claims before taking any other action.",
+          "is_correct": false,
+          "rationale": "Site safety and regulatory reporting are the immediate priorities, not legal preparation."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "You discover a significant discrepancy between the approved structural drawings and the reinforcement steel that has just been fixed on site. What should you do first?",
+      "explanation": "The safest and most professional action is to halt the specific work to prevent a non-conformance from being cast in concrete. Raising a Request for Information (RFI) is the formal process for seeking clarification from the design team to resolve the discrepancy correctly.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Instruct the steel-fixing subcontractor to correct the work based on your own personal interpretation of the drawings.",
+          "is_correct": false,
+          "rationale": "Making design interpretations is outside the site manager's authority and introduces significant risk."
+        },
+        {
+          "key": "B",
+          "text": "Allow the concrete pour to proceed to avoid delays, planning to address the issue later with the design team.",
+          "is_correct": false,
+          "rationale": "This is a major safety and quality risk that could require expensive and difficult remedial work."
+        },
+        {
+          "key": "C",
+          "text": "Issue a stop-work order for that area and immediately raise a Request for Information (RFI) to the design team.",
+          "is_correct": true,
+          "rationale": "This is the correct procedure to ensure safety, quality, and formal resolution of a design query."
+        },
+        {
+          "key": "D",
+          "text": "Document the deviation in the site diary but take no further action until the project architect's next site visit.",
+          "is_correct": false,
+          "rationale": "This approach is too passive and allows a potentially critical structural issue to remain unresolved."
+        },
+        {
+          "key": "E",
+          "text": "Ask the subcontractor to sign a waiver accepting full responsibility for the deviation before you allow work to continue.",
+          "is_correct": false,
+          "rationale": "This improperly shifts blame and fails to address the underlying technical and safety problem."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "The project schedule is threatened by a forecast of prolonged adverse weather. Which proactive measure is most effective for a site manager to implement?",
+      "explanation": "Proactive management involves mitigating foreseeable risks. Re-sequencing the work plan to focus on tasks less affected by weather, such as internal works, is the most effective way to minimize disruption and maintain progress on the project schedule.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately inform the client that the project completion date will be delayed due to the weather forecast.",
+          "is_correct": false,
+          "rationale": "This is reactive; the goal is to mitigate the delay first, not simply accept it."
+        },
+        {
+          "key": "B",
+          "text": "Continue with the original plan and hope the weather forecast is inaccurate to avoid making unnecessary programme changes.",
+          "is_correct": false,
+          "rationale": "This is a passive and risky approach that fails to address a foreseeable problem."
+        },
+        {
+          "key": "C",
+          "text": "Re-sequence the short-term works programme to prioritise indoor or sheltered tasks and protect exposed materials on site.",
+          "is_correct": true,
+          "rationale": "This is a proactive mitigation strategy that minimizes the impact of the adverse weather."
+        },
+        {
+          "key": "D",
+          "text": "Immediately submit an extension of time claim to the client before any actual delay has occurred on site.",
+          "is_correct": false,
+          "rationale": "A claim is not justified until a delay actually occurs and mitigation efforts have been attempted."
+        },
+        {
+          "key": "E",
+          "text": "Instruct all subcontractors to work overtime before the bad weather arrives to try and get ahead of schedule.",
+          "is_correct": false,
+          "rationale": "This has significant cost, safety, and quality implications and may not be effective."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "The client's representative gives you a verbal instruction on-site for a significant change that will impact cost and time. What is your most appropriate response?",
+      "explanation": "The correct procedure is to acknowledge the client's request but politely insist on a formal, written instruction before starting the work. This ensures there is a clear record and contractual basis for claiming additional time and cost, protecting your company.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Proceed with the work immediately to show a cooperative attitude and deal with the formal paperwork at a later date.",
+          "is_correct": false,
+          "rationale": "This creates a major commercial risk, as you may not be compensated for the extra work."
+        },
+        {
+          "key": "B",
+          "text": "Refuse to carry out the work until a formal, written contract variation has been fully approved and signed off.",
+          "is_correct": false,
+          "rationale": "While technically correct, this can be confrontational. A more collaborative initial response is better."
+        },
+        {
+          "key": "C",
+          "text": "Acknowledge the request, explain the implications, and ask for a formal written instruction before proceeding with the change.",
+          "is_correct": true,
+          "rationale": "This is professional, protects commercial interests, and maintains a good client relationship."
+        },
+        {
+          "key": "D",
+          "text": "Tell the client's representative to submit the request directly to your company's commercial manager or quantity surveyor.",
+          "is_correct": false,
+          "rationale": "The site manager should handle the initial on-site response before escalating it internally."
+        },
+        {
+          "key": "E",
+          "text": "Complete the work but make a detailed note of the verbal instruction in your site diary as sufficient proof.",
+          "is_correct": false,
+          "rationale": "A diary entry is often insufficient evidence for a formal claim without a supporting written instruction."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "A serious accident occurs on site involving a subcontractor's employee. What is your most critical immediate action as the site manager?",
+      "explanation": "The primary responsibility is to ensure the safety and well-being of everyone on site. Securing the area prevents further incidents, and attending to the injured person is the immediate humanitarian and legal priority before any other action is taken.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately secure the incident area to prevent further harm and ensure the injured person receives prompt medical attention.",
+          "is_correct": true,
+          "rationale": "Prioritizes immediate safety and medical care, which is the correct protocol."
+        },
+        {
+          "key": "B",
+          "text": "Contact the company's legal department to understand liability before taking any other significant actions on the site.",
+          "is_correct": false,
+          "rationale": "Legal consultation is important but secondary to immediate safety and medical response."
+        },
+        {
+          "key": "C",
+          "text": "Begin interviewing all witnesses on site to gather statements for the official incident report before memories fade.",
+          "is_correct": false,
+          "rationale": "Investigation is necessary but must not delay emergency response and site safety."
+        },
+        {
+          "key": "D",
+          "text": "Notify the project client and senior management immediately to inform them of the developing critical situation.",
+          "is_correct": false,
+          "rationale": "Communication is key, but it follows securing the scene and providing aid."
+        },
+        {
+          "key": "E",
+          "text": "Halt all work across the entire construction site until a full investigation has been fully completed by authorities.",
+          "is_correct": false,
+          "rationale": "A full site shutdown may be necessary but isn't the first action; securing the specific area is."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "A subcontractor is disputing the scope of their work, claiming an essential task is an extra. How should you first address this disagreement?",
+      "explanation": "The signed contract and associated documents are the definitive source for the scope of work. Reviewing these documents together provides a factual basis for resolving the dispute before escalating or making assumptions about who is correct.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Schedule a meeting with the subcontractor to jointly review the signed contract, drawings, and specifications in detail.",
+          "is_correct": true,
+          "rationale": "This grounds the discussion in contractual facts, which is the correct first step."
+        },
+        {
+          "key": "B",
+          "text": "Immediately issue a formal notice to the subcontractor instructing them to proceed with the work as directed.",
+          "is_correct": false,
+          "rationale": "This is confrontational and skips the crucial step of verifying the contract."
+        },
+        {
+          "key": "C",
+          "text": "Ask another subcontractor on site to provide a quote for the disputed work to assess potential costs.",
+          "is_correct": false,
+          "rationale": "This escalates the issue prematurely without first trying to resolve it contractually."
+        },
+        {
+          "key": "D",
+          "text": "Authorize the work as a variation order to avoid project delays, and sort out the details later.",
+          "is_correct": false,
+          "rationale": "This concedes the point without verification and sets a poor precedent."
+        },
+        {
+          "key": "E",
+          "text": "Report the subcontractor's non-compliance to the project manager and request their immediate intervention in the dispute.",
+          "is_correct": false,
+          "rationale": "Escalation should occur only after direct attempts to resolve the issue fail."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "During excavation, your team encounters unforeseen poor ground conditions not indicated in the geotechnical report. What is your most appropriate initial response?",
+      "explanation": "Unforeseen conditions require an immediate stop to ensure safety. The next step is to engage technical experts, like the structural or geotechnical engineer, to assess the situation and provide a safe, engineered solution before proceeding.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Halt excavation in the affected area, make it safe, and immediately consult the project's structural or geotechnical engineer.",
+          "is_correct": true,
+          "rationale": "This correctly prioritizes safety and seeks expert technical guidance for the problem."
+        },
+        {
+          "key": "B",
+          "text": "Instruct the machine operators to continue excavating slowly and carefully while you observe the ground stability yourself.",
+          "is_correct": false,
+          "rationale": "This is unsafe and relies on visual judgment instead of expert engineering advice."
+        },
+        {
+          "key": "C",
+          "text": "Document the issue with photographs and immediately submit a request for information (RFI) to the architect for guidance.",
+          "is_correct": false,
+          "rationale": "An RFI is needed, but immediate consultation with the relevant engineer is more critical."
+        },
+        {
+          "key": "D",
+          "text": "Proceed with pouring a thicker concrete foundation to compensate for the poor ground without further formal consultation.",
+          "is_correct": false,
+          "rationale": "This is a unilateral design change that is unsafe and contractually non-compliant."
+        },
+        {
+          "key": "E",
+          "text": "Calculate the potential delay and cost impact and report it to the quantity surveyor for a claim.",
+          "is_correct": false,
+          "rationale": "Cost and time implications are important but secondary to resolving the technical safety issue."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "A critical path material delivery is significantly delayed by the supplier, threatening the project schedule. What is the most effective initial action to mitigate this?",
+      "explanation": "The most effective first step is direct communication with the supplier to understand the full scope of the delay. This information is crucial for developing a realistic mitigation plan, which might involve sourcing alternatives or re-sequencing work.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Contact the supplier directly to get a firm revised delivery date and explore all possible expediting options.",
+          "is_correct": true,
+          "rationale": "Direct communication is the fastest way to get actionable information for mitigation."
+        },
+        {
+          "key": "B",
+          "text": "Immediately begin sourcing alternative suppliers for the material without first confirming the original supplier's final status.",
+          "is_correct": false,
+          "rationale": "This could be a premature and costly action without full information."
+        },
+        {
+          "key": "C",
+          "text": "Re-sequence the project schedule to work on non-dependent tasks, assuming the material will arrive eventually.",
+          "is_correct": false,
+          "rationale": "This is a good secondary step, but first, you need delivery information."
+        },
+        {
+          "key": "D",
+          "text": "Issue a formal notice of delay to the supplier, putting them on notice for any resulting damages.",
+          "is_correct": false,
+          "rationale": "This is a contractual step that should follow initial attempts to resolve the issue."
+        },
+        {
+          "key": "E",
+          "text": "Inform the client that a major delay is unavoidable and an extension of time will be required.",
+          "is_correct": false,
+          "rationale": "This is premature; you must first attempt to mitigate the delay before informing the client."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "You receive a complex Architect's Instruction (AI) for a variation that impacts multiple trades. What is your primary responsibility before commencing the work?",
+      "explanation": "Before starting work on a variation, it is crucial to assess and agree upon the cost and time implications with the quantity surveyor and client. Proceeding without this formal agreement can lead to significant commercial disputes later.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensure the quantity surveyor has priced the variation and the cost and time implications are formally agreed upon.",
+          "is_correct": true,
+          "rationale": "This secures the commercial and scheduling aspects before committing resources to the change."
+        },
+        {
+          "key": "B",
+          "text": "Immediately instruct the relevant trades to begin the work to demonstrate proactive management and avoid any delays.",
+          "is_correct": false,
+          "rationale": "Starting work without cost agreement is a major commercial risk for the contractor."
+        },
+        {
+          "key": "C",
+          "text": "Distribute the instruction to all affected subcontractors and wait for them to raise any potential issues or concerns.",
+          "is_correct": false,
+          "rationale": "This is a passive approach; the site manager must lead the coordination."
+        },
+        {
+          "key": "D",
+          "text": "Redraw the relevant sections of the construction plan yourself to reflect the changes for the site teams.",
+          "is_correct": false,
+          "rationale": "The site manager should not be redrawing official plans; this is the designer's role."
+        },
+        {
+          "key": "E",
+          "text": "Hold a site meeting to explain the changes verbally to the foremen of the impacted trade teams.",
+          "is_correct": false,
+          "rationale": "Verbal instructions are insufficient; formal documentation and commercial agreement are required first."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "A significant discrepancy is found between the structural drawings and the architectural plans during foundation work. What is your most appropriate immediate action?",
+      "explanation": "The correct procedure is to formally request clarification via a Request for Information (RFI) and pause any work that could be compromised. This prevents costly rework, ensures design integrity, and correctly manages liability.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately issue a Request for Information (RFI) to the design team and halt the affected work pending clarification.",
+          "is_correct": true,
+          "rationale": "This follows formal procedure, prevents rework, and clarifies liability."
+        },
+        {
+          "key": "B",
+          "text": "Instruct the site engineer to make a best-guess judgement on how to proceed to avoid any project delays.",
+          "is_correct": false,
+          "rationale": "Making unapproved assumptions introduces significant risk and potential rework."
+        },
+        {
+          "key": "C",
+          "text": "Continue with the work as per the structural drawings, assuming they take precedence over the architectural plans.",
+          "is_correct": false,
+          "rationale": "One set of drawings does not automatically supersede another without clarification."
+        },
+        {
+          "key": "D",
+          "text": "Document the issue in the daily log but proceed with the work to maintain the construction schedule at all costs.",
+          "is_correct": false,
+          "rationale": "Documentation without action is insufficient and allows errors to be built in."
+        },
+        {
+          "key": "E",
+          "text": "Call an informal meeting with the subcontractors to brainstorm a solution without involving the design team initially.",
+          "is_correct": false,
+          "rationale": "Solutions must come from the design team to maintain design responsibility."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "A key subcontractor is consistently failing to meet quality standards and is falling behind schedule. What is the first formal step you should take?",
+      "explanation": "Issuing a formal written notice is the correct first step in contract management. It creates a documented record of the breach and provides the subcontractor a chance to rectify the issues, as outlined in most contracts.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately terminate the subcontractor's contract and find a replacement to take over their scope of work.",
+          "is_correct": false,
+          "rationale": "Termination is a last resort and can lead to legal disputes if done prematurely."
+        },
+        {
+          "key": "B",
+          "text": "Withhold all payments until the quality and schedule issues are fully rectified by the subcontractor's team.",
+          "is_correct": false,
+          "rationale": "Withholding payment may breach the contract; formal notice must be given first."
+        },
+        {
+          "key": "C",
+          "text": "Issue a formal written notice of non-compliance, referencing the specific contractual obligations that have not been met.",
+          "is_correct": true,
+          "rationale": "This is the correct first contractual step to document the issue."
+        },
+        {
+          "key": "D",
+          "text": "Publicly reprimand the subcontractor's foreman in front of other trades to set a clear example on site.",
+          "is_correct": false,
+          "rationale": "This is unprofessional and can damage working relationships on site."
+        },
+        {
+          "key": "E",
+          "text": "Take over the subcontractor's work using your own direct labor force to get the project back on track.",
+          "is_correct": false,
+          "rationale": "This action, known as supplementation, has contractual implications and requires prior notice."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "During excavation, your team discovers potentially contaminated soil not identified in the initial site investigation. What is your primary legal and procedural responsibility?",
+      "explanation": "The primary responsibility is to halt work, secure the area to prevent further disturbance or exposure, and immediately report the finding to the appropriate parties for professional assessment and management, adhering to environmental laws.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Discreetly remove the soil and dispose of it with general waste to avoid project delays and regulatory involvement.",
+          "is_correct": false,
+          "rationale": "This is illegal, unsafe, and creates significant liability for the project."
+        },
+        {
+          "key": "B",
+          "text": "Immediately stop all work in the affected area, secure it, and notify the project manager and environmental consultant.",
+          "is_correct": true,
+          "rationale": "This is the correct safety and legal procedure for unexpected discoveries."
+        },
+        {
+          "key": "C",
+          "text": "Continue excavating around the area, hoping the volume is small enough not to trigger any official reporting requirements.",
+          "is_correct": false,
+          "rationale": "Ignoring a potential hazard is negligent and violates safety protocols."
+        },
+        {
+          "key": "D",
+          "text": "Take a sample yourself and send it to a lab before reporting it, to confirm if it's truly a problem.",
+          "is_correct": false,
+          "rationale": "Untrained personnel should not handle potentially hazardous materials; experts must be called."
+        },
+        {
+          "key": "E",
+          "text": "Ask the machine operator for their opinion on the material and proceed based on their past site experience.",
+          "is_correct": false,
+          "rationale": "An operator's opinion is not a substitute for professional environmental assessment."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "You are overseeing the installation of a complex temporary works system for a deep excavation. What is the most critical document you must have before work begins?",
+      "explanation": "A formal, signed-off design from a competent engineer, along with a detailed method statement, is a legal and safety requirement. This ensures the temporary structure is properly designed, installed, and inspected before being loaded.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A verbal confirmation from the foreman that they have installed similar systems on previous construction projects.",
+          "is_correct": false,
+          "rationale": "Verbal confirmation is not a substitute for formal engineering approval."
+        },
+        {
+          "key": "B",
+          "text": "The original geotechnical report for the site, which details the general ground conditions across the entire area.",
+          "is_correct": false,
+          "rationale": "The geotechnical report informs the design but is not the design itself."
+        },
+        {
+          "key": "C",
+          "text": "A purchase order for all the materials that will be used in the construction of the temporary works.",
+          "is_correct": false,
+          "rationale": "A purchase order confirms material procurement, not design safety or adequacy."
+        },
+        {
+          "key": "D",
+          "text": "A signed-off temporary works design certificate and a detailed method statement including inspection and test plans.",
+          "is_correct": true,
+          "rationale": "This provides formal engineering sign-off and a safe work procedure."
+        },
+        {
+          "key": "E",
+          "text": "A basic sketch of the proposed temporary works system drawn by the lead scaffolder on the project team.",
+          "is_correct": false,
+          "rationale": "An informal sketch is not an engineered design and is unsafe."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "A neighboring resident is complaining about excessive noise and dust from the site outside of agreed working hours. How should you professionally manage this situation?",
+      "explanation": "The best approach is to engage respectfully, investigate the claim thoroughly, and provide clear feedback on findings and actions. This demonstrates professionalism, maintains good community relations, and ensures compliance with local ordinances.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Inform the resident that some disruption is an unavoidable consequence of construction and they must be patient.",
+          "is_correct": false,
+          "rationale": "This response is dismissive and unprofessional, damaging community relations."
+        },
+        {
+          "key": "B",
+          "text": "Promise to fix the issue immediately without first investigating the validity or source of the complaint.",
+          "is_correct": false,
+          "rationale": "Making promises without investigation is unwise and may be unachievable."
+        },
+        {
+          "key": "C",
+          "text": "Listen to their concerns, investigate the complaint promptly, and communicate the findings and any corrective actions back to them.",
+          "is_correct": true,
+          "rationale": "This is a professional, proactive approach that respects community concerns."
+        },
+        {
+          "key": "D",
+          "text": "Delegate the complaint to a junior staff member or a subcontractor to handle without your direct involvement.",
+          "is_correct": false,
+          "rationale": "The site manager should take ownership of external stakeholder complaints."
+        },
+        {
+          "key": "E",
+          "text": "Ignore the complaint unless it is submitted through a formal channel like the local council or authorities.",
+          "is_correct": false,
+          "rationale": "Ignoring complaints escalates issues and shows a lack of care."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "During excavation, you discover soil that is suspected to be contaminated with asbestos. What is your most critical immediate action according to regulations?",
+      "explanation": "The primary responsibility is to ensure worker safety and prevent further contamination spread. Halting work in the affected area and isolating it is the first mandatory step before any assessment or reporting occurs, aligning with health and safety protocols.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Continue excavation carefully around the suspected area while sending a sample to a lab for immediate testing to avoid project delays.",
+          "is_correct": false,
+          "rationale": "Continuing work risks spreading contaminants and exposing workers, which is a major safety breach."
+        },
+        {
+          "key": "B",
+          "text": "Instruct the machine operator to stockpile the suspected soil separately on a plastic liner for later disposal without stopping other site activities.",
+          "is_correct": false,
+          "rationale": "This action is insufficient and still risks airborne contamination and violates proper handling procedures."
+        },
+        {
+          "key": "C",
+          "text": "Immediately halt all work in the affected area, secure the location to prevent access, and notify the project manager and environmental consultant.",
+          "is_correct": true,
+          "rationale": "This prioritizes safety and follows the correct protocol for managing potential hazardous materials."
+        },
+        {
+          "key": "D",
+          "text": "Report the finding to the local environmental agency immediately and wait for their official instructions before taking any further action on site.",
+          "is_correct": false,
+          "rationale": "While reporting is necessary, the immediate site action of stopping work to ensure safety is the first priority."
+        },
+        {
+          "key": "E",
+          "text": "Document the discovery in the site diary and instruct workers to wear basic dust masks while continuing their tasks in adjacent zones.",
+          "is_correct": false,
+          "rationale": "Basic dust masks are inadequate for asbestos, and this fails to address the immediate hazard properly."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "A subcontractor proposes a significant value engineering change to the HVAC system after installation has already begun. What is your primary consideration?",
+      "explanation": "The site manager's main concern should be the holistic impact on the project, including schedule delays from rework, knock-on effects on other trades, and ensuring the change doesn't compromise the specified performance or quality.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Focus solely on calculating the cost savings versus the cost of rework to present a financial summary to the project manager.",
+          "is_correct": false,
+          "rationale": "This ignores the critical impacts on schedule, quality, and coordination with other trades."
+        },
+        {
+          "key": "B",
+          "text": "Evaluate the proposal's impact on the construction programme, coordination with other trades, and compliance with the original performance specifications before approving.",
+          "is_correct": true,
+          "rationale": "This is the most comprehensive answer, covering schedule, coordination, and technical compliance."
+        },
+        {
+          "key": "C",
+          "text": "Immediately accept the proposal if it offers significant cost savings, as this is the primary goal of value engineering initiatives.",
+          "is_correct": false,
+          "rationale": "Cost savings cannot be the sole factor; schedule, quality, and performance are equally important."
+        },
+        {
+          "key": "D",
+          "text": "Reject the proposal outright because making changes after construction has started is too disruptive and introduces unnecessary project risks.",
+          "is_correct": false,
+          "rationale": "An outright rejection is too rigid; a proper assessment of the proposal's merits is required."
+        },
+        {
+          "key": "E",
+          "text": "Tell the subcontractor to submit the proposal directly to the client's design team for their approval without your initial input.",
+          "is_correct": false,
+          "rationale": "The site manager must provide input on constructability and programme impact before it goes further."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "A group of subcontractor employees initiates an unofficial work stoppage over a payment dispute with their employer. What is your appropriate first response?",
+      "explanation": "The site manager's role is to contain the issue and follow protocol. You should not engage directly in the dispute but must inform senior management and the subcontractor to resolve it, while securing the site and documenting the impact.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately intervene and attempt to mediate the payment dispute directly between the subcontractor and their employees to get them back to work.",
+          "is_correct": false,
+          "rationale": "This oversteps your authority and interferes with another company's employment contract, creating liability."
+        },
+        {
+          "key": "B",
+          "text": "Instruct the subcontractor's management to resolve their internal issue, inform your own project manager, and document the event and its impact.",
+          "is_correct": true,
+          "rationale": "This correctly places responsibility on the subcontractor while following internal reporting and documentation procedures."
+        },
+        {
+          "key": "C",
+          "text": "Threaten the workers with removal from the site if they do not resume work immediately, as their action is unauthorized.",
+          "is_correct": false,
+          "rationale": "This is confrontational and could escalate the situation, potentially violating industrial relations laws."
+        },
+        {
+          "key": "D",
+          "text": "Ignore the stoppage as it is an internal matter for the subcontractor and focus on reallocating other trades to different work areas.",
+          "is_correct": false,
+          "rationale": "Ignoring the issue is negligent; it has a direct impact on the project schedule and site safety."
+        },
+        {
+          "key": "E",
+          "text": "Call the union representative for the workers to demand they instruct their members to return to work as per the site agreement.",
+          "is_correct": false,
+          "rationale": "This bypasses the subcontractor's management, who are the primary party responsible for their workforce."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "For a complex temporary works design, such as deep excavation shoring, what is the most crucial step before allowing loading or work to proceed?",
+      "explanation": "A formal permit-to-load or permit-to-work system, based on an inspection by a competent person confirming compliance with the approved design, is a critical safety gate that cannot be bypassed for complex temporary works, as mandated by regulations like BS 5975.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensure the temporary works designer has provided a full set of drawings and calculations for the site file before any work commences.",
+          "is_correct": false,
+          "rationale": "Having the design is a prerequisite, but it does not confirm the installation is correct."
+        },
+        {
+          "key": "B",
+          "text": "Conduct a toolbox talk with the installation team to ensure they fully understand the sequence and methods outlined in the design.",
+          "is_correct": false,
+          "rationale": "A toolbox talk is good practice but is not the final formal check required before loading."
+        },
+        {
+          "key": "C",
+          "text": "A competent person must inspect the erected works against the design and issue a formal permit-to-load before any load is applied.",
+          "is_correct": true,
+          "rationale": "This formal inspection and permit process is a critical safety control to verify correct installation."
+        },
+        {
+          "key": "D",
+          "text": "Check that the subcontractor has adequate insurance coverage for potential failures related to the complex temporary works they have installed.",
+          "is_correct": false,
+          "rationale": "Insurance is a commercial matter; it does not ensure the physical safety of the works."
+        },
+        {
+          "key": "E",
+          "text": "Visually inspect the works yourself from a distance to confirm that it generally appears to match the drawings provided by the engineer.",
+          "is_correct": false,
+          "rationale": "A casual visual check is insufficient; a formal, detailed inspection by a competent person is required."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "When preparing for project handover, which set of documents is most critical for demonstrating compliance with Building Regulations and satisfying the client?",
+      "explanation": "The O&M manuals contain all the essential information for the client to operate, maintain, and understand the building's systems. This includes as-built drawings and test certificates, which are vital for demonstrating regulatory compliance and ensuring a smooth handover.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A complete record of all site progress photographs taken weekly throughout the entire duration of the construction project.",
+          "is_correct": false,
+          "rationale": "Progress photos are useful for records but do not formally demonstrate technical or regulatory compliance."
+        },
+        {
+          "key": "B",
+          "text": "The signed-off snagging lists from all subcontractors confirming that all their minor defects have been fully rectified.",
+          "is_correct": false,
+          "rationale": "While important for quality, snagging lists are only one part of the handover package."
+        },
+        {
+          "key": "C",
+          "text": "A detailed financial report showing the final account settlement and all variation orders that were approved during the project.",
+          "is_correct": false,
+          "rationale": "The final account is a commercial document, not a technical one for building operation or compliance."
+        },
+        {
+          "key": "D",
+          "text": "The complete Operation & Maintenance (O&M) manuals, including as-built drawings, test certificates, and commissioning data for all building systems.",
+          "is_correct": true,
+          "rationale": "O&M manuals are the comprehensive record required for client operation and proving regulatory compliance."
+        },
+        {
+          "key": "E",
+          "text": "Copies of all the risk assessments and method statements (RAMS) that were approved for high-risk activities during the construction phase.",
+          "is_correct": false,
+          "rationale": "RAMS relate to the construction process, not the final building's operational compliance or handover."
+        }
+      ]
+    }
+  ]
+}

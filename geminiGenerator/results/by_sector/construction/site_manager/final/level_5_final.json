@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "A critical-path subcontractor declares insolvency mid-project. What is your most immediate and strategic action to mitigate project delays and financial risk?",
+      "explanation": "The first priority is to secure the site and assets to prevent loss. Concurrently, reviewing the contract and bond is essential to understand the legal and financial recourse available before engaging any replacement contractors.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately secure the site area, inventory materials and equipment, and review the subcontract agreement for termination and bond clauses.",
+          "is_correct": true,
+          "rationale": "This protects assets and establishes the correct legal and financial pathway forward."
+        },
+        {
+          "key": "B",
+          "text": "Quickly hire a replacement subcontractor from a pre-approved list to ensure that the critical work continues without any interruption.",
+          "is_correct": false,
+          "rationale": "This is a premature action that ignores crucial contractual and asset security steps."
+        },
+        {
+          "key": "C",
+          "text": "Halt all related work on site until the legal department provides explicit instructions on how to proceed with contract termination.",
+          "is_correct": false,
+          "rationale": "While legal advice is needed, a complete halt may be an overreaction causing unnecessary delays."
+        },
+        {
+          "key": "D",
+          "text": "Contact the insolvent subcontractor's director to negotiate a private deal for their workforce to continue under a new arrangement.",
+          "is_correct": false,
+          "rationale": "This is legally precarious and circumvents formal insolvency proceedings, creating significant risk."
+        },
+        {
+          "key": "E",
+          "text": "Focus on re-sequencing all other trades around the affected work area to minimize the immediate impact on the schedule.",
+          "is_correct": false,
+          "rationale": "This is a temporary fix that fails to address the core contractual and logistical problem."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "You discover a major discrepancy between structural and architectural drawings that directly impacts foundational work currently in progress. What is your first step?",
+      "explanation": "The correct procedure is to formally request clarification from the design team via an RFI. This creates a documented trail and ensures any instruction is official. Halting only the affected work prevents further abortive work without stopping the entire site.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Instruct the site engineer to make a field decision on the best way to proceed to avoid any costly project delays.",
+          "is_correct": false,
+          "rationale": "This bypasses design authority, creating significant liability for the contractor."
+        },
+        {
+          "key": "B",
+          "text": "Continue work according to the structural drawings, as they typically take precedence over architectural plans in these conflicts.",
+          "is_correct": false,
+          "rationale": "This is a dangerous assumption that could lead to major rework if incorrect."
+        },
+        {
+          "key": "C",
+          "text": "Issue a formal Request for Information (RFI) to the design team while safely halting the specific affected works.",
+          "is_correct": true,
+          "rationale": "This follows correct procedure, ensures safety, and creates a formal record for clarification."
+        },
+        {
+          "key": "D",
+          "text": "Immediately stop all construction activities across the entire site until a full design review has been completed by consultants.",
+          "is_correct": false,
+          "rationale": "This is an overreaction that causes unnecessary widespread delays and cost implications."
+        },
+        {
+          "key": "E",
+          "text": "Document the issue in the daily log and wait for the next project meeting to discuss it with the team.",
+          "is_correct": false,
+          "rationale": "This approach lacks the urgency required for a critical issue impacting ongoing work."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Following a serious near-miss incident involving a crane lift, what is your primary responsibility after ensuring immediate site safety?",
+      "explanation": "After ensuring no one is in immediate danger, the priority shifts to investigation and prevention. Securing the scene and evidence is crucial for a thorough root cause analysis to prevent a similar, or worse, incident from happening again.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Complete the necessary accident report form for the client and then immediately resume lifting operations with a different crew.",
+          "is_correct": false,
+          "rationale": "This fails to address the root cause of the near-miss, risking a recurrence."
+        },
+        {
+          "key": "B",
+          "text": "Discipline the lifting team involved to send a strong message about the importance of adhering to site safety rules.",
+          "is_correct": false,
+          "rationale": "This is a punitive reaction that precedes investigation and may discourage open reporting."
+        },
+        {
+          "key": "C",
+          "text": "Organize an immediate site-wide safety stand-down to verbally remind all workers of the existing lifting procedures and protocols.",
+          "is_correct": false,
+          "rationale": "While a good secondary action, it is not the primary responsibility over investigation."
+        },
+        {
+          "key": "D",
+          "text": "Secure the area, impound relevant equipment, and lead a thorough investigation to determine the root cause for prevention.",
+          "is_correct": true,
+          "rationale": "This is the correct procedure for learning from incidents and preventing future occurrences."
+        },
+        {
+          "key": "E",
+          "text": "Immediately report the incident to the HSE and await their official investigation before taking any further internal action.",
+          "is_correct": false,
+          "rationale": "This abdicates the site manager's direct responsibility for internal investigation and safety management."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "The client requests a significant, late-stage variation that impacts completed works and the project's critical path. How should you respond?",
+      "explanation": "A professional response requires providing the client with all necessary information to make an informed decision. This includes a formal, detailed analysis of the impacts on cost, schedule, and quality, protecting all parties contractually.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately implement the change as requested to maintain a positive relationship with the client and show proactive problem-solving.",
+          "is_correct": false,
+          "rationale": "This proceeds without authorization for time and cost, creating huge commercial risk."
+        },
+        {
+          "key": "B",
+          "text": "Refuse the request outright because it is too late in the project and would cause unacceptable disruption to the schedule.",
+          "is_correct": false,
+          "rationale": "This is unprofessional and uncooperative; the client has a right to request changes."
+        },
+        {
+          "key": "C",
+          "text": "Agree to the change in principle but inform the client all costs will be calculated at the end of the project.",
+          "is_correct": false,
+          "rationale": "This creates financial uncertainty and a high potential for future disputes over costs."
+        },
+        {
+          "key": "D",
+          "text": "Suggest a less disruptive alternative to the client's request without first evaluating the full impact of their original proposal.",
+          "is_correct": false,
+          "rationale": "This is presumptive and may not meet the client's needs or contractual requirements."
+        },
+        {
+          "key": "E",
+          "text": "Formally acknowledge the request and promptly provide a detailed analysis of the cost, schedule, and quality implications for approval.",
+          "is_correct": true,
+          "rationale": "This follows proper change control procedure and allows an informed client decision."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "A jurisdictional dispute between two subcontractor unions threatens a site-wide work stoppage. What is your most effective strategy to manage this?",
+      "explanation": "The most effective strategy is proactive mediation. By bringing the relevant parties together and referring to established industrial relations agreements, the site manager can facilitate a resolution, de-escalate the conflict, and prevent costly site-wide disruptions.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately threaten both unions with legal action and contract termination if they proceed with any form of work stoppage.",
+          "is_correct": false,
+          "rationale": "This is an aggressive, confrontational approach that will likely escalate the dispute."
+        },
+        {
+          "key": "B",
+          "text": "Facilitate an urgent meeting with union representatives and subcontractors to mediate according to established industrial relations agreements.",
+          "is_correct": true,
+          "rationale": "This proactive, diplomatic approach follows procedure and aims for de-escalation and resolution."
+        },
+        {
+          "key": "C",
+          "text": "Report the issue to head office and wait for their industrial relations specialist to arrive and handle the situation.",
+          "is_correct": false,
+          "rationale": "This shows a lack of leadership and delays a resolution to an urgent problem."
+        },
+        {
+          "key": "D",
+          "text": "Ignore the dispute as it is an internal matter between subcontractors and does not directly involve your management.",
+          "is_correct": false,
+          "rationale": "This is naive, as any work stoppage will have a major impact on the project."
+        },
+        {
+          "key": "E",
+          "text": "Bring in a non-union crew to cover the work of the disputing parties to ensure the project schedule is maintained.",
+          "is_correct": false,
+          "rationale": "This action would severely antagonize the unions and likely cause a major walkout."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "A project is facing significant delays due to unforeseen ground conditions, potentially triggering liquidated damages. What is the most strategic initial action?",
+      "explanation": "The correct procedure under most construction contracts is to formally notify relevant parties of a delay event. This protects contractual rights for an extension of time and mitigates liability for liquidated damages.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately stop all work on site to reassess the entire project plan and budget with the client.",
+          "is_correct": false,
+          "rationale": "This is an overreaction and poor stakeholder management."
+        },
+        {
+          "key": "B",
+          "text": "Continue work as planned and absorb the potential costs of the liquidated damages as a business loss.",
+          "is_correct": false,
+          "rationale": "This is a financially irresponsible and passive approach."
+        },
+        {
+          "key": "C",
+          "text": "Formally notify the client and contract administrator of a potential delay event, citing relevant contract clauses for an extension of time.",
+          "is_correct": true,
+          "rationale": "This follows proper contractual procedure for claiming an extension."
+        },
+        {
+          "key": "D",
+          "text": "Accelerate the schedule by authorising unlimited overtime for all subcontractors without consulting the client or quantity surveyor.",
+          "is_correct": false,
+          "rationale": "This is a high-risk action that circumvents commercial controls."
+        },
+        {
+          "key": "E",
+          "text": "Begin legal proceedings against the geotechnical consultant for providing an inaccurate ground condition report.",
+          "is_correct": false,
+          "rationale": "This is a premature action that escalates conflict unnecessarily."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Following a major safety incident on site resulting in a serious injury, what is your immediate priority after securing the scene and providing first aid?",
+      "explanation": "Under the Reporting of Injuries, Diseases and Dangerous Occurrences Regulations (RIDDOR), certain serious workplace incidents must be reported to the HSE immediately. This is a legal requirement and a critical first step.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Conduct an internal investigation to determine the root cause before any external bodies are notified.",
+          "is_correct": false,
+          "rationale": "Official notification is a legal requirement that cannot be delayed."
+        },
+        {
+          "key": "B",
+          "text": "Immediately notify the Health and Safety Executive (HSE) as required by RIDDOR regulations and preserve the incident scene.",
+          "is_correct": true,
+          "rationale": "This action fulfills the primary legal and procedural obligations."
+        },
+        {
+          "key": "C",
+          "text": "Prepare a press release to manage public relations and inform the media about the company's safety record.",
+          "is_correct": false,
+          "rationale": "Public relations is not the immediate priority over safety and legal duties."
+        },
+        {
+          "key": "D",
+          "text": "Instruct all site personnel to refrain from discussing the incident with anyone to avoid legal complications.",
+          "is_correct": false,
+          "rationale": "This could be perceived as obstruction of justice."
+        },
+        {
+          "key": "E",
+          "text": "Focus solely on getting the project back on schedule to minimize any further delays caused by the incident.",
+          "is_correct": false,
+          "rationale": "Project schedule is secondary to life safety and legal reporting."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "A key subcontractor proposes a significant value engineering change to a structural element. What is the most critical evaluation process you must lead?",
+      "explanation": "A robust change requires a multi-disciplinary review to ensure it is technically viable, safe, and commercially sound. Involving the design team and QS is essential before presenting it to the client for approval.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reject the proposal immediately to avoid any potential delays to the critical path activities already in progress.",
+          "is_correct": false,
+          "rationale": "This approach misses a potential opportunity for improvement."
+        },
+        {
+          "key": "B",
+          "text": "Approve the change based on the subcontractor's reputation and the promised cost savings to the client.",
+          "is_correct": false,
+          "rationale": "This lacks the necessary technical and commercial due diligence."
+        },
+        {
+          "key": "C",
+          "text": "Instruct the subcontractor to proceed with the change while formal approvals are sought to save time.",
+          "is_correct": false,
+          "rationale": "This is contractually unsound and carries significant risk."
+        },
+        {
+          "key": "D",
+          "text": "Facilitate a review with the structural engineer, architect, and QS to assess technical compliance, programme impact, and cost implications.",
+          "is_correct": true,
+          "rationale": "This represents a thorough, collaborative, and risk-managed process."
+        },
+        {
+          "key": "E",
+          "text": "Ask the client directly for their opinion on the change before engaging any of the technical design team members.",
+          "is_correct": false,
+          "rationale": "This presents an unevaluated proposal to the client."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "You discover a critical conflict between the structural drawings and the M&E drawings for a plant room. What is the most effective resolution path?",
+      "explanation": "Using a formal Request for Information (RFI) process creates a clear audit trail and ensures design responsibility remains with the designers. A collaborative workshop is the most efficient way to find a coordinated, approved solution.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Make an executive decision on site based on your experience to keep the project moving forward without delay.",
+          "is_correct": false,
+          "rationale": "This bypasses design responsibility and introduces personal liability."
+        },
+        {
+          "key": "B",
+          "text": "Instruct the relevant subcontractors to meet and decide on the best solution between themselves to resolve the issue.",
+          "is_correct": false,
+          "rationale": "This abdicates the site manager's coordination responsibility."
+        },
+        {
+          "key": "C",
+          "text": "Halt all related work in that area and wait for the design team to issue revised, coordinated drawings.",
+          "is_correct": false,
+          "rationale": "This is a passive approach that can cause unnecessary delays."
+        },
+        {
+          "key": "D",
+          "text": "Raise a formal Request for Information (RFI) detailing the discrepancy and convene a workshop with all relevant designers to agree on a solution.",
+          "is_correct": true,
+          "rationale": "This is a formal, collaborative, and documented approach."
+        },
+        {
+          "key": "E",
+          "text": "Proceed with the installation based on the structural drawings as they typically take precedence over M&E layouts.",
+          "is_correct": false,
+          "rationale": "This is based on a risky assumption and can lead to rework."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "A client is consistently making verbal requests for scope changes on-site without following the formal change control process. How should you best manage this situation?",
+      "explanation": "This approach balances maintaining a positive client relationship with ensuring contractual and commercial diligence. It confirms the instruction in writing, highlights implications, and prompts the client to follow the correct procedure.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Carry out all verbal instructions to maintain a good relationship with the client and deal with the paperwork later.",
+          "is_correct": false,
+          "rationale": "This introduces significant commercial risk and potential disputes."
+        },
+        {
+          "key": "B",
+          "text": "Politely refuse to implement any changes until a formal instruction is received, which may damage the client relationship.",
+          "is_correct": false,
+          "rationale": "This is confrontational and not a collaborative way to work."
+        },
+        {
+          "key": "C",
+          "text": "Document the verbal requests in a site diary and send a confirmation email with potential cost and time implications, requesting formal instruction.",
+          "is_correct": true,
+          "rationale": "This is professional, creates a record, and manages expectations."
+        },
+        {
+          "key": "D",
+          "text": "Report the client's behaviour to your commercial director and ask them to handle all future communications with the client.",
+          "is_correct": false,
+          "rationale": "This avoids responsibility for managing the client relationship."
+        },
+        {
+          "key": "E",
+          "text": "Price the changes as a lump sum at the end of the project to avoid multiple small variations throughout.",
+          "is_correct": false,
+          "rationale": "This is poor commercial practice and likely to cause a dispute."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "A major client-requested variation significantly impacts the critical path and budget. What is your most critical initial action to protect the project's commercial interests?",
+      "explanation": "The correct procedure is to formally document the cost and schedule impacts of a variation and secure a written instruction before proceeding. This protects the contractor from performing unapproved, unpaid work and establishes a clear contractual basis for any extension of time.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately instruct the relevant subcontractors to proceed with the new work to demonstrate goodwill and maintain project momentum.",
+          "is_correct": false,
+          "rationale": "This is commercially reckless without a formal instruction."
+        },
+        {
+          "key": "B",
+          "text": "Formally issue a Request for Information (RFI) to the design team to clarify all technical aspects of the change.",
+          "is_correct": false,
+          "rationale": "This is a necessary step, but not the primary commercial action."
+        },
+        {
+          "key": "C",
+          "text": "Submit a detailed cost and time impact assessment and await a formal contract instruction before commencing any variation work.",
+          "is_correct": true,
+          "rationale": "This follows proper contractual procedure to protect commercial interests."
+        },
+        {
+          "key": "D",
+          "text": "Verbally agree on a provisional cost with the client's representative on-site to expedite the approval process quickly.",
+          "is_correct": false,
+          "rationale": "Verbal agreements are contractually weak and professionally risky."
+        },
+        {
+          "key": "E",
+          "text": "Re-sequence other non-critical activities to absorb the potential delay without formally notifying the client of the time impact.",
+          "is_correct": false,
+          "rationale": "This masks the true impact and waives the right to claim."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Following a serious notifiable incident on site, what is your immediate priority after ensuring medical aid and securing the area?",
+      "explanation": "After ensuring immediate safety and medical care, the legal and procedural priority is to notify the relevant regulatory authorities (like the HSE) and preserve the incident scene. This is a statutory requirement and crucial for a transparent investigation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately start an internal investigation to determine the root cause and assign responsibility before authorities arrive on site.",
+          "is_correct": false,
+          "rationale": "This could tamper with evidence and interfere with the official investigation."
+        },
+        {
+          "key": "B",
+          "text": "Prepare a detailed press release to manage public relations and control the narrative surrounding the unfortunate incident.",
+          "is_correct": false,
+          "rationale": "This is a secondary concern; legal notification is the priority."
+        },
+        {
+          "key": "C",
+          "text": "Notify the relevant statutory body, such as the HSE, and the client, preserving the scene for the official investigation.",
+          "is_correct": true,
+          "rationale": "This fulfills the primary legal and procedural obligation."
+        },
+        {
+          "key": "D",
+          "text": "Instruct all site personnel to resume work in unaffected areas to minimize project delays and associated financial losses.",
+          "is_correct": false,
+          "rationale": "Work should not resume until the entire site is confirmed safe."
+        },
+        {
+          "key": "E",
+          "text": "Contact the company's legal team to prepare for potential litigation before making any official statements or reports.",
+          "is_correct": false,
+          "rationale": "While important, statutory notification must come first."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Your project is six weeks behind schedule due to unforeseen ground conditions. Which strategy is most appropriate for schedule recovery on a complex project?",
+      "explanation": "The most effective schedule recovery strategy is to focus on the critical path, as these are the activities that directly impact the project's completion date. Accelerating these tasks, often through techniques like crashing or fast-tracking, provides the most direct route to recovering lost time.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Implement a mandatory six-day work week for all trades until the lost time has been fully recovered.",
+          "is_correct": false,
+          "rationale": "This is inefficient and can lead to fatigue and safety issues."
+        },
+        {
+          "key": "B",
+          "text": "Focus solely on accelerating activities on the critical path, potentially by reallocating resources from non-critical tasks.",
+          "is_correct": true,
+          "rationale": "This is the most targeted and efficient schedule recovery method."
+        },
+        {
+          "key": "C",
+          "text": "Reduce the scope of quality control checks and inspections to save time on finishing and handover processes.",
+          "is_correct": false,
+          "rationale": "Compromising quality introduces significant long-term risk."
+        },
+        {
+          "key": "D",
+          "text": "Request a formal extension of time from the client without first attempting any mitigation or acceleration strategies.",
+          "is_correct": false,
+          "rationale": "This demonstrates a lack of proactive project management."
+        },
+        {
+          "key": "E",
+          "text": "Hire additional, unrelated subcontractors to work in parallel without a detailed re-sequencing of the existing work plan.",
+          "is_correct": false,
+          "rationale": "This can cause site congestion and coordination conflicts."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "A key structural component fails its final quality inspection due to a latent defect. What is the most professionally responsible course of action?",
+      "explanation": "The correct action prioritizes safety and quality. This involves formally documenting the non-conformance, rejecting the defective work, and collaborating with the design teams to develop a safe, compliant, and approved solution, regardless of schedule impact.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Accept the component with a minor cost reduction from the supplier to avoid significant rework delays and costs.",
+          "is_correct": false,
+          "rationale": "This knowingly accepts a defect and compromises structural integrity."
+        },
+        {
+          "key": "B",
+          "text": "Document the failure, formally reject the component, and immediately coordinate with the design team for a compliant remediation plan.",
+          "is_correct": true,
+          "rationale": "This follows proper quality assurance protocol and prioritizes safety."
+        },
+        {
+          "key": "C",
+          "text": "Attempt an on-site repair using available resources without consulting the structural engineer to save time and money.",
+          "is_correct": false,
+          "rationale": "Unauthorized repairs are dangerous, non-compliant, and create liability."
+        },
+        {
+          "key": "D",
+          "text": "Conceal the defect with cosmetic finishes, hoping it will not be discovered during the final client handover inspection.",
+          "is_correct": false,
+          "rationale": "This is unethical, fraudulent, and extremely dangerous."
+        },
+        {
+          "key": "E",
+          "text": "Blame the inspection team for being overly critical and pressure them to sign off on the component as acceptable.",
+          "is_correct": false,
+          "rationale": "This is unprofessional conduct and undermines the quality process."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "During a project, you discover a subcontractor is consistently violating environmental regulations regarding waste disposal. What is your primary responsibility in this situation?",
+      "explanation": "As the site manager, your primary responsibility is to enforce compliance with all regulations. The correct procedure is to issue a formal notice, stop the non-compliant work, and require the subcontractor to provide a plan to rectify the issue and prevent recurrence.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Report the subcontractor to the Environmental Agency immediately, without first addressing the issue directly with their management team.",
+          "is_correct": false,
+          "rationale": "Escalation is premature; direct contractual enforcement is the first step."
+        },
+        {
+          "key": "B",
+          "text": "Issue a formal notice of non-compliance, halt their specific non-compliant activities, and demand a corrective action plan immediately.",
+          "is_correct": true,
+          "rationale": "This enforces contractual and legal duties correctly and formally."
+        },
+        {
+          "key": "C",
+          "text": "Ignore the minor violations to maintain a good working relationship and avoid potential delays to the project schedule.",
+          "is_correct": false,
+          "rationale": "This neglects legal and ethical responsibilities as site manager."
+        },
+        {
+          "key": "D",
+          "text": "Impose a financial penalty on the subcontractor's next payment application without issuing any formal warning or notice.",
+          "is_correct": false,
+          "rationale": "This action is contractually unsound without following due process."
+        },
+        {
+          "key": "E",
+          "text": "Verbally warn the subcontractor's on-site supervisor but take no further action unless an inspector notices the issue.",
+          "is_correct": false,
+          "rationale": "A verbal warning is insufficient for a legal breach."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "A major dispute arises between a key subcontractor and the design consultant over ambiguous specifications, threatening significant project delays. What is your most strategic first action?",
+      "explanation": "The most effective initial step is to facilitate direct communication and collaboration. This approach aims to resolve the ambiguity quickly and maintain positive working relationships, preventing escalation and further delays which could impact the project timeline.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately escalate the issue to senior management and legal counsel to protect the company from any potential liability claims.",
+          "is_correct": false,
+          "rationale": "Escalating immediately bypasses opportunities for a faster, on-site resolution between the involved parties."
+        },
+        {
+          "key": "B",
+          "text": "Halt the subcontractor's work in the disputed area and demand the design consultant provide immediate written clarification for the record.",
+          "is_correct": false,
+          "rationale": "Halting work is a last resort as it guarantees delays rather than actively preventing them."
+        },
+        {
+          "key": "C",
+          "text": "Convene an urgent tripartite meeting with the subcontractor and consultant to collaboratively review the specifications and negotiate a practical solution.",
+          "is_correct": true,
+          "rationale": "This collaborative approach is the fastest way to resolve technical disputes and maintain project momentum."
+        },
+        {
+          "key": "D",
+          "text": "Instruct the subcontractor to proceed based on your own interpretation of the plans to avoid any immediate schedule slippage.",
+          "is_correct": false,
+          "rationale": "This creates significant liability for you and the company if your interpretation is proven incorrect."
+        },
+        {
+          "key": "E",
+          "text": "Refer to the contract's dispute resolution clause and formally notify both parties that an external mediator will be appointed.",
+          "is_correct": false,
+          "rationale": "Appointing a mediator is a later step in a formal dispute process, not the first action."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "During a critical phase, your primary structural steel supplier declares bankruptcy, jeopardizing the entire project timeline. What is your most effective immediate response?",
+      "explanation": "A multi-faceted approach is required. Re-sequencing mitigates immediate impact, while concurrently exploring new suppliers and value engineering provides a strategic, cost-conscious solution to a complex problem, demonstrating proactive and comprehensive management.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately inform the client of the force majeure event and request a formal extension of time and associated cost claims.",
+          "is_correct": false,
+          "rationale": "This is a necessary contractual step but not the immediate operational response to solve the problem."
+        },
+        {
+          "key": "B",
+          "text": "Instruct the procurement team to urgently source an alternative supplier, accepting any price increase to mitigate the schedule impact.",
+          "is_correct": false,
+          "rationale": "Accepting any price without due diligence is financially reckless; a more balanced approach is needed."
+        },
+        {
+          "key": "C",
+          "text": "Analyze the schedule to re-sequence works, while engaging alternative suppliers and exploring value engineering options with the design team.",
+          "is_correct": true,
+          "rationale": "This comprehensive strategy addresses the schedule, procurement, and design in parallel, offering the best chance of recovery."
+        },
+        {
+          "key": "D",
+          "text": "Focus all efforts on finding a buyer for the bankrupt supplier's assets to try and recover the ordered materials directly.",
+          "is_correct": false,
+          "rationale": "This is highly speculative and unlikely to yield a timely solution for an active construction project."
+        },
+        {
+          "key": "E",
+          "text": "Pause all non-essential site activities to conserve cash flow until a clear path forward for the steel supply is secured.",
+          "is_correct": false,
+          "rationale": "Pausing work can create more significant delays and cost implications than it solves."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Following a serious but non-fatal accident on site, what is your most critical regulatory responsibility after ensuring immediate medical care?",
+      "explanation": "After ensuring casualty care, the legal and procedural priority is to secure the scene to prevent further harm and preserve evidence. Notifying the Health and Safety Executive (HSE) under RIDDOR for specified incidents is a mandatory legal requirement.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately interview all witnesses to the incident to prepare a robust defense against any potential personal injury claims.",
+          "is_correct": false,
+          "rationale": "Witness interviews are important, but securing the scene and regulatory reporting take legal precedence."
+        },
+        {
+          "key": "B",
+          "text": "Secure the incident area, preserve evidence, and notify the Health and Safety Executive (HSE) under RIDDOR regulations without delay.",
+          "is_correct": true,
+          "rationale": "This addresses the immediate safety, evidence preservation, and legal reporting duties required by UK law."
+        },
+        {
+          "key": "C",
+          "text": "Complete an internal company accident report first to allow senior management to review it before any external reporting is done.",
+          "is_correct": false,
+          "rationale": "Delaying external reporting to the HSE is a serious breach of RIDDOR regulations."
+        },
+        {
+          "key": "D",
+          "text": "Suspend the involved subcontractor from all site activities pending the outcome of a full internal investigation by your team.",
+          "is_correct": false,
+          "rationale": "Suspension may be necessary, but it is not the first priority over securing the scene and reporting."
+        },
+        {
+          "key": "E",
+          "text": "Re-brief all site operatives on the relevant safe systems of work to prevent a recurrence before resuming any operations.",
+          "is_correct": false,
+          "rationale": "Re-briefing is a crucial follow-up action but comes after the immediate incident response and reporting."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "The project is facing a significant cost overrun due to unforeseen ground conditions. How do you best present this challenging situation to the client?",
+      "explanation": "A professional and transparent approach is key. Providing a fully substantiated claim with data, costings, and proactive mitigation plans demonstrates competent management and provides the client with the necessary information to approve the variation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Present the overrun as an unavoidable project risk and request a blanket contingency increase to cover all additional projected expenses.",
+          "is_correct": false,
+          "rationale": "This lacks the detailed justification required for a significant cost claim and appears unprofessional."
+        },
+        {
+          "key": "B",
+          "text": "Submit a detailed variation claim with full substantiation, including survey data, cost breakdowns, and proposed mitigation strategies.",
+          "is_correct": true,
+          "rationale": "This is the correct contractual procedure, providing transparency and demonstrating proactive problem-solving."
+        },
+        {
+          "key": "C",
+          "text": "Absorb the initial costs within the existing budget by cutting spending on non-essential finishing trades later in the project.",
+          "is_correct": false,
+          "rationale": "This compromises project quality and is not a sustainable solution for a significant overrun."
+        },
+        {
+          "key": "D",
+          "text": "Arrange an informal meeting with the client to explain the problem verbally before submitting any formal contractual documentation.",
+          "is_correct": false,
+          "rationale": "Significant claims require formal, documented submission for contractual integrity, not just informal discussion."
+        },
+        {
+          "key": "E",
+          "text": "Notify the client that all work related to the ground conditions will be paused until they formally approve additional funding.",
+          "is_correct": false,
+          "rationale": "Pausing work is an aggressive tactic that can damage client relations and should be a last resort."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "At practical completion, the client presents an extensive and unreasonable snagging list, threatening to withhold final retention payments. What is your most effective strategy?",
+      "explanation": "A collaborative and methodical approach is most effective. By reviewing the list with the client, you can agree on what constitutes a genuine defect versus additional works or subjective preferences, resolving the issue professionally and fairly.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Accept the entire list without argument to secure the final payment quickly and move resources to the next project.",
+          "is_correct": false,
+          "rationale": "This sets a poor precedent and incurs unnecessary costs for work that may not be required."
+        },
+        {
+          "key": "B",
+          "text": "Formally reject the entire list in writing, stating that all items fall outside the scope of contractual obligations.",
+          "is_correct": false,
+          "rationale": "An outright rejection is confrontational and likely to lead to a formal, costly dispute."
+        },
+        {
+          "key": "C",
+          "text": "Immediately initiate the contract's formal dispute resolution mechanism to have an independent adjudicator review the entire snagging list.",
+          "is_correct": false,
+          "rationale": "This should be a later step; negotiation and direct discussion should always be attempted first."
+        },
+        {
+          "key": "D",
+          "text": "Systematically review the list with the client and architect, separating legitimate defects from new requests or matters of opinion.",
+          "is_correct": true,
+          "rationale": "This professional, collaborative approach is the best way to resolve disagreements and manage project closeout effectively."
+        },
+        {
+          "key": "E",
+          "text": "Complete only the most minor and visible items on the list to show goodwill before demanding the release of payment.",
+          "is_correct": false,
+          "rationale": "This partial approach fails to address the core disagreement and is unlikely to satisfy the client."
+        }
+      ]
+    }
+  ]
+}

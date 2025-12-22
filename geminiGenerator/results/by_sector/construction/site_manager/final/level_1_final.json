@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "What is the most important daily responsibility of a site manager regarding worker safety on a construction site?",
+      "explanation": "A site manager's paramount duty is to maintain a safe working environment. This involves constant vigilance over safety procedures, PPE compliance, and proactive hazard identification to prevent accidents and injuries.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensuring all personnel strictly adhere to safety protocols, wear appropriate PPE, and identify potential hazards promptly.",
+          "is_correct": true,
+          "rationale": "Site managers must ensure safety protocols are followed daily."
+        },
+        {
+          "key": "B",
+          "text": "Ordering new safety equipment for the entire crew every single week without detailed assessment.",
+          "is_correct": false,
+          "rationale": "Ordering is periodic, not the primary daily safety responsibility."
+        },
+        {
+          "key": "C",
+          "text": "Delegating all safety inspections to a junior team member without any personal oversight.",
+          "is_correct": false,
+          "rationale": "Delegation without oversight is irresponsible for safety."
+        },
+        {
+          "key": "D",
+          "text": "Focusing solely on project deadlines, assuming workers naturally manage their own safety.",
+          "is_correct": false,
+          "rationale": "Safety is paramount and cannot be assumed by workers alone."
+        },
+        {
+          "key": "E",
+          "text": "Conducting detailed financial audits of safety equipment purchases on a regular basis.",
+          "is_correct": false,
+          "rationale": "Financial audits are separate from daily operational safety."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "How should a site manager effectively monitor and manage the progress of daily construction activities?",
+      "explanation": "Effective progress monitoring involves continuous comparison of actual work against the schedule. This allows the site manager to identify delays early and implement corrective actions, keeping the project on track.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Regularly comparing actual work completed against the planned project schedule and making necessary adjustments.",
+          "is_correct": true,
+          "rationale": "Regular progress checks against the schedule are vital for project control."
+        },
+        {
+          "key": "B",
+          "text": "Waiting until the very end of the month to review all completed tasks and milestones.",
+          "is_correct": false,
+          "rationale": "Monthly reviews are too infrequent for daily progress management."
+        },
+        {
+          "key": "C",
+          "text": "Relying solely on verbal updates from subcontractors without any physical verification.",
+          "is_correct": false,
+          "rationale": "Physical verification is crucial for accurate progress assessment."
+        },
+        {
+          "key": "D",
+          "text": "Focusing exclusively on the budget, assuming progress will naturally follow financial spending.",
+          "is_correct": false,
+          "rationale": "Budget focus alone does not guarantee physical progress."
+        },
+        {
+          "key": "E",
+          "text": "Only checking progress when senior management specifically requests an update report.",
+          "is_correct": false,
+          "rationale": "Proactive monitoring is required, not reactive reporting."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What is a critical aspect of managing materials effectively on a busy construction site?",
+      "explanation": "Efficient material management prevents delays, reduces waste, and controls costs. This includes coordinating deliveries, securing materials from theft or damage, and maintaining precise records of stock.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensuring timely delivery, proper storage to prevent damage, and accurate inventory tracking for all materials.",
+          "is_correct": true,
+          "rationale": "Proper material management ensures availability, prevents damage, and controls costs."
+        },
+        {
+          "key": "B",
+          "text": "Ordering all necessary materials at once at the very beginning of the project to save costs.",
+          "is_correct": false,
+          "rationale": "Ordering all at once can lead to storage issues and damage."
+        },
+        {
+          "key": "C",
+          "text": "Allowing materials to be stored anywhere convenient on site, as long as they are present.",
+          "is_correct": false,
+          "rationale": "Improper storage leads to damage, loss, and safety hazards."
+        },
+        {
+          "key": "D",
+          "text": "Delegating all material ordering and tracking to the newest team member without supervision.",
+          "is_correct": false,
+          "rationale": "Material management requires experience and oversight."
+        },
+        {
+          "key": "E",
+          "text": "Prioritizing only the most expensive materials, ignoring the management of smaller items.",
+          "is_correct": false,
+          "rationale": "All materials, regardless of cost, require proper management."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Why is clear and consistent communication essential for a site manager with the project team?",
+      "explanation": "Effective communication is fundamental for site managers to align the team, convey critical information, and resolve issues promptly. It builds understanding, minimizes errors, and promotes a cohesive working atmosphere.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It ensures everyone understands their roles, tasks, and safety instructions, fostering a collaborative and efficient work environment.",
+          "is_correct": true,
+          "rationale": "Clear communication ensures understanding, safety, and efficient teamwork."
+        },
+        {
+          "key": "B",
+          "text": "To primarily share personal anecdotes and build informal relationships with all workers on site.",
+          "is_correct": false,
+          "rationale": "While important, this is not the primary purpose of professional communication."
+        },
+        {
+          "key": "C",
+          "text": "To only communicate critical updates during weekly meetings, avoiding daily interactions with the team.",
+          "is_correct": false,
+          "rationale": "Daily interactions and immediate updates are crucial for site management."
+        },
+        {
+          "key": "D",
+          "text": "To strictly enforce rules without explaining the reasons behind specific decisions or changes.",
+          "is_correct": false,
+          "rationale": "Explaining reasons fosters understanding and compliance, not just enforcement."
+        },
+        {
+          "key": "E",
+          "text": "To minimize interaction with subcontractors, letting them manage their own internal communication.",
+          "is_correct": false,
+          "rationale": "Site managers must actively communicate with all stakeholders, including subcontractors."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "How should a site manager respond when an unexpected issue, like equipment breakdown, occurs on site?",
+      "explanation": "A site manager must be proactive in addressing unexpected problems. This involves rapid assessment, damage control, and efficient coordination of resources to mitigate delays and maintain project momentum.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Assess the immediate impact, implement temporary solutions, and quickly coordinate repairs or replacements to minimize disruption.",
+          "is_correct": true,
+          "rationale": "Proactive problem-solving minimizes delays and maintains project momentum."
+        },
+        {
+          "key": "B",
+          "text": "Ignore the issue completely, assuming it will resolve itself over the course of the day.",
+          "is_correct": false,
+          "rationale": "Ignoring issues can lead to greater problems and project delays."
+        },
+        {
+          "key": "C",
+          "text": "Immediately send all workers home without attempting to find an alternative solution or plan.",
+          "is_correct": false,
+          "rationale": "Sending workers home without a plan halts progress unnecessarily."
+        },
+        {
+          "key": "D",
+          "text": "Wait for the project director to provide specific instructions on how to proceed with the problem.",
+          "is_correct": false,
+          "rationale": "Site managers are expected to take initiative in problem-solving."
+        },
+        {
+          "key": "E",
+          "text": "Blame the equipment operator without investigating the root cause of the breakdown thoroughly.",
+          "is_correct": false,
+          "rationale": "Blaming without investigation is unproductive and doesn't solve the problem."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "When working on a construction site, what is the most important personal protective equipment (PPE) item you must always wear?",
+      "explanation": "Mandatory PPE such as a safety helmet, high-visibility vest, and steel-toe boots are fundamental requirements for all individuals on a construction site to ensure basic safety and minimize injury risks.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Safety helmet, high-visibility vest, and steel-toe boots are always mandatory for everyone on site.",
+          "is_correct": true,
+          "rationale": "These are the fundamental mandatory PPE items for all site personnel."
+        },
+        {
+          "key": "B",
+          "text": "A comfortable pair of work gloves and a warm jacket are sufficient for most light tasks.",
+          "is_correct": false,
+          "rationale": "While useful, these are not the absolute minimum mandatory PPE for all site entry."
+        },
+        {
+          "key": "C",
+          "text": "Prescription safety glasses and hearing protection are only required for specific tasks and noisy areas.",
+          "is_correct": false,
+          "rationale": "These are task-specific PPE, not universally mandatory for site entry."
+        },
+        {
+          "key": "D",
+          "text": "Standard work clothes and sturdy shoes are generally acceptable for entry-level workers on site.",
+          "is_correct": false,
+          "rationale": "Standard clothes and shoes do not meet the minimum safety standards for site PPE."
+        },
+        {
+          "key": "E",
+          "text": "A hard hat and sunglasses protect from sun and minor impacts during light duties only.",
+          "is_correct": false,
+          "rationale": "Sunglasses are not standard mandatory PPE, and other items are missing."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Upon receiving a delivery of materials on site, what is your immediate primary responsibility as a site manager?",
+      "explanation": "Checking the delivery note against the actual items received is crucial to ensure that the correct materials and quantities have arrived, preventing potential project delays or costly errors later on.",
+      "options": [
+        {
+          "key": "A",
+          "text": "You should carefully check the delivery note against the actual items received for accuracy and quantity.",
+          "is_correct": true,
+          "rationale": "Verifying deliveries against documentation prevents errors and ensures correct materials."
+        },
+        {
+          "key": "B",
+          "text": "Immediately direct the delivery driver to the designated storage area without conducting any further checks.",
+          "is_correct": false,
+          "rationale": "Failing to check could result in accepting incorrect or damaged materials."
+        },
+        {
+          "key": "C",
+          "text": "Sign the delivery note quickly to avoid delaying the driver, then inspect materials later at your convenience.",
+          "is_correct": false,
+          "rationale": "Signing without checking makes it difficult to dispute discrepancies later."
+        },
+        {
+          "key": "D",
+          "text": "Inform the project manager about the arrival and wait for their instructions regarding the materials.",
+          "is_correct": false,
+          "rationale": "Site managers are expected to handle routine deliveries independently."
+        },
+        {
+          "key": "E",
+          "text": "Unload all materials first, then conduct a thorough inspection of the goods for any damage or discrepancies.",
+          "is_correct": false,
+          "rationale": "Inspection should ideally happen before or during unloading to address issues promptly."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What is the primary reason for maintaining a comprehensive daily site diary or logbook on a construction project?",
+      "explanation": "A daily site diary serves as a vital legal and historical record of all site activities, progress, incidents, and decisions. This documentation is crucial for project management, dispute resolution, and compliance.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It serves as a vital legal record of daily activities, progress, significant events, and resources on site.",
+          "is_correct": true,
+          "rationale": "The daily diary is a critical legal and historical document for project management and disputes."
+        },
+        {
+          "key": "B",
+          "text": "To simply track the weather conditions throughout the day for historical reference purposes only.",
+          "is_correct": false,
+          "rationale": "Weather is one aspect, but not the primary or sole purpose of a site diary."
+        },
+        {
+          "key": "C",
+          "text": "To provide a casual space for workers to write down their personal notes and observations freely.",
+          "is_correct": false,
+          "rationale": "A site diary is a formal record, not a casual note-taking space for workers."
+        },
+        {
+          "key": "D",
+          "text": "It is mainly used to calculate the exact working hours for each individual operative on site.",
+          "is_correct": false,
+          "rationale": "While it can inform this, timesheets or dedicated systems are primarily used for hours."
+        },
+        {
+          "key": "E",
+          "text": "To record only the major milestones achieved, skipping minor daily operational details entirely.",
+          "is_correct": false,
+          "rationale": "A comprehensive diary includes daily details, not just major milestones."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "If a small, non-critical piece of equipment breaks down on site, what is the most appropriate initial action?",
+      "explanation": "The most appropriate action is to assess the situation, ensure safety by cordoning off the area, and then report the issue to the relevant supervisor or maintenance team for proper repair or replacement.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Assess the issue, cordon off the area, and report it to the relevant supervisor for repair or replacement.",
+          "is_correct": true,
+          "rationale": "Ensuring safety and proper reporting are key initial steps for equipment breakdown."
+        },
+        {
+          "key": "B",
+          "text": "Attempt to fix the equipment yourself immediately to avoid any potential project delays.",
+          "is_correct": false,
+          "rationale": "Attempting unauthorized repairs can be unsafe and may void warranties."
+        },
+        {
+          "key": "C",
+          "text": "Instruct another site worker to try and repair it, as they might have some relevant experience.",
+          "is_correct": false,
+          "rationale": "Delegating unauthorized repairs can lead to safety hazards and further damage."
+        },
+        {
+          "key": "D",
+          "text": "Wait until the end of the day to report the breakdown, as it is not critical right now.",
+          "is_correct": false,
+          "rationale": "Even non-critical breakdowns should be reported promptly for tracking and resolution."
+        },
+        {
+          "key": "E",
+          "text": "Discard the broken equipment and order a completely new replacement without further investigation.",
+          "is_correct": false,
+          "rationale": "Disposal without investigation is wasteful and bypasses repair possibilities."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "When communicating daily tasks to a subcontractor's team on site, what is the most effective approach?",
+      "explanation": "Clear, direct, and comprehensive communication is essential for effective task delegation. This includes explaining tasks, expected standards, safety requirements, and allowing for questions to ensure full understanding and compliance.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Clearly explain the tasks, expected standards, and safety requirements, inviting questions for clarity.",
+          "is_correct": true,
+          "rationale": "Clear communication, including safety and standards, ensures tasks are understood and performed correctly."
+        },
+        {
+          "key": "B",
+          "text": "Provide minimal instructions, assuming the experienced subcontractor knows exactly what to do.",
+          "is_correct": false,
+          "rationale": "Assumptions can lead to misunderstandings, errors, and safety issues."
+        },
+        {
+          "key": "C",
+          "text": "Send a detailed email with all instructions, avoiding direct verbal communication entirely.",
+          "is_correct": false,
+          "rationale": "Verbal communication allows for immediate clarification and builds rapport."
+        },
+        {
+          "key": "D",
+          "text": "Only speak to the subcontractor's foreman, expecting them to relay all information perfectly.",
+          "is_correct": false,
+          "rationale": "While foremen are key, direct engagement with the team can improve understanding."
+        },
+        {
+          "key": "E",
+          "text": "Delegate the communication entirely to a junior member of your own site management team.",
+          "is_correct": false,
+          "rationale": "The site manager should oversee and often directly communicate critical tasks."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the most important reason for site workers to consistently wear appropriate Personal Protective Equipment (PPE)?",
+      "explanation": "PPE is fundamental for worker safety on construction sites. It acts as a barrier against various hazards, significantly reducing the likelihood of accidents and injuries, ensuring a safer working environment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To comply with company branding guidelines and maintain a professional appearance on the construction site.",
+          "is_correct": false,
+          "rationale": "Branding is not the primary purpose of PPE."
+        },
+        {
+          "key": "B",
+          "text": "To protect themselves from potential hazards and reduce the risk of injuries during daily tasks.",
+          "is_correct": true,
+          "rationale": "PPE directly prevents injuries by protecting workers from hazards."
+        },
+        {
+          "key": "C",
+          "text": "To make it easier for site visitors to identify different roles and responsibilities among the crew.",
+          "is_correct": false,
+          "rationale": "Role identification is a secondary benefit, not the primary purpose."
+        },
+        {
+          "key": "D",
+          "text": "To keep clothing clean and free from dust or dirt accumulation throughout the working day.",
+          "is_correct": false,
+          "rationale": "Cleanliness is a minor benefit, not the main safety reason."
+        },
+        {
+          "key": "E",
+          "text": "To demonstrate adherence to project budget constraints by minimizing equipment replacement costs.",
+          "is_correct": false,
+          "rationale": "PPE's purpose is safety, not budget adherence directly."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "If a critical material delivery is unexpectedly delayed, what is the best immediate action for a site manager?",
+      "explanation": "Proactive communication and problem-solving are crucial. Understanding the delay and seeking alternatives helps mitigate schedule impacts, maintaining project progress effectively and minimizing disruptions.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately inform all workers to stop work and send them home until the materials arrive on site.",
+          "is_correct": false,
+          "rationale": "This is a drastic measure and not the first immediate action."
+        },
+        {
+          "key": "B",
+          "text": "Contact the supplier to understand the new estimated delivery time and explore alternative solutions.",
+          "is_correct": true,
+          "rationale": "Understanding the delay and seeking alternatives mitigates schedule impacts."
+        },
+        {
+          "key": "C",
+          "text": "Wait patiently for the materials to arrive, assuming the delay will not significantly impact the project schedule.",
+          "is_correct": false,
+          "rationale": "Passivity can lead to greater project delays and cost overruns."
+        },
+        {
+          "key": "D",
+          "text": "Blame the procurement department for the delay and refuse to take any further action on the project.",
+          "is_correct": false,
+          "rationale": "Assigning blame does not resolve the issue or move the project forward."
+        },
+        {
+          "key": "E",
+          "text": "Start working on non-critical tasks without assessing the full impact on the project timeline.",
+          "is_correct": false,
+          "rationale": "Without assessment, this could lead to further unmanaged delays."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Why is regular inspection of ongoing construction work essential for a site manager?",
+      "explanation": "Regular inspections are vital for quality assurance. They ensure that construction meets specifications, identify issues early, and prevent costly rework, maintaining project integrity and stakeholder satisfaction.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure that all completed work meets the required specifications, quality standards, and design drawings.",
+          "is_correct": true,
+          "rationale": "Inspections ensure work meets specifications and prevent costly rework."
+        },
+        {
+          "key": "B",
+          "text": "To find minor faults that can be ignored, thus speeding up the overall construction process significantly.",
+          "is_correct": false,
+          "rationale": "Ignoring faults compromises quality and can lead to bigger issues."
+        },
+        {
+          "key": "C",
+          "text": "To assign blame to individual workers for any mistakes found during the construction phase.",
+          "is_correct": false,
+          "rationale": "The primary goal is quality, not assigning blame to individuals."
+        },
+        {
+          "key": "D",
+          "text": "To simply document progress for financial reporting, without focusing on the actual quality of the work.",
+          "is_correct": false,
+          "rationale": "Documentation is a part, but quality is the main focus of inspections."
+        },
+        {
+          "key": "E",
+          "text": "To determine if the project budget is being spent too quickly, requiring immediate cost-cutting measures.",
+          "is_correct": false,
+          "rationale": "Budget control is separate from the primary purpose of quality inspection."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Who is the most important person a site manager regularly communicates with regarding project progress and issues?",
+      "explanation": "Effective communication with the project manager or client is paramount. They are key stakeholders who need consistent updates on progress, challenges, and decisions to ensure project alignment and successful delivery.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Local newspaper journalists to provide updates on the construction site activities and public relations.",
+          "is_correct": false,
+          "rationale": "Public relations are not the primary communication focus for a site manager."
+        },
+        {
+          "key": "B",
+          "text": "The project manager or client representative to report status, discuss challenges, and coordinate next steps effectively.",
+          "is_correct": true,
+          "rationale": "Project managers/clients need consistent updates for project alignment."
+        },
+        {
+          "key": "C",
+          "text": "Random passers-by who express curiosity about the building under construction and its purpose.",
+          "is_correct": false,
+          "rationale": "Engaging with the public is not a core communication responsibility."
+        },
+        {
+          "key": "D",
+          "text": "Competitor site managers to exchange best practices and share confidential project details openly.",
+          "is_correct": false,
+          "rationale": "Sharing confidential details with competitors is unprofessional and risky."
+        },
+        {
+          "key": "E",
+          "text": "The general public through social media to gather opinions on the aesthetic design of the new structure.",
+          "is_correct": false,
+          "rationale": "Site managers focus on execution, not public design feedback via social media."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is a primary responsibility of a site manager regarding waste management on a construction site?",
+      "explanation": "Proper waste management is crucial for environmental compliance and site safety. Segregating waste ensures responsible disposal, reduces environmental impact, and can sometimes lead to recycling opportunities, improving sustainability.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure all waste is indiscriminately mixed together for disposal, simplifying the collection process for everyone.",
+          "is_correct": false,
+          "rationale": "Mixing waste hinders recycling and proper disposal, violating regulations."
+        },
+        {
+          "key": "B",
+          "text": "To implement proper segregation and disposal methods for different types of waste materials, including hazardous substances.",
+          "is_correct": true,
+          "rationale": "Proper waste segregation ensures environmental compliance and site safety."
+        },
+        {
+          "key": "C",
+          "text": "To allow workers to take any discarded materials home for personal use, reducing the overall site clutter.",
+          "is_correct": false,
+          "rationale": "This can lead to safety hazards, theft, and improper disposal."
+        },
+        {
+          "key": "D",
+          "text": "To completely ignore waste, as it is solely the responsibility of the designated waste collection company.",
+          "is_correct": false,
+          "rationale": "Site managers are responsible for managing waste generated on site."
+        },
+        {
+          "key": "E",
+          "text": "To burn all combustible waste on site to reduce volume, regardless of environmental regulations or safety concerns.",
+          "is_correct": false,
+          "rationale": "Burning waste on site is often illegal, unsafe, and environmentally damaging."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What is the most important document to review before starting any work on a construction site?",
+      "explanation": "The site-specific safety plan is crucial for identifying and mitigating risks before work commences. It ensures a safe working environment and compliance with regulations from the outset.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The site-specific safety plan, outlining all hazards and control measures for the project.",
+          "is_correct": true,
+          "rationale": "This document is essential for ensuring a safe working environment for everyone."
+        },
+        {
+          "key": "B",
+          "text": "The project budget breakdown, detailing all financial allocations for materials and labor costs.",
+          "is_correct": false,
+          "rationale": "While important, budget is not the immediate priority before starting work."
+        },
+        {
+          "key": "C",
+          "text": "The detailed architectural drawings, showing aesthetic finishes and interior design specifications.",
+          "is_correct": false,
+          "rationale": "These are for design, not the primary concern before commencing work."
+        },
+        {
+          "key": "D",
+          "text": "The human resources policy manual, explaining company benefits and employee leave procedures.",
+          "is_correct": false,
+          "rationale": "HR policies are important but not the first document before starting work."
+        },
+        {
+          "key": "E",
+          "text": "The marketing strategy document, outlining how the completed project will be advertised publicly.",
+          "is_correct": false,
+          "rationale": "Marketing is irrelevant to the immediate commencement of construction work."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "How should a site manager effectively communicate daily progress and issues to the project team?",
+      "explanation": "Daily toolbox talks and concise reports ensure timely communication of progress, hazards, and any immediate issues, fostering a proactive approach to site management and problem-solving.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sending a comprehensive, detailed email report to all stakeholders at the end of each week.",
+          "is_correct": false,
+          "rationale": "Weekly communication might be too slow for daily progress and issues."
+        },
+        {
+          "key": "B",
+          "text": "Conducting a brief daily toolbox talk and a concise daily report to relevant parties.",
+          "is_correct": true,
+          "rationale": "Daily communication is vital for keeping everyone informed and addressing issues promptly."
+        },
+        {
+          "key": "C",
+          "text": "Waiting for weekly project meetings to discuss all updates and address any emerging concerns.",
+          "is_correct": false,
+          "rationale": "Delaying communication until weekly meetings can lead to significant problems."
+        },
+        {
+          "key": "D",
+          "text": "Only informing the project director when major problems or significant delays occur on site.",
+          "is_correct": false,
+          "rationale": "This approach lacks proactive communication and can escalate minor issues."
+        },
+        {
+          "key": "E",
+          "text": "Relying solely on informal conversations and verbal updates with individual team members.",
+          "is_correct": false,
+          "rationale": "Informal communication lacks structure and can lead to misunderstandings."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is the primary responsibility of a site manager regarding materials delivery and storage?",
+      "explanation": "A site manager must ensure materials are available when needed, protected from damage or theft, and stored safely to maintain project flow, prevent waste, and ensure site safety.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Negotiating the best prices for all construction materials with various suppliers.",
+          "is_correct": false,
+          "rationale": "Procurement and pricing are typically handled by a purchasing department."
+        },
+        {
+          "key": "B",
+          "text": "Ensuring materials are delivered on time, stored securely, and correctly handled on site.",
+          "is_correct": true,
+          "rationale": "Proper material management prevents delays, losses, and ensures site safety and efficiency."
+        },
+        {
+          "key": "C",
+          "text": "Designing the most efficient layout for the entire construction site compound.",
+          "is_correct": false,
+          "rationale": "Site layout is a broader planning task, not the primary material responsibility."
+        },
+        {
+          "key": "D",
+          "text": "Personally driving the heavy machinery required for unloading and moving materials.",
+          "is_correct": false,
+          "rationale": "Operating machinery is typically done by trained and certified operators."
+        },
+        {
+          "key": "E",
+          "text": "Preparing the detailed purchase orders for all major equipment and bulk material purchases.",
+          "is_correct": false,
+          "rationale": "Purchase order preparation is usually a procurement or administrative task."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is a fundamental step a site manager takes to ensure quality of work on site?",
+      "explanation": "Regular inspections are critical for identifying and rectifying deviations from quality standards early, preventing costly rework and ensuring the final product meets project requirements.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Conducting random, unannounced inspections of all subcontractor work at any time.",
+          "is_correct": false,
+          "rationale": "While part of quality control, this is not the most fundamental or consistent step."
+        },
+        {
+          "key": "B",
+          "text": "Regularly inspecting all ongoing work against the project specifications and approved drawings.",
+          "is_correct": true,
+          "rationale": "Consistent inspection against standards ensures work quality and prevents costly errors."
+        },
+        {
+          "key": "C",
+          "text": "Delegating all quality checks to the most junior team member for experience.",
+          "is_correct": false,
+          "rationale": "Quality control requires experienced oversight, not delegation to junior staff."
+        },
+        {
+          "key": "D",
+          "text": "Assuming all experienced workers will always produce work of acceptable quality.",
+          "is_correct": false,
+          "rationale": "Assumptions can lead to significant quality issues; verification is always needed."
+        },
+        {
+          "key": "E",
+          "text": "Waiting until the final project handover to identify any major defects or issues.",
+          "is_correct": false,
+          "rationale": "Identifying defects late leads to costly rework and project delays."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "If a minor safety hazard is identified on site, what is the immediate priority for the site manager?",
+      "explanation": "Immediate action is paramount for minor safety hazards to prevent potential injuries. Documentation follows remediation to ensure the hazard is safely controlled first, protecting all personnel.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Completing a full incident report before taking any corrective action immediately.",
+          "is_correct": false,
+          "rationale": "Documentation is secondary to ensuring immediate safety and preventing harm."
+        },
+        {
+          "key": "B",
+          "text": "Photographing the hazard extensively for documentation before addressing the issue.",
+          "is_correct": false,
+          "rationale": "Immediate safety takes precedence over extensive documentation in a hazard situation."
+        },
+        {
+          "key": "C",
+          "text": "Immediately addressing the hazard to make the area safe, then documenting the action.",
+          "is_correct": true,
+          "rationale": "Prioritizing immediate safety action is critical to prevent accidents and protect workers."
+        },
+        {
+          "key": "D",
+          "text": "Waiting for the scheduled weekly safety meeting to discuss the hazard with the team.",
+          "is_correct": false,
+          "rationale": "Delaying action on a hazard can lead to accidents and is irresponsible."
+        },
+        {
+          "key": "E",
+          "text": "Informing only the safety officer and waiting for their instructions to proceed.",
+          "is_correct": false,
+          "rationale": "While informing the safety officer is good, immediate action from the site manager is vital."
+        }
+      ]
+    }
+  ]
+}

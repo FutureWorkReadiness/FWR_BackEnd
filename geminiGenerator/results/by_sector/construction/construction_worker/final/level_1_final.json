@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "What personal protective equipment (PPE) is absolutely essential for head protection when working on a construction site?",
+      "explanation": "Hard hats are crucial PPE designed to protect workers' heads from falling objects, impacts, and electrical hazards on construction sites, significantly reducing injury risk.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A brightly colored reflective vest to ensure visibility for all personnel, especially near moving machinery.",
+          "is_correct": false,
+          "rationale": "Visibility is important but not head protection."
+        },
+        {
+          "key": "B",
+          "text": "A hard hat specifically designed to protect your head from falling debris and potential impacts.",
+          "is_correct": true,
+          "rationale": "Hard hats provide essential head protection on site."
+        },
+        {
+          "key": "C",
+          "text": "Safety glasses or goggles to shield your eyes from flying particles and harmful dust.",
+          "is_correct": false,
+          "rationale": "Eye protection, not head protection."
+        },
+        {
+          "key": "D",
+          "text": "Steel-toed boots to protect your feet from heavy falling objects and punctures from sharp materials.",
+          "is_correct": false,
+          "rationale": "Foot protection, not head protection."
+        },
+        {
+          "key": "E",
+          "text": "Heavy-duty work gloves to protect your hands from cuts, abrasions, and chemical exposure on the job.",
+          "is_correct": false,
+          "rationale": "Hand protection, not head protection."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the safest method for lifting heavy objects manually on a construction site to prevent back injuries?",
+      "explanation": "Proper lifting technique, involving bending the knees and keeping the back straight, is vital for preventing common back injuries when manually handling heavy materials on site.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bend at your waist, keeping your legs straight, and lift with your arms to quickly move the object.",
+          "is_correct": false,
+          "rationale": "This technique can lead to severe back injury."
+        },
+        {
+          "key": "B",
+          "text": "Squat down, keep your back straight, and lift using your leg muscles while holding the object close.",
+          "is_correct": true,
+          "rationale": "Proper lifting technique prevents back strain and injury."
+        },
+        {
+          "key": "C",
+          "text": "Ask a coworker to help you lift, but still bend at the waist to share the effort efficiently.",
+          "is_correct": false,
+          "rationale": "Team lifting is good, but technique is still critical."
+        },
+        {
+          "key": "D",
+          "text": "Use a forklift or other mechanical aid, even for moderately heavy items, to avoid any manual lifting.",
+          "is_correct": false,
+          "rationale": "While ideal, not always feasible; manual technique is needed."
+        },
+        {
+          "key": "E",
+          "text": "Quickly jerk the object upwards to gain momentum, minimizing the time your back is under strain.",
+          "is_correct": false,
+          "rationale": "Jerking can cause immediate injury."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which common hand tool is primarily used for driving nails into wood or other materials on a construction project?",
+      "explanation": "A hammer is a fundamental hand tool in construction, specifically designed for driving nails, fitting parts, and breaking objects, making it essential for many tasks.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A screwdriver, which is used for tightening or loosening screws with various head types.",
+          "is_correct": false,
+          "rationale": "Screwdrivers are for screws, not nails."
+        },
+        {
+          "key": "B",
+          "text": "A wrench, which is used for gripping and turning nuts and bolts for secure fastening.",
+          "is_correct": false,
+          "rationale": "Wrenches are for nuts and bolts, not nails."
+        },
+        {
+          "key": "C",
+          "text": "A hammer, which is specifically designed for driving nails and prying apart wooden components.",
+          "is_correct": true,
+          "rationale": "Hammers are the primary tool for driving nails."
+        },
+        {
+          "key": "D",
+          "text": "Pliers, which are used for gripping, bending, and cutting wires or small metal components securely.",
+          "is_correct": false,
+          "rationale": "Pliers are for gripping and cutting, not driving nails."
+        },
+        {
+          "key": "E",
+          "text": "A tape measure, which is used for accurately determining lengths and distances on a building site.",
+          "is_correct": false,
+          "rationale": "Tape measures are for measurement, not driving nails."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What should you do immediately if you witness an unsafe condition or a minor accident on the construction site?",
+      "explanation": "Reporting unsafe conditions or minor accidents to a supervisor or foreman is critical for immediate resolution and preventing more serious incidents, ensuring site safety.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Try to fix the unsafe condition yourself without telling anyone, to show initiative and problem-solving skills.",
+          "is_correct": false,
+          "rationale": "Fixing it alone can be dangerous and bypasses safety protocols."
+        },
+        {
+          "key": "B",
+          "text": "Wait until the end of your shift to report it to a coworker, as it might resolve itself.",
+          "is_correct": false,
+          "rationale": "Delaying a report can lead to more severe incidents."
+        },
+        {
+          "key": "C",
+          "text": "Inform your immediate supervisor or foreman about the situation so they can address it properly.",
+          "is_correct": true,
+          "rationale": "Supervisors must be informed to ensure proper action and safety."
+        },
+        {
+          "key": "D",
+          "text": "Take a photo of the incident with your phone and share it with your team members on social media.",
+          "is_correct": false,
+          "rationale": "This is unprofessional and does not address the safety issue."
+        },
+        {
+          "key": "E",
+          "text": "Ignore it if no one was seriously hurt, as reporting minor issues can cause unnecessary delays.",
+          "is_correct": false,
+          "rationale": "Ignoring minor issues can lead to major incidents later."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Why is maintaining a clean and organized work area (good housekeeping) crucial on a busy construction site?",
+      "explanation": "Good housekeeping prevents accidents by removing trip hazards, reduces fire risks, and improves overall site efficiency and safety for everyone working there.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It primarily helps impress clients and visitors with a tidy appearance, rather than actual safety benefits.",
+          "is_correct": false,
+          "rationale": "While a benefit, not the primary safety reason."
+        },
+        {
+          "key": "B",
+          "text": "It reduces the risk of trips, falls, and fire hazards, creating a safer environment for all workers.",
+          "is_correct": true,
+          "rationale": "Housekeeping directly prevents common site accidents."
+        },
+        {
+          "key": "C",
+          "text": "It ensures that tools and materials are always hidden from view, preventing theft during non-working hours.",
+          "is_correct": false,
+          "rationale": "Organization is for efficiency and safety, not hiding."
+        },
+        {
+          "key": "D",
+          "text": "It allows workers to finish their tasks much faster, even if it means stacking materials haphazardly.",
+          "is_correct": false,
+          "rationale": "Haphazard stacking is unsafe and counterproductive."
+        },
+        {
+          "key": "E",
+          "text": "It is only necessary when a safety inspector is expected to visit the site for an audit.",
+          "is_correct": false,
+          "rationale": "Housekeeping is an ongoing safety practice, not just for audits."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What is a critical inspection step for a hard hat to ensure it remains effective for head protection on site?",
+      "explanation": "Regularly inspecting a hard hat for cracks, dents, or a degraded suspension system is crucial. Damage can compromise its ability to absorb impact, making it unsafe for use.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Checking that the color of the hard hat has not faded significantly from sun exposure over time.",
+          "is_correct": false,
+          "rationale": "Fading is cosmetic; structural integrity is the key safety concern."
+        },
+        {
+          "key": "B",
+          "text": "Ensuring there are no cracks, deep gouges, or damage to the shell and suspension system.",
+          "is_correct": true,
+          "rationale": "Structural damage compromises the hard hat's protective capabilities."
+        },
+        {
+          "key": "C",
+          "text": "Making sure the company logo sticker is still perfectly centered on the front of the hard hat.",
+          "is_correct": false,
+          "rationale": "The placement of stickers has no bearing on the safety function."
+        },
+        {
+          "key": "D",
+          "text": "Polishing the hard hat's outer shell weekly to maintain a professional and clean appearance for visitors.",
+          "is_correct": false,
+          "rationale": "Appearance is not a safety inspection criterion for a hard hat."
+        },
+        {
+          "key": "E",
+          "text": "Confirming that the hard hat's original purchase date is less than one year ago from today.",
+          "is_correct": false,
+          "rationale": "Hard hats have expiration dates, but inspection is the daily priority."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "When performing a two-person lift for a long or awkward object, what is the most critical coordination element for safety?",
+      "explanation": "Coordinating the lift by communicating clearly and lifting in unison is vital for two-person lifts. This prevents sudden shifts in weight that can cause strain or injury to either worker.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensuring both workers are wearing the exact same brand of steel-toed boots for uniformity.",
+          "is_correct": false,
+          "rationale": "The brand of PPE is irrelevant; proper technique is what matters."
+        },
+        {
+          "key": "B",
+          "text": "Lifting on a pre-agreed count, such as 'one, two, three, lift,' to ensure synchronized movement.",
+          "is_correct": true,
+          "rationale": "A verbal count ensures both partners lift at the same time."
+        },
+        {
+          "key": "C",
+          "text": "Having the stronger person take the majority of the weight to make the lift much faster.",
+          "is_correct": false,
+          "rationale": "Weight should be distributed as evenly as possible to prevent injury."
+        },
+        {
+          "key": "D",
+          "text": "Walking as quickly as possible to the destination to minimize the time the load is carried.",
+          "is_correct": false,
+          "rationale": "Moving too quickly increases the risk of tripping or losing control."
+        },
+        {
+          "key": "E",
+          "text": "Deciding who will lead the lift after the object has already been picked up from the ground.",
+          "is_correct": false,
+          "rationale": "Leadership and communication must be established before the lift begins."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What is a common hazard on a construction site that workers should always be aware of?",
+      "explanation": "Construction sites present numerous hazards. Falling objects are a significant and frequent danger, requiring constant vigilance and appropriate personal protective equipment like hard hats to ensure worker safety.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Falling objects from elevated work areas pose a significant risk, requiring head protection and awareness.",
+          "is_correct": true,
+          "rationale": "Falling objects are a severe and common hazard on construction sites."
+        },
+        {
+          "key": "B",
+          "text": "The presence of too many different types of hand tools can cause confusion among the crew.",
+          "is_correct": false,
+          "rationale": "Tool variety is not a direct safety hazard but an organizational challenge."
+        },
+        {
+          "key": "C",
+          "text": "A lack of comfortable break areas might lead to worker fatigue over long shifts.",
+          "is_correct": false,
+          "rationale": "While important for well-being, this is not a direct physical hazard."
+        },
+        {
+          "key": "D",
+          "text": "The frequent delivery of new building materials can sometimes block access routes temporarily.",
+          "is_correct": false,
+          "rationale": "Temporary blockages are inconvenient but not a primary hazard like falling objects."
+        },
+        {
+          "key": "E",
+          "text": "Having too many supervisors on site can sometimes lead to conflicting instructions for daily tasks.",
+          "is_correct": false,
+          "rationale": "Conflicting instructions are an operational issue, not a direct safety hazard."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Before operating any power tool on a construction site, what is the most important step to take?",
+      "explanation": "Inspecting power tools before use is a fundamental safety practice. This ensures the tool is in good working condition, free from damage, and that all safety features are operational, preventing accidents.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Always inspect the tool for any damage or defects and ensure all safety guards are properly in place.",
+          "is_correct": true,
+          "rationale": "Pre-use inspection ensures the tool is safe to operate, preventing accidents."
+        },
+        {
+          "key": "B",
+          "text": "Make sure your personal cell phone is fully charged in case of an emergency during tool operation.",
+          "is_correct": false,
+          "rationale": "While good practice, it's not the most important step for tool safety."
+        },
+        {
+          "key": "C",
+          "text": "Confirm that the tool's color matches the color scheme of the company's other equipment and vehicles.",
+          "is_correct": false,
+          "rationale": "Tool color has no bearing on its operational safety or function."
+        },
+        {
+          "key": "D",
+          "text": "Check if the tool is brand new and has never been used before by another construction worker.",
+          "is_correct": false,
+          "rationale": "Newness doesn't guarantee safety; inspection is always required."
+        },
+        {
+          "key": "E",
+          "text": "Ensure you have a comfortable grip on the tool, even if it means removing some safety features.",
+          "is_correct": false,
+          "rationale": "Removing safety features is extremely dangerous and strictly forbidden."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Upon discovering a small, unidentified chemical spill in a work area, what is the correct initial safety procedure to follow?",
+      "explanation": "For any chemical spill, the first step is to secure the area and report it. This prevents exposure and ensures that a properly trained team handles the cleanup.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately clean up the spill using a nearby rag and water to quickly clear the walkway.",
+          "is_correct": false,
+          "rationale": "Using the wrong cleanup method can be dangerous and spread contamination."
+        },
+        {
+          "key": "B",
+          "text": "Secure the area to prevent others from entering, and immediately report it to your supervisor.",
+          "is_correct": true,
+          "rationale": "Isolating and reporting ensures a safe and proper response."
+        },
+        {
+          "key": "C",
+          "text": "Use a fan to blow air over the spill to help it evaporate faster from the surface.",
+          "is_correct": false,
+          "rationale": "This can spread hazardous vapors into the air, creating an inhalation risk."
+        },
+        {
+          "key": "D",
+          "text": "Cover the spill with a piece of plywood or cardboard to hide it until cleanup crews arrive.",
+          "is_correct": false,
+          "rationale": "Hiding a spill is unsafe and prevents a proper cleanup response."
+        },
+        {
+          "key": "E",
+          "text": "Attempt to identify the chemical by smelling it carefully to determine the level of danger involved.",
+          "is_correct": false,
+          "rationale": "Never smell an unknown chemical; it can cause serious respiratory injury."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Why is wearing a hard hat, safety glasses, and steel-toed boots mandatory on a construction site?",
+      "explanation": "Personal protective equipment (PPE) like hard hats, safety glasses, and steel-toed boots are crucial for safeguarding construction workers against common site hazards. They provide direct protection from physical injuries.",
+      "options": [
+        {
+          "key": "A",
+          "text": "These items are essential for protecting workers from falling objects, flying debris, and foot injuries on site.",
+          "is_correct": true,
+          "rationale": "PPE protects workers from common physical hazards on site."
+        },
+        {
+          "key": "B",
+          "text": "They are primarily used to identify workers from different companies operating within the same large construction area.",
+          "is_correct": false,
+          "rationale": "Identification is a secondary, not primary, purpose of PPE."
+        },
+        {
+          "key": "C",
+          "text": "The gear helps keep workers warm during cold weather conditions, improving overall comfort and productivity levels.",
+          "is_correct": false,
+          "rationale": "While some gear helps with warmth, it's not the primary safety reason."
+        },
+        {
+          "key": "D",
+          "text": "Wearing specific personal protective equipment makes workers look more professional and uniform while working.",
+          "is_correct": false,
+          "rationale": "Professional appearance is not the primary safety objective."
+        },
+        {
+          "key": "E",
+          "text": "They improve visibility of workers to heavy machinery operators, preventing potential accidents on busy sites.",
+          "is_correct": false,
+          "rationale": "High-visibility clothing does this, not standard PPE items alone."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "When is it generally required to use a mechanical lifting aid, like a forklift or crane, instead of manual lifting?",
+      "explanation": "Using mechanical aids is often required by safety regulations when an object's weight or size exceeds safe manual lifting limits, significantly reducing the risk of musculoskeletal injuries.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Whenever an object feels slightly heavy to one person, even if it is below the company's weight limit.",
+          "is_correct": false,
+          "rationale": "While caution is good, this is not a formal requirement."
+        },
+        {
+          "key": "B",
+          "text": "Only when the object is too large to fit through a standard doorway or narrow hallway.",
+          "is_correct": false,
+          "rationale": "Size is a factor, but weight is the primary determinant."
+        },
+        {
+          "key": "C",
+          "text": "When the object exceeds a specified weight limit or is too bulky for a safe manual grip.",
+          "is_correct": true,
+          "rationale": "Weight and bulkiness are key factors for requiring mechanical aid."
+        },
+        {
+          "key": "D",
+          "text": "For any object that requires more than one person to lift, regardless of its total weight.",
+          "is_correct": false,
+          "rationale": "Team lifting is a valid manual method for moderately heavy items."
+        },
+        {
+          "key": "E",
+          "text": "When a mechanical lifting aid is available nearby, even for very light and easily manageable items.",
+          "is_correct": false,
+          "rationale": "Using mechanical aids for light items can be inefficient and unnecessary."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Which of the following hand tools is primarily used for accurately measuring distances on a job site?",
+      "explanation": "A tape measure is a fundamental tool for any construction worker, enabling accurate measurement of lengths, widths, and heights. Precision is critical for quality construction.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A tape measure is designed for precise length measurements, ensuring materials are cut and placed correctly.",
+          "is_correct": true,
+          "rationale": "Tape measures are essential for accurate distance measurement."
+        },
+        {
+          "key": "B",
+          "text": "A claw hammer is used for driving nails into wood and also for prying them out when necessary.",
+          "is_correct": false,
+          "rationale": "A claw hammer is for driving and removing nails."
+        },
+        {
+          "key": "C",
+          "text": "A utility knife is commonly used for cutting various materials like drywall, insulation, and roofing felt.",
+          "is_correct": false,
+          "rationale": "A utility knife is used for cutting tasks."
+        },
+        {
+          "key": "D",
+          "text": "A level is essential for determining if a surface is perfectly horizontal or vertical, ensuring structural integrity.",
+          "is_correct": false,
+          "rationale": "A level checks for horizontal or vertical alignment."
+        },
+        {
+          "key": "E",
+          "text": "A wrench is primarily used for tightening or loosening nuts and bolts, typically in plumbing or mechanical work.",
+          "is_correct": false,
+          "rationale": "A wrench is used for fasteners like nuts and bolts."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What should you do immediately if you notice an unmarked electrical cable lying across a walkway?",
+      "explanation": "Unmarked electrical cables pose serious electrocution risks. Reporting hazards to a supervisor ensures trained personnel can address the danger safely and prevent accidents on site.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately report the hazard to your supervisor or a designated safety officer to ensure prompt action.",
+          "is_correct": true,
+          "rationale": "Reporting ensures proper handling of dangerous electrical hazards."
+        },
+        {
+          "key": "B",
+          "text": "Carefully move the cable yourself to a safer location, ensuring it is out of everyone's way.",
+          "is_correct": false,
+          "rationale": "Moving live cables without training is extremely dangerous."
+        },
+        {
+          "key": "C",
+          "text": "Place a temporary warning cone next to the cable and continue with your assigned tasks for the day.",
+          "is_correct": false,
+          "rationale": "A cone is insufficient for an unmarked electrical hazard."
+        },
+        {
+          "key": "D",
+          "text": "Ignore the cable, assuming another worker will eventually notice and take appropriate action.",
+          "is_correct": false,
+          "rationale": "Ignoring hazards is irresponsible and highly unsafe."
+        },
+        {
+          "key": "E",
+          "text": "Try to determine if the cable is live by touching it with a non-conductive object to assess the danger.",
+          "is_correct": false,
+          "rationale": "Attempting to test a live cable is extremely dangerous."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Why is it important for a construction worker to clearly understand and follow instructions from their supervisor?",
+      "explanation": "Clear communication and adherence to instructions are fundamental for safety, quality, and productivity on a construction site. Misunderstandings can lead to errors, delays, or accidents.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Following instructions ensures tasks are completed correctly, safely, and efficiently, meeting project specifications and deadlines.",
+          "is_correct": true,
+          "rationale": "Adhering to instructions ensures safety, quality, and project efficiency."
+        },
+        {
+          "key": "B",
+          "text": "It primarily helps the supervisor demonstrate their authority and maintain strict control over the entire team.",
+          "is_correct": false,
+          "rationale": "Authority is a byproduct, not the primary reason for instructions."
+        },
+        {
+          "key": "C",
+          "text": "Understanding instructions allows workers to finish their work quickly and leave the site earlier for the day.",
+          "is_correct": false,
+          "rationale": "Early departure is not the primary goal of following instructions."
+        },
+        {
+          "key": "D",
+          "text": "It is mainly for administrative purposes, ensuring accurate record-keeping of all daily activities performed.",
+          "is_correct": false,
+          "rationale": "Record-keeping is secondary to safety and task completion."
+        },
+        {
+          "key": "E",
+          "text": "Clear communication prevents workers from having to ask questions later, saving time for everyone involved.",
+          "is_correct": false,
+          "rationale": "Preventing questions is a benefit, not the core importance."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What type of personal protective equipment is required when working at a height of six feet or more above a lower level?",
+      "explanation": "Fall protection, such as a personal fall arrest system (PFAS) including a harness and lanyard, is mandatory when working at heights to prevent serious injury or death from falls.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A pair of heavy-duty leather gloves to ensure a secure grip on tools and structural elements.",
+          "is_correct": false,
+          "rationale": "Gloves provide hand protection but do not prevent falls."
+        },
+        {
+          "key": "B",
+          "text": "A personal fall arrest system, including a full-body harness, lanyard, and a secure anchor point.",
+          "is_correct": true,
+          "rationale": "A PFAS is specifically designed to arrest a fall from height."
+        },
+        {
+          "key": "C",
+          "text": "Knee pads to provide cushioning when kneeling on hard or uneven surfaces for extended periods.",
+          "is_correct": false,
+          "rationale": "Knee pads are for comfort and joint protection, not fall safety."
+        },
+        {
+          "key": "D",
+          "text": "A high-visibility vest to ensure the worker can be seen by crane operators from a distance.",
+          "is_correct": false,
+          "rationale": "Visibility is important but does not protect from a fall."
+        },
+        {
+          "key": "E",
+          "text": "Standard steel-toed boots that provide extra ankle support for better balance on narrow beams.",
+          "is_correct": false,
+          "rationale": "Footwear is important for stability but is not fall arrest equipment."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Which hand tool is essential for verifying that a surface, such as a windowsill or a concrete form, is perfectly horizontal?",
+      "explanation": "A level is the designated tool for determining if a surface is perfectly horizontal (level) or vertical (plumb). This is crucial for structural integrity and finish quality.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A framing square, which is primarily used for laying out perfectly square corners and angles.",
+          "is_correct": false,
+          "rationale": "A framing square checks for 90-degree angles, not horizontal planes."
+        },
+        {
+          "key": "B",
+          "text": "A chalk line, which is used for snapping long, straight lines between two points on a surface.",
+          "is_correct": false,
+          "rationale": "A chalk line creates straight lines but does not verify levelness."
+        },
+        {
+          "key": "C",
+          "text": "A spirit level or bubble level, which uses a vial of liquid with a bubble to indicate levelness.",
+          "is_correct": true,
+          "rationale": "The bubble in the vial indicates if a surface is level."
+        },
+        {
+          "key": "D",
+          "text": "A tape measure, which is the primary tool for accurately measuring the length and width of objects.",
+          "is_correct": false,
+          "rationale": "A tape measure is for measuring distance, not determining level."
+        },
+        {
+          "key": "E",
+          "text": "A pry bar, which is used for leverage to separate two objects or to remove embedded nails.",
+          "is_correct": false,
+          "rationale": "A pry bar is a demolition and leverage tool, not a measurement tool."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is the most effective method for storing lumber on a construction site to prevent warping and maintain its structural integrity?",
+      "explanation": "Proper storage of lumber, particularly by stacking it flat and off the ground, prevents moisture absorption, reduces warping, and ensures the material remains usable for construction.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Storing lumber upright against a wall helps save space, but it can lead to bowing and twisting over time.",
+          "is_correct": false,
+          "rationale": "Upright storage can cause lumber to bow, twist, and warp."
+        },
+        {
+          "key": "B",
+          "text": "Keeping lumber directly on the ground in a damp area will protect it from sunlight, but moisture causes rot.",
+          "is_correct": false,
+          "rationale": "Storing lumber on the ground leads to moisture absorption and rot."
+        },
+        {
+          "key": "C",
+          "text": "Stacking lumber flat on level supports, elevated off the ground, protects it from moisture and prevents warping.",
+          "is_correct": true,
+          "rationale": "Flat, elevated storage prevents warping and moisture damage to lumber."
+        },
+        {
+          "key": "D",
+          "text": "Covering lumber with a tarp and leaving it exposed to rain ensures it stays clean, but moisture will still accumulate underneath.",
+          "is_correct": false,
+          "rationale": "A tarp alone may not prevent moisture accumulation and warping."
+        },
+        {
+          "key": "E",
+          "text": "Placing all lumber in a single, unorganized pile makes it difficult to access and increases the risk of damage.",
+          "is_correct": false,
+          "rationale": "Disorganized piles lead to damage and make material access difficult."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is the primary purpose of a Lockout/Tagout (LOTO) procedure when servicing or maintaining construction equipment?",
+      "explanation": "Lockout/Tagout is a critical safety procedure that ensures dangerous equipment is properly shut off and not restarted before maintenance or service work is completed, preventing accidental startup.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To prevent the theft of expensive machinery by locking the controls when it is not in use.",
+          "is_correct": false,
+          "rationale": "While it may deter theft, its primary purpose is worker safety."
+        },
+        {
+          "key": "B",
+          "text": "To control and isolate energy sources, preventing the unexpected startup of equipment during maintenance or repair.",
+          "is_correct": true,
+          "rationale": "LOTO is specifically designed to prevent accidental energization during service."
+        },
+        {
+          "key": "C",
+          "text": "To track which employee last used a specific piece of equipment for accountability and usage logs.",
+          "is_correct": false,
+          "rationale": "Usage logs are separate administrative tasks, not the purpose of LOTO."
+        },
+        {
+          "key": "D",
+          "text": "To mark equipment that is scheduled for its routine inspection within the next business week.",
+          "is_correct": false,
+          "rationale": "Inspection schedules are managed separately from LOTO procedures."
+        },
+        {
+          "key": "E",
+          "text": "To reduce the overall energy consumption of the construction site during off-peak working hours.",
+          "is_correct": false,
+          "rationale": "Energy conservation is not the primary goal of this safety procedure."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What is the primary purpose of setting up barricades or caution tape around a specific work area on a construction site?",
+      "explanation": "Barricades and caution tape serve as visual warnings to keep unauthorized personnel out of hazardous areas, protecting both workers and the public from potential dangers.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To indicate where lunch breaks are permitted for all workers, ensuring everyone knows the designated safe zone.",
+          "is_correct": false,
+          "rationale": "Barricades are for hazards, not designating break areas."
+        },
+        {
+          "key": "B",
+          "text": "To clearly mark off a hazardous or restricted area, preventing unauthorized access and ensuring worker safety.",
+          "is_correct": true,
+          "rationale": "Barricades prevent unauthorized access to hazardous work areas, ensuring safety."
+        },
+        {
+          "key": "C",
+          "text": "To provide a boundary for storing personal tools and equipment, keeping them organized and easily accessible.",
+          "is_correct": false,
+          "rationale": "Barricades are for safety, not for tool or equipment storage boundaries."
+        },
+        {
+          "key": "D",
+          "text": "To outline the precise dimensions of a new foundation pour, guiding the concrete placement process accurately.",
+          "is_correct": false,
+          "rationale": "Layout is done with stakes/lines, not primarily with barricades."
+        },
+        {
+          "key": "E",
+          "text": "To separate different teams working on the same project, promoting efficient communication and task delegation.",
+          "is_correct": false,
+          "rationale": "Team separation is not the primary purpose of barricading hazards."
+        }
+      ]
+    }
+  ]
+}

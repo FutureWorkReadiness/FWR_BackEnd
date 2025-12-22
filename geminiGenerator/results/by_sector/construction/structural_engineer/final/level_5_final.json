@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "When designing a multi-story post-tensioned concrete slab, which long-term deflection component requires the most careful and complex calculation for serviceability?",
+      "explanation": "Creep and shrinkage are time-dependent material properties of concrete that significantly influence the long-term behavior of post-tensioned slabs. Accurately predicting these effects is crucial for ensuring serviceability and preventing issues like cracking of partitions or flooring.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The immediate elastic deflection under the initial application of self-weight and superimposed dead loads.",
+          "is_correct": false,
+          "rationale": "This is a short-term effect, not the most complex long-term component."
+        },
+        {
+          "key": "B",
+          "text": "The upward camber induced by the eccentric post-tensioning force at the time of tendon stressing.",
+          "is_correct": false,
+          "rationale": "This is an initial, short-term effect that counteracts deflection, not a long-term problem."
+        },
+        {
+          "key": "C",
+          "text": "Deflection caused by the application of transient live loads during the building's operational life.",
+          "is_correct": false,
+          "rationale": "Live load deflection is typically a short-term, elastic response and is less complex."
+        },
+        {
+          "key": "D",
+          "text": "Creep and shrinkage effects, which cause a gradual increase in deflection and loss of prestress over many years.",
+          "is_correct": true,
+          "rationale": "Creep and shrinkage are the most complex time-dependent variables affecting long-term performance."
+        },
+        {
+          "key": "E",
+          "text": "The deflection resulting from thermal expansion and contraction due to daily or seasonal temperature changes.",
+          "is_correct": false,
+          "rationale": "Thermal effects are cyclical and generally less critical for long-term net deflection."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "You are tasked with the seismic retrofitting of a historic unreinforced masonry building. What is the most appropriate primary strategy to improve its seismic performance?",
+      "explanation": "Base isolation is a highly effective retrofitting technique that protects the building's integrity and architectural features by reducing the seismic forces transmitted into the structure. Other methods can be overly invasive or counterproductive by increasing seismic mass.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Applying a thick layer of shotcrete to the exterior walls to increase their overall mass and stiffness.",
+          "is_correct": false,
+          "rationale": "Adding mass increases the seismic forces the structure must resist, which is often counterproductive."
+        },
+        {
+          "key": "B",
+          "text": "Installing base isolation bearings between the foundation and superstructure to decouple it from ground motion.",
+          "is_correct": true,
+          "rationale": "Base isolation directly reduces seismic demand on the structure, preserving its historic fabric."
+        },
+        {
+          "key": "C",
+          "text": "Replacing all existing timber floor diaphragms with new, heavier reinforced concrete slabs for rigidity.",
+          "is_correct": false,
+          "rationale": "This adds significant weight and may be incompatible with the existing masonry structure."
+        },
+        {
+          "key": "D",
+          "text": "Demolishing and rebuilding the entire structure using modern reinforced concrete moment frames for compliance.",
+          "is_correct": false,
+          "rationale": "This is replacement, not retrofitting, and it completely destroys the building's historic value."
+        },
+        {
+          "key": "E",
+          "text": "Adding numerous small windows and openings to reduce the overall stiffness of the exterior walls.",
+          "is_correct": false,
+          "rationale": "This would significantly weaken the lateral force-resisting system of the masonry walls."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "When is a second-order analysis, which accounts for P-Delta effects, most critical for a tall steel building's lateral force-resisting system?",
+      "explanation": "The P-Delta effect becomes significant when a structure undergoes large lateral displacements while supporting heavy gravity loads. This secondary moment, caused by the eccentricity of the gravity load, can reduce the structure's stability and must be accounted for in flexible, slender buildings.",
+      "options": [
+        {
+          "key": "A",
+          "text": "When designing the foundation system to resist the primary overturning moments from wind loads.",
+          "is_correct": false,
+          "rationale": "P-Delta primarily affects member forces and stability, not the global overturning moment calculation itself."
+        },
+        {
+          "key": "B",
+          "text": "When the building is relatively stiff and has a very low height-to-width aspect ratio.",
+          "is_correct": false,
+          "rationale": "P-Delta effects are minimal in stiff, stout structures that experience small lateral displacements."
+        },
+        {
+          "key": "C",
+          "text": "When the structure is flexible and subjected to significant gravity loads, causing large lateral displacements.",
+          "is_correct": true,
+          "rationale": "This combination of flexibility, gravity load, and large drift magnifies secondary moments significantly."
+        },
+        {
+          "key": "D",
+          "text": "When detailing the beam-to-column connections for ductility in a special moment resisting frame.",
+          "is_correct": false,
+          "rationale": "Connection detailing is a response to forces; P-Delta is about calculating those forces accurately."
+        },
+        {
+          "key": "E",
+          "text": "When calculating the initial elastic drift under frequent, service-level wind or seismic loads.",
+          "is_correct": false,
+          "rationale": "P-Delta is most critical for ultimate limit state analysis, not serviceability limit states."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "During the design of a deep pile foundation for a skyscraper in soft clay, what phenomenon is a primary concern for long-term settlement?",
+      "explanation": "In consolidating soft clays, the surrounding soil settles more than the piles, creating a downward frictional force (downdrag) on the pile shafts. This additional load must be accounted for in the geotechnical and structural design to prevent excessive long-term settlement.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The immediate elastic compression of the individual piles as the structural load is first applied.",
+          "is_correct": false,
+          "rationale": "This is a short-term settlement component and is typically less critical than long-term effects."
+        },
+        {
+          "key": "B",
+          "text": "Negative skin friction, or downdrag, caused by the consolidation of surrounding compressible soil layers.",
+          "is_correct": true,
+          "rationale": "Downdrag adds significant, unanticipated load to piles, causing major long-term settlement issues."
+        },
+        {
+          "key": "C",
+          "text": "The potential for uplift forces on the piles due to a rising groundwater table.",
+          "is_correct": false,
+          "rationale": "Uplift is a concern for light structures or basements, not a settlement issue for skyscrapers."
+        },
+        {
+          "key": "D",
+          "text": "Scouring of the soil around the pile caps due to surface water runoff or river flow.",
+          "is_correct": false,
+          "rationale": "Scour affects pile capacity at the mudline, but is not a deep consolidation settlement issue."
+        },
+        {
+          "key": "E",
+          "text": "The buckling of individual slender piles as they are driven through the soft upper soil strata.",
+          "is_correct": false,
+          "rationale": "Buckling is a stability failure mode during installation or loading, not a long-term settlement mechanism."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "A client wants to use an innovative composite material for a long-span pedestrian bridge. What is your primary responsibility as the lead structural engineer?",
+      "explanation": "The engineer's primary duty is to ensure public safety and structural integrity. This requires a rigorous evaluation of any new material's properties, including its long-term behavior, fire resistance, and connection performance, especially when it falls outside prescriptive code provisions.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately rejecting the proposal because the material is not covered by standard building codes.",
+          "is_correct": false,
+          "rationale": "Engineers should facilitate innovation through proper evaluation, not outright rejection based on codes alone."
+        },
+        {
+          "key": "B",
+          "text": "Focusing solely on the material's aesthetic qualities to satisfy the architect's primary design intent.",
+          "is_correct": false,
+          "rationale": "Aesthetics are secondary to the engineer's primary responsibility for safety and structural performance."
+        },
+        {
+          "key": "C",
+          "text": "Thoroughly investigating the material's long-term performance, durability, and connection details before approving its use.",
+          "is_correct": true,
+          "rationale": "This reflects the engineer's core duty of care and due diligence for public safety."
+        },
+        {
+          "key": "D",
+          "text": "Delegating the entire material approval process to the manufacturer's technical support team and their data.",
+          "is_correct": false,
+          "rationale": "The engineer of record must independently verify claims and retains ultimate professional responsibility."
+        },
+        {
+          "key": "E",
+          "text": "Selecting the cheapest available composite material to maximize the project's profitability for the client.",
+          "is_correct": false,
+          "rationale": "Cost is a factor, but it cannot compromise the primary duties of ensuring safety and performance."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "When conducting a performance-based seismic design for a high-rise building, what is the primary objective of the nonlinear time-history analysis?",
+      "explanation": "Nonlinear time-history analysis is crucial in performance-based design for simulating the structure's realistic, inelastic response to severe ground motions, allowing engineers to predict and control specific damage patterns.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To verify the structure's elastic response under frequent, low-intensity seismic events for basic serviceability checks.",
+          "is_correct": false,
+          "rationale": "This describes a lower-level performance objective, not the primary goal of nonlinear analysis for major events."
+        },
+        {
+          "key": "B",
+          "text": "To determine the precise fundamental period of the structure without considering any soil-structure interaction effects.",
+          "is_correct": false,
+          "rationale": "This is a basic modal analysis step, not the main purpose of a complex nonlinear time-history analysis."
+        },
+        {
+          "key": "C",
+          "text": "To accurately predict the extent and location of inelastic deformation and damage under a Maximum Considered Earthquake.",
+          "is_correct": true,
+          "rationale": "This analysis directly models post-yield behavior to quantify and locate damage under severe seismic loading."
+        },
+        {
+          "key": "D",
+          "text": "To calculate the base shear using the equivalent lateral force procedure as a preliminary design check.",
+          "is_correct": false,
+          "rationale": "This describes a prescriptive code method, which is fundamentally different from performance-based nonlinear analysis."
+        },
+        {
+          "key": "E",
+          "text": "To ensure all structural members remain entirely within their linear-elastic range during a major seismic event.",
+          "is_correct": false,
+          "rationale": "Performance-based design explicitly anticipates and manages controlled inelastic behavior, it does not assume purely elastic response."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "During the value engineering phase of a project with long-span post-tensioned concrete slabs, what is the most critical long-term serviceability issue to evaluate?",
+      "explanation": "Long-term deflections caused by concrete creep, shrinkage, and the relaxation of prestressing steel are a dominant serviceability concern in post-tensioned slabs, potentially affecting non-structural elements and overall building function.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The initial compressive strength of the concrete at the time of stressing the tendons for construction.",
+          "is_correct": false,
+          "rationale": "This is a critical short-term construction requirement, not a long-term serviceability issue for the building's life."
+        },
+        {
+          "key": "B",
+          "text": "The potential for punching shear failure around column supports under ultimate load conditions and combinations.",
+          "is_correct": false,
+          "rationale": "Punching shear is a critical strength limit state, not a long-term serviceability issue like deflection."
+        },
+        {
+          "key": "C",
+          "text": "The long-term deflection due to concrete creep and shrinkage, and relaxation of the prestressing steel.",
+          "is_correct": true,
+          "rationale": "These time-dependent effects are the primary drivers of long-term deflection, a key serviceability limit state."
+        },
+        {
+          "key": "D",
+          "text": "The required fire resistance rating of the slab, which is primarily determined by the concrete cover.",
+          "is_correct": false,
+          "rationale": "Fire resistance is a critical life-safety requirement, but it is distinct from serviceability considerations like deflection."
+        },
+        {
+          "key": "E",
+          "text": "The anchorage zone stresses which must be checked to prevent bursting or spalling during tensioning operations.",
+          "is_correct": false,
+          "rationale": "This is a localized stress check related to the construction phase, not a long-term serviceability concern."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "For a super-tall, aerodynamically sensitive building, why is a wind tunnel test often preferred over prescriptive code-based wind load calculations?",
+      "explanation": "Prescriptive codes are based on simplified, generic building shapes. Wind tunnel testing is essential for unique, tall structures to capture complex aerodynamic phenomena like vortex shedding, which can induce significant cross-wind oscillations not addressed by standard code provisions.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It provides a simplified base shear value that is much easier for the design team to implement.",
+          "is_correct": false,
+          "rationale": "Wind tunnel tests provide complex, detailed pressure data, not a simplified value."
+        },
+        {
+          "key": "B",
+          "text": "It is a mandatory legal requirement for all buildings exceeding a specific height, regardless of their shape.",
+          "is_correct": false,
+          "rationale": "It is considered best practice for complex structures but is not always a strict mandatory requirement."
+        },
+        {
+          "key": "C",
+          "text": "It is significantly less expensive and faster to perform than a computational fluid dynamics (CFD) analysis.",
+          "is_correct": false,
+          "rationale": "Physical wind tunnel testing is often more expensive and time-consuming but provides highly reliable data."
+        },
+        {
+          "key": "D",
+          "text": "It captures complex aerodynamic effects like vortex shedding and cross-wind response not covered by codes.",
+          "is_correct": true,
+          "rationale": "This is the primary advantage, as codes cannot account for the unique aerodynamic signature of every tall building."
+        },
+        {
+          "key": "E",
+          "text": "It exclusively determines the wind loads on non-structural components like the building's cladding and facade elements.",
+          "is_correct": false,
+          "rationale": "It determines loads for both the main structural system and the exterior components and cladding."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "When investigating a historic masonry structure for a seismic retrofit, what is the most crucial first step before proposing any strengthening interventions?",
+      "explanation": "A thorough condition assessment is the foundational step in any retrofit project. It provides the necessary data on material properties, structural integrity, and existing vulnerabilities, which informs all subsequent analysis and design decisions for the structure.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately designing a new steel braced frame system to be installed inside the existing historic structure.",
+          "is_correct": false,
+          "rationale": "Proposing a solution without a thorough investigation is premature and unprofessional."
+        },
+        {
+          "key": "B",
+          "text": "Performing a detailed condition assessment to identify material degradation, existing cracks, and construction typology.",
+          "is_correct": true,
+          "rationale": "Understanding the current state of the structure is paramount before any analysis or design can begin."
+        },
+        {
+          "key": "C",
+          "text": "Running a finite element analysis using assumed material properties based on the building's original construction age.",
+          "is_correct": false,
+          "rationale": "Analysis based on unverified assumptions is unreliable; physical assessment must come first to inform the model."
+        },
+        {
+          "key": "D",
+          "text": "Selecting modern, high-strength repair materials like carbon fiber reinforced polymers for the eventual retrofit.",
+          "is_correct": false,
+          "rationale": "Material selection is a later step that depends on the findings of the assessment and analysis."
+        },
+        {
+          "key": "E",
+          "text": "Obtaining the original architectural drawings to calculate the building's original intended design capacity.",
+          "is_correct": false,
+          "rationale": "While useful, a physical assessment of the current condition is more critical than relying on old drawings."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "In a high-rise project on a site with poor soil conditions, what primary advantage does a piled raft foundation offer over a traditional pile group?",
+      "explanation": "A piled raft foundation is an optimized system where the building load is shared between the raft (bearing directly on the soil) and the piles. This composite action enhances bearing capacity and effectively controls differential settlement.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It completely eliminates any settlement of the structure, ensuring zero vertical movement over its entire lifespan.",
+          "is_correct": false,
+          "rationale": "No foundation can completely eliminate settlement; this system is designed to manage and reduce it effectively."
+        },
+        {
+          "key": "B",
+          "text": "It relies solely on the end-bearing capacity of the piles, ignoring any contribution from the raft.",
+          "is_correct": false,
+          "rationale": "The key principle is the combined action of both the raft and the piles working together."
+        },
+        {
+          "key": "C",
+          "text": "It is significantly cheaper and faster to construct than any other type of deep foundation system available.",
+          "is_correct": false,
+          "rationale": "Piled raft foundations can be complex and costly, but are chosen for their engineering efficiency."
+        },
+        {
+          "key": "D",
+          "text": "It engages both the raft bearing on the soil and the piles to optimize load distribution and reduce settlement.",
+          "is_correct": true,
+          "rationale": "This accurately describes the composite action that makes a piled raft foundation an efficient solution."
+        },
+        {
+          "key": "E",
+          "text": "It is designed to transfer only lateral loads from wind or seismic events to the surrounding soil.",
+          "is_correct": false,
+          "rationale": "It is primarily designed for gravity loads, although it also resists lateral forces from the superstructure."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "When evaluating long-term deflection in a post-tensioned concrete slab, which factor typically has the most significant and complex influence over time?",
+      "explanation": "Long-term deflection in PT concrete is dominated by time-dependent material behaviors like creep, shrinkage, and steel relaxation. These factors cause a gradual redistribution of stresses and increase deflection over many years, far outweighing initial elastic effects.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The initial elastic shortening of the concrete member at the time of stressing the tendons, which is a short-term effect.",
+          "is_correct": false,
+          "rationale": "This is an immediate, short-term effect, not a primary driver of long-term deflection."
+        },
+        {
+          "key": "B",
+          "text": "The specified live load, as it is generally transient and its long-term effects are less pronounced than material properties.",
+          "is_correct": false,
+          "rationale": "Sustained live load contributes, but material properties like creep have a larger, more complex influence."
+        },
+        {
+          "key": "C",
+          "text": "Creep and shrinkage of the concrete, combined with relaxation of the prestressing steel, which collectively alter the internal stress state.",
+          "is_correct": true,
+          "rationale": "These time-dependent material properties are the primary drivers of long-term deflection in post-tensioned concrete."
+        },
+        {
+          "key": "D",
+          "text": "The friction losses that occur along the length of the tendon profile during the initial tensioning process.",
+          "is_correct": false,
+          "rationale": "Friction losses affect the initial prestress force but are not a time-dependent factor for long-term deflection."
+        },
+        {
+          "key": "E",
+          "text": "Thermal expansion and contraction of the slab due to daily temperature variations, which cause cyclical but not cumulative movements.",
+          "is_correct": false,
+          "rationale": "Thermal effects cause movement but typically do not contribute to the cumulative, permanent long-term deflection."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "You are tasked with the seismic retrofitting of a historic unreinforced masonry building. Which strategy provides the best combination of life safety and structural integrity?",
+      "explanation": "Introducing a new, independent lateral force-resisting system like a steel frame or shear walls is the most robust method. It provides a clear load path for seismic forces while minimizing reliance on the brittle unreinforced masonry.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Applying a shotcrete layer to the exterior faces of all masonry walls, which adds significant mass and changes the building's aesthetic.",
+          "is_correct": false,
+          "rationale": "This adds stiffness and mass, which can attract more seismic force, and has significant architectural impact."
+        },
+        {
+          "key": "B",
+          "text": "Using epoxy injection to fill all existing cracks in the masonry, which only provides a localized and often temporary repair solution.",
+          "is_correct": false,
+          "rationale": "Epoxy injection is a surface-level repair and does not create a new, reliable lateral system for the entire structure."
+        },
+        {
+          "key": "C",
+          "text": "Simply anchoring the floor and roof diaphragms more securely to the walls without adding a new primary lateral system.",
+          "is_correct": false,
+          "rationale": "While important, this only improves connections and does not address the inherent weakness of the unreinforced masonry walls themselves."
+        },
+        {
+          "key": "D",
+          "text": "Installing a new internal steel braced frame or concrete shear wall system to act as the primary lateral force-resisting element.",
+          "is_correct": true,
+          "rationale": "This creates a new, ductile system to resist seismic loads, providing the most reliable path to life safety."
+        },
+        {
+          "key": "E",
+          "text": "Replacing all the existing timber floor joists with new steel beams to increase the vertical load-carrying capacity.",
+          "is_correct": false,
+          "rationale": "This addresses gravity loads but does not improve the building's ability to resist lateral seismic forces."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "When designing a deep foundation system in liquefiable soils for a high-rise structure, what is the most critical design consideration beyond simple bearing capacity?",
+      "explanation": "In liquefiable soils, the loss of soil strength can lead to lateral spreading. This ground movement exerts significant lateral forces and bending moments on deep foundations, which can cause pile failure if not explicitly designed for.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The total estimated cost of the foundation piles, as this will heavily influence the project's overall budget and feasibility.",
+          "is_correct": false,
+          "rationale": "Cost is a project constraint, but it is not the most critical technical design consideration for safety."
+        },
+        {
+          "key": "B",
+          "text": "The potential for downdrag on the piles due to consolidation of surrounding soils after a seismic event.",
+          "is_correct": false,
+          "rationale": "Downdrag is a vertical load concern, whereas lateral spreading imposes much larger and more dangerous bending moments."
+        },
+        {
+          "key": "C",
+          "text": "The long-term corrosion rate of the steel piles, which is a durability concern but not the primary seismic stability issue.",
+          "is_correct": false,
+          "rationale": "Corrosion is a serviceability and durability issue, but it is secondary to the immediate threat of seismic-induced failure."
+        },
+        {
+          "key": "D",
+          "text": "The ease of installation for the chosen pile type, which primarily affects the construction schedule rather than ultimate structural safety.",
+          "is_correct": false,
+          "rationale": "Constructability is important for execution but does not govern the fundamental design principles for seismic safety."
+        },
+        {
+          "key": "E",
+          "text": "The lateral spreading of the soil during a liquefaction event, which can impose enormous lateral loads and bending moments on the piles.",
+          "is_correct": true,
+          "rationale": "Lateral spreading is a catastrophic failure mode that imposes immense bending demands on piles, making it the critical design driver."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "In a Performance-Based Design (PBD) approach for a tall building, what is the primary goal of running a nonlinear time-history analysis?",
+      "explanation": "PBD uses nonlinear analysis to simulate how a structure will behave beyond its elastic limit. The goal is to control and predict damage, ensuring it meets specific performance levels (e.g., Immediate Occupancy, Life Safety) for various earthquake intensities.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To explicitly model and quantify structural damage, such as plastic hinging, to ensure it meets predefined performance objectives for different hazard levels.",
+          "is_correct": true,
+          "rationale": "This analysis directly assesses post-yield behavior and damage to verify performance objectives, which is the core of PBD."
+        },
+        {
+          "key": "B",
+          "text": "To verify that the building's fundamental period of vibration matches the initial assumptions made during the preliminary design phase.",
+          "is_correct": false,
+          "rationale": "This is typically done with a simpler modal analysis, not a full nonlinear time-history analysis."
+        },
+        {
+          "key": "C",
+          "text": "To calculate the exact construction cost by simulating the material quantities required for each structural element under seismic loading.",
+          "is_correct": false,
+          "rationale": "This analysis focuses on structural response, not material takeoff or cost estimation, which are separate processes."
+        },
+        {
+          "key": "D",
+          "text": "To ensure the structure remains entirely within the elastic range under the Maximum Considered Earthquake (MCE) to prevent any damage.",
+          "is_correct": false,
+          "rationale": "PBD explicitly allows for and quantifies inelastic behavior (damage); keeping it elastic under MCE is often uneconomical and not the goal."
+        },
+        {
+          "key": "E",
+          "text": "To generate architectural renderings of the building's movement during an earthquake for client presentations and marketing materials.",
+          "is_correct": false,
+          "rationale": "While results can be visualized, the primary purpose is engineering assessment, not creating marketing materials."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "As a lead engineer reviewing a junior colleague's design for a complex connection, what constitutes the most significant professional negligence or oversight?",
+      "explanation": "The most critical responsibility of a lead engineer is to ensure the fundamental principles of structural mechanics are correctly applied. Overlooking a critical load path or failure mechanism is a severe oversight that automated software might miss, potentially leading to catastrophic failure.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Failing to optimize the connection for material efficiency, resulting in a slightly higher but still safe construction cost.",
+          "is_correct": false,
+          "rationale": "This is a value engineering issue, not a life-safety or negligence issue, as the connection is still safe."
+        },
+        {
+          "key": "B",
+          "text": "Overlooking a fundamental load path or failure mode that is not explicitly checked by standard design software, leading to a potential collapse.",
+          "is_correct": true,
+          "rationale": "Missing a fundamental failure mode is a critical error that directly compromises safety and represents a major professional oversight."
+        },
+        {
+          "key": "C",
+          "text": "Using a design software version that is one year out of date but still compliant with current building codes.",
+          "is_correct": false,
+          "rationale": "This is not ideal practice but is not negligent if the software is still code-compliant and produces a safe design."
+        },
+        {
+          "key": "D",
+          "text": "Submitting the design calculations with minor typographical errors in the report narrative that do not affect the numerical results.",
+          "is_correct": false,
+          "rationale": "This is an issue of quality control and presentation, but it does not affect the structural safety of the design."
+        },
+        {
+          "key": "E",
+          "text": "Specifying a standard bolt grade that is readily available instead of a higher-strength bolt that could save minor weight.",
+          "is_correct": false,
+          "rationale": "This is a practical design choice, not an oversight, especially if it improves constructability and meets all strength requirements."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "When designing a post-tensioned concrete structure in a highly corrosive marine environment, what is the most critical long-term durability consideration to specify?",
+      "explanation": "Encapsulated and electrically isolated tendons are the most robust method for protecting prestressing steel from chloride attack in aggressive marine environments, ensuring long-term structural integrity and durability, which is paramount for such critical infrastructure.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Specifying fully encapsulated, electrically isolated unbonded tendons to prevent chloride-induced corrosion of the high-strength prestressing steel.",
+          "is_correct": true,
+          "rationale": "This provides the most robust protection system against corrosion for prestressing steel in aggressive environments."
+        },
+        {
+          "key": "B",
+          "text": "Increasing the concrete cover significantly beyond standard code requirements, which provides only partial and temporary protection against ingress.",
+          "is_correct": false,
+          "rationale": "Increased cover delays corrosion but does not prevent it, especially if cracking occurs over the structure's life."
+        },
+        {
+          "key": "C",
+          "text": "Using a higher strength concrete mix, which primarily addresses compressive capacity rather than offering comprehensive corrosion resistance.",
+          "is_correct": false,
+          "rationale": "While denser, high-strength concrete is not impervious to long-term chloride ion penetration and corrosion."
+        },
+        {
+          "key": "D",
+          "text": "Applying a surface-level waterproofing membrane, which can be easily damaged during construction or service life, compromising protection.",
+          "is_correct": false,
+          "rationale": "Surface membranes are not a permanent solution and are susceptible to damage, making them unreliable for primary protection."
+        },
+        {
+          "key": "E",
+          "text": "Incorporating sacrificial anodes within the concrete, a method more suited for conventional reinforced concrete and less effective for tendons.",
+          "is_correct": false,
+          "rationale": "This cathodic protection method is less effective for the highly stressed, small-diameter steel used in post-tensioning tendons."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "As the lead engineer on a high-rise project, a value engineering proposal suggests replacing composite steel beams with post-tensioned concrete slabs. What is your primary concern?",
+      "explanation": "Changing a primary structural system mid-design has significant ripple effects. The impact on floor heights, MEP coordination, and the construction sequence are paramount concerns for a lead engineer managing the project's overall success and schedule.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The potential impact on the construction schedule and floor-to-floor heights, which affects building services coordination and project timeline.",
+          "is_correct": true,
+          "rationale": "This considers the holistic project impact, including schedule and coordination, which is a lead engineer's responsibility."
+        },
+        {
+          "key": "B",
+          "text": "The minor reduction in the overall dead load of the structure, which would have a negligible effect on the foundation design.",
+          "is_correct": false,
+          "rationale": "While a consideration, the dead load change is often manageable and not the primary concern compared to schedule."
+        },
+        {
+          "key": "C",
+          "text": "The aesthetic differences between the exposed soffits of steel beams versus a flat concrete slab, which is an architectural consideration.",
+          "is_correct": false,
+          "rationale": "Aesthetics are important but are secondary to the functional and logistical impacts of such a significant system change."
+        },
+        {
+          "key": "D",
+          "text": "The availability of skilled labor for post-tensioning work, as this is a common construction technique in most urban areas.",
+          "is_correct": false,
+          "rationale": "Labor availability is a logistical point, but the core design coordination and schedule impacts are more critical."
+        },
+        {
+          "key": "E",
+          "text": "The change in fire rating requirements, as both systems can be designed to meet the necessary fire resistance levels effectively.",
+          "is_correct": false,
+          "rationale": "Fire rating is a code requirement that can be met by either system, making it a design task, not a primary concern."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "When conducting a non-linear time-history analysis for a seismically isolated tall building, what is the most critical parameter to accurately model for reliable results?",
+      "explanation": "In a seismically isolated structure, the non-linear properties of the isolators are the single most important factor. They control the period shift and energy dissipation, which are the fundamental principles behind the entire isolation strategy.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The hysteretic behavior and velocity-dependent properties of the isolation bearings, as these directly govern the structure's dynamic response.",
+          "is_correct": true,
+          "rationale": "The isolators' non-linear behavior is the core of the seismic isolation system and dominates the structural response."
+        },
+        {
+          "key": "B",
+          "text": "The exact mass distribution on each floor, which is important but less critical than the isolator properties for overall response.",
+          "is_correct": false,
+          "rationale": "Mass is a key input, but small variations have less impact than inaccuracies in the isolator model."
+        },
+        {
+          "key": "C",
+          "text": "The P-Delta effects of the superstructure, which are secondary effects that become significant only after the primary isolation response is determined.",
+          "is_correct": false,
+          "rationale": "P-Delta effects are important to check, but they are a consequence of the displacement, which is governed by the isolators."
+        },
+        {
+          "key": "D",
+          "text": "The soil-structure interaction effects, which are often simplified in initial analyses without compromising the primary results significantly.",
+          "is_correct": false,
+          "rationale": "While relevant, SSI effects are often less critical than the behavior of the isolation system itself."
+        },
+        {
+          "key": "E",
+          "text": "The damping ratio of the superstructure itself, as most energy dissipation is designed to occur within the isolation system.",
+          "is_correct": false,
+          "rationale": "The superstructure is typically designed to remain elastic, with minimal damping compared to the high damping from isolators."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "You are investigating the progressive collapse of a multi-story concrete frame structure. What initial evidence would most strongly suggest a punching shear failure at a column?",
+      "explanation": "Punching shear failure is characterized by a localized, brittle failure where a column \"punches\" through the slab. This creates a distinctive conical fracture surface around the column head, which is a key piece of forensic evidence.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A slab section that has dropped vertically around a column, with a distinct conical failure surface visible in the slab.",
+          "is_correct": true,
+          "rationale": "This describes the classic physical evidence of a punching shear failure mechanism in a flat slab system."
+        },
+        {
+          "key": "B",
+          "text": "The presence of wide flexural cracks running parallel to the main reinforcement on the top surface of the slab.",
+          "is_correct": false,
+          "rationale": "This is indicative of a flexural failure (bending), not a localized shear failure around the column."
+        },
+        {
+          "key": "C",
+          "text": "Diagonal shear cracks observed within the beams framing into the columns, indicating a beam shear failure mechanism instead.",
+          "is_correct": false,
+          "rationale": "This evidence points to a failure in the beams, which is a different mechanism from punching shear in the slab."
+        },
+        {
+          "key": "D",
+          "text": "Evidence of significant concrete spalling and buckled reinforcement at the base of the column, which points to axial compression failure.",
+          "is_correct": false,
+          "rationale": "This suggests the column itself failed under compression, not that the slab failed around the column."
+        },
+        {
+          "key": "E",
+          "text": "Uniform settlement of the entire foundation system, which would suggest a geotechnical issue rather than a localized structural failure.",
+          "is_correct": false,
+          "rationale": "This points to a foundation or soil problem, which would affect the entire structure, not a localized slab failure."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "As the Engineer of Record, you find a design error after foundation work has begun. What is your most immediate professional and ethical responsibility?",
+      "explanation": "The paramount professional and ethical obligation is to protect public safety and the project's integrity. This requires immediately halting potentially unsafe work and transparently communicating the issue to all relevant parties to coordinate a proper resolution.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately issue a stop-work order for the affected areas and formally notify the client and contractor in writing about the error.",
+          "is_correct": true,
+          "rationale": "This prioritizes safety and professional ethics through immediate, transparent communication and action to prevent further issues."
+        },
+        {
+          "key": "B",
+          "text": "Attempt to develop a remedial solution discreetly without formally notifying the client to avoid alarming them or admitting liability prematurely.",
+          "is_correct": false,
+          "rationale": "This is unethical, compromises safety, and violates the duty to inform the client of significant project issues."
+        },
+        {
+          "key": "C",
+          "text": "Allow the contractor to proceed with the current work while you work on a revised design to be issued later.",
+          "is_correct": false,
+          "rationale": "This is negligent as it knowingly allows incorrect or potentially unsafe work to continue, increasing risk and cost."
+        },
+        {
+          "key": "D",
+          "text": "Consult with your firm's legal counsel before taking any action, which could cause a dangerous delay in stopping unsafe work.",
+          "is_correct": false,
+          "rationale": "While legal advice is important, the immediate duty to ensure safety by stopping work must come first."
+        },
+        {
+          "key": "E",
+          "text": "Ask the contractor to propose a solution to the problem, improperly shifting the responsibility for a design error onto the builder.",
+          "is_correct": false,
+          "rationale": "This is an abdication of the engineer's responsibility; the designer is responsible for correcting design errors."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "What is the primary reason for wearing a hard hat on a construction site at all times?",
+      "explanation": "Wearing a hard hat is a fundamental safety requirement on construction sites. It protects the wearer from serious head injuries caused by falling objects, impacts, or accidental bumps, which are common hazards.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It provides essential protection against falling objects and potential head impacts from above or the sides.",
+          "is_correct": true,
+          "rationale": "Hard hats are essential for protecting against falling objects and head impacts."
+        },
+        {
+          "key": "B",
+          "text": "It helps identify workers by their designated team or role, improving communication across the entire site.",
+          "is_correct": false,
+          "rationale": "Identification is a secondary function, not the primary safety reason."
+        },
+        {
+          "key": "C",
+          "text": "It keeps the worker's head warm during cold weather conditions, ensuring comfort and preventing hypothermia.",
+          "is_correct": false,
+          "rationale": "Head warmth is not the primary safety function of a hard hat."
+        },
+        {
+          "key": "D",
+          "text": "It prevents sunburn and glare, allowing for better visibility and reducing eye strain throughout the workday.",
+          "is_correct": false,
+          "rationale": "Sun protection is not the primary safety function of a hard hat."
+        },
+        {
+          "key": "E",
+          "text": "It signifies adherence to company policies, demonstrating professionalism and compliance with site regulations.",
+          "is_correct": false,
+          "rationale": "Compliance is a result, not the primary safety reason for wearing it."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the most important practice when using a hammer to drive nails into wood?",
+      "explanation": "Inspecting tools before use is crucial for safety and effectiveness. A damaged hammer can cause injury or fail to perform correctly, highlighting the importance of pre-use checks.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensure the hammerhead is securely attached to the handle and inspect it for any cracks or damage beforehand.",
+          "is_correct": true,
+          "rationale": "Inspecting tools for damage ensures safe and effective operation."
+        },
+        {
+          "key": "B",
+          "text": "Apply a small amount of lubricant to the nail to reduce friction, making it easier to penetrate the material.",
+          "is_correct": false,
+          "rationale": "Lubricating nails is not a standard or safe practice for effective hammering."
+        },
+        {
+          "key": "C",
+          "text": "Use the heaviest hammer available to minimize the number of strikes required for efficient nail insertion.",
+          "is_correct": false,
+          "rationale": "The heaviest hammer is not always the safest or most appropriate choice."
+        },
+        {
+          "key": "D",
+          "text": "Hold the nail firmly between your fingers until the first few strikes have secured it in the wooden surface.",
+          "is_correct": false,
+          "rationale": "Holding the nail with fingers is dangerous; use a holder or start carefully."
+        },
+        {
+          "key": "E",
+          "text": "Strike the nail with glancing blows to avoid bending it, ensuring a smoother and more precise finish.",
+          "is_correct": false,
+          "rationale": "Direct, firm strikes are usually more effective than glancing blows."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "How should you properly lift a heavy bag of concrete mix from the ground to avoid back injury?",
+      "explanation": "Proper lifting technique is vital to prevent musculoskeletal injuries, especially back strains. Bending the knees and lifting with the legs distributes the load safely, protecting the back.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bend at your knees, keeping your back straight, and lift with your legs, not your back muscles.",
+          "is_correct": true,
+          "rationale": "Lifting with legs and a straight back prevents back injuries."
+        },
+        {
+          "key": "B",
+          "text": "Bend over at your waist, keeping your legs straight, and use your upper body strength to hoist the bag.",
+          "is_correct": false,
+          "rationale": "Bending at the waist with straight legs is a common cause of back injury."
+        },
+        {
+          "key": "C",
+          "text": "Quickly snatch the bag from the ground using momentum to minimize the strain on your lower back.",
+          "is_correct": false,
+          "rationale": "Snatching can lead to sudden strain and serious injury."
+        },
+        {
+          "key": "D",
+          "text": "Ask a single coworker to lift the bag alone, ensuring they use their strongest arm for better control.",
+          "is_correct": false,
+          "rationale": "A single coworker lifting alone is unsafe for heavy items."
+        },
+        {
+          "key": "E",
+          "text": "Use a forklift or other mechanical equipment, even for small bags, to avoid any manual lifting whatsoever.",
+          "is_correct": false,
+          "rationale": "While ideal for very heavy items, this isn't always practical for all bags."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Why is maintaining a clean and organized work area crucial on a busy construction site?",
+      "explanation": "A clean and organized work area is fundamental for safety. It directly reduces the risk of slips, trips, and falls, which are among the most common accidents on construction sites.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It significantly reduces trip hazards and prevents potential accidents, ensuring a safer environment for all workers.",
+          "is_correct": true,
+          "rationale": "A clean site reduces trip hazards and prevents accidents effectively."
+        },
+        {
+          "key": "B",
+          "text": "It makes the site look more aesthetically pleasing for visitors and potential clients, enhancing the company's image.",
+          "is_correct": false,
+          "rationale": "Aesthetics are secondary to safety and operational efficiency on site."
+        },
+        {
+          "key": "C",
+          "text": "It helps to keep tools and materials clean, extending their lifespan and reducing the need for frequent replacements.",
+          "is_correct": false,
+          "rationale": "While true, this is a secondary benefit, not the primary safety reason."
+        },
+        {
+          "key": "D",
+          "text": "It allows supervisors to easily track the progress of work, providing a clear overview of daily tasks completed.",
+          "is_correct": false,
+          "rationale": "Tracking progress is not the primary reason for site organization."
+        },
+        {
+          "key": "E",
+          "text": "It minimizes the amount of dust and debris, which improves air quality and reduces respiratory health risks.",
+          "is_correct": false,
+          "rationale": "Dust control is important, but trip hazards are a more immediate and common risk."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What should a construction worker do immediately upon discovering an unsafe condition or hazard on site?",
+      "explanation": "Promptly reporting hazards to supervision is critical for site safety. This ensures that appropriate action can be taken quickly by those responsible, preventing potential accidents or injuries.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Report the unsafe condition to their immediate supervisor or site foreman without delay for proper handling.",
+          "is_correct": true,
+          "rationale": "Reporting hazards to supervision ensures prompt and appropriate corrective action."
+        },
+        {
+          "key": "B",
+          "text": "Attempt to fix the hazard themselves using available tools and resources to prevent further issues from arising.",
+          "is_correct": false,
+          "rationale": "Fixing hazards without authorization can be dangerous or incorrect."
+        },
+        {
+          "key": "C",
+          "text": "Wait for the scheduled daily safety meeting to bring up the issue with the entire team for discussion.",
+          "is_correct": false,
+          "rationale": "Delaying reporting can lead to accidents before the meeting."
+        },
+        {
+          "key": "D",
+          "text": "Document the hazard with photos and notes, then proceed with their assigned tasks as usual for the day.",
+          "is_correct": false,
+          "rationale": "Documenting is good, but immediate reporting is the priority."
+        },
+        {
+          "key": "E",
+          "text": "Inform only their closest coworkers about the hazard, allowing them to decide on the next steps together.",
+          "is_correct": false,
+          "rationale": "Informing only coworkers is insufficient and does not ensure resolution."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "When working on a construction site, what is the most important personal protective equipment to wear for head protection?",
+      "explanation": "A hard hat is specifically designed to protect against head injuries from falling objects or impacts, which is a primary concern for head protection on a construction site.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A durable hard hat is essential for protecting your head from falling objects and impacts on site.",
+          "is_correct": true,
+          "rationale": "Hard hats are fundamental for head protection against site hazards."
+        },
+        {
+          "key": "B",
+          "text": "Safety glasses are critical for shielding your eyes from flying debris and harmful dust particles.",
+          "is_correct": false,
+          "rationale": "Safety glasses protect eyes, not the head."
+        },
+        {
+          "key": "C",
+          "text": "Wearing a high-visibility vest ensures you are easily seen by equipment operators and other workers.",
+          "is_correct": false,
+          "rationale": "High-visibility vests improve visibility, not head protection."
+        },
+        {
+          "key": "D",
+          "text": "Steel-toe boots provide crucial foot protection against heavy falling objects and potential punctures.",
+          "is_correct": false,
+          "rationale": "Steel-toe boots protect feet, not the head."
+        },
+        {
+          "key": "E",
+          "text": "Earplugs or earmuffs protect your hearing from loud machinery and continuous site noise exposure.",
+          "is_correct": false,
+          "rationale": "Ear protection safeguards hearing, not the head."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What is the most critical safety precaution when operating a circular saw on a construction site?",
+      "explanation": "The blade guard is a fundamental safety feature on a circular saw, designed to prevent accidental contact with the spinning blade and reduce injury risk.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Always ensure the blade guard is fully functional and properly positioned before making any cuts with the saw.",
+          "is_correct": true,
+          "rationale": "A functional blade guard is paramount for circular saw safety."
+        },
+        {
+          "key": "B",
+          "text": "Wearing heavy-duty work gloves will protect your hands from splinters and minor abrasions during operation.",
+          "is_correct": false,
+          "rationale": "Gloves are important, but the blade guard is more critical for saw operation."
+        },
+        {
+          "key": "C",
+          "text": "Utilizing a dust mask is important for preventing inhalation of sawdust and other airborne particles while cutting.",
+          "is_correct": false,
+          "rationale": "A dust mask protects respiratory health, not direct saw safety."
+        },
+        {
+          "key": "D",
+          "text": "Operating the saw in a brightly lit work area helps improve visibility and reduces the risk of accidents.",
+          "is_correct": false,
+          "rationale": "Good lighting is helpful, but the blade guard is a direct safety mechanism."
+        },
+        {
+          "key": "E",
+          "text": "Keeping all unauthorized personnel and other workers at a safe distance from your cutting area is crucial.",
+          "is_correct": false,
+          "rationale": "Maintaining a clear zone is important, but the blade guard protects the operator."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "How should you properly store bags of cement on a construction site to maintain their quality and prevent spoilage?",
+      "explanation": "Cement must be protected from moisture to prevent premature hardening. Storing bags elevated and dry ensures the material remains usable for its intended purpose.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Stack the bags directly on the ground in a shaded area, ensuring they are easily accessible for immediate use.",
+          "is_correct": false,
+          "rationale": "Storing on the ground exposes cement to moisture and can lead to spoilage."
+        },
+        {
+          "key": "B",
+          "text": "Store cement bags in close proximity to water sources to facilitate mixing and hydration for upcoming tasks.",
+          "is_correct": false,
+          "rationale": "Proximity to water will cause premature hardening of the cement."
+        },
+        {
+          "key": "C",
+          "text": "Keep cement bags elevated off the ground on pallets and covered in a dry, weather-protected storage area.",
+          "is_correct": true,
+          "rationale": "Cement must be kept dry and elevated to prevent premature hardening."
+        },
+        {
+          "key": "D",
+          "text": "Leave the tops of the cement bags open slightly to allow for proper air circulation and prevent moisture buildup.",
+          "is_correct": false,
+          "rationale": "Leaving bags open exposes cement to moisture and humidity, causing spoilage."
+        },
+        {
+          "key": "E",
+          "text": "Expose cement bags to direct sunlight and open air to prevent any potential condensation from forming inside.",
+          "is_correct": false,
+          "rationale": "Direct sunlight and open air expose cement to elements, causing degradation."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is the correct procedure for reporting a minor injury or incident on a construction site to your supervisor?",
+      "explanation": "All injuries, even minor ones, must be reported immediately to a supervisor. This ensures proper documentation, first aid, and investigation to prevent recurrence.",
+      "options": [
+        {
+          "key": "A",
+          "text": "You should wait until the end of your shift to report any minor injury or incident to avoid disrupting workflow.",
+          "is_correct": false,
+          "rationale": "Delaying reports can hinder proper care and incident investigation."
+        },
+        {
+          "key": "B",
+          "text": "Inform a nearby coworker about the incident and ask them to relay the information to the site supervisor later.",
+          "is_correct": false,
+          "rationale": "Relaying through others can lead to miscommunication and delays."
+        },
+        {
+          "key": "C",
+          "text": "Immediately report the minor injury or incident to your direct supervisor or site foreman, regardless of severity.",
+          "is_correct": true,
+          "rationale": "Immediate reporting ensures proper care, documentation, and incident prevention."
+        },
+        {
+          "key": "D",
+          "text": "Minor cuts or scrapes do not require reporting, as they are common occurrences on busy construction sites.",
+          "is_correct": false,
+          "rationale": "All injuries, regardless of perceived severity, must be reported."
+        },
+        {
+          "key": "E",
+          "text": "Document the incident yourself with photos and notes, then decide if it warrants further attention later.",
+          "is_correct": false,
+          "rationale": "Personal documentation is not a substitute for immediate supervisor reporting."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "If you discover a damaged electrical cord on a power tool while working, what is the safest immediate action to take?",
+      "explanation": "A damaged electrical cord poses a serious risk of electrical shock or fire. The safest immediate action is to cease use, unplug, and report it to ensure professional handling.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Wrap electrical tape around the damaged section of the cord and continue using the power tool carefully.",
+          "is_correct": false,
+          "rationale": "Taping a damaged cord is a temporary fix and does not eliminate the hazard."
+        },
+        {
+          "key": "B",
+          "text": "Continue using the tool, but be extra cautious not to touch the exposed wires while completing your task.",
+          "is_correct": false,
+          "rationale": "Continuing to use a damaged tool is extremely dangerous and could cause electrocution."
+        },
+        {
+          "key": "C",
+          "text": "Immediately stop using the tool, unplug it, and report the damaged cord to your supervisor for repair.",
+          "is_correct": true,
+          "rationale": "Damaged cords are serious electrical hazards requiring immediate reporting and professional attention."
+        },
+        {
+          "key": "D",
+          "text": "Attempt to fix the damaged cord yourself with basic tools if you have some experience with electrical repairs.",
+          "is_correct": false,
+          "rationale": "Attempting DIY electrical repairs without proper certification is unsafe and prohibited."
+        },
+        {
+          "key": "E",
+          "text": "Ignore the minor damage as long as the tool is still functioning, and address it during a scheduled maintenance period.",
+          "is_correct": false,
+          "rationale": "Ignoring damaged equipment can lead to serious accidents and is a safety violation."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the most crucial personal protective equipment to wear when working on a noisy construction site?",
+      "explanation": "Hearing protection is paramount on noisy sites to prevent long-term hearing damage. While other PPE is important, protecting your hearing from excessive noise levels is a primary concern.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A high-visibility vest ensures you are easily seen by equipment operators and other workers, preventing accidents.",
+          "is_correct": false,
+          "rationale": "High-visibility vests are for visibility, not noise protection."
+        },
+        {
+          "key": "B",
+          "text": "Steel-toed boots protect your feet from falling objects and punctures, which are common hazards in construction zones.",
+          "is_correct": false,
+          "rationale": "Steel-toed boots protect feet, not hearing, from site hazards."
+        },
+        {
+          "key": "C",
+          "text": "Earplugs or earmuffs are essential for protecting your hearing from loud machinery and continuous construction noise exposure.",
+          "is_correct": true,
+          "rationale": "Hearing protection is vital on noisy sites to prevent damage."
+        },
+        {
+          "key": "D",
+          "text": "A hard hat provides critical protection for your head against falling debris or accidental impacts from overhead structures.",
+          "is_correct": false,
+          "rationale": "Hard hats protect heads, not hearing, from impacts."
+        },
+        {
+          "key": "E",
+          "text": "Safety glasses shield your eyes from flying particles, dust, and chemical splashes, maintaining clear vision on site.",
+          "is_correct": false,
+          "rationale": "Safety glasses protect eyes, not hearing, from debris."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "When using a hammer to drive nails, what is the most important safety precaution you should always observe?",
+      "explanation": "Maintaining a firm grip and striking the nail squarely are essential to prevent the hammer from slipping, causing injury or bending the nail. Proper technique enhances safety and efficiency.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensure the hammerhead is securely attached to the handle before starting any work to prevent detachment during use.",
+          "is_correct": false,
+          "rationale": "Checking the hammerhead is important, but not the primary precaution during striking."
+        },
+        {
+          "key": "B",
+          "text": "Always wear appropriate safety glasses to protect your eyes from flying debris or nail fragments during hammering tasks.",
+          "is_correct": false,
+          "rationale": "Eye protection is crucial but not the most important precaution for the act of hammering itself."
+        },
+        {
+          "key": "C",
+          "text": "Hold the hammer firmly and strike the nail squarely on the head to avoid glancing blows or bending the nail.",
+          "is_correct": true,
+          "rationale": "Proper striking technique prevents injury and ensures effective nailing."
+        },
+        {
+          "key": "D",
+          "text": "Check your surroundings for other workers or obstacles before swinging the hammer to prevent accidental injuries to others.",
+          "is_correct": false,
+          "rationale": "Awareness of surroundings is important, but not the primary precaution for the direct action of hammering."
+        },
+        {
+          "key": "E",
+          "text": "Select the correct hammer size and type for the specific nail and material you are working with for optimal results.",
+          "is_correct": false,
+          "rationale": "Using the right tool is good practice, but not the most critical safety precaution during the strike."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is the primary purpose of adding water to a concrete mix during preparation on a job site?",
+      "explanation": "Water is crucial for the chemical reaction (hydration) that hardens concrete and makes it workable. Too much or too little water can compromise the concrete's strength and durability.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To initiate the chemical reaction known as hydration, which allows the cement to bind the aggregates together and harden.",
+          "is_correct": true,
+          "rationale": "Water is essential for the hydration process that hardens concrete."
+        },
+        {
+          "key": "B",
+          "text": "To increase the overall volume of the concrete, making it possible to cover a larger area with the same amount of dry mix.",
+          "is_correct": false,
+          "rationale": "Water affects workability and strength, not primarily volume expansion."
+        },
+        {
+          "key": "C",
+          "text": "To reduce the setting time of the concrete, allowing for faster completion of the pouring and finishing operations.",
+          "is_correct": false,
+          "rationale": "Water typically increases setting time; admixtures reduce it."
+        },
+        {
+          "key": "D",
+          "text": "To enhance the color and aesthetic appearance of the finished concrete surface after it has fully cured and dried.",
+          "is_correct": false,
+          "rationale": "Water does not primarily enhance color; pigments do that."
+        },
+        {
+          "key": "E",
+          "text": "To prevent the mixture from drying out too quickly in hot weather conditions, maintaining its plasticity for longer periods.",
+          "is_correct": false,
+          "rationale": "While related to workability, the primary role is hydration, not just preventing drying."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Why is maintaining good housekeeping practices on a construction site critically important for overall safety?",
+      "explanation": "Good housekeeping prevents accidents by eliminating trip hazards, reducing fire risks, and ensuring clear access to emergency exits. It creates a safer and more efficient working environment for everyone.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It helps to prevent slips, trips, and falls by keeping walkways clear of debris, tools, and unnecessary materials.",
+          "is_correct": true,
+          "rationale": "Good housekeeping directly reduces common site hazards like slips and trips."
+        },
+        {
+          "key": "B",
+          "text": "It ensures that all tools and equipment are properly stored at the end of each workday, prolonging their lifespan and condition.",
+          "is_correct": false,
+          "rationale": "While a benefit, tool longevity is secondary to immediate safety concerns."
+        },
+        {
+          "key": "C",
+          "text": "It improves the aesthetic appeal of the construction site, presenting a more professional image to clients and visitors.",
+          "is_correct": false,
+          "rationale": "Aesthetics are a minor benefit compared to the critical safety aspects."
+        },
+        {
+          "key": "D",
+          "text": "It reduces the amount of waste generated on site, thereby minimizing disposal costs and promoting environmental sustainability efforts.",
+          "is_correct": false,
+          "rationale": "Waste reduction is beneficial but not the primary safety reason for housekeeping."
+        },
+        {
+          "key": "E",
+          "text": "It facilitates faster work progress by making it easier to locate specific tools and materials when they are needed.",
+          "is_correct": false,
+          "rationale": "Efficiency is a positive outcome, but not the primary safety driver for housekeeping."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "You discover a small crack in a non-load-bearing wall during an inspection. What is your immediate course of action?",
+      "explanation": "Reporting any structural issues, even minor ones, to your supervisor is crucial. They can assess the situation, determine if it's cosmetic or indicates a larger problem, and decide on the appropriate repair.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately attempt to patch the crack yourself using available filler material to prevent it from worsening over time.",
+          "is_correct": false,
+          "rationale": "Do not perform unauthorized repairs; report to supervisor first."
+        },
+        {
+          "key": "B",
+          "text": "Inform your supervisor about the crack, providing details on its location and approximate size for proper assessment.",
+          "is_correct": true,
+          "rationale": "Reporting to a supervisor ensures proper assessment and action."
+        },
+        {
+          "key": "C",
+          "text": "Document the crack with a photograph and continue with your work, addressing it only if it appears to grow larger.",
+          "is_correct": false,
+          "rationale": "Documentation alone is insufficient; immediate reporting is required."
+        },
+        {
+          "key": "D",
+          "text": "Ask a more experienced colleague for their opinion on whether the crack requires immediate attention or can be ignored.",
+          "is_correct": false,
+          "rationale": "While helpful, a colleague's opinion doesn't replace supervisor notification."
+        },
+        {
+          "key": "E",
+          "text": "Place a temporary warning sign near the crack to alert other workers, but do not take any further action yourself.",
+          "is_correct": false,
+          "rationale": "A warning sign is good, but reporting to a supervisor is the primary action."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "When working on a construction site, what is the most critical personal protective equipment you must always wear to ensure your safety?",
+      "explanation": "Hard hats protect against falling objects, safety glasses shield eyes from debris, and steel-toed boots prevent foot injuries. These are non-negotiable for site safety.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A hard hat, safety glasses, high-visibility vest, and steel-toed work boots are always mandatory for site safety.",
+          "is_correct": true,
+          "rationale": "These items are fundamental and universally required PPE on construction sites."
+        },
+        {
+          "key": "B",
+          "text": "Work gloves, ear protection, a dust mask, and comfortable, durable work trousers are typically sufficient for most tasks.",
+          "is_correct": false,
+          "rationale": "This list misses crucial items like hard hats and safety boots for comprehensive protection."
+        },
+        {
+          "key": "C",
+          "text": "Safety harness, fall arrest lanyard, tool belt, and a communication radio are the primary safety requirements for all workers.",
+          "is_correct": false,
+          "rationale": "These are specific to working at heights or certain tasks, not universally mandatory PPE."
+        },
+        {
+          "key": "D",
+          "text": "Sunscreen, a wide-brimmed hat, waterproof jacket, and insulated gloves are most important for outdoor work conditions.",
+          "is_correct": false,
+          "rationale": "These are weather-dependent items, not core universal personal protective equipment."
+        },
+        {
+          "key": "E",
+          "text": "A first-aid kit, emergency whistle, reflective armbands, and a hydration pack are essential for all tasks.",
+          "is_correct": false,
+          "rationale": "These are important accessories or emergency items, not primary personal protective equipment."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What is the safest method for lifting and carrying heavy materials on a construction site to prevent injury?",
+      "explanation": "Proper lifting technique, using your legs, not your back, is crucial to prevent musculoskeletal injuries. Assessing the load and seeking help are also vital.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bend your knees, keep your back straight, lift with your legs, and hold the load close to your body.",
+          "is_correct": true,
+          "rationale": "This describes the correct ergonomic technique for safe lifting to prevent back injuries."
+        },
+        {
+          "key": "B",
+          "text": "Bend at the waist, keep your legs straight, use your back muscles, and quickly hoist the material up.",
+          "is_correct": false,
+          "rationale": "This method is incorrect and significantly increases the risk of serious back injury."
+        },
+        {
+          "key": "C",
+          "text": "Use only your arm strength, twist your torso to gain momentum, and never ask for assistance from others.",
+          "is_correct": false,
+          "rationale": "This is an unsafe practice that can lead to injury and demonstrates poor teamwork."
+        },
+        {
+          "key": "D",
+          "text": "Slide the material across the ground, drag it with ropes, or use a wheelbarrow for even small items.",
+          "is_correct": false,
+          "rationale": "While useful, these are alternative moving methods, not the primary method for lifting from the ground."
+        },
+        {
+          "key": "E",
+          "text": "Lift the material from a distance, lean back for leverage, and always work alone to maintain focus.",
+          "is_correct": false,
+          "rationale": "Lifting from a distance and working alone with heavy loads are unsafe practices."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "When given a task on site, why is it important to understand the basic information presented in construction blueprints or drawings?",
+      "explanation": "Blueprints provide critical details about dimensions, materials, and placement, ensuring work is performed accurately and to specifications. Misinterpretations can lead to costly errors.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To accurately determine dimensions, material types, and precise placement of components according to design specifications.",
+          "is_correct": true,
+          "rationale": "Blueprints provide essential technical details for accurate construction and material use."
+        },
+        {
+          "key": "B",
+          "text": "To calculate the exact cost of materials required for the entire project and manage the overall budget.",
+          "is_correct": false,
+          "rationale": "This is typically the role of estimators or project managers, not a construction worker."
+        },
+        {
+          "key": "C",
+          "text": "To identify potential legal disputes with subcontractors regarding payment schedules and contractual obligations.",
+          "is_correct": false,
+          "rationale": "Legal and contractual matters are outside the scope of a construction worker's primary responsibilities."
+        },
+        {
+          "key": "D",
+          "text": "To plan the daily lunch breaks and allocate specific times for team meetings and personal rest periods.",
+          "is_correct": false,
+          "rationale": "Blueprints are technical documents, not schedules for breaks or meetings."
+        },
+        {
+          "key": "E",
+          "text": "To understand the architect's artistic vision and provide creative suggestions for aesthetic improvements.",
+          "is_correct": false,
+          "rationale": "While understanding design is good, a worker's primary role is execution, not design modification."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What action should you take immediately if you identify a significant safety hazard or unsafe condition on the construction site?",
+      "explanation": "Reporting hazards promptly to a supervisor or safety officer is crucial to ensure corrective action can be taken, preventing potential accidents and injuries.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately report the hazard to your supervisor or the designated safety officer for prompt assessment and resolution.",
+          "is_correct": true,
+          "rationale": "Prompt reporting ensures hazards are addressed quickly, preventing potential accidents and injuries."
+        },
+        {
+          "key": "B",
+          "text": "Address the hazard yourself using available tools, even if you are unsure of the correct procedure or risk.",
+          "is_correct": false,
+          "rationale": "Attempting to fix hazards without proper training or authority can create further risks."
+        },
+        {
+          "key": "C",
+          "text": "Wait until the end of the shift to mention it during the daily debriefing, as it might resolve itself.",
+          "is_correct": false,
+          "rationale": "Delaying reporting allows the hazard to persist, increasing the risk of an incident."
+        },
+        {
+          "key": "D",
+          "text": "Inform only your immediate co-workers about the hazard and collectively decide if it warrants further attention.",
+          "is_correct": false,
+          "rationale": "While informing co-workers is good, formal reporting to management is essential for resolution."
+        },
+        {
+          "key": "E",
+          "text": "Take a photograph of the hazard for documentation purposes before continuing with your assigned tasks.",
+          "is_correct": false,
+          "rationale": "Documentation can be helpful, but immediate reporting and action take precedence over photography."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Why is clear and effective communication with your co-workers and supervisors essential for successful project completion?",
+      "explanation": "Clear communication prevents misunderstandings, ensures tasks are completed correctly, and improves overall site safety and efficiency. It fosters a productive work environment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It prevents misunderstandings, ensures tasks are completed correctly, and improves overall safety and efficiency on site.",
+          "is_correct": true,
+          "rationale": "Effective communication is vital for coordination, safety, and productivity on any construction project."
+        },
+        {
+          "key": "B",
+          "text": "It allows you to delegate all your difficult tasks to less experienced team members without direct supervision.",
+          "is_correct": false,
+          "rationale": "This is an inappropriate use of communication and demonstrates a lack of responsibility."
+        },
+        {
+          "key": "C",
+          "text": "It helps in avoiding personal responsibility for mistakes by ensuring others are always aware of your actions.",
+          "is_correct": false,
+          "rationale": "Communication should foster accountability, not provide an excuse to avoid personal responsibility."
+        },
+        {
+          "key": "D",
+          "text": "It primarily serves to document your individual contributions for performance reviews and potential salary negotiations.",
+          "is_correct": false,
+          "rationale": "While a byproduct, this is not the primary purpose of daily operational communication on site."
+        },
+        {
+          "key": "E",
+          "text": "It is mainly for social interaction and building friendships, which are secondary to actual construction work.",
+          "is_correct": false,
+          "rationale": "Professional communication is distinct from social interaction and is critical for operational success."
+        }
+      ]
+    }
+  ]
+}

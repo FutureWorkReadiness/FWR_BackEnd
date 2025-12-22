@@ -1,5 +1,9 @@
 """
 Quiz service - handles quiz-related business logic.
+
+Updated for new question format (v2):
+- Options have key (A-E), text, is_correct, rationale
+- Users submit answers by key (A, B, C, D, E)
 """
 
 from sqlalchemy.orm import Session
@@ -31,19 +35,28 @@ class QuizService:
         return db.query(Quiz).filter(Quiz.quiz_id == quiz_id).first()
 
     @staticmethod
-    def get_quizzes_by_specialization(db: Session, specialization_id: UUID) -> List[Quiz]:
+    def get_quizzes_by_specialization(
+        db: Session, specialization_id: UUID
+    ) -> List[Quiz]:
         """Get all quizzes for a specialization."""
         return db.query(Quiz).filter(Quiz.specialization_id == specialization_id).all()
 
     @staticmethod
     def get_quiz_questions(db: Session, quiz_id: UUID) -> List[Question]:
         """Get all questions for a quiz with their answer options."""
-        return db.query(Question).filter(Question.quiz_id == quiz_id).order_by(Question.order_index).all()
+        return (
+            db.query(Question)
+            .filter(Question.quiz_id == quiz_id)
+            .order_by(Question.order_index)
+            .all()
+        )
 
     @staticmethod
     def get_quiz_count_by_specialization(db: Session, specialization_id: UUID) -> int:
         """Get the count of quizzes for a specialization."""
-        return db.query(Quiz).filter(Quiz.specialization_id == specialization_id).count()
+        return (
+            db.query(Quiz).filter(Quiz.specialization_id == specialization_id).count()
+        )
 
     # ============================================================
     # QUIZ ATTEMPT OPERATIONS
@@ -70,7 +83,9 @@ class QuizService:
     @staticmethod
     def get_quiz_attempt(db: Session, attempt_id: UUID) -> Optional[QuizAttempt]:
         """Get quiz attempt by ID."""
-        return db.query(QuizAttempt).filter(QuizAttempt.attempt_id == attempt_id).first()
+        return (
+            db.query(QuizAttempt).filter(QuizAttempt.attempt_id == attempt_id).first()
+        )
 
     @staticmethod
     def get_user_quiz_history(db: Session, user_id: UUID) -> List[QuizAttempt]:
@@ -83,7 +98,9 @@ class QuizService:
         )
 
     @staticmethod
-    def get_attempt_with_quiz(db: Session, attempt_id: UUID) -> Optional[Dict[str, Any]]:
+    def get_attempt_with_quiz(
+        db: Session, attempt_id: UUID
+    ) -> Optional[Dict[str, Any]]:
         """Get attempt with associated quiz."""
         attempt = QuizService.get_quiz_attempt(db, attempt_id)
         if not attempt:
@@ -104,9 +121,17 @@ class QuizService:
     # ============================================================
 
     @staticmethod
-    def submit_quiz_answers(db: Session, attempt_id: UUID, answers: List[QuizAnswer]) -> Optional[Dict[str, Any]]:
-        """Submit quiz answers and calculate detailed score with personalized feedback."""
-        attempt = db.query(QuizAttempt).filter(QuizAttempt.attempt_id == attempt_id).first()
+    def submit_quiz_answers(
+        db: Session, attempt_id: UUID, answers: List[QuizAnswer]
+    ) -> Optional[Dict[str, Any]]:
+        """
+        Submit quiz answers and calculate detailed score with personalized feedback.
+
+        Users submit answers by option key (A, B, C, D, E).
+        """
+        attempt = (
+            db.query(QuizAttempt).filter(QuizAttempt.attempt_id == attempt_id).first()
+        )
         if not attempt:
             return None
 
@@ -123,45 +148,62 @@ class QuizService:
 
         # Process each answer
         for answer_data in answers:
-            question = db.query(Question).filter(Question.question_id == answer_data.question_id).first()
+            question = (
+                db.query(Question)
+                .filter(Question.question_id == answer_data.question_id)
+                .first()
+            )
 
             if question:
                 total_questions += 1
                 total_points += question.points
 
-                # Check if answer is correct
-                is_correct = False
-                user_answer = answer_data.selected_answer
+                # Get user's selected key (A, B, C, D, or E)
+                selected_key = answer_data.selected_key.upper()
 
-                # Check against QuestionOption model
-                if question.options:
-                    for option in question.options:
-                        if option.is_correct and option.option_text == user_answer:
+                # Find the correct answer key and check if user is correct
+                is_correct = False
+                correct_key = None
+                selected_option_text = None
+
+                # Sort options by order_index to ensure consistent ordering
+                sorted_options = sorted(question.options, key=lambda x: x.order_index)
+
+                for option in sorted_options:
+                    if option.is_correct:
+                        correct_key = option.key
+                    if option.key == selected_key:
+                        selected_option_text = option.text
+                        if option.is_correct:
                             is_correct = True
                             earned_points += question.points
                             correct_count += 1
-                            break
 
-                # Build options dict from QuestionOption relationships
-                options_dict = {}
-                if question.options:
-                    sorted_options = sorted(question.options, key=lambda x: x.order_index)
-                    option_letters = ["A", "B", "C", "D", "E", "F"]
-                    for idx, option in enumerate(sorted_options):
-                        if idx < len(option_letters):
-                            options_dict[option_letters[idx]] = option.option_text
+                # Build options list for response
+                options_list = []
+                for option in sorted_options:
+                    options_list.append(
+                        {
+                            "key": option.key,
+                            "text": option.text,
+                            "is_correct": option.is_correct,
+                            "rationale": option.rationale,
+                        }
+                    )
 
-                question_results.append({
-                    "question_id": str(question.question_id),
-                    "question_text": question.question_text,
-                    "user_answer": user_answer,
-                    "correct_answer": next((opt.option_text for opt in question.options if opt.is_correct), None),
-                    "is_correct": is_correct,
-                    "points": question.points,
-                    "earned_points": question.points if is_correct else 0,
-                    "explanation": question.explanation if hasattr(question, "explanation") else None,
-                    "options": options_dict,
-                })
+                question_results.append(
+                    {
+                        "question_id": str(question.question_id),
+                        "question_text": question.question_text,
+                        "user_answer": selected_key,
+                        "correct_answer": correct_key,
+                        "is_correct": is_correct,
+                        "points": question.points,
+                        "earned_points": question.points if is_correct else 0,
+                        "explanation": question.explanation,
+                        "options": options_list,
+                    }
+                )
 
         # Calculate scores
         max_score = float(total_points) if total_points > 0 else 1.0
@@ -169,8 +211,16 @@ class QuizService:
         percentage = (score / max_score * 100) if max_score > 0 else 0.0
 
         # Get quiz passing score
-        passing_score = quiz.passing_score if hasattr(quiz, "passing_score") and quiz.passing_score else 70.0
+        passing_score = quiz.passing_score if quiz.passing_score else 70.0
         is_passed = percentage >= passing_score
+
+        # Calculate time taken
+        time_taken = None
+        if attempt.started_at:
+            time_diff = datetime.now(timezone.utc) - attempt.started_at.replace(
+                tzinfo=timezone.utc
+            )
+            time_taken = int(time_diff.total_seconds() / 60)
 
         # Update attempt
         attempt.score = score
@@ -178,6 +228,7 @@ class QuizService:
         attempt.percentage = percentage
         attempt.is_passed = is_passed
         attempt.completed_at = datetime.now(timezone.utc)
+        attempt.time_taken_minutes = time_taken
 
         # Update user's readiness scores
         user = db.query(User).filter(User.user_id == attempt.user_id).first()
@@ -187,7 +238,9 @@ class QuizService:
             score_increase = int(percentage / 20)  # Max 5 points increase
 
             old_technical = user.technical_score or 0
-            user.technical_score = min(100, (user.technical_score or 0) + score_increase)
+            user.technical_score = min(
+                100, (user.technical_score or 0) + score_increase
+            )
 
             # Recalculate overall readiness score
             user.readiness_score = int(
@@ -206,7 +259,9 @@ class QuizService:
         db.commit()
 
         # Generate personalized feedback
-        feedback = QuizService._generate_feedback(percentage, correct_count, total_questions, question_results)
+        feedback = QuizService._generate_feedback(
+            percentage, correct_count, total_questions, question_results
+        )
 
         return {
             "score": percentage,
@@ -216,6 +271,7 @@ class QuizService:
             "total": total_questions,
             "passed": is_passed,
             "passing_score": passing_score,
+            "time_taken_minutes": time_taken,
             "question_results": question_results,
             "score_impact": score_impact,
             "feedback": feedback,
@@ -223,7 +279,9 @@ class QuizService:
         }
 
     @staticmethod
-    def _generate_feedback(score: float, correct: int, total: int, question_results: list) -> dict:
+    def _generate_feedback(
+        score: float, correct: int, total: int, question_results: list
+    ) -> dict:
         """Generate personalized feedback based on performance."""
 
         # Overall performance message
@@ -278,7 +336,9 @@ class QuizService:
     # ============================================================
 
     @staticmethod
-    def recompute_user_readiness(db: Session, user_id: UUID) -> Optional[Dict[str, Any]]:
+    def recompute_user_readiness(
+        db: Session, user_id: UUID
+    ) -> Optional[Dict[str, Any]]:
         """Recompute and persist user's readiness aggregates from attempts."""
         user = db.query(User).filter(User.user_id == user_id).first()
         if not user:
@@ -325,13 +385,17 @@ class QuizService:
 
         recent = []
         for a in attempts[:5]:
-            recent.append({
-                "attempt_id": str(a.attempt_id),
-                "quiz_id": str(a.quiz_id),
-                "score": round(a.percentage, 2),
-                "passed": a.is_passed,
-                "completed_at": a.completed_at.isoformat() if a.completed_at else None,
-            })
+            recent.append(
+                {
+                    "attempt_id": str(a.attempt_id),
+                    "quiz_id": str(a.quiz_id),
+                    "score": round(a.percentage, 2),
+                    "passed": a.is_passed,
+                    "completed_at": (
+                        a.completed_at.isoformat() if a.completed_at else None
+                    ),
+                }
+            )
 
         return {
             "readiness": readiness
@@ -342,4 +406,3 @@ class QuizService:
             },
             "recent_attempts": recent,
         }
-

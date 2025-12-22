@@ -66,20 +66,26 @@ class Question(Base):
 class QuestionOption(Base):
     """
     Options for multiple choice questions.
-    One option per question should be marked as correct.
+    Each question has 5 options (A-E), with exactly one marked as correct.
     """
 
     __tablename__ = "question_options"
 
     option_id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4, index=True)
     question_id = Column(UUID(as_uuid=True), ForeignKey("questions.question_id"), nullable=False)
-    option_text = Column(Text, nullable=False)
+    key = Column(String(1), nullable=False)  # A, B, C, D, or E
+    text = Column(Text, nullable=False)  # The option text
     is_correct = Column(Boolean, default=False)
-    order_index = Column(Integer, nullable=False)  # A=0, B=1, C=2, D=3
+    rationale = Column(Text, nullable=True)  # Explanation for why this option is correct/incorrect
     created_at = Column(DateTime(timezone=True), server_default=func.now())
 
     # Relationships
     question = relationship("Question", back_populates="options")
+
+    @property
+    def order_index(self) -> int:
+        """Derive order from key: A=0, B=1, C=2, D=3, E=4"""
+        return {"A": 0, "B": 1, "C": 2, "D": 3, "E": 4}.get(self.key, 0)
 
 
 class QuizAttempt(Base):

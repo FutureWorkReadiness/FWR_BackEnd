@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "A key subcontractor on the critical path has just declared a two-week delay. What is your most effective initial action to mitigate project impact?",
+      "explanation": "The most effective approach is proactive problem-solving. Engaging the subcontractor and planner allows for collaborative re-sequencing, exploring acceleration, or reallocating resources to minimize the overall impact on the project's final completion date, rather than immediately escalating or accepting the delay.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately convene a meeting with the subcontractor and project planner to re-sequence activities and explore all viable acceleration options.",
+          "is_correct": true,
+          "rationale": "This is a proactive, collaborative approach to problem-solving."
+        },
+        {
+          "key": "B",
+          "text": "Inform the client immediately of the delay and formally request an extension of the project completion date without exploring solutions.",
+          "is_correct": false,
+          "rationale": "This is premature; mitigation options must be explored first."
+        },
+        {
+          "key": "C",
+          "text": "Begin the process of terminating the subcontractor's contract and finding a replacement to take over the specified work package.",
+          "is_correct": false,
+          "rationale": "This is an extreme reaction that would likely cause more delay."
+        },
+        {
+          "key": "D",
+          "text": "Instruct other trades to work overtime on non-critical tasks to try and make up for the lost time elsewhere.",
+          "is_correct": false,
+          "rationale": "Working on non-critical tasks does not recover critical path delay."
+        },
+        {
+          "key": "E",
+          "text": "Simply document the delay in the site diary and wait for the subcontractor to present their own unsolicited recovery plan.",
+          "is_correct": false,
+          "rationale": "This approach is too passive and cedes control of the schedule."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "During a renovation, your team unexpectedly discovers material suspected to be asbestos. What is the correct and immediate protocol you must follow on site?",
+      "explanation": "Safety and legal compliance are paramount when dealing with hazardous materials. The correct protocol involves immediately stopping work, securing the area to prevent exposure, and engaging licensed specialists for professional assessment and removal, adhering to all regulations.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cease all work in the affected area, secure it, and immediately contact a licensed asbestos removal specialist for proper testing.",
+          "is_correct": true,
+          "rationale": "This follows correct safety and legal protocols for hazardous materials."
+        },
+        {
+          "key": "B",
+          "text": "Instruct your team to carefully remove the material using standard PPE and dispose of it with the general construction waste.",
+          "is_correct": false,
+          "rationale": "This is illegal, unsafe, and violates regulations."
+        },
+        {
+          "key": "C",
+          "text": "Continue working around the suspected material but instruct workers to wear enhanced dust masks as a temporary precaution.",
+          "is_correct": false,
+          "rationale": "This creates a significant health risk and ignores legal duties."
+        },
+        {
+          "key": "D",
+          "text": "Take a sample of the material yourself and send it to a lab before taking any other action on the site.",
+          "is_correct": false,
+          "rationale": "Untrained personnel should never handle or sample potential asbestos."
+        },
+        {
+          "key": "E",
+          "text": "Report the finding to your main office and wait for senior management to provide instructions on how to proceed.",
+          "is_correct": false,
+          "rationale": "Immediate site action is required; waiting creates unnecessary risk."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Two key subcontractors are in a dispute over workspace access, causing a work stoppage. How should you resolve this conflict to minimize project disruption?",
+      "explanation": "Effective site management requires mediating disputes to maintain project momentum. By facilitating a discussion based on the project schedule and plans, a site manager can establish a fair, coordinated access plan that respects both parties' needs and gets work restarted quickly.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mediate a meeting with both supervisors, review the project schedule and drawings, and establish a clear, phased access plan.",
+          "is_correct": true,
+          "rationale": "This is a collaborative, fair, and solution-oriented approach."
+        },
+        {
+          "key": "B",
+          "text": "Side with the subcontractor who is further along their schedule to ensure their critical progress is not impeded by others.",
+          "is_correct": false,
+          "rationale": "This shows bias and can damage relationships and overall morale."
+        },
+        {
+          "key": "C",
+          "text": "Threaten both subcontractors with contractual penalties if they do not resolve the issue amongst themselves within twenty-four hours.",
+          "is_correct": false,
+          "rationale": "This is an adversarial approach that avoids managerial responsibility."
+        },
+        {
+          "key": "D",
+          "text": "Immediately escalate the issue to the project director and ask them to make a final decision on the entire matter.",
+          "is_correct": false,
+          "rationale": "A site manager should be capable of resolving on-site disputes."
+        },
+        {
+          "key": "E",
+          "text": "Instruct both subcontractors to halt all of their work until one of them formally concedes the workspace to the other.",
+          "is_correct": false,
+          "rationale": "This unnecessarily extends the work stoppage and project delay."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "A recent concrete pour has failed its initial strength test, not meeting the required specification. What is your primary responsibility in this situation?",
+      "explanation": "When a critical structural element fails a quality test, the primary responsibility is to follow a formal quality assurance process. This involves documenting the non-conformance, preventing further work on the element, and consulting the design authority for a professional engineering solution.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Issue a non-conformance report, quarantine the area, and consult the structural engineer for a remediation or removal plan.",
+          "is_correct": true,
+          "rationale": "This follows proper quality control and engineering protocol."
+        },
+        {
+          "key": "B",
+          "text": "Authorize a second, different type of test hoping for a passing result to avoid the costly rework and delays.",
+          "is_correct": false,
+          "rationale": "This is 'test shopping' and ignores the initial valid test failure."
+        },
+        {
+          "key": "C",
+          "text": "Immediately order the demolition and replacement of the concrete structure without waiting for any further engineering analysis.",
+          "is_correct": false,
+          "rationale": "This is a rash decision; remediation may be possible."
+        },
+        {
+          "key": "D",
+          "text": "Document the failure but allow subsequent trades to continue working on the structure to maintain the project schedule.",
+          "is_correct": false,
+          "rationale": "This is unsafe and ignores a serious structural quality issue."
+        },
+        {
+          "key": "E",
+          "text": "Negotiate with the concrete supplier for a discount on the material but accept the substandard pour as is.",
+          "is_correct": false,
+          "rationale": "This compromises structural integrity and violates project specifications."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "An environmental inspector arrives for an unannounced site visit and identifies a potential non-compliance issue. What is your best course of action?",
+      "explanation": "Professional conduct during an inspection involves cooperation and transparency. The best approach is to accompany the inspector, understand their concerns, address simple issues immediately, and formally document the interaction. This demonstrates a commitment to compliance and can mitigate potential penalties.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Escort the inspector, listen to their findings, take immediate corrective action if possible, and document everything for the report.",
+          "is_correct": true,
+          "rationale": "This is a cooperative, professional, and proactive response."
+        },
+        {
+          "key": "B",
+          "text": "Deny the inspector access to the site until you have had time to rectify the potential issue they have mentioned.",
+          "is_correct": false,
+          "rationale": "Obstructing an inspector is illegal and will lead to severe penalties."
+        },
+        {
+          "key": "C",
+          "text": "Argue that the current sediment control measures are sufficient and aggressively contest the inspector's findings on the spot.",
+          "is_correct": false,
+          "rationale": "This confrontational approach is unprofessional and counterproductive."
+        },
+        {
+          "key": "D",
+          "text": "Immediately delegate the entire inspection to a junior staff member while you continue managing other urgent site tasks.",
+          "is_correct": false,
+          "rationale": "The site manager must take responsibility for official inspections."
+        },
+        {
+          "key": "E",
+          "text": "Contact the company's legal department before allowing the inspector to proceed with their full site assessment and report.",
+          "is_correct": false,
+          "rationale": "This is an overreaction and implies there is something to hide."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "A key subcontractor is disputing payment for completed work that you believe is substandard. What is your most appropriate initial action to resolve this conflict?",
+      "explanation": "The correct approach is to initiate a professional dialogue based on contractual evidence. This seeks a collaborative solution, avoids immediate escalation, and protects the project's commercial and relational interests while upholding quality standards.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately terminate their contract and engage a replacement subcontractor to avoid any further project delays or quality issues.",
+          "is_correct": false,
+          "rationale": "This is an overly aggressive step that escalates the conflict and introduces new risks and delays to the project."
+        },
+        {
+          "key": "B",
+          "text": "Withhold all outstanding payments until the dispute is fully resolved through formal legal channels or arbitration procedures.",
+          "is_correct": false,
+          "rationale": "Withholding all payment may be a breach of contract and escalates the situation prematurely before discussion has occurred."
+        },
+        {
+          "key": "C",
+          "text": "Arrange a meeting with the subcontractor, referencing contract specifications and quality reports to collaboratively find a fair resolution.",
+          "is_correct": true,
+          "rationale": "This is the correct, professional first step, focusing on communication and contractual obligations to resolve the issue."
+        },
+        {
+          "key": "D",
+          "text": "Formally instruct the subcontractor to redo all the disputed work at their own cost without further discussion.",
+          "is_correct": false,
+          "rationale": "This is an authoritarian approach that bypasses necessary discussion and evidence review, damaging the relationship."
+        },
+        {
+          "key": "E",
+          "text": "Approve the payment to maintain a good working relationship and plan to address the quality issues later on.",
+          "is_correct": false,
+          "rationale": "This sets a poor precedent, compromises quality standards, and represents poor commercial management of the project."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "During site excavation, your groundworks team uncovers material strongly suspected to be asbestos-containing material (ACM). What is your immediate priority action?",
+      "explanation": "Safety is paramount. The absolute priority is to stop all work, secure the area to prevent exposure, and follow established protocols for dealing with hazardous materials. This protects personnel and ensures regulatory compliance.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Instruct the team to continue excavating carefully around the suspected area to avoid disrupting the project schedule.",
+          "is_correct": false,
+          "rationale": "This is extremely dangerous and violates health and safety regulations, putting workers at significant risk of exposure."
+        },
+        {
+          "key": "B",
+          "text": "Immediately halt all work in the affected area, secure the location, and implement the site's emergency stop procedure.",
+          "is_correct": true,
+          "rationale": "This is the only correct and safe response, prioritizing worker safety and regulatory compliance above all else."
+        },
+        {
+          "key": "C",
+          "text": "Personally take a sample of the material and send it to a certified lab for testing before taking further action.",
+          "is_correct": false,
+          "rationale": "Untrained personnel should never handle or sample suspected asbestos, as this creates a high risk of fibre release."
+        },
+        {
+          "key": "D",
+          "text": "Cover the material with a tarpaulin and plan to inform the project manager at the end of your shift.",
+          "is_correct": false,
+          "rationale": "This response is inadequate and delays the necessary emergency procedures, leaving the hazard unmanaged for too long."
+        },
+        {
+          "key": "E",
+          "text": "Ask the groundworks team for their opinion on the material and follow their advice on how to proceed.",
+          "is_correct": false,
+          "rationale": "Decisions regarding hazardous materials must be based on expert assessment and protocols, not on unqualified opinions."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "You receive a major design variation from the architect that impacts structural works currently in progress. What is your correct first step?",
+      "explanation": "The proper change control process requires halting affected work to prevent abortive costs and formally assessing the full commercial and programme impact before any new instructions are given to the site team.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately instruct the site team to start implementing the changes to demonstrate proactivity to the project client.",
+          "is_correct": false,
+          "rationale": "This bypasses essential cost and time analysis, potentially leading to unapproved expenditure and programme disruption."
+        },
+        {
+          "key": "B",
+          "text": "Formally reject the proposed design change as it will cause unacceptable delays and significant cost overruns.",
+          "is_correct": false,
+          "rationale": "The site manager's role is to assess impact, not to unilaterally reject client or architect instructions."
+        },
+        {
+          "key": "C",
+          "text": "Halt the affected works and issue a formal request for information on cost and schedule implications.",
+          "is_correct": true,
+          "rationale": "This follows correct procedure by stopping potentially abortive work and initiating the formal change management process."
+        },
+        {
+          "key": "D",
+          "text": "Discuss the change informally with the client's representative on site to gauge their flexibility before proceeding.",
+          "is_correct": false,
+          "rationale": "Informal discussions are not a substitute for the formal change control process required by the contract."
+        },
+        {
+          "key": "E",
+          "text": "Continue building to the original plan and wait for an official, signed variation order before stopping any work.",
+          "is_correct": false,
+          "rationale": "This could lead to significant abortive work that will need to be demolished, wasting time and money."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "When creating a three-week look-ahead programme, what is the most critical factor to confirm for ensuring its practical effectiveness on site?",
+      "explanation": "A look-ahead plan is only effective if the resources needed to execute it are confirmed. Without verified labour, plant, and materials, the schedule is purely theoretical and will quickly become unachievable.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensuring the client's upcoming milestone payments are aligned with the planned activities for cash flow purposes.",
+          "is_correct": false,
+          "rationale": "While commercially important, this does not guarantee the practical delivery of the work outlined in the programme."
+        },
+        {
+          "key": "B",
+          "text": "Verifying the confirmed availability of subcontractors, essential plant, and long-lead material deliveries for all planned tasks.",
+          "is_correct": true,
+          "rationale": "A plan is useless without the resources to execute it; this verification is fundamental to an achievable programme."
+        },
+        {
+          "key": "C",
+          "text": "Focusing primarily on the critical path activities as defined in the overall master construction programme.",
+          "is_correct": false,
+          "rationale": "While important, this ignores other non-critical but necessary tasks that could impact the critical path if neglected."
+        },
+        {
+          "key": "D",
+          "text": "Basing the entire plan on the previous week's productivity rates without adjusting for any future variables.",
+          "is_correct": false,
+          "rationale": "This is a reactive approach; a good look-ahead must be proactive and account for upcoming changes and challenges."
+        },
+        {
+          "key": "E",
+          "text": "Prioritizing the tasks that have the highest profit margin to improve the project's financial performance.",
+          "is_correct": false,
+          "rationale": "Programme logic and resource availability should drive the plan, not short-term commercial priorities which can disrupt flow."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Following a serious near-miss incident involving a crane lift, what is the primary objective of the investigation you are required to lead?",
+      "explanation": "A 'just culture' investigation focuses on learning, not blame. The primary goal is to understand the systemic failures that led to the near-miss and to implement robust controls to prevent a similar, potentially fatal, accident.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To identify and apply disciplinary action to the individuals responsible for the operational error during the lift.",
+          "is_correct": false,
+          "rationale": "This promotes a blame culture, which discourages open reporting and fails to address underlying systemic issues."
+        },
+        {
+          "key": "B",
+          "text": "To complete the required company and HSE paperwork as quickly as possible to formally close out the incident.",
+          "is_correct": false,
+          "rationale": "This treats the investigation as a bureaucratic exercise rather than a vital opportunity for safety improvement."
+        },
+        {
+          "key": "C",
+          "text": "To determine the root causes of the incident and implement effective corrective actions to prevent a future reoccurrence.",
+          "is_correct": true,
+          "rationale": "This is the core purpose of any safety investigation: to learn from failure and improve systems to prevent harm."
+        },
+        {
+          "key": "D",
+          "text": "To prepare a robust defense for the company in case of any potential legal action or regulatory investigation.",
+          "is_correct": false,
+          "rationale": "This is a legal/commercial objective, not the primary safety objective of the site manager's investigation."
+        },
+        {
+          "key": "E",
+          "text": "To reassure the workforce that the site is safe by downplaying the potential severity of the near-miss event.",
+          "is_correct": false,
+          "rationale": "This undermines safety culture and erodes trust; transparency about risks is crucial for maintaining a safe site."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "A significant discrepancy is found between the structural drawings and the architectural plans during the framing stage. What is your immediate priority?",
+      "explanation": "The correct procedure is to stop work to prevent rework, formally request clarification via an RFI to create a paper trail, and document the potential impact. This ensures the issue is resolved correctly and contractually.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately halt all affected work, issue a formal Request for Information (RFI) to the design team, and document the potential schedule impact.",
+          "is_correct": true,
+          "rationale": "This follows proper procedure for change management and risk mitigation."
+        },
+        {
+          "key": "B",
+          "text": "Instruct the framing crew to proceed based on the structural drawings, as they typically take precedence over architectural plans.",
+          "is_correct": false,
+          "rationale": "Making an assumption without clarification creates significant rework risk."
+        },
+        {
+          "key": "C",
+          "text": "Attempt to resolve the discrepancy on-site with the lead carpenter to avoid any delays to the project timeline.",
+          "is_correct": false,
+          "rationale": "This bypasses the design authority and lacks formal documentation."
+        },
+        {
+          "key": "D",
+          "text": "Notify the client directly about the design error and ask for their direction on how they would like to proceed.",
+          "is_correct": false,
+          "rationale": "The design team must be consulted first to provide a solution."
+        },
+        {
+          "key": "E",
+          "text": "Continue work on unaffected areas of the site while waiting for the design team to notice and correct the error.",
+          "is_correct": false,
+          "rationale": "This is a passive approach that fails to address a critical issue."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "You discover a subcontractor has installed a critical building system using materials that do not meet the project's specified quality standards. What is your first action?",
+      "explanation": "Formal documentation through a non-conformance report is crucial. It establishes a contractual record of the deficiency and legally obligates the subcontractor to correct the work according to the specified standards and project requirements.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Formally issue a non-conformance report to the subcontractor, referencing the contract specifications, and demand immediate rectification of the defective work.",
+          "is_correct": true,
+          "rationale": "This enforces quality control through proper contractual procedure."
+        },
+        {
+          "key": "B",
+          "text": "Allow the subcontractor to continue working but withhold their next payment until the issue is resolved at the end of the project.",
+          "is_correct": false,
+          "rationale": "Withholding payment without formal notice can lead to legal disputes."
+        },
+        {
+          "key": "C",
+          "text": "Personally purchase the correct materials and have your own direct labor force replace the substandard installation to save time.",
+          "is_correct": false,
+          "rationale": "This is outside your scope and creates liability and back-charging issues."
+        },
+        {
+          "key": "D",
+          "text": "Discuss the issue informally with the subcontractor's foreman and hope they will voluntarily correct the work without official documentation.",
+          "is_correct": false,
+          "rationale": "Informal agreements are unenforceable and create risk for the project."
+        },
+        {
+          "key": "E",
+          "text": "Accept the work as is to avoid conflict and schedule delays, but make a note to not hire them for future projects.",
+          "is_correct": false,
+          "rationale": "Accepting non-compliant work compromises project quality and safety."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "During excavation, your team uncovers suspected contaminated soil not identified in the initial geotechnical report. What is the correct protocol to follow?",
+      "explanation": "Safety and compliance are paramount. The correct procedure involves stopping work to prevent further disturbance or exposure, securing the area, and immediately engaging the necessary experts and stakeholders to manage the situation legally.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately stop all excavation in the affected area, secure the site to prevent exposure, and notify the project owner and environmental consultant.",
+          "is_correct": true,
+          "rationale": "This follows legal and safety protocols for hazardous materials."
+        },
+        {
+          "key": "B",
+          "text": "Continue excavating around the contaminated area while sending a soil sample to a lab for testing to avoid project delays.",
+          "is_correct": false,
+          "rationale": "This risks spreading contamination and violates stop-work procedures."
+        },
+        {
+          "key": "C",
+          "text": "Have the excavation crew dispose of the suspected soil at a standard landfill to quickly clear the area and resume work.",
+          "is_correct": false,
+          "rationale": "This is illegal and creates significant environmental and legal liability."
+        },
+        {
+          "key": "D",
+          "text": "Cover the suspected soil with clean fill and proceed with foundation work, documenting the location for future reference.",
+          "is_correct": false,
+          "rationale": "Concealing a potential hazard is illegal and dangerous."
+        },
+        {
+          "key": "E",
+          "text": "Inform the local environmental agency anonymously to gauge their response before taking any official action on the site.",
+          "is_correct": false,
+          "rationale": "Anonymous reporting is unprofessional and fails to meet direct notification duties."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "A key supplier has just informed you of a four-week delay for critical path materials. How do you best mitigate the impact on the project schedule?",
+      "explanation": "Proactive management is key. This involves transparently updating the schedule, optimizing other workstreams by re-sequencing tasks, and actively seeking solutions like alternate suppliers to minimize the overall impact on the project's completion date.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately update the project schedule to reflect the delay, re-sequence non-dependent tasks, and urgently source alternative suppliers for the materials.",
+          "is_correct": true,
+          "rationale": "This is a proactive, multi-faceted approach to mitigating schedule impact."
+        },
+        {
+          "key": "B",
+          "text": "Pause all site activities until the delayed materials arrive to avoid incurring costs on other trades that cannot proceed.",
+          "is_correct": false,
+          "rationale": "A total work stoppage is inefficient and creates greater delays."
+        },
+        {
+          "key": "C",
+          "text": "Demand the supplier cover all costs associated with the delay, including labor downtime, before taking any other mitigation steps.",
+          "is_correct": false,
+          "rationale": "Mitigation must begin immediately; contractual claims can be addressed in parallel."
+        },
+        {
+          "key": "D",
+          "text": "Conceal the delay from the project client and stakeholders while hoping the supplier can somehow expedite the delivery.",
+          "is_correct": false,
+          "rationale": "Lack of transparency erodes trust and prevents collaborative problem-solving."
+        },
+        {
+          "key": "E",
+          "text": "Instruct other trades to accelerate their work significantly, offering overtime pay to make up for the anticipated four-week gap.",
+          "is_correct": false,
+          "rationale": "Acceleration may not be possible and incurs high costs without a clear plan."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "A serious but non-fatal accident occurs on your site involving a worker from a subcontracting firm. What is your primary responsibility after ensuring medical care?",
+      "explanation": "After ensuring medical aid, the site manager must secure the scene to prevent further incidents and preserve evidence for investigation. This is critical for determining the root cause and fulfilling legal and regulatory reporting obligations.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Secure the incident area, preserve evidence, and immediately begin a formal investigation while ensuring all regulatory reporting requirements are met.",
+          "is_correct": true,
+          "rationale": "This follows standard safety protocol for incident investigation and reporting."
+        },
+        {
+          "key": "B",
+          "text": "Complete a brief internal report and instruct all workers to return to their tasks to minimize project disruption and maintain morale.",
+          "is_correct": false,
+          "rationale": "This neglects the need for a thorough investigation and root cause analysis."
+        },
+        {
+          "key": "C",
+          "text": "Contact your company's legal team first to understand liability before speaking with any workers or regulatory bodies about the incident.",
+          "is_correct": false,
+          "rationale": "While legal should be notified, securing the scene is the immediate priority."
+        },
+        {
+          "key": "D",
+          "text": "Allow the subcontractor to conduct their own internal investigation without your involvement to maintain clear lines of responsibility.",
+          "is_correct": false,
+          "rationale": "The principal contractor has an overriding responsibility for site safety."
+        },
+        {
+          "key": "E",
+          "text": "Blame the injured worker's lack of attention in the initial report to protect the company from potential fines and litigation.",
+          "is_correct": false,
+          "rationale": "This is unethical, unprofessional, and obstructs a proper safety investigation."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "You discover significant, un-surveyed ground contamination during excavation which was not included in the contract documents. What is your most critical initial action?",
+      "explanation": "The first priority is always safety and containment. Halting work prevents worker exposure and the spread of contaminants, which is a legal and ethical requirement before any commercial or programming discussions can begin.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately halt all excavation work in the affected area and secure it to prevent further disturbance or exposure.",
+          "is_correct": true,
+          "rationale": "This correctly prioritizes safety and containment, which is the immediate legal and procedural requirement."
+        },
+        {
+          "key": "B",
+          "text": "Instruct the groundworks subcontractor to continue working around the contaminated area to avoid delays to the project schedule.",
+          "is_correct": false,
+          "rationale": "This action is unsafe and could lead to the spread of contamination, creating greater liability."
+        },
+        {
+          "key": "C",
+          "text": "Contact your company's commercial department to immediately begin pricing the additional work for the client's approval.",
+          "is_correct": false,
+          "rationale": "Commercial considerations are secondary to immediate site safety and securing the hazardous area."
+        },
+        {
+          "key": "D",
+          "text": "Order the immediate removal of the contaminated soil using your existing waste management contractor to save time.",
+          "is_correct": false,
+          "rationale": "This is premature; specialist contractors and testing are required before removal can be planned or executed."
+        },
+        {
+          "key": "E",
+          "text": "Wait until the end of the day to report the issue to the project manager to gather more information first.",
+          "is_correct": false,
+          "rationale": "Delaying the report of a serious hazard is a major safety and communication failure."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Two critical subcontractors, the M&E and dry-lining teams, are in dispute over workspace access, causing significant project delays. How do you resolve this conflict?",
+      "explanation": "A collaborative approach is most effective. Facilitating a meeting allows both parties to voice concerns and agree on a practical, coordinated solution, fostering cooperation and getting the project back on track.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Arrange a joint meeting with both subcontractor supervisors on-site to re-sequence their work collaboratively and agree on a clear plan.",
+          "is_correct": true,
+          "rationale": "This proactive, collaborative approach directly addresses the issue and fosters a positive working relationship."
+        },
+        {
+          "key": "B",
+          "text": "Refer to their contracts and enforce the original schedule, threatening penalties if they do not comply with the programme.",
+          "is_correct": false,
+          "rationale": "This adversarial approach will likely worsen relationships and may not solve the practical on-site issue."
+        },
+        {
+          "key": "C",
+          "text": "Instruct the dry-lining team to work during the night shift to avoid any further clashes with the M&E team.",
+          "is_correct": false,
+          "rationale": "This imposes a solution without consultation and has significant cost and logistical implications."
+        },
+        {
+          "key": "D",
+          "text": "Tell the main client about the subcontractor dispute and ask them to make a decision on how to proceed.",
+          "is_correct": false,
+          "rationale": "This is an abdication of the site manager's responsibility to manage subcontractors and site logistics."
+        },
+        {
+          "key": "E",
+          "text": "Remove one of the subcontractors from the site and find a replacement to finish the remaining project work.",
+          "is_correct": false,
+          "rationale": "This is an extreme, costly, and time-consuming measure that should only be a last resort."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "The client issues a significant variation order for structural changes that will heavily impact the project's critical path. What is your primary responsibility?",
+      "explanation": "Proper contract administration is crucial. You must formally document the impact on cost and schedule and receive a formal instruction before starting work to protect your company commercially and avoid future disputes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Formally notify the client of the time and cost implications and await a written instruction before proceeding with any changes.",
+          "is_correct": true,
+          "rationale": "This follows correct contract procedure, protecting the contractor from undertaking unapproved work and cost."
+        },
+        {
+          "key": "B",
+          "text": "Immediately implement the changes as requested by the client to demonstrate a proactive and cooperative attitude.",
+          "is_correct": false,
+          "rationale": "Proceeding without a formal instruction exposes the company to significant financial risk."
+        },
+        {
+          "key": "C",
+          "text": "Refuse the variation order because it will cause significant disruption to the established project schedule and budget.",
+          "is_correct": false,
+          "rationale": "Refusing a client instruction outright is unprofessional; the correct process is to assess and report implications."
+        },
+        {
+          "key": "D",
+          "text": "Proceed with the changes but instruct the quantity surveyor to track all associated costs for later negotiation.",
+          "is_correct": false,
+          "rationale": "This is risky as it implies acceptance without prior agreement on cost and time extensions."
+        },
+        {
+          "key": "E",
+          "text": "Ask the site engineers to find a way to absorb the changes without altering the original project completion date.",
+          "is_correct": false,
+          "rationale": "This ignores the commercial implications and sets an unrealistic expectation for the project team."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Your company is implementing a new digital snagging tool, but experienced site operatives are resistant to using it. What is the best approach?",
+      "explanation": "The most effective way to manage change is through engagement and demonstrating value. Training and support help overcome resistance by showing operatives how the new tool makes their job easier and more efficient.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Arrange practical, on-site training sessions demonstrating the tool's benefits for their workflow and provide ongoing support.",
+          "is_correct": true,
+          "rationale": "This approach focuses on education, support, and demonstrating value, which is key to successful change management."
+        },
+        {
+          "key": "B",
+          "text": "Mandate the use of the new tool and state that any non-compliance will result in disciplinary action.",
+          "is_correct": false,
+          "rationale": "This authoritarian approach will likely increase resistance and damage team morale without addressing the core issues."
+        },
+        {
+          "key": "C",
+          "text": "Abandon the new digital tool and revert to the old paper-based system to keep the operatives happy.",
+          "is_correct": false,
+          "rationale": "This undermines company policy and misses an opportunity for process improvement and increased efficiency."
+        },
+        {
+          "key": "D",
+          "text": "Only require the younger, more tech-savvy members of the site team to use the new digital snagging tool.",
+          "is_correct": false,
+          "rationale": "This creates an inconsistent process and can cause division and resentment within the site team."
+        },
+        {
+          "key": "E",
+          "text": "Report the resistance to senior management and ask them to enforce the policy from a higher level.",
+          "is_correct": false,
+          "rationale": "This passes responsibility upwards instead of the site manager leading and managing their team directly."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Following a serious but non-fatal accident on site, what is your most critical responsibility after ensuring medical aid is provided?",
+      "explanation": "After ensuring the injured party is cared for, the legal and safety priority is to secure the scene to prevent further incidents and preserve it for investigation by both the company and the HSE.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Secure the incident area to preserve evidence and prevent further harm, then report it to the HSE as required.",
+          "is_correct": true,
+          "rationale": "This follows correct procedure by prioritizing safety, evidence preservation, and mandatory regulatory reporting."
+        },
+        {
+          "key": "B",
+          "text": "Immediately interview all witnesses to the accident to write a comprehensive report for the company's legal team.",
+          "is_correct": false,
+          "rationale": "Securing the scene must come first; witness interviews can take place once the area is safe."
+        },
+        {
+          "key": "C",
+          "text": "Restart work in all other areas of the construction site to minimize the project's overall downtime and delays.",
+          "is_correct": false,
+          "rationale": "Resuming work is inappropriate until the scene is secure and a risk assessment confirms it is safe."
+        },
+        {
+          "key": "D",
+          "text": "Contact the company's public relations department to prepare a statement before any news of the incident gets out.",
+          "is_correct": false,
+          "rationale": "External communication is a secondary concern to immediate on-site safety and regulatory compliance."
+        },
+        {
+          "key": "E",
+          "text": "Complete all the necessary insurance paperwork before the end of the day to ensure the claim is processed quickly.",
+          "is_correct": false,
+          "rationale": "Administrative tasks like paperwork are important but not as critical as securing the site and reporting."
+        }
+      ]
+    }
+  ]
+}

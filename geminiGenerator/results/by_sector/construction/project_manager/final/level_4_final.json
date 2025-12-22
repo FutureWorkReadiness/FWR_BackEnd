@@ -1,0 +1,744 @@
+{
+  "quiz_pool": [
+    {
+      "id": 1,
+      "question": "During pre-construction, the client requests a value engineering review to reduce costs. What is your most effective initial approach to lead this process?",
+      "explanation": "A collaborative workshop is the best approach. It leverages the entire team's expertise to find savings that preserve the project's quality, function, and long-term value, rather than just making superficial cuts.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately replace specified high-cost materials with cheaper alternatives to show the client some quick initial savings.",
+          "is_correct": false,
+          "rationale": "This is a hasty decision that ignores lifecycle costs and design intent."
+        },
+        {
+          "key": "B",
+          "text": "Assemble the project team to brainstorm cost-saving alternatives that maintain the original design intent and lifecycle value.",
+          "is_correct": true,
+          "rationale": "This collaborative approach ensures holistic and effective value engineering."
+        },
+        {
+          "key": "C",
+          "text": "Instruct the architect to redesign major building systems without consulting the rest of the project team members.",
+          "is_correct": false,
+          "rationale": "This siloed approach ignores constructability and subcontractor input."
+        },
+        {
+          "key": "D",
+          "text": "Tell the client that value engineering at this stage is too disruptive and will delay the project start date.",
+          "is_correct": false,
+          "rationale": "This is uncooperative and fails to address the client's valid request."
+        },
+        {
+          "key": "E",
+          "text": "Focus solely on reducing subcontractor bids across the board by a fixed percentage to meet the new target.",
+          "is_correct": false,
+          "rationale": "This method risks quality and can damage subcontractor relationships."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "A critical path subcontractor is significantly behind schedule due to their own poor management. What is your most appropriate first step to mitigate project impact?",
+      "explanation": "Formal communication and demanding a recovery plan is the correct contractual step. It documents the issue, holds the subcontractor accountable, and forces them to present a viable solution for mitigation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately terminate the subcontractor's contract and begin the formal process of finding a suitable replacement.",
+          "is_correct": false,
+          "rationale": "This is a drastic step that often causes even greater delays and costs."
+        },
+        {
+          "key": "B",
+          "text": "Issue a formal notice of default and demand a detailed recovery plan with accelerated scheduling measures.",
+          "is_correct": true,
+          "rationale": "This follows proper contractual procedure and pushes for a solution."
+        },
+        {
+          "key": "C",
+          "text": "Take over the subcontractor's work using your own direct labor force without any formal prior communication.",
+          "is_correct": false,
+          "rationale": "This is risky, likely violates the contract, and creates liability issues."
+        },
+        {
+          "key": "D",
+          "text": "Inform the client that the project completion date will be unavoidably delayed due to subcontractor issues.",
+          "is_correct": false,
+          "rationale": "This is a passive response and fails to show proactive problem-solving."
+        },
+        {
+          "key": "E",
+          "text": "Withhold all pending payments to the subcontractor until they have fully caught up with the schedule.",
+          "is_correct": false,
+          "rationale": "This may breach the contract and worsen the situation by causing financial distress."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "The client submits a major change order that will extend the critical path and increase project costs. What is your primary responsibility before proceeding?",
+      "explanation": "A project manager's primary duty is to ensure the client makes informed decisions. This requires a formal change order analysis detailing all cost, schedule, and quality impacts before obtaining written approval.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Proceed with the change immediately to keep the client happy and figure out the cost implications later on.",
+          "is_correct": false,
+          "rationale": "This is financially irresponsible and circumvents proper change management."
+        },
+        {
+          "key": "B",
+          "text": "Refuse the change order because it negatively impacts the established project schedule and budget baseline.",
+          "is_correct": false,
+          "rationale": "This is uncooperative and does not serve the client's evolving needs."
+        },
+        {
+          "key": "C",
+          "text": "Formally document and present the full cost and schedule implications of the change for client approval.",
+          "is_correct": true,
+          "rationale": "This ensures the client makes an informed decision based on full transparency."
+        },
+        {
+          "key": "D",
+          "text": "Ask the design team to find a way to absorb the change without any impact on the project's timeline.",
+          "is_correct": false,
+          "rationale": "This is often unrealistic and unfairly shifts responsibility to the design team."
+        },
+        {
+          "key": "E",
+          "text": "Implement the change but only bill for the direct material costs, absorbing the labor and time impact.",
+          "is_correct": false,
+          "rationale": "This is poor business practice and erodes project profitability."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "During excavation, your team discovers suspected asbestos-containing materials not identified in the initial survey. What is your immediate and most critical action?",
+      "explanation": "Safety is the absolute priority. Halting work, securing the area, and initiating formal notification protocols are mandatory first steps to protect workers and comply with health, safety, and environmental regulations.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Continue excavation in other areas of the site while waiting for an expert to arrive for assessment.",
+          "is_correct": false,
+          "rationale": "This is unsafe as it risks cross-contamination and disturbance of materials."
+        },
+        {
+          "key": "B",
+          "text": "Immediately halt all work in the affected area, secure the location, and notify all relevant stakeholders.",
+          "is_correct": true,
+          "rationale": "This prioritizes safety and follows standard procedure for hazardous materials."
+        },
+        {
+          "key": "C",
+          "text": "Have your site foreman attempt to remove and dispose of the material to avoid project delays.",
+          "is_correct": false,
+          "rationale": "This is illegal, extremely dangerous, and requires licensed professionals."
+        },
+        {
+          "key": "D",
+          "text": "Document the finding in the daily log but allow work to proceed with enhanced personal protective equipment.",
+          "is_correct": false,
+          "rationale": "This is an inadequate safety measure and violates regulations."
+        },
+        {
+          "key": "E",
+          "text": "Contact your legal team first to understand the contractual liability before taking any action on the site.",
+          "is_correct": false,
+          "rationale": "This delays the critical safety response; safety actions must come first."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "A key supplier is threatening to halt deliveries due to a dispute over payment terms for previously delivered materials. What is your best course of action?",
+      "explanation": "Resolving disputes requires a professional, fact-based approach. Reviewing the contract and meeting with the supplier is the most effective way to understand the issue and negotiate a mutually agreeable solution.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately find an alternative supplier for the materials and cancel the existing purchase order without discussion.",
+          "is_correct": false,
+          "rationale": "This escalates the conflict and will likely cause significant project delays."
+        },
+        {
+          "key": "B",
+          "text": "Pay the disputed amount immediately to ensure materials arrive, planning to argue about it at a later date.",
+          "is_correct": false,
+          "rationale": "This sets a bad precedent and weakens your future negotiating position."
+        },
+        {
+          "key": "C",
+          "text": "Review the contract's payment terms and purchase orders, then schedule a meeting to resolve the discrepancy.",
+          "is_correct": true,
+          "rationale": "This is a professional, fact-based approach to conflict resolution."
+        },
+        {
+          "key": "D",
+          "text": "Inform the supplier that you will pursue legal action if they do not resume their deliveries immediately.",
+          "is_correct": false,
+          "rationale": "This is an overly aggressive tactic that will damage the relationship."
+        },
+        {
+          "key": "E",
+          "text": "Ask the general contractor to pay the supplier directly from the project funds to bypass the issue.",
+          "is_correct": false,
+          "rationale": "This circumvents the proper payment process and creates accounting issues."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "A major subcontractor submits a substantial claim for delay and disruption, citing issues with site access. What is your initial strategic action?",
+      "explanation": "The first step is always a thorough, objective review of all project documentation to understand the merits of the claim. This fact-finding mission informs all subsequent strategic decisions, negotiations, and potential escalations.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately reject the claim based on the subcontractor's contractual obligation to coordinate with other trades on the site.",
+          "is_correct": false,
+          "rationale": "Rejecting without a thorough review is unprofessional and contractually risky."
+        },
+        {
+          "key": "B",
+          "text": "Engage a third-party claims consultant to analyze the submission before taking any internal action or communicating with the subcontractor.",
+          "is_correct": false,
+          "rationale": "A consultant may be needed later, but a proper internal review must come first."
+        },
+        {
+          "key": "C",
+          "text": "Review all contract documents, daily reports, and correspondence to validate the claim's basis before scheduling a formal meeting.",
+          "is_correct": true,
+          "rationale": "A thorough internal review of all documentation is the correct and prudent first step."
+        },
+        {
+          "key": "D",
+          "text": "Pay a portion of the claim as a goodwill gesture to maintain the relationship and avoid potential project delays.",
+          "is_correct": false,
+          "rationale": "Paying without validation sets a dangerous precedent and is financially irresponsible."
+        },
+        {
+          "key": "E",
+          "text": "Escalate the issue directly to senior management and legal counsel, recommending immediate formal dispute resolution proceedings are initiated.",
+          "is_correct": false,
+          "rationale": "Escalation is premature before a proper internal assessment of the claim's validity."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "During the late construction phase, the client suggests a significant value engineering change to the HVAC system. What is your primary consideration?",
+      "explanation": "At a late stage, the most significant risk is the impact on the critical path and overall schedule. Delays from redesign, procurement, and rework can easily negate any potential cost savings from the change.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The potential cost savings for the client, as this is the main driver for any value engineering proposal.",
+          "is_correct": false,
+          "rationale": "Cost is important, but schedule impact is the primary risk late in the project."
+        },
+        {
+          "key": "B",
+          "text": "The impact on the project's final completion date, including procurement lead times and rework for the new system.",
+          "is_correct": true,
+          "rationale": "Late-stage changes pose the greatest risk to the project schedule and completion date."
+        },
+        {
+          "key": "C",
+          "text": "How the change will affect the morale of the mechanical subcontractor who has already procured the original equipment.",
+          "is_correct": false,
+          "rationale": "Subcontractor morale is a factor, but the overall project schedule is the primary concern."
+        },
+        {
+          "key": "D",
+          "text": "The immediate availability of your design team to quickly redesign the system and produce new construction drawings.",
+          "is_correct": false,
+          "rationale": "Design team availability is a logistical issue, but schedule impact is the strategic risk."
+        },
+        {
+          "key": "E",
+          "text": "Whether the proposed change will improve the building's overall aesthetic appeal more than the originally specified system.",
+          "is_correct": false,
+          "rationale": "Aesthetics are secondary to schedule and cost implications at this late project stage."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Your project encounters unforeseen poor ground conditions not in the geotechnical report, threatening foundation works. What is the most critical immediate action?",
+      "explanation": "The first priority is to stop work in the affected area to ensure safety and prevent abortive work. Concurrently, formally notifying the client is crucial for contractual compliance regarding time and cost implications.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Halt all foundation work immediately and issue a formal notice of a potential delay and cost event to the client.",
+          "is_correct": true,
+          "rationale": "Stopping work ensures safety, and contractual notification protects commercial interests."
+        },
+        {
+          "key": "B",
+          "text": "Instruct the contractor to proceed with over-excavation and soil replacement while awaiting a formal engineering solution.",
+          "is_correct": false,
+          "rationale": "Proceeding without an engineered solution is unsafe and creates significant liability."
+        },
+        {
+          "key": "C",
+          "text": "Immediately contact the original geotechnical engineer and demand they provide a revised report and solution at their own cost.",
+          "is_correct": false,
+          "rationale": "Contacting the engineer is necessary, but the immediate site action is more critical."
+        },
+        {
+          "key": "D",
+          "text": "Research alternative foundation systems that might be more suitable for the newly discovered conditions without stopping current work.",
+          "is_correct": false,
+          "rationale": "Research is needed, but work must be halted first to assess the situation safely."
+        },
+        {
+          "key": "E",
+          "text": "Continue with the planned foundation work but document the issue in daily reports for a potential future claim.",
+          "is_correct": false,
+          "rationale": "Continuing work is unsafe and contractually unsound once a major issue is known."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "A key client stakeholder consistently submits minor but frequent change requests, disrupting workflow. How should you best manage this situation?",
+      "explanation": "Batching change requests creates a structured, predictable process. It allows the team to assess cumulative impacts on cost and schedule, reduces administrative churn, and manages client expectations without creating a confrontational relationship.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Refuse any further changes by citing the project's change management clause and the significant risk to the schedule.",
+          "is_correct": false,
+          "rationale": "An outright refusal can damage the client relationship and may be contractually difficult."
+        },
+        {
+          "key": "B",
+          "text": "Implement a formal process requiring changes to be batched and submitted on a bi-weekly basis for review and approval.",
+          "is_correct": true,
+          "rationale": "Batching changes creates an efficient process and manages disruption effectively."
+        },
+        {
+          "key": "C",
+          "text": "Assign a dedicated junior team member to handle all minor change requests to avoid distracting the core project team.",
+          "is_correct": false,
+          "rationale": "This doesn't solve the root problem of workflow disruption for the wider team."
+        },
+        {
+          "key": "D",
+          "text": "Continue to process each change as it arrives to maintain a positive client relationship, absorbing the administrative overhead.",
+          "is_correct": false,
+          "rationale": "This is unsustainable and will lead to scope creep and schedule delays."
+        },
+        {
+          "key": "E",
+          "text": "Inform the stakeholder that each change will now incur a significant administrative fee to discourage frivolous requests.",
+          "is_correct": false,
+          "rationale": "This is punitive and will likely harm the client relationship unnecessarily."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "When preparing for project handover, what is the most crucial element to ensure a smooth transition to the client's facilities management team?",
+      "explanation": "Proactive and thorough training empowers the end-users to operate the building's systems correctly from day one. This minimizes post-handover issues, reduces call-backs, and is critical for a successful operational start-up.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Providing a complete set of as-built drawings and specifications at the final handover meeting on the last day.",
+          "is_correct": false,
+          "rationale": "Providing documents on the last day is too late for a smooth transition."
+        },
+        {
+          "key": "B",
+          "text": "Ensuring all final payments to subcontractors have been processed and all financial accounts for the project are closed.",
+          "is_correct": false,
+          "rationale": "Financial closeout is an internal PM task, not key to client operational readiness."
+        },
+        {
+          "key": "C",
+          "text": "Conducting comprehensive, hands-on training sessions for the client's team on all major systems well before practical completion.",
+          "is_correct": true,
+          "rationale": "Early, comprehensive training is vital for the client's team to operate the facility."
+        },
+        {
+          "key": "D",
+          "text": "Compiling a detailed list of all warranties and guarantees from suppliers and subcontractors for the client's records.",
+          "is_correct": false,
+          "rationale": "Warranties are important documents, but training on systems is more critical for operations."
+        },
+        {
+          "key": "E",
+          "text": "Organizing a celebratory event for the project team and stakeholders to formally mark the successful completion of the project.",
+          "is_correct": false,
+          "rationale": "A celebration is good for morale but does not contribute to the operational transition."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "How should a project manager most effectively lead a value engineering workshop during the pre-construction phase of a complex project?",
+      "explanation": "A successful value engineering workshop requires a collaborative, multi-disciplinary approach focused on maintaining essential project functions while reducing costs. This makes facilitation of a collaborative session the most effective leadership strategy.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Facilitate a collaborative session with designers, contractors, and the client to identify cost-saving alternatives without sacrificing essential project functions.",
+          "is_correct": true,
+          "rationale": "VE is a collaborative process focused on function and cost, not just arbitrary cuts or material swaps."
+        },
+        {
+          "key": "B",
+          "text": "Mandate a flat percentage cost reduction across all design disciplines to meet the project budget targets as quickly as possible.",
+          "is_correct": false,
+          "rationale": "This is an arbitrary approach that ignores function and can negatively impact quality and design intent."
+        },
+        {
+          "key": "C",
+          "text": "Focus exclusively on substituting specified materials with cheaper alternatives available from preferred suppliers to reduce overall procurement costs.",
+          "is_correct": false,
+          "rationale": "This approach is too narrow, ignoring functional analysis and other potential areas for value improvement."
+        },
+        {
+          "key": "D",
+          "text": "Postpone all value engineering discussions until the construction phase begins to analyze actual site conditions and subcontractor bids.",
+          "is_correct": false,
+          "rationale": "Value engineering is most effective and least disruptive when performed early in the pre-construction phase."
+        },
+        {
+          "key": "E",
+          "text": "Instruct the design team to independently revise their plans to reduce costs before presenting them to the client for final approval.",
+          "is_correct": false,
+          "rationale": "This lacks the crucial collaborative input from contractors and the client, which is central to successful VE."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "A critical path subcontractor is significantly behind schedule, threatening the project's completion date. What is the most appropriate initial action?",
+      "explanation": "The correct initial action involves formal communication, demanding a recovery plan, and documenting all issues. This protects the project contractually and pushes the subcontractor to resolve the issue before more drastic measures are taken.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately terminate the subcontractor's contract and begin the process of sourcing a replacement firm to take over the work.",
+          "is_correct": false,
+          "rationale": "Termination is a last resort and too drastic for an initial action without following proper contractual steps."
+        },
+        {
+          "key": "B",
+          "text": "Issue a formal notice of default and demand an immediate recovery plan, while documenting all delays and associated costs.",
+          "is_correct": true,
+          "rationale": "Formal notice and demanding a recovery plan is the correct first contractual step to address subcontractor delays."
+        },
+        {
+          "key": "C",
+          "text": "Authorize unlimited overtime for the subcontractor's crew to accelerate their work, absorbing the additional costs into the project contingency.",
+          "is_correct": false,
+          "rationale": "This is financially risky and cedes control without a formal recovery plan or contractual basis."
+        },
+        {
+          "key": "D",
+          "text": "Re-sequence the entire project schedule to work around the delayed activities, accepting the later completion date as unavoidable.",
+          "is_correct": false,
+          "rationale": "This is a passive approach that fails to hold the subcontractor accountable for their performance."
+        },
+        {
+          "key": "E",
+          "text": "Report the issue to the client and request a formal extension of time without first attempting to mitigate the delay.",
+          "is_correct": false,
+          "rationale": "This shifts blame to the client without demonstrating proactive management and mitigation efforts."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "When a client requests a significant design change mid-construction, what is the project manager's most crucial responsibility before proceeding?",
+      "explanation": "Before implementing any significant change, the project manager must formally document the full impacts on cost, schedule, and scope in a change order for client review and formal written approval. This protects all parties.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately instruct the site team to begin implementing the requested change to demonstrate responsiveness and maintain client satisfaction.",
+          "is_correct": false,
+          "rationale": "This bypasses critical cost and schedule analysis, creating significant financial and contractual risk for the project."
+        },
+        {
+          "key": "B",
+          "text": "Prepare and submit a detailed change order request that clearly outlines the full impact on project cost, schedule, and scope.",
+          "is_correct": true,
+          "rationale": "A formal change order quantifying all impacts is essential before proceeding with any client-requested change."
+        },
+        {
+          "key": "C",
+          "text": "Obtain verbal approval from the client's representative on-site to expedite the process and avoid any potential project delays.",
+          "is_correct": false,
+          "rationale": "Verbal approvals are insufficient for significant changes and can lead to disputes over cost and time."
+        },
+        {
+          "key": "D",
+          "text": "Ask the lead architect to assess the feasibility of the change without considering any potential cost or schedule implications.",
+          "is_correct": false,
+          "rationale": "A feasibility assessment is incomplete and irresponsible without analyzing the impacts on core project constraints."
+        },
+        {
+          "key": "E",
+          "text": "Defer the change request until the end of the project to be bundled with other minor adjustments and punch list items.",
+          "is_correct": false,
+          "rationale": "Deferring a significant change is often impractical and can lead to greater disruption and cost later."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "During excavation, your team discovers unforeseen contaminated soil not identified in the geotechnical report. What is your most critical immediate action?",
+      "explanation": "The primary responsibility when encountering potential hazardous materials is to ensure safety and compliance. This involves immediately stopping work, securing the area, and notifying all required parties, including the client and regulatory bodies.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Continue excavation in other areas of the site while waiting for an environmental consultant's report to avoid schedule delays.",
+          "is_correct": false,
+          "rationale": "This is unsafe as it could disturb or spread contamination and violates safety protocols."
+        },
+        {
+          "key": "B",
+          "text": "Halt all work in the affected area, secure the site, and immediately notify the client and relevant environmental regulatory agencies.",
+          "is_correct": true,
+          "rationale": "Safety and regulatory compliance are paramount. Halting work and notifying stakeholders is the correct immediate response."
+        },
+        {
+          "key": "C",
+          "text": "Instruct the excavation subcontractor to remove and dispose of the contaminated soil using their standard disposal methods to save time.",
+          "is_correct": false,
+          "rationale": "This action likely violates environmental regulations and creates significant legal and financial liability."
+        },
+        {
+          "key": "D",
+          "text": "Document the discovery in the daily log but proceed with foundation work as planned, assuming the issue is minor.",
+          "is_correct": false,
+          "rationale": "This is negligent, ignores a major health and safety risk, and violates due diligence requirements."
+        },
+        {
+          "key": "E",
+          "text": "Request additional budget from the client to cover remediation without first stopping work or assessing the full extent of the issue.",
+          "is_correct": false,
+          "rationale": "This bypasses critical safety and assessment steps; the scope and cost are currently unknown."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Which financial metric is most indicative of a project's current cost efficiency and its performance against the approved budget?",
+      "explanation": "The Cost Performance Index (CPI), part of Earned Value Management, directly measures cost efficiency. A CPI greater than 1 indicates favorable performance (under budget), while less than 1 indicates an overrun.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The total value of invoices received from all subcontractors and suppliers to date, regardless of their current payment status.",
+          "is_correct": false,
+          "rationale": "This represents incurred liabilities (accounts payable) but does not measure performance against work completed."
+        },
+        {
+          "key": "B",
+          "text": "The percentage of the total project contingency fund that has been spent on unforeseen issues and various change orders.",
+          "is_correct": false,
+          "rationale": "This is an important indicator of risk realization but not a comprehensive measure of overall cost efficiency."
+        },
+        {
+          "key": "C",
+          "text": "The Cost Performance Index (CPI), calculated by dividing the Earned Value (EV) by the Actual Cost (AC).",
+          "is_correct": true,
+          "rationale": "CPI is the standard industry metric specifically designed to measure a project's cost efficiency against the budget."
+        },
+        {
+          "key": "D",
+          "text": "The total amount of committed costs, which includes all signed subcontracts and purchase orders for the entire project scope.",
+          "is_correct": false,
+          "rationale": "Committed costs show future obligations but do not reflect the efficiency of work performed to date."
+        },
+        {
+          "key": "E",
+          "text": "The project's cash flow projection, which forecasts the timing of future payments against anticipated revenue from the client.",
+          "is_correct": false,
+          "rationale": "Cash flow analysis is critical for financial liquidity but does not directly measure cost performance efficiency."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "A key subcontractor claims significant scope creep not covered by the original contract. What is the most appropriate initial step to resolve this dispute formally?",
+      "explanation": "The Request for Information (RFI) process is the standard, formal first step to document and clarify discrepancies between executed work and contract specifications, providing a basis for any subsequent change orders or dispute resolution.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Issue a formal Request for Information to clarify the disputed work against the contract documents before escalating the issue.",
+          "is_correct": true,
+          "rationale": "An RFI is the correct initial formal step for contractual clarification."
+        },
+        {
+          "key": "B",
+          "text": "Immediately halt all payments to the subcontractor until they agree to perform the work under the original contract terms.",
+          "is_correct": false,
+          "rationale": "This is overly aggressive and can lead to legal action."
+        },
+        {
+          "key": "C",
+          "text": "Engage legal counsel to initiate arbitration without first attempting any form of direct negotiation or formal clarification.",
+          "is_correct": false,
+          "rationale": "Arbitration is a later step, not the initial action."
+        },
+        {
+          "key": "D",
+          "text": "Verbally agree to a change order with the subcontractor on-site to maintain the project schedule without formal documentation.",
+          "is_correct": false,
+          "rationale": "Verbal agreements without documentation are a major project risk."
+        },
+        {
+          "key": "E",
+          "text": "Instruct other on-site teams to take over the disputed work, deferring the contractual issue until project completion.",
+          "is_correct": false,
+          "rationale": "This action complicates the dispute and creates further risk."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Your project has a Schedule Performance Index (SPI) of 0.85 and a Cost Performance Index (CPI) of 1.1. What does this data indicate?",
+      "explanation": "An SPI less than 1.0 indicates the project is behind schedule. A CPI greater than 1.0 indicates the project is under budget for the work performed. This combination shows schedule delays but efficient cost management.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The project is currently behind schedule but is also significantly over the allocated budget for the work completed so far.",
+          "is_correct": false,
+          "rationale": "This incorrectly interprets the CPI value of 1.1."
+        },
+        {
+          "key": "B",
+          "text": "The project is progressing ahead of the planned schedule and is also performing well under the projected budget.",
+          "is_correct": false,
+          "rationale": "This incorrectly interprets the SPI value of 0.85."
+        },
+        {
+          "key": "C",
+          "text": "The project is currently behind the planned schedule but is performing under budget for the work that has been completed.",
+          "is_correct": true,
+          "rationale": "Correctly interprets SPI < 1 (behind schedule) and CPI > 1 (under budget)."
+        },
+        {
+          "key": "D",
+          "text": "The project is exactly on schedule according to the baseline plan but is unfortunately trending over the approved budget.",
+          "is_correct": false,
+          "rationale": "This incorrectly interprets both the SPI and CPI values."
+        },
+        {
+          "key": "E",
+          "text": "The project's schedule and cost performance cannot be determined without knowing the project's planned value and actual cost.",
+          "is_correct": false,
+          "rationale": "SPI and CPI are ratios that directly indicate performance."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "During excavation, your team discovers significant historical artifacts, triggering a mandatory stop-work order from a state agency. What is your primary immediate action?",
+      "explanation": "The first priority is compliance and communication. Securing the site, notifying stakeholders, and activating the pre-approved contingency plan ensures a structured, professional response that protects the project and the company from liability.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately contest the stop-work order with legal counsel to minimize the impact on the project's critical path activities.",
+          "is_correct": false,
+          "rationale": "Contesting the order before understanding the situation is premature."
+        },
+        {
+          "key": "B",
+          "text": "Secure the site as directed, notify all key stakeholders, and formally invoke the relevant contingency plan for unforeseen conditions.",
+          "is_correct": true,
+          "rationale": "This is the correct, compliant, and systematic response."
+        },
+        {
+          "key": "C",
+          "text": "Continue non-excavation work in other areas of the site to show progress while waiting for the agency's assessment.",
+          "is_correct": false,
+          "rationale": "This may violate the terms of the stop-work order."
+        },
+        {
+          "key": "D",
+          "text": "Attempt to negotiate a quick resolution directly with the on-site agency representative to get a partial lifting of the order.",
+          "is_correct": false,
+          "rationale": "Informal negotiation may undermine the formal process required."
+        },
+        {
+          "key": "E",
+          "text": "Re-allocate the excavation crew to another project to reduce labor costs while the stop-work order is being investigated.",
+          "is_correct": false,
+          "rationale": "This is a secondary action, not the primary response."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "A major client is consistently requesting design changes late in the construction phase, threatening the project timeline and budget. What is the most effective strategy?",
+      "explanation": "A formal change order process provides transparency and accountability. It allows the client to make informed decisions by clearly presenting the consequences of their requests on the project's budget and schedule, protecting all parties.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Refuse all further change requests from the client, citing the signed contract and the potential for significant project delays.",
+          "is_correct": false,
+          "rationale": "Outright refusal can damage the client relationship."
+        },
+        {
+          "key": "B",
+          "text": "Implement a formal change order process that clearly documents the cost and schedule impact of each requested change for client approval.",
+          "is_correct": true,
+          "rationale": "This provides a structured and transparent way to manage changes."
+        },
+        {
+          "key": "C",
+          "text": "Accommodate all the client's requests without formal documentation to maintain a positive relationship and secure future business.",
+          "is_correct": false,
+          "rationale": "This introduces significant unmanaged risk to the project."
+        },
+        {
+          "key": "D",
+          "text": "Escalate the issue directly to your company's senior management, asking them to intervene and speak with the client's leadership.",
+          "is_correct": false,
+          "rationale": "Escalation should occur only after direct methods fail."
+        },
+        {
+          "key": "E",
+          "text": "Proceed with the requested changes but absorb the additional costs internally to avoid difficult conversations with the demanding client.",
+          "is_correct": false,
+          "rationale": "Absorbing costs negatively impacts project profitability and sets a bad precedent."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "When implementing a Level 2 BIM mandate on a complex project, what is the project manager's most critical responsibility during the pre-construction phase?",
+      "explanation": "The BIM Execution Plan (BEP) is the foundational document for successful BIM implementation. The PM must lead its collaborative development to align all parties on goals, processes, and standards before any modeling work begins.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Personally creating all the 3D models for the architectural, structural, and MEP disciplines to ensure they are fully integrated.",
+          "is_correct": false,
+          "rationale": "This is a technical task for designers, not the PM's role."
+        },
+        {
+          "key": "B",
+          "text": "Ensuring the BIM Execution Plan is developed collaboratively, clearly defining roles, standards, and deliverables for all project stakeholders.",
+          "is_correct": true,
+          "rationale": "The BEP is the strategic document the PM must oversee."
+        },
+        {
+          "key": "C",
+          "text": "Selecting the most expensive BIM software available on the market to guarantee the highest quality output for the project.",
+          "is_correct": false,
+          "rationale": "Cost does not equal suitability; interoperability is more important."
+        },
+        {
+          "key": "D",
+          "text": "Focusing solely on the 4D and 5D aspects of BIM, leaving the 3D modeling coordination to the design team.",
+          "is_correct": false,
+          "rationale": "The PM must oversee all aspects of BIM integration."
+        },
+        {
+          "key": "E",
+          "text": "Mandating that all subcontractors use the same specific software version, regardless of their existing systems or prior experience.",
+          "is_correct": false,
+          "rationale": "This is too rigid and ignores interoperability standards like IFC."
+        }
+      ]
+    }
+  ]
+}
